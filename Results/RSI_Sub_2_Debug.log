@@ -1864,3 +1864,9 @@
 2025-08-27 12:00:17,017 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/position/list?category=linear&symbol=ETHUSDT HTTP/1.1" 200 966
 2025-08-27 12:00:17,510 - DEBUG - https://api-demo.bybit.com:443 "POST /v5/order/create HTTP/1.1" 200 141
 2025-08-27 12:00:19,991 - DEBUG - https://api-demo.bybit.com:443 "POST /v5/position/trading-stop HTTP/1.1" 200 76
+2025-08-27 12:10:10,998 - DEBUG - Initializing HTTP session.
+2025-08-27 12:10:11,000 - DEBUG - Starting new HTTPS connection (1): api-demo.bybit.com:443
+2025-08-27 12:10:12,256 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/position/list?category=linear&symbol=ETHUSDT HTTP/1.1" 200 967
+2025-08-27 12:10:12,583 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 None
+2025-08-27 12:10:12,916 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=240&limit=400&symbol=ETHUSDT HTTP/1.1" 200 None
+2025-08-27 12:10:13,283 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/position/list?category=linear&symbol=ETHUSDT HTTP/1.1" 200 967
