@@ -706,3 +706,50 @@ Adjusted qty: 780.7
 6020.0
 Position already open.
 Function finished at 29.08.2025 22:30:39
+Number of open positions: 7
+***************************************************************
+Function started at 29.08.2025 22:40:16
+
+SYMBOL     |   ΔRSI
+-------------------
+MNTUSDT    | -15.82
+Last close price for MNTUSDT: 1.1223
+Opening Sell for  MNTUSDT
+TP: 1.111077
+SL: 1.144746
+TS: 0.022446
+Order Quantity: 8910.27
+Adjusted qty: 8910.0
+71000.0
+Position already open.
+INJUSDT    | -13.66
+Last close price for INJUSDT: 12.772
+Opening Sell for  INJUSDT
+TP: 12.64428
+SL: 13.02744
+TS: 0.25544
+Order Quantity: 782.96
+Adjusted qty: 783.0
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c9e2217b-ce19-4dfe-8b8a-68bb877a0d68', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756492840005}
+c9e2217b-ce19-4dfe-8b8a-68bb877a0d68
+fetching trade data for :  c9e2217b-ce19-4dfe-8b8a-68bb877a0d68
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c9e2217b-ce19-4dfe-8b8a-68bb877a0d68', 'stopOrderType': 'UNKNOWN', 'execTime': '1756492840004', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '12.772', 'execPrice': '12.772', 'markIv': '', 'orderQty': '783', 'orderPrice': '12.134', 'execValue': '10000.476', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710478632607, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5002618', 'execId': '52b52dab-c2ab-4c59-81e2-7f055c530aa8', 'marketUnit': '', 'execQty': '783', 'extraFees': ''}]
+Trades inserted successfully.
+None
+KASUSDT    | -12.91
+Last close price for KASUSDT: 0.08352
+Opening Sell for  KASUSDT
+TP: 0.0826848
+SL: 0.0851904
+TS: 0.0016703999999999998
+Order Quantity: 119731.8
+Adjusted qty: 119730.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd7400434-d5ef-46d1-b043-ebef8a5939c3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756492852584}
+d7400434-d5ef-46d1-b043-ebef8a5939c3
+fetching trade data for :  d7400434-d5ef-46d1-b043-ebef8a5939c3
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd7400434-d5ef-46d1-b043-ebef8a5939c3', 'stopOrderType': 'UNKNOWN', 'execTime': '1756492852583', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08352', 'execPrice': '0.08352', 'markIv': '', 'orderQty': '119730', 'orderPrice': '0.071', 'execValue': '9999.8496', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710478633012, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991728', 'execId': 'edafe02e-84c9-45e4-be84-b8166fc72b81', 'marketUnit': '', 'execQty': '119730', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 29.08.2025 22:41:03
