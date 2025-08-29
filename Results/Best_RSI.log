@@ -559,3 +559,35 @@ TS: 0.25828
 Order Quantity: 774.35
 Adjusted qty: 774.4000000000001
 6020.0
+Number of open positions: 8
+***************************************************************
+Function started at 29.08.2025 21:40:16
+
+SYMBOL     |   ΔRSI
+-------------------
+MNTUSDT    | -15.89
+Last close price for MNTUSDT: 1.1213
+Opening Sell for  MNTUSDT
+TP: 1.110087
+SL: 1.143726
+TS: 0.022425999999999998
+Order Quantity: 8918.22
+Adjusted qty: 8918.0
+71000.0
+Position already open.
+INJUSDT    | -12.36
+Last close price for INJUSDT: 12.883
+Opening Sell for  INJUSDT
+TP: 12.754169999999998
+SL: 13.140659999999999
+TS: 0.25766
+Order Quantity: 776.22
+Adjusted qty: 776.2
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '16496a22-8d41-43e2-a880-614de828f365', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756489243304}
+16496a22-8d41-43e2-a880-614de828f365
+fetching trade data for :  16496a22-8d41-43e2-a880-614de828f365
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '16496a22-8d41-43e2-a880-614de828f365', 'stopOrderType': 'UNKNOWN', 'execTime': '1756489243304', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '12.883', 'execPrice': '12.883', 'markIv': '', 'orderQty': '776.2', 'orderPrice': '12.239', 'execValue': '9999.7846', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710478521707, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988153', 'execId': '33beb267-ed4b-4307-896b-947038fdbc9c', 'marketUnit': '', 'execQty': '776.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 29.08.2025 21:40:52
