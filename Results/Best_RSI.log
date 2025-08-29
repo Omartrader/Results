@@ -1156,3 +1156,35 @@ fetching trade data for :  ac60e7a1-ca1e-47af-bcfc-1bfc1d2326e8
 Trades inserted successfully.
 None
 Function finished at 30.08.2025 01:31:01
+Number of open positions: 8
+***************************************************************
+Function started at 30.08.2025 01:40:24
+
+SYMBOL     |   ΔRSI
+-------------------
+USD1USDT   |  -9.81
+Last close price for USD1USDT: 0.9995
+Opening Sell for  USD1USDT
+TP: 0.9895050000000001
+SL: 1.01949
+TS: 0.01999
+Order Quantity: 10005.0
+Adjusted qty: 10005.0
+25000.0
+Position already open.
+FLRUSDT    |  -8.12
+Last close price for FLRUSDT: 0.02081
+Opening Sell for  FLRUSDT
+TP: 0.0206019
+SL: 0.0212262
+TS: 0.0004162
+Order Quantity: 480538.2
+Adjusted qty: 480540.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7f6df260-5740-409f-bfbb-b072768fb46d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756503648716}
+7f6df260-5740-409f-bfbb-b072768fb46d
+fetching trade data for :  7f6df260-5740-409f-bfbb-b072768fb46d
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7f6df260-5740-409f-bfbb-b072768fb46d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756503648715', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02085', 'execPrice': '0.02081', 'markIv': '', 'orderQty': '480540', 'orderPrice': '0.01668', 'execValue': '10000.0374', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710478961575, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50002057', 'execId': '0b53c445-758d-4624-8366-e55e06f9d9d5', 'marketUnit': '', 'execQty': '480540', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 30.08.2025 01:40:58
