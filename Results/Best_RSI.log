@@ -2510,3 +2510,48 @@ fetching trade data for :  0cc66620-dee0-4360-bbe2-7c321d46912b
 Trades inserted successfully.
 None
 Function finished at 30.08.2025 11:31:07
+***************************************************************
+Number of open positions: 7
+Function started at 30.08.2025 11:40:12
+
+SYMBOL     |   ΔRSI
+-------------------
+FORMUSDT   |  22.78
+Last close price for FORMUSDT: 3.7865
+Opening Buy for  FORMUSDT
+TP: 3.8243650000000002
+SL: 3.71077
+TS: 0.07573
+Order Quantity: 2640.96
+Adjusted qty: 2641.0
+Final Adjusted qty: 2640.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0f3ac3ec-ba93-45a8-bb7d-2b707d0f8845', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756539643472}
+0f3ac3ec-ba93-45a8-bb7d-2b707d0f8845
+fetching trade data for :  0f3ac3ec-ba93-45a8-bb7d-2b707d0f8845
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0f3ac3ec-ba93-45a8-bb7d-2b707d0f8845', 'stopOrderType': 'UNKNOWN', 'execTime': '1756539643472', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.788', 'execPrice': '3.788', 'markIv': '', 'orderQty': '2640', 'orderPrice': '4.3562', 'execValue': '10000.32', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710480056486, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.500176', 'execId': '23902cdc-2234-4724-82f5-4e0ce4bf3b69', 'marketUnit': '', 'execQty': '2640', 'extraFees': ''}]
+Trades inserted successfully.
+None
+MNTUSDT    |  13.52
+Last close price for MNTUSDT: 1.1844
+Opening Buy for  MNTUSDT
+TP: 1.1962439999999999
+SL: 1.160712
+TS: 0.023687999999999997
+Order Quantity: 8443.09
+Adjusted qty: 8443.0
+Final Adjusted qty: 8443.0
+71000.0
+Position already open.
+OPUSDT     |  11.51
+Last close price for OPUSDT: 0.7176
+Opening Buy for  OPUSDT
+TP: 0.724776
+SL: 0.703248
+TS: 0.014352
+Order Quantity: 13935.34
+Adjusted qty: 13935.300000000001
+Final Adjusted qty: 13935.3
+84130.0
+Position already open.
+Function finished at 30.08.2025 11:40:57
