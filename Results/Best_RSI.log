@@ -1637,3 +1637,40 @@ TS: 0.08892
 Order Quantity: 2249.21
 Adjusted qty: 2249.2000000000003
 22100.0
+Number of open positions: 8
+***************************************************************
+Function started at 30.08.2025 04:50:13
+
+SYMBOL     |   ΔRSI
+-------------------
+CROUSDT    |  -8.62
+Last close price for CROUSDT: 0.26766
+Opening Sell for  CROUSDT
+TP: 0.2649834
+SL: 0.2730132
+TS: 0.0053532
+Order Quantity: 37360.83
+Adjusted qty: 37361.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a68e70b0-780d-41f4-ab9a-12481099aa57', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756515036638}
+a68e70b0-780d-41f4-ab9a-12481099aa57
+fetching trade data for :  a68e70b0-780d-41f4-ab9a-12481099aa57
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a68e70b0-780d-41f4-ab9a-12481099aa57', 'stopOrderType': 'UNKNOWN', 'execTime': '1756515036637', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.26724', 'execPrice': '0.26722', 'markIv': '', 'orderQty': '37361', 'orderPrice': '0.24052', 'execValue': '9983.60642', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710479306260, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49098354', 'execId': '0dd16435-6573-4ee0-869e-d317a826b913', 'marketUnit': '', 'execQty': '37361', 'extraFees': ''}]
+Trades inserted successfully.
+None
+ENAUSDT    |  -7.02
+Last close price for ENAUSDT: 0.6324
+Opening Sell for  ENAUSDT
+TP: 0.626076
+SL: 0.645048
+TS: 0.012648
+Order Quantity: 15812.78
+Adjusted qty: 15813.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8a10fabd-8038-45df-a098-8586023c7be4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756515049297}
+8a10fabd-8038-45df-a098-8586023c7be4
+fetching trade data for :  8a10fabd-8038-45df-a098-8586023c7be4
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8a10fabd-8038-45df-a098-8586023c7be4', 'stopOrderType': 'UNKNOWN', 'execTime': '1756515049297', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.6324', 'execPrice': '0.6324', 'markIv': '', 'orderQty': '15813', 'orderPrice': '0.5692', 'execValue': '10000.1412', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710479306616, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50007766', 'execId': 'c4c59d06-e0e1-45e8-8e60-bd593842a70b', 'marketUnit': '', 'execQty': '15813', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 30.08.2025 04:50:58
