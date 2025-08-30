@@ -2364,3 +2364,43 @@ Final Adjusted qty: 124953.0
 160000.0
 Position already open.
 Function finished at 30.08.2025 11:00:34
+***************************************************************
+Number of open positions: 8
+Function started at 30.08.2025 11:10:17
+
+SYMBOL     |   ΔRSI
+-------------------
+ARBUSDT    |   9.98
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756537847193}
+Last close price for ARBUSDT: 0.4988
+Opening Buy for  ARBUSDT
+TP: 0.503788
+SL: 0.48882400000000004
+TS: 0.009976
+Order Quantity: 20048.12
+Adjusted qty: 20048.100000000002
+Final Adjusted qty: 20048.1
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '844252c6-672a-4182-a308-b4d4b51c68fa', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756537849162}
+844252c6-672a-4182-a308-b4d4b51c68fa
+fetching trade data for :  844252c6-672a-4182-a308-b4d4b51c68fa
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '844252c6-672a-4182-a308-b4d4b51c68fa', 'stopOrderType': 'UNKNOWN', 'execTime': '1756537849161', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.499', 'execPrice': '0.499', 'markIv': '', 'orderQty': '20048.1', 'orderPrice': '0.5239', 'execValue': '10004.0019', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710480001220, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50220105', 'execId': '910bef12-5d43-44ab-8ddc-e9f9516e8497', 'marketUnit': '', 'execQty': '20048.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+FORMUSDT   |   9.26
+Last close price for FORMUSDT: 3.6578
+Opening Buy for  FORMUSDT
+TP: 3.694378
+SL: 3.584644
+TS: 0.073156
+Order Quantity: 2733.88
+Adjusted qty: 2734.0
+Final Adjusted qty: 2733.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e03c2b67-a0d1-4497-aef3-770786ef4f66', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756537863046}
+e03c2b67-a0d1-4497-aef3-770786ef4f66
+fetching trade data for :  e03c2b67-a0d1-4497-aef3-770786ef4f66
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e03c2b67-a0d1-4497-aef3-770786ef4f66', 'stopOrderType': 'UNKNOWN', 'execTime': '1756537863045', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.6579', 'execPrice': '3.6579', 'markIv': '', 'orderQty': '2733', 'orderPrice': '3.9714', 'execValue': '9997.0407', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710480001665, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49837239', 'execId': '48754658-70ba-4024-94d2-02975ada0294', 'marketUnit': '', 'execQty': '2733', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 30.08.2025 11:11:13
