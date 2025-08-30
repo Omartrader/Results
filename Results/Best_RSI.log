@@ -1912,3 +1912,50 @@ fetching trade data for :  6d02dc15-5a2c-479a-9486-bfca0f9f877b
 Trades inserted successfully.
 None
 Function finished at 30.08.2025 07:10:57
+Number of open positions: 7
+***************************************************************
+Function started at 30.08.2025 07:20:15
+
+SYMBOL     |   ΔRSI
+-------------------
+LINKUSDT   |  -6.55
+Last close price for LINKUSDT: 23.133
+Opening Sell for  LINKUSDT
+TP: 22.90167
+SL: 23.59566
+TS: 0.46265999999999996
+Order Quantity: 432.28
+Adjusted qty: 432.3
+31450.0
+Position already open.
+USDCUSDT   |   5.33
+Last close price for USDCUSDT: 1.0
+Opening Buy for  USDCUSDT
+TP: 1.01
+SL: 0.98
+TS: 0.02
+Order Quantity: 10000.0
+Adjusted qty: 10000.0
+540310.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b21131f5-cfd9-4ddb-a216-c9e7a1096e34', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756524051444}
+b21131f5-cfd9-4ddb-a216-c9e7a1096e34
+fetching trade data for :  b21131f5-cfd9-4ddb-a216-c9e7a1096e34
+[{'symbol': 'USDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b21131f5-cfd9-4ddb-a216-c9e7a1096e34', 'stopOrderType': 'UNKNOWN', 'execTime': '1756524051444', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1', 'execPrice': '1', 'markIv': '', 'orderQty': '10000', 'orderPrice': '1.05', 'execValue': '10000', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710479581101, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5', 'execId': 'f261acd8-420d-4ffa-b7d4-d7e718849309', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+ALGOUSDT   |  -4.91
+Last close price for ALGOUSDT: 0.2343
+Opening Sell for  ALGOUSDT
+TP: 0.231957
+SL: 0.238986
+TS: 0.004686
+Order Quantity: 42680.32
+Adjusted qty: 42680.3
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f1b85956-8c13-4da4-91ed-fe88f95e3458', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756524065254}
+f1b85956-8c13-4da4-91ed-fe88f95e3458
+fetching trade data for :  f1b85956-8c13-4da4-91ed-fe88f95e3458
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f1b85956-8c13-4da4-91ed-fe88f95e3458', 'stopOrderType': 'UNKNOWN', 'execTime': '1756524065253', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2343', 'execPrice': '0.2342', 'markIv': '', 'orderQty': '42680.3', 'orderPrice': '0.2226', 'execValue': '9995.72626', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710479581506, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49764945', 'execId': '9cfa5c44-c10a-4f73-adcd-c80dad19fd9f', 'marketUnit': '', 'execQty': '42680.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 30.08.2025 07:21:14
