@@ -2471,3 +2471,42 @@ fetching trade data for :  33189291-9b9c-40a3-91df-6a106893928a
 Trades inserted successfully.
 None
 Function finished at 30.08.2025 11:21:24
+***************************************************************
+Number of open positions: 8
+Function started at 30.08.2025 11:30:12
+
+SYMBOL     |   ΔRSI
+-------------------
+FORMUSDT   |  16.78
+Last close price for FORMUSDT: 3.715
+Opening Buy for  FORMUSDT
+TP: 3.75215
+SL: 3.6407
+TS: 0.07429999999999999
+Order Quantity: 2691.79
+Adjusted qty: 2692.0
+Final Adjusted qty: 2691.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b6c73e3b-8997-48d7-949b-b5d1d580955e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756539043822}
+b6c73e3b-8997-48d7-949b-b5d1d580955e
+fetching trade data for :  b6c73e3b-8997-48d7-949b-b5d1d580955e
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b6c73e3b-8997-48d7-949b-b5d1d580955e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756539043821', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.715', 'execPrice': '3.715', 'markIv': '', 'orderQty': '2691', 'orderPrice': '4.2722', 'execValue': '9997.065', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710480038078, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49838575', 'execId': 'b6740e8f-8e6c-4666-8900-8f8ef6d1a6e4', 'marketUnit': '', 'execQty': '2691', 'extraFees': ''}]
+Trades inserted successfully.
+None
+MNTUSDT    |  12.82
+Last close price for MNTUSDT: 1.1816
+Opening Buy for  MNTUSDT
+TP: 1.193416
+SL: 1.1579679999999999
+TS: 0.023632
+Order Quantity: 8463.1
+Adjusted qty: 8463.0
+Final Adjusted qty: 8463.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0cc66620-dee0-4360-bbe2-7c321d46912b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756539057330}
+0cc66620-dee0-4360-bbe2-7c321d46912b
+fetching trade data for :  0cc66620-dee0-4360-bbe2-7c321d46912b
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0cc66620-dee0-4360-bbe2-7c321d46912b', 'stopOrderType': 'UNKNOWN', 'execTime': '1756539057329', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.18164', 'execPrice': '1.1816', 'markIv': '', 'orderQty': '8463', 'orderPrice': '1.2868', 'execValue': '9999.8808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710480038476, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993444', 'execId': 'c808f5d3-f1ce-4e33-9d5c-8ebb6a356947', 'marketUnit': '', 'execQty': '8463', 'extraFees': ''}]
+Trades inserted successfully.
+None
+Function finished at 30.08.2025 11:31:07
