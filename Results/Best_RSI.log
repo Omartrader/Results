@@ -7841,3 +7841,42 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 01.09.2025 02:55:47
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 03:00:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+XRPUSDT    |  -8.53 |  35.91
+Last close price for XRPUSDT: 2.7977
+Opening Sell for  XRPUSDT
+TP: 2.7837115
+SL: 2.8256769999999998
+TS: 0.027977
+Order Quantity: 3574.36
+Adjusted qty: 3574.0
+Final Adjusted qty: 3574.0
+2467800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+DOGEUSDT   |  -6.26 |  29.57
+Last close price for DOGEUSDT: 0.21582
+Opening Sell for  DOGEUSDT
+TP: 0.2147409
+SL: 0.2179782
+TS: 0.0021582000000000003
+Order Quantity: 46334.91
+Adjusted qty: 46335.0
+Final Adjusted qty: 46334.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ab4e0a80-2361-4d64-811c-a24e86a38e37', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756681243196}
+ab4e0a80-2361-4d64-811c-a24e86a38e37
+fetching trade data for :  ab4e0a80-2361-4d64-811c-a24e86a38e37
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ab4e0a80-2361-4d64-811c-a24e86a38e37', 'stopOrderType': 'UNKNOWN', 'execTime': '1756681243195', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.21582', 'execPrice': '0.21584', 'markIv': '', 'orderQty': '46334', 'orderPrice': '0.20503', 'execValue': '10000.73056', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484309712, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50040181', 'execId': '19c59669-e120-47ab-93d1-5cb5e44b5235', 'marketUnit': '', 'execQty': '46334', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 03:00:48
