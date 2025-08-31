@@ -5706,3 +5706,36 @@ Final Adjusted qty: 30.81
 dd50f8e6-b52d-4f75-8757-0b91bf6feb34
 fetching trade data for :  dd50f8e6-b52d-4f75-8757-0b91bf6feb34
 [{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dd50f8e6-b52d-4f75-8757-0b91bf6feb34', 'stopOrderType': 'UNKNOWN', 'execTime': '1756641645183', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '324.6', 'execPrice': '324.55', 'markIv': '', 'orderQty': '30.81', 'orderPrice': '340.83', 'execValue': '9999.3855', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710483125735, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49966203', 'execId': 'ba59efaf-fe81-4950-979e-1a9693386dd2', 'marketUnit': '', 'execQty': '30.81', 'extraFees': ''}]
+***************************************************************
+Number of open positions: 8
+Function started at 31.08.2025 16:05:15
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ENAUSDT    |  -7.89 |  50.11
+Last close price for ENAUSDT: 0.666
+Opening Sell for  ENAUSDT
+TP: 0.66267
+SL: 0.67932
+TS: 0.01332
+Order Quantity: 15015.02
+Adjusted qty: 15015.0
+Final Adjusted qty: 15015.0
+100000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARBUSDT    |  -6.56 |  56.32
+Last close price for ARBUSDT: 0.5105
+Opening Sell for  ARBUSDT
+TP: 0.5079475
+SL: 0.52071
+TS: 0.010209999999999999
+Order Quantity: 19588.64
+Adjusted qty: 19588.600000000002
+Final Adjusted qty: 19588.6
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '921680ab-9266-471a-a2de-1a3d9e75bb00', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756641947083}
+921680ab-9266-471a-a2de-1a3d9e75bb00
+fetching trade data for :  921680ab-9266-471a-a2de-1a3d9e75bb00
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '921680ab-9266-471a-a2de-1a3d9e75bb00', 'stopOrderType': 'UNKNOWN', 'execTime': '1756641947083', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5106', 'execPrice': '0.5105', 'markIv': '', 'orderQty': '19588.6', 'orderPrice': '0.4851', 'execValue': '9999.9803', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710483134717, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998917', 'execId': 'edfaa0d0-cac9-4f3d-a39b-c8f52a2f58c7', 'marketUnit': '', 'execQty': '19588.6', 'extraFees': ''}]
