@@ -7905,3 +7905,46 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 01.09.2025 03:05:35
+***************************************************************
+Number of open positions: 7
+Function started at 01.09.2025 03:10:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+CROUSDT    |  -5.68 |  48.61
+Last close price for CROUSDT: 0.29392
+Opening Sell for  CROUSDT
+TP: 0.2924504
+SL: 0.2968592
+TS: 0.0029392000000000003
+Order Quantity: 34022.86
+Adjusted qty: 34023.0
+Final Adjusted qty: 34022.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b0947ee5-a4f3-4b95-bd8c-bcc02c08c2e6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756681829011}
+b0947ee5-a4f3-4b95-bd8c-bcc02c08c2e6
+fetching trade data for :  b0947ee5-a4f3-4b95-bd8c-bcc02c08c2e6
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b0947ee5-a4f3-4b95-bd8c-bcc02c08c2e6', 'stopOrderType': 'UNKNOWN', 'execTime': '1756681829010', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.29385', 'execPrice': '0.29392', 'markIv': '', 'orderQty': '34022', 'orderPrice': '0.26447', 'execValue': '9999.74624', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484327923, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986044', 'execId': 'a0260437-a403-4570-a72a-966ce9a41c6b', 'marketUnit': '', 'execQty': '34022', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   |   3.66 |  36.70
+Last close price for AAVEUSDT: 318.0
+Opening Buy for  AAVEUSDT
+TP: 319.59
+SL: 314.82
+TS: 3.18
+Order Quantity: 31.45
+Adjusted qty: 31.45
+Final Adjusted qty: 31.45
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd4c3a723-6956-425c-bc06-b3368d8717f0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756681836333}
+d4c3a723-6956-425c-bc06-b3368d8717f0
+fetching trade data for :  d4c3a723-6956-425c-bc06-b3368d8717f0
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd4c3a723-6956-425c-bc06-b3368d8717f0', 'stopOrderType': 'UNKNOWN', 'execTime': '1756681836332', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '317.99', 'execPrice': '317.98', 'markIv': '', 'orderQty': '31.45', 'orderPrice': '333.88', 'execValue': '10000.471', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484328124, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50025905', 'execId': 'e8a56308-140b-4f34-aa25-88865b73ad74', 'marketUnit': '', 'execQty': '31.45', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 01.09.2025 03:10:40
