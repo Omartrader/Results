@@ -6489,3 +6489,55 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 31.08.2025 19:15:22
+***************************************************************
+Number of open positions: 9
+Function started at 31.08.2025 19:20:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SKYUSDT    | -10.05 |  46.66
+Last close price for SKYUSDT: 0.06446
+Opening Sell for  SKYUSDT
+TP: 0.0641377
+SL: 0.06574920000000001
+TS: 0.0012892000000000001
+Order Quantity: 155134.97
+Adjusted qty: 155130.0
+Final Adjusted qty: 155130.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TRUMPUSDT  |  -4.93 |  52.70
+Last close price for TRUMPUSDT: 8.488
+Opening Sell for  TRUMPUSDT
+TP: 8.445559999999999
+SL: 8.65776
+TS: 0.16976
+Order Quantity: 1178.13
+Adjusted qty: 1178.1000000000001
+Final Adjusted qty: 1178.1
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MNTUSDT    |  -4.82 |  43.66
+Last close price for MNTUSDT: 1.1682
+Opening Sell for  MNTUSDT
+TP: 1.162359
+SL: 1.1915639999999998
+TS: 0.023364
+Order Quantity: 8560.18
+Adjusted qty: 8560.0
+Final Adjusted qty: 8560.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ace64cc9-599b-45cd-9d4b-ab456527c5ff', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756653631602}
+ace64cc9-599b-45cd-9d4b-ab456527c5ff
+fetching trade data for :  ace64cc9-599b-45cd-9d4b-ab456527c5ff
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ace64cc9-599b-45cd-9d4b-ab456527c5ff', 'stopOrderType': 'UNKNOWN', 'execTime': '1756653631602', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.16829', 'execPrice': '1.1681', 'markIv': '', 'orderQty': '8560', 'orderPrice': '1.0515', 'execValue': '9998.936', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710483490449, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4994148', 'execId': '264e00a9-dea8-4228-beb8-649169248476', 'marketUnit': '', 'execQty': '8560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 31.08.2025 19:20:35
