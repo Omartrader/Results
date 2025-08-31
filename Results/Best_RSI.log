@@ -8043,3 +8043,55 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 03:25:35
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 03:30:08
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BCHUSDT    | -10.56 |  37.42
+Last close price for BCHUSDT: 544.7
+Opening Sell for  BCHUSDT
+TP: 541.9765
+SL: 550.147
+TS: 5.447
+Order Quantity: 18.36
+Adjusted qty: 18.36
+Final Adjusted qty: 18.36
+804.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHUSDT    |  -9.24 |  22.07
+Last close price for ETHUSDT: 4396.74
+Opening Sell for  ETHUSDT
+TP: 4374.7563
+SL: 4440.7074
+TS: 43.9674
+Order Quantity: 2.27
+Adjusted qty: 2.27
+Final Adjusted qty: 2.27
+724.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JUPUSDT    |  -8.90 |  23.06
+Last close price for JUPUSDT: 0.4931
+Opening Sell for  JUPUSDT
+TP: 0.4906345
+SL: 0.498031
+TS: 0.004931
+Order Quantity: 20279.86
+Adjusted qty: 20280.0
+Final Adjusted qty: 20279.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f046059a-5f26-45c8-ae2a-24b0655ea4c2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756683031534}
+f046059a-5f26-45c8-ae2a-24b0655ea4c2
+fetching trade data for :  f046059a-5f26-45c8-ae2a-24b0655ea4c2
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f046059a-5f26-45c8-ae2a-24b0655ea4c2', 'stopOrderType': 'UNKNOWN', 'execTime': '1756683031533', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4931', 'execPrice': '0.4932', 'markIv': '', 'orderQty': '20279', 'orderPrice': '0.4685', 'execValue': '10001.6028', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484365679, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50088154', 'execId': '06ece5eb-6dc7-4d94-b6a3-1bacb0e849a1', 'marketUnit': '', 'execQty': '20279', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 03:30:35
