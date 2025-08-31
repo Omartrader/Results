@@ -7255,3 +7255,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 31.08.2025 23:00:51
+***************************************************************
+Number of open positions: 8
+Function started at 31.08.2025 23:05:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+POLUSDT    |  -6.02 |  51.31
+Last close price for POLUSDT: 0.2832
+Opening Sell for  POLUSDT
+TP: 0.281784
+SL: 0.286032
+TS: 0.002832
+Order Quantity: 35310.73
+Adjusted qty: 35311.0
+Final Adjusted qty: 35310.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '919fcd43-33de-4bb9-9c65-b75119e418e8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756667140614}
+919fcd43-33de-4bb9-9c65-b75119e418e8
+fetching trade data for :  919fcd43-33de-4bb9-9c65-b75119e418e8
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  |  -4.52 |  59.10
+Last close price for TRUMPUSDT: 8.625
+Opening Sell for  TRUMPUSDT
+TP: 8.581875
+SL: 8.71125
+TS: 0.08625
+Order Quantity: 1159.42
+Adjusted qty: 1159.4
+Final Adjusted qty: 1159.4
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7fa70ac2-6206-4a94-8233-dc77ced99fc3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756667149211}
+7fa70ac2-6206-4a94-8233-dc77ced99fc3
+fetching trade data for :  7fa70ac2-6206-4a94-8233-dc77ced99fc3
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7fa70ac2-6206-4a94-8233-dc77ced99fc3', 'stopOrderType': 'UNKNOWN', 'execTime': '1756667149211', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.625', 'execPrice': '8.623', 'markIv': '', 'orderQty': '1159.4', 'orderPrice': '8.194', 'execValue': '9997.5062', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710483893203, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49862841', 'execId': 'f3d8b297-ec40-40d6-a92d-3c2bef50bd7c', 'marketUnit': '', 'execQty': '1159.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 31.08.2025 23:05:55
