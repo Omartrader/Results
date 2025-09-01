@@ -8637,3 +8637,91 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  6
 Function finished at 01.09.2025 04:31:13
+***************************************************************
+Number of open positions: 7
+Function started at 01.09.2025 04:35:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FLRUSDT    |  11.66 |  52.76
+Last close price for FLRUSDT: 0.0215
+Opening Buy for  FLRUSDT
+TP: 0.021607499999999995
+SL: 0.021285
+TS: 0.000215
+Order Quantity: 465116.28
+Adjusted qty: 465120.0
+Final Adjusted qty: 465110.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MNTUSDT    |  -9.28 |  28.52
+Last close price for MNTUSDT: 1.1624
+Opening Sell for  MNTUSDT
+TP: 1.1565880000000002
+SL: 1.1740240000000002
+TS: 0.011624
+Order Quantity: 8602.89
+Adjusted qty: 8603.0
+Final Adjusted qty: 8602.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TRXUSDT    |  -5.90 |  23.46
+Last close price for TRXUSDT: 0.33952
+Opening Sell for  TRXUSDT
+TP: 0.33782239999999997
+SL: 0.3429152
+TS: 0.0033951999999999997
+Order Quantity: 29453.35
+Adjusted qty: 29453.0
+Final Adjusted qty: 29453.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '517b0559-9b55-4eda-9d06-62b1f97b7cf8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756686943687}
+517b0559-9b55-4eda-9d06-62b1f97b7cf8
+fetching trade data for :  517b0559-9b55-4eda-9d06-62b1f97b7cf8
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   |   5.70 |  38.99
+Last close price for HYPEUSDT: 44.106
+Opening Buy for  HYPEUSDT
+TP: 44.32653
+SL: 43.66494
+TS: 0.44106
+Order Quantity: 226.73
+Adjusted qty: 226.73000000000002
+Final Adjusted qty: 226.73
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '270d5c19-6be3-4cbb-a411-500348e731de', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756686951757}
+270d5c19-6be3-4cbb-a411-500348e731de
+fetching trade data for :  270d5c19-6be3-4cbb-a411-500348e731de
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    |  -5.09 |  20.30
+Last close price for XLMUSDT: 0.34876
+Opening Sell for  XLMUSDT
+TP: 0.3470162
+SL: 0.3522476
+TS: 0.0034876
+Order Quantity: 28673.01
+Adjusted qty: 28673.0
+Final Adjusted qty: 28673.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1366529c-5a0d-41ca-bee9-c7872ef2d900', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756686960234}
+1366529c-5a0d-41ca-bee9-c7872ef2d900
+fetching trade data for :  1366529c-5a0d-41ca-bee9-c7872ef2d900
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1366529c-5a0d-41ca-bee9-c7872ef2d900', 'stopOrderType': 'UNKNOWN', 'execTime': '1756686960234', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.34879', 'execPrice': '0.34876', 'markIv': '', 'orderQty': '28673', 'orderPrice': '0.33136', 'execValue': '9999.99548', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484490034, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999752', 'execId': '2c2ff8fe-efc0-49ab-a0e8-46ff5807cf2d', 'marketUnit': '', 'execQty': '28673', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 01.09.2025 04:36:04
