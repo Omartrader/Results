@@ -13358,3 +13358,59 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 15:40:47
+***************************************************************
+Number of open positions: 6
+Function started at 01.09.2025 15:45:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TRXUSDT    |  -7.46 |  24.55
+Last close price for TRXUSDT: 0.33736
+Opening Sell for  TRXUSDT
+TP: 0.3356732
+SL: 0.34073359999999997
+TS: 0.0033736
+Order Quantity: 29641.93
+Adjusted qty: 29642.0
+Final Adjusted qty: 29641.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b4e36d03-0890-4559-b8c6-38aba189ef98', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756727131335}
+b4e36d03-0890-4559-b8c6-38aba189ef98
+fetching trade data for :  b4e36d03-0890-4559-b8c6-38aba189ef98
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b4e36d03-0890-4559-b8c6-38aba189ef98', 'stopOrderType': 'UNKNOWN', 'execTime': '1756727131334', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.33743', 'execPrice': '0.33736', 'markIv': '', 'orderQty': '29641', 'orderPrice': '0.32056', 'execValue': '9999.68776', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485716631, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49982827', 'execId': 'd6504615-0dc3-41b0-bd32-c87f3bc2f017', 'marketUnit': '', 'execQty': '29641', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     |  -5.88 |  46.94
+Last close price for IPUSDT: 7.6948
+Opening Sell for  IPUSDT
+TP: 7.656326
+SL: 7.771748
+TS: 0.076948
+Order Quantity: 1299.58
+Adjusted qty: 1299.6000000000001
+Final Adjusted qty: 1299.5
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '271cb136-5523-47fc-91c4-207d5a4c00b7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756727138571}
+271cb136-5523-47fc-91c4-207d5a4c00b7
+fetching trade data for :  271cb136-5523-47fc-91c4-207d5a4c00b7
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |  -4.83 |  29.95
+Last close price for TONUSDT: 3.1198
+Opening Sell for  TONUSDT
+TP: 3.104201
+SL: 3.150998
+TS: 0.031198
+Order Quantity: 3205.33
+Adjusted qty: 3205.3
+Final Adjusted qty: 3205.3
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 01.09.2025 15:45:45
