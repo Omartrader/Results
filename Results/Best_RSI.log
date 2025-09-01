@@ -11374,3 +11374,114 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 01.09.2025 11:20:43
+***************************************************************
+Number of open positions: 5
+Function started at 01.09.2025 11:25:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+LINKUSDT   |   6.81 |  61.49
+Last close price for LINKUSDT: 23.055
+Opening Buy for  LINKUSDT
+TP: 23.170274999999997
+SL: 22.82445
+TS: 0.23055
+Order Quantity: 433.75
+Adjusted qty: 433.8
+Final Adjusted qty: 433.7
+31450.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    |   6.19 |  62.70
+Last close price for UNIUSDT: 9.497
+Opening Buy for  UNIUSDT
+TP: 9.544484999999998
+SL: 9.40203
+TS: 0.09497
+Order Quantity: 1052.96
+Adjusted qty: 1053.0
+Final Adjusted qty: 1052.9
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fae9e363-e7c6-473e-ad94-a3f625f8256e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756711532345}
+fae9e363-e7c6-473e-ad94-a3f625f8256e
+fetching trade data for :  fae9e363-e7c6-473e-ad94-a3f625f8256e
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    |   5.56 |  62.62
+Last close price for FILUSDT: 2.256
+Opening Buy for  FILUSDT
+TP: 2.2672799999999995
+SL: 2.23344
+TS: 0.022559999999999997
+Order Quantity: 4432.62
+Adjusted qty: 4432.6
+Final Adjusted qty: 4432.6
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '23e4077d-9000-441b-8ed8-bfc773636927', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756711539516}
+23e4077d-9000-441b-8ed8-bfc773636927
+fetching trade data for :  23e4077d-9000-441b-8ed8-bfc773636927
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    |   5.17 |  63.88
+Last close price for DOTUSDT: 3.7174
+Opening Buy for  DOTUSDT
+TP: 3.7359869999999997
+SL: 3.680226
+TS: 0.037174
+Order Quantity: 2690.05
+Adjusted qty: 2690.0
+Final Adjusted qty: 2690.0
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '295396c3-458a-4822-89e1-61ef32c5763b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756711546507}
+295396c3-458a-4822-89e1-61ef32c5763b
+fetching trade data for :  295396c3-458a-4822-89e1-61ef32c5763b
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '295396c3-458a-4822-89e1-61ef32c5763b', 'stopOrderType': 'UNKNOWN', 'execTime': '1756711546507', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.7181', 'execPrice': '3.7174', 'markIv': '', 'orderQty': '2690', 'orderPrice': '3.904', 'execValue': '9999.806', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485232627, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4998933', 'execId': '81bdca57-fa26-43fe-bca7-d1fac4ff127d', 'marketUnit': '', 'execQty': '2690', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    |   4.20 |  61.64
+Last close price for SUIUSDT: 3.1991
+Opening Buy for  SUIUSDT
+TP: 3.2150955
+SL: 3.167109
+TS: 0.031991
+Order Quantity: 3125.88
+Adjusted qty: 3130.0
+Final Adjusted qty: 3120.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9f783447-7588-4114-b7cc-e69816ead316', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756711553789}
+9f783447-7588-4114-b7cc-e69816ead316
+fetching trade data for :  9f783447-7588-4114-b7cc-e69816ead316
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9f783447-7588-4114-b7cc-e69816ead316', 'stopOrderType': 'UNKNOWN', 'execTime': '1756711553790', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.19943', 'execPrice': '3.1992', 'markIv': '', 'orderQty': '3120', 'orderPrice': '3.3594', 'execValue': '9981.504', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485232882, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4898272', 'execId': 'f05c576f-afe5-4f39-9e30-54159c0675a3', 'marketUnit': '', 'execQty': '3120', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    |   4.04 |  59.37
+Last close price for WLDUSDT: 0.8712
+Opening Buy for  WLDUSDT
+TP: 0.8755559999999999
+SL: 0.8624879999999999
+TS: 0.008712
+Order Quantity: 11478.42
+Adjusted qty: 11478.400000000001
+Final Adjusted qty: 11478.4
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dd107103-602f-45bb-831a-8615ded8102a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756711560575}
+dd107103-602f-45bb-831a-8615ded8102a
+fetching trade data for :  dd107103-602f-45bb-831a-8615ded8102a
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  5
+Function finished at 01.09.2025 11:26:04
