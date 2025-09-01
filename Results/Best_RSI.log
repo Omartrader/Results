@@ -10547,3 +10547,30 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 08:50:35
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 08:55:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SUIUSDT    |   6.13 |  41.24
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756702538595}
+Last close price for SUIUSDT: 3.1629
+Opening Buy for  SUIUSDT
+TP: 3.1787145
+SL: 3.131271
+TS: 0.031629
+Order Quantity: 3161.66
+Adjusted qty: 3160.0
+Final Adjusted qty: 3160.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '31866b18-f9c3-4504-8ecd-eb8c40ec6d7d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756702540333}
+31866b18-f9c3-4504-8ecd-eb8c40ec6d7d
+fetching trade data for :  31866b18-f9c3-4504-8ecd-eb8c40ec6d7d
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '31866b18-f9c3-4504-8ecd-eb8c40ec6d7d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756702540333', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1629', 'execPrice': '3.1623', 'markIv': '', 'orderQty': '3160', 'orderPrice': '3.321', 'execValue': '9992.868', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484961137, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4960774', 'execId': '1a38e205-6151-4306-979b-1e27e6b05b79', 'marketUnit': '', 'execQty': '3160', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 08:55:46
