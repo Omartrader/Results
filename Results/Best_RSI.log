@@ -11247,3 +11247,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 11:05:44
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 11:10:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+UNIUSDT    |  -7.13 |  48.91
+Last close price for UNIUSDT: 9.416
+Opening Sell for  UNIUSDT
+TP: 9.368920000000001
+SL: 9.51016
+TS: 0.09416000000000001
+Order Quantity: 1062.02
+Adjusted qty: 1062.0
+Final Adjusted qty: 1062.0
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ec84ab1f-1e1c-4c55-a770-a79007245e65', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756710632163}
+ec84ab1f-1e1c-4c55-a770-a79007245e65
+fetching trade data for :  ec84ab1f-1e1c-4c55-a770-a79007245e65
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ec84ab1f-1e1c-4c55-a770-a79007245e65', 'stopOrderType': 'UNKNOWN', 'execTime': '1756710632163', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.417', 'execPrice': '9.414', 'markIv': '', 'orderQty': '1062', 'orderPrice': '8.947', 'execValue': '9997.668', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485204788, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4987174', 'execId': '63983c54-a21f-43da-ba3d-36cd9ba324f7', 'marketUnit': '', 'execQty': '1062', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   |  -6.84 |  42.37
+Last close price for AAVEUSDT: 309.16
+Opening Sell for  AAVEUSDT
+TP: 307.61420000000004
+SL: 312.25160000000005
+TS: 3.0916
+Order Quantity: 32.35
+Adjusted qty: 32.35
+Final Adjusted qty: 32.35
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e95c1081-4f7f-4ffe-bbf0-f6d9bc5a6056', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756710639252}
+e95c1081-4f7f-4ffe-bbf0-f6d9bc5a6056
+fetching trade data for :  e95c1081-4f7f-4ffe-bbf0-f6d9bc5a6056
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 11:10:43
