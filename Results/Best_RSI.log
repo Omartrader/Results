@@ -12527,3 +12527,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 01.09.2025 13:05:54
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 13:10:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ARBUSDT    |   6.20 |  75.58
+Last close price for ARBUSDT: 0.5131
+Opening Buy for  ARBUSDT
+TP: 0.5156655
+SL: 0.507969
+TS: 0.005131
+Order Quantity: 19489.38
+Adjusted qty: 19489.4
+Final Adjusted qty: 19489.3
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b4c5b916-b46a-44ff-9931-b0944c15c9c5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756717841296}
+b4c5b916-b46a-44ff-9931-b0944c15c9c5
+fetching trade data for :  b4c5b916-b46a-44ff-9931-b0944c15c9c5
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b4c5b916-b46a-44ff-9931-b0944c15c9c5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756717841296', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5131', 'execPrice': '0.513', 'markIv': '', 'orderQty': '19489.3', 'orderPrice': '0.5387', 'execValue': '9998.0109', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485431701, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.498906', 'execId': '24afaae0-df14-4341-ae44-f9b13e283312', 'marketUnit': '', 'execQty': '19489.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 13:10:45
