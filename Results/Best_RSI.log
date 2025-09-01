@@ -15276,3 +15276,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 01.09.2025 22:10:56
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 22:15:12
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+UNIUSDT    |  18.38 |  53.56
+Last close price for UNIUSDT: 9.342
+Opening Buy for  UNIUSDT
+TP: 9.38871
+SL: 9.24858
+TS: 0.09342
+Order Quantity: 1070.43
+Adjusted qty: 1070.4
+Final Adjusted qty: 1070.4
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   |  18.07 |  60.68
+Last close price for ONDOUSDT: 0.8825
+Opening Buy for  ONDOUSDT
+TP: 0.8869124999999999
+SL: 0.873675
+TS: 0.008825
+Order Quantity: 11331.44
+Adjusted qty: 11331.0
+Final Adjusted qty: 11331.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8e50b790-d813-4a84-8b2b-05ff7d9af2f3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756750544460}
+8e50b790-d813-4a84-8b2b-05ff7d9af2f3
+fetching trade data for :  8e50b790-d813-4a84-8b2b-05ff7d9af2f3
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8e50b790-d813-4a84-8b2b-05ff7d9af2f3', 'stopOrderType': 'UNKNOWN', 'execTime': '1756750544460', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8825', 'execPrice': '0.8825', 'markIv': '', 'orderQty': '11331', 'orderPrice': '0.9266', 'execValue': '9999.6075', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486437459, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49978413', 'execId': '6dbb42d0-73bb-4bcf-aba6-0438a338ea45', 'marketUnit': '', 'execQty': '11331', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 22:15:49
