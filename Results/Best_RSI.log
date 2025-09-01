@@ -10848,3 +10848,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 10:00:48
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 10:05:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+UNIUSDT    |  -8.48 |  45.38
+Last close price for UNIUSDT: 9.386
+Opening Sell for  UNIUSDT
+TP: 9.33907
+SL: 9.479859999999999
+TS: 0.09386
+Order Quantity: 1065.42
+Adjusted qty: 1065.4
+Final Adjusted qty: 1065.4
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '307b805c-1420-4626-9cf1-24d8f10c5baa', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756706738862}
+307b805c-1420-4626-9cf1-24d8f10c5baa
+fetching trade data for :  307b805c-1420-4626-9cf1-24d8f10c5baa
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '307b805c-1420-4626-9cf1-24d8f10c5baa', 'stopOrderType': 'UNKNOWN', 'execTime': '1756706738863', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.389', 'execPrice': '9.389', 'markIv': '', 'orderQty': '1065.4', 'orderPrice': '8.92', 'execValue': '10003.0406', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485088567, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50167233', 'execId': 'ac449158-aeb6-4155-a14f-cf3bcd99b981', 'marketUnit': '', 'execQty': '1065.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    |  -7.43 |  45.12
+Last close price for VETUSDT: 0.02372
+Opening Sell for  VETUSDT
+TP: 0.0236014
+SL: 0.0239572
+TS: 0.00023720000000000002
+Order Quantity: 421585.16
+Adjusted qty: 421585.0
+Final Adjusted qty: 421585.0
+437000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHUSDT    |  -7.23 |  45.38
+Last close price for ETHUSDT: 4381.21
+Opening Sell for  ETHUSDT
+TP: 4359.30395
+SL: 4425.0221
+TS: 43.8121
+Order Quantity: 2.28
+Adjusted qty: 2.2800000000000002
+Final Adjusted qty: 2.28
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7dfa105c-8b89-46db-bed1-84a0028200ab', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756706748776}
+7dfa105c-8b89-46db-bed1-84a0028200ab
+fetching trade data for :  7dfa105c-8b89-46db-bed1-84a0028200ab
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7dfa105c-8b89-46db-bed1-84a0028200ab', 'stopOrderType': 'UNKNOWN', 'execTime': '1756706748776', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4381.56', 'execPrice': '4381.63', 'markIv': '', 'orderQty': '2.28', 'orderPrice': '4293.93', 'execValue': '9990.1164', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485088858, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49456402', 'execId': '19d02887-f8a8-494b-ab5c-91581244b8d8', 'marketUnit': '', 'execQty': '2.28', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 10:05:54
