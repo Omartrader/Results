@@ -15748,3 +15748,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 00:00:47
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 00:05:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TONUSDT    | -11.65 |  51.20
+Last close price for TONUSDT: 3.1304
+Opening Sell for  TONUSDT
+TP: 3.1147479999999996
+SL: 3.161704
+TS: 0.031304
+Order Quantity: 3194.48
+Adjusted qty: 3194.5
+Final Adjusted qty: 3194.4
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3d5454ae-4d46-4aad-932d-9c62ae40b333', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756757138517}
+3d5454ae-4d46-4aad-932d-9c62ae40b333
+fetching trade data for :  3d5454ae-4d46-4aad-932d-9c62ae40b333
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3d5454ae-4d46-4aad-932d-9c62ae40b333', 'stopOrderType': 'UNKNOWN', 'execTime': '1756757138516', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1311', 'execPrice': '3.1304', 'markIv': '', 'orderQty': '3194.4', 'orderPrice': '2.9746', 'execValue': '9999.74976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486632732, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986237', 'execId': 'b7b622c3-1830-4eb8-ae2a-21f0d4d1c666', 'marketUnit': '', 'execQty': '3194.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 00:05:45
