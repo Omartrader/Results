@@ -11291,3 +11291,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 01.09.2025 11:10:43
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 11:15:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ATOMUSDT   |  -7.31 |  46.15
+Last close price for ATOMUSDT: 4.388
+Opening Sell for  ATOMUSDT
+TP: 4.36606
+SL: 4.43188
+TS: 0.04388
+Order Quantity: 2278.94
+Adjusted qty: 2278.9
+Final Adjusted qty: 2278.9
+22100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ICPUSDT    |  -6.78 |  46.91
+Last close price for ICPUSDT: 4.686
+Opening Sell for  ICPUSDT
+TP: 4.66257
+SL: 4.73286
+TS: 0.04686
+Order Quantity: 2134.02
+Adjusted qty: 2134.0
+Final Adjusted qty: 2134.0
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f20f2dda-34db-4fe5-91bf-b68176a72785', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756710944164}
+f20f2dda-34db-4fe5-91bf-b68176a72785
+fetching trade data for :  f20f2dda-34db-4fe5-91bf-b68176a72785
+[{'symbol': 'ICPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f20f2dda-34db-4fe5-91bf-b68176a72785', 'stopOrderType': 'UNKNOWN', 'execTime': '1756710944164', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.686', 'execPrice': '4.687', 'markIv': '', 'orderQty': '2134', 'orderPrice': '4.452', 'execValue': '10002.058', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485214150, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5011319', 'execId': '9e32bd71-7b07-4ced-9c61-bd90cbfa493a', 'marketUnit': '', 'execQty': '2134', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 11:15:49
