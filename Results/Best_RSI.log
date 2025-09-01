@@ -13580,3 +13580,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 16:15:37
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 16:20:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+IPUSDT     |  10.56 |  53.41
+Last close price for IPUSDT: 7.705
+Opening Buy for  IPUSDT
+TP: 7.743524999999999
+SL: 7.62795
+TS: 0.07705000000000001
+Order Quantity: 1297.86
+Adjusted qty: 1297.9
+Final Adjusted qty: 1297.8
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4637d550-fac3-4869-bd54-253705c5524c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756729228191}
+4637d550-fac3-4869-bd54-253705c5524c
+fetching trade data for :  4637d550-fac3-4869-bd54-253705c5524c
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4637d550-fac3-4869-bd54-253705c5524c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756729228191', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.7065', 'execPrice': '7.7056', 'markIv': '', 'orderQty': '1297.8', 'orderPrice': '8.4771', 'execValue': '10000.32768', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485781335, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50018023', 'execId': '0c221e7c-933d-4a29-96e7-cd98e27f8cb6', 'marketUnit': '', 'execQty': '1297.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  |  -8.39 |  39.39
+Last close price for TRUMPUSDT: 8.913
+Opening Sell for  TRUMPUSDT
+TP: 8.868435
+SL: 9.002130000000001
+TS: 0.08913
+Order Quantity: 1121.96
+Adjusted qty: 1122.0
+Final Adjusted qty: 1121.9
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3e1164e5-762e-4e76-afcf-707dba4241c4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756729235686}
+3e1164e5-762e-4e76-afcf-707dba4241c4
+fetching trade data for :  3e1164e5-762e-4e76-afcf-707dba4241c4
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3e1164e5-762e-4e76-afcf-707dba4241c4', 'stopOrderType': 'UNKNOWN', 'execTime': '1756729235686', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.912', 'execPrice': '8.911', 'markIv': '', 'orderQty': '1121.9', 'orderPrice': '8.467', 'execValue': '9997.2509', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485781577, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.498488', 'execId': '6b6e3ff4-7aa6-4544-9d34-f53075aad143', 'marketUnit': '', 'execQty': '1121.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 16:20:41
