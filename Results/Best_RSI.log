@@ -13803,3 +13803,66 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 17:20:36
+***************************************************************
+Number of open positions: 7
+Function started at 01.09.2025 17:25:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SOLUSDT    |   8.79 |  60.48
+Last close price for SOLUSDT: 200.61
+Opening Buy for  SOLUSDT
+TP: 201.61305
+SL: 198.6039
+TS: 2.0061
+Order Quantity: 49.85
+Adjusted qty: 49.800000000000004
+Final Adjusted qty: 49.8
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0664a5b2-7964-4aff-b060-4938e21884e2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756733132184}
+0664a5b2-7964-4aff-b060-4938e21884e2
+fetching trade data for :  0664a5b2-7964-4aff-b060-4938e21884e2
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0664a5b2-7964-4aff-b060-4938e21884e2', 'stopOrderType': 'UNKNOWN', 'execTime': '1756733132184', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '200.6', 'execPrice': '200.6', 'markIv': '', 'orderQty': '49.8', 'orderPrice': '210.63', 'execValue': '9989.88', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485900158, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.494434', 'execId': 'c13d5f5d-0391-4410-ac55-6466569b8625', 'marketUnit': '', 'execQty': '49.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLFIUSDT   |   8.67 |  58.70
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756733138472}
+Last close price for WLFIUSDT: 0.3227
+Opening Buy for  WLFIUSDT
+TP: 0.3243135
+SL: 0.319473
+TS: 0.003227
+Order Quantity: 30988.53
+Adjusted qty: 30989.0
+Final Adjusted qty: 30988.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e20ec945-ca0d-4fa4-a658-f4c33569e35d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756733139717}
+e20ec945-ca0d-4fa4-a658-f4c33569e35d
+fetching trade data for :  e20ec945-ca0d-4fa4-a658-f4c33569e35d
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e20ec945-ca0d-4fa4-a658-f4c33569e35d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756733139717', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3214', 'execPrice': '0.3218', 'markIv': '', 'orderQty': '30988', 'orderPrice': '0.3696', 'execValue': '9971.9384', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485900396, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.48456612', 'execId': '1108dced-003d-4b64-8512-af32153ad027', 'marketUnit': '', 'execQty': '30988', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JUPUSDT    |   5.40 |  48.57
+Last close price for JUPUSDT: 0.4879
+Opening Buy for  JUPUSDT
+TP: 0.49033949999999993
+SL: 0.483021
+TS: 0.004879
+Order Quantity: 20496.0
+Adjusted qty: 20496.0
+Final Adjusted qty: 20496.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '30093ff3-719f-40ef-9b1b-5782fc4f5db9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756733147248}
+30093ff3-719f-40ef-9b1b-5782fc4f5db9
+fetching trade data for :  30093ff3-719f-40ef-9b1b-5782fc4f5db9
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '30093ff3-719f-40ef-9b1b-5782fc4f5db9', 'stopOrderType': 'UNKNOWN', 'execTime': '1756733147248', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4879', 'execPrice': '0.4879', 'markIv': '', 'orderQty': '20496', 'orderPrice': '0.5122', 'execValue': '9999.9984', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485900599, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999912', 'execId': '60fbc8c4-8e7c-42c9-9712-cd0b5a741e0b', 'marketUnit': '', 'execQty': '20496', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 01.09.2025 17:25:52
