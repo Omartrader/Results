@@ -10521,3 +10521,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 01.09.2025 08:45:43
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 08:50:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+LTCUSDT    |  -6.41 |  35.96
+Last close price for LTCUSDT: 107.37
+Opening Sell for  LTCUSDT
+TP: 106.83315
+SL: 108.4437
+TS: 1.0737
+Order Quantity: 93.14
+Adjusted qty: 93.10000000000001
+Final Adjusted qty: 93.1
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9dff7060-da9f-489f-aa16-5f451046c962', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756702229612}
+9dff7060-da9f-489f-aa16-5f451046c962
+fetching trade data for :  9dff7060-da9f-489f-aa16-5f451046c962
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9dff7060-da9f-489f-aa16-5f451046c962', 'stopOrderType': 'UNKNOWN', 'execTime': '1756702229612', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '107.38', 'execPrice': '107.37', 'markIv': '', 'orderQty': '93.1', 'orderPrice': '102.02', 'execValue': '9996.147', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484951772, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49788085', 'execId': '7d6eae42-196e-4b29-a59d-2e9fd2f809cb', 'marketUnit': '', 'execQty': '93.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 08:50:35
