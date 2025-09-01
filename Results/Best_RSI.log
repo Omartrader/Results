@@ -16469,3 +16469,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 02.09.2025 01:55:57
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 02:00:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+INJUSDT    |   6.60 |  36.42
+Last close price for INJUSDT: 12.256
+Opening Buy for  INJUSDT
+TP: 12.317279999999998
+SL: 12.13344
+TS: 0.12256
+Order Quantity: 815.93
+Adjusted qty: 815.9000000000001
+Final Adjusted qty: 815.9
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b3986e94-cb02-42b5-90f5-262c4f79d51a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756764038772}
+b3986e94-cb02-42b5-90f5-262c4f79d51a
+fetching trade data for :  b3986e94-cb02-42b5-90f5-262c4f79d51a
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   |   4.01 |  33.22
+Last close price for HYPEUSDT: 42.939
+Opening Buy for  HYPEUSDT
+TP: 43.153695
+SL: 42.50961
+TS: 0.42939
+Order Quantity: 232.89
+Adjusted qty: 232.89000000000001
+Final Adjusted qty: 232.89
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '04734fa9-1fbd-4f88-adab-83ff1430fde5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756764047027}
+04734fa9-1fbd-4f88-adab-83ff1430fde5
+fetching trade data for :  04734fa9-1fbd-4f88-adab-83ff1430fde5
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '04734fa9-1fbd-4f88-adab-83ff1430fde5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756764047027', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '42.954', 'execPrice': '42.937', 'markIv': '', 'orderQty': '232.89', 'orderPrice': '55.84', 'execValue': '9999.59793', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486849591, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49977887', 'execId': '0002a4af-573b-446d-80a2-47887503363b', 'marketUnit': '', 'execQty': '232.89', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 02:00:52
