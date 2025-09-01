@@ -9403,3 +9403,65 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 01.09.2025 06:10:36
+***************************************************************
+Number of open positions: 7
+Function started at 01.09.2025 06:15:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AAVEUSDT   | -11.11 |  36.69
+Last close price for AAVEUSDT: 312.3
+Opening Sell for  AAVEUSDT
+TP: 310.7385
+SL: 315.423
+TS: 3.123
+Order Quantity: 32.02
+Adjusted qty: 32.02
+Final Adjusted qty: 32.02
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '88000838-629c-43b3-92e6-47f83c390abb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756692929135}
+88000838-629c-43b3-92e6-47f83c390abb
+fetching trade data for :  88000838-629c-43b3-92e6-47f83c390abb
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHUSDT    | -10.94 |  42.63
+Last close price for ETHUSDT: 4387.87
+Opening Sell for  ETHUSDT
+TP: 4365.93065
+SL: 4431.7487
+TS: 43.8787
+Order Quantity: 2.28
+Adjusted qty: 2.2800000000000002
+Final Adjusted qty: 2.28
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '38457196-b51e-42f6-af1a-946d0ee59583', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756692936504}
+38457196-b51e-42f6-af1a-946d0ee59583
+fetching trade data for :  38457196-b51e-42f6-af1a-946d0ee59583
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '38457196-b51e-42f6-af1a-946d0ee59583', 'stopOrderType': 'UNKNOWN', 'execTime': '1756692936504', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4388.12', 'execPrice': '4387.8', 'markIv': '', 'orderQty': '2.28', 'orderPrice': '4300.36', 'execValue': '10004.184', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484668762, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5023012', 'execId': '774e3238-79c6-4ff5-84c4-ab14c54db1bc', 'marketUnit': '', 'execQty': '2.28', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    |  -8.98 |  40.45
+Last close price for ETCUSDT: 20.558
+Opening Sell for  ETCUSDT
+TP: 20.45521
+SL: 20.76358
+TS: 0.20557999999999998
+Order Quantity: 486.43
+Adjusted qty: 486.40000000000003
+Final Adjusted qty: 486.4
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0375c85e-e90d-4391-8d3f-92f7ba5293da', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756692943595}
+0375c85e-e90d-4391-8d3f-92f7ba5293da
+fetching trade data for :  0375c85e-e90d-4391-8d3f-92f7ba5293da
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0375c85e-e90d-4391-8d3f-92f7ba5293da', 'stopOrderType': 'UNKNOWN', 'execTime': '1756692943595', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.561', 'execPrice': '20.559', 'markIv': '', 'orderQty': '486.4', 'orderPrice': '19.533', 'execValue': '9999.8976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484669058, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994368', 'execId': '4c089b7e-583d-4e36-bd7a-940a67571124', 'marketUnit': '', 'execQty': '486.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 01.09.2025 06:15:49
