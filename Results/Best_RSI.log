@@ -9647,3 +9647,60 @@ Function started at 01.09.2025 06:35:10
 SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 Function finished at 01.09.2025 06:35:35
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 06:40:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ETHUSDT    |  -5.89 |  38.65
+Last close price for ETHUSDT: 4379.76
+Opening Sell for  ETHUSDT
+TP: 4357.8612
+SL: 4423.5576
+TS: 43.7976
+Order Quantity: 2.28
+Adjusted qty: 2.2800000000000002
+Final Adjusted qty: 2.28
+724.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    |  -4.95 |  32.04
+Last close price for WLDUSDT: 0.8671
+Opening Sell for  WLDUSDT
+TP: 0.8627644999999999
+SL: 0.875771
+TS: 0.008671
+Order Quantity: 11532.7
+Adjusted qty: 11532.7
+Final Adjusted qty: 11532.7
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '426bd095-9438-4c97-96b7-fa7261e40352', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756694441886}
+426bd095-9438-4c97-96b7-fa7261e40352
+fetching trade data for :  426bd095-9438-4c97-96b7-fa7261e40352
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    |  -4.69 |  34.69
+Last close price for TIAUSDT: 1.568
+Opening Sell for  TIAUSDT
+TP: 1.56016
+SL: 1.58368
+TS: 0.01568
+Order Quantity: 6377.55
+Adjusted qty: 6377.6
+Final Adjusted qty: 6377.5
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c79c34ec-a56e-44a1-b7f3-06e113061f52', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756694450554}
+c79c34ec-a56e-44a1-b7f3-06e113061f52
+fetching trade data for :  c79c34ec-a56e-44a1-b7f3-06e113061f52
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c79c34ec-a56e-44a1-b7f3-06e113061f52', 'stopOrderType': 'UNKNOWN', 'execTime': '1756694450553', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.568', 'execPrice': '1.568', 'markIv': '', 'orderQty': '6377.5', 'orderPrice': '1.49', 'execValue': '9999.92', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484715476, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499956', 'execId': 'de255239-75f6-437e-8d22-4e2584f09e5b', 'marketUnit': '', 'execQty': '6377.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 06:40:57
