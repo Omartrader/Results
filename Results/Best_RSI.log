@@ -12483,3 +12483,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  5
 Function finished at 01.09.2025 13:01:03
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 13:05:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+MNTUSDT    |  -4.11 |  62.82
+Last close price for MNTUSDT: 1.1748
+Opening Sell for  MNTUSDT
+TP: 1.1689260000000001
+SL: 1.1865480000000002
+TS: 0.011748000000000001
+Order Quantity: 8512.09
+Adjusted qty: 8512.0
+Final Adjusted qty: 8512.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f06e7d2c-1cf2-44b5-baaf-8642fc4e2d09', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756717541496}
+f06e7d2c-1cf2-44b5-baaf-8642fc4e2d09
+fetching trade data for :  f06e7d2c-1cf2-44b5-baaf-8642fc4e2d09
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f06e7d2c-1cf2-44b5-baaf-8642fc4e2d09', 'stopOrderType': 'UNKNOWN', 'execTime': '1756717541495', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1748', 'execPrice': '1.1748', 'markIv': '', 'orderQty': '8512', 'orderPrice': '1.0574', 'execValue': '9999.8976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485422351, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994368', 'execId': '992aa29e-5eca-4dd6-9b4d-c9eadef7070b', 'marketUnit': '', 'execQty': '8512', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    |   3.82 |  75.34
+Last close price for LTCUSDT: 111.19
+Opening Buy for  LTCUSDT
+TP: 111.74594999999998
+SL: 110.07809999999999
+TS: 1.1118999999999999
+Order Quantity: 89.94
+Adjusted qty: 89.9
+Final Adjusted qty: 89.9
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1db8998e-1164-400e-9149-aed598995faf', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756717549795}
+1db8998e-1164-400e-9149-aed598995faf
+fetching trade data for :  1db8998e-1164-400e-9149-aed598995faf
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1db8998e-1164-400e-9149-aed598995faf', 'stopOrderType': 'UNKNOWN', 'execTime': '1756717549795', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '111.2', 'execPrice': '111.21', 'markIv': '', 'orderQty': '89.9', 'orderPrice': '116.76', 'execValue': '9997.779', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485422674, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49877845', 'execId': 'f64902f3-0785-4187-b25d-ed69d7879423', 'marketUnit': '', 'execQty': '89.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 13:05:54
