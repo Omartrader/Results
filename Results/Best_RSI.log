@@ -15584,3 +15584,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 01.09.2025 23:25:37
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 23:30:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ARBUSDT    |  -9.31 |  45.62
+Last close price for ARBUSDT: 0.4863
+Opening Sell for  ARBUSDT
+TP: 0.48386850000000003
+SL: 0.491163
+TS: 0.004863
+Order Quantity: 20563.44
+Adjusted qty: 20563.4
+Final Adjusted qty: 20563.4
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '90144a2b-be41-47bb-a8a3-754f843b4ff4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756755029735}
+90144a2b-be41-47bb-a8a3-754f843b4ff4
+fetching trade data for :  90144a2b-be41-47bb-a8a3-754f843b4ff4
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '90144a2b-be41-47bb-a8a3-754f843b4ff4', 'stopOrderType': 'UNKNOWN', 'execTime': '1756755029734', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4863', 'execPrice': '0.4863', 'markIv': '', 'orderQty': '20563.4', 'orderPrice': '0.462', 'execValue': '9999.98142', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486570138, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998979', 'execId': 'd52cec1a-e530-42a4-bb97-19eff7309e61', 'marketUnit': '', 'execQty': '20563.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    |  -8.77 |  47.84
+Last close price for VETUSDT: 0.02363
+Opening Sell for  VETUSDT
+TP: 0.02351185
+SL: 0.023866300000000003
+TS: 0.00023630000000000002
+Order Quantity: 423190.86
+Adjusted qty: 423191.0
+Final Adjusted qty: 423190.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ee6db9e0-8ed1-436d-81f6-e38b28247bab', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756755036886}
+ee6db9e0-8ed1-436d-81f6-e38b28247bab
+fetching trade data for :  ee6db9e0-8ed1-436d-81f6-e38b28247bab
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ee6db9e0-8ed1-436d-81f6-e38b28247bab', 'stopOrderType': 'UNKNOWN', 'execTime': '1756755036885', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02364', 'execPrice': '0.02363', 'markIv': '', 'orderQty': '423190', 'orderPrice': '0.02246', 'execValue': '9999.9797', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486570345, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998884', 'execId': '644f57f7-4c20-42bd-a82b-276ca8a9e96b', 'marketUnit': '', 'execQty': '423190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 23:30:42
