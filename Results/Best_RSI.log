@@ -10141,3 +10141,42 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 01.09.2025 08:05:27
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 08:10:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AAVEUSDT   |   9.79 |  55.26
+Last close price for AAVEUSDT: 312.62
+Opening Buy for  AAVEUSDT
+TP: 314.18309999999997
+SL: 309.4938
+TS: 3.1262
+Order Quantity: 31.99
+Adjusted qty: 31.990000000000002
+Final Adjusted qty: 31.99
+2514.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARBUSDT    |   7.23 |  50.87
+Last close price for ARBUSDT: 0.4883
+Opening Buy for  ARBUSDT
+TP: 0.49074149999999994
+SL: 0.483417
+TS: 0.004883
+Order Quantity: 20479.21
+Adjusted qty: 20479.2
+Final Adjusted qty: 20479.2
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7799d08d-2735-47c2-b78b-51281cb4a8d5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756699837664}
+7799d08d-2735-47c2-b78b-51281cb4a8d5
+fetching trade data for :  7799d08d-2735-47c2-b78b-51281cb4a8d5
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7799d08d-2735-47c2-b78b-51281cb4a8d5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756699837664', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4883', 'execPrice': '0.4883', 'markIv': '', 'orderQty': '20479.2', 'orderPrice': '0.5127', 'execValue': '9999.99336', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484878362, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999635', 'execId': 'd6cdd723-68a3-4ae3-bbbf-29d0307f5a78', 'marketUnit': '', 'execQty': '20479.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 08:10:43
