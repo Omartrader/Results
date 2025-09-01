@@ -11686,3 +11686,29 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 01.09.2025 11:41:51
+***************************************************************
+Number of open positions: 9
+Function started at 01.09.2025 11:45:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+RENDERUSDT |  10.36 |  74.17
+Last close price for RENDERUSDT: 3.41
+Opening Buy for  RENDERUSDT
+TP: 3.42705
+SL: 3.3759
+TS: 0.0341
+Order Quantity: 2932.55
+Adjusted qty: 2932.6000000000004
+Final Adjusted qty: 2932.5
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '75c6d8b7-e20a-42cf-8828-a4675d4d870a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756712730482}
+75c6d8b7-e20a-42cf-8828-a4675d4d870a
+fetching trade data for :  75c6d8b7-e20a-42cf-8828-a4675d4d870a
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '75c6d8b7-e20a-42cf-8828-a4675d4d870a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756712730482', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.411', 'execPrice': '3.41', 'markIv': '', 'orderQty': '2932.5', 'orderPrice': '3.581', 'execValue': '9999.825', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485270123, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990375', 'execId': 'd019c1e3-6912-457d-ba91-fe1ea29e2c8a', 'marketUnit': '', 'execQty': '2932.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 01.09.2025 11:45:34
