@@ -9094,3 +9094,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 05:15:43
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 05:20:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+IPUSDT     |   9.74 |  59.37
+Last close price for IPUSDT: 7.9916
+Opening Buy for  IPUSDT
+TP: 8.031557999999999
+SL: 7.911684
+TS: 0.079916
+Order Quantity: 1251.31
+Adjusted qty: 1251.3000000000002
+Final Adjusted qty: 1251.3
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c2e36ff3-8d2c-4011-8721-00f0017b40c4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756689638983}
+c2e36ff3-8d2c-4011-8721-00f0017b40c4
+fetching trade data for :  c2e36ff3-8d2c-4011-8721-00f0017b40c4
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c2e36ff3-8d2c-4011-8721-00f0017b40c4', 'stopOrderType': 'UNKNOWN', 'execTime': '1756689638982', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.9916', 'execPrice': '7.9854', 'markIv': '', 'orderQty': '1251.3', 'orderPrice': '8.7907', 'execValue': '9992.13102', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484570823, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49567207', 'execId': 'b3b0fca5-0685-4f9d-8031-d57191774aeb', 'marketUnit': '', 'execQty': '1251.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHUSDT    |   4.97 |  50.31
+Last close price for ETHUSDT: 4399.6
+Opening Buy for  ETHUSDT
+TP: 4421.598
+SL: 4355.604
+TS: 43.996
+Order Quantity: 2.27
+Adjusted qty: 2.27
+Final Adjusted qty: 2.27
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '14300f7b-963a-4b9a-9798-8a4b24430ab5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756689647401}
+14300f7b-963a-4b9a-9798-8a4b24430ab5
+fetching trade data for :  14300f7b-963a-4b9a-9798-8a4b24430ab5
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '14300f7b-963a-4b9a-9798-8a4b24430ab5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756689647401', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4399.6', 'execPrice': '4399.6', 'markIv': '', 'orderQty': '2.27', 'orderPrice': '4487.59', 'execValue': '9987.092', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710484571061, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4929006', 'execId': '8de65ccf-4520-4d2b-9f3c-37fa71d8d042', 'marketUnit': '', 'execQty': '2.27', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 05:20:53
