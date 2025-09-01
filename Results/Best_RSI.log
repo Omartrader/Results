@@ -12323,3 +12323,65 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 12:50:46
+***************************************************************
+Number of open positions: 7
+Function started at 01.09.2025 12:55:12
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FILUSDT    |   5.65 |  71.87
+Last close price for FILUSDT: 2.468
+Opening Buy for  FILUSDT
+TP: 2.4803399999999995
+SL: 2.44332
+TS: 0.02468
+Order Quantity: 4051.86
+Adjusted qty: 4051.9
+Final Adjusted qty: 4051.8
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c4a62776-08a5-43b5-b5d7-fc10a97181ee', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756716943134}
+c4a62776-08a5-43b5-b5d7-fc10a97181ee
+fetching trade data for :  c4a62776-08a5-43b5-b5d7-fc10a97181ee
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SKYUSDT    |   5.20 |  69.27
+Last close price for SKYUSDT: 0.06487
+Opening Buy for  SKYUSDT
+TP: 0.06519434999999998
+SL: 0.0642213
+TS: 0.0006487
+Order Quantity: 154154.46
+Adjusted qty: 154150.0
+Final Adjusted qty: 154150.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ac934325-428e-4f49-8949-f85bb12d161f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756716951404}
+ac934325-428e-4f49-8949-f85bb12d161f
+fetching trade data for :  ac934325-428e-4f49-8949-f85bb12d161f
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ac934325-428e-4f49-8949-f85bb12d161f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756716951404', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.06487', 'execPrice': '0.06487', 'markIv': '', 'orderQty': '154150', 'orderPrice': '0.0746', 'execValue': '9999.7105', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485403795, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49984078', 'execId': '9abfcc4a-36fb-4ef1-9bc5-710c1c9088a2', 'marketUnit': '', 'execQty': '154150', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    |   3.76 |  79.39
+Last close price for ICPUSDT: 4.891
+Opening Buy for  ICPUSDT
+TP: 4.915455
+SL: 4.84209
+TS: 0.04891
+Order Quantity: 2044.57
+Adjusted qty: 2044.6000000000001
+Final Adjusted qty: 2044.5
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '20ea8927-300a-43c9-9520-28efebfe934e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756716959446}
+20ea8927-300a-43c9-9520-28efebfe934e
+fetching trade data for :  20ea8927-300a-43c9-9520-28efebfe934e
+[{'symbol': 'ICPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '20ea8927-300a-43c9-9520-28efebfe934e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756716959445', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.892', 'execPrice': '4.891', 'markIv': '', 'orderQty': '2044.5', 'orderPrice': '5.136', 'execValue': '9999.6495', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710485404065, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49980723', 'execId': '7fdd1c7d-22fb-485a-80c9-f52b9bfed177', 'marketUnit': '', 'execQty': '2044.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 01.09.2025 12:56:04
