@@ -15086,3 +15086,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 01.09.2025 21:35:48
+***************************************************************
+Number of open positions: 8
+Function started at 01.09.2025 21:40:11
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+VETUSDT    |  -7.82 |  28.86
+Last close price for VETUSDT: 0.02348
+Opening Sell for  VETUSDT
+TP: 0.0233626
+SL: 0.0237148
+TS: 0.00023480000000000002
+Order Quantity: 425894.38
+Adjusted qty: 425894.0
+Final Adjusted qty: 425894.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b0e4d82a-3fe9-4d04-9cc1-e90f42c7b299', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756748441737}
+b0e4d82a-3fe9-4d04-9cc1-e90f42c7b299
+fetching trade data for :  b0e4d82a-3fe9-4d04-9cc1-e90f42c7b299
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b0e4d82a-3fe9-4d04-9cc1-e90f42c7b299', 'stopOrderType': 'UNKNOWN', 'execTime': '1756748441737', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02348', 'execPrice': '0.02348', 'markIv': '', 'orderQty': '425894', 'orderPrice': '0.02231', 'execValue': '9999.99112', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486374188, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999512', 'execId': '281206d9-558b-4118-8bac-37343ed0a6e1', 'marketUnit': '', 'execQty': '425894', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SOLUSDT    |  -6.22 |  37.00
+Last close price for SOLUSDT: 197.51
+Opening Sell for  SOLUSDT
+TP: 196.52245
+SL: 199.4851
+TS: 1.9750999999999999
+Order Quantity: 50.63
+Adjusted qty: 50.6
+Final Adjusted qty: 50.6
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8d071a00-3c05-4a78-a2c7-1e4201ec9578', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756748450458}
+8d071a00-3c05-4a78-a2c7-1e4201ec9578
+fetching trade data for :  8d071a00-3c05-4a78-a2c7-1e4201ec9578
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8d071a00-3c05-4a78-a2c7-1e4201ec9578', 'stopOrderType': 'UNKNOWN', 'execTime': '1756748450458', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '197.5', 'execPrice': '197.5', 'markIv': '', 'orderQty': '50.6', 'orderPrice': '187.63', 'execValue': '9993.5', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710486374430, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.496425', 'execId': 'd24a76c2-0f33-473c-bee1-1f8ab6fea65f', 'marketUnit': '', 'execQty': '50.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 01.09.2025 21:40:55
