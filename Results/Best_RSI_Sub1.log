@@ -8164,3 +8164,60 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 01:06:02
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 01:10:33
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+IPUSDT     |  -8.58 |  47.46
+Last close price for IPUSDT: 7.8186
+Opening Sell for  IPUSDT
+TP: 7.779507
+SL: 7.857692999999999
+TS: 0.039093
+Order Quantity: 1279.0
+Adjusted qty: 1279.0
+Final Adjusted qty: 1279.0
+2400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HYPEUSDT   |   4.94 |  68.17
+Last close price for HYPEUSDT: 44.587
+Opening Buy for  HYPEUSDT
+TP: 44.809934999999996
+SL: 44.364065000000004
+TS: 0.22293500000000002
+Order Quantity: 224.28
+Adjusted qty: 224.28
+Final Adjusted qty: 224.28
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0bc98141-bc16-4ea6-afb0-2cb8701f14bd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756847466249}
+0bc98141-bc16-4ea6-afb0-2cb8701f14bd
+fetching trade data for :  0bc98141-bc16-4ea6-afb0-2cb8701f14bd
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0bc98141-bc16-4ea6-afb0-2cb8701f14bd', 'stopOrderType': 'UNKNOWN', 'execTime': '1756847466249', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '44.583', 'execPrice': '44.584', 'markIv': '', 'orderQty': '224.28', 'orderPrice': '57.957', 'execValue': '9999.29952', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180449994, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49961474', 'execId': '2dc4cecf-3826-4668-8002-81eb4b6e80f2', 'marketUnit': '', 'execQty': '224.28', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    |   4.08 |  70.56
+Last close price for FILUSDT: 2.272
+Opening Buy for  FILUSDT
+TP: 2.2833599999999996
+SL: 2.26064
+TS: 0.011359999999999999
+Order Quantity: 4401.41
+Adjusted qty: 4401.400000000001
+Final Adjusted qty: 4401.4
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '95437309-4574-45f1-8896-7857cc7bbd7f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756847474791}
+95437309-4574-45f1-8896-7857cc7bbd7f
+fetching trade data for :  95437309-4574-45f1-8896-7857cc7bbd7f
+[{'symbol': 'FILUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '95437309-4574-45f1-8896-7857cc7bbd7f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756847474791', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.272', 'execPrice': '2.272', 'markIv': '', 'orderQty': '4401.4', 'orderPrice': '2.385', 'execValue': '9999.9808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180450283, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998944', 'execId': '89e3922f-e912-40fa-bf6e-39893b1063b2', 'marketUnit': '', 'execQty': '4401.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 01:11:19
