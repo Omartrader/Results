@@ -21429,3 +21429,65 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 02.09.2025 17:05:52
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 17:10:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FORMUSDT   |  -3.90 |  37.01
+Last close price for FORMUSDT: 3.3047
+Opening Sell for  FORMUSDT
+TP: 3.2881765
+SL: 3.337747
+TS: 0.033047
+Order Quantity: 3025.99
+Adjusted qty: 3026.0
+Final Adjusted qty: 3025.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6fd17b19-258e-48de-8e17-aad9f780684a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756818627660}
+6fd17b19-258e-48de-8e17-aad9f780684a
+fetching trade data for :  6fd17b19-258e-48de-8e17-aad9f780684a
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6fd17b19-258e-48de-8e17-aad9f780684a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756818627660', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.3044', 'execPrice': '3.3047', 'markIv': '', 'orderQty': '2850', 'orderPrice': '2.8088', 'execValue': '9418.395', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488497332, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.18011725', 'execId': 'e4b6d52f-97ca-4871-81e4-4c1a6d9081f4', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLRUSDT    |   3.82 |  32.61
+Last close price for FLRUSDT: 0.02077
+Opening Buy for  FLRUSDT
+TP: 0.02087385
+SL: 0.0205623
+TS: 0.0002077
+Order Quantity: 481463.65
+Adjusted qty: 481460.0
+Final Adjusted qty: 481460.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f6050eab-829a-4b6b-a1d5-ac823366bead', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756818634665}
+f6050eab-829a-4b6b-a1d5-ac823366bead
+fetching trade data for :  f6050eab-829a-4b6b-a1d5-ac823366bead
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   |   3.48 |  31.23
+Last close price for HYPEUSDT: 43.613
+Opening Buy for  HYPEUSDT
+TP: 43.831064999999995
+SL: 43.17687
+TS: 0.43613
+Order Quantity: 229.29
+Adjusted qty: 229.29
+Final Adjusted qty: 229.29
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '01ae0829-cd1a-43fc-81eb-fc7210106fcc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756818641851}
+01ae0829-cd1a-43fc-81eb-fc7210106fcc
+fetching trade data for :  01ae0829-cd1a-43fc-81eb-fc7210106fcc
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '01ae0829-cd1a-43fc-81eb-fc7210106fcc', 'stopOrderType': 'UNKNOWN', 'execTime': '1756818641851', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '43.616', 'execPrice': '43.6', 'markIv': '', 'orderQty': '229.29', 'orderPrice': '56.7', 'execValue': '9997.044', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488497754, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4983742', 'execId': 'a6ae8a78-e237-40fc-af5c-59206603ded7', 'marketUnit': '', 'execQty': '229.29', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 17:10:45
