@@ -671,3 +671,83 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 02.09.2025 15:16:19
+***************************************************************
+Number of open positions: 6
+Function started at 02.09.2025 15:20:39
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+CROUSDT    | -12.68 |  34.59
+Last close price for CROUSDT: 0.26514
+Opening Sell for  CROUSDT
+TP: 0.2638143
+SL: 0.26646569999999997
+TS: 0.0013257
+Order Quantity: 37715.92
+Adjusted qty: 37716.0
+Final Adjusted qty: 37715.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a5f6ac55-2162-4809-b032-11806ff7d656', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756812068351}
+a5f6ac55-2162-4809-b032-11806ff7d656
+fetching trade data for :  a5f6ac55-2162-4809-b032-11806ff7d656
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a5f6ac55-2162-4809-b032-11806ff7d656', 'stopOrderType': 'UNKNOWN', 'execTime': '1756812068351', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.26514', 'execPrice': '0.26514', 'markIv': '', 'orderQty': '37715', 'orderPrice': '0.23863', 'execValue': '9999.7551', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179317454, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986531', 'execId': '3df15c01-81ca-4af5-9019-52a6f07fc0fd', 'marketUnit': '', 'execQty': '37715', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    |  -8.97 |  15.66
+Last close price for XDCUSDT: 0.0764
+Opening Sell for  XDCUSDT
+TP: 0.076018
+SL: 0.07678199999999999
+TS: 0.00038199999999999996
+Order Quantity: 130890.05
+Adjusted qty: 130890.0
+Final Adjusted qty: 130890.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f00682cb-69bb-45e7-b96b-140653a3d2d3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756812076399}
+f00682cb-69bb-45e7-b96b-140653a3d2d3
+fetching trade data for :  f00682cb-69bb-45e7-b96b-140653a3d2d3
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f00682cb-69bb-45e7-b96b-140653a3d2d3', 'stopOrderType': 'UNKNOWN', 'execTime': '1756812076398', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07642', 'execPrice': '0.0764', 'markIv': '', 'orderQty': '130890', 'orderPrice': '0.06114', 'execValue': '9999.996', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179317720, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999956', 'execId': '5a10a7ca-2364-4450-9111-adf08633f0be', 'marketUnit': '', 'execQty': '130890', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SEIUSDT    |  -8.54 |  51.43
+Last close price for SEIUSDT: 0.2825
+Opening Sell for  SEIUSDT
+TP: 0.2810875
+SL: 0.28391249999999996
+TS: 0.0014125
+Order Quantity: 35398.23
+Adjusted qty: 35398.0
+Final Adjusted qty: 35398.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f5df2916-c50d-4096-a95b-f20a83dcd877', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756812084512}
+f5df2916-c50d-4096-a95b-f20a83dcd877
+fetching trade data for :  f5df2916-c50d-4096-a95b-f20a83dcd877
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT |  -8.52 |  43.45
+Last close price for RENDERUSDT: 3.415
+Opening Sell for  RENDERUSDT
+TP: 3.397925
+SL: 3.4320749999999998
+TS: 0.017075
+Order Quantity: 2928.26
+Adjusted qty: 2928.3
+Final Adjusted qty: 2928.2
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dea7a387-548c-4270-965b-220c3e719483', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756812093102}
+dea7a387-548c-4270-965b-220c3e719483
+fetching trade data for :  dea7a387-548c-4270-965b-220c3e719483
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  4
+Function finished at 02.09.2025 15:21:38
