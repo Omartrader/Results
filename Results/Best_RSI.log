@@ -23926,3 +23926,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 02.09.2025 22:51:00
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 23:00:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TRUMPUSDT  |  12.38 |  63.58
+Last close price for TRUMPUSDT: 8.379
+Opening Buy for  TRUMPUSDT
+TP: 8.420894999999998
+SL: 8.295209999999999
+TS: 0.08378999999999999
+Order Quantity: 1193.46
+Adjusted qty: 1193.5
+Final Adjusted qty: 1193.4
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+CROUSDT    |   9.22 |  41.52
+Last close price for CROUSDT: 0.25072
+Opening Buy for  CROUSDT
+TP: 0.25197359999999996
+SL: 0.24821279999999998
+TS: 0.0025072
+Order Quantity: 39885.13
+Adjusted qty: 39885.0
+Final Adjusted qty: 39885.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '02e42a13-eeed-4b39-b8ca-dec51fd8a13f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756839638423}
+02e42a13-eeed-4b39-b8ca-dec51fd8a13f
+fetching trade data for :  02e42a13-eeed-4b39-b8ca-dec51fd8a13f
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '02e42a13-eeed-4b39-b8ca-dec51fd8a13f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756839638424', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.25072', 'execPrice': '0.25072', 'markIv': '', 'orderQty': '39885', 'orderPrice': '0.27579', 'execValue': '9999.9672', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710489156181, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998196', 'execId': '454bde63-dca6-4c9e-9f26-82628bf5919b', 'marketUnit': '', 'execQty': '39885', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    |   8.78 |  52.32
+Last close price for KASUSDT: 0.08351
+Opening Buy for  KASUSDT
+TP: 0.08392754999999999
+SL: 0.0826749
+TS: 0.0008351
+Order Quantity: 119746.14
+Adjusted qty: 119750.0
+Final Adjusted qty: 119740.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ec1b7262-1f5e-41c5-9af6-c41b8ede11b7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756839646933}
+ec1b7262-1f5e-41c5-9af6-c41b8ede11b7
+fetching trade data for :  ec1b7262-1f5e-41c5-9af6-c41b8ede11b7
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 23:00:52
