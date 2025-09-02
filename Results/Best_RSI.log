@@ -23080,3 +23080,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 20:20:43
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 20:25:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+KASUSDT    |  -3.38 |  33.89
+Last close price for KASUSDT: 0.08287
+Opening Sell for  KASUSDT
+TP: 0.08245565
+SL: 0.0836987
+TS: 0.0008287
+Order Quantity: 120670.93
+Adjusted qty: 120670.0
+Final Adjusted qty: 120670.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd0ac0464-d66a-47f0-9428-15941e3e5b62', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756830326415}
+d0ac0464-d66a-47f0-9428-15941e3e5b62
+fetching trade data for :  d0ac0464-d66a-47f0-9428-15941e3e5b62
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd0ac0464-d66a-47f0-9428-15941e3e5b62', 'stopOrderType': 'UNKNOWN', 'execTime': '1756830326415', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08287', 'execPrice': '0.08287', 'markIv': '', 'orderQty': '120670', 'orderPrice': '0.07044', 'execValue': '9999.9229', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488871952, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999576', 'execId': '3f29747d-f6e2-4913-a33b-0a2fb2f2c554', 'marketUnit': '', 'execQty': '120670', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    |  -3.14 |  34.89
+Last close price for ADAUSDT: 0.8081
+Opening Sell for  ADAUSDT
+TP: 0.8040595
+SL: 0.816181
+TS: 0.008081
+Order Quantity: 12374.71
+Adjusted qty: 12375.0
+Final Adjusted qty: 12374.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f2afcaf7-0af2-4529-850c-aec91ed5c530', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756830333565}
+f2afcaf7-0af2-4529-850c-aec91ed5c530
+fetching trade data for :  f2afcaf7-0af2-4529-850c-aec91ed5c530
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 20:25:38
