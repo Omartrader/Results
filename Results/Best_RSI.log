@@ -20902,3 +20902,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  4
 Function finished at 02.09.2025 16:10:53
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 16:15:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+HYPEUSDT   |  -7.01 |  31.98
+Last close price for HYPEUSDT: 44.032
+Opening Sell for  HYPEUSDT
+TP: 43.81184
+SL: 44.472319999999996
+TS: 0.44032
+Order Quantity: 227.11
+Adjusted qty: 227.11
+Final Adjusted qty: 227.11
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLFIUSDT   |  -6.87 |  29.58
+Last close price for WLFIUSDT: 0.2343
+Opening Sell for  WLFIUSDT
+TP: 0.23312850000000002
+SL: 0.23664300000000002
+TS: 0.002343
+Order Quantity: 42680.32
+Adjusted qty: 42680.0
+Final Adjusted qty: 42680.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bc9ace0a-d9ee-4175-863f-d2b7c2f19795', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756815339400}
+bc9ace0a-d9ee-4175-863f-d2b7c2f19795
+fetching trade data for :  bc9ace0a-d9ee-4175-863f-d2b7c2f19795
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bc9ace0a-d9ee-4175-863f-d2b7c2f19795', 'stopOrderType': 'UNKNOWN', 'execTime': '1756815339400', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2341', 'execPrice': '0.234', 'markIv': '', 'orderQty': '42680', 'orderPrice': '0.199', 'execValue': '9987.12', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488390832, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.492916', 'execId': '88a7fff4-33e8-4ce9-87e4-8b431d192fef', 'marketUnit': '', 'execQty': '42680', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLRUSDT    |  -6.43 |  43.80
+Last close price for FLRUSDT: 0.0209
+Opening Sell for  FLRUSDT
+TP: 0.020795499999999998
+SL: 0.021109
+TS: 0.00020899999999999998
+Order Quantity: 478468.9
+Adjusted qty: 478470.0
+Final Adjusted qty: 478460.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '99192275-6b69-4130-93eb-a30e5901e8a3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756815347999}
+99192275-6b69-4130-93eb-a30e5901e8a3
+fetching trade data for :  99192275-6b69-4130-93eb-a30e5901e8a3
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 16:15:52
