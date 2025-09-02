@@ -5676,3 +5676,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 02.09.2025 21:16:27
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 21:20:36
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FORMUSDT   |   4.03 |  64.58
+Last close price for FORMUSDT: 3.3852
+Opening Buy for  FORMUSDT
+TP: 3.402126
+SL: 3.368274
+TS: 0.016926
+Order Quantity: 2954.04
+Adjusted qty: 2954.0
+Final Adjusted qty: 2954.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b430c68c-c99a-40bb-887d-dd62847ffef9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756833665932}
+b430c68c-c99a-40bb-887d-dd62847ffef9
+fetching trade data for :  b430c68c-c99a-40bb-887d-dd62847ffef9
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b430c68c-c99a-40bb-887d-dd62847ffef9', 'stopOrderType': 'UNKNOWN', 'execTime': '1756833665932', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.3852', 'execPrice': '3.3863', 'markIv': '', 'orderQty': '2850', 'orderPrice': '3.8929', 'execValue': '9650.955', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180018357, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.30802525', 'execId': 'afcd75fe-0301-4f61-9e69-df328f79f83c', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 21:21:11
