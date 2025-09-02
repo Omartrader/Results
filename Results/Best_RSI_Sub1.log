@@ -6398,3 +6398,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 22:26:22
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 22:30:39
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FORMUSDT   |  -8.20 |  39.80
+Last close price for FORMUSDT: 3.3432
+Opening Sell for  FORMUSDT
+TP: 3.3264839999999998
+SL: 3.3599159999999997
+TS: 0.016715999999999998
+Order Quantity: 2991.15
+Adjusted qty: 2991.0
+Final Adjusted qty: 2991.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e9fbd8c3-b899-4259-8922-9dd9d8048779', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756837869651}
+e9fbd8c3-b899-4259-8922-9dd9d8048779
+fetching trade data for :  e9fbd8c3-b899-4259-8922-9dd9d8048779
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   |   6.45 |  68.83
+Last close price for ONDOUSDT: 0.9283
+Opening Buy for  ONDOUSDT
+TP: 0.9329414999999999
+SL: 0.9236585
+TS: 0.0046415
+Order Quantity: 10772.38
+Adjusted qty: 10772.0
+Final Adjusted qty: 10772.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '54bf19c0-173a-4596-b152-b31f2adb85b9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756837877770}
+54bf19c0-173a-4596-b152-b31f2adb85b9
+fetching trade data for :  54bf19c0-173a-4596-b152-b31f2adb85b9
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '54bf19c0-173a-4596-b152-b31f2adb85b9', 'stopOrderType': 'UNKNOWN', 'execTime': '1756837877770', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9285', 'execPrice': '0.9283', 'markIv': '', 'orderQty': '10772', 'orderPrice': '0.9749', 'execValue': '9999.6476', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180149613, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49980618', 'execId': '2ebaf2ff-f7f6-42a5-8159-5ef2fc6de0a9', 'marketUnit': '', 'execQty': '10772', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 22:31:23
