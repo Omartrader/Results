@@ -5833,3 +5833,65 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 02.09.2025 21:36:11
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 21:40:49
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+IPUSDT     |  -9.75 |  61.00
+Last close price for IPUSDT: 7.835
+Opening Sell for  IPUSDT
+TP: 7.795825
+SL: 7.874174999999999
+TS: 0.039175
+Order Quantity: 1276.32
+Adjusted qty: 1276.3000000000002
+Final Adjusted qty: 1276.3
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0f1e3242-7bef-4892-b9ac-4467ddb29c78', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756834869953}
+0f1e3242-7bef-4892-b9ac-4467ddb29c78
+fetching trade data for :  0f1e3242-7bef-4892-b9ac-4467ddb29c78
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    |   8.98 |  54.29
+Last close price for MNTUSDT: 1.1182
+Opening Buy for  MNTUSDT
+TP: 1.123791
+SL: 1.1126090000000002
+TS: 0.0055910000000000005
+Order Quantity: 8942.94
+Adjusted qty: 8943.0
+Final Adjusted qty: 8942.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2d2ebe0c-f9dc-418f-9350-42a884f7247f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756834877371}
+2d2ebe0c-f9dc-418f-9350-42a884f7247f
+fetching trade data for :  2d2ebe0c-f9dc-418f-9350-42a884f7247f
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2d2ebe0c-f9dc-418f-9350-42a884f7247f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756834877371', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.11843', 'execPrice': '1.1182', 'markIv': '', 'orderQty': '8942', 'orderPrice': '1.2302', 'execValue': '9998.9444', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180056504, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49941942', 'execId': '4a80175f-f8ca-4d99-9832-d1bdcfbc9262', 'marketUnit': '', 'execQty': '8942', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SKYUSDT    |   6.75 |  73.32
+Last close price for SKYUSDT: 0.07723
+Opening Buy for  SKYUSDT
+TP: 0.07761614999999998
+SL: 0.07684384999999999
+TS: 0.00038615
+Order Quantity: 129483.36
+Adjusted qty: 129480.0
+Final Adjusted qty: 129480.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '06813ae8-28eb-416f-90f6-611a52a0f1cc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756834884586}
+06813ae8-28eb-416f-90f6-611a52a0f1cc
+fetching trade data for :  06813ae8-28eb-416f-90f6-611a52a0f1cc
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 21:41:29
