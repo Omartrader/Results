@@ -8338,3 +8338,65 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 01:30:52
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 01:35:38
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ENAUSDT    |   7.83 |  72.10
+Last close price for ENAUSDT: 0.6934
+Opening Buy for  ENAUSDT
+TP: 0.6968669999999999
+SL: 0.689933
+TS: 0.003467
+Order Quantity: 14421.69
+Adjusted qty: 14422.0
+Final Adjusted qty: 14421.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f7e48975-856e-4d1a-849c-3d73118cc084', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756848967962}
+f7e48975-856e-4d1a-849c-3d73118cc084
+fetching trade data for :  f7e48975-856e-4d1a-849c-3d73118cc084
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f7e48975-856e-4d1a-849c-3d73118cc084', 'stopOrderType': 'UNKNOWN', 'execTime': '1756848967962', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.6934', 'execPrice': '0.6934', 'markIv': '', 'orderQty': '14421', 'orderPrice': '0.7627', 'execValue': '9999.5214', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180498279, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49973677', 'execId': '2b9d0cad-1a13-4745-961e-2c6aa2cb95e3', 'marketUnit': '', 'execQty': '14421', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |  -5.69 |  68.02
+Last close price for TONUSDT: 3.1743
+Opening Sell for  TONUSDT
+TP: 3.1584285000000003
+SL: 3.1901715
+TS: 0.0158715
+Order Quantity: 3150.3
+Adjusted qty: 3150.3
+Final Adjusted qty: 3150.3
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9025fdd9-d918-4e4d-9427-cb42c0b5c2bc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756848976130}
+9025fdd9-d918-4e4d-9427-cb42c0b5c2bc
+fetching trade data for :  9025fdd9-d918-4e4d-9427-cb42c0b5c2bc
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9025fdd9-d918-4e4d-9427-cb42c0b5c2bc', 'stopOrderType': 'UNKNOWN', 'execTime': '1756848976130', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1743', 'execPrice': '3.1743', 'markIv': '', 'orderQty': '3150.3', 'orderPrice': '3.0156', 'execValue': '9999.99729', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180498548, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999851', 'execId': 'a7b309ab-a70b-4517-ab57-694c4d1f3c1a', 'marketUnit': '', 'execQty': '3150.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLFIUSDT   |  -5.56 |  60.05
+Last close price for WLFIUSDT: 0.2348
+Opening Sell for  WLFIUSDT
+TP: 0.233626
+SL: 0.235974
+TS: 0.0011740000000000001
+Order Quantity: 42589.44
+Adjusted qty: 42589.0
+Final Adjusted qty: 42589.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a14632f3-c1c6-45fb-9d71-9fda081bcce2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756848984356}
+a14632f3-c1c6-45fb-9d71-9fda081bcce2
+fetching trade data for :  a14632f3-c1c6-45fb-9d71-9fda081bcce2
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 01:36:29
