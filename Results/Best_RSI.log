@@ -19626,3 +19626,28 @@ fetching trade data for :  9da21535-4e15-4de2-b9de-c72dfa8ebe14
 [{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9da21535-4e15-4de2-b9de-c72dfa8ebe14', 'stopOrderType': 'UNKNOWN', 'execTime': '1756799437699', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8542', 'execPrice': '0.8522', 'markIv': '', 'orderQty': '11723', 'orderPrice': '0.9823', 'execValue': '9990.3406', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487916050, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.98937466', 'execId': 'bd25dff3-e978-4f52-8877-eb82bfd19186', 'marketUnit': '', 'execQty': '11723', 'extraFees': ''}]
 Trades inserted successfully.
 None
+***************************************************************
+Number of open positions: 6
+Function started at 02.09.2025 11:55:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SKYUSDT    | -11.07 |  47.44
+Last close price for SKYUSDT: 0.06962
+Opening Sell for  SKYUSDT
+TP: 0.0692719
+SL: 0.0703162
+TS: 0.0006962
+Order Quantity: 143636.89
+Adjusted qty: 143640.0
+Final Adjusted qty: 143630.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '287eed64-d416-4cbc-9823-1bff02c7b0f5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756799740295}
+287eed64-d416-4cbc-9823-1bff02c7b0f5
+fetching trade data for :  287eed64-d416-4cbc-9823-1bff02c7b0f5
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '287eed64-d416-4cbc-9823-1bff02c7b0f5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756799740295', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.06966', 'execPrice': '0.06962', 'markIv': '', 'orderQty': '143630', 'orderPrice': '0.05922', 'execValue': '9999.5206', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487925483, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49973633', 'execId': 'aa87b789-770b-4078-aeb4-598b1596af33', 'marketUnit': '', 'execQty': '143630', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 11:55:46
