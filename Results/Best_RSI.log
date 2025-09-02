@@ -18598,3 +18598,78 @@ Function started at 02.09.2025 07:50:10
 SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 Function finished at 02.09.2025 07:50:29
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 07:55:08
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SKYUSDT    | -18.39 |  58.81
+Last close price for SKYUSDT: 0.06866
+Opening Sell for  SKYUSDT
+TP: 0.0683167
+SL: 0.0693466
+TS: 0.0006866
+Order Quantity: 145645.21
+Adjusted qty: 145650.0
+Final Adjusted qty: 145640.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e9dcc7f8-68f2-418d-8215-39b38c544b7d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756785330652}
+e9dcc7f8-68f2-418d-8215-39b38c544b7d
+fetching trade data for :  e9dcc7f8-68f2-418d-8215-39b38c544b7d
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e9dcc7f8-68f2-418d-8215-39b38c544b7d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756785330651', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.06864', 'execPrice': '0.06866', 'markIv': '', 'orderQty': '145640', 'orderPrice': '0.05835', 'execValue': '9999.6424', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487495819, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49980332', 'execId': 'd2519225-0dda-4f05-bea0-5ca2c1b2f1c5', 'marketUnit': '', 'execQty': '145640', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MUSDT      | -11.69 |  43.95
+Last close price for MUSDT: 0.8706
+Opening Sell for  MUSDT
+TP: 0.866247
+SL: 0.879306
+TS: 0.008706
+Order Quantity: 11486.33
+Adjusted qty: 11486.0
+Final Adjusted qty: 11486.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '469e00b5-e04f-4f0e-9922-5b4ad9cacf6f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756785338067}
+469e00b5-e04f-4f0e-9922-5b4ad9cacf6f
+fetching trade data for :  469e00b5-e04f-4f0e-9922-5b4ad9cacf6f
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |  -5.16 |  58.09
+Last close price for TONUSDT: 3.1351
+Opening Sell for  TONUSDT
+TP: 3.1194245
+SL: 3.166451
+TS: 0.031351
+Order Quantity: 3189.69
+Adjusted qty: 3189.7000000000003
+Final Adjusted qty: 3189.6
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ENAUSDT    |   3.65 |  75.03
+Last close price for ENAUSDT: 0.6788
+Opening Buy for  ENAUSDT
+TP: 0.6821939999999999
+SL: 0.6720119999999999
+TS: 0.006788
+Order Quantity: 14731.88
+Adjusted qty: 14732.0
+Final Adjusted qty: 14731.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bf988d6a-a32a-45cb-b833-7e1a7ea9b125', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756785346641}
+bf988d6a-a32a-45cb-b833-7e1a7ea9b125
+fetching trade data for :  bf988d6a-a32a-45cb-b833-7e1a7ea9b125
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bf988d6a-a32a-45cb-b833-7e1a7ea9b125', 'stopOrderType': 'UNKNOWN', 'execTime': '1756785346640', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.6787', 'execPrice': '0.6787', 'markIv': '', 'orderQty': '14731', 'orderPrice': '0.7465', 'execValue': '9997.9297', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487496285, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49886134', 'execId': 'a4a941b2-c0c6-4c37-a4df-8c051d964ffd', 'marketUnit': '', 'execQty': '14731', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 07:55:50
