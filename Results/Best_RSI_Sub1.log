@@ -499,3 +499,65 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 14:55:55
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 15:00:38
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+LTCUSDT    |  12.76 |  62.15
+Last close price for LTCUSDT: 110.87
+Opening Buy for  LTCUSDT
+TP: 111.42434999999999
+SL: 110.31565
+TS: 0.55435
+Order Quantity: 90.2
+Adjusted qty: 90.2
+Final Adjusted qty: 90.2
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ae154b45-cd9e-492a-bbb7-52fcbecc22da', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756810867874}
+ae154b45-cd9e-492a-bbb7-52fcbecc22da
+fetching trade data for :  ae154b45-cd9e-492a-bbb7-52fcbecc22da
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ae154b45-cd9e-492a-bbb7-52fcbecc22da', 'stopOrderType': 'UNKNOWN', 'execTime': '1756810867873', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '110.88', 'execPrice': '110.89', 'markIv': '', 'orderQty': '90.2', 'orderPrice': '116.42', 'execValue': '10002.278', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179280214, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5012529', 'execId': 'd1c85fb3-e242-4806-8443-7fb2c1b71e04', 'marketUnit': '', 'execQty': '90.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | -10.05 |  43.99
+Last close price for CROUSDT: 0.26716
+Opening Sell for  CROUSDT
+TP: 0.2658242
+SL: 0.2684958
+TS: 0.0013358
+Order Quantity: 37430.75
+Adjusted qty: 37431.0
+Final Adjusted qty: 37430.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c8345037-087e-40b4-87aa-9a90a9ef0a0a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756810876324}
+c8345037-087e-40b4-87aa-9a90a9ef0a0a
+fetching trade data for :  c8345037-087e-40b4-87aa-9a90a9ef0a0a
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   |   7.09 |  57.85
+Last close price for AAVEUSDT: 313.52
+Opening Buy for  AAVEUSDT
+TP: 315.08759999999995
+SL: 311.95239999999995
+TS: 1.5675999999999999
+Order Quantity: 31.9
+Adjusted qty: 31.900000000000002
+Final Adjusted qty: 31.9
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1b18ea02-054a-4c20-a284-d69c0e6b3f84', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756810884828}
+1b18ea02-054a-4c20-a284-d69c0e6b3f84
+fetching trade data for :  1b18ea02-054a-4c20-a284-d69c0e6b3f84
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1b18ea02-054a-4c20-a284-d69c0e6b3f84', 'stopOrderType': 'UNKNOWN', 'execTime': '1756810884827', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '313.53', 'execPrice': '313.53', 'markIv': '', 'orderQty': '31.9', 'orderPrice': '329.2', 'execValue': '10001.607', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179280740, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50088385', 'execId': 'e5fb502f-ed57-4758-accd-72015146907a', 'marketUnit': '', 'execQty': '31.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 15:01:29
