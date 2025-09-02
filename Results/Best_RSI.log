@@ -23671,3 +23671,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 22:05:31
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 22:10:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ATOMUSDT   | -10.44 |  39.86
+Last close price for ATOMUSDT: 4.371
+Opening Sell for  ATOMUSDT
+TP: 4.349145
+SL: 4.41471
+TS: 0.043710000000000006
+Order Quantity: 2287.81
+Adjusted qty: 2287.8
+Final Adjusted qty: 2287.8
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd904827b-d8a5-4ec5-a228-8686188cf40a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756836635938}
+d904827b-d8a5-4ec5-a228-8686188cf40a
+fetching trade data for :  d904827b-d8a5-4ec5-a228-8686188cf40a
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd904827b-d8a5-4ec5-a228-8686188cf40a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756836635938', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.372', 'execPrice': '4.371', 'markIv': '', 'orderQty': '2287.8', 'orderPrice': '4.154', 'execValue': '9999.9738', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710489063906, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998559', 'execId': 'f5a6890b-bca4-459a-bbeb-8bea280e1c2a', 'marketUnit': '', 'execQty': '2287.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 22:10:41
