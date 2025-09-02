@@ -18768,3 +18768,41 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 02.09.2025 08:05:36
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 08:10:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AAVEUSDT   |   3.51 |  68.04
+Last close price for AAVEUSDT: 311.05
+Opening Buy for  AAVEUSDT
+TP: 312.60524999999996
+SL: 307.9395
+TS: 3.1105
+Order Quantity: 32.15
+Adjusted qty: 32.15
+Final Adjusted qty: 32.15
+2514.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LTCUSDT    |   3.09 |  71.07
+Last close price for LTCUSDT: 110.43
+Opening Buy for  LTCUSDT
+TP: 110.98214999999999
+SL: 109.32570000000001
+TS: 1.1043
+Order Quantity: 90.56
+Adjusted qty: 90.60000000000001
+Final Adjusted qty: 90.5
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c263c636-fe91-405e-92fa-23c2f26b0745', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756786232867}
+c263c636-fe91-405e-92fa-23c2f26b0745
+fetching trade data for :  c263c636-fe91-405e-92fa-23c2f26b0745
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c263c636-fe91-405e-92fa-23c2f26b0745', 'stopOrderType': 'UNKNOWN', 'execTime': '1756786232867', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '110.43', 'execPrice': '110.43', 'markIv': '', 'orderQty': '90.5', 'orderPrice': '115.95', 'execValue': '9993.915', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487523189, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49665325', 'execId': 'e497c3ea-05af-47aa-bd4b-87afb1bf9774', 'marketUnit': '', 'execQty': '90.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 08:10:36
