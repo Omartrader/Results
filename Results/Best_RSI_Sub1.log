@@ -3653,3 +3653,97 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  4
 Function finished at 02.09.2025 18:41:33
+***************************************************************
+Number of open positions: 6
+Function started at 02.09.2025 18:45:39
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+INJUSDT    |  -8.99 |  60.25
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756824366968}
+Last close price for INJUSDT: 12.974
+Opening Sell for  INJUSDT
+TP: 12.90913
+SL: 13.03887
+TS: 0.06487
+Order Quantity: 770.77
+Adjusted qty: 770.8000000000001
+Final Adjusted qty: 770.7
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e7ec7271-a0a9-4a81-9528-f33e4f441eed', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756824368888}
+e7ec7271-a0a9-4a81-9528-f33e4f441eed
+fetching trade data for :  e7ec7271-a0a9-4a81-9528-f33e4f441eed
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e7ec7271-a0a9-4a81-9528-f33e4f441eed', 'stopOrderType': 'UNKNOWN', 'execTime': '1756824368888', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '12.9804', 'execPrice': '12.974', 'markIv': '', 'orderQty': '770.7', 'orderPrice': '12.332', 'execValue': '9999.0618', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179716750, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49948399', 'execId': '37a8ad9b-6d1b-4c3f-94b7-8be9c62995dc', 'marketUnit': '', 'execQty': '770.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |  -8.39 |  57.47
+Last close price for TONUSDT: 3.1395
+Opening Sell for  TONUSDT
+TP: 3.1238025
+SL: 3.1551974999999994
+TS: 0.0156975
+Order Quantity: 3185.22
+Adjusted qty: 3185.2000000000003
+Final Adjusted qty: 3185.2
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETCUSDT    |  -7.13 |  58.13
+Last close price for ETCUSDT: 20.78
+Opening Sell for  ETCUSDT
+TP: 20.6761
+SL: 20.8839
+TS: 0.1039
+Order Quantity: 481.23
+Adjusted qty: 481.20000000000005
+Final Adjusted qty: 481.2
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3548bc4b-e829-4cf4-aa00-e66142ad249c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756824379297}
+3548bc4b-e829-4cf4-aa00-e66142ad249c
+fetching trade data for :  3548bc4b-e829-4cf4-aa00-e66142ad249c
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3548bc4b-e829-4cf4-aa00-e66142ad249c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756824379298', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.783', 'execPrice': '20.782', 'markIv': '', 'orderQty': '481.2', 'orderPrice': '19.744', 'execValue': '10000.2984', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179717109, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50016412', 'execId': 'a1fb92dc-55ba-4ee3-8854-dcd975035a7c', 'marketUnit': '', 'execQty': '481.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    |  -6.21 |  59.93
+Last close price for POLUSDT: 0.2883
+Opening Sell for  POLUSDT
+TP: 0.2868585
+SL: 0.2897415
+TS: 0.0014415
+Order Quantity: 34686.09
+Adjusted qty: 34686.0
+Final Adjusted qty: 34686.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '62754886-b5bf-4414-9208-2ad4699f7860', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756824387838}
+62754886-b5bf-4414-9208-2ad4699f7860
+fetching trade data for :  62754886-b5bf-4414-9208-2ad4699f7860
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '62754886-b5bf-4414-9208-2ad4699f7860', 'stopOrderType': 'UNKNOWN', 'execTime': '1756824387839', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2884', 'execPrice': '0.2884', 'markIv': '', 'orderQty': '34686', 'orderPrice': '0.274', 'execValue': '10003.4424', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179717412, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50189332', 'execId': 'ceeae621-1bec-401a-b645-6adcb0fcb018', 'marketUnit': '', 'execQty': '34686', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  |  -6.18 |  53.22
+Last close price for TRUMPUSDT: 8.392
+Opening Sell for  TRUMPUSDT
+TP: 8.35004
+SL: 8.433959999999999
+TS: 0.04196
+Order Quantity: 1191.61
+Adjusted qty: 1191.6000000000001
+Final Adjusted qty: 1191.6
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1d925654-340e-4a06-918f-9d508dda2d35', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756824396360}
+1d925654-340e-4a06-918f-9d508dda2d35
+fetching trade data for :  1d925654-340e-4a06-918f-9d508dda2d35
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  4
+Function finished at 02.09.2025 18:46:42
