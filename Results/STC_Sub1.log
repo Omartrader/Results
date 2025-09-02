@@ -953,3 +953,55 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 00:27:07
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 00:31:29
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      |   0.00 | 100.00
+Last close price for MUSDT: 0.8298
+Opening Buy for  MUSDT
+TP: 0.838098
+SL: 0.8132039999999999
+TS: 0.016596
+Order Quantity: 12051.1
+Adjusted qty: 12051.0
+Final Adjusted qty: 12051.0
+120000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XLMUSDT    |   0.00 |  99.99
+Last close price for XLMUSDT: 0.36291
+Opening Buy for  XLMUSDT
+TP: 0.3665391
+SL: 0.3556518
+TS: 0.0072582
+Order Quantity: 27555.04
+Adjusted qty: 27555.0
+Final Adjusted qty: 27555.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SKYUSDT    |  13.38 |  99.84
+Last close price for SKYUSDT: 0.07399
+Opening Buy for  SKYUSDT
+TP: 0.0747299
+SL: 0.0725102
+TS: 0.0014798
+Order Quantity: 135153.4
+Adjusted qty: 135150.0
+Final Adjusted qty: 135150.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f23ca51f-3cd2-473c-9e6a-9d65327b98b5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756845114651}
+f23ca51f-3cd2-473c-9e6a-9d65327b98b5
+fetching trade data for :  f23ca51f-3cd2-473c-9e6a-9d65327b98b5
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f23ca51f-3cd2-473c-9e6a-9d65327b98b5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756845114650', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07416', 'execPrice': '0.07399', 'markIv': '', 'orderQty': '135150', 'orderPrice': '0.08528', 'execValue': '9999.7485', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612490104445, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986168', 'execId': '28c02f34-e8b2-487b-9ec9-045f7913c1ca', 'marketUnit': '', 'execQty': '135150', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 00:32:03
