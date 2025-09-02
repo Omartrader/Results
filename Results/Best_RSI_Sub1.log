@@ -1746,3 +1746,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  8
 Function finished at 02.09.2025 16:47:54
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 16:51:03
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+CROUSDT    |  -7.14 |  20.12
+Last close price for CROUSDT: 0.25704
+Opening Sell for  CROUSDT
+TP: 0.2557548
+SL: 0.2583252
+TS: 0.0012852
+Order Quantity: 38904.45
+Adjusted qty: 38904.0
+Final Adjusted qty: 38904.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '67344861-d5cd-4c4e-9ff6-25c61b65f58c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756817493837}
+67344861-d5cd-4c4e-9ff6-25c61b65f58c
+fetching trade data for :  67344861-d5cd-4c4e-9ff6-25c61b65f58c
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '67344861-d5cd-4c4e-9ff6-25c61b65f58c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756817493838', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.25705', 'execPrice': '0.25705', 'markIv': '', 'orderQty': '38904', 'orderPrice': '0.23135', 'execValue': '10000.2732', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179489575, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50015026', 'execId': '3e5a313d-b5d3-434d-82a7-66a25ee3c847', 'marketUnit': '', 'execQty': '38904', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 16:51:38
