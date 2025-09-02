@@ -21041,3 +21041,86 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 02.09.2025 16:25:49
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 16:30:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+UNIUSDT    |  10.83 |  43.56
+Last close price for UNIUSDT: 9.455
+Opening Buy for  UNIUSDT
+TP: 9.502275
+SL: 9.36045
+TS: 0.09455
+Order Quantity: 1057.64
+Adjusted qty: 1057.6000000000001
+Final Adjusted qty: 1057.6
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FLRUSDT    | -10.64 |  36.91
+Last close price for FLRUSDT: 0.02088
+Opening Sell for  FLRUSDT
+TP: 0.020775599999999998
+SL: 0.021088799999999998
+TS: 0.00020879999999999998
+Order Quantity: 478927.2
+Adjusted qty: 478930.0
+Final Adjusted qty: 478920.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SUIUSDT    |  10.04 |  42.47
+Last close price for SUIUSDT: 3.2546
+Opening Buy for  SUIUSDT
+TP: 3.2708729999999995
+SL: 3.222054
+TS: 0.032546
+Order Quantity: 3072.57
+Adjusted qty: 3070.0
+Final Adjusted qty: 3070.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARBUSDT    |   8.83 |  47.30
+Last close price for ARBUSDT: 0.4875
+Opening Buy for  ARBUSDT
+TP: 0.4899374999999999
+SL: 0.48262499999999997
+TS: 0.004875
+Order Quantity: 20512.82
+Adjusted qty: 20512.800000000003
+Final Adjusted qty: 20512.8
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2ef5eefe-388d-4db7-b634-57e2d7301ae7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756816242253}
+2ef5eefe-388d-4db7-b634-57e2d7301ae7
+fetching trade data for :  2ef5eefe-388d-4db7-b634-57e2d7301ae7
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2ef5eefe-388d-4db7-b634-57e2d7301ae7', 'stopOrderType': 'UNKNOWN', 'execTime': '1756816242253', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4875', 'execPrice': '0.4875', 'markIv': '', 'orderQty': '20512.8', 'orderPrice': '0.5118', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488418842, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': 'd082058a-9dc4-48f1-987b-afa04987f823', 'marketUnit': '', 'execQty': '20512.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRXUSDT    |   8.47 |  32.69
+Last close price for TRXUSDT: 0.33755
+Opening Buy for  TRXUSDT
+TP: 0.33923775
+SL: 0.33417450000000004
+TS: 0.0033755
+Order Quantity: 29625.24
+Adjusted qty: 29625.0
+Final Adjusted qty: 29625.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '93f609a0-542c-4a4e-96c1-a122451f7482', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756816250585}
+93f609a0-542c-4a4e-96c1-a122451f7482
+fetching trade data for :  93f609a0-542c-4a4e-96c1-a122451f7482
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '93f609a0-542c-4a4e-96c1-a122451f7482', 'stopOrderType': 'UNKNOWN', 'execTime': '1756816250585', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.33761', 'execPrice': '0.33755', 'markIv': '', 'orderQty': '29625', 'orderPrice': '0.35449', 'execValue': '9999.91875', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488419125, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49995532', 'execId': 'e088136b-2493-4189-8f28-af907ece88bd', 'marketUnit': '', 'execQty': '29625', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 16:30:55
