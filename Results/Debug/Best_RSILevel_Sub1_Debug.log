@@ -56,3 +56,27 @@
 2025-09-02 18:40:54,128 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=BNBUSDT HTTP/1.1" 200 None
 2025-09-02 18:40:54,808 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/position/list?category=linear&symbol=WLFIUSDT HTTP/1.1" 200 694
 2025-09-02 18:40:55,448 - DEBUG - https://api-demo.bybit.com:443 "POST /v5/position/set-leverage HTTP/1.1" 200 135
+2025-09-02 18:51:22,281 - DEBUG - Initializing HTTP session.
+2025-09-02 18:51:22,283 - DEBUG - Starting new HTTPS connection (1): api-demo.bybit.com:443
+2025-09-02 18:51:23,819 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/position/list?category=linear&settleCoin=USDT HTTP/1.1" 200 125
+2025-09-02 18:51:24,256 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/tickers?category=linear HTTP/1.1" 200 None
+2025-09-02 18:51:24,846 - DEBUG - Starting new HTTPS connection (1): api.coingecko.com:443
+2025-09-02 18:51:26,289 - DEBUG - https://api.coingecko.com:443 "GET /api/v3/coins/markets?order=market_cap_desc&per_page=100&page=1&vs_currency=usd HTTP/1.1" 200 None
+2025-09-02 18:51:26,762 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=WLFIUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:27,241 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=DOGEUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:27,721 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=PENGUUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:28,201 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=ENAUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:28,682 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=ADAUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:29,130 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=XRPUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:29,801 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=MUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:30,330 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=HBARUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:30,840 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=VETUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:31,561 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=ARBUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:31,972 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=POLUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:32,399 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=CROUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:32,839 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=KASUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:33,342 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=SEIUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:33,908 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=XLMUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:34,582 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=ONDOUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:35,024 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=SUIUSDT HTTP/1.1" 200 None
+2025-09-02 18:51:35,462 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/market/kline?interval=5&limit=400&symbol=SKYUSDT HTTP/1.1" 200 None
