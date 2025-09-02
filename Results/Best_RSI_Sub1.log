@@ -3403,3 +3403,64 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 02.09.2025 18:26:36
+***************************************************************
+Number of open positions: 3
+Function started at 02.09.2025 18:31:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+CROUSDT    |  -3.35 |  53.15
+Last close price for CROUSDT: 0.26241
+Opening Sell for  CROUSDT
+TP: 0.26109794999999997
+SL: 0.26372204999999993
+TS: 0.00131205
+Order Quantity: 38108.3
+Adjusted qty: 38108.0
+Final Adjusted qty: 38108.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bf7f0c0b-f3dc-4603-ba32-3c994a8f1556', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756823493296}
+bf7f0c0b-f3dc-4603-ba32-3c994a8f1556
+fetching trade data for :  bf7f0c0b-f3dc-4603-ba32-3c994a8f1556
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    |  -3.18 |  65.27
+Last close price for KASUSDT: 0.08485
+Opening Sell for  KASUSDT
+TP: 0.08442575
+SL: 0.08527424999999998
+TS: 0.00042425
+Order Quantity: 117855.04
+Adjusted qty: 117860.0
+Final Adjusted qty: 117850.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b52647f0-c2f3-460f-97a1-269f8c31f058', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756823501682}
+b52647f0-c2f3-460f-97a1-269f8c31f058
+fetching trade data for :  b52647f0-c2f3-460f-97a1-269f8c31f058
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    |   3.17 |  70.74
+Last close price for LTCUSDT: 111.91
+Opening Buy for  LTCUSDT
+TP: 112.46954999999998
+SL: 111.35045
+TS: 0.55955
+Order Quantity: 89.36
+Adjusted qty: 89.4
+Final Adjusted qty: 89.3
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '537f03e8-4612-4dbf-ad9c-294c5b6dc1a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756823509994}
+537f03e8-4612-4dbf-ad9c-294c5b6dc1a2
+fetching trade data for :  537f03e8-4612-4dbf-ad9c-294c5b6dc1a2
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '537f03e8-4612-4dbf-ad9c-294c5b6dc1a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1756823509995', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '111.94', 'execPrice': '111.94', 'markIv': '', 'orderQty': '89.3', 'orderPrice': '117.53', 'execValue': '9996.242', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179688236, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4979331', 'execId': 'e3861732-4ba9-469d-84b5-8bb32fc1b986', 'marketUnit': '', 'execQty': '89.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 18:31:56
