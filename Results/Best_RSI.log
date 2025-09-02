@@ -20568,3 +20568,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 15:35:33
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 15:40:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+POLUSDT    |   9.40 |  68.87
+Last close price for POLUSDT: 0.2904
+Opening Buy for  POLUSDT
+TP: 0.29185199999999994
+SL: 0.287496
+TS: 0.002904
+Order Quantity: 34435.26
+Adjusted qty: 34435.0
+Final Adjusted qty: 34435.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3dae3fb0-bb10-4084-809f-e96480d69b8f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756813238014}
+3dae3fb0-bb10-4084-809f-e96480d69b8f
+fetching trade data for :  3dae3fb0-bb10-4084-809f-e96480d69b8f
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3dae3fb0-bb10-4084-809f-e96480d69b8f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756813238014', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2904', 'execPrice': '0.2903', 'markIv': '', 'orderQty': '34435', 'orderPrice': '0.3049', 'execValue': '9996.4805', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488325460, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49806428', 'execId': '2053fe1f-c142-4ee1-a5c4-ba652a5a7561', 'marketUnit': '', 'execQty': '34435', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  |  -5.63 |  32.16
+Last close price for PENGUUSDT: 0.029154
+Opening Sell for  PENGUUSDT
+TP: 0.02900823
+SL: 0.02944554
+TS: 0.00029154
+Order Quantity: 343006.11
+Adjusted qty: 343010.0
+Final Adjusted qty: 343000.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'df47ee4f-04c0-46b6-b2e4-e68a8b1c3fc5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756813246433}
+df47ee4f-04c0-46b6-b2e4-e68a8b1c3fc5
+fetching trade data for :  df47ee4f-04c0-46b6-b2e4-e68a8b1c3fc5
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'df47ee4f-04c0-46b6-b2e4-e68a8b1c3fc5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756813246432', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.029154', 'execPrice': '0.029154', 'markIv': '', 'orderQty': '343000', 'orderPrice': '0.026239', 'execValue': '9999.822', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488325698, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999021', 'execId': '53a1cd36-4b06-4bf8-b9ef-79913d191373', 'marketUnit': '', 'execQty': '343000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 15:40:51
