@@ -21491,3 +21491,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 02.09.2025 17:10:45
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 17:15:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SOLUSDT    |  11.63 |  35.07
+Last close price for SOLUSDT: 198.93
+Opening Buy for  SOLUSDT
+TP: 199.92464999999999
+SL: 196.9407
+TS: 1.9893
+Order Quantity: 50.27
+Adjusted qty: 50.300000000000004
+Final Adjusted qty: 50.2
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '06877aba-ad7b-4f65-a071-0b3ab05e5384', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756818939507}
+06877aba-ad7b-4f65-a071-0b3ab05e5384
+fetching trade data for :  06877aba-ad7b-4f65-a071-0b3ab05e5384
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '06877aba-ad7b-4f65-a071-0b3ab05e5384', 'stopOrderType': 'UNKNOWN', 'execTime': '1756818939507', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '198.94', 'execPrice': '198.94', 'markIv': '', 'orderQty': '50.2', 'orderPrice': '208.88', 'execValue': '9986.788', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488506862, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4927334', 'execId': '517d02fe-b781-443d-89e7-bb14a313df5c', 'marketUnit': '', 'execQty': '50.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |  11.46 |  43.38
+Last close price for TONUSDT: 3.1073
+Opening Buy for  TONUSDT
+TP: 3.1228364999999996
+SL: 3.076227
+TS: 0.031073
+Order Quantity: 3218.23
+Adjusted qty: 3218.2000000000003
+Final Adjusted qty: 3218.2
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f478333f-c89c-455e-8cbb-85a4a540f7c5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756818948209}
+f478333f-c89c-455e-8cbb-85a4a540f7c5
+fetching trade data for :  f478333f-c89c-455e-8cbb-85a4a540f7c5
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f478333f-c89c-455e-8cbb-85a4a540f7c5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756818948209', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1074', 'execPrice': '3.1074', 'markIv': '', 'orderQty': '3218.2', 'orderPrice': '3.2627', 'execValue': '10000.23468', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488507148, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50012908', 'execId': '8f887dc2-c003-46b6-b872-ebaf3c3fcf2c', 'marketUnit': '', 'execQty': '3218.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 17:15:52
