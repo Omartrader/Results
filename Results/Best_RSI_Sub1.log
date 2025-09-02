@@ -5601,3 +5601,78 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 02.09.2025 21:11:17
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 21:15:31
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ONDOUSDT   |   7.72 |  62.63
+Last close price for ONDOUSDT: 0.918
+Opening Buy for  ONDOUSDT
+TP: 0.9225899999999999
+SL: 0.91341
+TS: 0.00459
+Order Quantity: 10893.25
+Adjusted qty: 10893.0
+Final Adjusted qty: 10893.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ICPUSDT    |   6.94 |  60.93
+Last close price for ICPUSDT: 4.824
+Opening Buy for  ICPUSDT
+TP: 4.84812
+SL: 4.79988
+TS: 0.02412
+Order Quantity: 2072.97
+Adjusted qty: 2073.0
+Final Adjusted qty: 2072.9
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dd781635-f51c-4335-9769-4721dd2b1997', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756833364530}
+dd781635-f51c-4335-9769-4721dd2b1997
+fetching trade data for :  dd781635-f51c-4335-9769-4721dd2b1997
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    |   6.89 |  54.22
+Last close price for KASUSDT: 0.08363
+Opening Buy for  KASUSDT
+TP: 0.08404814999999999
+SL: 0.08321184999999999
+TS: 0.00041815
+Order Quantity: 119574.32
+Adjusted qty: 119570.0
+Final Adjusted qty: 119570.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '86d04da1-0a4e-4528-8cf6-33b525fde51e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756833373173}
+86d04da1-0a4e-4528-8cf6-33b525fde51e
+fetching trade data for :  86d04da1-0a4e-4528-8cf6-33b525fde51e
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     |   6.45 |  76.08
+Last close price for IPUSDT: 7.8839
+Opening Buy for  IPUSDT
+TP: 7.923319499999999
+SL: 7.8444804999999995
+TS: 0.039419499999999996
+Order Quantity: 1268.41
+Adjusted qty: 1268.4
+Final Adjusted qty: 1268.4
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd96766d3-7b42-4ee2-bbff-f0a251786f0a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756833381471}
+d96766d3-7b42-4ee2-bbff-f0a251786f0a
+fetching trade data for :  d96766d3-7b42-4ee2-bbff-f0a251786f0a
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd96766d3-7b42-4ee2-bbff-f0a251786f0a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756833381471', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.8834', 'execPrice': '7.8818', 'markIv': '', 'orderQty': '1268.4', 'orderPrice': '8.6717', 'execValue': '9997.27512', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180009555, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49850132', 'execId': '1fe7a54d-8514-43b1-8389-c67a296eaa72', 'marketUnit': '', 'execQty': '1268.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 21:16:27
