@@ -5203,3 +5203,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 20:31:03
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 20:35:26
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ICPUSDT    |   7.80 |  48.72
+Last close price for ICPUSDT: 4.792
+Opening Buy for  ICPUSDT
+TP: 4.81596
+SL: 4.76804
+TS: 0.02396
+Order Quantity: 2086.81
+Adjusted qty: 2086.8
+Final Adjusted qty: 2086.8
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '54990bf0-bdb2-4c3f-b1a6-e5ebca5932be', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756830958197}
+54990bf0-bdb2-4c3f-b1a6-e5ebca5932be
+fetching trade data for :  54990bf0-bdb2-4c3f-b1a6-e5ebca5932be
+[{'symbol': 'ICPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '54990bf0-bdb2-4c3f-b1a6-e5ebca5932be', 'stopOrderType': 'UNKNOWN', 'execTime': '1756830958197', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.792', 'execPrice': '4.791', 'markIv': '', 'orderQty': '2086.8', 'orderPrice': '5.031', 'execValue': '9997.8588', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179934778, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49882234', 'execId': 'f4a4b7db-6a2f-4746-9de1-5257a5f745c7', 'marketUnit': '', 'execQty': '2086.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    |   7.26 |  46.88
+Last close price for LTCUSDT: 110.1
+Opening Buy for  LTCUSDT
+TP: 110.65049999999998
+SL: 109.5495
+TS: 0.5505
+Order Quantity: 90.83
+Adjusted qty: 90.80000000000001
+Final Adjusted qty: 90.8
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9ca16794-be74-4016-9f08-e8c2e916f484', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756830966872}
+9ca16794-be74-4016-9f08-e8c2e916f484
+fetching trade data for :  9ca16794-be74-4016-9f08-e8c2e916f484
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9ca16794-be74-4016-9f08-e8c2e916f484', 'stopOrderType': 'UNKNOWN', 'execTime': '1756830966872', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '110.11', 'execPrice': '110.12', 'markIv': '', 'orderQty': '90.8', 'orderPrice': '115.61', 'execValue': '9998.896', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179935072, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4993928', 'execId': '26cd73ec-dcca-4a0a-b7d8-88a303a80b51', 'marketUnit': '', 'execQty': '90.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 20:36:12
