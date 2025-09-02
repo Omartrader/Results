@@ -198,3 +198,101 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  9
 Function finished at 02.09.2025 14:07:16
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 14:10:28
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+XDCUSDT    |   6.02 |  45.97
+Last close price for XDCUSDT: 0.07754
+Opening Buy for  XDCUSDT
+TP: 0.07792769999999999
+SL: 0.0771523
+TS: 0.0003877
+Order Quantity: 128965.7
+Adjusted qty: 128966.0
+Final Adjusted qty: 128965.0
+160000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LTCUSDT    |  -5.56 |  40.51
+Last close price for LTCUSDT: 110.26
+Opening Sell for  LTCUSDT
+TP: 109.70870000000001
+SL: 110.81129999999999
+TS: 0.5513
+Order Quantity: 90.69
+Adjusted qty: 90.7
+Final Adjusted qty: 90.6
+6160.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    |   5.28 |  53.11
+Last close price for POLUSDT: 0.2849
+Opening Buy for  POLUSDT
+TP: 0.2863245
+SL: 0.2834755
+TS: 0.0014245
+Order Quantity: 35100.04
+Adjusted qty: 35100.0
+Final Adjusted qty: 35100.0
+500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MNTUSDT    |  -4.99 |  33.16
+Last close price for MNTUSDT: 1.1346
+Opening Sell for  MNTUSDT
+TP: 1.128927
+SL: 1.1402729999999999
+TS: 0.005673
+Order Quantity: 8813.68
+Adjusted qty: 8814.0
+Final Adjusted qty: 8813.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SOLUSDT    |  -4.24 |  52.59
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756807854087}
+Last close price for SOLUSDT: 203.65
+Opening Sell for  SOLUSDT
+TP: 202.63175
+SL: 204.66824999999997
+TS: 1.01825
+Order Quantity: 49.1
+Adjusted qty: 49.1
+Final Adjusted qty: 49.1
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '064bc596-91d2-4791-be73-32a3224b1001', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756807855353}
+064bc596-91d2-4791-be73-32a3224b1001
+fetching trade data for :  064bc596-91d2-4791-be73-32a3224b1001
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '064bc596-91d2-4791-be73-32a3224b1001', 'stopOrderType': 'UNKNOWN', 'execTime': '1756807855352', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '203.662', 'execPrice': '203.66', 'markIv': '', 'orderQty': '49.1', 'orderPrice': '193.48', 'execValue': '9999.706', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179185813, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4998383', 'execId': 'c404f377-164e-4a4a-a3e8-e18905b83bce', 'marketUnit': '', 'execQty': '49.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    |  -3.31 |  46.41
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756807861861}
+Last close price for ADAUSDT: 0.8197
+Opening Sell for  ADAUSDT
+TP: 0.8156015
+SL: 0.8237984999999999
+TS: 0.0040985
+Order Quantity: 12199.59
+Adjusted qty: 12200.0
+Final Adjusted qty: 12199.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7db58709-0036-4468-a7d6-88484ffd3da8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756807863258}
+7db58709-0036-4468-a7d6-88484ffd3da8
+fetching trade data for :  7db58709-0036-4468-a7d6-88484ffd3da8
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 14:11:07
