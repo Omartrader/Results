@@ -20959,3 +20959,41 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 02.09.2025 16:15:52
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 16:20:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FLRUSDT    |  -8.77 |  41.39
+Last close price for FLRUSDT: 0.0209
+Opening Sell for  FLRUSDT
+TP: 0.020795499999999998
+SL: 0.021109
+TS: 0.00020899999999999998
+Order Quantity: 478468.9
+Adjusted qty: 478470.0
+Final Adjusted qty: 478460.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLFIUSDT   |  -5.01 |  31.61
+Last close price for WLFIUSDT: 0.2355
+Opening Sell for  WLFIUSDT
+TP: 0.2343225
+SL: 0.23785499999999998
+TS: 0.002355
+Order Quantity: 42462.85
+Adjusted qty: 42463.0
+Final Adjusted qty: 42462.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fdfe8fc4-11c1-4324-af53-1fe2172fae3d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756815628595}
+fdfe8fc4-11c1-4324-af53-1fe2172fae3d
+fetching trade data for :  fdfe8fc4-11c1-4324-af53-1fe2172fae3d
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fdfe8fc4-11c1-4324-af53-1fe2172fae3d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756815628596', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2354', 'execPrice': '0.2353', 'markIv': '', 'orderQty': '42462', 'orderPrice': '0.2001', 'execValue': '9991.3086', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488399832, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49521973', 'execId': '009bf669-d5b9-45dc-836c-860f0a33c183', 'marketUnit': '', 'execQty': '42462', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 16:20:32
