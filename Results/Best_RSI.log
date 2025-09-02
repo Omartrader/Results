@@ -23632,3 +23632,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 22:00:41
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 22:05:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+HYPEUSDT   | -10.20 |  38.41
+Last close price for HYPEUSDT: 43.925
+Opening Sell for  HYPEUSDT
+TP: 43.705375
+SL: 44.36425
+TS: 0.43925
+Order Quantity: 227.66
+Adjusted qty: 227.66
+Final Adjusted qty: 227.66
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AVAXUSDT   |  -8.72 |  47.62
+Last close price for AVAXUSDT: 23.785
+Opening Sell for  AVAXUSDT
+TP: 23.666075
+SL: 24.022850000000002
+TS: 0.23785
+Order Quantity: 420.43
+Adjusted qty: 420.40000000000003
+Final Adjusted qty: 420.4
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '16b04c76-8987-48d6-9426-538b038bbe6f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756836326706}
+16b04c76-8987-48d6-9426-538b038bbe6f
+fetching trade data for :  16b04c76-8987-48d6-9426-538b038bbe6f
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '16b04c76-8987-48d6-9426-538b038bbe6f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756836326706', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '23.785', 'execPrice': '23.785', 'markIv': '', 'orderQty': '420.4', 'orderPrice': '23.31', 'execValue': '9999.214', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710489054597, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4995677', 'execId': '9505f8fa-fa15-4bc0-8675-5f2c3ea979b8', 'marketUnit': '', 'execQty': '420.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 22:05:31
