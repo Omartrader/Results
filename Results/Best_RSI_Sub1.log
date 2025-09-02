@@ -7052,3 +7052,65 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 23:26:02
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 23:30:35
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ONDOUSDT   |  -7.91 |  55.20
+Last close price for ONDOUSDT: 0.9304
+Opening Sell for  ONDOUSDT
+TP: 0.925748
+SL: 0.9350519999999999
+TS: 0.004652
+Order Quantity: 10748.07
+Adjusted qty: 10748.0
+Final Adjusted qty: 10748.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '575545f0-e476-46d6-83df-2eab3de7a8fe', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756841455618}
+575545f0-e476-46d6-83df-2eab3de7a8fe
+fetching trade data for :  575545f0-e476-46d6-83df-2eab3de7a8fe
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '575545f0-e476-46d6-83df-2eab3de7a8fe', 'stopOrderType': 'UNKNOWN', 'execTime': '1756841455619', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9305', 'execPrice': '0.9304', 'markIv': '', 'orderQty': '10748', 'orderPrice': '0.884', 'execValue': '9999.9392', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180261735, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996656', 'execId': 'f2cd689f-a91c-4089-bdab-15258e607a4b', 'marketUnit': '', 'execQty': '10748', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SEIUSDT    |  -7.80 |  44.62
+Last close price for SEIUSDT: 0.2813
+Opening Sell for  SEIUSDT
+TP: 0.2798935
+SL: 0.28270649999999997
+TS: 0.0014065
+Order Quantity: 35549.24
+Adjusted qty: 35549.0
+Final Adjusted qty: 35549.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bc3f4d3d-5e55-4864-87d6-1a302c8c9f05', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756841462817}
+bc3f4d3d-5e55-4864-87d6-1a302c8c9f05
+fetching trade data for :  bc3f4d3d-5e55-4864-87d6-1a302c8c9f05
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JUPUSDT    |  -7.79 |  47.80
+Last close price for JUPUSDT: 0.4878
+Opening Sell for  JUPUSDT
+TP: 0.485361
+SL: 0.490239
+TS: 0.002439
+Order Quantity: 20500.21
+Adjusted qty: 20500.0
+Final Adjusted qty: 20500.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eaf7bc7e-1227-461c-8bd0-db81486a0da2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756841469611}
+eaf7bc7e-1227-461c-8bd0-db81486a0da2
+fetching trade data for :  eaf7bc7e-1227-461c-8bd0-db81486a0da2
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 23:31:13
