@@ -23199,3 +23199,46 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 20:50:32
+***************************************************************
+Number of open positions: 6
+Function started at 02.09.2025 20:55:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+KASUSDT    |   4.64 |  46.42
+Last close price for KASUSDT: 0.08325
+Opening Buy for  KASUSDT
+TP: 0.08366625
+SL: 0.0824175
+TS: 0.0008325
+Order Quantity: 120120.12
+Adjusted qty: 120120.0
+Final Adjusted qty: 120120.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '15d0e0a8-e230-4d7f-ab99-98ad55eb2d20', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756832126616}
+15d0e0a8-e230-4d7f-ab99-98ad55eb2d20
+fetching trade data for :  15d0e0a8-e230-4d7f-ab99-98ad55eb2d20
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '15d0e0a8-e230-4d7f-ab99-98ad55eb2d20', 'stopOrderType': 'UNKNOWN', 'execTime': '1756832126616', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08325', 'execPrice': '0.08325', 'markIv': '', 'orderQty': '120120', 'orderPrice': '0.09573', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488926987, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': 'e6df21d1-b4b3-4f3c-94a7-374af0230e83', 'marketUnit': '', 'execQty': '120120', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    |  -3.46 |  51.05
+Last close price for POLUSDT: 0.2868
+Opening Sell for  POLUSDT
+TP: 0.285366
+SL: 0.289668
+TS: 0.002868
+Order Quantity: 34867.5
+Adjusted qty: 34868.0
+Final Adjusted qty: 34867.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fec48bc8-c3bc-4ee5-9105-5ea54295b57f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756832133857}
+fec48bc8-c3bc-4ee5-9105-5ea54295b57f
+fetching trade data for :  fec48bc8-c3bc-4ee5-9105-5ea54295b57f
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fec48bc8-c3bc-4ee5-9105-5ea54295b57f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756832133857', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2868', 'execPrice': '0.2868', 'markIv': '', 'orderQty': '34867', 'orderPrice': '0.2725', 'execValue': '9999.8556', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488927191, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992058', 'execId': '58d80f5d-f257-4b14-b362-13dd977410b6', 'marketUnit': '', 'execQty': '34867', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 20:55:38
