@@ -18730,3 +18730,41 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 02.09.2025 08:00:56
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 08:05:10
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TRUMPUSDT  |   4.12 |  61.18
+Last close price for TRUMPUSDT: 8.373
+Opening Buy for  TRUMPUSDT
+TP: 8.414864999999999
+SL: 8.28927
+TS: 0.08373
+Order Quantity: 1194.32
+Adjusted qty: 1194.3
+Final Adjusted qty: 1194.3
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AAVEUSDT   |   4.12 |  68.54
+Last close price for AAVEUSDT: 311.1
+Opening Buy for  AAVEUSDT
+TP: 312.6555
+SL: 307.98900000000003
+TS: 3.111
+Order Quantity: 32.14
+Adjusted qty: 32.14
+Final Adjusted qty: 32.14
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e45b2957-22ae-4aa7-80bf-413b3603b418', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756785932841}
+e45b2957-22ae-4aa7-80bf-413b3603b418
+fetching trade data for :  e45b2957-22ae-4aa7-80bf-413b3603b418
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e45b2957-22ae-4aa7-80bf-413b3603b418', 'stopOrderType': 'UNKNOWN', 'execTime': '1756785932841', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '311.11', 'execPrice': '311.1', 'markIv': '', 'orderQty': '32.14', 'orderPrice': '326.66', 'execValue': '9998.754', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487514271, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4993147', 'execId': '8b83a5a6-4bb7-4e63-ad07-bfec0e5f562a', 'marketUnit': '', 'execQty': '32.14', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 08:05:36
