@@ -17812,3 +17812,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 02.09.2025 05:55:41
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 06:00:09
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TRUMPUSDT  |  -5.08 |  44.29
+Last close price for TRUMPUSDT: 8.257
+Opening Sell for  TRUMPUSDT
+TP: 8.215715
+SL: 8.33957
+TS: 0.08256999999999999
+Order Quantity: 1211.09
+Adjusted qty: 1211.1000000000001
+Final Adjusted qty: 1211.0
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd73aaaf5-8cd4-48e7-a777-83bd93ad1cb6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756778439976}
+d73aaaf5-8cd4-48e7-a777-83bd93ad1cb6
+fetching trade data for :  d73aaaf5-8cd4-48e7-a777-83bd93ad1cb6
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd73aaaf5-8cd4-48e7-a777-83bd93ad1cb6', 'stopOrderType': 'UNKNOWN', 'execTime': '1756778439976', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.26', 'execPrice': '8.258', 'markIv': '', 'orderQty': '1211', 'orderPrice': '7.847', 'execValue': '10000.438', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487285558, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5002409', 'execId': '4419aab3-9e2d-446c-b89d-430a1c89336f', 'marketUnit': '', 'execQty': '1211', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    |  -4.46 |  57.61
+Last close price for ADAUSDT: 0.8041
+Opening Sell for  ADAUSDT
+TP: 0.8000795
+SL: 0.812141
+TS: 0.008041
+Order Quantity: 12436.26
+Adjusted qty: 12436.0
+Final Adjusted qty: 12436.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6bacc5b0-e5a5-452f-a59c-b168c186038c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756778448254}
+6bacc5b0-e5a5-452f-a59c-b168c186038c
+fetching trade data for :  6bacc5b0-e5a5-452f-a59c-b168c186038c
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6bacc5b0-e5a5-452f-a59c-b168c186038c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756778448254', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.804', 'execPrice': '0.804', 'markIv': '', 'orderQty': '12436', 'orderPrice': '0.7638', 'execValue': '9998.544', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710487285792, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4991992', 'execId': 'df5d16c3-54cd-443d-916b-5d218d0b92df', 'marketUnit': '', 'execQty': '12436', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 06:00:53
