@@ -8633,3 +8633,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 02:16:12
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 02:20:33
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ETHUSDT    |  -5.03 |  53.04
+Last close price for ETHUSDT: 4318.33
+Opening Sell for  ETHUSDT
+TP: 4296.73835
+SL: 4339.921649999999
+TS: 21.59165
+Order Quantity: 2.32
+Adjusted qty: 2.32
+Final Adjusted qty: 2.32
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c3bae435-bd39-4221-b24f-808914af0a0c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756851662846}
+c3bae435-bd39-4221-b24f-808914af0a0c
+fetching trade data for :  c3bae435-bd39-4221-b24f-808914af0a0c
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c3bae435-bd39-4221-b24f-808914af0a0c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756851662846', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4318.36', 'execPrice': '4318.12', 'markIv': '', 'orderQty': '2.32', 'orderPrice': '4232', 'execValue': '10018.0384', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180584907, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50992112', 'execId': 'a5288f4a-837a-4989-9271-5d679ff6c551', 'marketUnit': '', 'execQty': '2.32', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   |   3.98 |  67.90
+Last close price for ONDOUSDT: 0.9495
+Opening Buy for  ONDOUSDT
+TP: 0.9542474999999999
+SL: 0.9447525
+TS: 0.0047475
+Order Quantity: 10531.86
+Adjusted qty: 10532.0
+Final Adjusted qty: 10531.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a622a8d2-0c88-4455-b10b-508f32853a99', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756851671102}
+a622a8d2-0c88-4455-b10b-508f32853a99
+fetching trade data for :  a622a8d2-0c88-4455-b10b-508f32853a99
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a622a8d2-0c88-4455-b10b-508f32853a99', 'stopOrderType': 'UNKNOWN', 'execTime': '1756851671102', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9496', 'execPrice': '0.9494', 'markIv': '', 'orderQty': '10531', 'orderPrice': '0.997', 'execValue': '9998.1314', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180585155, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49897227', 'execId': 'f5d2be1a-0e80-420d-9759-55f67fe1a01e', 'marketUnit': '', 'execQty': '10531', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 02:21:15
