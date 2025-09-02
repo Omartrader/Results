@@ -8499,3 +8499,78 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 01:56:01
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 02:00:35
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BTCUSDT    | -14.85 |  40.13
+Last close price for BTCUSDT: 110916.1
+Opening Sell for  BTCUSDT
+TP: 110361.51950000001
+SL: 111470.68049999999
+TS: 554.5805
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f9d80312-9288-4a65-aa7a-4248d81b7baa', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756850455456}
+f9d80312-9288-4a65-aa7a-4248d81b7baa
+fetching trade data for :  f9d80312-9288-4a65-aa7a-4248d81b7baa
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    |  -9.27 |  65.34
+Last close price for LTCUSDT: 111.78
+Opening Sell for  LTCUSDT
+TP: 111.2211
+SL: 112.3389
+TS: 0.5589
+Order Quantity: 89.46
+Adjusted qty: 89.5
+Final Adjusted qty: 89.4
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0b90ad13-9214-4f26-8a4c-a4a0d7193f2d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756850462630}
+0b90ad13-9214-4f26-8a4c-a4a0d7193f2d
+fetching trade data for :  0b90ad13-9214-4f26-8a4c-a4a0d7193f2d
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0b90ad13-9214-4f26-8a4c-a4a0d7193f2d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756850462630', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '111.79', 'execPrice': '111.79', 'markIv': '', 'orderQty': '89.4', 'orderPrice': '106.21', 'execValue': '9994.026', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180546680, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4967143', 'execId': 'e9013915-b41d-4ab9-b7fd-baade15ed912', 'marketUnit': '', 'execQty': '89.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |  -9.16 |  56.97
+Last close price for TONUSDT: 3.1704
+Opening Sell for  TONUSDT
+TP: 3.1545479999999997
+SL: 3.1862519999999996
+TS: 0.015851999999999998
+Order Quantity: 3154.18
+Adjusted qty: 3154.2000000000003
+Final Adjusted qty: 3154.1
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEARUSDT   |  -8.05 |  60.36
+Last close price for NEARUSDT: 2.42
+Opening Sell for  NEARUSDT
+TP: 2.4078999999999997
+SL: 2.4320999999999997
+TS: 0.0121
+Order Quantity: 4132.23
+Adjusted qty: 4132.2
+Final Adjusted qty: 4132.2
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b0047e9c-3e39-4e82-aae1-2c3f2e5c5264', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756850470927}
+b0047e9c-3e39-4e82-aae1-2c3f2e5c5264
+fetching trade data for :  b0047e9c-3e39-4e82-aae1-2c3f2e5c5264
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b0047e9c-3e39-4e82-aae1-2c3f2e5c5264', 'stopOrderType': 'UNKNOWN', 'execTime': '1756850470927', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.42', 'execPrice': '2.42', 'markIv': '', 'orderQty': '4132.2', 'orderPrice': '2.299', 'execValue': '9999.924', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180546954, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999582', 'execId': '8a9dc061-4af9-4a22-a6bf-de1b0ca20f54', 'marketUnit': '', 'execQty': '4132.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 02:01:14
