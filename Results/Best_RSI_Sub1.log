@@ -296,3 +296,30 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 02.09.2025 14:11:07
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 14:15:29
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TRUMPUSDT  |  -6.96 |  51.86
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756808160014}
+Last close price for TRUMPUSDT: 8.43
+Opening Sell for  TRUMPUSDT
+TP: 8.38785
+SL: 8.47215
+TS: 0.04215
+Order Quantity: 1186.24
+Adjusted qty: 1186.2
+Final Adjusted qty: 1186.2
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '48afb743-ca2d-4057-8125-730308ae12d0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756808162118}
+48afb743-ca2d-4057-8125-730308ae12d0
+fetching trade data for :  48afb743-ca2d-4057-8125-730308ae12d0
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '48afb743-ca2d-4057-8125-730308ae12d0', 'stopOrderType': 'UNKNOWN', 'execTime': '1756808162118', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.43', 'execPrice': '8.431', 'markIv': '', 'orderQty': '1186.2', 'orderPrice': '8.009', 'execValue': '10000.8522', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179195376, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50046871', 'execId': '6b49644a-fbdf-447d-979d-0b51bf7d1dec', 'marketUnit': '', 'execQty': '1186.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 14:16:07
