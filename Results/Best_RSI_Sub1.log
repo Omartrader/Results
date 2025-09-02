@@ -2214,3 +2214,48 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 17:21:15
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 17:25:37
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+DOTUSDT    |  20.84 |  55.19
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756819565323}
+Last close price for DOTUSDT: 3.7436
+Opening Buy for  DOTUSDT
+TP: 3.7623179999999996
+SL: 3.7248819999999996
+TS: 0.018718
+Order Quantity: 2671.23
+Adjusted qty: 2671.2000000000003
+Final Adjusted qty: 2671.2
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '47b42eea-d078-40a4-a8a1-f87a3b4b7c2a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756819567283}
+47b42eea-d078-40a4-a8a1-f87a3b4b7c2a
+fetching trade data for :  47b42eea-d078-40a4-a8a1-f87a3b4b7c2a
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '47b42eea-d078-40a4-a8a1-f87a3b4b7c2a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756819567283', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.7436', 'execPrice': '3.7436', 'markIv': '', 'orderQty': '2671.2', 'orderPrice': '3.9307', 'execValue': '9999.90432', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179556131, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994738', 'execId': '61f6ad2b-b22c-42b1-b306-c4670b42317c', 'marketUnit': '', 'execQty': '2671.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRXUSDT    |  20.26 |  46.24
+Last close price for TRXUSDT: 0.33688
+Opening Buy for  TRXUSDT
+TP: 0.3385644
+SL: 0.33519560000000004
+TS: 0.0016844
+Order Quantity: 29684.16
+Adjusted qty: 29684.0
+Final Adjusted qty: 29684.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a1dfdf25-0082-460d-a0d5-3ca7276a92b3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756819575693}
+a1dfdf25-0082-460d-a0d5-3ca7276a92b3
+fetching trade data for :  a1dfdf25-0082-460d-a0d5-3ca7276a92b3
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 17:26:22
