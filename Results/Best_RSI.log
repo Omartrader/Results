@@ -20332,3 +20332,42 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 14:25:23
+***************************************************************
+Number of open positions: 9
+Function started at 02.09.2025 14:30:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BCHUSDT    |  -4.19 |  55.82
+Last close price for BCHUSDT: 571.1
+Opening Sell for  BCHUSDT
+TP: 568.2445
+SL: 576.811
+TS: 5.711
+Order Quantity: 17.51
+Adjusted qty: 17.51
+Final Adjusted qty: 17.51
+804.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SEIUSDT    |   3.94 |  54.95
+Last close price for SEIUSDT: 0.2817
+Opening Buy for  SEIUSDT
+TP: 0.2831085
+SL: 0.278883
+TS: 0.002817
+Order Quantity: 35498.76
+Adjusted qty: 35499.0
+Final Adjusted qty: 35498.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bf7f38b6-55df-46bd-83ea-ba485a107cd3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756809027284}
+bf7f38b6-55df-46bd-83ea-ba485a107cd3
+fetching trade data for :  bf7f38b6-55df-46bd-83ea-ba485a107cd3
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bf7f38b6-55df-46bd-83ea-ba485a107cd3', 'stopOrderType': 'UNKNOWN', 'execTime': '1756809027283', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.28173', 'execPrice': '0.2817', 'markIv': '', 'orderQty': '35498', 'orderPrice': '0.3099', 'execValue': '9999.7866', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488200392, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988263', 'execId': '9ce745ed-9680-4c94-864f-11489491e415', 'marketUnit': '', 'execQty': '35498', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 02.09.2025 14:30:31
