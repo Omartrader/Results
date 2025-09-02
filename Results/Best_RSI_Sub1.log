@@ -4674,3 +4674,28 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  5
 Function finished at 02.09.2025 19:51:04
+***************************************************************
+Number of open positions: 5
+Function started at 02.09.2025 19:55:50
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+POLUSDT    |   6.06 |  54.46
+Last close price for POLUSDT: 0.287
+Opening Buy for  POLUSDT
+TP: 0.28843499999999994
+SL: 0.28556499999999996
+TS: 0.0014349999999999999
+Order Quantity: 34843.21
+Adjusted qty: 34843.0
+Final Adjusted qty: 34843.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '29c0e259-3c80-46ce-87d6-ff65766fd600', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756828569193}
+29c0e259-3c80-46ce-87d6-ff65766fd600
+fetching trade data for :  29c0e259-3c80-46ce-87d6-ff65766fd600
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '29c0e259-3c80-46ce-87d6-ff65766fd600', 'stopOrderType': 'UNKNOWN', 'execTime': '1756828569193', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2871', 'execPrice': '0.2871', 'markIv': '', 'orderQty': '34843', 'orderPrice': '0.3014', 'execValue': '10003.4253', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179857906, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50188392', 'execId': '97ba8a4c-f030-4892-af00-913500cf5562', 'marketUnit': '', 'execQty': '34843', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 02.09.2025 19:56:14
