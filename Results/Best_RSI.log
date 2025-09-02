@@ -24227,3 +24227,78 @@ Function started at 03.09.2025 00:10:05
 SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 Function finished at 03.09.2025 00:10:25
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 00:15:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FLRUSDT    |  11.07 |  50.08
+Last close price for FLRUSDT: 0.02066
+Opening Buy for  FLRUSDT
+TP: 0.0207633
+SL: 0.0204534
+TS: 0.0002066
+Order Quantity: 484027.11
+Adjusted qty: 484030.0
+Final Adjusted qty: 484020.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HBARUSDT   |  11.01 |  64.28
+Last close price for HBARUSDT: 0.21614
+Opening Buy for  HBARUSDT
+TP: 0.2172207
+SL: 0.2139786
+TS: 0.0021614
+Order Quantity: 46266.31
+Adjusted qty: 46266.0
+Final Adjusted qty: 46266.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5f1f4855-7cb4-4037-96ab-dab2765ab459', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756844143080}
+5f1f4855-7cb4-4037-96ab-dab2765ab459
+fetching trade data for :  5f1f4855-7cb4-4037-96ab-dab2765ab459
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    |  10.69 |  59.91
+Last close price for ETCUSDT: 20.662
+Opening Buy for  ETCUSDT
+TP: 20.765309999999996
+SL: 20.455379999999998
+TS: 0.20662
+Order Quantity: 483.98
+Adjusted qty: 484.0
+Final Adjusted qty: 483.9
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '40b4b757-def1-4517-9913-0edce779c68c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756844152205}
+40b4b757-def1-4517-9913-0edce779c68c
+fetching trade data for :  40b4b757-def1-4517-9913-0edce779c68c
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '40b4b757-def1-4517-9913-0edce779c68c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756844152205', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.662', 'execPrice': '20.662', 'markIv': '', 'orderQty': '483.9', 'orderPrice': '21.695', 'execValue': '9998.3418', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710489292833, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49908799', 'execId': '9f82392c-ba34-4782-9e1b-c12028b41e1f', 'marketUnit': '', 'execQty': '483.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    |   9.48 |  59.02
+Last close price for VETUSDT: 0.02366
+Opening Buy for  VETUSDT
+TP: 0.0237783
+SL: 0.0234234
+TS: 0.0002366
+Order Quantity: 422654.27
+Adjusted qty: 422654.0
+Final Adjusted qty: 422654.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '75aed735-04e5-41e5-87d2-9a3701cfc02e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756844161515}
+75aed735-04e5-41e5-87d2-9a3701cfc02e
+fetching trade data for :  75aed735-04e5-41e5-87d2-9a3701cfc02e
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '75aed735-04e5-41e5-87d2-9a3701cfc02e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756844161515', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02366', 'execPrice': '0.02365', 'markIv': '', 'orderQty': '422654', 'orderPrice': '0.02484', 'execValue': '9995.7671', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710489293095, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49767191', 'execId': 'b445ae98-ec76-4f30-97de-fd99ea5b3bc6', 'marketUnit': '', 'execQty': '422654', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 00:16:06
