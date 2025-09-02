@@ -20672,3 +20672,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 02.09.2025 15:55:42
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 16:00:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SKYUSDT    | -10.54 |  45.55
+Last close price for SKYUSDT: 0.07121
+Opening Sell for  SKYUSDT
+TP: 0.07085395
+SL: 0.0719221
+TS: 0.0007120999999999999
+Order Quantity: 140429.71
+Adjusted qty: 140430.0
+Final Adjusted qty: 140420.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f19d1659-197e-44f5-be58-21dc42c0b420', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756814427513}
+f19d1659-197e-44f5-be58-21dc42c0b420
+fetching trade data for :  f19d1659-197e-44f5-be58-21dc42c0b420
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f19d1659-197e-44f5-be58-21dc42c0b420', 'stopOrderType': 'UNKNOWN', 'execTime': '1756814427513', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07121', 'execPrice': '0.07121', 'markIv': '', 'orderQty': '140420', 'orderPrice': '0.06053', 'execValue': '9999.3082', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488361950, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49961951', 'execId': '335386e8-db64-4fe7-b754-0be6f7b26135', 'marketUnit': '', 'execQty': '140420', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    |   8.41 |  27.44
+Last close price for XDCUSDT: 0.07614
+Opening Buy for  XDCUSDT
+TP: 0.0765207
+SL: 0.0753786
+TS: 0.0007614
+Order Quantity: 131337.01
+Adjusted qty: 131337.0
+Final Adjusted qty: 131337.0
+160000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JUPUSDT    |  -7.38 |  37.87
+Last close price for JUPUSDT: 0.4917
+Opening Sell for  JUPUSDT
+TP: 0.48924150000000005
+SL: 0.49661700000000003
+TS: 0.004917
+Order Quantity: 20337.6
+Adjusted qty: 20338.0
+Final Adjusted qty: 20337.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1b41e943-c3bf-427e-b642-34421e746159', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756814436061}
+1b41e943-c3bf-427e-b642-34421e746159
+fetching trade data for :  1b41e943-c3bf-427e-b642-34421e746159
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 16:00:40
