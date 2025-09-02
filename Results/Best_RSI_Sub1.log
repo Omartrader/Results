@@ -4500,3 +4500,59 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  4
 Function finished at 02.09.2025 19:36:41
+***************************************************************
+Number of open positions: 5
+Function started at 02.09.2025 19:41:34
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ENAUSDT    | -11.99 |  35.78
+Last close price for ENAUSDT: 0.673
+Opening Sell for  ENAUSDT
+TP: 0.6696350000000001
+SL: 0.676365
+TS: 0.0033650000000000004
+Order Quantity: 14858.84
+Adjusted qty: 14859.0
+Final Adjusted qty: 14858.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5368bc53-d2d6-4929-b4a8-793dbe85cbe0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756827713287}
+5368bc53-d2d6-4929-b4a8-793dbe85cbe0
+fetching trade data for :  5368bc53-d2d6-4929-b4a8-793dbe85cbe0
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    |   4.40 |  73.77
+Last close price for XDCUSDT: 0.07824
+Opening Buy for  XDCUSDT
+TP: 0.0786312
+SL: 0.07784880000000001
+TS: 0.0003912
+Order Quantity: 127811.86
+Adjusted qty: 127812.0
+Final Adjusted qty: 127811.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c9c7be54-0f3e-4990-96f1-0d70aead4ed5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756827720471}
+c9c7be54-0f3e-4990-96f1-0d70aead4ed5
+fetching trade data for :  c9c7be54-0f3e-4990-96f1-0d70aead4ed5
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c9c7be54-0f3e-4990-96f1-0d70aead4ed5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756827720471', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07822', 'execPrice': '0.07824', 'markIv': '', 'orderQty': '127811', 'orderPrice': '0.09386', 'execValue': '9999.93264', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179829653, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99992591', 'execId': '729775b5-1192-4e8a-b8ab-39ed5725876f', 'marketUnit': '', 'execQty': '127811', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BNBUSDT    |  -4.12 |  47.73
+Last close price for BNBUSDT: 848.1
+Opening Sell for  BNBUSDT
+TP: 843.8595
+SL: 852.3404999999999
+TS: 4.2405
+Order Quantity: 11.79
+Adjusted qty: 11.790000000000001
+Final Adjusted qty: 11.79
+1054.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 02.09.2025 19:42:07
