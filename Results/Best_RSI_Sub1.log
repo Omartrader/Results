@@ -561,3 +561,49 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 02.09.2025 15:01:29
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 15:05:38
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AVAXUSDT   |  -6.80 |  55.32
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756811168303}
+Last close price for AVAXUSDT: 24.195
+Opening Sell for  AVAXUSDT
+TP: 24.074025
+SL: 24.315974999999998
+TS: 0.120975
+Order Quantity: 413.31
+Adjusted qty: 413.3
+Final Adjusted qty: 413.3
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5b7b33bb-1861-4e94-99b9-ef4ed98403a3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756811170308}
+5b7b33bb-1861-4e94-99b9-ef4ed98403a3
+fetching trade data for :  5b7b33bb-1861-4e94-99b9-ef4ed98403a3
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5b7b33bb-1861-4e94-99b9-ef4ed98403a3', 'stopOrderType': 'UNKNOWN', 'execTime': '1756811170307', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '24.195', 'execPrice': '24.193', 'markIv': '', 'orderQty': '413.3', 'orderPrice': '23.712', 'execValue': '9998.9669', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179289537, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4994318', 'execId': 'b7eb9e48-d917-4182-b504-5b89517227c5', 'marketUnit': '', 'execQty': '413.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FORMUSDT   |  -5.77 |  60.85
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756811177331}
+Last close price for FORMUSDT: 3.3653
+Opening Sell for  FORMUSDT
+TP: 3.3484735
+SL: 3.3821264999999996
+TS: 0.0168265
+Order Quantity: 2971.5
+Adjusted qty: 2972.0
+Final Adjusted qty: 2971.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0c543727-9317-4444-96db-b91ffffdfbcb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756811179181}
+0c543727-9317-4444-96db-b91ffffdfbcb
+fetching trade data for :  0c543727-9317-4444-96db-b91ffffdfbcb
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0c543727-9317-4444-96db-b91ffffdfbcb', 'stopOrderType': 'UNKNOWN', 'execTime': '1756811179181', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.3653', 'execPrice': '3.3662', 'markIv': '', 'orderQty': '2850', 'orderPrice': '2.8606', 'execValue': '9593.67', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179289807, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.2765185', 'execId': '45d7a523-28bf-465a-941c-ec2f07a03ef2', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 15:06:24
