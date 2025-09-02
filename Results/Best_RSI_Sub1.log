@@ -5348,3 +5348,60 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 02.09.2025 20:45:53
+***************************************************************
+Number of open positions: 8
+Function started at 02.09.2025 20:50:36
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AVAXUSDT   |  10.89 |  53.63
+Last close price for AVAXUSDT: 23.766
+Opening Buy for  AVAXUSDT
+TP: 23.884829999999997
+SL: 23.64717
+TS: 0.11882999999999999
+Order Quantity: 420.77
+Adjusted qty: 420.8
+Final Adjusted qty: 420.7
+10950.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+APTUSDT    |   9.44 |  52.66
+Last close price for APTUSDT: 4.28
+Opening Buy for  APTUSDT
+TP: 4.3014
+SL: 4.2586
+TS: 0.021400000000000002
+Order Quantity: 2336.45
+Adjusted qty: 2336.4500000000003
+Final Adjusted qty: 2336.45
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd0f008c9-2ee9-4b5d-b186-86fbfb39e6cf', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756831858963}
+d0f008c9-2ee9-4b5d-b186-86fbfb39e6cf
+fetching trade data for :  d0f008c9-2ee9-4b5d-b186-86fbfb39e6cf
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd0f008c9-2ee9-4b5d-b186-86fbfb39e6cf', 'stopOrderType': 'UNKNOWN', 'execTime': '1756831858963', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.2804', 'execPrice': '4.28', 'markIv': '', 'orderQty': '2336.45', 'orderPrice': '4.494', 'execValue': '10000.006', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697179962380, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5000033', 'execId': '36994a1a-2cbd-4e9c-8903-a7b375448cf2', 'marketUnit': '', 'execQty': '2336.45', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT |   9.38 |  51.03
+Last close price for RENDERUSDT: 3.393
+Opening Buy for  RENDERUSDT
+TP: 3.4099649999999992
+SL: 3.376035
+TS: 0.016964999999999997
+Order Quantity: 2947.24
+Adjusted qty: 2947.2000000000003
+Final Adjusted qty: 2947.2
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '36fc01aa-9152-4a8f-a61b-e1517acdbbef', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756831866484}
+36fc01aa-9152-4a8f-a61b-e1517acdbbef
+fetching trade data for :  36fc01aa-9152-4a8f-a61b-e1517acdbbef
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 02.09.2025 20:51:11
