@@ -22568,3 +22568,78 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 02.09.2025 19:25:29
+***************************************************************
+Number of open positions: 7
+Function started at 02.09.2025 19:30:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+RENDERUSDT |  -6.67 |  43.33
+Last close price for RENDERUSDT: 3.408
+Opening Sell for  RENDERUSDT
+TP: 3.3909599999999998
+SL: 3.44208
+TS: 0.03408
+Order Quantity: 2934.27
+Adjusted qty: 2934.3
+Final Adjusted qty: 2934.2
+10000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+DOTUSDT    |  -5.38 |  45.73
+Last close price for DOTUSDT: 3.7653
+Opening Sell for  DOTUSDT
+TP: 3.7464735
+SL: 3.802953
+TS: 0.037653
+Order Quantity: 2655.83
+Adjusted qty: 2655.8
+Final Adjusted qty: 2655.8
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f6171c21-01dd-410e-9e38-bfa3c0740c31', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756827038053}
+f6171c21-01dd-410e-9e38-bfa3c0740c31
+fetching trade data for :  f6171c21-01dd-410e-9e38-bfa3c0740c31
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    |  -5.13 |  41.72
+Last close price for ICPUSDT: 4.804
+Opening Sell for  ICPUSDT
+TP: 4.77998
+SL: 4.852040000000001
+TS: 0.04804
+Order Quantity: 2081.6
+Adjusted qty: 2081.6
+Final Adjusted qty: 2081.6
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2cfbb02a-69af-4c13-8237-d5bf0dcdea84', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756827046370}
+2cfbb02a-69af-4c13-8237-d5bf0dcdea84
+fetching trade data for :  2cfbb02a-69af-4c13-8237-d5bf0dcdea84
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SOLUSDT    |  -5.00 |  51.23
+Last close price for SOLUSDT: 203.09
+Opening Sell for  SOLUSDT
+TP: 202.07455000000002
+SL: 205.1209
+TS: 2.0309
+Order Quantity: 49.24
+Adjusted qty: 49.2
+Final Adjusted qty: 49.2
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5c2f93ac-52ea-48df-b2f0-27f7dbef08f7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756827054663}
+5c2f93ac-52ea-48df-b2f0-27f7dbef08f7
+fetching trade data for :  5c2f93ac-52ea-48df-b2f0-27f7dbef08f7
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5c2f93ac-52ea-48df-b2f0-27f7dbef08f7', 'stopOrderType': 'UNKNOWN', 'execTime': '1756827054662', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '203.09', 'execPrice': '203.02', 'markIv': '', 'orderQty': '49.2', 'orderPrice': '192.94', 'execValue': '9988.584', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710488766702, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4937212', 'execId': '316e9124-200f-4f40-86a3-6339298dd2be', 'marketUnit': '', 'execQty': '49.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 02.09.2025 19:31:00
