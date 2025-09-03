@@ -18002,3 +18002,29 @@ Order Quantity: 489715.96
 Adjusted qty: 489720.0
 Final Adjusted qty: 489710.0
 509000.0
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 21:30:41
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+SOLUSDT    |  12.97 |  58.65
+Last close price for SOLUSDT: 211.3
+Opening Buy for  SOLUSDT
+TP: 212.35649999999998
+SL: 210.2435
+TS: 1.0565
+Order Quantity: 47.33
+Adjusted qty: 47.300000000000004
+Final Adjusted qty: 47.3
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b1843160-7990-4d7f-aba8-28dec2d5ac65', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756920670488}
+b1843160-7990-4d7f-aba8-28dec2d5ac65
+fetching trade data for :  b1843160-7990-4d7f-aba8-28dec2d5ac65
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b1843160-7990-4d7f-aba8-28dec2d5ac65', 'stopOrderType': 'UNKNOWN', 'execTime': '1756920670487', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '211.293', 'execPrice': '211.25', 'markIv': '', 'orderQty': '47.3', 'orderPrice': '221.85', 'execValue': '9992.125', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182749807, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49566875', 'execId': '9f3ba5e0-3f68-4783-9c5c-65edbcabcb86', 'marketUnit': '', 'execQty': '47.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 21:31:17
