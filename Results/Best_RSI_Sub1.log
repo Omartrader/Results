@@ -13423,3 +13423,55 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 13:26:18
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 13:30:37
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TONUSDT    |   9.17 |  47.57
+Last close price for TONUSDT: 3.1337
+Opening Buy for  TONUSDT
+TP: 3.1493685
+SL: 3.1180315000000003
+TS: 0.015668500000000002
+Order Quantity: 3191.12
+Adjusted qty: 3191.1000000000004
+Final Adjusted qty: 3191.1
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LTCUSDT    |   8.31 |  61.46
+Last close price for LTCUSDT: 112.06
+Opening Buy for  LTCUSDT
+TP: 112.62029999999999
+SL: 111.4997
+TS: 0.5603
+Order Quantity: 89.24
+Adjusted qty: 89.2
+Final Adjusted qty: 89.2
+6160.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ENAUSDT    |   7.66 |  61.05
+Last close price for ENAUSDT: 0.6977
+Opening Buy for  ENAUSDT
+TP: 0.7011884999999999
+SL: 0.6942115
+TS: 0.0034885
+Order Quantity: 14332.81
+Adjusted qty: 14333.0
+Final Adjusted qty: 14332.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8009984a-09e4-4501-a21a-f45356587b90', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756891868842}
+8009984a-09e4-4501-a21a-f45356587b90
+fetching trade data for :  8009984a-09e4-4501-a21a-f45356587b90
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8009984a-09e4-4501-a21a-f45356587b90', 'stopOrderType': 'UNKNOWN', 'execTime': '1756891868841', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.6979', 'execPrice': '0.6978', 'markIv': '', 'orderQty': '14332', 'orderPrice': '0.7676', 'execValue': '10000.8696', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181840902, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50047828', 'execId': '94c92805-dcd5-41f6-ad06-0f007d52a1a9', 'marketUnit': '', 'execQty': '14332', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 13:31:15
