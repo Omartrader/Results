@@ -13061,3 +13061,65 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 12:45:52
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 12:50:34
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+LTCUSDT    | -14.22 |  50.39
+Last close price for LTCUSDT: 111.66
+Opening Sell for  LTCUSDT
+TP: 111.1017
+SL: 112.21829999999999
+TS: 0.5583
+Order Quantity: 89.56
+Adjusted qty: 89.60000000000001
+Final Adjusted qty: 89.5
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2e92c11a-1eca-4512-90a7-597f109975bd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756889452064}
+2e92c11a-1eca-4512-90a7-597f109975bd
+fetching trade data for :  2e92c11a-1eca-4512-90a7-597f109975bd
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2e92c11a-1eca-4512-90a7-597f109975bd', 'stopOrderType': 'UNKNOWN', 'execTime': '1756889452064', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '111.66', 'execPrice': '111.66', 'markIv': '', 'orderQty': '89.5', 'orderPrice': '106.08', 'execValue': '9993.57', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181765766, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4964635', 'execId': 'f6557c96-a404-4755-9942-7e3427259d02', 'marketUnit': '', 'execQty': '89.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ALGOUSDT   | -12.19 |  47.66
+Last close price for ALGOUSDT: 0.2317
+Opening Sell for  ALGOUSDT
+TP: 0.23054149999999998
+SL: 0.23285849999999997
+TS: 0.0011585
+Order Quantity: 43159.26
+Adjusted qty: 43159.3
+Final Adjusted qty: 43159.2
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'afa01b0b-d22a-4303-b4b4-c5667bfebc68', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756889459151}
+afa01b0b-d22a-4303-b4b4-c5667bfebc68
+fetching trade data for :  afa01b0b-d22a-4303-b4b4-c5667bfebc68
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'afa01b0b-d22a-4303-b4b4-c5667bfebc68', 'stopOrderType': 'UNKNOWN', 'execTime': '1756889459151', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2317', 'execPrice': '0.2317', 'markIv': '', 'orderQty': '43159.2', 'orderPrice': '0.2202', 'execValue': '9999.98664', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181765993, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999266', 'execId': 'f61020d2-3ae6-499c-ba81-6e98b2203e33', 'marketUnit': '', 'execQty': '43159.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    | -11.83 |  50.35
+Last close price for ICPUSDT: 4.825
+Opening Sell for  ICPUSDT
+TP: 4.8008750000000004
+SL: 4.849125
+TS: 0.024125
+Order Quantity: 2072.54
+Adjusted qty: 2072.5
+Final Adjusted qty: 2072.5
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5144f638-b2c9-4793-a07d-4cbd9dd7e2f6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756889466414}
+5144f638-b2c9-4793-a07d-4cbd9dd7e2f6
+fetching trade data for :  5144f638-b2c9-4793-a07d-4cbd9dd7e2f6
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 12:51:12
