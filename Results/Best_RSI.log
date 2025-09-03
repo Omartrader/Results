@@ -30149,3 +30149,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 04.09.2025 00:55:31
+***************************************************************
+Number of open positions: 9
+Function started at 04.09.2025 01:05:49
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ATOMUSDT   |  -4.75 |  43.97
+Last close price for ATOMUSDT: 4.519
+Opening Sell for  ATOMUSDT
+TP: 4.496405
+SL: 4.56419
+TS: 0.04519
+Order Quantity: 2212.88
+Adjusted qty: 2212.9
+Final Adjusted qty: 2212.8
+22100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ENAUSDT    |  -4.10 |  43.90
+Last close price for ENAUSDT: 0.7275
+Opening Sell for  ENAUSDT
+TP: 0.7238625000000001
+SL: 0.7347750000000001
+TS: 0.007275
+Order Quantity: 13745.7
+Adjusted qty: 13746.0
+Final Adjusted qty: 13745.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5af0b5dd-9f6f-4909-8108-9268425308a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756933569265}
+5af0b5dd-9f6f-4909-8108-9268425308a8
+fetching trade data for :  5af0b5dd-9f6f-4909-8108-9268425308a8
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5af0b5dd-9f6f-4909-8108-9268425308a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1756933569263', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7275', 'execPrice': '0.7275', 'markIv': '', 'orderQty': '13745', 'orderPrice': '0.6548', 'execValue': '9999.4875', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710491994708, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49971813', 'execId': '4e2fc0b9-8d61-492c-aff1-ed6a12a48129', 'marketUnit': '', 'execQty': '13745', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 04.09.2025 01:06:14
