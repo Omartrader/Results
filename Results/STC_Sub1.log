@@ -10345,3 +10345,73 @@ fetching trade data for :  c53d3919-296a-4461-9e09-70ca118532c9
 [{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c53d3919-296a-4461-9e09-70ca118532c9', 'stopOrderType': 'UNKNOWN', 'execTime': '1756909290814', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.006', 'execPrice': '1.0067', 'markIv': '', 'orderQty': '9940', 'orderPrice': '1.1236', 'execValue': '10006.598', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612492223814, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0072578', 'execId': '7269f211-e929-47e5-bb4e-951346c4eb40', 'marketUnit': '', 'execQty': '9940', 'extraFees': ''}]
 Trades inserted successfully.
 None
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 18:26:29
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      |   6.29 | 100.00
+Last close price for MUSDT: 0.9914
+Opening Buy for  MUSDT
+TP: 1.001314
+SL: 0.9715719999999999
+TS: 0.009914
+Order Quantity: 10086.75
+Adjusted qty: 10087.0
+Final Adjusted qty: 10086.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e178e660-afba-4e8b-80c2-3c0a0a1bd0be', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756909610437}
+e178e660-afba-4e8b-80c2-3c0a0a1bd0be
+fetching trade data for :  e178e660-afba-4e8b-80c2-3c0a0a1bd0be
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e178e660-afba-4e8b-80c2-3c0a0a1bd0be', 'stopOrderType': 'UNKNOWN', 'execTime': '1756909610436', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9922', 'execPrice': '0.993', 'markIv': '', 'orderQty': '10086', 'orderPrice': '1.141', 'execValue': '10015.398', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612492234803, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0169378', 'execId': '8a239f27-3e0d-40ec-87cd-f17389ece02e', 'marketUnit': '', 'execQty': '10086', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    |   0.00 | 100.00
+Last close price for XLMUSDT: 0.36453
+Opening Buy for  XLMUSDT
+TP: 0.36817530000000004
+SL: 0.35723940000000004
+TS: 0.0036453
+Order Quantity: 27432.58
+Adjusted qty: 27433.0
+Final Adjusted qty: 27432.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SKYUSDT    |   0.00 |  99.99
+Last close price for SKYUSDT: 0.07186
+Opening Buy for  SKYUSDT
+TP: 0.0725786
+SL: 0.0704228
+TS: 0.0007185999999999999
+Order Quantity: 139159.48
+Adjusted qty: 139160.0
+Final Adjusted qty: 139150.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MANAUSDT   |   0.00 |  99.97
+Last close price for MANAUSDT: 0.3103
+Opening Buy for  MANAUSDT
+TP: 0.31340300000000004
+SL: 0.30409400000000003
+TS: 0.0031030000000000003
+Order Quantity: 32226.88
+Adjusted qty: 32226.9
+Final Adjusted qty: 32226.8
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ec870d5e-64f4-4533-aca8-006c4e17df6a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756909624471}
+ec870d5e-64f4-4533-aca8-006c4e17df6a
+fetching trade data for :  ec870d5e-64f4-4533-aca8-006c4e17df6a
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ec870d5e-64f4-4533-aca8-006c4e17df6a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756909624470', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3104', 'execPrice': '0.3103', 'markIv': '', 'orderQty': '32226.8', 'orderPrice': '0.3414', 'execValue': '9999.97604', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612492235276, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998683', 'execId': 'a4bd3fd7-52b4-4e53-8479-6e2340b2fb20', 'marketUnit': '', 'execQty': '32226.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 18:27:13
