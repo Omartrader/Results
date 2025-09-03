@@ -14904,3 +14904,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 03.09.2025 16:51:41
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 16:55:47
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TONUSDT    | -11.62 |  44.90
+Last close price for TONUSDT: 3.1469
+Opening Sell for  TONUSDT
+TP: 3.1311655
+SL: 3.1626345
+TS: 0.0157345
+Order Quantity: 3177.73
+Adjusted qty: 3177.7000000000003
+Final Adjusted qty: 3177.7
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETCUSDT    | -11.59 |  42.30
+Last close price for ETCUSDT: 20.755
+Opening Sell for  ETCUSDT
+TP: 20.651225
+SL: 20.858774999999998
+TS: 0.10377499999999999
+Order Quantity: 481.81
+Adjusted qty: 481.8
+Final Adjusted qty: 481.8
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '71780b36-2f02-4e33-bc9e-0302782d88ae', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756904179086}
+71780b36-2f02-4e33-bc9e-0302782d88ae
+fetching trade data for :  71780b36-2f02-4e33-bc9e-0302782d88ae
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '71780b36-2f02-4e33-bc9e-0302782d88ae', 'stopOrderType': 'UNKNOWN', 'execTime': '1756904179085', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.755', 'execPrice': '20.755', 'markIv': '', 'orderQty': '481.8', 'orderPrice': '19.718', 'execValue': '9999.759', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182225268, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986745', 'execId': '7ffe761c-4e5f-4799-ba48-3fde9a47dfed', 'marketUnit': '', 'execQty': '481.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 16:56:24
