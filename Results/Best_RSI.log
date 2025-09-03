@@ -26453,3 +26453,60 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 03.09.2025 09:10:33
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 09:15:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+UNIUSDT    |  -8.45 |  38.67
+Last close price for UNIUSDT: 9.511
+Opening Sell for  UNIUSDT
+TP: 9.463444999999998
+SL: 9.60611
+TS: 0.09510999999999999
+Order Quantity: 1051.41
+Adjusted qty: 1051.4
+Final Adjusted qty: 1051.4
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6d972019-15c8-48f0-87d9-d93d2ef86ebb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756876536004}
+6d972019-15c8-48f0-87d9-d93d2ef86ebb
+fetching trade data for :  6d972019-15c8-48f0-87d9-d93d2ef86ebb
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6d972019-15c8-48f0-87d9-d93d2ef86ebb', 'stopOrderType': 'UNKNOWN', 'execTime': '1756876536003', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.509', 'execPrice': '9.509', 'markIv': '', 'orderQty': '1051.4', 'orderPrice': '9.034', 'execValue': '9997.7626', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490258802, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49876943', 'execId': 'd2f400f0-2e1e-4865-aacb-b7e4208d5653', 'marketUnit': '', 'execQty': '1051.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    |  -4.70 |  40.48
+Last close price for BTCUSDT: 110830.5
+Opening Sell for  BTCUSDT
+TP: 110276.3475
+SL: 111938.80500000001
+TS: 1108.305
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MNTUSDT    |  -4.29 |  39.29
+Last close price for MNTUSDT: 1.1105
+Opening Sell for  MNTUSDT
+TP: 1.1049475
+SL: 1.121605
+TS: 0.011105
+Order Quantity: 9004.95
+Adjusted qty: 9005.0
+Final Adjusted qty: 9004.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4b33662c-96d0-4fdc-bc10-7ba841ba74b7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756876546382}
+4b33662c-96d0-4fdc-bc10-7ba841ba74b7
+fetching trade data for :  4b33662c-96d0-4fdc-bc10-7ba841ba74b7
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4b33662c-96d0-4fdc-bc10-7ba841ba74b7', 'stopOrderType': 'UNKNOWN', 'execTime': '1756876546381', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1105', 'execPrice': '1.1105', 'markIv': '', 'orderQty': '9004', 'orderPrice': '0.9995', 'execValue': '9998.942', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490259105, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4994181', 'execId': 'ed1ece38-d224-4f9e-828e-09bbee41df6e', 'marketUnit': '', 'execQty': '9004', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 09:15:51
