@@ -10690,3 +10690,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 07:06:13
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 07:10:35
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FLRUSDT    |   6.38 |  59.47
+Last close price for FLRUSDT: 0.02054
+Opening Buy for  FLRUSDT
+TP: 0.020642699999999996
+SL: 0.0204373
+TS: 0.0001027
+Order Quantity: 486854.92
+Adjusted qty: 486850.0
+Final Adjusted qty: 486850.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5369d51d-ec53-4f23-ba95-9134e4f0e092', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756869064425}
+5369d51d-ec53-4f23-ba95-9134e4f0e092
+fetching trade data for :  5369d51d-ec53-4f23-ba95-9134e4f0e092
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5369d51d-ec53-4f23-ba95-9134e4f0e092', 'stopOrderType': 'UNKNOWN', 'execTime': '1756869064425', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02054', 'execPrice': '0.02054', 'markIv': '', 'orderQty': '486850', 'orderPrice': '0.02464', 'execValue': '9999.899', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181132607, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994445', 'execId': '221db35a-76d1-4a58-ae0b-7a041dcff578', 'marketUnit': '', 'execQty': '486850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   |  -6.25 |  56.81
+Last close price for ONDOUSDT: 0.9659
+Opening Sell for  ONDOUSDT
+TP: 0.9610704999999999
+SL: 0.9707294999999999
+TS: 0.0048295
+Order Quantity: 10353.04
+Adjusted qty: 10353.0
+Final Adjusted qty: 10353.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5827b646-df75-483d-8d4a-de2ec2714f9d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756869072371}
+5827b646-df75-483d-8d4a-de2ec2714f9d
+fetching trade data for :  5827b646-df75-483d-8d4a-de2ec2714f9d
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5827b646-df75-483d-8d4a-de2ec2714f9d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756869072370', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9659', 'execPrice': '0.9659', 'markIv': '', 'orderQty': '10353', 'orderPrice': '0.9177', 'execValue': '9999.9627', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181132861, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997949', 'execId': 'd14d8f94-7739-4ff4-a233-04cadf7dca70', 'marketUnit': '', 'execQty': '10353', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 07:11:17
