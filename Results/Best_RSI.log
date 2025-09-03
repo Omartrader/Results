@@ -27689,3 +27689,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 14:20:29
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 14:25:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+PENGUUSDT  |   6.55 |  70.12
+Last close price for PENGUUSDT: 0.030916
+Opening Buy for  PENGUUSDT
+TP: 0.031070579999999997
+SL: 0.03060684
+TS: 0.00030916
+Order Quantity: 323457.11
+Adjusted qty: 323460.0
+Final Adjusted qty: 323450.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7a1f0014-5595-4171-9504-46a67c1aff4f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756895135749}
+7a1f0014-5595-4171-9504-46a67c1aff4f
+fetching trade data for :  7a1f0014-5595-4171-9504-46a67c1aff4f
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7a1f0014-5595-4171-9504-46a67c1aff4f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756895135748', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.030923', 'execPrice': '0.030911', 'markIv': '', 'orderQty': '323450', 'orderPrice': '0.034015', 'execValue': '9998.16295', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490826374, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49898963', 'execId': 'b0593120-89b2-4302-a7a8-90ab379296e4', 'marketUnit': '', 'execQty': '323450', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    |  -5.91 |  57.99
+Last close price for CROUSDT: 0.26242
+Opening Sell for  CROUSDT
+TP: 0.2611079
+SL: 0.2650442
+TS: 0.0026241999999999997
+Order Quantity: 38106.85
+Adjusted qty: 38107.0
+Final Adjusted qty: 38106.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '04899642-42d8-4eb4-ab08-0577e28cacd2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756895144648}
+04899642-42d8-4eb4-ab08-0577e28cacd2
+fetching trade data for :  04899642-42d8-4eb4-ab08-0577e28cacd2
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 14:25:50
