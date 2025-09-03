@@ -9555,3 +9555,65 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 04:51:11
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 04:55:34
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+ONDOUSDT   | -13.52 |  50.28
+Last close price for ONDOUSDT: 0.9511
+Opening Sell for  ONDOUSDT
+TP: 0.9463444999999999
+SL: 0.9558554999999999
+TS: 0.004755499999999999
+Order Quantity: 10514.14
+Adjusted qty: 10514.0
+Final Adjusted qty: 10514.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f12601f1-a18a-44d0-ac5c-a2c04975fa3e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756860961262}
+f12601f1-a18a-44d0-ac5c-a2c04975fa3e
+fetching trade data for :  f12601f1-a18a-44d0-ac5c-a2c04975fa3e
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f12601f1-a18a-44d0-ac5c-a2c04975fa3e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756860961262', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9514', 'execPrice': '0.9514', 'markIv': '', 'orderQty': '10514', 'orderPrice': '0.9039', 'execValue': '10003.0196', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180880194, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50166078', 'execId': 'd4a6e6ea-2657-4a63-ab81-6e801d895ff6', 'marketUnit': '', 'execQty': '10514', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     |  11.79 |  44.83
+Last close price for IPUSDT: 7.7018
+Opening Buy for  IPUSDT
+TP: 7.740309
+SL: 7.663291
+TS: 0.038509
+Order Quantity: 1298.4
+Adjusted qty: 1298.4
+Final Adjusted qty: 1298.4
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '80b77ffa-f9fc-47c1-999f-6d06c91ef47e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756860969529}
+80b77ffa-f9fc-47c1-999f-6d06c91ef47e
+fetching trade data for :  80b77ffa-f9fc-47c1-999f-6d06c91ef47e
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '80b77ffa-f9fc-47c1-999f-6d06c91ef47e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756860969529', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.7023', 'execPrice': '7.7029', 'markIv': '', 'orderQty': '1298.4', 'orderPrice': '8.4725', 'execValue': '10001.44536', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180880450, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50079495', 'execId': '5d41444d-7afe-48ed-9bf5-1b6b9a997588', 'marketUnit': '', 'execQty': '1298.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    |  -8.21 |  40.79
+Last close price for WLDUSDT: 0.8838
+Opening Sell for  WLDUSDT
+TP: 0.8793810000000001
+SL: 0.888219
+TS: 0.004419
+Order Quantity: 11314.78
+Adjusted qty: 11314.800000000001
+Final Adjusted qty: 11314.7
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ebd0fb6c-d6bd-4daf-91a9-7990a3472394', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756860977842}
+ebd0fb6c-d6bd-4daf-91a9-7990a3472394
+fetching trade data for :  ebd0fb6c-d6bd-4daf-91a9-7990a3472394
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ebd0fb6c-d6bd-4daf-91a9-7990a3472394', 'stopOrderType': 'UNKNOWN', 'execTime': '1756860977842', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.884', 'execPrice': '0.8838', 'markIv': '', 'orderQty': '11314.7', 'orderPrice': '0.8398', 'execValue': '9999.93186', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180880721, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996253', 'execId': '60f03a15-a5a2-43b0-82aa-db27a3028671', 'marketUnit': '', 'execQty': '11314.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 04:56:24
