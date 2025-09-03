@@ -14255,3 +14255,73 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 15:16:03
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 15:20:51
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AAVEUSDT   |   9.92 |  74.40
+Last close price for AAVEUSDT: 322.65
+Opening Buy for  AAVEUSDT
+TP: 324.26324999999997
+SL: 321.03675
+TS: 1.6132499999999999
+Order Quantity: 30.99
+Adjusted qty: 30.990000000000002
+Final Adjusted qty: 30.99
+2514.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LINKUSDT   |   8.28 |  68.15
+Last close price for LINKUSDT: 23.553
+Opening Buy for  LINKUSDT
+TP: 23.670765
+SL: 23.435235000000002
+TS: 0.11776500000000001
+Order Quantity: 424.57
+Adjusted qty: 424.6
+Final Adjusted qty: 424.5
+31450.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    |   7.25 |  72.96
+Last close price for UNIUSDT: 9.592
+Opening Buy for  UNIUSDT
+TP: 9.63996
+SL: 9.54404
+TS: 0.04796
+Order Quantity: 1042.54
+Adjusted qty: 1042.5
+Final Adjusted qty: 1042.5
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '799c0216-e1b1-4450-b4dc-66c5e4225553', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756898472152}
+799c0216-e1b1-4450-b4dc-66c5e4225553
+fetching trade data for :  799c0216-e1b1-4450-b4dc-66c5e4225553
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '799c0216-e1b1-4450-b4dc-66c5e4225553', 'stopOrderType': 'UNKNOWN', 'execTime': '1756898472151', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.593', 'execPrice': '9.592', 'markIv': '', 'orderQty': '1042.5', 'orderPrice': '10.072', 'execValue': '9999.66', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182049815, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499813', 'execId': 'e3a93bcc-453a-44b7-bdeb-4d9e548b5833', 'marketUnit': '', 'execQty': '1042.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    |   6.91 |  52.95
+Last close price for XDCUSDT: 0.07833
+Opening Buy for  XDCUSDT
+TP: 0.07872164999999999
+SL: 0.07793834999999999
+TS: 0.00039165
+Order Quantity: 127665.01
+Adjusted qty: 127665.0
+Final Adjusted qty: 127665.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '46cbe68f-aa93-44f5-b633-a334c14b721a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756898479411}
+46cbe68f-aa93-44f5-b633-a334c14b721a
+fetching trade data for :  46cbe68f-aa93-44f5-b633-a334c14b721a
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '46cbe68f-aa93-44f5-b633-a334c14b721a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756898479410', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.0783', 'execPrice': '0.07833', 'markIv': '', 'orderQty': '127665', 'orderPrice': '0.08204', 'execValue': '9999.99945', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182050029, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999994', 'execId': '83d5327d-7fc5-4008-afbe-f914e13d689c', 'marketUnit': '', 'execQty': '127665', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 15:21:24
