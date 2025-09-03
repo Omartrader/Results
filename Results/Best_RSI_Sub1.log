@@ -15091,3 +15091,59 @@ Order Quantity: 12004.8
 Adjusted qty: 12005.0
 Final Adjusted qty: 12004.0
 1109600.0
+***************************************************************
+Number of open positions: 5
+Function started at 03.09.2025 17:20:54
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TONUSDT    |  10.17 |  71.56
+Last close price for TONUSDT: 3.1864
+Opening Buy for  TONUSDT
+TP: 3.2023319999999997
+SL: 3.170468
+TS: 0.015931999999999998
+Order Quantity: 3138.34
+Adjusted qty: 3138.3
+Final Adjusted qty: 3138.3
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f3d3fc36-d759-41f2-96da-4b39243f6a5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756905675457}
+f3d3fc36-d759-41f2-96da-4b39243f6a5e
+fetching trade data for :  f3d3fc36-d759-41f2-96da-4b39243f6a5e
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f3d3fc36-d759-41f2-96da-4b39243f6a5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756905675456', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1851', 'execPrice': '3.1847', 'markIv': '', 'orderQty': '3138.3', 'orderPrice': '3.3443', 'execValue': '9994.54401', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182272083, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49699921', 'execId': '0c568e6d-bc19-4a1d-a5a5-f3084f22b375', 'marketUnit': '', 'execQty': '3138.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XRPUSDT    |   5.10 |  52.55
+Last close price for XRPUSDT: 2.8541
+Opening Buy for  XRPUSDT
+TP: 2.8683704999999997
+SL: 2.8398295
+TS: 0.014270499999999998
+Order Quantity: 3503.73
+Adjusted qty: 3504.0
+Final Adjusted qty: 3503.0
+2467800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IPUSDT     |  -3.44 |  45.15
+Last close price for IPUSDT: 7.7732
+Opening Sell for  IPUSDT
+TP: 7.7343340000000005
+SL: 7.812065999999999
+TS: 0.038866
+Order Quantity: 1286.47
+Adjusted qty: 1286.5
+Final Adjusted qty: 1286.4
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '93264810-02f8-48a2-85cc-547180e47502', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756905683920}
+93264810-02f8-48a2-85cc-547180e47502
+fetching trade data for :  93264810-02f8-48a2-85cc-547180e47502
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '93264810-02f8-48a2-85cc-547180e47502', 'stopOrderType': 'UNKNOWN', 'execTime': '1756905683919', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.7732', 'execPrice': '7.7732', 'markIv': '', 'orderQty': '1286.4', 'orderPrice': '6.9959', 'execValue': '9999.44448', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182272360, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49969447', 'execId': 'b99030eb-7e79-48c1-a812-c6d2f24acb24', 'marketUnit': '', 'execQty': '1286.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 03.09.2025 17:21:28
