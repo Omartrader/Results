@@ -27377,3 +27377,42 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 13:30:32
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 13:35:08
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FLRUSDT    |   8.12 |  56.63
+Last close price for FLRUSDT: 0.02051
+Opening Buy for  FLRUSDT
+TP: 0.020612549999999997
+SL: 0.0203049
+TS: 0.0002051
+Order Quantity: 487567.04
+Adjusted qty: 487570.0
+Final Adjusted qty: 487560.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XDCUSDT    |  -4.42 |  35.92
+Last close price for XDCUSDT: 0.07818
+Opening Sell for  XDCUSDT
+TP: 0.0777891
+SL: 0.0789618
+TS: 0.0007818
+Order Quantity: 127909.95
+Adjusted qty: 127910.0
+Final Adjusted qty: 127909.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bcdd573c-b796-4bb3-9349-baf554496b19', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756892141185}
+bcdd573c-b796-4bb3-9349-baf554496b19
+fetching trade data for :  bcdd573c-b796-4bb3-9349-baf554496b19
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bcdd573c-b796-4bb3-9349-baf554496b19', 'stopOrderType': 'UNKNOWN', 'execTime': '1756892141184', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07818', 'execPrice': '0.07818', 'markIv': '', 'orderQty': '127909', 'orderPrice': '0.06255', 'execValue': '9999.92562', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490735586, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991819', 'execId': '68af477c-eaf9-4c14-8cb4-98a1a1e198c0', 'marketUnit': '', 'execQty': '127909', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 13:35:47
