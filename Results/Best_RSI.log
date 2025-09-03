@@ -28702,3 +28702,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 18:20:23
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 18:25:08
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FORMUSDT   |  -8.67 |  47.22
+Last close price for FORMUSDT: 3.5731
+Opening Sell for  FORMUSDT
+TP: 3.5552345
+SL: 3.6088310000000003
+TS: 0.035731
+Order Quantity: 2798.69
+Adjusted qty: 2799.0
+Final Adjusted qty: 2798.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '192cafda-251a-4b17-8cba-dd4deab2332e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756909538124}
+192cafda-251a-4b17-8cba-dd4deab2332e
+fetching trade data for :  192cafda-251a-4b17-8cba-dd4deab2332e
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '192cafda-251a-4b17-8cba-dd4deab2332e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756909538123', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.5728', 'execPrice': '3.573', 'markIv': '', 'orderQty': '2798', 'orderPrice': '3.0369', 'execValue': '9997.254', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710491269477, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4984897', 'execId': '7e5c0067-036f-4303-a16a-e513c2f038e8', 'marketUnit': '', 'execQty': '2798', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRXUSDT    |  -6.36 |  53.63
+Last close price for TRXUSDT: 0.34017
+Opening Sell for  TRXUSDT
+TP: 0.33846915
+SL: 0.3435717
+TS: 0.0034016999999999997
+Order Quantity: 29397.07
+Adjusted qty: 29397.0
+Final Adjusted qty: 29397.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6cbd61ec-813d-4716-bf56-3b50515039c2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756909546497}
+6cbd61ec-813d-4716-bf56-3b50515039c2
+fetching trade data for :  6cbd61ec-813d-4716-bf56-3b50515039c2
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6cbd61ec-813d-4716-bf56-3b50515039c2', 'stopOrderType': 'UNKNOWN', 'execTime': '1756909546496', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.34017', 'execPrice': '0.34017', 'markIv': '', 'orderQty': '29397', 'orderPrice': '0.32317', 'execValue': '9999.97749', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710491269730, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998762', 'execId': 'ee5f9eee-3610-4e2f-bc2a-8fa8c65f315e', 'marketUnit': '', 'execQty': '29397', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 18:25:51
