@@ -14016,3 +14016,60 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 14:36:03
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 14:40:47
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+IPUSDT     |  -8.52 |  45.25
+Last close price for IPUSDT: 7.8105
+Opening Sell for  IPUSDT
+TP: 7.7714475
+SL: 7.8495525
+TS: 0.039052500000000004
+Order Quantity: 1280.33
+Adjusted qty: 1280.3000000000002
+Final Adjusted qty: 1280.3
+2400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LINKUSDT   |  -8.20 |  54.70
+Last close price for LINKUSDT: 23.441
+Opening Sell for  LINKUSDT
+TP: 23.323795
+SL: 23.558204999999997
+TS: 0.11720499999999999
+Order Quantity: 426.6
+Adjusted qty: 426.6
+Final Adjusted qty: 426.6
+31450.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '765064f0-495f-43c4-81a5-068eb1949d88', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756896077610}
+765064f0-495f-43c4-81a5-068eb1949d88
+fetching trade data for :  765064f0-495f-43c4-81a5-068eb1949d88
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   |  -7.37 |  48.56
+Last close price for AVAXUSDT: 24.995
+Opening Sell for  AVAXUSDT
+TP: 24.870025000000002
+SL: 25.119974999999997
+TS: 0.124975
+Order Quantity: 400.08
+Adjusted qty: 400.1
+Final Adjusted qty: 400.0
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '40e6dc47-92bd-45ee-b870-f19fe62db944', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756896085917}
+40e6dc47-92bd-45ee-b870-f19fe62db944
+fetching trade data for :  40e6dc47-92bd-45ee-b870-f19fe62db944
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '40e6dc47-92bd-45ee-b870-f19fe62db944', 'stopOrderType': 'UNKNOWN', 'execTime': '1756896085916', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '24.998', 'execPrice': '24.99', 'markIv': '', 'orderQty': '400', 'orderPrice': '24.499', 'execValue': '9996', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181976410, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4978', 'execId': '36f81b3c-1d16-45dd-b923-86d28fcd4e3b', 'marketUnit': '', 'execQty': '400', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 14:41:31
