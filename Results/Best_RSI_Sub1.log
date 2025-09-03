@@ -11503,3 +11503,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 03.09.2025 09:06:16
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 09:10:37
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+APTUSDT    | -11.42 |  38.89
+Last close price for APTUSDT: 4.305
+Opening Sell for  APTUSDT
+TP: 4.283474999999999
+SL: 4.326524999999999
+TS: 0.021525
+Order Quantity: 2322.88
+Adjusted qty: 2322.88
+Final Adjusted qty: 2322.88
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '846f6158-0937-40c6-a976-b86f5a85f373', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756876266283}
+846f6158-0937-40c6-a976-b86f5a85f373
+fetching trade data for :  846f6158-0937-40c6-a976-b86f5a85f373
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '846f6158-0937-40c6-a976-b86f5a85f373', 'stopOrderType': 'UNKNOWN', 'execTime': '1756876266282', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.305', 'execPrice': '4.305', 'markIv': '', 'orderQty': '2322.88', 'orderPrice': '4.09', 'execValue': '9999.9984', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181354120, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999912', 'execId': 'de397a9a-12b1-4f85-9deb-b1b8321e6871', 'marketUnit': '', 'execQty': '2322.88', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 09:11:11
