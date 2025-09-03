@@ -27867,3 +27867,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 15:15:33
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 15:20:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+INJUSDT    |   5.36 |  68.68
+Last close price for INJUSDT: 13.278
+Opening Buy for  INJUSDT
+TP: 13.344389999999999
+SL: 13.14522
+TS: 0.13278
+Order Quantity: 753.13
+Adjusted qty: 753.1
+Final Adjusted qty: 753.1
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '25846421-4d81-4cef-9531-125fea265b8e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756898433881}
+25846421-4d81-4cef-9531-125fea265b8e
+fetching trade data for :  25846421-4d81-4cef-9531-125fea265b8e
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '25846421-4d81-4cef-9531-125fea265b8e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756898433880', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '13.278', 'execPrice': '13.278', 'markIv': '', 'orderQty': '753.1', 'orderPrice': '13.941', 'execValue': '9999.6618', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490926851, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49981399', 'execId': 'edfd240d-ea06-423b-88d9-7647840745f6', 'marketUnit': '', 'execQty': '753.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   |   4.69 |  72.91
+Last close price for HYPEUSDT: 45.902
+Opening Buy for  HYPEUSDT
+TP: 46.13151
+SL: 45.44298
+TS: 0.45902
+Order Quantity: 217.86
+Adjusted qty: 217.86
+Final Adjusted qty: 217.86
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cdab0f7a-c138-43f7-9769-5673e88ad022', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756898442170}
+cdab0f7a-c138-43f7-9769-5673e88ad022
+fetching trade data for :  cdab0f7a-c138-43f7-9769-5673e88ad022
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cdab0f7a-c138-43f7-9769-5673e88ad022', 'stopOrderType': 'UNKNOWN', 'execTime': '1756898442169', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '45.901', 'execPrice': '45.904', 'markIv': '', 'orderQty': '217.86', 'orderPrice': '59.671', 'execValue': '10000.64544', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490927161, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.500355', 'execId': '807e2c2b-ac6a-45dc-9e15-7b86020bf025', 'marketUnit': '', 'execQty': '217.86', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 15:20:47
