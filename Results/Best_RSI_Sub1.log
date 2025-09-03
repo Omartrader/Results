@@ -11740,3 +11740,47 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 03.09.2025 09:56:12
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 10:00:34
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BCHUSDT    | -10.50 |  61.79
+Last close price for BCHUSDT: 595.3
+Opening Sell for  BCHUSDT
+TP: 592.3235
+SL: 598.2764999999999
+TS: 2.9764999999999997
+Order Quantity: 16.8
+Adjusted qty: 16.8
+Final Adjusted qty: 16.8
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '268b4b4b-7f5a-4f8c-ba35-37b82bf69c32', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756879263302}
+268b4b4b-7f5a-4f8c-ba35-37b82bf69c32
+fetching trade data for :  268b4b4b-7f5a-4f8c-ba35-37b82bf69c32
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '268b4b4b-7f5a-4f8c-ba35-37b82bf69c32', 'stopOrderType': 'UNKNOWN', 'execTime': '1756879263301', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '595.31', 'execPrice': '595.3', 'markIv': '', 'orderQty': '16.8', 'orderPrice': '565.6', 'execValue': '10001.04', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181444524, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.500572', 'execId': 'c56eb50a-e7e7-496a-8969-230a5298a552', 'marketUnit': '', 'execQty': '16.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    |  -5.22 |  27.81
+Last close price for UNIUSDT: 9.446
+Opening Sell for  UNIUSDT
+TP: 9.398769999999999
+SL: 9.493229999999999
+TS: 0.04723
+Order Quantity: 1058.65
+Adjusted qty: 1058.6000000000001
+Final Adjusted qty: 1058.6
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7c07ccba-c26a-484b-890f-e45d3a5bf5e7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756879271600}
+7c07ccba-c26a-484b-890f-e45d3a5bf5e7
+fetching trade data for :  7c07ccba-c26a-484b-890f-e45d3a5bf5e7
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7c07ccba-c26a-484b-890f-e45d3a5bf5e7', 'stopOrderType': 'UNKNOWN', 'execTime': '1756879271599', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.448', 'execPrice': '9.445', 'markIv': '', 'orderQty': '1058.6', 'orderPrice': '8.976', 'execValue': '9998.477', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181444795, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49916235', 'execId': '97cf34c7-ebe2-4f3b-b267-e546594ad5f2', 'marketUnit': '', 'execQty': '1058.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 10:01:16
