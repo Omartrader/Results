@@ -17339,3 +17339,65 @@ Order Quantity: 35945.36
 Adjusted qty: 35945.0
 Final Adjusted qty: 35945.0
 79800.0
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 20:25:47
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+DOTUSDT    | -10.23 |  49.63
+Last close price for DOTUSDT: 3.8766
+Opening Sell for  DOTUSDT
+TP: 3.857217
+SL: 3.8959829999999993
+TS: 0.019382999999999997
+Order Quantity: 2579.58
+Adjusted qty: 2579.6000000000004
+Final Adjusted qty: 2579.5
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd00e86c0-5044-4ed3-a508-0f4b1774d2a0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756916778742}
+d00e86c0-5044-4ed3-a508-0f4b1774d2a0
+fetching trade data for :  d00e86c0-5044-4ed3-a508-0f4b1774d2a0
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd00e86c0-5044-4ed3-a508-0f4b1774d2a0', 'stopOrderType': 'UNKNOWN', 'execTime': '1756916778741', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.8772', 'execPrice': '3.8766', 'markIv': '', 'orderQty': '2579.5', 'orderPrice': '3.6834', 'execValue': '9999.6897', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182628074, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49982934', 'execId': '161c5293-f0d9-4343-95fb-07bbea134215', 'marketUnit': '', 'execQty': '2579.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   |  -9.88 |  46.64
+Last close price for AVAXUSDT: 25.302
+Opening Sell for  AVAXUSDT
+TP: 25.17549
+SL: 25.428509999999996
+TS: 0.12651
+Order Quantity: 395.23
+Adjusted qty: 395.20000000000005
+Final Adjusted qty: 395.2
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0d53e86f-3e4c-4b1e-b35f-3f2021d12992', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756916787111}
+0d53e86f-3e4c-4b1e-b35f-3f2021d12992
+fetching trade data for :  0d53e86f-3e4c-4b1e-b35f-3f2021d12992
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    |  -8.55 |  46.21
+Last close price for BTCUSDT: 111903.5
+Opening Sell for  BTCUSDT
+TP: 111343.9825
+SL: 112463.01749999999
+TS: 559.5175
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2d439468-278e-4836-8766-d45871b2455e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756916795449}
+2d439468-278e-4836-8766-d45871b2455e
+fetching trade data for :  2d439468-278e-4836-8766-d45871b2455e
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 20:26:39
