@@ -7252,3 +7252,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 12:46:39
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 12:51:16
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      |   3.69 | 100.00
+Last close price for MUSDT: 0.9319
+Opening Buy for  MUSDT
+TP: 0.9412189999999999
+SL: 0.9132619999999999
+TS: 0.009319
+Order Quantity: 10730.77
+Adjusted qty: 10731.0
+Final Adjusted qty: 10730.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0839f449-c4dc-4304-af51-06bfe24f96a7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756889505864}
+0839f449-c4dc-4304-af51-06bfe24f96a7
+fetching trade data for :  0839f449-c4dc-4304-af51-06bfe24f96a7
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0839f449-c4dc-4304-af51-06bfe24f96a7', 'stopOrderType': 'UNKNOWN', 'execTime': '1756889505864', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9318', 'execPrice': '0.9315', 'markIv': '', 'orderQty': '10730', 'orderPrice': '1.0715', 'execValue': '9994.995', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612491556863, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9944945', 'execId': 'c31e6d9d-c159-4b84-b54c-b356a6c77e83', 'marketUnit': '', 'execQty': '10730', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    |   0.00 | 100.00
+Last close price for XLMUSDT: 0.36169
+Opening Buy for  XLMUSDT
+TP: 0.3653069
+SL: 0.3544562
+TS: 0.0036169
+Order Quantity: 27647.99
+Adjusted qty: 27648.0
+Final Adjusted qty: 27647.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SKYUSDT    |   0.00 |  99.98
+Last close price for SKYUSDT: 0.07045
+Opening Buy for  SKYUSDT
+TP: 0.0711545
+SL: 0.06904099999999999
+TS: 0.0007044999999999999
+Order Quantity: 141944.64
+Adjusted qty: 141940.0
+Final Adjusted qty: 141940.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '567e00f5-3226-42d6-9abf-777434bb3d93', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756889521143}
+567e00f5-3226-42d6-9abf-777434bb3d93
+fetching trade data for :  567e00f5-3226-42d6-9abf-777434bb3d93
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '567e00f5-3226-42d6-9abf-777434bb3d93', 'stopOrderType': 'UNKNOWN', 'execTime': '1756889521143', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07048', 'execPrice': '0.07045', 'markIv': '', 'orderQty': '141940', 'orderPrice': '0.08105', 'execValue': '9999.673', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612491557396, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49982015', 'execId': '37ee1b46-97f1-4507-8c1d-f2c8a29cb723', 'marketUnit': '', 'execQty': '141940', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 12:52:12
