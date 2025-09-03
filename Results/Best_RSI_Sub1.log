@@ -13938,3 +13938,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 03.09.2025 14:21:10
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 14:25:55
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+CROUSDT    |  -8.14 |  55.52
+Last close price for CROUSDT: 0.26216
+Opening Sell for  CROUSDT
+TP: 0.2608492
+SL: 0.26347079999999995
+TS: 0.0013108
+Order Quantity: 38144.64
+Adjusted qty: 38145.0
+Final Adjusted qty: 38144.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1954e5f0-65d3-421c-811c-ac66cc9493d2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756895183588}
+1954e5f0-65d3-421c-811c-ac66cc9493d2
+fetching trade data for :  1954e5f0-65d3-421c-811c-ac66cc9493d2
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1954e5f0-65d3-421c-811c-ac66cc9493d2', 'stopOrderType': 'UNKNOWN', 'execTime': '1756895183587', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.26219', 'execPrice': '0.26217', 'markIv': '', 'orderQty': '38144', 'orderPrice': '0.23598', 'execValue': '10000.21248', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181946619, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50011687', 'execId': 'b42f36c1-8eb1-4156-86aa-64c9c6c4bb76', 'marketUnit': '', 'execQty': '38144', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     |  -6.89 |  48.30
+Last close price for IPUSDT: 7.8275
+Opening Sell for  IPUSDT
+TP: 7.7883625
+SL: 7.866637499999999
+TS: 0.0391375
+Order Quantity: 1277.55
+Adjusted qty: 1277.5
+Final Adjusted qty: 1277.5
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '91268058-8bd2-4836-9787-fa1b1e9b1812', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756895192255}
+91268058-8bd2-4836-9787-fa1b1e9b1812
+fetching trade data for :  91268058-8bd2-4836-9787-fa1b1e9b1812
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '91268058-8bd2-4836-9787-fa1b1e9b1812', 'stopOrderType': 'UNKNOWN', 'execTime': '1756895192254', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.83', 'execPrice': '7.8275', 'markIv': '', 'orderQty': '1277.5', 'orderPrice': '7.047', 'execValue': '9999.63125', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181946869, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49979719', 'execId': 'bb15ca55-1aeb-4fa3-b606-7753f2e4b7fc', 'marketUnit': '', 'execQty': '1277.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 14:26:38
