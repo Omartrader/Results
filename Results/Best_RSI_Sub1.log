@@ -10402,3 +10402,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 03.09.2025 06:31:12
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 06:35:27
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+NEARUSDT   |  -5.43 |  58.05
+Last close price for NEARUSDT: 2.454
+Opening Sell for  NEARUSDT
+TP: 2.44173
+SL: 2.4662699999999997
+TS: 0.012270000000000001
+Order Quantity: 4074.98
+Adjusted qty: 4075.0
+Final Adjusted qty: 4074.9
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '914a67d3-d08c-4cc6-bad0-21731882f442', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756866954466}
+914a67d3-d08c-4cc6-bad0-21731882f442
+fetching trade data for :  914a67d3-d08c-4cc6-bad0-21731882f442
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '914a67d3-d08c-4cc6-bad0-21731882f442', 'stopOrderType': 'UNKNOWN', 'execTime': '1756866954466', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.455', 'execPrice': '2.454', 'markIv': '', 'orderQty': '4074.9', 'orderPrice': '2.333', 'execValue': '9999.8046', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181066775, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989253', 'execId': 'ecdfabf0-40c7-43ec-8975-7aea98bd1423', 'marketUnit': '', 'execQty': '4074.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JUPUSDT    |  -5.02 |  57.86
+Last close price for JUPUSDT: 0.5033
+Opening Sell for  JUPUSDT
+TP: 0.5007834999999999
+SL: 0.5058164999999999
+TS: 0.0025164999999999996
+Order Quantity: 19868.87
+Adjusted qty: 19869.0
+Final Adjusted qty: 19868.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '47ba3425-ec14-4699-9435-69fe9409dadd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756866962679}
+47ba3425-ec14-4699-9435-69fe9409dadd
+fetching trade data for :  47ba3425-ec14-4699-9435-69fe9409dadd
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 06:36:08
