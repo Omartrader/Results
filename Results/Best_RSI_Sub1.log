@@ -13205,3 +13205,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 03.09.2025 13:01:01
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 13:05:26
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+VETUSDT    |  -6.49 |  49.75
+Last close price for VETUSDT: 0.02371
+Opening Sell for  VETUSDT
+TP: 0.02359145
+SL: 0.023828549999999997
+TS: 0.00011855
+Order Quantity: 421762.97
+Adjusted qty: 421763.0
+Final Adjusted qty: 421762.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1090937b-d9ce-4ed8-b03d-0bd90e52732d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756890344490}
+1090937b-d9ce-4ed8-b03d-0bd90e52732d
+fetching trade data for :  1090937b-d9ce-4ed8-b03d-0bd90e52732d
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1090937b-d9ce-4ed8-b03d-0bd90e52732d', 'stopOrderType': 'UNKNOWN', 'execTime': '1756890344489', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02371', 'execPrice': '0.02371', 'markIv': '', 'orderQty': '421762', 'orderPrice': '0.02253', 'execValue': '9999.97702', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181794478, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998737', 'execId': '945aabb6-c9f3-4701-a8f5-fee6ac088027', 'marketUnit': '', 'execQty': '421762', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHUSDT    |  -6.24 |  47.02
+Last close price for ETHUSDT: 4311.73
+Opening Sell for  ETHUSDT
+TP: 4290.17135
+SL: 4333.2886499999995
+TS: 21.558649999999997
+Order Quantity: 2.32
+Adjusted qty: 2.32
+Final Adjusted qty: 2.32
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8562ac10-1bfe-4384-afa2-e3598577c137', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756890351872}
+8562ac10-1bfe-4384-afa2-e3598577c137
+fetching trade data for :  8562ac10-1bfe-4384-afa2-e3598577c137
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8562ac10-1bfe-4384-afa2-e3598577c137', 'stopOrderType': 'UNKNOWN', 'execTime': '1756890351872', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4311.73', 'execPrice': '4311.4', 'markIv': '', 'orderQty': '2.32', 'orderPrice': '4225.5', 'execValue': '10002.448', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181794721, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5013464', 'execId': '203e7a94-481e-4f8e-8ace-3dfbf341ce83', 'marketUnit': '', 'execQty': '2.32', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 13:05:57
