@@ -11028,3 +11028,65 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 07:56:11
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 08:00:53
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+INJUSDT    |  10.92 |  63.10
+Last close price for INJUSDT: 13.174
+Opening Buy for  INJUSDT
+TP: 13.239869999999998
+SL: 13.10813
+TS: 0.06587
+Order Quantity: 759.07
+Adjusted qty: 759.1
+Final Adjusted qty: 759.0
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '421d76e5-aba6-4ae6-9569-6a616c67a716', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756872071702}
+421d76e5-aba6-4ae6-9569-6a616c67a716
+fetching trade data for :  421d76e5-aba6-4ae6-9569-6a616c67a716
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   |   8.13 |  51.72
+Last close price for AVAXUSDT: 24.404
+Opening Buy for  AVAXUSDT
+TP: 24.52602
+SL: 24.28198
+TS: 0.12202
+Order Quantity: 409.77
+Adjusted qty: 409.8
+Final Adjusted qty: 409.7
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0504a79c-1fa7-4a7c-82d7-2ee02bb06d80', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756872079042}
+0504a79c-1fa7-4a7c-82d7-2ee02bb06d80
+fetching trade data for :  0504a79c-1fa7-4a7c-82d7-2ee02bb06d80
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0504a79c-1fa7-4a7c-82d7-2ee02bb06d80', 'stopOrderType': 'UNKNOWN', 'execTime': '1756872079042', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '24.405', 'execPrice': '24.399', 'markIv': '', 'orderQty': '409.7', 'orderPrice': '24.893', 'execValue': '9996.2703', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181225361, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49794867', 'execId': '922f3ba2-7290-4071-8afd-37e79a406563', 'marketUnit': '', 'execQty': '409.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    |   7.83 |  53.66
+Last close price for MNTUSDT: 1.1151
+Opening Buy for  MNTUSDT
+TP: 1.1206755
+SL: 1.1095245
+TS: 0.0055755
+Order Quantity: 8967.81
+Adjusted qty: 8968.0
+Final Adjusted qty: 8967.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'af2857ec-af60-4646-8cb2-cc4b3438a907', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756872086308}
+af2857ec-af60-4646-8cb2-cc4b3438a907
+fetching trade data for :  af2857ec-af60-4646-8cb2-cc4b3438a907
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'af2857ec-af60-4646-8cb2-cc4b3438a907', 'stopOrderType': 'UNKNOWN', 'execTime': '1756872086308', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.11517', 'execPrice': '1.1151', 'markIv': '', 'orderQty': '8967', 'orderPrice': '1.2266', 'execValue': '9999.1017', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181225573, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49950594', 'execId': 'b9426e94-0fe0-4d65-a98e-381530c7f17e', 'marketUnit': '', 'execQty': '8967', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 08:01:30
