@@ -11248,3 +11248,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 03.09.2025 08:21:33
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 08:25:25
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+AVAXUSDT   |  10.41 |  59.22
+Last close price for AVAXUSDT: 24.509
+Opening Buy for  AVAXUSDT
+TP: 24.631545
+SL: 24.386455
+TS: 0.122545
+Order Quantity: 408.01
+Adjusted qty: 408.0
+Final Adjusted qty: 408.0
+10950.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HYPEUSDT   |   8.57 |  46.29
+Last close price for HYPEUSDT: 44.749
+Opening Buy for  HYPEUSDT
+TP: 44.972744999999996
+SL: 44.525255
+TS: 0.223745
+Order Quantity: 223.47
+Adjusted qty: 223.47
+Final Adjusted qty: 223.47
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f826b0a6-7a41-4bb9-8743-47f2d9e6501f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756873556817}
+f826b0a6-7a41-4bb9-8743-47f2d9e6501f
+fetching trade data for :  f826b0a6-7a41-4bb9-8743-47f2d9e6501f
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f826b0a6-7a41-4bb9-8743-47f2d9e6501f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756873556816', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '44.745', 'execPrice': '44.742', 'markIv': '', 'orderQty': '223.47', 'orderPrice': '58.168', 'execValue': '9998.49474', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181271152, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49917211', 'execId': '4437f651-2ff6-470a-8fc6-1a5010464f99', 'marketUnit': '', 'execQty': '223.47', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   |   5.19 |  59.18
+Last close price for AAVEUSDT: 317.2
+Opening Buy for  AAVEUSDT
+TP: 318.78599999999994
+SL: 315.614
+TS: 1.5859999999999999
+Order Quantity: 31.53
+Adjusted qty: 31.53
+Final Adjusted qty: 31.53
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '38cafd97-3c9d-4e2b-b520-f8b63d203275', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756873565148}
+38cafd97-3c9d-4e2b-b520-f8b63d203275
+fetching trade data for :  38cafd97-3c9d-4e2b-b520-f8b63d203275
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 08:26:10
