@@ -13301,3 +13301,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 13:16:01
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 13:20:51
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BTCUSDT    |  10.33 |  64.34
+Last close price for BTCUSDT: 111208.6
+Opening Buy for  BTCUSDT
+TP: 111764.643
+SL: 110652.557
+TS: 556.043
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '10813832-569f-4998-98e9-5c390c164a6a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756891278698}
+10813832-569f-4998-98e9-5c390c164a6a
+fetching trade data for :  10813832-569f-4998-98e9-5c390c164a6a
+[{'symbol': 'BTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '10813832-569f-4998-98e9-5c390c164a6a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756891278698', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '111214.01', 'execPrice': '111208.5', 'markIv': '', 'orderQty': '0.09', 'orderPrice': '112326.1', 'execValue': '10008.765', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181823065, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50482075', 'execId': '81b0f52f-0af0-4d08-9108-3992448b7bfb', 'marketUnit': '', 'execQty': '0.09', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    |   9.57 |  46.50
+Last close price for TONUSDT: 3.1299
+Opening Buy for  TONUSDT
+TP: 3.1455495
+SL: 3.1142505000000003
+TS: 0.0156495
+Order Quantity: 3194.99
+Adjusted qty: 3195.0
+Final Adjusted qty: 3194.9
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   |   8.59 |  58.94
+Last close price for ONDOUSDT: 0.9659
+Opening Buy for  ONDOUSDT
+TP: 0.9707294999999999
+SL: 0.9610704999999999
+TS: 0.0048295
+Order Quantity: 10353.04
+Adjusted qty: 10353.0
+Final Adjusted qty: 10353.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9576bb25-9b84-4590-9992-f42b0be147cb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756891289120}
+9576bb25-9b84-4590-9992-f42b0be147cb
+fetching trade data for :  9576bb25-9b84-4590-9992-f42b0be147cb
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 13:21:35
