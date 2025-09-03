@@ -18028,3 +18028,41 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 21:31:17
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 21:35:28
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+POLUSDT    |   7.17 |  43.71
+Last close price for POLUSDT: 0.2828
+Opening Buy for  POLUSDT
+TP: 0.28421399999999997
+SL: 0.28138599999999997
+TS: 0.001414
+Order Quantity: 35360.68
+Adjusted qty: 35361.0
+Final Adjusted qty: 35360.0
+500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ADAUSDT    |   6.48 |  58.91
+Last close price for ADAUSDT: 0.8405
+Opening Buy for  ADAUSDT
+TP: 0.8447024999999999
+SL: 0.8362975
+TS: 0.0042025000000000005
+Order Quantity: 11897.68
+Adjusted qty: 11898.0
+Final Adjusted qty: 11897.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3213145a-8691-4d98-ace8-14f976d2eaca', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756920960259}
+3213145a-8691-4d98-ace8-14f976d2eaca
+fetching trade data for :  3213145a-8691-4d98-ace8-14f976d2eaca
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3213145a-8691-4d98-ace8-14f976d2eaca', 'stopOrderType': 'UNKNOWN', 'execTime': '1756920960259', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8405', 'execPrice': '0.8405', 'markIv': '', 'orderQty': '11897', 'orderPrice': '0.8825', 'execValue': '9999.4285', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697182758726, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49968568', 'execId': 'de0d910f-58f0-425a-b529-8e4e3d6bccaa', 'marketUnit': '', 'execQty': '11897', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 03.09.2025 21:36:06
