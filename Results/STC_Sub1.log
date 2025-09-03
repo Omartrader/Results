@@ -8970,3 +8970,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 16:22:07
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 16:26:01
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      |   8.04 | 100.00
+Last close price for MUSDT: 1.0226
+Opening Buy for  MUSDT
+TP: 1.032826
+SL: 1.002148
+TS: 0.010225999999999999
+Order Quantity: 9778.99
+Adjusted qty: 9779.0
+Final Adjusted qty: 9778.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0d19a3a9-5c04-4534-9b94-78a57f209f28', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756902389995}
+0d19a3a9-5c04-4534-9b94-78a57f209f28
+fetching trade data for :  0d19a3a9-5c04-4534-9b94-78a57f209f28
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0d19a3a9-5c04-4534-9b94-78a57f209f28', 'stopOrderType': 'UNKNOWN', 'execTime': '1756902389994', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.023', 'execPrice': '1.0206', 'markIv': '', 'orderQty': '9778', 'orderPrice': '1.1359', 'execValue': '9979.4268', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612491988527, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.97736948', 'execId': 'b697c693-49ee-4008-9332-03d2bd42bf94', 'marketUnit': '', 'execQty': '9778', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 16:26:40
