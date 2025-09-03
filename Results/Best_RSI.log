@@ -25732,3 +25732,41 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 03.09.2025 06:05:41
+***************************************************************
+Number of open positions: 6
+Function started at 03.09.2025 06:10:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+XDCUSDT    |  -3.78 |  53.44
+Last close price for XDCUSDT: 0.07958
+Opening Sell for  XDCUSDT
+TP: 0.07918209999999999
+SL: 0.0803758
+TS: 0.0007957999999999999
+Order Quantity: 125659.71
+Adjusted qty: 125660.0
+Final Adjusted qty: 125659.0
+160000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SUIUSDT    |  -3.33 |  49.86
+Last close price for SUIUSDT: 3.3236
+Opening Sell for  SUIUSDT
+TP: 3.306982
+SL: 3.356836
+TS: 0.033236
+Order Quantity: 3008.79
+Adjusted qty: 3010.0
+Final Adjusted qty: 3000.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7de1225f-9e69-449f-8067-d607fc7f9f67', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756865437334}
+7de1225f-9e69-449f-8067-d607fc7f9f67
+fetching trade data for :  7de1225f-9e69-449f-8067-d607fc7f9f67
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7de1225f-9e69-449f-8067-d607fc7f9f67', 'stopOrderType': 'UNKNOWN', 'execTime': '1756865437334', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.3243', 'execPrice': '3.3245', 'markIv': '', 'orderQty': '3000', 'orderPrice': '3.1581', 'execValue': '9973.5', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710489930004, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.485425', 'execId': 'c6562e5f-aaa2-4f75-9e98-868d1cd328b7', 'marketUnit': '', 'execQty': '3000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 03.09.2025 06:10:43
