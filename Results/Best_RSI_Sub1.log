@@ -11960,3 +11960,60 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  4
 Function finished at 03.09.2025 10:16:38
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 10:20:45
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BTCUSDT    |   8.34 |  44.59
+Last close price for BTCUSDT: 110729.9
+Opening Buy for  BTCUSDT
+TP: 111283.54949999998
+SL: 110176.2505
+TS: 553.6495
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   |   5.68 |  43.05
+Last close price for ONDOUSDT: 0.954
+Opening Buy for  ONDOUSDT
+TP: 0.9587699999999999
+SL: 0.9492299999999999
+TS: 0.00477
+Order Quantity: 10482.18
+Adjusted qty: 10482.0
+Final Adjusted qty: 10482.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dc6d66e7-4389-41da-8ff7-63dd361892df', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756880466885}
+dc6d66e7-4389-41da-8ff7-63dd361892df
+fetching trade data for :  dc6d66e7-4389-41da-8ff7-63dd361892df
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   |   5.57 |  41.38
+Last close price for HYPEUSDT: 44.44
+Opening Buy for  HYPEUSDT
+TP: 44.66219999999999
+SL: 44.2178
+TS: 0.22219999999999998
+Order Quantity: 225.02
+Adjusted qty: 225.02
+Final Adjusted qty: 225.02
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f64c81fd-3842-4396-8b25-59a1c21f9468', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756880474133}
+f64c81fd-3842-4396-8b25-59a1c21f9468
+fetching trade data for :  f64c81fd-3842-4396-8b25-59a1c21f9468
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f64c81fd-3842-4396-8b25-59a1c21f9468', 'stopOrderType': 'UNKNOWN', 'execTime': '1756880474133', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '44.43', 'execPrice': '44.434', 'markIv': '', 'orderQty': '225.02', 'orderPrice': '50.927', 'execValue': '9998.53868', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181485131, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49919628', 'execId': '44d3c605-3962-4c61-8730-208a06a0cb04', 'marketUnit': '', 'execQty': '225.02', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 10:21:18
