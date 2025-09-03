@@ -9174,3 +9174,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 03.09.2025 04:06:06
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 04:10:33
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FILUSDT    |  -7.02 |  38.95
+Last close price for FILUSDT: 2.263
+Opening Sell for  FILUSDT
+TP: 2.2516849999999997
+SL: 2.2743149999999996
+TS: 0.011314999999999999
+Order Quantity: 4418.91
+Adjusted qty: 4418.900000000001
+Final Adjusted qty: 4418.9
+60730.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XRPUSDT    |  -6.85 |  51.12
+Last close price for XRPUSDT: 2.8521
+Opening Sell for  XRPUSDT
+TP: 2.8378395
+SL: 2.8663605
+TS: 0.0142605
+Order Quantity: 3506.19
+Adjusted qty: 3506.0
+Final Adjusted qty: 3506.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5dbfa66d-072f-48af-8f30-fa64d4ddc650', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756858252969}
+5dbfa66d-072f-48af-8f30-fa64d4ddc650
+fetching trade data for :  5dbfa66d-072f-48af-8f30-fa64d4ddc650
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5dbfa66d-072f-48af-8f30-fa64d4ddc650', 'stopOrderType': 'UNKNOWN', 'execTime': '1756858252969', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.8522', 'execPrice': '2.8522', 'markIv': '', 'orderQty': '3506', 'orderPrice': '2.7096', 'execValue': '9999.8132', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180794807, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989726', 'execId': 'eaa5b3e8-8394-4ae1-921f-cc9f33c816e6', 'marketUnit': '', 'execQty': '3506', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 04:10:58
