@@ -29404,3 +29404,47 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 20:35:23
+***************************************************************
+Number of open positions: 8
+Function started at 03.09.2025 20:40:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+RENDERUSDT | -12.72 |  41.57
+Last close price for RENDERUSDT: 3.487
+Opening Sell for  RENDERUSDT
+TP: 3.4695650000000002
+SL: 3.5218700000000003
+TS: 0.03487
+Order Quantity: 2867.79
+Adjusted qty: 2867.8
+Final Adjusted qty: 2867.7
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '741040ce-9f94-49ec-ae38-7e1575fc129f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756917639952}
+741040ce-9f94-49ec-ae38-7e1575fc129f
+fetching trade data for :  741040ce-9f94-49ec-ae38-7e1575fc129f
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '741040ce-9f94-49ec-ae38-7e1575fc129f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756917639951', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.487', 'execPrice': '3.486', 'markIv': '', 'orderQty': '2867.7', 'orderPrice': '3.313', 'execValue': '9996.8022', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710491520799, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49824121', 'execId': '9612ac51-61d4-4a8c-9422-b558dfe66224', 'marketUnit': '', 'execQty': '2867.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | -12.61 |  49.93
+Last close price for ATOMUSDT: 4.521
+Opening Sell for  ATOMUSDT
+TP: 4.4983949999999995
+SL: 4.56621
+TS: 0.04521
+Order Quantity: 2211.9
+Adjusted qty: 2211.9
+Final Adjusted qty: 2211.9
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fec7dcb5-4504-4567-9b1d-ee9b37b075b6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756917648450}
+fec7dcb5-4504-4567-9b1d-ee9b37b075b6
+fetching trade data for :  fec7dcb5-4504-4567-9b1d-ee9b37b075b6
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fec7dcb5-4504-4567-9b1d-ee9b37b075b6', 'stopOrderType': 'UNKNOWN', 'execTime': '1756917648450', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.523', 'execPrice': '4.521', 'markIv': '', 'orderQty': '2211.9', 'orderPrice': '4.297', 'execValue': '9999.9999', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710491521041, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999995', 'execId': '0abeecb3-1ebe-45c6-a18b-4f2cdad3f9f6', 'marketUnit': '', 'execQty': '2211.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 03.09.2025 20:40:52
