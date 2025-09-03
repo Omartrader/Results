@@ -3746,3 +3746,55 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 05:51:19
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 05:56:39
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    |   0.00 |  99.99
+Last close price for XLMUSDT: 0.36496
+Opening Buy for  XLMUSDT
+TP: 0.36860960000000004
+SL: 0.3576608
+TS: 0.0072992000000000005
+Order Quantity: 27400.26
+Adjusted qty: 27400.0
+Final Adjusted qty: 27400.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SKYUSDT    |   2.94 |  99.92
+Last close price for SKYUSDT: 0.07255
+Opening Buy for  SKYUSDT
+TP: 0.07327550000000001
+SL: 0.071099
+TS: 0.001451
+Order Quantity: 137835.98
+Adjusted qty: 137840.0
+Final Adjusted qty: 137830.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MANAUSDT   |   0.00 |  99.77
+Last close price for MANAUSDT: 0.3045
+Opening Buy for  MANAUSDT
+TP: 0.307545
+SL: 0.29841
+TS: 0.00609
+Order Quantity: 32840.72
+Adjusted qty: 32840.700000000004
+Final Adjusted qty: 32840.7
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a44f2648-2204-4448-88b7-c4d5b010b695', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756864629807}
+a44f2648-2204-4448-88b7-c4d5b010b695
+fetching trade data for :  a44f2648-2204-4448-88b7-c4d5b010b695
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a44f2648-2204-4448-88b7-c4d5b010b695', 'stopOrderType': 'UNKNOWN', 'execTime': '1756864629807', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3043', 'execPrice': '0.3041', 'markIv': '', 'orderQty': '32840.7', 'orderPrice': '0.3347', 'execValue': '9986.85687', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612490737460, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49277128', 'execId': '5fdf897b-c9fb-4969-8790-7408d1fff745', 'marketUnit': '', 'execQty': '32840.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 05:57:20
