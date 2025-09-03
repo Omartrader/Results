@@ -27131,3 +27131,65 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 03.09.2025 12:20:33
+***************************************************************
+Number of open positions: 7
+Function started at 03.09.2025 12:25:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+MUSDT      |  15.77 |  66.23
+Last close price for MUSDT: 0.8918
+Opening Buy for  MUSDT
+TP: 0.8962589999999999
+SL: 0.8828820000000001
+TS: 0.008918
+Order Quantity: 11213.28
+Adjusted qty: 11213.0
+Final Adjusted qty: 11213.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8c640ac2-2022-4a0f-902a-e4d3ec0b0c4b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756887925621}
+8c640ac2-2022-4a0f-902a-e4d3ec0b0c4b
+fetching trade data for :  8c640ac2-2022-4a0f-902a-e4d3ec0b0c4b
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8c640ac2-2022-4a0f-902a-e4d3ec0b0c4b', 'stopOrderType': 'UNKNOWN', 'execTime': '1756887925620', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8926', 'execPrice': '0.8921', 'markIv': '', 'orderQty': '11213', 'orderPrice': '1.0264', 'execValue': '10003.1173', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490602986, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00342903', 'execId': '1036e6b7-b10b-47be-a993-5f6679bd4eb1', 'marketUnit': '', 'execQty': '11213', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    |  -6.40 |  54.97
+Last close price for BCHUSDT: 598.0
+Opening Sell for  BCHUSDT
+TP: 595.01
+SL: 603.98
+TS: 5.98
+Order Quantity: 16.72
+Adjusted qty: 16.72
+Final Adjusted qty: 16.72
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '99091fe0-f10b-4246-932d-18750f842a22', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756887932810}
+99091fe0-f10b-4246-932d-18750f842a22
+fetching trade data for :  99091fe0-f10b-4246-932d-18750f842a22
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '99091fe0-f10b-4246-932d-18750f842a22', 'stopOrderType': 'UNKNOWN', 'execTime': '1756887932810', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '598.01', 'execPrice': '598', 'markIv': '', 'orderQty': '16.72', 'orderPrice': '568.2', 'execValue': '9998.56', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710490603199, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499208', 'execId': '4ad31d65-fb28-4946-b823-1739ef79b29e', 'marketUnit': '', 'execQty': '16.72', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  |  -6.25 |  43.06
+Last close price for TRUMPUSDT: 8.38
+Opening Sell for  TRUMPUSDT
+TP: 8.3381
+SL: 8.4638
+TS: 0.08380000000000001
+Order Quantity: 1193.32
+Adjusted qty: 1193.3
+Final Adjusted qty: 1193.3
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '13fa929b-5b36-487a-a712-76f3979cb437', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756887940001}
+13fa929b-5b36-487a-a712-76f3979cb437
+fetching trade data for :  13fa929b-5b36-487a-a712-76f3979cb437
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 03.09.2025 12:25:45
