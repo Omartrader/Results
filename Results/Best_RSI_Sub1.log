@@ -11305,3 +11305,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 03.09.2025 08:26:10
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 08:30:46
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+MNTUSDT    |   5.54 |  51.21
+Last close price for MNTUSDT: 1.1141
+Opening Buy for  MNTUSDT
+TP: 1.1196705
+SL: 1.1085295000000002
+TS: 0.005570500000000001
+Order Quantity: 8975.85
+Adjusted qty: 8976.0
+Final Adjusted qty: 8975.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IPUSDT     |   4.14 |  62.56
+Last close price for IPUSDT: 7.923
+Opening Buy for  IPUSDT
+TP: 7.9626149999999996
+SL: 7.883385
+TS: 0.039615
+Order Quantity: 1262.15
+Adjusted qty: 1262.2
+Final Adjusted qty: 1262.1
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5aff1e62-b0a6-4985-8efb-9b4f961e52cc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756873877307}
+5aff1e62-b0a6-4985-8efb-9b4f961e52cc
+fetching trade data for :  5aff1e62-b0a6-4985-8efb-9b4f961e52cc
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5aff1e62-b0a6-4985-8efb-9b4f961e52cc', 'stopOrderType': 'UNKNOWN', 'execTime': '1756873877306', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.9239', 'execPrice': '7.923', 'markIv': '', 'orderQty': '1262.1', 'orderPrice': '8.7162', 'execValue': '9999.6183', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697181280770, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49979007', 'execId': 'bcf41f47-9b76-424b-97f6-43c8669cbb0d', 'marketUnit': '', 'execQty': '1262.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 08:31:22
