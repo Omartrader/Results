@@ -9516,3 +9516,42 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 03.09.2025 04:46:02
+***************************************************************
+Number of open positions: 9
+Function started at 03.09.2025 04:50:36
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+POLUSDT    |   8.17 |  49.88
+Last close price for POLUSDT: 0.2886
+Opening Buy for  POLUSDT
+TP: 0.290043
+SL: 0.287157
+TS: 0.001443
+Order Quantity: 34650.03
+Adjusted qty: 34650.0
+Final Adjusted qty: 34650.0
+500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEARUSDT   |  -7.17 |  56.29
+Last close price for NEARUSDT: 2.437
+Opening Sell for  NEARUSDT
+TP: 2.4248149999999997
+SL: 2.4491849999999995
+TS: 0.012185
+Order Quantity: 4103.41
+Adjusted qty: 4103.400000000001
+Final Adjusted qty: 4103.4
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c5b9b798-3839-48f2-9325-01901eea983f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756860665366}
+c5b9b798-3839-48f2-9325-01901eea983f
+fetching trade data for :  c5b9b798-3839-48f2-9325-01901eea983f
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c5b9b798-3839-48f2-9325-01901eea983f', 'stopOrderType': 'UNKNOWN', 'execTime': '1756860665366', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.437', 'execPrice': '2.437', 'markIv': '', 'orderQty': '4103.4', 'orderPrice': '2.316', 'execValue': '9999.9858', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697180870926, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999219', 'execId': '7fabdb86-f2e0-46c9-a86c-2394e0a6ebb2', 'marketUnit': '', 'execQty': '4103.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 03.09.2025 04:51:11
