@@ -32022,3 +32022,42 @@ SYMBOL     |   ΔRSI |    RSI
 ----------------------------
 All full:  0
 Function finished at 04.09.2025 10:20:35
+***************************************************************
+Number of open positions: 9
+Function started at 04.09.2025 10:25:06
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+MNTUSDT    |  -9.64 |  34.51
+Last close price for MNTUSDT: 1.1076
+Opening Sell for  MNTUSDT
+TP: 1.1020619999999999
+SL: 1.118676
+TS: 0.011075999999999999
+Order Quantity: 9028.53
+Adjusted qty: 9029.0
+Final Adjusted qty: 9028.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TONUSDT    |  -7.58 |  35.68
+Last close price for TONUSDT: 3.1535
+Opening Sell for  TONUSDT
+TP: 3.1377325000000003
+SL: 3.185035
+TS: 0.031535
+Order Quantity: 3171.08
+Adjusted qty: 3171.1000000000004
+Final Adjusted qty: 3171.0
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd6857d69-e2e9-43ab-be1a-16e71f7485ed', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756967129168}
+d6857d69-e2e9-43ab-be1a-16e71f7485ed
+fetching trade data for :  d6857d69-e2e9-43ab-be1a-16e71f7485ed
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd6857d69-e2e9-43ab-be1a-16e71f7485ed', 'stopOrderType': 'UNKNOWN', 'execTime': '1756967129167', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1541', 'execPrice': '3.1537', 'markIv': '', 'orderQty': '3171', 'orderPrice': '2.9964', 'execValue': '10000.3827', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710492995017, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50021049', 'execId': '83875d8f-4004-4270-b6bf-bdf3f0e5fb91', 'marketUnit': '', 'execQty': '3171', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 04.09.2025 10:25:35
