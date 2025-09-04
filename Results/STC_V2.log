@@ -2106,3 +2106,42 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 05.09.2025 00:35:41
+***************************************************************
+Number of open positions: 9
+Function started at 05.09.2025 00:40:05
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHFIUSDT  | B |  49.95
+Last close price for ETHFIUSDT: 1.0983
+Opening Buy for  ETHFIUSDT
+TP: 1.109283
+SL: 1.0763340000000001
+TS: 0.010983
+Order Quantity: 9104.98
+Adjusted qty: 9105.0
+Final Adjusted qty: 9104.9
+17000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+GALAUSDT   | B |  45.36
+Last close price for GALAUSDT: 0.0156
+Opening Buy for  GALAUSDT
+TP: 0.015756
+SL: 0.015288
+TS: 0.000156
+Order Quantity: 641025.64
+Adjusted qty: 641026.0
+Final Adjusted qty: 641025.0
+7167900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8d6bee5b-feb1-45d4-9010-245f18418b82', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757018443982}
+8d6bee5b-feb1-45d4-9010-245f18418b82
+fetching trade data for :  8d6bee5b-feb1-45d4-9010-245f18418b82
+[{'symbol': 'GALAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8d6bee5b-feb1-45d4-9010-245f18418b82', 'stopOrderType': 'UNKNOWN', 'execTime': '1757018443982', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.01561', 'execPrice': '0.0156', 'markIv': '', 'orderQty': '641025', 'orderPrice': '0.01639', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185762807, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': '683ee241-e29f-4ee0-88fc-0274d5db3cff', 'marketUnit': '', 'execQty': '641025', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 00:40:54
