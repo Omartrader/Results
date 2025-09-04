@@ -31337,3 +31337,73 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 04.09.2025 07:05:43
+***************************************************************
+Number of open positions: 8
+Function started at 04.09.2025 07:10:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+TRUMPUSDT  |  -5.71 |  29.26
+Last close price for TRUMPUSDT: 8.376
+Opening Sell for  TRUMPUSDT
+TP: 8.334119999999999
+SL: 8.45976
+TS: 0.08376
+Order Quantity: 1193.89
+Adjusted qty: 1193.9
+Final Adjusted qty: 1193.8
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HBARUSDT   |  -5.26 |  35.06
+Last close price for HBARUSDT: 0.2169
+Opening Sell for  HBARUSDT
+TP: 0.21581550000000002
+SL: 0.219069
+TS: 0.002169
+Order Quantity: 46104.2
+Adjusted qty: 46104.0
+Final Adjusted qty: 46104.0
+1064600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XDCUSDT    |  -4.84 |  42.32
+Last close price for XDCUSDT: 0.07823
+Opening Sell for  XDCUSDT
+TP: 0.07783884999999999
+SL: 0.0790123
+TS: 0.0007823
+Order Quantity: 127828.2
+Adjusted qty: 127828.0
+Final Adjusted qty: 127828.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e0486142-6c63-412d-b10f-2e97dbbaf75a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756955428749}
+e0486142-6c63-412d-b10f-2e97dbbaf75a
+fetching trade data for :  e0486142-6c63-412d-b10f-2e97dbbaf75a
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e0486142-6c63-412d-b10f-2e97dbbaf75a', 'stopOrderType': 'UNKNOWN', 'execTime': '1756955428749', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07823', 'execPrice': '0.07823', 'markIv': '', 'orderQty': '127828', 'orderPrice': '0.06259', 'execValue': '9999.98444', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710492637519, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998289', 'execId': '3af6ded9-3110-4062-8da0-4deb951b8d07', 'marketUnit': '', 'execQty': '127828', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    |   4.14 |  35.15
+Last close price for BCHUSDT: 586.5
+Opening Buy for  BCHUSDT
+TP: 589.4324999999999
+SL: 580.635
+TS: 5.865
+Order Quantity: 17.05
+Adjusted qty: 17.05
+Final Adjusted qty: 17.05
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'de8cf4d5-d07e-46c1-af35-9cd30631b34e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756955435898}
+de8cf4d5-d07e-46c1-af35-9cd30631b34e
+fetching trade data for :  de8cf4d5-d07e-46c1-af35-9cd30631b34e
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'de8cf4d5-d07e-46c1-af35-9cd30631b34e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756955435898', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '586.58', 'execPrice': '586.5', 'markIv': '', 'orderQty': '17.05', 'orderPrice': '615.9', 'execValue': '9999.825', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710492637718, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990375', 'execId': '4ae77160-e979-4d4d-8d1c-368f352ac604', 'marketUnit': '', 'execQty': '17.05', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 04.09.2025 07:10:41
