@@ -2492,3 +2492,41 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 03:06:02
+***************************************************************
+Number of open positions: 5
+Function started at 05.09.2025 03:10:06
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | B |  41.57
+Last close price for AVAXUSDT: 24.462
+Opening Buy for  AVAXUSDT
+TP: 24.70662
+SL: 23.97276
+TS: 0.24462
+Order Quantity: 408.8
+Adjusted qty: 408.8
+Final Adjusted qty: 408.8
+10950.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FORMUSDT   | B |  31.89
+Last close price for FORMUSDT: 3.7208
+Opening Buy for  FORMUSDT
+TP: 3.7580080000000002
+SL: 3.646384
+TS: 0.037208
+Order Quantity: 2687.59
+Adjusted qty: 2688.0
+Final Adjusted qty: 2687.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '27e4b7d6-12de-4bc5-ac2e-9bb03b9e157c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757027467169}
+27e4b7d6-12de-4bc5-ac2e-9bb03b9e157c
+fetching trade data for :  27e4b7d6-12de-4bc5-ac2e-9bb03b9e157c
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '27e4b7d6-12de-4bc5-ac2e-9bb03b9e157c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757027467169', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.7196', 'execPrice': '3.7187', 'markIv': '', 'orderQty': '2687', 'orderPrice': '4.2775', 'execValue': '9992.1469', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697186035782, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4956808', 'execId': '007453a7-7aa0-4d27-bfba-244c038ee017', 'marketUnit': '', 'execQty': '2687', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 03:11:18
