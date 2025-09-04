@@ -30758,3 +30758,60 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 04.09.2025 04:25:52
+***************************************************************
+Number of open positions: 8
+Function started at 04.09.2025 04:30:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+NEARUSDT   |   8.70 |  48.99
+Last close price for NEARUSDT: 2.471
+Opening Buy for  NEARUSDT
+TP: 2.483355
+SL: 2.44629
+TS: 0.02471
+Order Quantity: 4046.94
+Adjusted qty: 4046.9
+Final Adjusted qty: 4046.9
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd5d44e95-b66b-4e4e-a694-a7d7988fde0c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756945827198}
+d5d44e95-b66b-4e4e-a694-a7d7988fde0c
+fetching trade data for :  d5d44e95-b66b-4e4e-a694-a7d7988fde0c
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd5d44e95-b66b-4e4e-a694-a7d7988fde0c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756945827197', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.471', 'execPrice': '2.471', 'markIv': '', 'orderQty': '4046.9', 'orderPrice': '2.594', 'execValue': '9999.8899', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710492352641, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993945', 'execId': 'cebaf784-433e-45c2-80fc-a92f303f3935', 'marketUnit': '', 'execQty': '4046.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+APTUSDT    |   7.68 |  47.17
+Last close price for APTUSDT: 4.376
+Opening Buy for  APTUSDT
+TP: 4.39788
+SL: 4.3322400000000005
+TS: 0.04376
+Order Quantity: 2285.19
+Adjusted qty: 2285.19
+Final Adjusted qty: 2285.19
+15408.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    |   5.56 |  53.54
+Last close price for POLUSDT: 0.2817
+Opening Buy for  POLUSDT
+TP: 0.2831085
+SL: 0.278883
+TS: 0.002817
+Order Quantity: 35498.76
+Adjusted qty: 35499.0
+Final Adjusted qty: 35498.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bbecad40-1ea7-41ca-953a-a61e3592eb4c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756945835910}
+bbecad40-1ea7-41ca-953a-a61e3592eb4c
+fetching trade data for :  bbecad40-1ea7-41ca-953a-a61e3592eb4c
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bbecad40-1ea7-41ca-953a-a61e3592eb4c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756945835909', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2817', 'execPrice': '0.2817', 'markIv': '', 'orderQty': '35498', 'orderPrice': '0.2957', 'execValue': '9999.7866', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710492352901, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988263', 'execId': '0585e9dc-5990-4b3d-83a7-498d88127dca', 'marketUnit': '', 'execQty': '35498', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 04.09.2025 04:30:40
