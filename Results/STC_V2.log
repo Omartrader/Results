@@ -639,3 +639,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 04.09.2025 17:57:01
+***************************************************************
+Number of open positions: 3
+Function started at 04.09.2025 18:01:16
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LDOUSDT    | S |  92.00
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756994514792}
+Last close price for LDOUSDT: 1.1901
+Opening Sell for  LDOUSDT
+TP: 1.178199
+SL: 1.213902
+TS: 0.011901
+Order Quantity: 8402.66
+Adjusted qty: 8402.7
+Final Adjusted qty: 8402.6
+59020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6087f6d7-9254-4e68-b76a-bb20506893a4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756994516376}
+6087f6d7-9254-4e68-b76a-bb20506893a4
+fetching trade data for :  6087f6d7-9254-4e68-b76a-bb20506893a4
+[{'symbol': 'LDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6087f6d7-9254-4e68-b76a-bb20506893a4', 'stopOrderType': 'UNKNOWN', 'execTime': '1756994516376', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1907', 'execPrice': '1.1908', 'markIv': '', 'orderQty': '8402.6', 'orderPrice': '1.1312', 'execValue': '10005.81608', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185027645, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50319885', 'execId': 'a4fc02d8-ca93-4957-b1eb-9b7661138c0b', 'marketUnit': '', 'execQty': '8402.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHFIUSDT  | S |  90.36
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1756994527800}
+Last close price for ETHFIUSDT: 1.1107
+Opening Sell for  ETHFIUSDT
+TP: 1.099593
+SL: 1.132914
+TS: 0.011107
+Order Quantity: 9003.33
+Adjusted qty: 9003.300000000001
+Final Adjusted qty: 9003.3
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '314ef6ea-d1cc-4ce3-a9a6-5b93196acb0e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756994529068}
+314ef6ea-d1cc-4ce3-a9a6-5b93196acb0e
+fetching trade data for :  314ef6ea-d1cc-4ce3-a9a6-5b93196acb0e
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '314ef6ea-d1cc-4ce3-a9a6-5b93196acb0e', 'stopOrderType': 'UNKNOWN', 'execTime': '1756994529068', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1107', 'execPrice': '1.1106', 'markIv': '', 'orderQty': '9003.3', 'orderPrice': '0.9997', 'execValue': '9999.06498', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185028057, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49948574', 'execId': 'df508cb5-cf9d-4ef4-8b8d-18cad9ba933a', 'marketUnit': '', 'execQty': '9003.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 04.09.2025 18:02:19
