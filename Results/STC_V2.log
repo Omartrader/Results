@@ -2384,3 +2384,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 05.09.2025 02:35:56
+***************************************************************
+Number of open positions: 9
+Function started at 05.09.2025 02:40:05
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XRPUSDT    | B |  45.91
+Last close price for XRPUSDT: 2.808
+Opening Buy for  XRPUSDT
+TP: 2.83608
+SL: 2.7518399999999996
+TS: 0.028079999999999997
+Order Quantity: 3561.25
+Adjusted qty: 3561.0
+Final Adjusted qty: 3561.0
+2467800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MORPHOUSDT | B |  28.14
+Last close price for MORPHOUSDT: 2.024
+Opening Buy for  MORPHOUSDT
+TP: 2.04424
+SL: 1.98352
+TS: 0.02024
+Order Quantity: 4940.71
+Adjusted qty: 4941.0
+Final Adjusted qty: 4940.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5bc0033c-6cd8-4666-965d-9b3ac1065b8c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757025647892}
+5bc0033c-6cd8-4666-965d-9b3ac1065b8c
+fetching trade data for :  5bc0033c-6cd8-4666-965d-9b3ac1065b8c
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5bc0033c-6cd8-4666-965d-9b3ac1065b8c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757025647892', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.024', 'execPrice': '2.024', 'markIv': '', 'orderQty': '4940', 'orderPrice': '2.3276', 'execValue': '9998.56', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185979873, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499208', 'execId': 'c2cf42d9-beca-4835-a7da-545b1f9039c5', 'marketUnit': '', 'execQty': '4940', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 02:40:58
