@@ -1982,3 +1982,61 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 05.09.2025 00:01:30
+***************************************************************
+Number of open positions: 8
+Function started at 05.09.2025 00:05:05
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BTCUSDT    | B |  48.27
+Last close price for BTCUSDT: 110087.9
+Opening Buy for  BTCUSDT
+TP: 111188.779
+SL: 107886.14199999999
+TS: 1100.879
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SUSDT      | B |  42.79
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757016343084}
+Last close price for SUSDT: 0.301
+Opening Buy for  SUSDT
+TP: 0.30401
+SL: 0.29497999999999996
+TS: 0.00301
+Order Quantity: 33222.59
+Adjusted qty: 33223.0
+Final Adjusted qty: 33222.0
+26000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8c560005-aa3c-4cc6-966c-d75eb90f968f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757016344205}
+8c560005-aa3c-4cc6-966c-d75eb90f968f
+fetching trade data for :  8c560005-aa3c-4cc6-966c-d75eb90f968f
+[{'symbol': 'SUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8c560005-aa3c-4cc6-966c-d75eb90f968f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757016344205', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.301', 'execPrice': '0.301', 'markIv': '', 'orderQty': '26000', 'orderPrice': '0.316', 'execValue': '7826', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185699498, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.3043', 'execId': '421c3455-f681-48db-804a-186802979576', 'marketUnit': '', 'execQty': '26000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WIFUSDT    | B |  34.10
+Last close price for WIFUSDT: 0.7804
+Opening Buy for  WIFUSDT
+TP: 0.788204
+SL: 0.7647919999999999
+TS: 0.007804
+Order Quantity: 12813.94
+Adjusted qty: 12814.0
+Final Adjusted qty: 12813.0
+98500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '48000ae8-c679-47ed-b09c-177a85cbbc39', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757016356036}
+48000ae8-c679-47ed-b09c-177a85cbbc39
+fetching trade data for :  48000ae8-c679-47ed-b09c-177a85cbbc39
+[{'symbol': 'WIFUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '48000ae8-c679-47ed-b09c-177a85cbbc39', 'stopOrderType': 'UNKNOWN', 'execTime': '1757016356035', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7802', 'execPrice': '0.7804', 'markIv': '', 'orderQty': '12813', 'orderPrice': '0.8192', 'execValue': '9999.2652', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185699864, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49959586', 'execId': 'fba8bf0a-794e-4496-85d6-357710777c54', 'marketUnit': '', 'execQty': '12813', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 05.09.2025 00:06:07
