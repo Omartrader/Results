@@ -33705,3 +33705,46 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  6
 Function finished at 04.09.2025 18:01:12
+***************************************************************
+Number of open positions: 5
+Function started at 04.09.2025 18:05:07
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+BTCUSDT    | -13.92 |  24.10
+Last close price for BTCUSDT: 109864.1
+Opening Sell for  BTCUSDT
+TP: 109314.7795
+SL: 110962.74100000001
+TS: 1098.641
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '290eb506-2062-4908-9426-b89a7ed0e45c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756994739439}
+290eb506-2062-4908-9426-b89a7ed0e45c
+fetching trade data for :  290eb506-2062-4908-9426-b89a7ed0e45c
+[{'symbol': 'BTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '290eb506-2062-4908-9426-b89a7ed0e45c', 'stopOrderType': 'UNKNOWN', 'execTime': '1756994739438', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '109861.53', 'execPrice': '109840.8', 'markIv': '', 'orderQty': '0.09', 'orderPrice': '108763', 'execValue': '9885.672', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710493837840, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4371196', 'execId': '0bba6967-1563-4051-9ca3-fae0515707e8', 'marketUnit': '', 'execQty': '0.09', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLRUSDT    |   3.54 |  36.93
+Last close price for FLRUSDT: 0.02028
+Opening Buy for  FLRUSDT
+TP: 0.020381399999999997
+SL: 0.0200772
+TS: 0.0002028
+Order Quantity: 493096.65
+Adjusted qty: 493100.0
+Final Adjusted qty: 493090.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '10d845e5-8af5-4cda-a298-31dfc54d0c7a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756994747954}
+10d845e5-8af5-4cda-a298-31dfc54d0c7a
+fetching trade data for :  10d845e5-8af5-4cda-a298-31dfc54d0c7a
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 04.09.2025 18:05:54
