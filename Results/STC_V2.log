@@ -530,3 +530,46 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 04.09.2025 17:41:35
+***************************************************************
+Number of open positions: 1
+Function started at 04.09.2025 17:45:38
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | S |  92.69
+Last close price for ENAUSDT: 0.694
+Opening Sell for  ENAUSDT
+TP: 0.6870599999999999
+SL: 0.70788
+TS: 0.006939999999999999
+Order Quantity: 14409.22
+Adjusted qty: 14409.0
+Final Adjusted qty: 14409.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0ea4d72a-5b5f-4a03-9519-8fed1d7a28f4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756993593285}
+0ea4d72a-5b5f-4a03-9519-8fed1d7a28f4
+fetching trade data for :  0ea4d72a-5b5f-4a03-9519-8fed1d7a28f4
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0ea4d72a-5b5f-4a03-9519-8fed1d7a28f4', 'stopOrderType': 'UNKNOWN', 'execTime': '1756993593285', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.6942', 'execPrice': '0.6941', 'markIv': '', 'orderQty': '14409', 'orderPrice': '0.6248', 'execValue': '10001.2869', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697184998690, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5007078', 'execId': 'a820521f-347b-4779-87a1-af327ab79bcc', 'marketUnit': '', 'execQty': '14409', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CFXUSDT    | S |  91.04
+Last close price for CFXUSDT: 0.16878
+Opening Sell for  CFXUSDT
+TP: 0.16709220000000002
+SL: 0.17215560000000002
+TS: 0.0016878000000000002
+Order Quantity: 59248.73
+Adjusted qty: 59249.0
+Final Adjusted qty: 59248.0
+252700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7458aa5d-8d38-4c5b-bf34-ed9ef3eeac30', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756993606421}
+7458aa5d-8d38-4c5b-bf34-ed9ef3eeac30
+fetching trade data for :  7458aa5d-8d38-4c5b-bf34-ed9ef3eeac30
+[{'symbol': 'CFXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7458aa5d-8d38-4c5b-bf34-ed9ef3eeac30', 'stopOrderType': 'UNKNOWN', 'execTime': '1756993606421', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.16876', 'execPrice': '0.16876', 'markIv': '', 'orderQty': '59248', 'orderPrice': '0.14345', 'execValue': '9998.69248', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697184999098, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49928087', 'execId': 'c221c7a6-fdb6-4a47-a5a9-0a9ce63ee048', 'marketUnit': '', 'execQty': '59248', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 04.09.2025 17:46:57
