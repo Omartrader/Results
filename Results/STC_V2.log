@@ -684,3 +684,46 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 04.09.2025 18:02:19
+***************************************************************
+Number of open positions: 3
+Function started at 04.09.2025 18:05:59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LDOUSDT    | S |  90.60
+Last close price for LDOUSDT: 1.1768
+Opening Sell for  LDOUSDT
+TP: 1.165032
+SL: 1.200336
+TS: 0.011768
+Order Quantity: 8497.62
+Adjusted qty: 8497.6
+Final Adjusted qty: 8497.6
+59020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '191fee18-4c21-4c71-a8de-1ee0ecdb7bb5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756994815355}
+191fee18-4c21-4c71-a8de-1ee0ecdb7bb5
+fetching trade data for :  191fee18-4c21-4c71-a8de-1ee0ecdb7bb5
+[{'symbol': 'LDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '191fee18-4c21-4c71-a8de-1ee0ecdb7bb5', 'stopOrderType': 'UNKNOWN', 'execTime': '1756994815355', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1769', 'execPrice': '1.1768', 'markIv': '', 'orderQty': '8497.6', 'orderPrice': '1.1181', 'execValue': '9999.97568', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185038595, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998663', 'execId': 'f661dbcf-9c4e-406f-adc9-73af45226601', 'marketUnit': '', 'execQty': '8497.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHFIUSDT  | S |  88.66
+Last close price for ETHFIUSDT: 1.1004
+Opening Sell for  ETHFIUSDT
+TP: 1.089396
+SL: 1.122408
+TS: 0.011004
+Order Quantity: 9087.6
+Adjusted qty: 9087.6
+Final Adjusted qty: 9087.6
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a7e28ebe-bb11-476c-a3ce-b73aedf65498', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756994828768}
+a7e28ebe-bb11-476c-a3ce-b73aedf65498
+fetching trade data for :  a7e28ebe-bb11-476c-a3ce-b73aedf65498
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a7e28ebe-bb11-476c-a3ce-b73aedf65498', 'stopOrderType': 'UNKNOWN', 'execTime': '1756994828768', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1006', 'execPrice': '1.1006', 'markIv': '', 'orderQty': '9087.6', 'orderPrice': '0.9906', 'execValue': '10001.81256', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185039059, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50099691', 'execId': '57e26c9d-33e7-4788-b8b4-64a89687e5dd', 'marketUnit': '', 'execQty': '9087.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 04.09.2025 18:07:19
