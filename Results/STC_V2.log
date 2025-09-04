@@ -2291,3 +2291,30 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 05.09.2025 02:01:03
+***************************************************************
+Number of open positions: 9
+Function started at 05.09.2025 02:05:06
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEOUSDT    | B |  48.36
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757023561929}
+Last close price for NEOUSDT: 6.422
+Opening Buy for  NEOUSDT
+TP: 6.486219999999999
+SL: 6.293559999999999
+TS: 0.06422
+Order Quantity: 1557.15
+Adjusted qty: 1557.15
+Final Adjusted qty: 1557.15
+7367.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9157dc20-2e97-4538-8483-ccab0d3f5e7a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757023564000}
+9157dc20-2e97-4538-8483-ccab0d3f5e7a
+fetching trade data for :  9157dc20-2e97-4538-8483-ccab0d3f5e7a
+[{'symbol': 'NEOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9157dc20-2e97-4538-8483-ccab0d3f5e7a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757023564000', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '6.423', 'execPrice': '6.422', 'markIv': '', 'orderQty': '1557.15', 'orderPrice': '6.744', 'execValue': '10000.0173', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185917040, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000952', 'execId': '3a319122-341c-4bf1-b852-414b1ad61e41', 'marketUnit': '', 'execQty': '1557.15', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 02:06:15
