@@ -34860,3 +34860,72 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 04.09.2025 22:30:42
+***************************************************************
+Number of open positions: 5
+Function started at 04.09.2025 22:35:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+JUPUSDT    | -12.15 |  29.43
+Last close price for JUPUSDT: 0.477
+Opening Sell for  JUPUSDT
+TP: 0.47461499999999995
+SL: 0.48177
+TS: 0.00477
+Order Quantity: 20964.36
+Adjusted qty: 20964.0
+Final Adjusted qty: 20964.0
+79000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+BTCUSDT    |  -4.47 |  53.93
+Last close price for BTCUSDT: 109824.9
+Opening Sell for  BTCUSDT
+TP: 109275.77549999999
+SL: 110923.14899999999
+TS: 1098.249
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1e0c8fe9-49c5-476e-8f8e-c11ccc151526', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757010938303}
+1e0c8fe9-49c5-476e-8f8e-c11ccc151526
+fetching trade data for :  1e0c8fe9-49c5-476e-8f8e-c11ccc151526
+[]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     |   3.29 |  53.75
+Last close price for IPUSDT: 7.9126
+Opening Buy for  IPUSDT
+TP: 7.952163
+SL: 7.833474
+TS: 0.079126
+Order Quantity: 1263.81
+Adjusted qty: 1263.8000000000002
+Final Adjusted qty: 1263.8
+2400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AVAXUSDT   |  -3.16 |  32.83
+Last close price for AVAXUSDT: 24.34
+Opening Sell for  AVAXUSDT
+TP: 24.2183
+SL: 24.5834
+TS: 0.2434
+Order Quantity: 410.85
+Adjusted qty: 410.8
+Final Adjusted qty: 410.8
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '117f4332-0d7f-4d20-a50a-f125c9a95da0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757010948861}
+117f4332-0d7f-4d20-a50a-f125c9a95da0
+fetching trade data for :  117f4332-0d7f-4d20-a50a-f125c9a95da0
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '117f4332-0d7f-4d20-a50a-f125c9a95da0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757010948860', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '24.342', 'execPrice': '24.342', 'markIv': '', 'orderQty': '410.8', 'orderPrice': '23.856', 'execValue': '9999.6936', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710494336479, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49983148', 'execId': '83638c4a-135a-4bad-95f0-cb7d0b1f95a7', 'marketUnit': '', 'execQty': '410.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 04.09.2025 22:35:53
