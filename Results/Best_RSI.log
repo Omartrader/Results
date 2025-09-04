@@ -30644,3 +30644,42 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 04.09.2025 03:55:32
+***************************************************************
+Number of open positions: 9
+Function started at 04.09.2025 04:00:05
+
+SYMBOL     |   ΔRSI |    RSI
+----------------------------
+FLRUSDT    |   9.98 |  59.04
+Last close price for FLRUSDT: 0.02041
+Opening Buy for  FLRUSDT
+TP: 0.02051205
+SL: 0.020205900000000002
+TS: 0.0002041
+Order Quantity: 489955.9
+Adjusted qty: 489960.0
+Final Adjusted qty: 489950.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JUPUSDT    |   9.60 |  59.55
+Last close price for JUPUSDT: 0.4995
+Opening Buy for  JUPUSDT
+TP: 0.5019975
+SL: 0.494505
+TS: 0.004995
+Order Quantity: 20020.02
+Adjusted qty: 20020.0
+Final Adjusted qty: 20020.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c0997444-de7f-4560-96e4-aafa60146763', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756944027387}
+c0997444-de7f-4560-96e4-aafa60146763
+fetching trade data for :  c0997444-de7f-4560-96e4-aafa60146763
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c0997444-de7f-4560-96e4-aafa60146763', 'stopOrderType': 'UNKNOWN', 'execTime': '1756944027386', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4995', 'execPrice': '0.4995', 'markIv': '', 'orderQty': '20020', 'orderPrice': '0.5244', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140710492300167, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': '535d53e6-6f84-4241-86b5-45a0c455aaee', 'marketUnit': '', 'execQty': '20020', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 04.09.2025 04:00:31
