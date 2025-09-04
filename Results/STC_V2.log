@@ -1550,3 +1550,47 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 04.09.2025 20:56:41
+***************************************************************
+Number of open positions: 8
+Function started at 04.09.2025 21:00:43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | S |  95.59
+Last close price for BCHUSDT: 586.2
+Opening Sell for  BCHUSDT
+TP: 580.3380000000001
+SL: 597.9240000000001
+TS: 5.862
+Order Quantity: 17.06
+Adjusted qty: 17.06
+Final Adjusted qty: 17.06
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '252de9fd-eadb-4ded-92a2-000a9ac79049', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757005282225}
+252de9fd-eadb-4ded-92a2-000a9ac79049
+fetching trade data for :  252de9fd-eadb-4ded-92a2-000a9ac79049
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '252de9fd-eadb-4ded-92a2-000a9ac79049', 'stopOrderType': 'UNKNOWN', 'execTime': '1757005282224', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '586.23', 'execPrice': '586.2', 'markIv': '', 'orderQty': '17.06', 'orderPrice': '557', 'execValue': '10000.572', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185364285, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5003146', 'execId': 'c62f71e8-f23b-4b79-9b15-7b342e12cfcc', 'marketUnit': '', 'execQty': '17.06', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  79.23
+Last close price for SYRUPUSDT: 0.47679
+Opening Sell for  SYRUPUSDT
+TP: 0.4720221
+SL: 0.4863258
+TS: 0.0047679
+Order Quantity: 20973.59
+Adjusted qty: 20974.0
+Final Adjusted qty: 20973.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9637502e-c941-4837-9d9b-33d4a60efe5b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757005294308}
+9637502e-c941-4837-9d9b-33d4a60efe5b
+fetching trade data for :  9637502e-c941-4837-9d9b-33d4a60efe5b
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9637502e-c941-4837-9d9b-33d4a60efe5b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757005294308', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.47676', 'execPrice': '0.47676', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.42909', 'execValue': '4767.6', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185364658, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.62218', 'execId': '11e54045-f531-4d5d-81db-6cbdb574285c', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 04.09.2025 21:01:43
