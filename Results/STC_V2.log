@@ -1328,3 +1328,30 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 04.09.2025 19:32:08
+***************************************************************
+Number of open positions: 9
+Function started at 04.09.2025 19:35:41
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | S |  95.90
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757000196367}
+Last close price for WALUSDT: 0.4063
+Opening Sell for  WALUSDT
+TP: 0.402237
+SL: 0.414426
+TS: 0.004063
+Order Quantity: 24612.36
+Adjusted qty: 24612.0
+Final Adjusted qty: 24612.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f73d6d01-3afc-4398-bd40-4ce8c7fed164', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757000198173}
+f73d6d01-3afc-4398-bd40-4ce8c7fed164
+fetching trade data for :  f73d6d01-3afc-4398-bd40-4ce8c7fed164
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f73d6d01-3afc-4398-bd40-4ce8c7fed164', 'stopOrderType': 'UNKNOWN', 'execTime': '1757000198173', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4063', 'execPrice': '0.4063', 'markIv': '', 'orderQty': '24612', 'orderPrice': '0.3251', 'execValue': '9999.8556', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185208076, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992058', 'execId': '68acbc84-f7d6-4a5c-b034-765b1efb8810', 'marketUnit': '', 'execQty': '24612', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 04.09.2025 19:36:48
