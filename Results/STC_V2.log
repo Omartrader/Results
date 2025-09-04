@@ -1258,3 +1258,29 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 04.09.2025 19:17:42
+***************************************************************
+Number of open positions: 9
+Function started at 04.09.2025 19:25:37
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AAVEUSDT   | S |  95.84
+Last close price for AAVEUSDT: 313.72
+Opening Sell for  AAVEUSDT
+TP: 310.5828
+SL: 319.99440000000004
+TS: 3.1372000000000004
+Order Quantity: 31.88
+Adjusted qty: 31.88
+Final Adjusted qty: 31.88
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8c87c039-5bbe-48b2-addf-1aa893e7526b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1756999576688}
+8c87c039-5bbe-48b2-addf-1aa893e7526b
+fetching trade data for :  8c87c039-5bbe-48b2-addf-1aa893e7526b
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8c87c039-5bbe-48b2-addf-1aa893e7526b', 'stopOrderType': 'UNKNOWN', 'execTime': '1756999576688', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '313.72', 'execPrice': '313.72', 'markIv': '', 'orderQty': '31.88', 'orderPrice': '298.04', 'execValue': '10001.3936', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185188784, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50076648', 'execId': '67b6bc6a-9883-46b3-b7a0-239b9b373d9c', 'marketUnit': '', 'execQty': '31.88', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 04.09.2025 19:26:26
