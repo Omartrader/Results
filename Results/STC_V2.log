@@ -1795,3 +1795,42 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 04.09.2025 22:36:38
+***************************************************************
+Number of open positions: 7
+Function started at 04.09.2025 22:40:06
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | S |  92.99
+Last close price for AVAXUSDT: 24.385
+Opening Sell for  AVAXUSDT
+TP: 24.14115
+SL: 24.872700000000002
+TS: 0.24385
+Order Quantity: 410.09
+Adjusted qty: 410.1
+Final Adjusted qty: 410.0
+10950.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+DEXEUSDT   | S |  85.55
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757011246196}
+Last close price for DEXEUSDT: 7.295
+Opening Sell for  DEXEUSDT
+TP: 7.22205
+SL: 7.4409
+TS: 0.07295
+Order Quantity: 1370.8
+Adjusted qty: 1370.8000000000002
+Final Adjusted qty: 1370.8
+1000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0b9335df-96ea-4534-84ee-876f3bde0e5b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757011247367}
+0b9335df-96ea-4534-84ee-876f3bde0e5b
+fetching trade data for :  0b9335df-96ea-4534-84ee-876f3bde0e5b
+[{'symbol': 'DEXEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0b9335df-96ea-4534-84ee-876f3bde0e5b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757011247367', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.293', 'execPrice': '7.295', 'markIv': '', 'orderQty': '1000', 'orderPrice': '6.2', 'execValue': '7295', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697185545591, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.01225', 'execId': 'ea311dcb-1da8-4008-9ad0-17cf71f847fd', 'marketUnit': '', 'execQty': '1000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 04.09.2025 22:40:56
