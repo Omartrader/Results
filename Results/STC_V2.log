@@ -6940,3 +6940,57 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 05.09.2025 19:16:25
+***************************************************************
+Number of open positions: 8
+Function started at 05.09.2025 19:20:06
+FLRUSDT 	Latest Close: (0.02008) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+INJUSDT 	Latest Close: (12.702) 	SMA(14) : 12.87 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+BNBUSDT 	Latest Close: (849.4) 	SMA(14) : 851.40 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+INJUSDT    | S |  66.67
+Last close price for INJUSDT: 12.705
+Opening Sell for  INJUSDT
+TP: 12.57795
+SL: 12.959100000000001
+TS: 0.12705
+Order Quantity: 787.09
+Adjusted qty: 787.1
+Final Adjusted qty: 787.0
+6020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FLRUSDT    | S |  66.67
+Last close price for FLRUSDT: 0.0201
+Opening Sell for  FLRUSDT
+TP: 0.019899
+SL: 0.020502
+TS: 0.000201
+Order Quantity: 497512.44
+Adjusted qty: 497510.0
+Final Adjusted qty: 497510.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+BNBUSDT    | S |  66.67
+Last close price for BNBUSDT: 849.3
+Opening Sell for  BNBUSDT
+TP: 840.8069999999999
+SL: 866.286
+TS: 8.493
+Order Quantity: 11.77
+Adjusted qty: 11.77
+Final Adjusted qty: 11.77
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c0893b60-efd4-48d6-9f04-b1a4aa11ab77', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757085664348}
+c0893b60-efd4-48d6-9f04-b1a4aa11ab77
+fetching trade data for :  c0893b60-efd4-48d6-9f04-b1a4aa11ab77
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c0893b60-efd4-48d6-9f04-b1a4aa11ab77', 'stopOrderType': 'UNKNOWN', 'execTime': '1757085664347', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '849.4', 'execPrice': '849.3', 'markIv': '', 'orderQty': '11.77', 'orderPrice': '807', 'execValue': '9996.261', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187853656, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49794355', 'execId': '6e65dcaa-fb2b-43e4-a7e6-f3280e075cfb', 'marketUnit': '', 'execQty': '11.77', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 19:21:15
