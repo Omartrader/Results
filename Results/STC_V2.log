@@ -3541,3 +3541,29 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 08:26:03
+***************************************************************
+Number of open positions: 8
+Function started at 05.09.2025 08:30:05
+AUSDT 	Latest Close: (0.4567) 	SMA(14) : 0.46 	Delta : B 	Previous STC : 6.43 	STC : 27.80
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AUSDT      | B |  27.80
+Last close price for AUSDT: 0.4568
+Opening Buy for  AUSDT
+TP: 0.461368
+SL: 0.44766399999999995
+TS: 0.004568
+Order Quantity: 21891.42
+Adjusted qty: 21891.0
+Final Adjusted qty: 21891.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '90e2c4c4-a8ed-432b-816b-99103160822b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757046646386}
+90e2c4c4-a8ed-432b-816b-99103160822b
+fetching trade data for :  90e2c4c4-a8ed-432b-816b-99103160822b
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '90e2c4c4-a8ed-432b-816b-99103160822b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757046646385', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4568', 'execPrice': '0.4568', 'markIv': '', 'orderQty': '21891', 'orderPrice': '0.5024', 'execValue': '9999.8088', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697186619244, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989484', 'execId': '8d1a4320-d479-40ab-9853-563475adfe4e', 'marketUnit': '', 'execQty': '21891', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 08:30:55
