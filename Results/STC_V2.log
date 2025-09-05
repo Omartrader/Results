@@ -4247,3 +4247,57 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 05.09.2025 12:16:26
+***************************************************************
+Number of open positions: 2
+Function started at 05.09.2025 12:20:06
+MNTUSDT 	Latest Close: (1.1642) 	SMA(14) : 1.18 	Delta : S 	Previous STC : 97.48 	STC : 82.10
+MORPHOUSDT 	Latest Close: (2.0232) 	SMA(14) : 2.01 	Delta : B 	Previous STC : 16.87 	STC : 44.58
+FORMUSDT 	Latest Close: (3.7474) 	SMA(14) : 3.75 	Delta : S 	Previous STC : 100.00 	STC : 66.98
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  82.10
+Last close price for MNTUSDT: 1.1645
+Opening Sell for  MNTUSDT
+TP: 1.1528550000000002
+SL: 1.1877900000000001
+TS: 0.011645
+Order Quantity: 8587.38
+Adjusted qty: 8587.0
+Final Adjusted qty: 8587.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FORMUSDT   | S |  66.98
+Last close price for FORMUSDT: 3.7474
+Opening Sell for  FORMUSDT
+TP: 3.709926
+SL: 3.822348
+TS: 0.037474
+Order Quantity: 2668.52
+Adjusted qty: 2669.0
+Final Adjusted qty: 2668.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eb98bc2e-ebc5-4ba5-b276-e56a0449e2da', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757060444421}
+eb98bc2e-ebc5-4ba5-b276-e56a0449e2da
+fetching trade data for :  eb98bc2e-ebc5-4ba5-b276-e56a0449e2da
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'eb98bc2e-ebc5-4ba5-b276-e56a0449e2da', 'stopOrderType': 'UNKNOWN', 'execTime': '1757060444421', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.7474', 'execPrice': '3.7474', 'markIv': '', 'orderQty': '2668', 'orderPrice': '3.1853', 'execValue': '9998.0632', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187052736, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49893476', 'execId': 'eddf663b-919e-48bf-947a-8078712c4676', 'marketUnit': '', 'execQty': '2668', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MORPHOUSDT | B |  44.58
+Last close price for MORPHOUSDT: 2.0245
+Opening Buy for  MORPHOUSDT
+TP: 2.0447450000000003
+SL: 1.98401
+TS: 0.020245000000000003
+Order Quantity: 4939.49
+Adjusted qty: 4939.0
+Final Adjusted qty: 4939.0
+14000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 05.09.2025 12:20:56
