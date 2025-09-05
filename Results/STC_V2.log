@@ -4451,3 +4451,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 12:41:07
+***************************************************************
+Number of open positions: 4
+Function started at 05.09.2025 12:45:06
+WALUSDT 	Latest Close: (0.4335) 	SMA(14) : 0.43 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+LTCUSDT 	Latest Close: (113.04) 	SMA(14) : 112.35 	Delta : B 	Previous STC : 20.94 	STC : 38.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | S |  66.67
+Last close price for WALUSDT: 0.4336
+Opening Sell for  WALUSDT
+TP: 0.429264
+SL: 0.442272
+TS: 0.004336
+Order Quantity: 23062.73
+Adjusted qty: 23063.0
+Final Adjusted qty: 23062.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '063a0c22-523d-4430-9604-3fdee9616b37', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757061967909}
+063a0c22-523d-4430-9604-3fdee9616b37
+fetching trade data for :  063a0c22-523d-4430-9604-3fdee9616b37
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '063a0c22-523d-4430-9604-3fdee9616b37', 'stopOrderType': 'UNKNOWN', 'execTime': '1757061967909', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4336', 'execPrice': '0.4336', 'markIv': '', 'orderQty': '23062', 'orderPrice': '0.3469', 'execValue': '9999.6832', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187099327, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49982576', 'execId': '4880c88a-0d09-4e39-ab18-493162a8736a', 'marketUnit': '', 'execQty': '23062', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | B |  38.27
+Last close price for LTCUSDT: 113.04
+Opening Buy for  LTCUSDT
+TP: 114.1704
+SL: 110.7792
+TS: 1.1304
+Order Quantity: 88.46
+Adjusted qty: 88.5
+Final Adjusted qty: 88.4
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3a392493-1404-40fa-a62b-1d0c64b668a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757061981630}
+3a392493-1404-40fa-a62b-1d0c64b668a8
+fetching trade data for :  3a392493-1404-40fa-a62b-1d0c64b668a8
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3a392493-1404-40fa-a62b-1d0c64b668a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757061981630', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '113.04', 'execPrice': '113.04', 'markIv': '', 'orderQty': '88.4', 'orderPrice': '118.69', 'execValue': '9992.736', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187099746, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4960048', 'execId': '24f27402-279b-47e6-99f3-41d3c89b40ab', 'marketUnit': '', 'execQty': '88.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 12:46:32
