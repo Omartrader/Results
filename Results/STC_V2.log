@@ -7130,3 +7130,49 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 19:41:01
+***************************************************************
+Number of open positions: 5
+Function started at 05.09.2025 19:45:05
+PENGUUSDT 	Latest Close: (0.029084) 	SMA(14) : 0.03 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SANDUSDT 	Latest Close: (0.2825) 	SMA(14) : 0.29 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENGUUSDT  | S |  66.67
+Last close price for PENGUUSDT: 0.029059
+Opening Sell for  PENGUUSDT
+TP: 0.02876841
+SL: 0.029640180000000002
+TS: 0.00029059
+Order Quantity: 344127.46
+Adjusted qty: 344130.0
+Final Adjusted qty: 344120.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '94bd5f28-2c97-4f18-bd63-7ea79124331b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757087143238}
+94bd5f28-2c97-4f18-bd63-7ea79124331b
+fetching trade data for :  94bd5f28-2c97-4f18-bd63-7ea79124331b
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '94bd5f28-2c97-4f18-bd63-7ea79124331b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757087143238', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.029045', 'execPrice': '0.02904', 'markIv': '', 'orderQty': '344120', 'orderPrice': '0.026141', 'execValue': '9993.2448', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187898886, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49628464', 'execId': '65852247-2f1a-4ca7-ba20-a5e749f1a4da', 'marketUnit': '', 'execQty': '344120', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SANDUSDT   | S |  66.67
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757087154601}
+Last close price for SANDUSDT: 0.2827
+Opening Sell for  SANDUSDT
+TP: 0.279873
+SL: 0.288354
+TS: 0.002827
+Order Quantity: 35373.19
+Adjusted qty: 35373.0
+Final Adjusted qty: 35373.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '275cf2a8-4205-40e2-a93a-8810b9ed7f71', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757087156005}
+275cf2a8-4205-40e2-a93a-8810b9ed7f71
+fetching trade data for :  275cf2a8-4205-40e2-a93a-8810b9ed7f71
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '275cf2a8-4205-40e2-a93a-8810b9ed7f71', 'stopOrderType': 'UNKNOWN', 'execTime': '1757087156005', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2828', 'execPrice': '0.2827', 'markIv': '', 'orderQty': '35373', 'orderPrice': '0.2546', 'execValue': '9999.9471', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187899271, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997091', 'execId': 'f797a50c-6c48-4a3b-88be-f2d88885661d', 'marketUnit': '', 'execQty': '35373', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 19:46:06
