@@ -6098,3 +6098,147 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  5
 Function finished at 05.09.2025 18:21:44
+***************************************************************
+Number of open positions: 8
+Function started at 05.09.2025 18:25:07
+VETUSDT 	Latest Close: (0.02341) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ONDOUSDT 	Latest Close: (0.9149) 	SMA(14) : 0.93 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ETHFIUSDT 	Latest Close: (1.1319) 	SMA(14) : 1.16 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+AUSDT 	Latest Close: (0.459) 	SMA(14) : 0.47 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IOTAUSDT 	Latest Close: (0.183) 	SMA(14) : 0.19 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IMXUSDT 	Latest Close: (0.5156) 	SMA(14) : 0.52 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TRUMPUSDT 	Latest Close: (8.339) 	SMA(14) : 8.40 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+UNIUSDT 	Latest Close: (9.41) 	SMA(14) : 9.58 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ETCUSDT 	Latest Close: (20.478) 	SMA(14) : 20.72 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | S |  66.67
+Last close price for TRUMPUSDT: 8.329
+Opening Sell for  TRUMPUSDT
+TP: 8.24571
+SL: 8.49558
+TS: 0.08329
+Order Quantity: 1200.62
+Adjusted qty: 1200.6000000000001
+Final Adjusted qty: 1200.6
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHFIUSDT  | S |  66.67
+Last close price for ETHFIUSDT: 1.1308
+Opening Sell for  ETHFIUSDT
+TP: 1.119492
+SL: 1.153416
+TS: 0.011308
+Order Quantity: 8843.3
+Adjusted qty: 8843.300000000001
+Final Adjusted qty: 8843.3
+17000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+VETUSDT    | S |  66.67
+Last close price for VETUSDT: 0.02342
+Opening Sell for  VETUSDT
+TP: 0.0231858
+SL: 0.0238884
+TS: 0.0002342
+Order Quantity: 426985.48
+Adjusted qty: 426985.0
+Final Adjusted qty: 426985.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9ca802b8-c9ba-43d1-b173-4d08f97f5fdd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757082366730}
+9ca802b8-c9ba-43d1-b173-4d08f97f5fdd
+fetching trade data for :  9ca802b8-c9ba-43d1-b173-4d08f97f5fdd
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9ca802b8-c9ba-43d1-b173-4d08f97f5fdd', 'stopOrderType': 'UNKNOWN', 'execTime': '1757082366729', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02342', 'execPrice': '0.02342', 'markIv': '', 'orderQty': '426985', 'orderPrice': '0.02225', 'execValue': '9999.9887', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187745804, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999379', 'execId': '8d7b3528-08df-4784-8e7e-de65a0a63fbd', 'marketUnit': '', 'execQty': '426985', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IOTAUSDT   | S |  66.67
+Last close price for IOTAUSDT: 0.1829
+Opening Sell for  IOTAUSDT
+TP: 0.181071
+SL: 0.186558
+TS: 0.0018290000000000001
+Order Quantity: 54674.69
+Adjusted qty: 54674.700000000004
+Final Adjusted qty: 54674.6
+26600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   | S |  66.67
+Last close price for ONDOUSDT: 0.9148
+Opening Sell for  ONDOUSDT
+TP: 0.9056519999999999
+SL: 0.9330959999999999
+TS: 0.009148
+Order Quantity: 10931.35
+Adjusted qty: 10931.0
+Final Adjusted qty: 10931.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    | S |  66.67
+Last close price for UNIUSDT: 9.399
+Opening Sell for  UNIUSDT
+TP: 9.30501
+SL: 9.586979999999999
+TS: 0.09398999999999999
+Order Quantity: 1063.94
+Adjusted qty: 1063.9
+Final Adjusted qty: 1063.9
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETCUSDT    | S |  66.67
+Last close price for ETCUSDT: 20.47
+Opening Sell for  ETCUSDT
+TP: 20.2653
+SL: 20.8794
+TS: 0.2047
+Order Quantity: 488.52
+Adjusted qty: 488.5
+Final Adjusted qty: 488.5
+10610.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IMXUSDT    | S |  66.67
+Last close price for IMXUSDT: 0.5151
+Opening Sell for  IMXUSDT
+TP: 0.509949
+SL: 0.525402
+TS: 0.005151
+Order Quantity: 19413.71
+Adjusted qty: 19413.7
+Final Adjusted qty: 19413.7
+21190.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AUSDT      | S |  66.67
+Last close price for AUSDT: 0.4587
+Opening Sell for  AUSDT
+TP: 0.454113
+SL: 0.467874
+TS: 0.004587
+Order Quantity: 21800.74
+Adjusted qty: 21801.0
+Final Adjusted qty: 21800.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8fb02299-0f3a-49d7-a915-4f4f685f00d3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757082389869}
+8fb02299-0f3a-49d7-a915-4f4f685f00d3
+fetching trade data for :  8fb02299-0f3a-49d7-a915-4f4f685f00d3
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8fb02299-0f3a-49d7-a915-4f4f685f00d3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757082389869', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4588', 'execPrice': '0.4587', 'markIv': '', 'orderQty': '21800', 'orderPrice': '0.413', 'execValue': '9999.66', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187746545, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499813', 'execId': 'f82410ef-e2bb-4507-b707-60cba859b052', 'marketUnit': '', 'execQty': '21800', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 05.09.2025 18:26:41
