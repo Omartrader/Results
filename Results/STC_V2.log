@@ -8053,3 +8053,53 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 06.09.2025 00:36:01
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 00:40:06
+ENAUSDT 	Latest Close: (0.7151) 	SMA(14) : 0.67 	Delta : B 	Previous STC : 15.40 	STC : 43.60
+VIRTUALUSDT 	Latest Close: (1.108) 	SMA(14) : 1.09 	Delta : B 	Previous STC : 10.54 	STC : 40.36
+IOTAUSDT 	Latest Close: (0.1856) 	SMA(14) : 0.18 	Delta : B 	Previous STC : 15.09 	STC : 43.39
+TONUSDT 	Latest Close: (3.1034) 	SMA(14) : 3.09 	Delta : B 	Previous STC : 5.36 	STC : 27.14
+ENSUSDT 	Latest Close: (22.547) 	SMA(14) : 22.29 	Delta : B 	Previous STC : 8.07 	STC : 34.47
+BTCUSDT 	Latest Close: (111530.0) 	SMA(14) : 111079.51 	Delta : B 	Previous STC : 6.54 	STC : 37.69
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | B |  43.60
+Last close price for ENAUSDT: 0.7154
+Opening Buy for  ENAUSDT
+TP: 0.722554
+SL: 0.701092
+TS: 0.007154000000000001
+Order Quantity: 13978.19
+Adjusted qty: 13978.0
+Final Adjusted qty: 13978.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '15403962-7451-46b8-b3a6-74038521f77f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757104865248}
+15403962-7451-46b8-b3a6-74038521f77f
+fetching trade data for :  15403962-7451-46b8-b3a6-74038521f77f
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '15403962-7451-46b8-b3a6-74038521f77f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757104865248', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7155', 'execPrice': '0.716', 'markIv': '', 'orderQty': '13978', 'orderPrice': '0.787', 'execValue': '10008.248', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697188433628, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5045364', 'execId': 'da9a0e2a-251d-4895-a1e3-2d312a9bb7bd', 'marketUnit': '', 'execQty': '13978', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IOTAUSDT   | B |  43.39
+Last close price for IOTAUSDT: 0.1855
+Opening Buy for  IOTAUSDT
+TP: 0.187355
+SL: 0.18179
+TS: 0.0018549999999999999
+Order Quantity: 53908.36
+Adjusted qty: 53908.4
+Final Adjusted qty: 53908.3
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2a74b462-691c-46ce-9533-fb95f5f60287', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757104879134}
+2a74b462-691c-46ce-9533-fb95f5f60287
+fetching trade data for :  2a74b462-691c-46ce-9533-fb95f5f60287
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2a74b462-691c-46ce-9533-fb95f5f60287', 'stopOrderType': 'UNKNOWN', 'execTime': '1757104879134', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1857', 'execPrice': '0.1855', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.2042', 'execValue': '4934.3', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697188434088, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.713865', 'execId': '71791551-aeed-4141-be34-5452cec24f0e', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 06.09.2025 00:41:29
