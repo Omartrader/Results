@@ -6744,3 +6744,75 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 05.09.2025 18:55:42
+***************************************************************
+Number of open positions: 7
+Function started at 05.09.2025 19:00:06
+ENAUSDT 	Latest Close: (0.6544) 	SMA(14) : 0.67 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ADAUSDT 	Latest Close: (0.8218) 	SMA(14) : 0.83 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SEIUSDT 	Latest Close: (0.2887) 	SMA(14) : 0.29 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+OPUSDT 	Latest Close: (0.7057) 	SMA(14) : 0.72 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+NEARUSDT 	Latest Close: (2.39) 	SMA(14) : 2.44 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+DYDXUSDT 	Latest Close: (0.5873) 	SMA(14) : 0.60 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ATOMUSDT 	Latest Close: (4.419) 	SMA(14) : 4.49 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+PENDLEUSDT 	Latest Close: (4.5857) 	SMA(14) : 4.72 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SAROSUSDT 	Latest Close: (0.35841) 	SMA(14) : 0.36 	Delta : S 	Previous STC : 98.71 	STC : 90.88
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  90.88
+Last close price for SAROSUSDT: 0.35841
+Opening Sell for  SAROSUSDT
+TP: 0.3548259
+SL: 0.3655782
+TS: 0.0035841000000000002
+Order Quantity: 27901.01
+Adjusted qty: 27901.0
+Final Adjusted qty: 27901.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd563c3f4-348a-4d68-90ad-3cd5f306b569', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757084442242}
+d563c3f4-348a-4d68-90ad-3cd5f306b569
+fetching trade data for :  d563c3f4-348a-4d68-90ad-3cd5f306b569
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd563c3f4-348a-4d68-90ad-3cd5f306b569', 'stopOrderType': 'UNKNOWN', 'execTime': '1757084442242', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.35901', 'execPrice': '0.35841', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.30516', 'execValue': '9677.07', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187815105, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.644777', 'execId': 'bc9b4b61-9849-4b9d-a8a0-10d19fc087c5', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    | S |  66.67
+Last close price for ADAUSDT: 0.8238
+Opening Sell for  ADAUSDT
+TP: 0.815562
+SL: 0.840276
+TS: 0.008238
+Order Quantity: 12138.87
+Adjusted qty: 12139.0
+Final Adjusted qty: 12138.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'edd117e0-1db7-47b3-8019-0b4763c4f8f3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757084454089}
+edd117e0-1db7-47b3-8019-0b4763c4f8f3
+fetching trade data for :  edd117e0-1db7-47b3-8019-0b4763c4f8f3
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'edd117e0-1db7-47b3-8019-0b4763c4f8f3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757084454089', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8238', 'execPrice': '0.8238', 'markIv': '', 'orderQty': '12138', 'orderPrice': '0.7827', 'execValue': '9999.2844', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187815523, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49960642', 'execId': '562285cc-f131-4a39-8fb3-d8c9792e6dd0', 'marketUnit': '', 'execQty': '12138', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OPUSDT     | S |  66.67
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757084465239}
+Last close price for OPUSDT: 0.707
+Opening Sell for  OPUSDT
+TP: 0.6999299999999999
+SL: 0.72114
+TS: 0.00707
+Order Quantity: 14144.27
+Adjusted qty: 14144.300000000001
+Final Adjusted qty: 14144.2
+84130.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'af3360ee-1beb-4020-9169-c54e5a321b72', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757084466303}
+af3360ee-1beb-4020-9169-c54e5a321b72
+fetching trade data for :  af3360ee-1beb-4020-9169-c54e5a321b72
+[{'symbol': 'OPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'af3360ee-1beb-4020-9169-c54e5a321b72', 'stopOrderType': 'UNKNOWN', 'execTime': '1757084466302', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7072', 'execPrice': '0.7069', 'markIv': '', 'orderQty': '14144.2', 'orderPrice': '0.6719', 'execValue': '9998.53498', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187815930, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49919424', 'execId': 'eb5fdd78-6c74-40f1-a0d3-3dc01ba08bc1', 'marketUnit': '', 'execQty': '14144.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 05.09.2025 19:01:17
