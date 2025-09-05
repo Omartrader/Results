@@ -7043,3 +7043,29 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 19:26:04
+***************************************************************
+Number of open positions: 4
+Function started at 05.09.2025 19:30:07
+ARUSDT 	Latest Close: (6.591) 	SMA(14) : 6.64 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARUSDT     | S |  66.67
+Last close price for ARUSDT: 6.591
+Opening Sell for  ARUSDT
+TP: 6.5250900000000005
+SL: 6.7228200000000005
+TS: 0.06591
+Order Quantity: 1517.22
+Adjusted qty: 1517.2
+Final Adjusted qty: 1517.2
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ec909f6a-7f4b-45af-91fc-85bfcec62426', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757086261279}
+ec909f6a-7f4b-45af-91fc-85bfcec62426
+fetching trade data for :  ec909f6a-7f4b-45af-91fc-85bfcec62426
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ec909f6a-7f4b-45af-91fc-85bfcec62426', 'stopOrderType': 'UNKNOWN', 'execTime': '1757086261279', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '6.595', 'execPrice': '6.587', 'markIv': '', 'orderQty': '1517.2', 'orderPrice': '6.266', 'execValue': '9993.7964', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187872085, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49658802', 'execId': '09c910a3-71bb-4946-8d9b-c96c81e8771a', 'marketUnit': '', 'execQty': '1517.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 19:31:12
