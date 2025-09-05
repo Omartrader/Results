@@ -3074,3 +3074,70 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 05.09.2025 18:37:30
+***************************************************************
+Number of open positions: 4
+Function started at 05.09.2025 18:42:04
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4887) 	SMA(14) : 0.50 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	KASUSDT 	Signal: S
+KASUSDT 	Latest Close: (0.08154) 	SMA(14) : 0.08 	Delta :  	Previous STC : 100.00 	STC : 66.66
+	TRXUSDT 	Signal: S
+TRXUSDT 	Latest Close: (0.3343) 	SMA(14) : 0.34 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	AVAXUSDT 	Signal: S
+AVAXUSDT 	Latest Close: (24.331) 	SMA(14) : 24.80 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4292.75) 	SMA(14) : 4418.20 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (316.84) 	SMA(14) : 322.56 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | S |  66.67
+1
+Last close price for TAOUSDT: 316.8
+Opening Sell for  TAOUSDT
+TP: 313.632
+SL: 323.136
+TS: 3.168
+Order Quantity: 63.13
+Adjusted qty: 63.13
+Final Adjusted qty: 63.13
+60.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARBUSDT    | S |  66.67
+1
+Last close price for ARBUSDT: 0.4883
+Opening Sell for  ARBUSDT
+TP: 0.483417
+SL: 0.498066
+TS: 0.004883
+Order Quantity: 40958.43
+Adjusted qty: 40958.4
+Final Adjusted qty: 40958.4
+283360.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHUSDT    | S |  66.67
+1
+Last close price for ETHUSDT: 4292.33
+Opening Sell for  ETHUSDT
+TP: 4249.4067
+SL: 4378.1766
+TS: 42.9233
+Order Quantity: 4.66
+Adjusted qty: 4.66
+Final Adjusted qty: 4.66
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5a020280-20df-4631-bb67-a401ab09eb06', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757083346880}
+5a020280-20df-4631-bb67-a401ab09eb06
+fetching trade data for :  5a020280-20df-4631-bb67-a401ab09eb06
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5a020280-20df-4631-bb67-a401ab09eb06', 'stopOrderType': 'UNKNOWN', 'execTime': '1757083346879', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4292.9', 'execPrice': '4292.5', 'markIv': '', 'orderQty': '4.66', 'orderPrice': '4207.05', 'execValue': '20003.05', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612498008548, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0016775', 'execId': '175768a8-ca70-4fb1-920a-e16b1545b1d1', 'marketUnit': '', 'execQty': '4.66', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 18:42:37
