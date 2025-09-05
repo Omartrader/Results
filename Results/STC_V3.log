@@ -2945,3 +2945,57 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 05.09.2025 18:22:34
+***************************************************************
+Number of open positions: 4
+Function started at 05.09.2025 18:26:45
+	VETUSDT 	Signal: S
+VETUSDT 	Latest Close: (0.02337) 	SMA(14) : 0.02 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ONDOUSDT 	Signal: S
+ONDOUSDT 	Latest Close: (0.9132) 	SMA(14) : 0.93 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	LINKUSDT 	Signal: S
+LINKUSDT 	Latest Close: (22.382) 	SMA(14) : 22.87 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (8.319) 	SMA(14) : 8.39 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (9.392) 	SMA(14) : 9.58 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (20.449) 	SMA(14) : 20.71 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | S |  66.67
+1
+Last close price for TRUMPUSDT: 8.334
+Opening Sell for  TRUMPUSDT
+TP: 8.25066
+SL: 8.50068
+TS: 0.08334
+Order Quantity: 2399.81
+Adjusted qty: 2399.8
+Final Adjusted qty: 2399.8
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+VETUSDT    | S |  66.67
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757082426220}
+Last close price for VETUSDT: 0.02341
+Opening Sell for  VETUSDT
+TP: 0.0231759
+SL: 0.023878200000000002
+TS: 0.0002341
+Order Quantity: 854335.75
+Adjusted qty: 854336.0
+Final Adjusted qty: 854335.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aeb0cc88-8cee-4da4-914c-777448cb938b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757082427629}
+aeb0cc88-8cee-4da4-914c-777448cb938b
+fetching trade data for :  aeb0cc88-8cee-4da4-914c-777448cb938b
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aeb0cc88-8cee-4da4-914c-777448cb938b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757082427629', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02341', 'execPrice': '0.02341', 'markIv': '', 'orderQty': '437000', 'orderPrice': '0.02224', 'execValue': '10230.17', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612497974026, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.6265935', 'execId': 'dabe05c1-2c8a-40bd-ae9f-76f32bca9fa7', 'marketUnit': '', 'execQty': '437000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 18:27:18
