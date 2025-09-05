@@ -7069,3 +7069,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 05.09.2025 19:31:12
+***************************************************************
+Number of open positions: 5
+Function started at 05.09.2025 19:35:06
+HYPEUSDT 	Latest Close: (46.494) 	SMA(14) : 46.84 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ARUSDT 	Latest Close: (6.582) 	SMA(14) : 6.64 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARUSDT     | S |  66.67
+Last close price for ARUSDT: 6.583
+Opening Sell for  ARUSDT
+TP: 6.51717
+SL: 6.71466
+TS: 0.06583
+Order Quantity: 1519.06
+Adjusted qty: 1519.1000000000001
+Final Adjusted qty: 1519.0
+4060.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HYPEUSDT   | S |  66.67
+Last close price for HYPEUSDT: 46.507
+Opening Sell for  HYPEUSDT
+TP: 46.04193
+SL: 47.43714
+TS: 0.46507
+Order Quantity: 215.02
+Adjusted qty: 215.02
+Final Adjusted qty: 215.02
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '653925ea-0685-4348-95bc-5865c0788e42', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757086564080}
+653925ea-0685-4348-95bc-5865c0788e42
+fetching trade data for :  653925ea-0685-4348-95bc-5865c0788e42
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '653925ea-0685-4348-95bc-5865c0788e42', 'stopOrderType': 'UNKNOWN', 'execTime': '1757086564079', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '46.497', 'execPrice': '46.492', 'markIv': '', 'orderQty': '215.02', 'orderPrice': '32.548', 'execValue': '9996.70984', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187881321, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49819042', 'execId': 'd50c8485-1a91-452c-b0c3-4ed00e56d4a3', 'marketUnit': '', 'execQty': '215.02', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 19:36:15
