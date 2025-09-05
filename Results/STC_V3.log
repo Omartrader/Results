@@ -1858,3 +1858,54 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 12:26:24
+***************************************************************
+Number of open positions: 3
+Function started at 05.09.2025 12:31:32
+	IPUSDT 	Signal: S
+IPUSDT 	Latest Close: (8.0487) 	SMA(14) : 8.18 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (270.89) 	SMA(14) : 268.38 	Delta :  	Previous STC : 10.35 	STC : 34.32
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  66.67
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757061124394}
+Last close price for IPUSDT: 8.0486
+Opening Sell for  IPUSDT
+TP: 7.968114
+SL: 8.209572000000001
+TS: 0.080486
+Order Quantity: 2484.9
+Adjusted qty: 2484.9
+Final Adjusted qty: 2484.9
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eff88d3a-dfea-4bd4-ab45-6dacc8194890', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757061126341}
+eff88d3a-dfea-4bd4-ab45-6dacc8194890
+fetching trade data for :  eff88d3a-dfea-4bd4-ab45-6dacc8194890
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'eff88d3a-dfea-4bd4-ab45-6dacc8194890', 'stopOrderType': 'UNKNOWN', 'execTime': '1757061126341', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.0513', 'execPrice': '8.0486', 'markIv': '', 'orderQty': '2400', 'orderPrice': '7.2462', 'execValue': '19316.64', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612497270782, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.624152', 'execId': 'a1bfcaf1-46e4-418f-9855-b7309c581e89', 'marketUnit': '', 'execQty': '2400', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XMRUSDT    | B |  34.32
+1
+Last close price for XMRUSDT: 270.81
+Opening Buy for  XMRUSDT
+TP: 273.5181
+SL: 265.3938
+TS: 2.7081
+Order Quantity: 73.85
+Adjusted qty: 73.85000000000001
+Final Adjusted qty: 73.85
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '27cf4dd3-0478-4ff2-ae70-90cd74a33c17', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757061139476}
+27cf4dd3-0478-4ff2-ae70-90cd74a33c17
+fetching trade data for :  27cf4dd3-0478-4ff2-ae70-90cd74a33c17
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '27cf4dd3-0478-4ff2-ae70-90cd74a33c17', 'stopOrderType': 'UNKNOWN', 'execTime': '1757061139475', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '270.84', 'execPrice': '270.81', 'markIv': '', 'orderQty': '73.85', 'orderPrice': '284.38', 'execValue': '19999.3185', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612497271184, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99962518', 'execId': '4221f396-ce4d-45f3-8d0f-3fe697f357ad', 'marketUnit': '', 'execQty': '73.85', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 05.09.2025 12:32:30
