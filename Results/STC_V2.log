@@ -6816,3 +6816,63 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 05.09.2025 19:01:17
+***************************************************************
+Number of open positions: 9
+Function started at 05.09.2025 19:05:06
+ENAUSDT 	Latest Close: (0.654) 	SMA(14) : 0.67 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ADAUSDT 	Latest Close: (0.8208) 	SMA(14) : 0.83 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SEIUSDT 	Latest Close: (0.2877) 	SMA(14) : 0.29 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+OPUSDT 	Latest Close: (0.7052) 	SMA(14) : 0.72 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+NEARUSDT 	Latest Close: (2.39) 	SMA(14) : 2.44 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+DYDXUSDT 	Latest Close: (0.5875) 	SMA(14) : 0.60 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ATOMUSDT 	Latest Close: (4.416) 	SMA(14) : 4.49 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+PENDLEUSDT 	Latest Close: (4.5886) 	SMA(14) : 4.72 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ADAUSDT    | S |  66.67
+Last close price for ADAUSDT: 0.8219
+Opening Sell for  ADAUSDT
+TP: 0.813681
+SL: 0.838338
+TS: 0.008218999999999999
+Order Quantity: 12166.93
+Adjusted qty: 12167.0
+Final Adjusted qty: 12166.0
+1109600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+OPUSDT     | S |  66.67
+Last close price for OPUSDT: 0.7051
+Opening Sell for  OPUSDT
+TP: 0.6980489999999999
+SL: 0.719202
+TS: 0.007050999999999999
+Order Quantity: 14182.39
+Adjusted qty: 14182.400000000001
+Final Adjusted qty: 14182.3
+84130.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEARUSDT   | S |  66.67
+Last close price for NEARUSDT: 2.39
+Opening Sell for  NEARUSDT
+TP: 2.3661000000000003
+SL: 2.4378
+TS: 0.0239
+Order Quantity: 4184.1
+Adjusted qty: 4184.1
+Final Adjusted qty: 4184.1
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3f1deffc-69c9-45f3-841d-cdd258e80b32', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757084743872}
+3f1deffc-69c9-45f3-841d-cdd258e80b32
+fetching trade data for :  3f1deffc-69c9-45f3-841d-cdd258e80b32
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3f1deffc-69c9-45f3-841d-cdd258e80b32', 'stopOrderType': 'UNKNOWN', 'execTime': '1757084743871', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.39', 'execPrice': '2.39', 'markIv': '', 'orderQty': '4184.1', 'orderPrice': '2.271', 'execValue': '9999.999', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187824974, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999945', 'execId': '42c25700-ae81-457c-9d2d-612328c75e7d', 'marketUnit': '', 'execQty': '4184.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 19:05:54
