@@ -3914,3 +3914,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 05.09.2025 10:16:14
+***************************************************************
+Number of open positions: 8
+Function started at 05.09.2025 10:20:05
+KASUSDT 	Latest Close: (0.08172) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 80.16
+KAIAUSDT 	Latest Close: (0.1457) 	SMA(14) : 0.15 	Delta : S 	Previous STC : 98.33 	STC : 65.55
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KASUSDT    | S |  80.16
+Last close price for KASUSDT: 0.0817
+Opening Sell for  KASUSDT
+TP: 0.080883
+SL: 0.08333399999999999
+TS: 0.0008169999999999999
+Order Quantity: 122399.02
+Adjusted qty: 122400.0
+Final Adjusted qty: 122390.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a50bb666-d4cf-4818-9d76-06dabb3b55d7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757053243477}
+a50bb666-d4cf-4818-9d76-06dabb3b55d7
+fetching trade data for :  a50bb666-d4cf-4818-9d76-06dabb3b55d7
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a50bb666-d4cf-4818-9d76-06dabb3b55d7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757053243476', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.0817', 'execPrice': '0.0817', 'markIv': '', 'orderQty': '122390', 'orderPrice': '0.06945', 'execValue': '9999.263', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697186824091, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49959465', 'execId': '7b70bad3-7310-4835-9895-b23a41c533d8', 'marketUnit': '', 'execQty': '122390', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KAIAUSDT   | S |  65.55
+Last close price for KAIAUSDT: 0.1456
+Opening Sell for  KAIAUSDT
+TP: 0.144144
+SL: 0.148512
+TS: 0.001456
+Order Quantity: 68681.32
+Adjusted qty: 68681.0
+Final Adjusted qty: 68681.0
+170000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 05.09.2025 10:20:56
