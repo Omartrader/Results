@@ -6893,3 +6893,50 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 05.09.2025 19:11:03
+***************************************************************
+Number of open positions: 8
+Function started at 05.09.2025 19:15:06
+FLRUSDT 	Latest Close: (0.02007) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+INJUSDT 	Latest Close: (12.669) 	SMA(14) : 12.87 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+BNBUSDT 	Latest Close: (847.9) 	SMA(14) : 851.29 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+INJUSDT    | S |  66.67
+Last close price for INJUSDT: 12.678
+Opening Sell for  INJUSDT
+TP: 12.55122
+SL: 12.931560000000001
+TS: 0.12678
+Order Quantity: 788.77
+Adjusted qty: 788.8000000000001
+Final Adjusted qty: 788.7
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bbd58ce8-53f9-490b-b7e3-9497d6f48e47', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757085360697}
+bbd58ce8-53f9-490b-b7e3-9497d6f48e47
+fetching trade data for :  bbd58ce8-53f9-490b-b7e3-9497d6f48e47
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bbd58ce8-53f9-490b-b7e3-9497d6f48e47', 'stopOrderType': 'UNKNOWN', 'execTime': '1757085360697', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '12.678', 'execPrice': '12.678', 'markIv': '', 'orderQty': '788.7', 'orderPrice': '12.045', 'execValue': '9999.1386', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187844272, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49952623', 'execId': 'cd0b41a7-3d46-45ec-97a3-55898644f936', 'marketUnit': '', 'execQty': '788.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLRUSDT    | S |  66.67
+Last close price for FLRUSDT: 0.02009
+Opening Sell for  FLRUSDT
+TP: 0.0198891
+SL: 0.0204918
+TS: 0.0002009
+Order Quantity: 497760.08
+Adjusted qty: 497760.0
+Final Adjusted qty: 497760.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1c07539d-9076-4200-b53b-1c7b16c29c80', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757085373817}
+1c07539d-9076-4200-b53b-1c7b16c29c80
+fetching trade data for :  1c07539d-9076-4200-b53b-1c7b16c29c80
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1c07539d-9076-4200-b53b-1c7b16c29c80', 'stopOrderType': 'UNKNOWN', 'execTime': '1757085373817', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02009', 'execPrice': '0.02009', 'markIv': '', 'orderQty': '497760', 'orderPrice': '0.01608', 'execValue': '9999.9984', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187844686, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999912', 'execId': '7ace147a-d1fe-4165-96ff-468947716083', 'marketUnit': '', 'execQty': '497760', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 05.09.2025 19:16:25
