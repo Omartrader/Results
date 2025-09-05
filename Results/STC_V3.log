@@ -915,3 +915,33 @@ USD1USDT 	Latest Close: (0.9976) 	SMA(14) : 1.00 	Delta :  	Previous STC : 97.08
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 05.09.2025 07:06:14
+***************************************************************
+Number of open positions: 0
+Function started at 05.09.2025 07:10:57
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.26476) 	SMA(14) : 0.27 	Delta :  	Previous STC : 100.00 	STC : 95.92
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9977) 	SMA(14) : 1.00 	Delta :  	Previous STC : 97.08 	STC : 90.46
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  95.92
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757041879818}
+Last close price for CROUSDT: 0.26467
+Opening Sell for  CROUSDT
+TP: 0.2620233
+SL: 0.2699634
+TS: 0.0026467
+Order Quantity: 75565.8
+Adjusted qty: 75566.0
+Final Adjusted qty: 75565.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '26918ac8-f328-4c14-abf2-edf5ecd92b38', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757041880992}
+26918ac8-f328-4c14-abf2-edf5ecd92b38
+fetching trade data for :  26918ac8-f328-4c14-abf2-edf5ecd92b38
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '26918ac8-f328-4c14-abf2-edf5ecd92b38', 'stopOrderType': 'UNKNOWN', 'execTime': '1757041880992', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.26474', 'execPrice': '0.26467', 'markIv': '', 'orderQty': '75565', 'orderPrice': '0.23827', 'execValue': '19999.78855', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612496659471, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99988371', 'execId': '016fad4b-4385-45a9-9d2b-2f0e8168c242', 'marketUnit': '', 'execQty': '75565', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 07:11:30
