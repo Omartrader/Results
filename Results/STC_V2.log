@@ -4913,3 +4913,64 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 14:55:41
+***************************************************************
+Number of open positions: 7
+Function started at 05.09.2025 15:00:06
+FARTCOINUSDT 	Latest Close: (0.7548) 	SMA(14) : 0.76 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SUIUSDT 	Latest Close: (3.3632) 	SMA(14) : 3.38 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+CFXUSDT 	Latest Close: (0.1718) 	SMA(14) : 0.17 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+USD1USDT 	Latest Close: (0.9978) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 99.07 	STC : 91.40
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CFXUSDT    | S |  66.67
+Last close price for CFXUSDT: 0.17178
+Opening Sell for  CFXUSDT
+TP: 0.1700622
+SL: 0.1752156
+TS: 0.0017177999999999998
+Order Quantity: 58213.99
+Adjusted qty: 58214.0
+Final Adjusted qty: 58213.0
+252700.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FARTCOINUSDT | S |  66.67
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757070043231}
+Last close price for FARTCOINUSDT: 0.754
+Opening Sell for  FARTCOINUSDT
+TP: 0.74646
+SL: 0.76908
+TS: 0.00754
+Order Quantity: 13262.6
+Adjusted qty: 13263.0
+Final Adjusted qty: 13262.0
+600000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1611a2b7-0e8e-4388-9745-3eee12484de9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757070044528}
+1611a2b7-0e8e-4388-9745-3eee12484de9
+fetching trade data for :  1611a2b7-0e8e-4388-9745-3eee12484de9
+[{'symbol': 'FARTCOINUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1611a2b7-0e8e-4388-9745-3eee12484de9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757070044527', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7541', 'execPrice': '0.7541', 'markIv': '', 'orderQty': '13262', 'orderPrice': '0.641', 'execValue': '10000.8742', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187347970, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50048081', 'execId': 'd1d18c6a-d968-4413-8dcc-383a6c6dd756', 'marketUnit': '', 'execQty': '13262', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | S |  66.67
+Last close price for SUIUSDT: 3.3622
+Opening Sell for  SUIUSDT
+TP: 3.3285780000000003
+SL: 3.429444
+TS: 0.033622
+Order Quantity: 2974.24
+Adjusted qty: 2970.0
+Final Adjusted qty: 2970.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '37031341-634c-4e12-9af9-2142f5af827e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757070056468}
+37031341-634c-4e12-9af9-2142f5af827e
+fetching trade data for :  37031341-634c-4e12-9af9-2142f5af827e
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '37031341-634c-4e12-9af9-2142f5af827e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757070056468', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.36234', 'execPrice': '3.3622', 'markIv': '', 'orderQty': '2970', 'orderPrice': '3.1943', 'execValue': '9985.734', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187348343, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4921537', 'execId': 'd0c552f6-f7f7-420a-9e28-427a0aecd8dc', 'marketUnit': '', 'execQty': '2970', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 15:01:06
