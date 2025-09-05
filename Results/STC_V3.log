@@ -2389,3 +2389,44 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 05.09.2025 15:36:06
+***************************************************************
+Number of open positions: 3
+Function started at 05.09.2025 15:41:20
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (4.308) 	SMA(14) : 4.31 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	QNTUSDT 	Signal: S
+QNTUSDT 	Latest Close: (101.89) 	SMA(14) : 102.17 	Delta :  	Previous STC : 98.12 	STC : 88.61
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+QNTUSDT    | S |  88.61
+1
+Last close price for QNTUSDT: 101.89
+Opening Sell for  QNTUSDT
+TP: 100.8711
+SL: 103.9278
+TS: 1.0189
+Order Quantity: 196.29
+Adjusted qty: 196.29
+Final Adjusted qty: 196.29
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e4a292d3-d865-4a8d-aaf7-d456d014317b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757072502551}
+e4a292d3-d865-4a8d-aaf7-d456d014317b
+fetching trade data for :  e4a292d3-d865-4a8d-aaf7-d456d014317b
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e4a292d3-d865-4a8d-aaf7-d456d014317b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757072502550', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '101.9', 'execPrice': '101.89', 'markIv': '', 'orderQty': '196.29', 'orderPrice': '91.71', 'execValue': '19999.9881', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612497630014, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999346', 'execId': '9fe65036-0b06-4f86-9669-6dc55ddd502f', 'marketUnit': '', 'execQty': '196.29', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+APTUSDT    | S |  66.67
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757072513918}
+Last close price for APTUSDT: 4.308
+Opening Sell for  APTUSDT
+TP: 4.26492
+SL: 4.39416
+TS: 0.04308
+Order Quantity: 4642.53
+Adjusted qty: 4642.53
+Final Adjusted qty: 4642.53
+15408.0
