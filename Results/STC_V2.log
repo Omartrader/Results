@@ -5785,3 +5785,73 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 05.09.2025 17:50:58
+***************************************************************
+Number of open positions: 9
+Function started at 05.09.2025 17:55:06
+RSRUSDT 	Latest Close: (0.00765) 	SMA(14) : 0.01 	Delta : B 	Previous STC : 22.65 	STC : 31.39
+GRTUSDT 	Latest Close: (0.09012) 	SMA(14) : 0.09 	Delta : B 	Previous STC : 18.96 	STC : 27.72
+KAIAUSDT 	Latest Close: (0.1481) 	SMA(14) : 0.15 	Delta : B 	Previous STC : 18.54 	STC : 26.28
+ENSUSDT 	Latest Close: (22.73) 	SMA(14) : 22.61 	Delta : B 	Previous STC : 20.91 	STC : 29.02
+USDEUSDT 	Latest Close: (0.9999) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 11.69 	STC : 41.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RSRUSDT    | B |  31.39
+Last close price for RSRUSDT: 0.007646
+Opening Buy for  RSRUSDT
+TP: 0.0077224600000000004
+SL: 0.00749308
+TS: 7.646e-05
+Order Quantity: 1307873.4
+Adjusted qty: 1307870.0
+Final Adjusted qty: 1307870.0
+1190000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ENSUSDT    | B |  29.02
+Last close price for ENSUSDT: 22.726
+Opening Buy for  ENSUSDT
+TP: 22.95326
+SL: 22.27148
+TS: 0.22726
+Order Quantity: 440.02
+Adjusted qty: 440.0
+Final Adjusted qty: 440.0
+1400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+GRTUSDT    | B |  27.72
+Last close price for GRTUSDT: 0.08999
+Opening Buy for  GRTUSDT
+TP: 0.0908899
+SL: 0.0881902
+TS: 0.0008999
+Order Quantity: 111123.46
+Adjusted qty: 111123.5
+Final Adjusted qty: 111123.4
+555670.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+KAIAUSDT   | B |  26.28
+Last close price for KAIAUSDT: 0.148
+Opening Buy for  KAIAUSDT
+TP: 0.14948
+SL: 0.14504
+TS: 0.00148
+Order Quantity: 67567.57
+Adjusted qty: 67568.0
+Final Adjusted qty: 67567.0
+170000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f9866d32-2424-41c9-87c7-8eb568c6be3f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757080547609}
+f9866d32-2424-41c9-87c7-8eb568c6be3f
+fetching trade data for :  f9866d32-2424-41c9-87c7-8eb568c6be3f
+[{'symbol': 'KAIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f9866d32-2424-41c9-87c7-8eb568c6be3f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757080547608', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.148', 'execPrice': '0.148', 'markIv': '', 'orderQty': '67567', 'orderPrice': '0.1702', 'execValue': '9999.916', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187684715, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999538', 'execId': 'bd34f376-94e0-48d6-9c2f-6283800bc0e7', 'marketUnit': '', 'execQty': '67567', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 05.09.2025 17:55:56
