@@ -4826,3 +4826,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 14:41:00
+***************************************************************
+Number of open positions: 5
+Function started at 05.09.2025 14:45:06
+PYTHUSDT 	Latest Close: (0.1502) 	SMA(14) : 0.15 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+CFXUSDT 	Latest Close: (0.17174) 	SMA(14) : 0.17 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CFXUSDT    | S |  66.67
+Last close price for CFXUSDT: 0.17171
+Opening Sell for  CFXUSDT
+TP: 0.1699929
+SL: 0.1751442
+TS: 0.0017171
+Order Quantity: 58237.73
+Adjusted qty: 58238.0
+Final Adjusted qty: 58237.0
+252700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ad041838-0602-49aa-bd42-b91f258eb817', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757069142760}
+ad041838-0602-49aa-bd42-b91f258eb817
+fetching trade data for :  ad041838-0602-49aa-bd42-b91f258eb817
+[{'symbol': 'CFXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ad041838-0602-49aa-bd42-b91f258eb817', 'stopOrderType': 'UNKNOWN', 'execTime': '1757069142759', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.17171', 'execPrice': '0.17171', 'markIv': '', 'orderQty': '58237', 'orderPrice': '0.14596', 'execValue': '9999.87527', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187320776, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999314', 'execId': 'dd066abb-3d20-4803-a36a-9fb7f5951220', 'marketUnit': '', 'execQty': '58237', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PYTHUSDT   | S |  66.67
+Last close price for PYTHUSDT: 0.15
+Opening Sell for  PYTHUSDT
+TP: 0.1485
+SL: 0.153
+TS: 0.0015
+Order Quantity: 66666.67
+Adjusted qty: 66667.0
+Final Adjusted qty: 66666.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '73017917-a034-4827-811f-0aba83eb16a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757069154816}
+73017917-a034-4827-811f-0aba83eb16a8
+fetching trade data for :  73017917-a034-4827-811f-0aba83eb16a8
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '73017917-a034-4827-811f-0aba83eb16a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757069154815', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1501', 'execPrice': '0.15', 'markIv': '', 'orderQty': '66666', 'orderPrice': '0.1351', 'execValue': '9999.9', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187321148, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499945', 'execId': '797ebb92-0b37-4ec2-a23a-f853e6974fe1', 'marketUnit': '', 'execQty': '66666', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 14:46:04
