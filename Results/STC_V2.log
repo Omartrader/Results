@@ -5394,3 +5394,125 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 05.09.2025 17:26:00
+***************************************************************
+Number of open positions: 2
+Function started at 05.09.2025 17:30:07
+FARTCOINUSDT 	Latest Close: (0.7687) 	SMA(14) : 0.76 	Delta : B 	Previous STC : 16.60 	STC : 25.66
+SKYUSDT 	Latest Close: (0.07516) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+WALUSDT 	Latest Close: (0.4423) 	SMA(14) : 0.44 	Delta : B 	Previous STC : 10.95 	STC : 33.56
+STXUSDT 	Latest Close: (0.6298) 	SMA(14) : 0.62 	Delta : B 	Previous STC : 20.91 	STC : 29.02
+FLOWUSDT 	Latest Close: (0.4092) 	SMA(14) : 0.41 	Delta : B 	Previous STC : 23.87 	STC : 31.01
+BCHUSDT 	Latest Close: (611.1) 	SMA(14) : 601.44 	Delta : B 	Previous STC : 20.81 	STC : 30.14
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  66.67
+Last close price for SKYUSDT: 0.07519
+Opening Sell for  SKYUSDT
+TP: 0.07443810000000001
+SL: 0.0766938
+TS: 0.0007519000000000001
+Order Quantity: 132996.41
+Adjusted qty: 133000.0
+Final Adjusted qty: 132990.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2af521de-0e54-42f5-b762-8ef3b5895adb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757079064005}
+2af521de-0e54-42f5-b762-8ef3b5895adb
+fetching trade data for :  2af521de-0e54-42f5-b762-8ef3b5895adb
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2af521de-0e54-42f5-b762-8ef3b5895adb', 'stopOrderType': 'UNKNOWN', 'execTime': '1757079064004', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07526', 'execPrice': '0.07519', 'markIv': '', 'orderQty': '132990', 'orderPrice': '0.06398', 'execValue': '9999.5181', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187637854, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49973496', 'execId': '11c0b6c1-c28e-4b7c-8eca-ca1aac703327', 'marketUnit': '', 'execQty': '132990', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WALUSDT    | B |  33.56
+Last close price for WALUSDT: 0.4425
+Opening Buy for  WALUSDT
+TP: 0.446925
+SL: 0.43365
+TS: 0.004425
+Order Quantity: 22598.87
+Adjusted qty: 22599.0
+Final Adjusted qty: 22598.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '96b86a94-4777-41f8-bfc8-3fdabef90977', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757079077112}
+96b86a94-4777-41f8-bfc8-3fdabef90977
+fetching trade data for :  96b86a94-4777-41f8-bfc8-3fdabef90977
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '96b86a94-4777-41f8-bfc8-3fdabef90977', 'stopOrderType': 'UNKNOWN', 'execTime': '1757079077112', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4427', 'execPrice': '0.4425', 'markIv': '', 'orderQty': '22598', 'orderPrice': '0.5312', 'execValue': '9999.615', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187638260, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49978825', 'execId': '7b6f0ea5-cdea-4b53-8f57-fa1fd84fe7de', 'marketUnit': '', 'execQty': '22598', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLOWUSDT   | B |  31.01
+Last close price for FLOWUSDT: 0.4092
+Opening Buy for  FLOWUSDT
+TP: 0.413292
+SL: 0.401016
+TS: 0.004092
+Order Quantity: 24437.93
+Adjusted qty: 24437.9
+Final Adjusted qty: 24437.9
+76780.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eef90f48-c290-4a3c-8ca9-b74b2962aa73', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757079090251}
+eef90f48-c290-4a3c-8ca9-b74b2962aa73
+fetching trade data for :  eef90f48-c290-4a3c-8ca9-b74b2962aa73
+[{'symbol': 'FLOWUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'eef90f48-c290-4a3c-8ca9-b74b2962aa73', 'stopOrderType': 'UNKNOWN', 'execTime': '1757079090251', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4085', 'execPrice': '0.4092', 'markIv': '', 'orderQty': '24437.9', 'orderPrice': '0.4493', 'execValue': '9999.98868', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187638664, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999378', 'execId': 'da58e8d5-2417-4f43-bb75-4651533f78d5', 'marketUnit': '', 'execQty': '24437.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    | B |  30.14
+Last close price for BCHUSDT: 611.3
+Opening Buy for  BCHUSDT
+TP: 617.413
+SL: 599.074
+TS: 6.1129999999999995
+Order Quantity: 16.36
+Adjusted qty: 16.36
+Final Adjusted qty: 16.36
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2c2aa0c4-c464-40cb-b970-414a1f9475b9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757079103330}
+2c2aa0c4-c464-40cb-b970-414a1f9475b9
+fetching trade data for :  2c2aa0c4-c464-40cb-b970-414a1f9475b9
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2c2aa0c4-c464-40cb-b970-414a1f9475b9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757079103330', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '611.3', 'execPrice': '611.3', 'markIv': '', 'orderQty': '16.36', 'orderPrice': '641.8', 'execValue': '10000.868', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187639084, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5004774', 'execId': 'a56f3fd3-8cba-468a-942e-f466e4ebfb88', 'marketUnit': '', 'execQty': '16.36', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | B |  29.02
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757079115040}
+Last close price for STXUSDT: 0.6304
+Opening Buy for  STXUSDT
+TP: 0.6367039999999999
+SL: 0.6177919999999999
+TS: 0.006304
+Order Quantity: 15862.94
+Adjusted qty: 15862.900000000001
+Final Adjusted qty: 15862.9
+102840.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b5e9f27d-e633-4c95-ab71-19332c891850', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757079116927}
+b5e9f27d-e633-4c95-ab71-19332c891850
+fetching trade data for :  b5e9f27d-e633-4c95-ab71-19332c891850
+[{'symbol': 'STXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b5e9f27d-e633-4c95-ab71-19332c891850', 'stopOrderType': 'UNKNOWN', 'execTime': '1757079116926', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.63073', 'execPrice': '0.6304', 'markIv': '', 'orderQty': '15862.9', 'orderPrice': '0.6622', 'execValue': '9999.97216', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187639537, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998469', 'execId': 'fd7b9d4b-03fe-4d69-90d8-233285a73ef8', 'marketUnit': '', 'execQty': '15862.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FARTCOINUSDT | B |  25.66
+Last close price for FARTCOINUSDT: 0.7713
+Opening Buy for  FARTCOINUSDT
+TP: 0.779013
+SL: 0.7558739999999999
+TS: 0.007713
+Order Quantity: 12965.12
+Adjusted qty: 12965.0
+Final Adjusted qty: 12965.0
+600000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7fbc323c-6d6e-4225-a12d-0df4d3eb256b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757079130033}
+7fbc323c-6d6e-4225-a12d-0df4d3eb256b
+fetching trade data for :  7fbc323c-6d6e-4225-a12d-0df4d3eb256b
+[{'symbol': 'FARTCOINUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7fbc323c-6d6e-4225-a12d-0df4d3eb256b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757079130033', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7715', 'execPrice': '0.7712', 'markIv': '', 'orderQty': '12965', 'orderPrice': '0.8872', 'execValue': '9998.608', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697187639989, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4992344', 'execId': '3d51f8ab-e430-449f-a195-ec6165e1688d', 'marketUnit': '', 'execQty': '12965', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.09.2025 17:32:19
