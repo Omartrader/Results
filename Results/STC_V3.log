@@ -4282,3 +4282,31 @@ Order Quantity: 67888.66
 Adjusted qty: 67889.0
 Final Adjusted qty: 67888.0
 245500.0
+***************************************************************
+Number of open positions: 3
+Function started at 06.09.2025 01:37:10
+	FILUSDT 	Signal: B
+FILUSDT 	Latest Close: (2.338) 	SMA(14) : 2.33 	Delta :  	Previous STC : 17.32 	STC : 44.88
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FILUSDT    | B |  44.88
+1
+Last close price for FILUSDT: 2.339
+Opening Buy for  FILUSDT
+TP: 2.36239
+SL: 2.29222
+TS: 0.02339
+Order Quantity: 8550.66
+Adjusted qty: 8550.7
+Final Adjusted qty: 8550.6
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aea906a8-8c67-45ce-b5be-dd5fd0b975f7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757108288216}
+aea906a8-8c67-45ce-b5be-dd5fd0b975f7
+fetching trade data for :  aea906a8-8c67-45ce-b5be-dd5fd0b975f7
+[{'symbol': 'FILUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aea906a8-8c67-45ce-b5be-dd5fd0b975f7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757108288216', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.339', 'execPrice': '2.339', 'markIv': '', 'orderQty': '8550.6', 'orderPrice': '2.455', 'execValue': '19999.8534', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612498849182, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991937', 'execId': '35483595-2643-444e-8357-18de0a103d66', 'marketUnit': '', 'execQty': '8550.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 06.09.2025 01:38:19
