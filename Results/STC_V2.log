@@ -11209,3 +11209,48 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 06.09.2025 18:05:58
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 18:10:06
+WIFUSDT 	Latest Close: (0.8063) 	SMA(14) : 0.80 	Delta : B 	Previous STC : 4.11 	STC : 36.08
+STRKUSDT 	Latest Close: (0.1226) 	SMA(14) : 0.12 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+JUPUSDT 	Latest Close: (0.4963) 	SMA(14) : 0.50 	Delta : B 	Previous STC : 0.00 	STC : 30.23
+DOTUSDT 	Latest Close: (3.8159) 	SMA(14) : 3.81 	Delta : B 	Previous STC : 9.51 	STC : 39.67
+BUSDT 	Latest Close: (0.61346) 	SMA(14) : 0.61 	Delta : B 	Previous STC : 4.44 	STC : 26.70
+INJUSDT 	Latest Close: (13.014) 	SMA(14) : 12.93 	Delta : B 	Previous STC : 0.99 	STC : 33.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOTUSDT    | B |  39.67
+Last close price for DOTUSDT: 3.8152
+Opening Buy for  DOTUSDT
+TP: 3.853352
+SL: 3.738896
+TS: 0.038152
+Order Quantity: 2621.09
+Adjusted qty: 2621.1000000000004
+Final Adjusted qty: 2621.0
+32140.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WIFUSDT    | B |  36.08
+Last close price for WIFUSDT: 0.8059
+Opening Buy for  WIFUSDT
+TP: 0.813959
+SL: 0.789782
+TS: 0.008059
+Order Quantity: 12408.49
+Adjusted qty: 12408.0
+Final Adjusted qty: 12408.0
+98500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c8201a63-8555-4f74-ad92-7224aa5148f6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757167846615}
+c8201a63-8555-4f74-ad92-7224aa5148f6
+fetching trade data for :  c8201a63-8555-4f74-ad92-7224aa5148f6
+[{'symbol': 'WIFUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c8201a63-8555-4f74-ad92-7224aa5148f6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757167846615', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8059', 'execPrice': '0.8059', 'markIv': '', 'orderQty': '12408', 'orderPrice': '0.812', 'execValue': '9999.6072', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190323704, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49978396', 'execId': '299837e3-0cb4-48de-9ac7-67b9a7505323', 'marketUnit': '', 'execQty': '12408', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 18:10:56
