@@ -9370,3 +9370,42 @@ Order Quantity: 0.09
 Adjusted qty: 0.09
 Final Adjusted qty: 0.09
 119.0
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 07:35:05
+POLUSDT 	Latest Close: (0.2836) 	SMA(14) : 0.28 	Delta : B 	Previous STC : 15.31 	STC : 25.52
+STRKUSDT 	Latest Close: (0.1243) 	SMA(14) : 0.12 	Delta : S 	Previous STC : 98.90 	STC : 95.47
+SOLUSDT 	Latest Close: (204.07) 	SMA(14) : 203.91 	Delta : B 	Previous STC : 22.73 	STC : 38.89
+BTCUSDT 	Latest Close: (111045.2) 	SMA(14) : 110862.95 	Delta : B 	Previous STC : 21.25 	STC : 47.50
+TAOUSDT 	Latest Close: (320.05) 	SMA(14) : 319.83 	Delta : B 	Previous STC : 16.92 	STC : 44.61
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+STRKUSDT   | S |  95.47
+Last close price for STRKUSDT: 0.1243
+Opening Sell for  STRKUSDT
+TP: 0.123057
+SL: 0.12678599999999998
+TS: 0.001243
+Order Quantity: 80450.52
+Adjusted qty: 80450.5
+Final Adjusted qty: 80450.5
+119050.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b4c542f9-ff16-4dd1-8340-7f382696c6dd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757129745519}
+b4c542f9-ff16-4dd1-8340-7f382696c6dd
+fetching trade data for :  b4c542f9-ff16-4dd1-8340-7f382696c6dd
+[{'symbol': 'STRKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b4c542f9-ff16-4dd1-8340-7f382696c6dd', 'stopOrderType': 'UNKNOWN', 'execTime': '1757129745519', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1243', 'execPrice': '0.1243', 'markIv': '', 'orderQty': '80450.5', 'orderPrice': '0.1119', 'execValue': '9999.99715', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697189175214, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999844', 'execId': '948a9418-3334-4cf7-ad43-1663a4edb540', 'marketUnit': '', 'execQty': '80450.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | B |  47.50
+Last close price for BTCUSDT: 111050.0
+Opening Buy for  BTCUSDT
+TP: 112160.5
+SL: 108829.0
+TS: 1110.5
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
