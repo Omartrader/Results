@@ -6964,3 +6964,36 @@ TONUSDT 	Latest Close: (3.052) 	SMA(14) : 3.04 	Delta :  	Previous STC : 3.65 	S
 ***************************************************************
 Number of open positions: 4
 Function started at 06.09.2025 20:36:56
+***************************************************************
+Number of open positions: 4
+Function started at 06.09.2025 20:41:30
+	TONUSDT 	Signal: B
+TONUSDT 	Latest Close: (3.0528) 	SMA(14) : 3.04 	Delta :  	Previous STC : 3.65 	STC : 30.83
+	FORMUSDT 	Signal: B
+FORMUSDT 	Latest Close: (3.7105) 	SMA(14) : 3.69 	Delta :  	Previous STC : 15.90 	STC : 35.72
+	USDEUSDT 	Signal: B
+USDEUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta :  	Previous STC : 12.45 	STC : 41.63
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | B |  35.72
+1
+Last close price for FORMUSDT: 3.7105
+Opening Buy for  FORMUSDT
+TP: 3.747605
+SL: 3.6362900000000002
+TS: 0.037105
+Order Quantity: 5390.11
+Adjusted qty: 5390.0
+Final Adjusted qty: 5390.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '509df2b4-35a8-470e-a825-ca206852eee0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757176914241}
+509df2b4-35a8-470e-a825-ca206852eee0
+fetching trade data for :  509df2b4-35a8-470e-a825-ca206852eee0
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '509df2b4-35a8-470e-a825-ca206852eee0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757176914241', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.709', 'execPrice': '3.7105', 'markIv': '', 'orderQty': '2850', 'orderPrice': '4.2653', 'execValue': '10574.925', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612501116211, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.81620875', 'execId': '10f7bba1-4008-4d13-9077-52ac3fe5f0bb', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 20:42:03
