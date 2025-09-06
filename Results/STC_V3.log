@@ -4807,3 +4807,46 @@ Function started at 06.09.2025 05:25:49
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 06.09.2025 05:26:20
+***************************************************************
+Number of open positions: 3
+Function started at 06.09.2025 05:30:47
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2293) 	SMA(14) : 0.23 	Delta :  	Previous STC : 96.85 	STC : 87.97
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (9.377) 	SMA(14) : 9.41 	Delta :  	Previous STC : 98.80 	STC : 94.11
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (20.313) 	SMA(14) : 20.36 	Delta :  	Previous STC : 96.31 	STC : 86.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  94.11
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757122278467}
+Last close price for UNIUSDT: 9.37
+Opening Sell for  UNIUSDT
+TP: 9.276299999999999
+SL: 9.5574
+TS: 0.09369999999999999
+Order Quantity: 2134.47
+Adjusted qty: 2134.5
+Final Adjusted qty: 2134.4
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e7f882ed-1a0e-4369-bd09-6a7e81e30b1d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757122280418}
+e7f882ed-1a0e-4369-bd09-6a7e81e30b1d
+fetching trade data for :  e7f882ed-1a0e-4369-bd09-6a7e81e30b1d
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e7f882ed-1a0e-4369-bd09-6a7e81e30b1d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757122280418', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.373', 'execPrice': '9.371', 'markIv': '', 'orderQty': '2134.4', 'orderPrice': '8.905', 'execValue': '20001.4624', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612499308507, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00080432', 'execId': 'beb9abe4-6e0d-4b4b-8a1b-b2df90f75334', 'marketUnit': '', 'execQty': '2134.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ALGOUSDT   | S |  87.97
+1
+Last close price for ALGOUSDT: 0.2291
+Opening Sell for  ALGOUSDT
+TP: 0.22680899999999998
+SL: 0.233682
+TS: 0.002291
+Order Quantity: 87298.12
+Adjusted qty: 87298.1
+Final Adjusted qty: 87298.1
+160000.0
