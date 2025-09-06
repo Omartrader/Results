@@ -9515,3 +9515,32 @@ Order Quantity: 112892.3
 Adjusted qty: 112892.3
 Final Adjusted qty: 112892.3
 555670.0
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 08:05:06
+SUIUSDT 	Latest Close: (3.3987) 	SMA(14) : 3.39 	Delta : B 	Previous STC : 7.22 	STC : 29.42
+GRTUSDT 	Latest Close: (0.08852) 	SMA(14) : 0.09 	Delta : S 	Previous STC : 100.00 	STC : 89.84
+FORMUSDT 	Latest Close: (3.6848) 	SMA(14) : 3.66 	Delta : B 	Previous STC : 19.74 	STC : 25.76
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+GRTUSDT    | S |  89.84
+Last close price for GRTUSDT: 0.0885
+Opening Sell for  GRTUSDT
+TP: 0.087615
+SL: 0.09027
+TS: 0.0008849999999999999
+Order Quantity: 112994.35
+Adjusted qty: 112994.40000000001
+Final Adjusted qty: 112994.3
+555670.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3b01b33f-ef6c-4bc3-8f99-9c8550ae0fb5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757131545816}
+3b01b33f-ef6c-4bc3-8f99-9c8550ae0fb5
+fetching trade data for :  3b01b33f-ef6c-4bc3-8f99-9c8550ae0fb5
+[{'symbol': 'GRTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3b01b33f-ef6c-4bc3-8f99-9c8550ae0fb5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757131545816', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08854', 'execPrice': '0.0885', 'markIv': '', 'orderQty': '112994.3', 'orderPrice': '0.07969', 'execValue': '9999.99555', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697189228291, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999756', 'execId': '012fc2d3-0bbf-40d1-9947-82183fcefbf7', 'marketUnit': '', 'execQty': '112994.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 08:05:55
