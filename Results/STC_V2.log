@@ -11350,3 +11350,44 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 06.09.2025 18:39:24
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 18:45:08
+XRPUSDT 	Latest Close: (2.8127) 	SMA(14) : 2.81 	Delta : B 	Previous STC : 13.05 	STC : 42.03
+JTOUSDT 	Latest Close: (1.829) 	SMA(14) : 1.82 	Delta : B 	Previous STC : 3.53 	STC : 35.68
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XRPUSDT    | B |  42.03
+Last close price for XRPUSDT: 2.812
+Opening Buy for  XRPUSDT
+TP: 2.8401199999999998
+SL: 2.75576
+TS: 0.02812
+Order Quantity: 3556.19
+Adjusted qty: 3556.0
+Final Adjusted qty: 3556.0
+2467800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JTOUSDT    | B |  35.68
+Last close price for JTOUSDT: 1.829
+Opening Buy for  JTOUSDT
+TP: 1.8472899999999999
+SL: 1.79242
+TS: 0.01829
+Order Quantity: 5467.47
+Adjusted qty: 5467.5
+Final Adjusted qty: 5467.4
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7221c759-f2af-43c9-bca3-3f2119b910d2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757170017092}
+7221c759-f2af-43c9-bca3-3f2119b910d2
+fetching trade data for :  7221c759-f2af-43c9-bca3-3f2119b910d2
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7221c759-f2af-43c9-bca3-3f2119b910d2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757170017093', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.83', 'execPrice': '1.829', 'markIv': '', 'orderQty': '5467.4', 'orderPrice': '1.854', 'execValue': '9999.8746', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190391335, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993103', 'execId': 'afbc29be-9229-41d9-adf6-40ed48cbc39a', 'marketUnit': '', 'execQty': '5467.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 18:47:09
