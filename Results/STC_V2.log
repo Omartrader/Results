@@ -9953,3 +9953,33 @@ Order Quantity: 31.52
 Adjusted qty: 31.52
 Final Adjusted qty: 31.52
 60.0
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 09:35:07
+USDCUSDT 	Latest Close: (0.9996) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+USDCUSDT 	Latest Close: (0.9996) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+HNTUSDT 	Latest Close: (2.324) 	SMA(14) : 2.33 	Delta : S 	Previous STC : 98.84 	STC : 94.15
+TAOUSDT 	Latest Close: (317.43) 	SMA(14) : 319.03 	Delta : S 	Previous STC : 96.10 	STC : 94.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HNTUSDT    | S |  94.15
+Last close price for HNTUSDT: 2.323
+Opening Sell for  HNTUSDT
+TP: 2.29977
+SL: 2.36946
+TS: 0.02323
+Order Quantity: 4304.78
+Adjusted qty: 4304.78
+Final Adjusted qty: 4304.78
+1322.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bd067893-1337-46eb-a7df-aa4eaf350e41', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757136966712}
+bd067893-1337-46eb-a7df-aa4eaf350e41
+fetching trade data for :  bd067893-1337-46eb-a7df-aa4eaf350e41
+[{'symbol': 'HNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bd067893-1337-46eb-a7df-aa4eaf350e41', 'stopOrderType': 'UNKNOWN', 'execTime': '1757136966711', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.323', 'execPrice': '2.323', 'markIv': '', 'orderQty': '1322', 'orderPrice': '1.859', 'execValue': '3071.006', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697189390001, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '1.6890533', 'execId': '7a99ebe4-b77c-411f-a1d7-75a29d4d4da9', 'marketUnit': '', 'execQty': '1322', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 09:36:16
