@@ -6144,3 +6144,48 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 06.09.2025 13:41:46
+***************************************************************
+Number of open positions: 4
+Function started at 06.09.2025 13:45:59
+	FLRUSDT 	Signal: B
+FLRUSDT 	Latest Close: (0.02069) 	SMA(14) : 0.02 	Delta :  	Previous STC : 5.58 	STC : 25.53
+	BNBUSDT 	Signal: S
+BNBUSDT 	Latest Close: (858.3) 	SMA(14) : 858.46 	Delta :  	Previous STC : 98.72 	STC : 65.81
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BNBUSDT    | S |  65.81
+1
+Last close price for BNBUSDT: 858.3
+Opening Sell for  BNBUSDT
+TP: 849.717
+SL: 875.466
+TS: 8.583
+Order Quantity: 23.3
+Adjusted qty: 23.3
+Final Adjusted qty: 23.3
+1054.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FLRUSDT    | B |  25.53
+1
+Last close price for FLRUSDT: 0.02071
+Opening Buy for  FLRUSDT
+TP: 0.0209171
+SL: 0.0202958
+TS: 0.0002071
+Order Quantity: 965717.04
+Adjusted qty: 965720.0
+Final Adjusted qty: 965710.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '38b048a4-689b-4c75-851a-7974d9a503b2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757151984264}
+38b048a4-689b-4c75-851a-7974d9a503b2
+fetching trade data for :  38b048a4-689b-4c75-851a-7974d9a503b2
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '38b048a4-689b-4c75-851a-7974d9a503b2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757151984264', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02071', 'execPrice': '0.02071', 'markIv': '', 'orderQty': '509000', 'orderPrice': '0.02485', 'execValue': '10541.39', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612500286502, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.7977645', 'execId': '9b1b4507-c296-4877-8985-6e6a6793fc69', 'marketUnit': '', 'execQty': '509000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 13:46:35
