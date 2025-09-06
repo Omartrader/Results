@@ -6074,3 +6074,53 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 06.09.2025 13:26:46
+***************************************************************
+Number of open positions: 3
+Function started at 06.09.2025 13:31:02
+	FORMUSDT 	Signal: S
+FORMUSDT 	Latest Close: (3.6378) 	SMA(14) : 3.67 	Delta :  	Previous STC : 99.96 	STC : 95.26
+	BNBUSDT 	Signal: S
+BNBUSDT 	Latest Close: (857.9) 	SMA(14) : 858.36 	Delta :  	Previous STC : 100.00 	STC : 93.18
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | S |  95.26
+1
+Last close price for FORMUSDT: 3.6378
+Opening Sell for  FORMUSDT
+TP: 3.601422
+SL: 3.710556
+TS: 0.036378
+Order Quantity: 5497.83
+Adjusted qty: 5498.0
+Final Adjusted qty: 5497.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7136afbd-3289-4d42-b45e-a902bcf87557', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757151082553}
+7136afbd-3289-4d42-b45e-a902bcf87557
+fetching trade data for :  7136afbd-3289-4d42-b45e-a902bcf87557
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7136afbd-3289-4d42-b45e-a902bcf87557', 'stopOrderType': 'UNKNOWN', 'execTime': '1757151082552', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.6385', 'execPrice': '3.6378', 'markIv': '', 'orderQty': '2850', 'orderPrice': '3.0928', 'execValue': '10367.73', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612500257335, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.7022515', 'execId': '3b7ac456-8f23-4c70-add0-9201fed02ec3', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BNBUSDT    | S |  93.18
+1
+Last close price for BNBUSDT: 858.0
+Opening Sell for  BNBUSDT
+TP: 849.42
+SL: 875.16
+TS: 8.58
+Order Quantity: 23.31
+Adjusted qty: 23.31
+Final Adjusted qty: 23.31
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a4d57a76-0103-425a-95fb-92c8d18bf7d0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757151095025}
+a4d57a76-0103-425a-95fb-92c8d18bf7d0
+fetching trade data for :  a4d57a76-0103-425a-95fb-92c8d18bf7d0
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a4d57a76-0103-425a-95fb-92c8d18bf7d0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757151095025', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '858.01', 'execPrice': '858', 'markIv': '', 'orderQty': '23.31', 'orderPrice': '815.2', 'execValue': '19999.98', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612500257752, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.999989', 'execId': '716445ad-f8ac-4a8d-99d0-ea97e5e141eb', 'marketUnit': '', 'execQty': '23.31', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 06.09.2025 13:31:45
