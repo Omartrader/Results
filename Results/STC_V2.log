@@ -11073,3 +11073,53 @@ Function started at 06.09.2025 17:25:16
 LDOUSDT 	Latest Close: (1.1586) 	SMA(14) : 1.15 	Delta : B 	Previous STC : 12.66 	STC : 41.77
 HYPEUSDT 	Latest Close: (46.79) 	SMA(14) : 46.77 	Delta : B 	Previous STC : 15.98 	STC : 43.99
 AVAXUSDT 	Latest Close: (24.14) 	SMA(14) : 24.13 	Delta : B 	Previous STC : 8.84 	STC : 39.23
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 17:35:15
+SANDUSDT 	Latest Close: (0.2806) 	SMA(14) : 0.28 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SOLUSDT 	Latest Close: (201.71) 	SMA(14) : 202.36 	Delta : S 	Previous STC : 97.99 	STC : 90.83
+MORPHOUSDT 	Latest Close: (1.9917) 	SMA(14) : 1.98 	Delta : B 	Previous STC : 5.33 	STC : 32.82
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  90.83
+Last close price for SOLUSDT: 201.49
+Opening Sell for  SOLUSDT
+TP: 199.4751
+SL: 205.5198
+TS: 2.0149
+Order Quantity: 49.63
+Adjusted qty: 49.6
+Final Adjusted qty: 49.6
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SANDUSDT   | B |  33.33
+Last close price for SANDUSDT: 0.2804
+Opening Buy for  SANDUSDT
+TP: 0.283204
+SL: 0.274792
+TS: 0.0028039999999999996
+Order Quantity: 35663.34
+Adjusted qty: 35663.0
+Final Adjusted qty: 35663.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '35983a7c-746e-4a81-bfc6-38862df3db5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757165828180}
+35983a7c-746e-4a81-bfc6-38862df3db5e
+fetching trade data for :  35983a7c-746e-4a81-bfc6-38862df3db5e
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '35983a7c-746e-4a81-bfc6-38862df3db5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757165828180', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2805', 'execPrice': '0.2804', 'markIv': '', 'orderQty': '35663', 'orderPrice': '0.3085', 'execValue': '9999.9052', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190261790, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994786', 'execId': '0cce7829-bbe4-480d-81a0-aff5d1fa69cb', 'marketUnit': '', 'execQty': '35663', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MORPHOUSDT | B |  32.82
+Last close price for MORPHOUSDT: 1.9916
+Opening Buy for  MORPHOUSDT
+TP: 2.011516
+SL: 1.951768
+TS: 0.019916
+Order Quantity: 5021.09
+Adjusted qty: 5021.0
+Final Adjusted qty: 5021.0
+14000.0
