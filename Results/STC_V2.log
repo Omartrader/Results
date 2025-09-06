@@ -9544,3 +9544,53 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 06.09.2025 08:05:55
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 08:10:05
+SUIUSDT 	Latest Close: (3.3929) 	SMA(14) : 3.39 	Delta : B 	Previous STC : 7.22 	STC : 28.35
+GRTUSDT 	Latest Close: (0.08839) 	SMA(14) : 0.09 	Delta : S 	Previous STC : 100.00 	STC : 87.38
+FORMUSDT 	Latest Close: (3.6881) 	SMA(14) : 3.66 	Delta : B 	Previous STC : 19.74 	STC : 26.17
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+GRTUSDT    | S |  87.38
+Last close price for GRTUSDT: 0.08839
+Opening Sell for  GRTUSDT
+TP: 0.08750609999999999
+SL: 0.0901578
+TS: 0.0008839
+Order Quantity: 113134.97
+Adjusted qty: 113135.0
+Final Adjusted qty: 113134.9
+555670.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SUIUSDT    | B |  28.35
+Last close price for SUIUSDT: 3.3924
+Opening Buy for  SUIUSDT
+TP: 3.4263239999999997
+SL: 3.3245519999999997
+TS: 0.033923999999999996
+Order Quantity: 2947.77
+Adjusted qty: 2950.0
+Final Adjusted qty: 2940.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '34157bdd-d1ad-4486-a3cc-51838ac26f05', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757131847668}
+34157bdd-d1ad-4486-a3cc-51838ac26f05
+fetching trade data for :  34157bdd-d1ad-4486-a3cc-51838ac26f05
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '34157bdd-d1ad-4486-a3cc-51838ac26f05', 'stopOrderType': 'UNKNOWN', 'execTime': '1757131847667', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.39253', 'execPrice': '3.3924', 'markIv': '', 'orderQty': '2940', 'orderPrice': '3.5621', 'execValue': '9973.656', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697189237340, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4855108', 'execId': '06be4c56-8ed9-46bf-9b35-bd90c6a379a9', 'marketUnit': '', 'execQty': '2940', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FORMUSDT   | B |  26.17
+Last close price for FORMUSDT: 3.688
+Opening Buy for  FORMUSDT
+TP: 3.72488
+SL: 3.61424
+TS: 0.03688
+Order Quantity: 2711.5
+Adjusted qty: 2712.0
+Final Adjusted qty: 2711.0
+2850.0
