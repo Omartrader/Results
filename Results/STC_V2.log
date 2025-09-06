@@ -11799,3 +11799,31 @@ Order Quantity: 2160.29
 Adjusted qty: 2160.0
 Final Adjusted qty: 2160.0
 5200.0
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 21:30:13
+RSRUSDT 	Latest Close: (0.007251) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 100.00 	STC : 95.93
+IOTAUSDT 	Latest Close: (0.1816) 	SMA(14) : 0.18 	Delta : S 	Previous STC : 100.00 	STC : 83.72
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RSRUSDT    | S |  95.93
+Last close price for RSRUSDT: 0.007258
+Opening Sell for  RSRUSDT
+TP: 0.00718542
+SL: 0.00740316
+TS: 7.258e-05
+Order Quantity: 1377790.02
+Adjusted qty: 1377790.0
+Final Adjusted qty: 1377790.0
+1190000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bf53fa39-c921-4c51-8b00-334f2da97a5c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757179854033}
+bf53fa39-c921-4c51-8b00-334f2da97a5c
+fetching trade data for :  bf53fa39-c921-4c51-8b00-334f2da97a5c
+[{'symbol': 'RSRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bf53fa39-c921-4c51-8b00-334f2da97a5c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757179854033', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.007258', 'execPrice': '0.007258', 'markIv': '', 'orderQty': '1190000', 'orderPrice': '0.006533', 'execValue': '8637.02', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190701993, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.750361', 'execId': '8748c265-014b-491c-8b67-dc7a6cab125a', 'marketUnit': '', 'execQty': '1190000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 21:31:03
