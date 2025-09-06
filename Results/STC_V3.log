@@ -6466,3 +6466,45 @@ Function started at 06.09.2025 16:22:24
 NEARUSDT 	Latest Close: (2.39) 	SMA(14) : 2.38 	Delta :  	Previous STC : 8.66 	STC : 39.11
 	FILUSDT 	Signal: B
 FILUSDT 	Latest Close: (2.32) 	SMA(14) : 2.31 	Delta :  	Previous STC : 0.00 	STC : 33.33
+***************************************************************
+Number of open positions: 3
+Function started at 06.09.2025 16:31:02
+	PENGUUSDT 	Signal: B
+PENGUUSDT 	Latest Close: (0.028794) 	SMA(14) : 0.03 	Delta :  	Previous STC : 21.15 	STC : 47.44
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.3571) 	SMA(14) : 0.36 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (268.41) 	SMA(14) : 269.84 	Delta :  	Previous STC : 96.00 	STC : 84.72
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XMRUSDT    | S |  84.72
+1
+Last close price for XMRUSDT: 268.41
+Opening Sell for  XMRUSDT
+TP: 265.7259
+SL: 273.7782
+TS: 2.6841000000000004
+Order Quantity: 74.51
+Adjusted qty: 74.51
+Final Adjusted qty: 74.51
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bcbd4c82-dcd6-4d5f-bb24-864e6c3347a3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757161935606}
+bcbd4c82-dcd6-4d5f-bb24-864e6c3347a3
+fetching trade data for :  bcbd4c82-dcd6-4d5f-bb24-864e6c3347a3
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bcbd4c82-dcd6-4d5f-bb24-864e6c3347a3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757161935606', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '268.39', 'execPrice': '268.41', 'markIv': '', 'orderQty': '74.51', 'orderPrice': '254.98', 'execValue': '19999.2291', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612500615891, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99957601', 'execId': '5db39d70-48c0-4f7d-83ca-71e9f8f3c301', 'marketUnit': '', 'execQty': '74.51', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | B |  47.44
+1
+Last close price for PENGUUSDT: 0.0288
+Opening Buy for  PENGUUSDT
+TP: 0.029088
+SL: 0.028224
+TS: 0.000288
+Order Quantity: 694444.44
+Adjusted qty: 694440.0
+Final Adjusted qty: 694440.0
+2500000.0
