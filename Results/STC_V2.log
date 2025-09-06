@@ -11651,3 +11651,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 06.09.2025 20:47:16
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 20:50:07
+ARBUSDT 	Latest Close: (0.4857) 	SMA(14) : 0.49 	Delta : S 	Previous STC : 99.05 	STC : 95.99
+IPUSDT 	Latest Close: (8.0304) 	SMA(14) : 8.02 	Delta : B 	Previous STC : 4.88 	STC : 36.59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARBUSDT    | S |  95.99
+Last close price for ARBUSDT: 0.4859
+Opening Sell for  ARBUSDT
+TP: 0.481041
+SL: 0.495618
+TS: 0.004859
+Order Quantity: 20580.37
+Adjusted qty: 20580.4
+Final Adjusted qty: 20580.3
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ab27bcdb-5a9e-4def-8dcd-d266913c04ba', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757177448702}
+ab27bcdb-5a9e-4def-8dcd-d266913c04ba
+fetching trade data for :  ab27bcdb-5a9e-4def-8dcd-d266913c04ba
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ab27bcdb-5a9e-4def-8dcd-d266913c04ba', 'stopOrderType': 'UNKNOWN', 'execTime': '1757177448701', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4859', 'execPrice': '0.4859', 'markIv': '', 'orderQty': '20580.3', 'orderPrice': '0.4617', 'execValue': '9999.96777', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190622876, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998228', 'execId': 'fbebbc50-5333-4626-a59c-440d2cf6c8cf', 'marketUnit': '', 'execQty': '20580.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     | B |  36.59
+Last close price for IPUSDT: 8.0418
+Opening Buy for  IPUSDT
+TP: 8.122218
+SL: 7.8809640000000005
+TS: 0.080418
+Order Quantity: 1243.5
+Adjusted qty: 1243.5
+Final Adjusted qty: 1243.5
+2400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 06.09.2025 20:50:58
