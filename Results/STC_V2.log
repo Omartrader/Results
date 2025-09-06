@@ -10755,3 +10755,41 @@ Function finished at 06.09.2025 14:50:56
 ***************************************************************
 Number of open positions: 8
 Function started at 06.09.2025 14:55:15
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 15:00:07
+VETUSDT 	Latest Close: (0.02337) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 5.90 	STC : 37.27
+RSRUSDT 	Latest Close: (0.007346) 	SMA(14) : 0.01 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+MANAUSDT 	Latest Close: (0.3129) 	SMA(14) : 0.31 	Delta : S 	Previous STC : 96.38 	STC : 89.81
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MANAUSDT   | S |  89.81
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757156445508}
+Last close price for MANAUSDT: 0.3127
+Opening Sell for  MANAUSDT
+TP: 0.309573
+SL: 0.31895399999999996
+TS: 0.0031269999999999996
+Order Quantity: 31979.53
+Adjusted qty: 31979.5
+Final Adjusted qty: 31979.5
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8b25f120-d549-4886-9bf2-8a7338728d67', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757156446952}
+8b25f120-d549-4886-9bf2-8a7338728d67
+fetching trade data for :  8b25f120-d549-4886-9bf2-8a7338728d67
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8b25f120-d549-4886-9bf2-8a7338728d67', 'stopOrderType': 'UNKNOWN', 'execTime': '1757156446952', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3127', 'execPrice': '0.3127', 'markIv': '', 'orderQty': '31979.5', 'orderPrice': '0.2815', 'execValue': '9999.98965', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697189975002, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999431', 'execId': '9741abed-9127-4aa7-b98e-73987b37d35b', 'marketUnit': '', 'execQty': '31979.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    | B |  37.27
+Last close price for VETUSDT: 0.02334
+Opening Buy for  VETUSDT
+TP: 0.0235734
+SL: 0.0228732
+TS: 0.0002334
+Order Quantity: 428449.01
+Adjusted qty: 428449.0
+Final Adjusted qty: 428449.0
+437000.0
