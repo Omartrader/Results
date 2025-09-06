@@ -11827,3 +11827,44 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 06.09.2025 21:31:03
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 21:35:07
+RSRUSDT 	Latest Close: (0.007252) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 100.00 	STC : 95.97
+IOTAUSDT 	Latest Close: (0.1816) 	SMA(14) : 0.18 	Delta : S 	Previous STC : 100.00 	STC : 83.72
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RSRUSDT    | S |  95.97
+Last close price for RSRUSDT: 0.007262
+Opening Sell for  RSRUSDT
+TP: 0.00718938
+SL: 0.007407240000000001
+TS: 7.262e-05
+Order Quantity: 1377031.12
+Adjusted qty: 1377030.0
+Final Adjusted qty: 1377030.0
+1190000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IOTAUSDT   | S |  83.72
+Last close price for IOTAUSDT: 0.1816
+Opening Sell for  IOTAUSDT
+TP: 0.179784
+SL: 0.185232
+TS: 0.0018160000000000001
+Order Quantity: 55066.08
+Adjusted qty: 55066.100000000006
+Final Adjusted qty: 55066.0
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1a1bd589-3852-4f96-994c-1be2543568f6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757180147942}
+1a1bd589-3852-4f96-994c-1be2543568f6
+fetching trade data for :  1a1bd589-3852-4f96-994c-1be2543568f6
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1a1bd589-3852-4f96-994c-1be2543568f6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757180147942', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1816', 'execPrice': '0.1816', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.1635', 'execValue': '4830.56', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190711511, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.656808', 'execId': 'e5a49ad8-de38-4138-9849-276e28e2c6bf', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 21:35:59
