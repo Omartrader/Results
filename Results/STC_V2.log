@@ -11944,3 +11944,46 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 06.09.2025 21:51:48
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 21:55:15
+VETUSDT 	Latest Close: (0.02315) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 99.82 	STC : 88.36
+CRVUSDT 	Latest Close: (0.7574) 	SMA(14) : 0.76 	Delta : S 	Previous STC : 97.73 	STC : 84.36
+ALGOUSDT 	Latest Close: (0.2257) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 98.11 	STC : 68.93
+ENSUSDT 	Latest Close: (22.02) 	SMA(14) : 22.07 	Delta : S 	Previous STC : 99.98 	STC : 95.48
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENSUSDT    | S |  95.48
+Last close price for ENSUSDT: 22.02
+Opening Sell for  ENSUSDT
+TP: 21.799799999999998
+SL: 22.4604
+TS: 0.2202
+Order Quantity: 454.13
+Adjusted qty: 454.1
+Final Adjusted qty: 454.1
+1400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+VETUSDT    | S |  88.36
+Last close price for VETUSDT: 0.02317
+Opening Sell for  VETUSDT
+TP: 0.0229383
+SL: 0.0236334
+TS: 0.0002317
+Order Quantity: 431592.58
+Adjusted qty: 431593.0
+Final Adjusted qty: 431592.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ce6699be-ad85-4d30-90eb-1348ea42a1d0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757181426294}
+ce6699be-ad85-4d30-90eb-1348ea42a1d0
+fetching trade data for :  ce6699be-ad85-4d30-90eb-1348ea42a1d0
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ce6699be-ad85-4d30-90eb-1348ea42a1d0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757181426294', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02317', 'execPrice': '0.02317', 'markIv': '', 'orderQty': '431592', 'orderPrice': '0.02202', 'execValue': '9999.98664', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190749750, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999266', 'execId': 'cb12a35e-3c84-4287-8367-3904b06ebef8', 'marketUnit': '', 'execQty': '431592', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 21:57:19
