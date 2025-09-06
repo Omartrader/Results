@@ -11623,3 +11623,31 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 06.09.2025 20:41:23
+***************************************************************
+Number of open positions: 8
+Function started at 06.09.2025 20:45:23
+⚠️ WIFUSDT attempt 1/3 failed: ReadTimeout
+⚠️ BRETTUSDT attempt 1/3 failed: ReadTimeout
+IPUSDT 	Latest Close: (8.0471) 	SMA(14) : 8.02 	Delta : B 	Previous STC : 4.88 	STC : 36.59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | B |  36.59
+Last close price for IPUSDT: 8.0432
+Opening Buy for  IPUSDT
+TP: 8.123632
+SL: 7.8823360000000005
+TS: 0.080432
+Order Quantity: 1243.29
+Adjusted qty: 1243.3000000000002
+Final Adjusted qty: 1243.2
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dc39b38f-3570-42ea-b225-a524f9c4e9a9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757177227384}
+dc39b38f-3570-42ea-b225-a524f9c4e9a9
+fetching trade data for :  dc39b38f-3570-42ea-b225-a524f9c4e9a9
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dc39b38f-3570-42ea-b225-a524f9c4e9a9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757177227384', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.0436', 'execPrice': '8.0432', 'markIv': '', 'orderQty': '1243.2', 'orderPrice': '8.8479', 'execValue': '9999.30624', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190615657, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49961844', 'execId': '6a9246dd-782d-4d28-b833-89b766d1ac8a', 'marketUnit': '', 'execQty': '1243.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 06.09.2025 20:47:16
