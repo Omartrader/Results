@@ -11903,3 +11903,33 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 06.09.2025 21:40:47
+***************************************************************
+Number of open positions: 9
+Function started at 06.09.2025 21:45:10
+VETUSDT 	Latest Close: (0.02316) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 99.82 	STC : 88.83
+CRVUSDT 	Latest Close: (0.757) 	SMA(14) : 0.76 	Delta : S 	Previous STC : 97.73 	STC : 84.24
+ALGOUSDT 	Latest Close: (0.2257) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 98.11 	STC : 68.93
+ENSUSDT 	Latest Close: (22.014) 	SMA(14) : 22.07 	Delta : S 	Previous STC : 99.98 	STC : 95.15
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENSUSDT    | S |  95.15
+Last close price for ENSUSDT: 22.02
+Opening Sell for  ENSUSDT
+TP: 21.799799999999998
+SL: 22.4604
+TS: 0.2202
+Order Quantity: 454.13
+Adjusted qty: 454.1
+Final Adjusted qty: 454.1
+1400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '32cfe926-bb38-43ec-a878-881b32a19494', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757180808775}
+32cfe926-bb38-43ec-a878-881b32a19494
+fetching trade data for :  32cfe926-bb38-43ec-a878-881b32a19494
+[{'symbol': 'ENSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '32cfe926-bb38-43ec-a878-881b32a19494', 'stopOrderType': 'UNKNOWN', 'execTime': '1757180808774', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '22.021', 'execPrice': '22.021', 'markIv': '', 'orderQty': '454.1', 'orderPrice': '20.92', 'execValue': '9999.7361', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697190731522, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49985486', 'execId': '9cbe51de-1727-477b-9913-6df96480f8df', 'marketUnit': '', 'execQty': '454.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 06.09.2025 21:47:01
