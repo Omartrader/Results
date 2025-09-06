@@ -5444,3 +5444,58 @@ Order Quantity: 40526.85
 Adjusted qty: 40526.8
 Final Adjusted qty: 40526.8
 283360.0
+***************************************************************
+Number of open positions: 3
+Function started at 06.09.2025 08:36:25
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4926) 	SMA(14) : 0.50 	Delta :  	Previous STC : 100.00 	STC : 92.21
+	ATOMUSDT 	Signal: S
+ATOMUSDT 	Latest Close: (4.412) 	SMA(14) : 4.44 	Delta :  	Previous STC : 98.28 	STC : 81.28
+	AVAXUSDT 	Signal: S
+AVAXUSDT 	Latest Close: (24.275) 	SMA(14) : 24.36 	Delta :  	Previous STC : 96.68 	STC : 78.15
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.748) 	SMA(14) : 4.77 	Delta :  	Previous STC : 99.53 	STC : 86.94
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARBUSDT    | S |  92.21
+1
+Last close price for ARBUSDT: 0.4924
+Opening Sell for  ARBUSDT
+TP: 0.487476
+SL: 0.502248
+TS: 0.004924
+Order Quantity: 40617.38
+Adjusted qty: 40617.4
+Final Adjusted qty: 40617.3
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f1828850-4d38-4a33-93b3-81fd8413d01f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757133408331}
+f1828850-4d38-4a33-93b3-81fd8413d01f
+fetching trade data for :  f1828850-4d38-4a33-93b3-81fd8413d01f
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f1828850-4d38-4a33-93b3-81fd8413d01f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757133408330', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4927', 'execPrice': '0.4924', 'markIv': '', 'orderQty': '40617.3', 'orderPrice': '0.4681', 'execValue': '19999.95852', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612499673536, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99997719', 'execId': '71c9cdad-3352-49e7-b881-2bfd5df225c2', 'marketUnit': '', 'execQty': '40617.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    | S |  86.94
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757133419361}
+Last close price for ICPUSDT: 4.748
+Opening Sell for  ICPUSDT
+TP: 4.70052
+SL: 4.842960000000001
+TS: 0.04748
+Order Quantity: 4212.3
+Adjusted qty: 4212.3
+Final Adjusted qty: 4212.3
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '80320d29-492f-4873-9c4f-c1e37f525b46', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757133420611}
+80320d29-492f-4873-9c4f-c1e37f525b46
+fetching trade data for :  80320d29-492f-4873-9c4f-c1e37f525b46
+[{'symbol': 'ICPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '80320d29-492f-4873-9c4f-c1e37f525b46', 'stopOrderType': 'UNKNOWN', 'execTime': '1757133420611', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.748', 'execPrice': '4.748', 'markIv': '', 'orderQty': '4212.3', 'orderPrice': '4.511', 'execValue': '20000.0004', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612499673954, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00000022', 'execId': '908dbb14-b0c1-4123-8c15-bb0570fbcff0', 'marketUnit': '', 'execQty': '4212.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 06.09.2025 08:37:10
