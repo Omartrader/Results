@@ -12567,3 +12567,59 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.09.2025 01:10:45
+***************************************************************
+Number of open positions: 7
+Function started at 07.09.2025 01:15:06
+ARBUSDT 	Latest Close: (0.4877) 	SMA(14) : 0.49 	Delta : B 	Previous STC : 8.18 	STC : 38.79
+SEIUSDT 	Latest Close: (0.2841) 	SMA(14) : 0.28 	Delta : S 	Previous STC : 99.74 	STC : 95.85
+DYDXUSDT 	Latest Close: (0.5952) 	SMA(14) : 0.59 	Delta : B 	Previous STC : 24.53 	STC : 42.50
+DOTUSDT 	Latest Close: (3.8037) 	SMA(14) : 3.80 	Delta : B 	Previous STC : 20.77 	STC : 47.18
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SEIUSDT    | S |  95.85
+Last close price for SEIUSDT: 0.2841
+Opening Sell for  SEIUSDT
+TP: 0.28125900000000004
+SL: 0.28978200000000004
+TS: 0.002841
+Order Quantity: 35198.87
+Adjusted qty: 35199.0
+Final Adjusted qty: 35198.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '28d4ccd2-5afd-4152-8f48-7509172e9997', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757193345397}
+28d4ccd2-5afd-4152-8f48-7509172e9997
+fetching trade data for :  28d4ccd2-5afd-4152-8f48-7509172e9997
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '28d4ccd2-5afd-4152-8f48-7509172e9997', 'stopOrderType': 'UNKNOWN', 'execTime': '1757193345396', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.28411', 'execPrice': '0.2841', 'markIv': '', 'orderQty': '35198', 'orderPrice': '0.2557', 'execValue': '9999.7518', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697191104792, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986349', 'execId': '8c4e1540-9a5b-463f-b2f5-dc8521cf6278', 'marketUnit': '', 'execQty': '35198', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | B |  47.18
+Last close price for DOTUSDT: 3.8059
+Opening Buy for  DOTUSDT
+TP: 3.843959
+SL: 3.7297819999999997
+TS: 0.038058999999999996
+Order Quantity: 2627.5
+Adjusted qty: 2627.5
+Final Adjusted qty: 2627.5
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4709a9a4-2194-4c43-ad39-032482bde345', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757193357482}
+4709a9a4-2194-4c43-ad39-032482bde345
+fetching trade data for :  4709a9a4-2194-4c43-ad39-032482bde345
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4709a9a4-2194-4c43-ad39-032482bde345', 'stopOrderType': 'UNKNOWN', 'execTime': '1757193357482', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.8064', 'execPrice': '3.8065', 'markIv': '', 'orderQty': '2627.5', 'orderPrice': '3.9967', 'execValue': '10001.57875', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697191105136, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50086832', 'execId': 'fd4f2469-8bd2-4651-8690-084c509186ad', 'marketUnit': '', 'execQty': '2627.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DYDXUSDT   | B |  42.50
+Last close price for DYDXUSDT: 0.5953
+Opening Buy for  DYDXUSDT
+TP: 0.601253
+SL: 0.5833940000000001
+TS: 0.005953000000000001
+Order Quantity: 16798.25
+Adjusted qty: 16798.2
+Final Adjusted qty: 16798.2
+72560.0
