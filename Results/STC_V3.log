@@ -6540,3 +6540,31 @@ Order Quantity: 92592.59
 Adjusted qty: 92593.0
 Final Adjusted qty: 92592.0
 1064600.0
+***************************************************************
+Number of open positions: 3
+Function started at 06.09.2025 17:06:01
+	FORMUSDT 	Signal: S
+FORMUSDT 	Latest Close: (3.6458) 	SMA(14) : 3.67 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | S |  66.67
+1
+Last close price for FORMUSDT: 3.6458
+Opening Sell for  FORMUSDT
+TP: 3.609342
+SL: 3.718716
+TS: 0.036458
+Order Quantity: 5485.76
+Adjusted qty: 5486.0
+Final Adjusted qty: 5485.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7a4b259d-e156-4102-b1d1-0c89ed2cad08', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757163983756}
+7a4b259d-e156-4102-b1d1-0c89ed2cad08
+fetching trade data for :  7a4b259d-e156-4102-b1d1-0c89ed2cad08
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7a4b259d-e156-4102-b1d1-0c89ed2cad08', 'stopOrderType': 'UNKNOWN', 'execTime': '1757163983756', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.6457', 'execPrice': '3.6458', 'markIv': '', 'orderQty': '2850', 'orderPrice': '3.0989', 'execValue': '10390.53', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612500684221, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.7147915', 'execId': '9dff3b14-7dd2-44a5-98bf-8ab138a8a4f5', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 06.09.2025 17:06:33
