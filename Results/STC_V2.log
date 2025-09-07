@@ -16250,3 +16250,52 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 07.09.2025 19:00:57
+***************************************************************
+Number of open positions: 8
+Function started at 07.09.2025 19:05:08
+PENGUUSDT 	Latest Close: (0.028856) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 8.70 	STC : 34.37
+ONDOUSDT 	Latest Close: (0.9088) 	SMA(14) : 0.91 	Delta : B 	Previous STC : 16.34 	STC : 43.51
+SUSDT 	Latest Close: (0.3028) 	SMA(14) : 0.30 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+AVAXUSDT 	Latest Close: (24.605) 	SMA(14) : 24.53 	Delta : B 	Previous STC : 11.42 	STC : 40.95
+ETCUSDT 	Latest Close: (20.435) 	SMA(14) : 20.43 	Delta : B 	Previous STC : 23.80 	STC : 49.20
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUSDT      | S |  66.67
+Last close price for SUSDT: 0.3027
+Opening Sell for  SUSDT
+TP: 0.299673
+SL: 0.30875400000000003
+TS: 0.003027
+Order Quantity: 33036.01
+Adjusted qty: 33036.0
+Final Adjusted qty: 33036.0
+26000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '842cfcad-bf52-466a-ac17-92c2bd41ff76', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757257562441}
+842cfcad-bf52-466a-ac17-92c2bd41ff76
+fetching trade data for :  842cfcad-bf52-466a-ac17-92c2bd41ff76
+[{'symbol': 'SUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '842cfcad-bf52-466a-ac17-92c2bd41ff76', 'stopOrderType': 'UNKNOWN', 'execTime': '1757257562440', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3028', 'execPrice': '0.3027', 'markIv': '', 'orderQty': '26000', 'orderPrice': '0.2877', 'execValue': '7870.2', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697193046908, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.32861', 'execId': 'b6b0c6e3-5c7e-4cda-9028-adda90fc57f0', 'marketUnit': '', 'execQty': '26000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  49.20
+Last close price for ETCUSDT: 20.438
+Opening Buy for  ETCUSDT
+TP: 20.64238
+SL: 20.029239999999998
+TS: 0.20437999999999998
+Order Quantity: 489.28
+Adjusted qty: 489.3
+Final Adjusted qty: 489.2
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e754cbba-a96c-4c4d-9340-1ac8d2672d1d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757257575483}
+e754cbba-a96c-4c4d-9340-1ac8d2672d1d
+fetching trade data for :  e754cbba-a96c-4c4d-9340-1ac8d2672d1d
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e754cbba-a96c-4c4d-9340-1ac8d2672d1d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757257575482', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.439', 'execPrice': '20.438', 'markIv': '', 'orderQty': '489.2', 'orderPrice': '21.46', 'execValue': '9998.2696', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697193047329, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49904828', 'execId': '43dc5c3f-8e44-4fc0-99f4-be37cc2ce46a', 'marketUnit': '', 'execQty': '489.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 07.09.2025 19:06:26
