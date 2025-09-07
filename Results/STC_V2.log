@@ -15888,3 +15888,63 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.09.2025 17:26:00
+***************************************************************
+Number of open positions: 7
+Function started at 07.09.2025 17:30:07
+STRKUSDT 	Latest Close: (0.1239) 	SMA(14) : 0.12 	Delta : B 	Previous STC : 8.83 	STC : 34.19
+AEROUSDT 	Latest Close: (1.1392) 	SMA(14) : 1.15 	Delta : S 	Previous STC : 96.80 	STC : 89.55
+DYDXUSDT 	Latest Close: (0.6022) 	SMA(14) : 0.60 	Delta : B 	Previous STC : 6.67 	STC : 27.45
+APTUSDT 	Latest Close: (4.255) 	SMA(14) : 4.25 	Delta : B 	Previous STC : 7.84 	STC : 31.99
+COREUSDT 	Latest Close: (0.4259) 	SMA(14) : 0.42 	Delta : B 	Previous STC : 13.68 	STC : 42.46
+ETHUSDT 	Latest Close: (4295.94) 	SMA(14) : 4299.81 	Delta : S 	Previous STC : 97.21 	STC : 91.55
+BCHUSDT 	Latest Close: (605.2) 	SMA(14) : 602.46 	Delta : B 	Previous STC : 16.76 	STC : 27.57
+BTCUSDT 	Latest Close: (111070.8) 	SMA(14) : 111121.30 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | S |  91.55
+Last close price for ETHUSDT: 4295.76
+Opening Sell for  ETHUSDT
+TP: 4252.8024000000005
+SL: 4381.675200000001
+TS: 42.9576
+Order Quantity: 2.33
+Adjusted qty: 2.33
+Final Adjusted qty: 2.33
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ba9f2b3b-5feb-4ae1-95cd-8b4916ade74f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757251849192}
+ba9f2b3b-5feb-4ae1-95cd-8b4916ade74f
+fetching trade data for :  ba9f2b3b-5feb-4ae1-95cd-8b4916ade74f
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ba9f2b3b-5feb-4ae1-95cd-8b4916ade74f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757251849191', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4295.85', 'execPrice': '4295.77', 'markIv': '', 'orderQty': '2.33', 'orderPrice': '4209.94', 'execValue': '10009.1441', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192858302, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50502926', 'execId': 'ca37852c-3ca6-47e3-bcf6-840497c210db', 'marketUnit': '', 'execQty': '2.33', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AEROUSDT   | S |  89.55
+Last close price for AEROUSDT: 1.1392
+Opening Sell for  AEROUSDT
+TP: 1.127808
+SL: 1.161984
+TS: 0.011392
+Order Quantity: 8778.09
+Adjusted qty: 8778.0
+Final Adjusted qty: 8778.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '95d2384a-4c6f-4405-b59f-b443f544bd4e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757251861264}
+95d2384a-4c6f-4405-b59f-b443f544bd4e
+fetching trade data for :  95d2384a-4c6f-4405-b59f-b443f544bd4e
+[{'symbol': 'AEROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '95d2384a-4c6f-4405-b59f-b443f544bd4e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757251861263', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1392', 'execPrice': '1.1392', 'markIv': '', 'orderQty': '8778', 'orderPrice': '0.9684', 'execValue': '9999.8976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192858676, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994368', 'execId': '6ecf7cb6-3417-4255-8000-5347fb5fc23b', 'marketUnit': '', 'execQty': '8778', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | S |  66.67
+Last close price for BTCUSDT: 111070.8
+Opening Sell for  BTCUSDT
+TP: 109960.092
+SL: 113292.216
+TS: 1110.708
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
