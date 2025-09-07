@@ -10259,3 +10259,40 @@ Function started at 07.09.2025 17:26:05
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 07.09.2025 17:26:26
+***************************************************************
+Number of open positions: 4
+Function started at 07.09.2025 17:31:17
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.3581) 	SMA(14) : 0.36 	Delta :  	Previous STC : 14.55 	STC : 43.03
+	APTUSDT 	Signal: B
+APTUSDT 	Latest Close: (4.256) 	SMA(14) : 4.25 	Delta :  	Previous STC : 7.84 	STC : 32.13
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4297.41) 	SMA(14) : 4299.92 	Delta :  	Previous STC : 97.21 	STC : 91.70
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (605.3) 	SMA(14) : 602.46 	Delta :  	Previous STC : 16.76 	STC : 27.57
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (111070.8) 	SMA(14) : 111121.30 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | S |  91.70
+1
+Last close price for ETHUSDT: 4297.41
+Opening Sell for  ETHUSDT
+TP: 4254.4358999999995
+SL: 4383.3582
+TS: 42.9741
+Order Quantity: 4.65
+Adjusted qty: 4.65
+Final Adjusted qty: 4.65
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5a38c67e-2fa1-4ddb-8079-52053bd148f2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757251900159}
+5a38c67e-2fa1-4ddb-8079-52053bd148f2
+fetching trade data for :  5a38c67e-2fa1-4ddb-8079-52053bd148f2
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5a38c67e-2fa1-4ddb-8079-52053bd148f2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757251900159', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4297.41', 'execPrice': '4297.41', 'markIv': '', 'orderQty': '4.65', 'orderPrice': '4211.47', 'execValue': '19982.9565', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612503592110, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99062608', 'execId': 'bb64b39b-d45a-477a-bac4-9b4dcad01902', 'marketUnit': '', 'execQty': '4.65', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 07.09.2025 17:31:50
