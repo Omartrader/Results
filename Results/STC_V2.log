@@ -14489,3 +14489,31 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.09.2025 09:35:57
+***************************************************************
+Number of open positions: 9
+Function started at 07.09.2025 09:40:06
+SYRUPUSDT 	Latest Close: (0.49483) 	SMA(14) : 0.50 	Delta : S 	Previous STC : 100.00 	STC : 69.53
+MORPHOUSDT 	Latest Close: (1.9986) 	SMA(14) : 2.00 	Delta : S 	Previous STC : 97.97 	STC : 86.92
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MORPHOUSDT | S |  86.92
+Last close price for MORPHOUSDT: 1.9986
+Opening Sell for  MORPHOUSDT
+TP: 1.9786139999999999
+SL: 2.038572
+TS: 0.019986
+Order Quantity: 5003.5
+Adjusted qty: 5004.0
+Final Adjusted qty: 5003.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7ad8e5f9-7266-40d2-ad73-13987508f1ec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757223643805}
+7ad8e5f9-7266-40d2-ad73-13987508f1ec
+fetching trade data for :  7ad8e5f9-7266-40d2-ad73-13987508f1ec
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7ad8e5f9-7266-40d2-ad73-13987508f1ec', 'stopOrderType': 'UNKNOWN', 'execTime': '1757223643805', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9986', 'execPrice': '1.9986', 'markIv': '', 'orderQty': '5003', 'orderPrice': '1.6989', 'execValue': '9998.9958', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192000781, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49944769', 'execId': '06304a7f-1e34-41b1-8d60-ad78d52ad240', 'marketUnit': '', 'execQty': '5003', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 07.09.2025 09:40:54
