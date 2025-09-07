@@ -18016,3 +18016,32 @@ Order Quantity: 10966.11
 Adjusted qty: 10966.0
 Final Adjusted qty: 10966.0
 72300.0
+***************************************************************
+Number of open positions: 9
+Function started at 08.09.2025 03:45:05
+XLMUSDT 	Latest Close: (0.36232) 	SMA(14) : 0.36 	Delta : B 	Previous STC : 11.83 	STC : 41.22
+IOTAUSDT 	Latest Close: (0.1864) 	SMA(14) : 0.19 	Delta : B 	Previous STC : 17.24 	STC : 44.82
+HYPEUSDT 	Latest Close: (47.343) 	SMA(14) : 47.11 	Delta : B 	Previous STC : 5.30 	STC : 34.60
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IOTAUSDT   | B |  44.82
+Last close price for IOTAUSDT: 0.1864
+Opening Buy for  IOTAUSDT
+TP: 0.18826400000000001
+SL: 0.182672
+TS: 0.0018640000000000002
+Order Quantity: 53648.07
+Adjusted qty: 53648.100000000006
+Final Adjusted qty: 53648.0
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b7b0da6a-aaae-4b4c-9c7c-b1b14d5784d7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757288737552}
+b7b0da6a-aaae-4b4c-9c7c-b1b14d5784d7
+fetching trade data for :  b7b0da6a-aaae-4b4c-9c7c-b1b14d5784d7
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b7b0da6a-aaae-4b4c-9c7c-b1b14d5784d7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757288737552', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1864', 'execPrice': '0.1864', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.205', 'execValue': '4958.24', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697194010312, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.727032', 'execId': 'a2bfc3b8-248f-4667-819c-893a5a7932a9', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 08.09.2025 03:45:47
