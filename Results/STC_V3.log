@@ -8604,3 +8604,64 @@ Function started at 07.09.2025 06:10:47
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 07.09.2025 06:11:28
+***************************************************************
+Number of open positions: 2
+Function started at 07.09.2025 06:16:26
+	SKYUSDT 	Signal: B
+SKYUSDT 	Latest Close: (0.07214) 	SMA(14) : 0.07 	Delta :  	Previous STC : 8.24 	STC : 38.83
+	LTCUSDT 	Signal: B
+LTCUSDT 	Latest Close: (112.56) 	SMA(14) : 112.32 	Delta :  	Previous STC : 14.87 	STC : 32.89
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (102.37) 	SMA(14) : 102.14 	Delta :  	Previous STC : 14.71 	STC : 27.59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | B |  38.83
+1
+Last close price for SKYUSDT: 0.07214
+Opening Buy for  SKYUSDT
+TP: 0.07286139999999999
+SL: 0.07069719999999999
+TS: 0.0007214
+Order Quantity: 277238.7
+Adjusted qty: 277240.0
+Final Adjusted qty: 277230.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1130c880-1052-4d7f-bb78-10bfb1db90fd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757211410622}
+1130c880-1052-4d7f-bb78-10bfb1db90fd
+fetching trade data for :  1130c880-1052-4d7f-bb78-10bfb1db90fd
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1130c880-1052-4d7f-bb78-10bfb1db90fd', 'stopOrderType': 'UNKNOWN', 'execTime': '1757211410621', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07209', 'execPrice': '0.07214', 'markIv': '', 'orderQty': '277230', 'orderPrice': '0.0829', 'execValue': '19999.3722', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612502247178, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99965471', 'execId': '826266a9-4419-4bd0-aee3-9593c91c6322', 'marketUnit': '', 'execQty': '277230', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | B |  32.89
+1
+Last close price for LTCUSDT: 112.56
+Opening Buy for  LTCUSDT
+TP: 113.68560000000001
+SL: 110.3088
+TS: 1.1256
+Order Quantity: 177.68
+Adjusted qty: 177.70000000000002
+Final Adjusted qty: 177.6
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd42c8fc7-6333-4f94-80c8-995511854eea', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757211422886}
+d42c8fc7-6333-4f94-80c8-995511854eea
+fetching trade data for :  d42c8fc7-6333-4f94-80c8-995511854eea
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd42c8fc7-6333-4f94-80c8-995511854eea', 'stopOrderType': 'UNKNOWN', 'execTime': '1757211422886', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '112.56', 'execPrice': '112.56', 'markIv': '', 'orderQty': '177.6', 'orderPrice': '118.18', 'execValue': '19990.656', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612502247572, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9948608', 'execId': '0390b129-cd36-4bfb-90f4-576081b095b3', 'marketUnit': '', 'execQty': '177.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+QNTUSDT    | B |  27.59
+1
+Last close price for QNTUSDT: 102.37
+Opening Buy for  QNTUSDT
+TP: 103.39370000000001
+SL: 100.32260000000001
+TS: 1.0237
+Order Quantity: 195.37
+Adjusted qty: 195.37
+Final Adjusted qty: 195.37
+279.0
