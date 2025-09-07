@@ -13618,3 +13618,52 @@ Order Quantity: 5515.72
 Adjusted qty: 5515.700000000001
 Final Adjusted qty: 5515.7
 27570.0
+***************************************************************
+Number of open positions: 8
+Function started at 07.09.2025 04:55:06
+TIAUSDT 	Latest Close: (1.605) 	SMA(14) : 1.60 	Delta : B 	Previous STC : 11.52 	STC : 36.74
+USDCUSDT 	Latest Close: (0.9996) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 99.91 	STC : 91.49
+USDCUSDT 	Latest Close: (0.9996) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 99.91 	STC : 91.49
+JTOUSDT 	Latest Close: (1.812) 	SMA(14) : 1.80 	Delta : B 	Previous STC : 17.36 	STC : 44.91
+COREUSDT 	Latest Close: (0.42) 	SMA(14) : 0.42 	Delta : B 	Previous STC : 20.64 	STC : 42.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JTOUSDT    | B |  44.91
+Last close price for JTOUSDT: 1.812
+Opening Buy for  JTOUSDT
+TP: 1.83012
+SL: 1.77576
+TS: 0.01812
+Order Quantity: 5518.76
+Adjusted qty: 5518.8
+Final Adjusted qty: 5518.7
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2c9e4320-d9ee-4e92-8983-3f75216f49f9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757206562523}
+2c9e4320-d9ee-4e92-8983-3f75216f49f9
+fetching trade data for :  2c9e4320-d9ee-4e92-8983-3f75216f49f9
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2c9e4320-d9ee-4e92-8983-3f75216f49f9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757206562522', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.812', 'execPrice': '1.812', 'markIv': '', 'orderQty': '5518.7', 'orderPrice': '1.993', 'execValue': '9999.8844', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697191497207, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993642', 'execId': '2e3f7b77-04e9-4eb2-853e-f1c8b7166f90', 'marketUnit': '', 'execQty': '5518.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+COREUSDT   | B |  42.99
+Last close price for COREUSDT: 0.42
+Opening Buy for  COREUSDT
+TP: 0.42419999999999997
+SL: 0.41159999999999997
+TS: 0.0042
+Order Quantity: 23809.52
+Adjusted qty: 23809.5
+Final Adjusted qty: 23809.5
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fd63bb2a-a48b-4bfb-96a6-41e5e27df510', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757206576026}
+fd63bb2a-a48b-4bfb-96a6-41e5e27df510
+fetching trade data for :  fd63bb2a-a48b-4bfb-96a6-41e5e27df510
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fd63bb2a-a48b-4bfb-96a6-41e5e27df510', 'stopOrderType': 'UNKNOWN', 'execTime': '1757206576025', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4201', 'execPrice': '0.42', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.4621', 'execValue': '5695.2', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697191497625, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.13236', 'execId': '6154261c-2a80-4cec-8b8a-a8cdf1d22fe2', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 07.09.2025 04:56:25
