@@ -16423,3 +16423,52 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 07.09.2025 20:10:59
+***************************************************************
+Number of open positions: 8
+Function started at 07.09.2025 20:20:08
+TRXUSDT 	Latest Close: (0.32911) 	SMA(14) : 0.33 	Delta : B 	Previous STC : 13.21 	STC : 42.14
+LDOUSDT 	Latest Close: (1.185) 	SMA(14) : 1.19 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+RENDERUSDT 	Latest Close: (3.476) 	SMA(14) : 3.49 	Delta : S 	Previous STC : 99.78 	STC : 95.17
+LTCUSDT 	Latest Close: (114.3) 	SMA(14) : 114.68 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ENSUSDT 	Latest Close: (22.23) 	SMA(14) : 22.27 	Delta : S 	Previous STC : 98.40 	STC : 90.94
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RENDERUSDT | S |  95.17
+Last close price for RENDERUSDT: 3.476
+Opening Sell for  RENDERUSDT
+TP: 3.44124
+SL: 3.5455200000000002
+TS: 0.03476
+Order Quantity: 2876.87
+Adjusted qty: 2876.9
+Final Adjusted qty: 2876.8
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fd3b58b9-d238-41fe-ad87-f5a4c277f43e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757262061083}
+fd3b58b9-d238-41fe-ad87-f5a4c277f43e
+fetching trade data for :  fd3b58b9-d238-41fe-ad87-f5a4c277f43e
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fd3b58b9-d238-41fe-ad87-f5a4c277f43e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757262061082', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.477', 'execPrice': '3.476', 'markIv': '', 'orderQty': '2876.8', 'orderPrice': '3.304', 'execValue': '9999.7568', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697193189112, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986624', 'execId': 'd551f8b7-937f-40bd-bdf2-5a9117bd3510', 'marketUnit': '', 'execQty': '2876.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENSUSDT    | S |  90.94
+Last close price for ENSUSDT: 22.23
+Opening Sell for  ENSUSDT
+TP: 22.0077
+SL: 22.6746
+TS: 0.2223
+Order Quantity: 449.84
+Adjusted qty: 449.8
+Final Adjusted qty: 449.8
+1400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '674b1caa-28aa-46a0-b663-7bb4a05a4cf3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757262074230}
+674b1caa-28aa-46a0-b663-7bb4a05a4cf3
+fetching trade data for :  674b1caa-28aa-46a0-b663-7bb4a05a4cf3
+[{'symbol': 'ENSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '674b1caa-28aa-46a0-b663-7bb4a05a4cf3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757262074230', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '22.23', 'execPrice': '22.23', 'markIv': '', 'orderQty': '449.8', 'orderPrice': '21.119', 'execValue': '9999.054', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697193189500, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4994797', 'execId': 'e67c7eec-4d53-4925-96b7-ff8caf3068fe', 'marketUnit': '', 'execQty': '449.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 07.09.2025 20:21:24
