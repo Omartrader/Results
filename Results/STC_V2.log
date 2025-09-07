@@ -16086,3 +16086,50 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 07.09.2025 18:05:47
+***************************************************************
+Number of open positions: 8
+Function started at 07.09.2025 18:10:12
+IOTAUSDT 	Latest Close: (0.1855) 	SMA(14) : 0.18 	Delta : B 	Previous STC : 24.50 	STC : 46.66
+JTOUSDT 	Latest Close: (1.8) 	SMA(14) : 1.80 	Delta : B 	Previous STC : 16.02 	STC : 44.01
+NEOUSDT 	Latest Close: (6.603) 	SMA(14) : 6.59 	Delta : B 	Previous STC : 8.82 	STC : 29.19
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IOTAUSDT   | B |  46.66
+Last close price for IOTAUSDT: 0.1859
+Opening Buy for  IOTAUSDT
+TP: 0.187759
+SL: 0.182182
+TS: 0.0018590000000000002
+Order Quantity: 53792.36
+Adjusted qty: 53792.4
+Final Adjusted qty: 53792.3
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd9ffb035-57d7-4d23-955a-0aa4b6a6498c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757254250769}
+d9ffb035-57d7-4d23-955a-0aa4b6a6498c
+fetching trade data for :  d9ffb035-57d7-4d23-955a-0aa4b6a6498c
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd9ffb035-57d7-4d23-955a-0aa4b6a6498c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757254250769', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1858', 'execPrice': '0.1859', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.2043', 'execValue': '4944.94', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192936745, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.719717', 'execId': '64f0be0c-7228-4dd5-9c33-8d4384caf54f', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JTOUSDT    | B |  44.01
+Last close price for JTOUSDT: 1.801
+Opening Buy for  JTOUSDT
+TP: 1.81901
+SL: 1.76498
+TS: 0.018009999999999998
+Order Quantity: 5552.47
+Adjusted qty: 5552.5
+Final Adjusted qty: 5552.4
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c2e96144-7e55-43e2-b0ea-b826801cc539', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757254263202}
+c2e96144-7e55-43e2-b0ea-b826801cc539
+fetching trade data for :  c2e96144-7e55-43e2-b0ea-b826801cc539
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c2e96144-7e55-43e2-b0ea-b826801cc539', 'stopOrderType': 'UNKNOWN', 'execTime': '1757254263202', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.801', 'execPrice': '1.801', 'markIv': '', 'orderQty': '5552.4', 'orderPrice': '1.981', 'execValue': '9999.8724', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192937143, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992982', 'execId': '97e6cef0-82e4-4086-9ce4-aa43edfd65e6', 'marketUnit': '', 'execQty': '5552.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 07.09.2025 18:11:13
