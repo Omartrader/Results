@@ -15948,3 +15948,80 @@ Order Quantity: 0.09
 Adjusted qty: 0.09
 Final Adjusted qty: 0.09
 119.0
+***************************************************************
+Number of open positions: 8
+Function started at 07.09.2025 17:35:06
+STRKUSDT 	Latest Close: (0.1243) 	SMA(14) : 0.12 	Delta : B 	Previous STC : 8.83 	STC : 35.27
+XLMUSDT 	Latest Close: (0.35881) 	SMA(14) : 0.36 	Delta : B 	Previous STC : 14.55 	STC : 43.03
+AEROUSDT 	Latest Close: (1.1437) 	SMA(14) : 1.15 	Delta : S 	Previous STC : 96.80 	STC : 89.94
+DYDXUSDT 	Latest Close: (0.6034) 	SMA(14) : 0.60 	Delta : B 	Previous STC : 6.67 	STC : 28.22
+APTUSDT 	Latest Close: (4.262) 	SMA(14) : 4.25 	Delta : B 	Previous STC : 7.84 	STC : 32.99
+COREUSDT 	Latest Close: (0.4263) 	SMA(14) : 0.42 	Delta : B 	Previous STC : 13.68 	STC : 42.46
+BCHUSDT 	Latest Close: (604.7) 	SMA(14) : 602.42 	Delta : B 	Previous STC : 16.76 	STC : 27.57
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AEROUSDT   | S |  89.94
+Last close price for AEROUSDT: 1.1436
+Opening Sell for  AEROUSDT
+TP: 1.132164
+SL: 1.166472
+TS: 0.011436
+Order Quantity: 8744.32
+Adjusted qty: 8744.0
+Final Adjusted qty: 8744.0
+30000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XLMUSDT    | B |  43.03
+Last close price for XLMUSDT: 0.35884
+Opening Buy for  XLMUSDT
+TP: 0.3624284
+SL: 0.3516632
+TS: 0.0035884
+Order Quantity: 27867.57
+Adjusted qty: 27868.0
+Final Adjusted qty: 27867.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+COREUSDT   | B |  42.46
+Last close price for COREUSDT: 0.4262
+Opening Buy for  COREUSDT
+TP: 0.430462
+SL: 0.417676
+TS: 0.004262
+Order Quantity: 23463.16
+Adjusted qty: 23463.2
+Final Adjusted qty: 23463.1
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e75dfd6a-3847-4e4b-a444-f9f91654b659', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757252147565}
+e75dfd6a-3847-4e4b-a444-f9f91654b659
+fetching trade data for :  e75dfd6a-3847-4e4b-a444-f9f91654b659
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e75dfd6a-3847-4e4b-a444-f9f91654b659', 'stopOrderType': 'UNKNOWN', 'execTime': '1757252147565', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4263', 'execPrice': '0.4262', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.4689', 'execValue': '5779.272', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192867989, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.1785996', 'execId': '3fa21774-5972-42c9-b525-4a22b23d83c5', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STRKUSDT   | B |  35.27
+Last close price for STRKUSDT: 0.1243
+Opening Buy for  STRKUSDT
+TP: 0.125543
+SL: 0.12181399999999999
+TS: 0.001243
+Order Quantity: 80450.52
+Adjusted qty: 80450.5
+Final Adjusted qty: 80450.5
+119050.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1e9e5bdb-9088-4af7-959b-d6dbea03cf8c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757252159832}
+1e9e5bdb-9088-4af7-959b-d6dbea03cf8c
+fetching trade data for :  1e9e5bdb-9088-4af7-959b-d6dbea03cf8c
+[{'symbol': 'STRKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1e9e5bdb-9088-4af7-959b-d6dbea03cf8c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757252159832', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1243', 'execPrice': '0.1243', 'markIv': '', 'orderQty': '80450.5', 'orderPrice': '0.1367', 'execValue': '9999.99715', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697192868390, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999844', 'execId': '2bf0a95c-b9ea-4704-be31-a9dea2ac4d5d', 'marketUnit': '', 'execQty': '80450.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 07.09.2025 17:36:10
