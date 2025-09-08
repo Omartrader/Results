@@ -24934,3 +24934,68 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 03:11:24
+***************************************************************
+Number of open positions: 6
+Function started at 09.09.2025 03:15:07
+WLFIUSDT 	Latest Close: (0.2112) 	SMA(14) : 0.21 	Delta : B 	Previous STC : 12.79 	STC : 30.05
+ATHUSDT 	Latest Close: (0.0443) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SAROSUSDT 	Latest Close: (0.32367) 	SMA(14) : 0.32 	Delta : B 	Previous STC : 19.03 	STC : 46.02
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATHUSDT    | S |  66.67
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1757373361473}
+Last close price for ATHUSDT: 0.04426
+Opening Sell for  ATHUSDT
+TP: 0.0438174
+SL: 0.0451452
+TS: 0.0004426
+Order Quantity: 225937.64
+Adjusted qty: 225940.0
+Final Adjusted qty: 225930.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b261e4cb-4990-4c66-b303-712258f11ac3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757373363292}
+b261e4cb-4990-4c66-b303-712258f11ac3
+fetching trade data for :  b261e4cb-4990-4c66-b303-712258f11ac3
+[{'symbol': 'ATHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b261e4cb-4990-4c66-b303-712258f11ac3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757373363291', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.04428', 'execPrice': '0.04426', 'markIv': '', 'orderQty': '225930', 'orderPrice': '0.03986', 'execValue': '9999.6618', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196646638, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49981399', 'execId': '35640b9a-c289-4a66-9c8e-db5c50367870', 'marketUnit': '', 'execQty': '225930', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SAROSUSDT  | B |  46.02
+Last close price for SAROSUSDT: 0.3238
+Opening Buy for  SAROSUSDT
+TP: 0.327038
+SL: 0.317324
+TS: 0.0032379999999999996
+Order Quantity: 30883.26
+Adjusted qty: 30883.0
+Final Adjusted qty: 30883.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8efa74da-aa09-4bf3-9c3e-7a2db2886b32', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757373377053}
+8efa74da-aa09-4bf3-9c3e-7a2db2886b32
+fetching trade data for :  8efa74da-aa09-4bf3-9c3e-7a2db2886b32
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8efa74da-aa09-4bf3-9c3e-7a2db2886b32', 'stopOrderType': 'UNKNOWN', 'execTime': '1757373377052', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.32375', 'execPrice': '0.3238', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.37231', 'execValue': '8742.6', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196647058, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.61686', 'execId': '0f8dd970-f5e3-489e-86c1-8e09f0ee79ae', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLFIUSDT   | B |  30.05
+Last close price for WLFIUSDT: 0.2111
+Opening Buy for  WLFIUSDT
+TP: 0.213211
+SL: 0.206878
+TS: 0.002111
+Order Quantity: 47370.91
+Adjusted qty: 47371.0
+Final Adjusted qty: 47370.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a8f20eed-2c8c-4735-8a12-96595c28bf51', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757373390413}
+a8f20eed-2c8c-4735-8a12-96595c28bf51
+fetching trade data for :  a8f20eed-2c8c-4735-8a12-96595c28bf51
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a8f20eed-2c8c-4735-8a12-96595c28bf51', 'stopOrderType': 'UNKNOWN', 'execTime': '1757373390412', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2111', 'execPrice': '0.2111', 'markIv': '', 'orderQty': '47370', 'orderPrice': '0.2427', 'execValue': '9999.807', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196647458, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989385', 'execId': '06cd156f-7544-44b0-aedb-72e802f968e0', 'marketUnit': '', 'execQty': '47370', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 03:16:39
