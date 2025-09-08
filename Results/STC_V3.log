@@ -12412,3 +12412,45 @@ Function started at 08.09.2025 05:26:02
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 08.09.2025 05:26:21
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 05:31:28
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (1.0762) 	SMA(14) : 1.04 	Delta :  	Previous STC : 3.62 	STC : 35.75
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (8.455) 	SMA(14) : 8.48 	Delta :  	Previous STC : 96.66 	STC : 84.63
+	USDEUSDT 	Signal: B
+USDEUSDT 	Latest Close: (1.0002) 	SMA(14) : 1.00 	Delta :  	Previous STC : 18.16 	STC : 45.44
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | S |  84.63
+1
+Last close price for TRUMPUSDT: 8.455
+Opening Sell for  TRUMPUSDT
+TP: 8.37045
+SL: 8.6241
+TS: 0.08455
+Order Quantity: 2365.46
+Adjusted qty: 2365.5
+Final Adjusted qty: 2365.4
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ad2d09fe-d62e-4036-bca5-c7ec8e1c6c1a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757295120190}
+ad2d09fe-d62e-4036-bca5-c7ec8e1c6c1a
+fetching trade data for :  ad2d09fe-d62e-4036-bca5-c7ec8e1c6c1a
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ad2d09fe-d62e-4036-bca5-c7ec8e1c6c1a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757295120189', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.455', 'execPrice': '8.455', 'markIv': '', 'orderQty': '2365.4', 'orderPrice': '8.033', 'execValue': '19999.457', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612505063750, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99970135', 'execId': 'e3f5b981-e561-428c-a750-fd4066c8526a', 'marketUnit': '', 'execQty': '2365.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | B |  35.75
+1
+Last close price for WLDUSDT: 1.0771
+Opening Buy for  WLDUSDT
+TP: 1.087871
+SL: 1.055558
+TS: 0.010771
+Order Quantity: 18568.38
+Adjusted qty: 18568.4
+Final Adjusted qty: 18568.3
+34020.0
