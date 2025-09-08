@@ -20564,3 +20564,71 @@ Order Quantity: 2463.9
 Adjusted qty: 2464.0
 Final Adjusted qty: 2463.0
 2850.0
+***************************************************************
+Number of open positions: 6
+Function started at 08.09.2025 13:25:07
+PENGUUSDT 	Latest Close: (0.032844) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 13.18 	STC : 29.39
+PYTHUSDT 	Latest Close: (0.1662) 	SMA(14) : 0.17 	Delta : B 	Previous STC : 10.11 	STC : 35.66
+FORMUSDT 	Latest Close: (4.1116) 	SMA(14) : 3.91 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+TAOUSDT 	Latest Close: (339.65) 	SMA(14) : 335.16 	Delta : B 	Previous STC : 18.67 	STC : 27.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PYTHUSDT   | B |  35.66
+Last close price for PYTHUSDT: 0.1661
+Opening Buy for  PYTHUSDT
+TP: 0.167761
+SL: 0.162778
+TS: 0.001661
+Order Quantity: 60204.7
+Adjusted qty: 60205.0
+Final Adjusted qty: 60204.0
+177000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FORMUSDT   | B |  33.33
+Last close price for FORMUSDT: 4.1196
+Opening Buy for  FORMUSDT
+TP: 4.160796
+SL: 4.037208
+TS: 0.041196
+Order Quantity: 2427.42
+Adjusted qty: 2427.0
+Final Adjusted qty: 2427.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6c5f66f6-be3c-4178-9cd4-1edac3207d7d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757323569313}
+6c5f66f6-be3c-4178-9cd4-1edac3207d7d
+fetching trade data for :  6c5f66f6-be3c-4178-9cd4-1edac3207d7d
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6c5f66f6-be3c-4178-9cd4-1edac3207d7d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757323569312', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.1177', 'execPrice': '4.1196', 'markIv': '', 'orderQty': '2427', 'orderPrice': '4.7353', 'execValue': '9998.2692', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195059941, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49904806', 'execId': 'bd4a6fdd-4e71-47a5-8599-7a2fba71304d', 'marketUnit': '', 'execQty': '2427', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | B |  29.39
+Last close price for PENGUUSDT: 0.032814
+Opening Buy for  PENGUUSDT
+TP: 0.03314214
+SL: 0.03215772
+TS: 0.00032814000000000004
+Order Quantity: 304747.97
+Adjusted qty: 304750.0
+Final Adjusted qty: 304740.0
+2500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TAOUSDT    | B |  27.43
+Last close price for TAOUSDT: 339.67
+Opening Buy for  TAOUSDT
+TP: 343.0667
+SL: 332.8766
+TS: 3.3967
+Order Quantity: 29.44
+Adjusted qty: 29.44
+Final Adjusted qty: 29.44
+60.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.09.2025 13:26:24
