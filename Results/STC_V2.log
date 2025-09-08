@@ -23080,3 +23080,68 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 08.09.2025 20:16:19
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 20:20:06
+OPUSDT 	Latest Close: (0.7534) 	SMA(14) : 0.74 	Delta : B 	Previous STC : 17.93 	STC : 27.24
+KAIAUSDT 	Latest Close: (0.155) 	SMA(14) : 0.15 	Delta : B 	Previous STC : 16.42 	STC : 44.28
+GRTUSDT 	Latest Close: (0.09188) 	SMA(14) : 0.09 	Delta : B 	Previous STC : 18.87 	STC : 30.32
+SOLUSDT 	Latest Close: (214.08) 	SMA(14) : 214.81 	Delta : S 	Previous STC : 98.57 	STC : 85.08
+TIAUSDT 	Latest Close: (1.73) 	SMA(14) : 1.71 	Delta : B 	Previous STC : 24.57 	STC : 40.02
+APTUSDT 	Latest Close: (4.414) 	SMA(14) : 4.39 	Delta : B 	Previous STC : 22.28 	STC : 36.52
+RENDERUSDT 	Latest Close: (3.723) 	SMA(14) : 3.69 	Delta : B 	Previous STC : 21.50 	STC : 31.28
+CAKEUSDT 	Latest Close: (2.457) 	SMA(14) : 2.45 	Delta : B 	Previous STC : 17.84 	STC : 27.32
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  85.08
+Last close price for SOLUSDT: 214.02
+Opening Sell for  SOLUSDT
+TP: 211.87980000000002
+SL: 218.30040000000002
+TS: 2.1402
+Order Quantity: 46.72
+Adjusted qty: 46.7
+Final Adjusted qty: 46.7
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+KAIAUSDT   | B |  44.28
+Last close price for KAIAUSDT: 0.155
+Opening Buy for  KAIAUSDT
+TP: 0.15655
+SL: 0.1519
+TS: 0.00155
+Order Quantity: 64516.13
+Adjusted qty: 64516.0
+Final Adjusted qty: 64516.0
+170000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '16c21a3a-315a-4701-9089-b437e1fb9b4e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757348466540}
+16c21a3a-315a-4701-9089-b437e1fb9b4e
+fetching trade data for :  16c21a3a-315a-4701-9089-b437e1fb9b4e
+[{'symbol': 'KAIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '16c21a3a-315a-4701-9089-b437e1fb9b4e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757348466540', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.155', 'execPrice': '0.155', 'markIv': '', 'orderQty': '64516', 'orderPrice': '0.1782', 'execValue': '9999.98', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195862435, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499989', 'execId': 'a7db900b-c89d-47f1-a86e-5c81271d156f', 'marketUnit': '', 'execQty': '64516', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    | B |  40.02
+Last close price for TIAUSDT: 1.738
+Opening Buy for  TIAUSDT
+TP: 1.75538
+SL: 1.7032399999999999
+TS: 0.01738
+Order Quantity: 5753.74
+Adjusted qty: 5753.700000000001
+Final Adjusted qty: 5753.7
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4e8ac4d8-217b-43f6-9eb7-43b964f46cd9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757348480234}
+4e8ac4d8-217b-43f6-9eb7-43b964f46cd9
+fetching trade data for :  4e8ac4d8-217b-43f6-9eb7-43b964f46cd9
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4e8ac4d8-217b-43f6-9eb7-43b964f46cd9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757348480233', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.7371', 'execPrice': '1.738', 'markIv': '', 'orderQty': '5753.7', 'orderPrice': '1.823', 'execValue': '9999.9306', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195862887, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996183', 'execId': 'e42a57bf-b63f-40fd-9ba8-90cc881d11aa', 'marketUnit': '', 'execQty': '5753.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 20:21:31
