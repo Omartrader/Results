@@ -20396,3 +20396,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 08.09.2025 13:01:04
+***************************************************************
+Number of open positions: 5
+Function started at 08.09.2025 13:05:07
+WLDUSDT 	Latest Close: (1.244) 	SMA(14) : 1.26 	Delta : S 	Previous STC : 100.00 	STC : 93.25
+VIRTUALUSDT 	Latest Close: (1.1888) 	SMA(14) : 1.19 	Delta : S 	Previous STC : 100.00 	STC : 88.07
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLDUSDT    | S |  93.25
+Last close price for WLDUSDT: 1.2454
+Opening Sell for  WLDUSDT
+TP: 1.232946
+SL: 1.270308
+TS: 0.012454
+Order Quantity: 8029.55
+Adjusted qty: 8029.6
+Final Adjusted qty: 8029.5
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '50db2c51-33b8-48e8-a5ec-741c36846ac6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757322362896}
+50db2c51-33b8-48e8-a5ec-741c36846ac6
+fetching trade data for :  50db2c51-33b8-48e8-a5ec-741c36846ac6
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '50db2c51-33b8-48e8-a5ec-741c36846ac6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757322362894', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2455', 'execPrice': '1.2451', 'markIv': '', 'orderQty': '8029.5', 'orderPrice': '1.1833', 'execValue': '9997.53045', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195021539, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49864175', 'execId': '00199ee0-8a57-4ee0-b4fe-e711c66e7731', 'marketUnit': '', 'execQty': '8029.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VIRTUALUSDT | S |  88.07
+Last close price for VIRTUALUSDT: 1.1885
+Opening Sell for  VIRTUALUSDT
+TP: 1.176615
+SL: 1.21227
+TS: 0.011885
+Order Quantity: 8413.97
+Adjusted qty: 8414.0
+Final Adjusted qty: 8413.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.09.2025 13:06:15
