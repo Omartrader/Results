@@ -24002,3 +24002,34 @@ Order Quantity: 33749.58
 Adjusted qty: 33750.0
 Final Adjusted qty: 33749.0
 253900.0
+***************************************************************
+Number of open positions: 9
+Function started at 08.09.2025 23:10:07
+VETUSDT 	Latest Close: (0.02444) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+KAIAUSDT 	Latest Close: (0.1534) 	SMA(14) : 0.15 	Delta : S 	Previous STC : 98.40 	STC : 93.40
+SANDUSDT 	Latest Close: (0.2959) 	SMA(14) : 0.30 	Delta : S 	Previous STC : 96.45 	STC : 94.21
+AEROUSDT 	Latest Close: (1.1754) 	SMA(14) : 1.18 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+RENDERUSDT 	Latest Close: (3.698) 	SMA(14) : 3.70 	Delta : S 	Previous STC : 97.30 	STC : 92.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SANDUSDT   | S |  94.21
+Last close price for SANDUSDT: 0.296
+Opening Sell for  SANDUSDT
+TP: 0.29303999999999997
+SL: 0.30191999999999997
+TS: 0.00296
+Order Quantity: 33783.78
+Adjusted qty: 33784.0
+Final Adjusted qty: 33783.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c93fec17-33bf-4fbc-a48a-8a06ade138e1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757358667183}
+c93fec17-33bf-4fbc-a48a-8a06ade138e1
+fetching trade data for :  c93fec17-33bf-4fbc-a48a-8a06ade138e1
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c93fec17-33bf-4fbc-a48a-8a06ade138e1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757358667182', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.296', 'execPrice': '0.296', 'markIv': '', 'orderQty': '33783', 'orderPrice': '0.2664', 'execValue': '9999.768', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196188794, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4998724', 'execId': 'e4e304d1-0c36-46cc-90b2-37af7a0ad256', 'marketUnit': '', 'execQty': '33783', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 08.09.2025 23:11:17
