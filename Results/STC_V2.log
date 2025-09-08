@@ -22821,3 +22821,62 @@ Function finished at 08.09.2025 19:16:06
 ***************************************************************
 Number of open positions: 6
 Function started at 08.09.2025 19:20:20
+***************************************************************
+Number of open positions: 5
+Function started at 08.09.2025 19:25:12
+VIRTUALUSDT 	Latest Close: (1.2826) 	SMA(14) : 1.22 	Delta : B 	Previous STC : 12.88 	STC : 41.92
+DOTUSDT 	Latest Close: (4.0664) 	SMA(14) : 4.03 	Delta : B 	Previous STC : 9.60 	STC : 39.73
+WALUSDT 	Latest Close: (0.4379) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | S |  66.67
+Last close price for WALUSDT: 0.4378
+Opening Sell for  WALUSDT
+TP: 0.43342200000000003
+SL: 0.446556
+TS: 0.004378
+Order Quantity: 22841.48
+Adjusted qty: 22841.0
+Final Adjusted qty: 22841.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2ed3fce2-b137-4a05-abd9-3f7291b22b95', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757345177570}
+2ed3fce2-b137-4a05-abd9-3f7291b22b95
+fetching trade data for :  2ed3fce2-b137-4a05-abd9-3f7291b22b95
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2ed3fce2-b137-4a05-abd9-3f7291b22b95', 'stopOrderType': 'UNKNOWN', 'execTime': '1757345177570', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.438', 'execPrice': '0.4378', 'markIv': '', 'orderQty': '22841', 'orderPrice': '0.3504', 'execValue': '9999.7898', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195757276, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988439', 'execId': '1031ff41-01be-4ae9-ba3d-0182b66ee6b3', 'marketUnit': '', 'execQty': '22841', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VIRTUALUSDT | B |  41.92
+Last close price for VIRTUALUSDT: 1.2812
+Opening Buy for  VIRTUALUSDT
+TP: 1.294012
+SL: 1.2555759999999998
+TS: 0.012811999999999999
+Order Quantity: 7805.18
+Adjusted qty: 7805.0
+Final Adjusted qty: 7805.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aac7892b-2fc8-495d-95fc-9c4f6af73b15', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757345193140}
+aac7892b-2fc8-495d-95fc-9c4f6af73b15
+fetching trade data for :  aac7892b-2fc8-495d-95fc-9c4f6af73b15
+[{'symbol': 'VIRTUALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aac7892b-2fc8-495d-95fc-9c4f6af73b15', 'stopOrderType': 'UNKNOWN', 'execTime': '1757345193140', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2824', 'execPrice': '1.2825', 'markIv': '', 'orderQty': '7805', 'orderPrice': '1.4106', 'execValue': '10009.9125', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195757778, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50545188', 'execId': '752d4e42-b5b2-4d09-a500-768769dcb671', 'marketUnit': '', 'execQty': '7805', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | B |  39.73
+Last close price for DOTUSDT: 4.0689
+Opening Buy for  DOTUSDT
+TP: 4.109589000000001
+SL: 3.9875220000000002
+TS: 0.040689
+Order Quantity: 2457.67
+Adjusted qty: 2457.7000000000003
+Final Adjusted qty: 2457.6
+32140.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.09.2025 19:26:53
