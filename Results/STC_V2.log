@@ -24287,3 +24287,53 @@ Order Quantity: 12990.39
 Adjusted qty: 12990.0
 Final Adjusted qty: 12990.0
 100000.0
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 23:55:08
+ENAUSDT 	Latest Close: (0.769) 	SMA(14) : 0.78 	Delta : S 	Previous STC : 96.11 	STC : 94.58
+WIFUSDT 	Latest Close: (0.857) 	SMA(14) : 0.86 	Delta : S 	Previous STC : 98.35 	STC : 81.87
+TIAUSDT 	Latest Close: (1.714) 	SMA(14) : 1.72 	Delta : S 	Previous STC : 97.35 	STC : 86.43
+NEARUSDT 	Latest Close: (2.55) 	SMA(14) : 2.56 	Delta : S 	Previous STC : 98.31 	STC : 89.92
+SYRUPUSDT 	Latest Close: (0.48) 	SMA(14) : 0.48 	Delta : S 	Previous STC : 98.50 	STC : 92.39
+IMXUSDT 	Latest Close: (0.5362) 	SMA(14) : 0.54 	Delta : S 	Previous STC : 97.54 	STC : 83.22
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | S |  94.58
+Last close price for ENAUSDT: 0.769
+Opening Sell for  ENAUSDT
+TP: 0.76131
+SL: 0.7843800000000001
+TS: 0.00769
+Order Quantity: 13003.9
+Adjusted qty: 13004.0
+Final Adjusted qty: 13003.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5bd10dba-d5b1-48b4-887f-6943078728a7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757361380677}
+5bd10dba-d5b1-48b4-887f-6943078728a7
+fetching trade data for :  5bd10dba-d5b1-48b4-887f-6943078728a7
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5bd10dba-d5b1-48b4-887f-6943078728a7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757361380677', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7691', 'execPrice': '0.7691', 'markIv': '', 'orderQty': '13003', 'orderPrice': '0.6922', 'execValue': '10000.6073', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196275998, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50033402', 'execId': '97638720-c9c6-49e7-83e4-4dbeee3adcbf', 'marketUnit': '', 'execQty': '13003', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  92.39
+Last close price for SYRUPUSDT: 0.48025
+Opening Sell for  SYRUPUSDT
+TP: 0.4754475
+SL: 0.48985500000000004
+TS: 0.0048025
+Order Quantity: 20822.49
+Adjusted qty: 20822.0
+Final Adjusted qty: 20822.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '57eded01-e902-44e0-a15d-a44dc2567e85', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757361395078}
+57eded01-e902-44e0-a15d-a44dc2567e85
+fetching trade data for :  57eded01-e902-44e0-a15d-a44dc2567e85
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '57eded01-e902-44e0-a15d-a44dc2567e85', 'stopOrderType': 'UNKNOWN', 'execTime': '1757361395078', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.48032', 'execPrice': '0.4804', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.43229', 'execValue': '4804', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196276445, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.6422', 'execId': 'c126ecb7-778a-4161-873a-d24f94d55b1d', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 23:56:45
