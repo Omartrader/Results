@@ -21885,3 +21885,33 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 08.09.2025 16:41:11
+***************************************************************
+Number of open positions: 9
+Function started at 08.09.2025 16:45:07
+SKYUSDT 	Latest Close: (0.07166) 	SMA(14) : 0.07 	Delta : B 	Previous STC : 12.48 	STC : 41.66
+GRTUSDT 	Latest Close: (0.09036) 	SMA(14) : 0.09 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IMXUSDT 	Latest Close: (0.5279) 	SMA(14) : 0.53 	Delta : S 	Previous STC : 99.92 	STC : 66.61
+PENDLEUSDT 	Latest Close: (4.852) 	SMA(14) : 4.85 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENDLEUSDT | S |  66.67
+Last close price for PENDLEUSDT: 4.852
+Opening Sell for  PENDLEUSDT
+TP: 4.80348
+SL: 4.94904
+TS: 0.04852
+Order Quantity: 2061.01
+Adjusted qty: 2061.0
+Final Adjusted qty: 2061.0
+5200.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '25c3745e-4024-48aa-acc6-271d1bbdbf9a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757335571191}
+25c3745e-4024-48aa-acc6-271d1bbdbf9a
+fetching trade data for :  25c3745e-4024-48aa-acc6-271d1bbdbf9a
+[{'symbol': 'PENDLEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '25c3745e-4024-48aa-acc6-271d1bbdbf9a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757335571191', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.8521', 'execPrice': '4.852', 'markIv': '', 'orderQty': '2061', 'orderPrice': '4.3669', 'execValue': '9999.972', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195437757, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999846', 'execId': '1db46239-db6a-418d-8525-7605620534eb', 'marketUnit': '', 'execQty': '2061', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 08.09.2025 16:46:21
