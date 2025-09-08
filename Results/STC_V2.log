@@ -23471,3 +23471,40 @@ Order Quantity: 1177.11
 Adjusted qty: 1177.1000000000001
 Final Adjusted qty: 1177.1
 2400.0
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 21:20:07
+ONDOUSDT 	Latest Close: (0.9347) 	SMA(14) : 0.94 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SAROSUSDT 	Latest Close: (0.31772) 	SMA(14) : 0.33 	Delta : S 	Previous STC : 100.00 	STC : 93.96
+IPUSDT 	Latest Close: (8.4986) 	SMA(14) : 8.53 	Delta : S 	Previous STC : 96.10 	STC : 91.93
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  93.96
+Last close price for SAROSUSDT: 0.31816
+Opening Sell for  SAROSUSDT
+TP: 0.3149784
+SL: 0.3245232
+TS: 0.0031816
+Order Quantity: 31430.73
+Adjusted qty: 31431.0
+Final Adjusted qty: 31430.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1244757c-5068-4f7a-a286-c73c2b1c7f2d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757352065633}
+1244757c-5068-4f7a-a286-c73c2b1c7f2d
+fetching trade data for :  1244757c-5068-4f7a-a286-c73c2b1c7f2d
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1244757c-5068-4f7a-a286-c73c2b1c7f2d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757352065632', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.31816', 'execPrice': '0.31816', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.27044', 'execValue': '8590.32', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195978723, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.449352', 'execId': '07e88d43-2faa-4eed-bed6-d63e5c514dfa', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     | S |  91.93
+Last close price for IPUSDT: 8.4975
+Opening Sell for  IPUSDT
+TP: 8.412525
+SL: 8.66745
+TS: 0.08497500000000001
+Order Quantity: 1176.82
+Adjusted qty: 1176.8
+Final Adjusted qty: 1176.8
+2400.0
