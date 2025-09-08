@@ -23553,3 +23553,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 08.09.2025 21:26:06
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 21:30:05
+ONDOUSDT 	Latest Close: (0.9375) 	SMA(14) : 0.94 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ALGOUSDT 	Latest Close: (0.2377) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 94.24
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ALGOUSDT   | S |  94.24
+Last close price for ALGOUSDT: 0.2375
+Opening Sell for  ALGOUSDT
+TP: 0.235125
+SL: 0.24225
+TS: 0.002375
+Order Quantity: 42105.26
+Adjusted qty: 42105.3
+Final Adjusted qty: 42105.2
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3a1549d7-e4c6-4d64-9503-1aa752eef7d1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757352644195}
+3a1549d7-e4c6-4d64-9503-1aa752eef7d1
+fetching trade data for :  3a1549d7-e4c6-4d64-9503-1aa752eef7d1
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3a1549d7-e4c6-4d64-9503-1aa752eef7d1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757352644194', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2376', 'execPrice': '0.2375', 'markIv': '', 'orderQty': '42105.2', 'orderPrice': '0.2258', 'execValue': '9999.985', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195997243, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999175', 'execId': '627a4b7e-c18d-42bf-8acd-f0fdf090c9e6', 'marketUnit': '', 'execQty': '42105.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | S |  66.67
+Last close price for ONDOUSDT: 0.9367
+Opening Sell for  ONDOUSDT
+TP: 0.927333
+SL: 0.955434
+TS: 0.009367
+Order Quantity: 10675.78
+Adjusted qty: 10676.0
+Final Adjusted qty: 10675.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.09.2025 21:30:55
