@@ -20903,3 +20903,65 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 08.09.2025 14:00:51
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 14:05:06
+JASMYUSDT 	Latest Close: (0.014352) 	SMA(14) : 0.01 	Delta : B 	Previous STC : 19.16 	STC : 28.96
+POLUSDT 	Latest Close: (0.28) 	SMA(14) : 0.28 	Delta : B 	Previous STC : 22.16 	STC : 33.89
+CROUSDT 	Latest Close: (0.25824) 	SMA(14) : 0.26 	Delta : B 	Previous STC : 6.88 	STC : 27.49
+STXUSDT 	Latest Close: (0.6435) 	SMA(14) : 0.64 	Delta : B 	Previous STC : 18.00 	STC : 27.23
+ICPUSDT 	Latest Close: (4.867) 	SMA(14) : 4.84 	Delta : B 	Previous STC : 14.82 	STC : 42.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ICPUSDT    | B |  42.47
+Last close price for ICPUSDT: 4.867
+Opening Buy for  ICPUSDT
+TP: 4.91567
+SL: 4.76966
+TS: 0.04867
+Order Quantity: 2054.65
+Adjusted qty: 2054.6
+Final Adjusted qty: 2054.6
+25860.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    | B |  33.89
+Last close price for POLUSDT: 0.2801
+Opening Buy for  POLUSDT
+TP: 0.282901
+SL: 0.274498
+TS: 0.002801
+Order Quantity: 35701.54
+Adjusted qty: 35702.0
+Final Adjusted qty: 35701.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c56c922c-115a-4e94-b750-f21ea0287dbb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757325942668}
+c56c922c-115a-4e94-b750-f21ea0287dbb
+fetching trade data for :  c56c922c-115a-4e94-b750-f21ea0287dbb
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c56c922c-115a-4e94-b750-f21ea0287dbb', 'stopOrderType': 'UNKNOWN', 'execTime': '1757325942667', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2801', 'execPrice': '0.2801', 'markIv': '', 'orderQty': '35701', 'orderPrice': '0.2941', 'execValue': '9999.8501', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195133084, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991756', 'execId': '155356c1-2e7a-4ddb-be36-017f63700070', 'marketUnit': '', 'execQty': '35701', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JASMYUSDT  | B |  28.96
+Last close price for JASMYUSDT: 0.014368
+Opening Buy for  JASMYUSDT
+TP: 0.01451168
+SL: 0.01408064
+TS: 0.00014368
+Order Quantity: 695991.09
+Adjusted qty: 695991.0
+Final Adjusted qty: 695991.0
+2421700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '359ed712-bdf6-424b-ac9f-4a8267a5b954', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757325954510}
+359ed712-bdf6-424b-ac9f-4a8267a5b954
+fetching trade data for :  359ed712-bdf6-424b-ac9f-4a8267a5b954
+[{'symbol': 'JASMYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '359ed712-bdf6-424b-ac9f-4a8267a5b954', 'stopOrderType': 'UNKNOWN', 'execTime': '1757325954509', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.014368', 'execPrice': '0.014368', 'markIv': '', 'orderQty': '695991', 'orderPrice': '0.015804', 'execValue': '9999.998688', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195133441, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999928', 'execId': '36cc0bc6-3989-4b06-84c6-9fa57eb92ec5', 'marketUnit': '', 'execQty': '695991', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 14:06:04
