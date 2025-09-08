@@ -13785,3 +13785,31 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 08.09.2025 13:27:17
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 13:31:47
+	AVAXUSDT 	Signal: B
+AVAXUSDT 	Latest Close: (25.201) 	SMA(14) : 24.99 	Delta :  	Previous STC : 17.87 	STC : 28.48
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | B |  28.48
+1
+Last close price for AVAXUSDT: 25.201
+Opening Buy for  AVAXUSDT
+TP: 25.45301
+SL: 24.69698
+TS: 0.25201
+Order Quantity: 793.62
+Adjusted qty: 793.6
+Final Adjusted qty: 793.6
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '694fe914-7714-4b78-aa60-2288369acb69', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757323942581}
+694fe914-7714-4b78-aa60-2288369acb69
+fetching trade data for :  694fe914-7714-4b78-aa60-2288369acb69
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '694fe914-7714-4b78-aa60-2288369acb69', 'stopOrderType': 'UNKNOWN', 'execTime': '1757323942580', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '25.204', 'execPrice': '25.204', 'markIv': '', 'orderQty': '793.6', 'orderPrice': '25.708', 'execValue': '20001.8944', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506034656, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00104192', 'execId': '4f7cab8d-7313-42f5-8412-257334cc35e5', 'marketUnit': '', 'execQty': '793.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 08.09.2025 13:32:33
