@@ -24595,3 +24595,44 @@ USDCUSDT 	Latest Close: (0.9999) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 0.00
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 09.09.2025 02:40:40
+***************************************************************
+Number of open positions: 2
+Function started at 09.09.2025 02:45:07
+TONUSDT 	Latest Close: (3.0981) 	SMA(14) : 3.10 	Delta : B 	Previous STC : 20.10 	STC : 28.76
+USDEUSDT 	Latest Close: (1.0) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 10.91 	STC : 40.61
+ZECUSDT 	Latest Close: (50.91) 	SMA(14) : 51.06 	Delta : S 	Previous STC : 98.60 	STC : 81.64
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ZECUSDT    | S |  81.64
+Last close price for ZECUSDT: 50.91
+Opening Sell for  ZECUSDT
+TP: 50.40089999999999
+SL: 51.9282
+TS: 0.5091
+Order Quantity: 196.43
+Adjusted qty: 196.43
+Final Adjusted qty: 196.43
+100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '71b4ca1d-54b0-4dba-a268-6e40823fbdb2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757371546661}
+71b4ca1d-54b0-4dba-a268-6e40823fbdb2
+fetching trade data for :  71b4ca1d-54b0-4dba-a268-6e40823fbdb2
+[{'symbol': 'ZECUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '71b4ca1d-54b0-4dba-a268-6e40823fbdb2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757371546659', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '50.91', 'execPrice': '50.91', 'markIv': '', 'orderQty': '100', 'orderPrice': '45.82', 'execValue': '5091', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196591085, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.80005', 'execId': 'c9aa68ba-240d-4fce-8be4-6de6677e38d1', 'marketUnit': '', 'execQty': '100', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    | B |  28.76
+Last close price for TONUSDT: 3.0992
+Opening Buy for  TONUSDT
+TP: 3.130192
+SL: 3.037216
+TS: 0.030992000000000002
+Order Quantity: 3226.64
+Adjusted qty: 3226.6000000000004
+Final Adjusted qty: 3226.6
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 09.09.2025 02:45:56
