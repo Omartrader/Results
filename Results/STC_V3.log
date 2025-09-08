@@ -13686,3 +13686,69 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 08.09.2025 13:17:13
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 13:21:23
+	PENGUUSDT 	Signal: B
+PENGUUSDT 	Latest Close: (0.032686) 	SMA(14) : 0.03 	Delta :  	Previous STC : 13.18 	STC : 29.39
+	FORMUSDT 	Signal: B
+FORMUSDT 	Latest Close: (4.1534) 	SMA(14) : 3.91 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (339.4) 	SMA(14) : 335.14 	Delta :  	Previous STC : 18.67 	STC : 27.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | B |  33.33
+1
+Last close price for FORMUSDT: 4.1362
+Opening Buy for  FORMUSDT
+TP: 4.177562
+SL: 4.053476
+TS: 0.041361999999999996
+Order Quantity: 4835.36
+Adjusted qty: 4835.0
+Final Adjusted qty: 4835.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '61884030-3128-470b-8a2a-127cccc06eb5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757323317242}
+61884030-3128-470b-8a2a-127cccc06eb5
+fetching trade data for :  61884030-3128-470b-8a2a-127cccc06eb5
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '61884030-3128-470b-8a2a-127cccc06eb5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757323317241', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.1416', 'execPrice': '4.1301', 'markIv': '', 'orderQty': '2850', 'orderPrice': '4.7628', 'execValue': '11770.785', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506012521, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '6.47393175', 'execId': '760b1591-3f62-4762-9c19-ed74e9f045ac', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | B |  29.39
+1
+Last close price for PENGUUSDT: 0.032753
+Opening Buy for  PENGUUSDT
+TP: 0.03308053
+SL: 0.03209794
+TS: 0.00032753
+Order Quantity: 610631.09
+Adjusted qty: 610630.0
+Final Adjusted qty: 610630.0
+2500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TAOUSDT    | B |  27.43
+1
+Last close price for TAOUSDT: 339.41
+Opening Buy for  TAOUSDT
+TP: 342.8041
+SL: 332.6218
+TS: 3.3941000000000003
+Order Quantity: 58.93
+Adjusted qty: 58.93
+Final Adjusted qty: 58.93
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a0cfc870-a8e7-470c-9e00-c1e490cf4abb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757323332718}
+a0cfc870-a8e7-470c-9e00-c1e490cf4abb
+fetching trade data for :  a0cfc870-a8e7-470c-9e00-c1e490cf4abb
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a0cfc870-a8e7-470c-9e00-c1e490cf4abb', 'stopOrderType': 'UNKNOWN', 'execTime': '1757323332717', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '339.4', 'execPrice': '339.47', 'markIv': '', 'orderQty': '58.93', 'orderPrice': '390.31', 'execValue': '20004.9671', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506013071, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00273191', 'execId': 'd5a8192e-932e-4871-8a24-978c2ccfcf22', 'marketUnit': '', 'execQty': '58.93', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 13:22:23
