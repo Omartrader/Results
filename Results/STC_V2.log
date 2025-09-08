@@ -18806,3 +18806,45 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 08.09.2025 07:01:42
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 07:05:06
+TRXUSDT 	Latest Close: (0.33003) 	SMA(14) : 0.33 	Delta : S 	Previous STC : 96.95 	STC : 89.59
+NEARUSDT 	Latest Close: (2.493) 	SMA(14) : 2.47 	Delta : B 	Previous STC : 7.30 	STC : 38.20
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 6.24 	STC : 27.87
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 6.24 	STC : 27.87
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | S |  89.59
+Last close price for TRXUSDT: 0.33009
+Opening Sell for  TRXUSDT
+TP: 0.3267891
+SL: 0.3366918
+TS: 0.0033009
+Order Quantity: 30294.77
+Adjusted qty: 30295.0
+Final Adjusted qty: 30294.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '85e39da5-8087-44dd-af32-c02be7fe121a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757300760424}
+85e39da5-8087-44dd-af32-c02be7fe121a
+fetching trade data for :  85e39da5-8087-44dd-af32-c02be7fe121a
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '85e39da5-8087-44dd-af32-c02be7fe121a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757300760423', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.33009', 'execPrice': '0.33009', 'markIv': '', 'orderQty': '30294', 'orderPrice': '0.31359', 'execValue': '9999.74646', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697194373390, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986056', 'execId': 'dc4cb934-4a73-49e5-9387-0aa226f593af', 'marketUnit': '', 'execQty': '30294', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+NEARUSDT   | B |  38.20
+Last close price for NEARUSDT: 2.492
+Opening Buy for  NEARUSDT
+TP: 2.51692
+SL: 2.44216
+TS: 0.02492
+Order Quantity: 4012.84
+Adjusted qty: 4012.8
+Final Adjusted qty: 4012.8
+66470.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.09.2025 07:06:12
