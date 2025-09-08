@@ -21281,3 +21281,49 @@ Order Quantity: 7439.92
 Adjusted qty: 7440.0
 Final Adjusted qty: 7439.0
 14800.0
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 15:05:06
+SPXUSDT 	Latest Close: (1.3281) 	SMA(14) : 1.30 	Delta : B 	Previous STC : 15.94 	STC : 43.96
+EIGENUSDT 	Latest Close: (1.4808) 	SMA(14) : 1.45 	Delta : B 	Previous STC : 15.41 	STC : 41.65
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SPXUSDT    | B |  43.96
+Last close price for SPXUSDT: 1.3264
+Opening Buy for  SPXUSDT
+TP: 1.339664
+SL: 1.299872
+TS: 0.013264
+Order Quantity: 7539.2
+Adjusted qty: 7539.0
+Final Adjusted qty: 7539.0
+14800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '652bf4e4-fe21-4bf2-bd76-d20c06222e65', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757329541063}
+652bf4e4-fe21-4bf2-bd76-d20c06222e65
+fetching trade data for :  652bf4e4-fe21-4bf2-bd76-d20c06222e65
+[{'symbol': 'SPXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '652bf4e4-fe21-4bf2-bd76-d20c06222e65', 'stopOrderType': 'UNKNOWN', 'execTime': '1757329541062', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3263', 'execPrice': '1.3261', 'markIv': '', 'orderQty': '7539', 'orderPrice': '1.5252', 'execValue': '9997.4679', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195247749, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49860735', 'execId': '4815aebe-f7b7-4300-862d-49b7804cd246', 'marketUnit': '', 'execQty': '7539', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+EIGENUSDT  | B |  41.65
+Last close price for EIGENUSDT: 1.4788
+Opening Buy for  EIGENUSDT
+TP: 1.493588
+SL: 1.4492239999999998
+TS: 0.014787999999999999
+Order Quantity: 6762.24
+Adjusted qty: 6762.0
+Final Adjusted qty: 6762.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e561ca1e-2649-4c85-b332-c4b156c9d8e4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757329553472}
+e561ca1e-2649-4c85-b332-c4b156c9d8e4
+fetching trade data for :  e561ca1e-2649-4c85-b332-c4b156c9d8e4
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e561ca1e-2649-4c85-b332-c4b156c9d8e4', 'stopOrderType': 'UNKNOWN', 'execTime': '1757329553471', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.4799', 'execPrice': '1.4788', 'markIv': '', 'orderQty': '6762', 'orderPrice': '1.6278', 'execValue': '9999.6456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195248130, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49980508', 'execId': 'd78d5cf5-aa86-47bb-8ee2-2d90f95fef0b', 'marketUnit': '', 'execQty': '6762', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 15:06:03
