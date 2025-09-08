@@ -22561,3 +22561,57 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 08.09.2025 18:30:50
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 18:35:07
+DOGEUSDT 	Latest Close: (0.23894) 	SMA(14) : 0.24 	Delta : B 	Previous STC : 7.60 	STC : 38.40
+DOGEUSDT 	Latest Close: (0.23894) 	SMA(14) : 0.24 	Delta : B 	Previous STC : 7.60 	STC : 38.40
+EIGENUSDT 	Latest Close: (1.4471) 	SMA(14) : 1.45 	Delta : S 	Previous STC : 98.23 	STC : 91.77
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+EIGENUSDT  | S |  91.77
+Last close price for EIGENUSDT: 1.4481
+Opening Sell for  EIGENUSDT
+TP: 1.433619
+SL: 1.4770619999999999
+TS: 0.014480999999999999
+Order Quantity: 6905.6
+Adjusted qty: 6906.0
+Final Adjusted qty: 6905.0
+20000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+DOGEUSDT   | B |  38.40
+Last close price for DOGEUSDT: 0.23923
+Opening Buy for  DOGEUSDT
+TP: 0.2416223
+SL: 0.2344454
+TS: 0.0023923
+Order Quantity: 41800.78
+Adjusted qty: 41801.0
+Final Adjusted qty: 41800.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0a2adaf8-ab1c-4194-ae8a-656afbc37c8f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757342180134}
+0a2adaf8-ab1c-4194-ae8a-656afbc37c8f
+fetching trade data for :  0a2adaf8-ab1c-4194-ae8a-656afbc37c8f
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0a2adaf8-ab1c-4194-ae8a-656afbc37c8f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757342180133', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23901', 'execPrice': '0.23885', 'markIv': '', 'orderQty': '41800', 'orderPrice': '0.25096', 'execValue': '9983.93', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195653399, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4911615', 'execId': 'e12c5e53-61eb-4cf7-8efd-7d73cf14bc35', 'marketUnit': '', 'execQty': '41800', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOGEUSDT   | B |  38.40
+Last close price for DOGEUSDT: 0.23878
+Opening Buy for  DOGEUSDT
+TP: 0.2411678
+SL: 0.2340044
+TS: 0.0023878
+Order Quantity: 41879.55
+Adjusted qty: 41880.0
+Final Adjusted qty: 41879.0
+5991100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.09.2025 18:36:32
