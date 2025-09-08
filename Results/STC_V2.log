@@ -23508,3 +23508,48 @@ Order Quantity: 1176.82
 Adjusted qty: 1176.8
 Final Adjusted qty: 1176.8
 2400.0
+***************************************************************
+Number of open positions: 7
+Function started at 08.09.2025 21:25:05
+ONDOUSDT 	Latest Close: (0.9368) 	SMA(14) : 0.94 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IPUSDT 	Latest Close: (8.5097) 	SMA(14) : 8.53 	Delta : S 	Previous STC : 96.10 	STC : 92.31
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  92.31
+Last close price for IPUSDT: 8.5068
+Opening Sell for  IPUSDT
+TP: 8.421732
+SL: 8.676936
+TS: 0.085068
+Order Quantity: 1175.53
+Adjusted qty: 1175.5
+Final Adjusted qty: 1175.5
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '353f013d-5864-4137-a8d9-739b826a8cd6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757352344064}
+353f013d-5864-4137-a8d9-739b826a8cd6
+fetching trade data for :  353f013d-5864-4137-a8d9-739b826a8cd6
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '353f013d-5864-4137-a8d9-739b826a8cd6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757352344062', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.5093', 'execPrice': '8.5068', 'markIv': '', 'orderQty': '1175.5', 'orderPrice': '7.6584', 'execValue': '9999.7434', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195987752, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49985887', 'execId': '7df5e4c4-4374-4d90-83b9-08a566fd73f4', 'marketUnit': '', 'execQty': '1175.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | S |  66.67
+Last close price for ONDOUSDT: 0.936
+Opening Sell for  ONDOUSDT
+TP: 0.92664
+SL: 0.9547200000000001
+TS: 0.00936
+Order Quantity: 10683.76
+Adjusted qty: 10684.0
+Final Adjusted qty: 10683.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7faabd67-b45e-471a-8820-606e9641a679', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757352356224}
+7faabd67-b45e-471a-8820-606e9641a679
+fetching trade data for :  7faabd67-b45e-471a-8820-606e9641a679
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7faabd67-b45e-471a-8820-606e9641a679', 'stopOrderType': 'UNKNOWN', 'execTime': '1757352356223', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.936', 'execPrice': '0.936', 'markIv': '', 'orderQty': '10683', 'orderPrice': '0.8892', 'execValue': '9999.288', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195988121, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4996084', 'execId': 'b1ff05e3-09f0-4254-be6c-3434c34e13d6', 'marketUnit': '', 'execQty': '10683', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 08.09.2025 21:26:06
