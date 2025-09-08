@@ -13882,3 +13882,45 @@ Order Quantity: 4.64
 Adjusted qty: 4.64
 Final Adjusted qty: 4.64
 724.0
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 13:50:44
+	FILUSDT 	Signal: B
+FILUSDT 	Latest Close: (2.427) 	SMA(14) : 2.42 	Delta :  	Previous STC : 21.82 	STC : 28.49
+	ETHUSDT 	Signal: B
+ETHUSDT 	Latest Close: (4313.91) 	SMA(14) : 4301.07 	Delta :  	Previous STC : 9.84 	STC : 39.64
+	AAVEUSDT 	Signal: B
+AAVEUSDT 	Latest Close: (301.18) 	SMA(14) : 300.70 	Delta :  	Previous STC : 7.04 	STC : 28.26
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | B |  39.64
+1
+Last close price for ETHUSDT: 4313.62
+Opening Buy for  ETHUSDT
+TP: 4356.7562
+SL: 4227.3476
+TS: 43.1362
+Order Quantity: 4.64
+Adjusted qty: 4.64
+Final Adjusted qty: 4.64
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd2b8706a-9286-455d-b8dd-f8e9dbd498a7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757325080277}
+d2b8706a-9286-455d-b8dd-f8e9dbd498a7
+fetching trade data for :  d2b8706a-9286-455d-b8dd-f8e9dbd498a7
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd2b8706a-9286-455d-b8dd-f8e9dbd498a7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757325080276', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4311.28', 'execPrice': '4310.3', 'markIv': '', 'orderQty': '4.64', 'orderPrice': '4397.5', 'execValue': '19999.792', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506073960, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9998856', 'execId': 'b24a38f7-536e-4025-88ea-1b8987e4db68', 'marketUnit': '', 'execQty': '4.64', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | B |  28.49
+1
+Last close price for FILUSDT: 2.426
+Opening Buy for  FILUSDT
+TP: 2.45026
+SL: 2.3774800000000003
+TS: 0.02426
+Order Quantity: 8244.02
+Adjusted qty: 8244.0
+Final Adjusted qty: 8244.0
+60730.0
