@@ -14026,3 +14026,59 @@ Order Quantity: 71403.07
 Adjusted qty: 71403.0
 Final Adjusted qty: 71403.0
 500000.0
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 14:11:26
+	POLUSDT 	Signal: B
+POLUSDT 	Latest Close: (0.2802) 	SMA(14) : 0.28 	Delta :  	Previous STC : 22.16 	STC : 33.89
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.25805) 	SMA(14) : 0.26 	Delta :  	Previous STC : 6.88 	STC : 27.29
+	ICPUSDT 	Signal: B
+ICPUSDT 	Latest Close: (4.867) 	SMA(14) : 4.84 	Delta :  	Previous STC : 14.82 	STC : 42.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ICPUSDT    | B |  42.47
+1
+Last close price for ICPUSDT: 4.867
+Opening Buy for  ICPUSDT
+TP: 4.91567
+SL: 4.76966
+TS: 0.04867
+Order Quantity: 4109.31
+Adjusted qty: 4109.3
+Final Adjusted qty: 4109.3
+25860.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    | B |  33.89
+1
+Last close price for POLUSDT: 0.2801
+Opening Buy for  POLUSDT
+TP: 0.282901
+SL: 0.274498
+TS: 0.002801
+Order Quantity: 71403.07
+Adjusted qty: 71403.0
+Final Adjusted qty: 71403.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ffac6c6f-951f-4ec9-a65d-35b6981ee661', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757326321380}
+ffac6c6f-951f-4ec9-a65d-35b6981ee661
+fetching trade data for :  ffac6c6f-951f-4ec9-a65d-35b6981ee661
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ffac6c6f-951f-4ec9-a65d-35b6981ee661', 'stopOrderType': 'UNKNOWN', 'execTime': '1757326321380', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2801', 'execPrice': '0.2801', 'markIv': '', 'orderQty': '71403', 'orderPrice': '0.2941', 'execValue': '19999.9803', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506117688, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998917', 'execId': '7dc14923-272d-4fd7-997d-ff3c5f43868a', 'marketUnit': '', 'execQty': '71403', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | B |  27.29
+1
+Last close price for CROUSDT: 0.25813
+Opening Buy for  CROUSDT
+TP: 0.26071130000000003
+SL: 0.2529674
+TS: 0.0025813000000000003
+Order Quantity: 77480.34
+Adjusted qty: 77480.0
+Final Adjusted qty: 77480.0
+79800.0
