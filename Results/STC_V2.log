@@ -23236,3 +23236,49 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 08.09.2025 20:45:41
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 20:50:06
+JTOUSDT 	Latest Close: (1.861) 	SMA(14) : 1.87 	Delta : S 	Previous STC : 100.00 	STC : 88.33
+UNIUSDT 	Latest Close: (9.675) 	SMA(14) : 9.71 	Delta : S 	Previous STC : 100.00 	STC : 93.71
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  93.71
+Last close price for UNIUSDT: 9.675
+Opening Sell for  UNIUSDT
+TP: 9.57825
+SL: 9.868500000000001
+TS: 0.09675
+Order Quantity: 1033.59
+Adjusted qty: 1033.6000000000001
+Final Adjusted qty: 1033.5
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0d7f513e-7483-44d1-bea6-b2da3c2d578e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757350245180}
+0d7f513e-7483-44d1-bea6-b2da3c2d578e
+fetching trade data for :  0d7f513e-7483-44d1-bea6-b2da3c2d578e
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0d7f513e-7483-44d1-bea6-b2da3c2d578e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757350245179', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.676', 'execPrice': '9.675', 'markIv': '', 'orderQty': '1033.5', 'orderPrice': '9.193', 'execValue': '9999.1125', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195918947, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49951188', 'execId': '3bbd1390-e14c-4c76-8246-437d07d85730', 'marketUnit': '', 'execQty': '1033.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JTOUSDT    | S |  88.33
+Last close price for JTOUSDT: 1.861
+Opening Sell for  JTOUSDT
+TP: 1.84239
+SL: 1.89822
+TS: 0.01861
+Order Quantity: 5373.46
+Adjusted qty: 5373.5
+Final Adjusted qty: 5373.4
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bc1b5195-4110-461e-b961-b98900f43a03', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757350257024}
+bc1b5195-4110-461e-b961-b98900f43a03
+fetching trade data for :  bc1b5195-4110-461e-b961-b98900f43a03
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bc1b5195-4110-461e-b961-b98900f43a03', 'stopOrderType': 'UNKNOWN', 'execTime': '1757350257023', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.861', 'execPrice': '1.861', 'markIv': '', 'orderQty': '5373.4', 'orderPrice': '1.675', 'execValue': '9999.8974', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195919310, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994357', 'execId': '25668987-22db-4e3a-bd25-43dfd7fdbf27', 'marketUnit': '', 'execQty': '5373.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 20:51:07
