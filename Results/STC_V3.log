@@ -13984,3 +13984,45 @@ Order Quantity: 4110.15
 Adjusted qty: 4110.1
 Final Adjusted qty: 4110.1
 25860.0
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 14:06:09
+	POLUSDT 	Signal: B
+POLUSDT 	Latest Close: (0.2802) 	SMA(14) : 0.28 	Delta :  	Previous STC : 22.16 	STC : 33.89
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.25833) 	SMA(14) : 0.26 	Delta :  	Previous STC : 6.88 	STC : 27.58
+	ICPUSDT 	Signal: B
+ICPUSDT 	Latest Close: (4.869) 	SMA(14) : 4.84 	Delta :  	Previous STC : 14.82 	STC : 42.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ICPUSDT    | B |  42.47
+1
+Last close price for ICPUSDT: 4.871
+Opening Buy for  ICPUSDT
+TP: 4.91971
+SL: 4.77358
+TS: 0.04871
+Order Quantity: 4105.93
+Adjusted qty: 4105.900000000001
+Final Adjusted qty: 4105.9
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd8c17918-ff15-468d-9ee8-90f166e92cde', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757326003966}
+d8c17918-ff15-468d-9ee8-90f166e92cde
+fetching trade data for :  d8c17918-ff15-468d-9ee8-90f166e92cde
+[{'symbol': 'ICPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd8c17918-ff15-468d-9ee8-90f166e92cde', 'stopOrderType': 'UNKNOWN', 'execTime': '1757326003965', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.872', 'execPrice': '4.871', 'markIv': '', 'orderQty': '4105.9', 'orderPrice': '5.115', 'execValue': '19999.8389', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506106628, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999114', 'execId': 'e11c3dda-29d7-4eb5-9f1f-ee174a492fa2', 'marketUnit': '', 'execQty': '4105.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    | B |  33.89
+1
+Last close price for POLUSDT: 0.2801
+Opening Buy for  POLUSDT
+TP: 0.282901
+SL: 0.274498
+TS: 0.002801
+Order Quantity: 71403.07
+Adjusted qty: 71403.0
+Final Adjusted qty: 71403.0
+500000.0
