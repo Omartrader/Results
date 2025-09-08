@@ -23741,3 +23741,50 @@ Order Quantity: 480.12
 Adjusted qty: 480.1
 Final Adjusted qty: 480.1
 10610.0
+***************************************************************
+Number of open positions: 9
+Function started at 08.09.2025 22:10:06
+ADAUSDT 	Latest Close: (0.8615) 	SMA(14) : 0.86 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+HBARUSDT 	Latest Close: (0.22569) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+CRVUSDT 	Latest Close: (0.788) 	SMA(14) : 0.79 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TRUMPUSDT 	Latest Close: (8.594) 	SMA(14) : 8.63 	Delta : S 	Previous STC : 98.01 	STC : 65.34
+ICPUSDT 	Latest Close: (4.885) 	SMA(14) : 4.91 	Delta : S 	Previous STC : 100.00 	STC : 85.11
+ETHUSDT 	Latest Close: (4316.72) 	SMA(14) : 4346.52 	Delta : S 	Previous STC : 100.00 	STC : 95.64
+ETCUSDT 	Latest Close: (20.826) 	SMA(14) : 20.90 	Delta : S 	Previous STC : 100.00 	STC : 90.46
+LTCUSDT 	Latest Close: (112.6) 	SMA(14) : 113.13 	Delta : S 	Previous STC : 99.26 	STC : 85.73
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | S |  95.64
+Last close price for ETHUSDT: 4317.0
+Opening Sell for  ETHUSDT
+TP: 4273.83
+SL: 4403.34
+TS: 43.17
+Order Quantity: 2.32
+Adjusted qty: 2.32
+Final Adjusted qty: 2.32
+724.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETCUSDT    | S |  90.46
+Last close price for ETCUSDT: 20.827
+Opening Sell for  ETCUSDT
+TP: 20.618730000000003
+SL: 21.243540000000003
+TS: 0.20827
+Order Quantity: 480.15
+Adjusted qty: 480.1
+Final Adjusted qty: 480.1
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '97863a91-405a-479f-8430-3eb7ce75daf5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757355045303}
+97863a91-405a-479f-8430-3eb7ce75daf5
+fetching trade data for :  97863a91-405a-479f-8430-3eb7ce75daf5
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '97863a91-405a-479f-8430-3eb7ce75daf5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757355045301', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.827', 'execPrice': '20.827', 'markIv': '', 'orderQty': '480.1', 'orderPrice': '19.786', 'execValue': '9999.0427', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196072934, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49947349', 'execId': 'f70a3261-1235-481b-973b-fe971c2531d9', 'marketUnit': '', 'execQty': '480.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 08.09.2025 22:10:55
