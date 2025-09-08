@@ -22685,3 +22685,50 @@ Function started at 08.09.2025 18:55:06
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 08.09.2025 18:55:39
+***************************************************************
+Number of open positions: 8
+Function started at 08.09.2025 19:00:06
+WLDUSDT 	Latest Close: (1.5016) 	SMA(14) : 1.33 	Delta : B 	Previous STC : 7.85 	STC : 35.16
+FORMUSDT 	Latest Close: (4.0133) 	SMA(14) : 4.06 	Delta : S 	Previous STC : 97.77 	STC : 87.82
+USDEUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.63 	STC : 85.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | S |  87.82
+Last close price for FORMUSDT: 4.005
+Opening Sell for  FORMUSDT
+TP: 3.96495
+SL: 4.0851
+TS: 0.04005
+Order Quantity: 2496.88
+Adjusted qty: 2497.0
+Final Adjusted qty: 2496.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '46c793b7-6371-412f-8a4f-985b5aa013d1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757343681595}
+46c793b7-6371-412f-8a4f-985b5aa013d1
+fetching trade data for :  46c793b7-6371-412f-8a4f-985b5aa013d1
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '46c793b7-6371-412f-8a4f-985b5aa013d1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757343681595', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.0016', 'execPrice': '4.005', 'markIv': '', 'orderQty': '2496', 'orderPrice': '3.4014', 'execValue': '9996.48', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195705524, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.498064', 'execId': '17cccbce-9186-42da-82d3-cc04b8246b6e', 'marketUnit': '', 'execQty': '2496', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | B |  35.16
+Last close price for WLDUSDT: 1.5714
+Opening Buy for  WLDUSDT
+TP: 1.587114
+SL: 1.539972
+TS: 0.015714
+Order Quantity: 6363.75
+Adjusted qty: 6363.8
+Final Adjusted qty: 6363.7
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '815a015f-a23a-43a6-9833-783fa37fbbec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757343695547}
+815a015f-a23a-43a6-9833-783fa37fbbec
+fetching trade data for :  815a015f-a23a-43a6-9833-783fa37fbbec
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '815a015f-a23a-43a6-9833-783fa37fbbec', 'stopOrderType': 'UNKNOWN', 'execTime': '1757343695547', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.5763', 'execPrice': '1.5727', 'markIv': '', 'orderQty': '6363.7', 'orderPrice': '1.6551', 'execValue': '10008.19099', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195706000, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50450505', 'execId': '2a925bc4-1eac-4ad3-beae-265d204d1e19', 'marketUnit': '', 'execQty': '6363.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 08.09.2025 19:01:45
