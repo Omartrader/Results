@@ -23334,3 +23334,72 @@ Order Quantity: 3368.25
 Adjusted qty: 3368.0
 Final Adjusted qty: 3368.0
 2467800.0
+***************************************************************
+Number of open positions: 7
+Function started at 08.09.2025 21:05:07
+PENGUUSDT 	Latest Close: (0.033661) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 18.81 	STC : 32.06
+FARTCOINUSDT 	Latest Close: (0.8096) 	SMA(14) : 0.82 	Delta : S 	Previous STC : 100.00 	STC : 80.32
+XRPUSDT 	Latest Close: (2.9658) 	SMA(14) : 2.98 	Delta : S 	Previous STC : 100.00 	STC : 87.19
+UNIUSDT 	Latest Close: (9.642) 	SMA(14) : 9.71 	Delta : S 	Previous STC : 96.50 	STC : 64.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XRPUSDT    | S |  87.19
+Last close price for XRPUSDT: 2.9651
+Opening Sell for  XRPUSDT
+TP: 2.935449
+SL: 3.0244020000000003
+TS: 0.029651
+Order Quantity: 3372.57
+Adjusted qty: 3373.0
+Final Adjusted qty: 3372.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '19afed6c-decb-48e6-adc1-f7d384a71c24', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757351186450}
+19afed6c-decb-48e6-adc1-f7d384a71c24
+fetching trade data for :  19afed6c-decb-48e6-adc1-f7d384a71c24
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '19afed6c-decb-48e6-adc1-f7d384a71c24', 'stopOrderType': 'UNKNOWN', 'execTime': '1757351186449', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.9651', 'execPrice': '2.9651', 'markIv': '', 'orderQty': '3372', 'orderPrice': '2.8169', 'execValue': '9998.3172', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195950014, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49907446', 'execId': 'd11598d8-4fbd-4fa0-83ce-3be622fac41a', 'marketUnit': '', 'execQty': '3372', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FARTCOINUSDT | S |  80.32
+Last close price for FARTCOINUSDT: 0.809
+Opening Sell for  FARTCOINUSDT
+TP: 0.80091
+SL: 0.82518
+TS: 0.00809
+Order Quantity: 12360.94
+Adjusted qty: 12361.0
+Final Adjusted qty: 12360.0
+600000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f2a63312-cf11-40c6-a922-82d8fc828f47', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757351200530}
+f2a63312-cf11-40c6-a922-82d8fc828f47
+fetching trade data for :  f2a63312-cf11-40c6-a922-82d8fc828f47
+[{'symbol': 'FARTCOINUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f2a63312-cf11-40c6-a922-82d8fc828f47', 'stopOrderType': 'UNKNOWN', 'execTime': '1757351200530', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8088', 'execPrice': '0.8087', 'markIv': '', 'orderQty': '12360', 'orderPrice': '0.6875', 'execValue': '9995.532', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195950479, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4975426', 'execId': 'e343296f-b652-4286-b889-6a80b90673e2', 'marketUnit': '', 'execQty': '12360', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | S |  64.34
+Last close price for UNIUSDT: 9.637
+Opening Sell for  UNIUSDT
+TP: 9.54063
+SL: 9.829740000000001
+TS: 0.09637000000000001
+Order Quantity: 1037.67
+Adjusted qty: 1037.7
+Final Adjusted qty: 1037.6
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+PENGUUSDT  | B |  32.06
+Last close price for PENGUUSDT: 0.03353
+Opening Buy for  PENGUUSDT
+TP: 0.0338653
+SL: 0.0328594
+TS: 0.00033529999999999996
+Order Quantity: 298240.38
+Adjusted qty: 298240.0
+Final Adjusted qty: 298240.0
+2500000.0
