@@ -22732,3 +22732,44 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 08.09.2025 19:01:45
+***************************************************************
+Number of open positions: 7
+Function started at 08.09.2025 19:10:07
+WLDUSDT 	Latest Close: (1.5299) 	SMA(14) : 1.33 	Delta : B 	Previous STC : 7.85 	STC : 35.70
+FORMUSDT 	Latest Close: (3.9681) 	SMA(14) : 4.06 	Delta : S 	Previous STC : 97.77 	STC : 87.44
+USDEUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.63 	STC : 85.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | S |  87.44
+Last close price for FORMUSDT: 3.9724
+Opening Sell for  FORMUSDT
+TP: 3.932676
+SL: 4.051848
+TS: 0.039724
+Order Quantity: 2517.37
+Adjusted qty: 2517.0
+Final Adjusted qty: 2517.0
+2850.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    | B |  35.70
+Last close price for WLDUSDT: 1.5306
+Opening Buy for  WLDUSDT
+TP: 1.545906
+SL: 1.4999879999999999
+TS: 0.015306
+Order Quantity: 6533.39
+Adjusted qty: 6533.400000000001
+Final Adjusted qty: 6533.3
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '03ce9aec-c56e-4ee7-9789-3c27a0c75265', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757344287682}
+03ce9aec-c56e-4ee7-9789-3c27a0c75265
+fetching trade data for :  03ce9aec-c56e-4ee7-9789-3c27a0c75265
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '03ce9aec-c56e-4ee7-9789-3c27a0c75265', 'stopOrderType': 'UNKNOWN', 'execTime': '1757344287682', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.5303', 'execPrice': '1.5297', 'markIv': '', 'orderQty': '6533.3', 'orderPrice': '1.6068', 'execValue': '9993.98901', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195725897, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49669396', 'execId': '2a4ee310-972a-4a54-9a96-241092372c92', 'marketUnit': '', 'execQty': '6533.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 08.09.2025 19:11:39
