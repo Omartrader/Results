@@ -19161,3 +19161,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 08.09.2025 08:10:51
+***************************************************************
+Number of open positions: 6
+Function started at 08.09.2025 08:15:06
+BRETTUSDT 	Latest Close: (0.04536) 	SMA(14) : 0.05 	Delta : B 	Previous STC : 24.99 	STC : 34.12
+AEROUSDT 	Latest Close: (1.1384) 	SMA(14) : 1.13 	Delta : B 	Previous STC : 18.24 	STC : 26.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BRETTUSDT  | B |  34.12
+Last close price for BRETTUSDT: 0.04541
+Opening Buy for  BRETTUSDT
+TP: 0.0458641
+SL: 0.0445018
+TS: 0.0004541
+Order Quantity: 220215.81
+Adjusted qty: 220220.0
+Final Adjusted qty: 220210.0
+400000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ebbed93c-554c-4aee-ad96-0cd7a21ea582', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757304961268}
+ebbed93c-554c-4aee-ad96-0cd7a21ea582
+fetching trade data for :  ebbed93c-554c-4aee-ad96-0cd7a21ea582
+[{'symbol': 'BRETTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ebbed93c-554c-4aee-ad96-0cd7a21ea582', 'stopOrderType': 'UNKNOWN', 'execTime': '1757304961267', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.04541', 'execPrice': '0.04541', 'markIv': '', 'orderQty': '220210', 'orderPrice': '0.05222', 'execValue': '9999.7361', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697194500185, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49985486', 'execId': '66e6e54f-16fe-42a2-876d-7730d860e7fa', 'marketUnit': '', 'execQty': '220210', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AEROUSDT   | B |  26.33
+Last close price for AEROUSDT: 1.139
+Opening Buy for  AEROUSDT
+TP: 1.15039
+SL: 1.11622
+TS: 0.01139
+Order Quantity: 8779.63
+Adjusted qty: 8780.0
+Final Adjusted qty: 8779.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '47f944cf-aa6a-4129-9080-5b067cfaab87', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757304974233}
+47f944cf-aa6a-4129-9080-5b067cfaab87
+fetching trade data for :  47f944cf-aa6a-4129-9080-5b067cfaab87
+[{'symbol': 'AEROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '47f944cf-aa6a-4129-9080-5b067cfaab87', 'stopOrderType': 'UNKNOWN', 'execTime': '1757304974233', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.139', 'execPrice': '1.139', 'markIv': '', 'orderQty': '8779', 'orderPrice': '1.3098', 'execValue': '9999.281', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697194500585, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49960455', 'execId': '6bd48a5c-fa5d-4e74-930a-6bb3e58ede1a', 'marketUnit': '', 'execQty': '8779', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 08.09.2025 08:16:23
