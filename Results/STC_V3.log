@@ -14826,3 +14826,43 @@ Order Quantity: 59.02
 Adjusted qty: 59.02
 Final Adjusted qty: 59.02
 60.0
+***************************************************************
+Number of open positions: 3
+Function started at 08.09.2025 17:15:54
+	ENAUSDT 	Signal: S
+ENAUSDT 	Latest Close: (0.7743) 	SMA(14) : 0.78 	Delta :  	Previous STC : 99.99 	STC : 88.60
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.25247) 	SMA(14) : 0.26 	Delta :  	Previous STC : 98.67 	STC : 94.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  94.47
+1
+Last close price for CROUSDT: 0.25261
+Opening Sell for  CROUSDT
+TP: 0.2500839
+SL: 0.2576622
+TS: 0.0025261
+Order Quantity: 79173.43
+Adjusted qty: 79173.0
+Final Adjusted qty: 79173.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9e2a0165-f9e3-4152-8f45-bcb60030c2c9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757337390182}
+9e2a0165-f9e3-4152-8f45-bcb60030c2c9
+fetching trade data for :  9e2a0165-f9e3-4152-8f45-bcb60030c2c9
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9e2a0165-f9e3-4152-8f45-bcb60030c2c9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757337390181', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.25261', 'execPrice': '0.25261', 'markIv': '', 'orderQty': '79173', 'orderPrice': '0.22735', 'execValue': '19999.89153', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612506502768, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99994035', 'execId': 'ce89c0de-fba8-4b02-96f4-dc8c93933f07', 'marketUnit': '', 'execQty': '79173', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | S |  88.60
+1
+Last close price for ENAUSDT: 0.777
+Opening Sell for  ENAUSDT
+TP: 0.76923
+SL: 0.79254
+TS: 0.00777
+Order Quantity: 25740.03
+Adjusted qty: 25740.0
+Final Adjusted qty: 25740.0
+100000.0
