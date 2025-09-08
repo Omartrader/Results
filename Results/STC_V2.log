@@ -20965,3 +20965,73 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 08.09.2025 14:06:04
+***************************************************************
+Number of open positions: 9
+Function started at 08.09.2025 14:10:07
+JASMYUSDT 	Latest Close: (0.014383) 	SMA(14) : 0.01 	Delta : B 	Previous STC : 19.16 	STC : 28.96
+POLUSDT 	Latest Close: (0.2799) 	SMA(14) : 0.28 	Delta : B 	Previous STC : 22.16 	STC : 33.89
+CROUSDT 	Latest Close: (0.25828) 	SMA(14) : 0.26 	Delta : B 	Previous STC : 6.88 	STC : 27.53
+STXUSDT 	Latest Close: (0.6434) 	SMA(14) : 0.64 	Delta : B 	Previous STC : 18.00 	STC : 27.23
+ICPUSDT 	Latest Close: (4.866) 	SMA(14) : 4.84 	Delta : B 	Previous STC : 14.82 	STC : 42.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ICPUSDT    | B |  42.47
+Last close price for ICPUSDT: 4.864
+Opening Buy for  ICPUSDT
+TP: 4.91264
+SL: 4.766719999999999
+TS: 0.048639999999999996
+Order Quantity: 2055.92
+Adjusted qty: 2055.9
+Final Adjusted qty: 2055.9
+25860.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    | B |  33.89
+Last close price for POLUSDT: 0.2801
+Opening Buy for  POLUSDT
+TP: 0.282901
+SL: 0.274498
+TS: 0.002801
+Order Quantity: 35701.54
+Adjusted qty: 35702.0
+Final Adjusted qty: 35701.0
+500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JASMYUSDT  | B |  28.96
+Last close price for JASMYUSDT: 0.014377
+Opening Buy for  JASMYUSDT
+TP: 0.014520769999999999
+SL: 0.014089459999999998
+TS: 0.00014377
+Order Quantity: 695555.4
+Adjusted qty: 695555.0
+Final Adjusted qty: 695555.0
+2421700.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+CROUSDT    | B |  27.53
+Last close price for CROUSDT: 0.25808
+Opening Buy for  CROUSDT
+TP: 0.26066079999999997
+SL: 0.2529184
+TS: 0.0025808
+Order Quantity: 38747.68
+Adjusted qty: 38748.0
+Final Adjusted qty: 38747.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '49a0bde4-c77a-4683-9b47-50219aec1cf4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757326269981}
+49a0bde4-c77a-4683-9b47-50219aec1cf4
+fetching trade data for :  49a0bde4-c77a-4683-9b47-50219aec1cf4
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '49a0bde4-c77a-4683-9b47-50219aec1cf4', 'stopOrderType': 'UNKNOWN', 'execTime': '1757326269980', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.25805', 'execPrice': '0.25808', 'markIv': '', 'orderQty': '38747', 'orderPrice': '0.28385', 'execValue': '9999.82576', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697195143540, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990417', 'execId': '8a388c33-602b-4a44-bc67-aae1c04f007a', 'marketUnit': '', 'execQty': '38747', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 08.09.2025 14:11:21
