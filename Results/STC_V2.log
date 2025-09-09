@@ -30376,3 +30376,73 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 09.09.2025 17:21:02
+***************************************************************
+Number of open positions: 9
+Function started at 09.09.2025 17:25:05
+XDCUSDT 	Latest Close: (0.07969) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 97.41 	STC : 64.94
+ETHFIUSDT 	Latest Close: (1.2448) 	SMA(14) : 1.26 	Delta : S 	Previous STC : 96.67 	STC : 73.01
+AVAXUSDT 	Latest Close: (25.88) 	SMA(14) : 26.02 	Delta : S 	Previous STC : 97.67 	STC : 79.08
+UNIUSDT 	Latest Close: (9.707) 	SMA(14) : 9.79 	Delta : S 	Previous STC : 98.01 	STC : 80.47
+FORMUSDT 	Latest Close: (3.1162) 	SMA(14) : 3.11 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  80.47
+Last close price for UNIUSDT: 9.707
+Opening Sell for  UNIUSDT
+TP: 9.60993
+SL: 9.901140000000002
+TS: 0.09707
+Order Quantity: 1030.18
+Adjusted qty: 1030.2
+Final Adjusted qty: 1030.1
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AVAXUSDT   | S |  79.08
+Last close price for AVAXUSDT: 25.882
+Opening Sell for  AVAXUSDT
+TP: 25.62318
+SL: 26.39964
+TS: 0.25882
+Order Quantity: 386.37
+Adjusted qty: 386.40000000000003
+Final Adjusted qty: 386.3
+10950.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHFIUSDT  | S |  73.01
+Last close price for ETHFIUSDT: 1.2458
+Opening Sell for  ETHFIUSDT
+TP: 1.233342
+SL: 1.270716
+TS: 0.012458
+Order Quantity: 8026.97
+Adjusted qty: 8027.0
+Final Adjusted qty: 8026.9
+17000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XDCUSDT    | S |  64.94
+Last close price for XDCUSDT: 0.07974
+Opening Sell for  XDCUSDT
+TP: 0.0789426
+SL: 0.08133480000000001
+TS: 0.0007974000000000001
+Order Quantity: 125407.57
+Adjusted qty: 125408.0
+Final Adjusted qty: 125407.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c0a0ba52-64a0-4b6e-8da7-af415895c506', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757424342902}
+c0a0ba52-64a0-4b6e-8da7-af415895c506
+fetching trade data for :  c0a0ba52-64a0-4b6e-8da7-af415895c506
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c0a0ba52-64a0-4b6e-8da7-af415895c506', 'stopOrderType': 'UNKNOWN', 'execTime': '1757424342900', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.0797', 'execPrice': '0.07974', 'markIv': '', 'orderQty': '125407', 'orderPrice': '0.06376', 'execValue': '9999.95418', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198230766, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999496', 'execId': '4ae32061-473b-42b4-89ae-9b3f137eb407', 'marketUnit': '', 'execQty': '125407', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 17:25:53
