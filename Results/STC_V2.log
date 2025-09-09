@@ -25873,3 +25873,94 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 09.09.2025 05:07:22
+***************************************************************
+Number of open positions: 7
+Function started at 09.09.2025 05:10:06
+WLDUSDT 	Latest Close: (1.7957) 	SMA(14) : 1.62 	Delta : B 	Previous STC : 12.76 	STC : 41.84
+ENAUSDT 	Latest Close: (0.7893) 	SMA(14) : 0.78 	Delta : B 	Previous STC : 15.99 	STC : 44.00
+OPUSDT 	Latest Close: (0.7623) 	SMA(14) : 0.76 	Delta : B 	Previous STC : 7.60 	STC : 26.16
+CROUSDT 	Latest Close: (0.2473) 	SMA(14) : 0.25 	Delta : S 	Previous STC : 99.92 	STC : 86.79
+GRTUSDT 	Latest Close: (0.09333) 	SMA(14) : 0.09 	Delta : B 	Previous STC : 13.68 	STC : 42.46
+APEUSDT 	Latest Close: (0.6005) 	SMA(14) : 0.60 	Delta : B 	Previous STC : 14.39 	STC : 42.93
+ETHFIUSDT 	Latest Close: (1.199) 	SMA(14) : 1.19 	Delta : B 	Previous STC : 24.61 	STC : 49.74
+IMXUSDT 	Latest Close: (0.5483) 	SMA(14) : 0.54 	Delta : B 	Previous STC : 8.97 	STC : 34.22
+FILUSDT 	Latest Close: (2.454) 	SMA(14) : 2.44 	Delta : B 	Previous STC : 7.83 	STC : 27.81
+APTUSDT 	Latest Close: (4.43) 	SMA(14) : 4.41 	Delta : B 	Previous STC : 18.11 	STC : 45.41
+RENDERUSDT 	Latest Close: (3.793) 	SMA(14) : 3.73 	Delta : B 	Previous STC : 18.09 	STC : 45.39
+NEOUSDT 	Latest Close: (6.7) 	SMA(14) : 6.69 	Delta : B 	Previous STC : 16.53 	STC : 44.35
+TAOUSDT 	Latest Close: (345.46) 	SMA(14) : 343.99 	Delta : B 	Previous STC : 8.36 	STC : 30.65
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  86.79
+Last close price for CROUSDT: 0.24681
+Opening Sell for  CROUSDT
+TP: 0.2443419
+SL: 0.25174620000000003
+TS: 0.0024681
+Order Quantity: 40517.0
+Adjusted qty: 40517.0
+Final Adjusted qty: 40517.0
+79800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHFIUSDT  | B |  49.74
+Last close price for ETHFIUSDT: 1.1992
+Opening Buy for  ETHFIUSDT
+TP: 1.211192
+SL: 1.175216
+TS: 0.011992000000000001
+Order Quantity: 8338.89
+Adjusted qty: 8338.9
+Final Adjusted qty: 8338.8
+17000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+APTUSDT    | B |  45.41
+Last close price for APTUSDT: 4.427
+Opening Buy for  APTUSDT
+TP: 4.47127
+SL: 4.3384599999999995
+TS: 0.04427
+Order Quantity: 2258.87
+Adjusted qty: 2258.87
+Final Adjusted qty: 2258.87
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1134dcf6-9926-40fd-ada8-2ee6758c241f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757380297981}
+1134dcf6-9926-40fd-ada8-2ee6758c241f
+fetching trade data for :  1134dcf6-9926-40fd-ada8-2ee6758c241f
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1134dcf6-9926-40fd-ada8-2ee6758c241f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757380297980', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.4277', 'execPrice': '4.427', 'markIv': '', 'orderQty': '2258.87', 'orderPrice': '4.649', 'execValue': '10000.01749', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196861597, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000962', 'execId': '34770ef3-3c31-4580-9175-52a46543ca7d', 'marketUnit': '', 'execQty': '2258.87', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  45.39
+Last close price for RENDERUSDT: 3.792
+Opening Buy for  RENDERUSDT
+TP: 3.82992
+SL: 3.71616
+TS: 0.037919999999999995
+Order Quantity: 2637.13
+Adjusted qty: 2637.1000000000004
+Final Adjusted qty: 2637.1
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1f5952b0-a253-43e5-9f7c-34a0aec48131', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757380311531}
+1f5952b0-a253-43e5-9f7c-34a0aec48131
+fetching trade data for :  1f5952b0-a253-43e5-9f7c-34a0aec48131
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1f5952b0-a253-43e5-9f7c-34a0aec48131', 'stopOrderType': 'UNKNOWN', 'execTime': '1757380311530', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.793', 'execPrice': '3.792', 'markIv': '', 'orderQty': '2637.1', 'orderPrice': '3.982', 'execValue': '9999.8832', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196861982, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993576', 'execId': 'af02d3a2-b5e2-46e9-abb5-275a9e4fc19d', 'marketUnit': '', 'execQty': '2637.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+NEOUSDT    | B |  44.35
+Last close price for NEOUSDT: 6.695
+Opening Buy for  NEOUSDT
+TP: 6.761950000000001
+SL: 6.561100000000001
+TS: 0.06695000000000001
+Order Quantity: 1493.65
+Adjusted qty: 1493.65
+Final Adjusted qty: 1493.65
+7367.0
