@@ -20509,3 +20509,45 @@ Order Quantity: 2054.86
 Adjusted qty: 2054.9
 Final Adjusted qty: 2054.8
 17540.0
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 17:21:06
+	XDCUSDT 	Signal: S
+XDCUSDT 	Latest Close: (0.07963) 	SMA(14) : 0.08 	Delta :  	Previous STC : 97.41 	STC : 64.94
+	AVAXUSDT 	Signal: S
+AVAXUSDT 	Latest Close: (25.893) 	SMA(14) : 26.02 	Delta :  	Previous STC : 97.67 	STC : 79.36
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (9.713) 	SMA(14) : 9.79 	Delta :  	Previous STC : 98.01 	STC : 80.70
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  80.70
+1
+Last close price for UNIUSDT: 9.713
+Opening Sell for  UNIUSDT
+TP: 9.61587
+SL: 9.907259999999999
+TS: 0.09713
+Order Quantity: 2059.1
+Adjusted qty: 2059.1
+Final Adjusted qty: 2059.1
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1bf88ecc-7612-465d-b7e2-05b5f5c9e889', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757424085533}
+1bf88ecc-7612-465d-b7e2-05b5f5c9e889
+fetching trade data for :  1bf88ecc-7612-465d-b7e2-05b5f5c9e889
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1bf88ecc-7612-465d-b7e2-05b5f5c9e889', 'stopOrderType': 'UNKNOWN', 'execTime': '1757424085532', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.713', 'execPrice': '9.713', 'markIv': '', 'orderQty': '2059.1', 'orderPrice': '9.228', 'execValue': '20000.0383', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612509523460, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00002107', 'execId': '4c15fe59-9d25-4f27-8bc5-fee9ca43b870', 'marketUnit': '', 'execQty': '2059.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | S |  79.36
+1
+Last close price for AVAXUSDT: 25.895
+Opening Sell for  AVAXUSDT
+TP: 25.63605
+SL: 26.4129
+TS: 0.25895
+Order Quantity: 772.35
+Adjusted qty: 772.4000000000001
+Final Adjusted qty: 772.3
+10950.0
