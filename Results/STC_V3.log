@@ -19562,3 +19562,52 @@ Order Quantity: 34.21
 Adjusted qty: 34.21
 Final Adjusted qty: 34.21
 804.0
+***************************************************************
+Number of open positions: 2
+Function started at 09.09.2025 12:41:18
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (1.9607) 	SMA(14) : 1.93 	Delta :  	Previous STC : 8.43 	STC : 34.68
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (584.7) 	SMA(14) : 583.50 	Delta :  	Previous STC : 9.33 	STC : 34.08
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | B |  34.68
+1
+Last close price for MUSDT: 1.96
+Opening Buy for  MUSDT
+TP: 1.9796
+SL: 1.9207999999999998
+TS: 0.0196
+Order Quantity: 10204.08
+Adjusted qty: 10204.0
+Final Adjusted qty: 10204.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '72c91a53-9f1a-450d-997a-c68e6e26d4a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757407299379}
+72c91a53-9f1a-450d-997a-c68e6e26d4a8
+fetching trade data for :  72c91a53-9f1a-450d-997a-c68e6e26d4a8
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '72c91a53-9f1a-450d-997a-c68e6e26d4a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757407299379', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9571', 'execPrice': '1.96', 'markIv': '', 'orderQty': '10204', 'orderPrice': '2.2506', 'execValue': '19999.84', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508915232, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.999824', 'execId': '076f9934-ad86-4cd0-a431-a80bfa90b64c', 'marketUnit': '', 'execQty': '10204', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    | B |  34.08
+1
+Last close price for BCHUSDT: 584.7
+Opening Buy for  BCHUSDT
+TP: 590.547
+SL: 573.0060000000001
+TS: 5.847
+Order Quantity: 34.21
+Adjusted qty: 34.21
+Final Adjusted qty: 34.21
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ffb1f2c6-74f6-4e60-a006-9e72ce33bbe5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757407311450}
+ffb1f2c6-74f6-4e60-a006-9e72ce33bbe5
+fetching trade data for :  ffb1f2c6-74f6-4e60-a006-9e72ce33bbe5
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ffb1f2c6-74f6-4e60-a006-9e72ce33bbe5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757407311449', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '584.7', 'execPrice': '584.7', 'markIv': '', 'orderQty': '34.21', 'orderPrice': '613.9', 'execValue': '20002.587', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508915616, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00142285', 'execId': '386b7bf7-3257-45d5-aa95-27bab6fda6d7', 'marketUnit': '', 'execQty': '34.21', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 12:42:00
