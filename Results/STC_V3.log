@@ -17202,3 +17202,47 @@ Order Quantity: 177.35
 Adjusted qty: 177.3
 Final Adjusted qty: 177.3
 6160.0
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 04:31:50
+	ARBUSDT 	Signal: B
+ARBUSDT 	Latest Close: (0.5126) 	SMA(14) : 0.51 	Delta :  	Previous STC : 20.79 	STC : 47.19
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (2.598) 	SMA(14) : 2.59 	Delta :  	Previous STC : 21.61 	STC : 47.74
+	DOTUSDT 	Signal: B
+DOTUSDT 	Latest Close: (4.0551) 	SMA(14) : 4.05 	Delta :  	Previous STC : 20.02 	STC : 46.68
+	ICPUSDT 	Signal: B
+ICPUSDT 	Latest Close: (4.905) 	SMA(14) : 4.89 	Delta :  	Previous STC : 8.32 	STC : 36.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | B |  47.74
+1
+Last close price for NEARUSDT: 2.592
+Opening Buy for  NEARUSDT
+TP: 2.6179200000000002
+SL: 2.54016
+TS: 0.025920000000000002
+Order Quantity: 7716.05
+Adjusted qty: 7716.0
+Final Adjusted qty: 7716.0
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0b857791-5926-4f78-8713-44e3da1db13a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757377942568}
+0b857791-5926-4f78-8713-44e3da1db13a
+fetching trade data for :  0b857791-5926-4f78-8713-44e3da1db13a
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0b857791-5926-4f78-8713-44e3da1db13a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757377942567', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.593', 'execPrice': '2.592', 'markIv': '', 'orderQty': '7716', 'orderPrice': '2.722', 'execValue': '19999.872', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612507894827, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999296', 'execId': '858bd5c0-d820-44e9-ad53-c0f931a0484d', 'marketUnit': '', 'execQty': '7716', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARBUSDT    | B |  47.19
+1
+Last close price for ARBUSDT: 0.512
+Opening Buy for  ARBUSDT
+TP: 0.51712
+SL: 0.50176
+TS: 0.00512
+Order Quantity: 39062.5
+Adjusted qty: 39062.5
+Final Adjusted qty: 39062.5
+283360.0
