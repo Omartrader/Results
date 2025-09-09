@@ -31506,3 +31506,76 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 23:06:12
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 23:10:06
+ENAUSDT 	Latest Close: (0.8301) 	SMA(14) : 0.81 	Delta : B 	Previous STC : 6.70 	STC : 36.40
+KAIAUSDT 	Latest Close: (0.1567) 	SMA(14) : 0.16 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+IPUSDT 	Latest Close: (10.8438) 	SMA(14) : 11.05 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+COREUSDT 	Latest Close: (0.4612) 	SMA(14) : 0.45 	Delta : B 	Previous STC : 19.64 	STC : 46.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  66.67
+Last close price for IPUSDT: 10.8402
+Opening Sell for  IPUSDT
+TP: 10.731798
+SL: 11.057004
+TS: 0.108402
+Order Quantity: 922.49
+Adjusted qty: 922.5
+Final Adjusted qty: 922.4
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '02f0d4a5-3ac6-49fb-8236-83ecc7d3931c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757445038420}
+02f0d4a5-3ac6-49fb-8236-83ecc7d3931c
+fetching trade data for :  02f0d4a5-3ac6-49fb-8236-83ecc7d3931c
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '02f0d4a5-3ac6-49fb-8236-83ecc7d3931c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757445038419', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.8362', 'execPrice': '10.8359', 'markIv': '', 'orderQty': '922.4', 'orderPrice': '9.7526', 'execValue': '9995.03416', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198884270, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49726879', 'execId': 'ca2ce9b6-ba18-4146-804b-44a3c4bd85ad', 'marketUnit': '', 'execQty': '922.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+COREUSDT   | B |  46.43
+Last close price for COREUSDT: 0.4585
+Opening Buy for  COREUSDT
+TP: 0.463085
+SL: 0.44933
+TS: 0.0045850000000000005
+Order Quantity: 21810.25
+Adjusted qty: 21810.2
+Final Adjusted qty: 21810.2
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b21f3682-2827-4a7b-8a66-9b08f0305966', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757445050733}
+b21f3682-2827-4a7b-8a66-9b08f0305966
+fetching trade data for :  b21f3682-2827-4a7b-8a66-9b08f0305966
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b21f3682-2827-4a7b-8a66-9b08f0305966', 'stopOrderType': 'UNKNOWN', 'execTime': '1757445050732', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4584', 'execPrice': '0.4584', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.5042', 'execValue': '6215.904', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198884685, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.4187472', 'execId': 'f4586c2d-5632-4cf9-aea9-0b72f0150fb6', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | B |  36.40
+Last close price for ENAUSDT: 0.8298
+Opening Buy for  ENAUSDT
+TP: 0.838098
+SL: 0.8132039999999999
+TS: 0.008298
+Order Quantity: 12051.1
+Adjusted qty: 12051.0
+Final Adjusted qty: 12051.0
+100000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+KAIAUSDT   | B |  33.33
+Last close price for KAIAUSDT: 0.1567
+Opening Buy for  KAIAUSDT
+TP: 0.15826700000000002
+SL: 0.153566
+TS: 0.001567
+Order Quantity: 63816.21
+Adjusted qty: 63816.0
+Final Adjusted qty: 63816.0
+170000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 09.09.2025 23:11:03
