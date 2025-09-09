@@ -28566,3 +28566,48 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 09.09.2025 11:11:17
+***************************************************************
+Number of open positions: 7
+Function started at 09.09.2025 11:15:07
+MANAUSDT 	Latest Close: (0.3308) 	SMA(14) : 0.33 	Delta : B 	Previous STC : 16.63 	STC : 44.42
+DOTUSDT 	Latest Close: (4.1567) 	SMA(14) : 4.08 	Delta : B 	Previous STC : 7.43 	STC : 25.44
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MANAUSDT   | B |  44.42
+Last close price for MANAUSDT: 0.3309
+Opening Buy for  MANAUSDT
+TP: 0.33420900000000003
+SL: 0.324282
+TS: 0.0033090000000000003
+Order Quantity: 30220.61
+Adjusted qty: 30220.600000000002
+Final Adjusted qty: 30220.6
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fb78961c-8cc5-4463-9052-44547ae51cee', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757402162211}
+fb78961c-8cc5-4463-9052-44547ae51cee
+fetching trade data for :  fb78961c-8cc5-4463-9052-44547ae51cee
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fb78961c-8cc5-4463-9052-44547ae51cee', 'stopOrderType': 'UNKNOWN', 'execTime': '1757402162210', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3309', 'execPrice': '0.3309', 'markIv': '', 'orderQty': '30220.6', 'orderPrice': '0.3639', 'execValue': '9999.99654', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197530984, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999981', 'execId': '7511e707-ed5d-4f98-b5eb-50a19111d753', 'marketUnit': '', 'execQty': '30220.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | B |  25.44
+Last close price for DOTUSDT: 4.167
+Opening Buy for  DOTUSDT
+TP: 4.20867
+SL: 4.08366
+TS: 0.04167
+Order Quantity: 2399.81
+Adjusted qty: 2399.8
+Final Adjusted qty: 2399.8
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '16218c54-bde0-49ef-aadb-08d497421f19', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757402175815}
+16218c54-bde0-49ef-aadb-08d497421f19
+fetching trade data for :  16218c54-bde0-49ef-aadb-08d497421f19
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '16218c54-bde0-49ef-aadb-08d497421f19', 'stopOrderType': 'UNKNOWN', 'execTime': '1757402175815', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.1687', 'execPrice': '4.1677', 'markIv': '', 'orderQty': '2399.8', 'orderPrice': '4.3771', 'execValue': '10001.64646', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197531424, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50090556', 'execId': 'f157c5da-59d0-43c3-a932-513079d95d51', 'marketUnit': '', 'execQty': '2399.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 11:16:25
