@@ -32052,3 +32052,53 @@ Order Quantity: 102155.48
 Adjusted qty: 102155.5
 Final Adjusted qty: 102155.4
 555670.0
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 00:25:11
+GRTUSDT 	Latest Close: (0.09753) 	SMA(14) : 0.10 	Delta : B 	Previous STC : 9.83 	STC : 39.89
+MNTUSDT 	Latest Close: (1.3186) 	SMA(14) : 1.28 	Delta : B 	Previous STC : 6.78 	STC : 26.14
+WALUSDT 	Latest Close: (0.4214) 	SMA(14) : 0.42 	Delta : B 	Previous STC : 14.44 	STC : 42.96
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | B |  42.96
+Last close price for WALUSDT: 0.4214
+Opening Buy for  WALUSDT
+TP: 0.425614
+SL: 0.412972
+TS: 0.004214
+Order Quantity: 23730.42
+Adjusted qty: 23730.0
+Final Adjusted qty: 23730.0
+51400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+GRTUSDT    | B |  39.89
+Last close price for GRTUSDT: 0.09743
+Opening Buy for  GRTUSDT
+TP: 0.0984043
+SL: 0.0954814
+TS: 0.0009743
+Order Quantity: 102637.79
+Adjusted qty: 102637.8
+Final Adjusted qty: 102637.7
+555670.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6f04d922-b821-452f-9ff9-f9818e9b7376', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757449568633}
+6f04d922-b821-452f-9ff9-f9818e9b7376
+fetching trade data for :  6f04d922-b821-452f-9ff9-f9818e9b7376
+[{'symbol': 'GRTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6f04d922-b821-452f-9ff9-f9818e9b7376', 'stopOrderType': 'UNKNOWN', 'execTime': '1757449568631', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.0974', 'execPrice': '0.09743', 'markIv': '', 'orderQty': '102637.7', 'orderPrice': '0.10714', 'execValue': '9999.991111', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199024858, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999512', 'execId': '2688862e-3f46-43f9-a183-97bf777fd102', 'marketUnit': '', 'execQty': '102637.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    | B |  26.14
+Last close price for MNTUSDT: 1.318
+Opening Buy for  MNTUSDT
+TP: 1.33118
+SL: 1.2916400000000001
+TS: 0.01318
+Order Quantity: 7587.25
+Adjusted qty: 7587.0
+Final Adjusted qty: 7587.0
+71000.0
