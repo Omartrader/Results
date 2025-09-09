@@ -27346,3 +27346,43 @@ Order Quantity: 46.64
 Adjusted qty: 46.6
 Final Adjusted qty: 46.6
 11740.0
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 09:25:06
+PENGUUSDT 	Latest Close: (0.034947) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+BUSDT 	Latest Close: (0.62379) 	SMA(14) : 0.64 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | S |  66.67
+Last close price for BUSDT: 0.62379
+Opening Sell for  BUSDT
+TP: 0.6175520999999999
+SL: 0.6362658
+TS: 0.006237899999999999
+Order Quantity: 16031.04
+Adjusted qty: 16031.0
+Final Adjusted qty: 16031.0
+90000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+PENGUUSDT  | B |  33.33
+Last close price for PENGUUSDT: 0.035114
+Opening Buy for  PENGUUSDT
+TP: 0.03546514
+SL: 0.03441172
+TS: 0.00035114
+Order Quantity: 284786.69
+Adjusted qty: 284790.0
+Final Adjusted qty: 284780.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a4a3f90c-e8c4-443c-a487-8cb124acd158', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757395563629}
+a4a3f90c-e8c4-443c-a487-8cb124acd158
+fetching trade data for :  a4a3f90c-e8c4-443c-a487-8cb124acd158
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a4a3f90c-e8c4-443c-a487-8cb124acd158', 'stopOrderType': 'UNKNOWN', 'execTime': '1757395563629', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.035104', 'execPrice': '0.035105', 'markIv': '', 'orderQty': '284780', 'orderPrice': '0.038614', 'execValue': '9997.2019', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197327811, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49846105', 'execId': '3d98799e-c02b-4432-9ac1-06e5b9cb289a', 'marketUnit': '', 'execQty': '284780', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 09:26:13
