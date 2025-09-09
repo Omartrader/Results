@@ -27620,3 +27620,81 @@ Order Quantity: 22512.38
 Adjusted qty: 22512.4
 Final Adjusted qty: 22512.3
 13560.0
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 09:55:07
+POLUSDT 	Latest Close: (0.2723) 	SMA(14) : 0.27 	Delta : B 	Previous STC : 3.22 	STC : 32.60
+AEROUSDT 	Latest Close: (1.1705) 	SMA(14) : 1.16 	Delta : B 	Previous STC : 11.10 	STC : 40.73
+WALUSDT 	Latest Close: (0.4308) 	SMA(14) : 0.43 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+UNIUSDT 	Latest Close: (9.527) 	SMA(14) : 9.49 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+IPUSDT 	Latest Close: (8.558) 	SMA(14) : 8.57 	Delta : S 	Previous STC : 97.70 	STC : 84.51
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  84.51
+Last close price for IPUSDT: 8.5602
+Opening Sell for  IPUSDT
+TP: 8.474598
+SL: 8.731404
+TS: 0.085602
+Order Quantity: 1168.2
+Adjusted qty: 1168.2
+Final Adjusted qty: 1168.2
+2400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AEROUSDT   | B |  40.73
+Last close price for AEROUSDT: 1.1705
+Opening Buy for  AEROUSDT
+TP: 1.1822050000000002
+SL: 1.1470900000000002
+TS: 0.011705
+Order Quantity: 8543.36
+Adjusted qty: 8543.0
+Final Adjusted qty: 8543.0
+30000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    | B |  33.33
+Last close price for UNIUSDT: 9.531
+Opening Buy for  UNIUSDT
+TP: 9.62631
+SL: 9.34038
+TS: 0.09531
+Order Quantity: 1049.21
+Adjusted qty: 1049.2
+Final Adjusted qty: 1049.2
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WALUSDT    | B |  33.33
+Last close price for WALUSDT: 0.4308
+Opening Buy for  WALUSDT
+TP: 0.435108
+SL: 0.422184
+TS: 0.004308
+Order Quantity: 23212.63
+Adjusted qty: 23213.0
+Final Adjusted qty: 23212.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aa3ea1d1-9714-4247-832a-8e94faa9552e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757397368564}
+aa3ea1d1-9714-4247-832a-8e94faa9552e
+fetching trade data for :  aa3ea1d1-9714-4247-832a-8e94faa9552e
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aa3ea1d1-9714-4247-832a-8e94faa9552e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757397368564', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4308', 'execPrice': '0.4308', 'markIv': '', 'orderQty': '23212', 'orderPrice': '0.5169', 'execValue': '9999.7296', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197381586, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49985128', 'execId': '12fcbb42-7229-4700-be11-748208856cce', 'marketUnit': '', 'execQty': '23212', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    | B |  32.60
+Last close price for POLUSDT: 0.2722
+Opening Buy for  POLUSDT
+TP: 0.274922
+SL: 0.266756
+TS: 0.002722
+Order Quantity: 36737.69
+Adjusted qty: 36738.0
+Final Adjusted qty: 36737.0
+500000.0
