@@ -30766,3 +30766,48 @@ Function started at 09.09.2025 18:55:08
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 09.09.2025 18:56:22
+***************************************************************
+Number of open positions: 1
+Function started at 09.09.2025 19:00:07
+MNTUSDT 	Latest Close: (1.2584) 	SMA(14) : 1.28 	Delta : S 	Previous STC : 100.00 	STC : 87.76
+SAROSUSDT 	Latest Close: (0.3205) 	SMA(14) : 0.31 	Delta : B 	Previous STC : 4.71 	STC : 36.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  87.76
+Last close price for MNTUSDT: 1.2578
+Opening Sell for  MNTUSDT
+TP: 1.245222
+SL: 1.282956
+TS: 0.012578
+Order Quantity: 7950.39
+Adjusted qty: 7950.0
+Final Adjusted qty: 7950.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ccd6380a-7700-45f8-a0e7-adb3226e523c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757430068196}
+ccd6380a-7700-45f8-a0e7-adb3226e523c
+fetching trade data for :  ccd6380a-7700-45f8-a0e7-adb3226e523c
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ccd6380a-7700-45f8-a0e7-adb3226e523c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757430068196', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.25801', 'execPrice': '1.258', 'markIv': '', 'orderQty': '7950', 'orderPrice': '1.1323', 'execValue': '10001.1', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198412270, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.500605', 'execId': '195a547d-8ea6-48ef-87a8-cd80c67434fc', 'marketUnit': '', 'execQty': '7950', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SAROSUSDT  | B |  36.47
+Last close price for SAROSUSDT: 0.32275
+Opening Buy for  SAROSUSDT
+TP: 0.3259775
+SL: 0.316295
+TS: 0.0032275
+Order Quantity: 30983.73
+Adjusted qty: 30984.0
+Final Adjusted qty: 30983.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '51052022-8a4b-46ac-aa35-453d6d540198', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757430081649}
+51052022-8a4b-46ac-aa35-453d6d540198
+fetching trade data for :  51052022-8a4b-46ac-aa35-453d6d540198
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '51052022-8a4b-46ac-aa35-453d6d540198', 'stopOrderType': 'UNKNOWN', 'execTime': '1757430081648', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.32189', 'execPrice': '0.32178', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.37017', 'execValue': '8688.06', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198412697, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.556866', 'execId': '7b4cb3f6-94b1-47ed-b819-1c281a86f156', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 19:01:32
