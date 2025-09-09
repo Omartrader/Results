@@ -18959,3 +18959,49 @@ Order Quantity: 83263.95
 Adjusted qty: 83263.90000000001
 Final Adjusted qty: 83263.9
 160000.0
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 10:50:46
+	SEIUSDT 	Signal: B
+SEIUSDT 	Latest Close: (0.3176) 	SMA(14) : 0.31 	Delta :  	Previous STC : 18.11 	STC : 45.41
+	OPUSDT 	Signal: B
+OPUSDT 	Latest Close: (0.7751) 	SMA(14) : 0.76 	Delta :  	Previous STC : 9.50 	STC : 35.92
+	ALGOUSDT 	Signal: B
+ALGOUSDT 	Latest Close: (0.2404) 	SMA(14) : 0.24 	Delta :  	Previous STC : 20.46 	STC : 46.97
+	JUPUSDT 	Signal: B
+JUPUSDT 	Latest Close: (0.5302) 	SMA(14) : 0.52 	Delta :  	Previous STC : 12.66 	STC : 41.77
+	ICPUSDT 	Signal: B
+ICPUSDT 	Latest Close: (5.034) 	SMA(14) : 4.94 	Delta :  	Previous STC : 18.97 	STC : 28.80
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ALGOUSDT   | B |  46.97
+1
+Last close price for ALGOUSDT: 0.2407
+Opening Buy for  ALGOUSDT
+TP: 0.243107
+SL: 0.23588599999999998
+TS: 0.002407
+Order Quantity: 83090.98
+Adjusted qty: 83091.0
+Final Adjusted qty: 83090.9
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9e25bf6f-15a7-483e-942f-113044a8affc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757400679143}
+9e25bf6f-15a7-483e-942f-113044a8affc
+fetching trade data for :  9e25bf6f-15a7-483e-942f-113044a8affc
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9e25bf6f-15a7-483e-942f-113044a8affc', 'stopOrderType': 'UNKNOWN', 'execTime': '1757400679142', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2407', 'execPrice': '0.2407', 'markIv': '', 'orderQty': '83090.9', 'orderPrice': '0.2527', 'execValue': '19999.97963', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508683099, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999888', 'execId': '5248d00d-272c-4b90-8713-0e71cc6b8583', 'marketUnit': '', 'execQty': '83090.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SEIUSDT    | B |  45.41
+1
+Last close price for SEIUSDT: 0.3181
+Opening Buy for  SEIUSDT
+TP: 0.321281
+SL: 0.311738
+TS: 0.003181
+Order Quantity: 62873.31
+Adjusted qty: 62873.0
+Final Adjusted qty: 62873.0
+245500.0
