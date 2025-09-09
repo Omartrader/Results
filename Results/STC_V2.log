@@ -30872,3 +30872,62 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 19:20:52
+***************************************************************
+Number of open positions: 1
+Function started at 09.09.2025 19:30:09
+DOGEUSDT 	Latest Close: (0.23902) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 81.92
+DOGEUSDT 	Latest Close: (0.23902) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 81.92
+ATHUSDT 	Latest Close: (0.0422) 	SMA(14) : 0.04 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOGEUSDT   | S |  81.92
+Last close price for DOGEUSDT: 0.23905
+Opening Sell for  DOGEUSDT
+TP: 0.23665950000000002
+SL: 0.24383100000000002
+TS: 0.0023905000000000003
+Order Quantity: 41832.25
+Adjusted qty: 41832.0
+Final Adjusted qty: 41832.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '864d6d2e-76a8-46a9-bbab-bef4d06d242d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757431860537}
+864d6d2e-76a8-46a9-bbab-bef4d06d242d
+fetching trade data for :  864d6d2e-76a8-46a9-bbab-bef4d06d242d
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '864d6d2e-76a8-46a9-bbab-bef4d06d242d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757431860536', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23908', 'execPrice': '0.23908', 'markIv': '', 'orderQty': '41832', 'orderPrice': '0.22713', 'execValue': '10001.19456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198468930, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50065701', 'execId': '7b7f88a6-4327-46ca-9eb9-ab64521ea57f', 'marketUnit': '', 'execQty': '41832', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOGEUSDT   | S |  81.92
+Last close price for DOGEUSDT: 0.2389
+Opening Sell for  DOGEUSDT
+TP: 0.236511
+SL: 0.243678
+TS: 0.002389
+Order Quantity: 41858.52
+Adjusted qty: 41859.0
+Final Adjusted qty: 41858.0
+5991100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ATHUSDT    | B |  33.33
+Last close price for ATHUSDT: 0.04226
+Opening Buy for  ATHUSDT
+TP: 0.0426826
+SL: 0.0414148
+TS: 0.00042259999999999997
+Order Quantity: 236630.38
+Adjusted qty: 236630.0
+Final Adjusted qty: 236630.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fb389359-5426-48aa-9ba6-453836434cbc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757431875004}
+fb389359-5426-48aa-9ba6-453836434cbc
+fetching trade data for :  fb389359-5426-48aa-9ba6-453836434cbc
+[{'symbol': 'ATHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fb389359-5426-48aa-9ba6-453836434cbc', 'stopOrderType': 'UNKNOWN', 'execTime': '1757431875003', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.04225', 'execPrice': '0.04229', 'markIv': '', 'orderQty': '236630', 'orderPrice': '0.04647', 'execValue': '10007.0827', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198469405, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50389549', 'execId': '50e3d1ed-1a16-487e-9e97-2c8ab229ffff', 'marketUnit': '', 'execQty': '236630', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 19:31:25
