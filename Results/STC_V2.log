@@ -27246,3 +27246,58 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 09:10:38
+***************************************************************
+Number of open positions: 7
+Function started at 09.09.2025 09:15:08
+PENGUUSDT 	Latest Close: (0.035003) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SOLUSDT 	Latest Close: (214.37) 	SMA(14) : 213.50 	Delta : B 	Previous STC : 0.00 	STC : 30.22
+BUSDT 	Latest Close: (0.62784) 	SMA(14) : 0.64 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | S |  66.67
+Last close price for BUSDT: 0.62784
+Opening Sell for  BUSDT
+TP: 0.6215615999999999
+SL: 0.6403968
+TS: 0.0062784
+Order Quantity: 15927.62
+Adjusted qty: 15928.0
+Final Adjusted qty: 15927.0
+90000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3e860dbe-44c3-46ee-8277-e5f718dcf565', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757394942742}
+3e860dbe-44c3-46ee-8277-e5f718dcf565
+fetching trade data for :  3e860dbe-44c3-46ee-8277-e5f718dcf565
+[{'symbol': 'BUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3e860dbe-44c3-46ee-8277-e5f718dcf565', 'stopOrderType': 'UNKNOWN', 'execTime': '1757394942741', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.62796', 'execPrice': '0.62796', 'markIv': '', 'orderQty': '15927', 'orderPrice': '0.53377', 'execValue': '10001.51892', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197309031, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00167082', 'execId': '7a26734c-d5d9-4b8a-adb9-31fba3c1741f', 'marketUnit': '', 'execQty': '15927', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | B |  33.33
+Last close price for PENGUUSDT: 0.035125
+Opening Buy for  PENGUUSDT
+TP: 0.03547625
+SL: 0.0344225
+TS: 0.00035125000000000005
+Order Quantity: 284697.51
+Adjusted qty: 284700.0
+Final Adjusted qty: 284690.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1375a151-3acf-4f40-966e-59b9d3a00a21', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757394954594}
+1375a151-3acf-4f40-966e-59b9d3a00a21
+fetching trade data for :  1375a151-3acf-4f40-966e-59b9d3a00a21
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1375a151-3acf-4f40-966e-59b9d3a00a21', 'stopOrderType': 'UNKNOWN', 'execTime': '1757394954593', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.03512', 'execPrice': '0.035091', 'markIv': '', 'orderQty': '284690', 'orderPrice': '0.038632', 'execValue': '9990.05679', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197309389, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49453124', 'execId': '025af416-6491-4d48-99f5-c9da07555d70', 'marketUnit': '', 'execQty': '284690', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SOLUSDT    | B |  30.22
+Last close price for SOLUSDT: 214.38
+Opening Buy for  SOLUSDT
+TP: 216.5238
+SL: 210.0924
+TS: 2.1438
+Order Quantity: 46.65
+Adjusted qty: 46.6
+Final Adjusted qty: 46.6
+11740.0
