@@ -30446,3 +30446,40 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 09.09.2025 17:25:53
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 17:30:07
+PYTHUSDT 	Latest Close: (0.1624) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 100.00 	STC : 95.65
+DOTUSDT 	Latest Close: (4.144) 	SMA(14) : 4.15 	Delta : S 	Previous STC : 97.77 	STC : 82.25
+ARUSDT 	Latest Close: (7.22) 	SMA(14) : 7.32 	Delta : S 	Previous STC : 98.17 	STC : 85.42
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PYTHUSDT   | S |  95.65
+Last close price for PYTHUSDT: 0.1623
+Opening Sell for  PYTHUSDT
+TP: 0.160677
+SL: 0.165546
+TS: 0.001623
+Order Quantity: 61614.29
+Adjusted qty: 61614.0
+Final Adjusted qty: 61614.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b36c318d-9d99-4620-b7a7-4eb3395c94b9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757424671219}
+b36c318d-9d99-4620-b7a7-4eb3395c94b9
+fetching trade data for :  b36c318d-9d99-4620-b7a7-4eb3395c94b9
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b36c318d-9d99-4620-b7a7-4eb3395c94b9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757424671218', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1623', 'execPrice': '0.1623', 'markIv': '', 'orderQty': '61614', 'orderPrice': '0.1461', 'execValue': '9999.9522', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198241112, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997371', 'execId': '922d0908-b9a4-4034-9947-7b7984859b61', 'marketUnit': '', 'execQty': '61614', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARUSDT     | S |  85.42
+Last close price for ARUSDT: 7.232
+Opening Sell for  ARUSDT
+TP: 7.15968
+SL: 7.37664
+TS: 0.07232
+Order Quantity: 1382.74
+Adjusted qty: 1382.7
+Final Adjusted qty: 1382.7
+4060.0
