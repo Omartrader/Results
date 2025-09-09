@@ -25288,3 +25288,77 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 04:01:14
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 04:05:24
+SUIUSDT 	Latest Close: (3.5036) 	SMA(14) : 3.48 	Delta : B 	Previous STC : 13.68 	STC : 42.46
+MANAUSDT 	Latest Close: (0.3277) 	SMA(14) : 0.33 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+XTZUSDT 	Latest Close: (0.7274) 	SMA(14) : 0.72 	Delta : B 	Previous STC : 13.41 	STC : 42.27
+MORPHOUSDT 	Latest Close: (1.9574) 	SMA(14) : 1.95 	Delta : B 	Previous STC : 4.53 	STC : 33.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  42.46
+Last close price for SUIUSDT: 3.5022
+Opening Buy for  SUIUSDT
+TP: 3.5372220000000003
+SL: 3.432156
+TS: 0.035022000000000005
+Order Quantity: 2855.35
+Adjusted qty: 2860.0
+Final Adjusted qty: 2850.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XTZUSDT    | B |  42.27
+Last close price for XTZUSDT: 0.7271
+Opening Buy for  XTZUSDT
+TP: 0.734371
+SL: 0.7125579999999999
+TS: 0.007271
+Order Quantity: 13753.27
+Adjusted qty: 13753.300000000001
+Final Adjusted qty: 13753.2
+62530.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MANAUSDT   | B |  33.33
+Last close price for MANAUSDT: 0.3276
+Opening Buy for  MANAUSDT
+TP: 0.330876
+SL: 0.321048
+TS: 0.003276
+Order Quantity: 30525.03
+Adjusted qty: 30525.0
+Final Adjusted qty: 30525.0
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0eee5935-debc-4ddf-8fe8-8cf075145903', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757376386892}
+0eee5935-debc-4ddf-8fe8-8cf075145903
+fetching trade data for :  0eee5935-debc-4ddf-8fe8-8cf075145903
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0eee5935-debc-4ddf-8fe8-8cf075145903', 'stopOrderType': 'UNKNOWN', 'execTime': '1757376386891', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3276', 'execPrice': '0.3276', 'markIv': '', 'orderQty': '30525', 'orderPrice': '0.3603', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196739749, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': 'a7a6a3ce-1325-4942-9357-cec123d70737', 'marketUnit': '', 'execQty': '30525', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MORPHOUSDT | B |  33.12
+Last close price for MORPHOUSDT: 1.957
+Opening Buy for  MORPHOUSDT
+TP: 1.9765700000000002
+SL: 1.9178600000000001
+TS: 0.01957
+Order Quantity: 5109.86
+Adjusted qty: 5110.0
+Final Adjusted qty: 5109.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ff0a21c7-bade-4dd4-9ad9-f5b74169a876', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757376400492}
+ff0a21c7-bade-4dd4-9ad9-f5b74169a876
+fetching trade data for :  ff0a21c7-bade-4dd4-9ad9-f5b74169a876
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ff0a21c7-bade-4dd4-9ad9-f5b74169a876', 'stopOrderType': 'UNKNOWN', 'execTime': '1757376400492', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.957', 'execPrice': '1.957', 'markIv': '', 'orderQty': '5109', 'orderPrice': '2.2505', 'execValue': '9998.313', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196740153, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49907215', 'execId': '13706de2-9fa2-4b0e-89fb-59eae2a67852', 'marketUnit': '', 'execQty': '5109', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 09.09.2025 04:06:49
