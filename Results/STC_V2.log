@@ -26030,3 +26030,43 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 09.09.2025 05:21:26
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 05:25:07
+MUSDT 	Latest Close: (1.9938) 	SMA(14) : 2.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+VIRTUALUSDT 	Latest Close: (1.2853) 	SMA(14) : 1.28 	Delta : B 	Previous STC : 11.71 	STC : 33.58
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | S |  66.67
+Last close price for MUSDT: 1.9905
+Opening Sell for  MUSDT
+TP: 1.9705949999999999
+SL: 2.03031
+TS: 0.019905
+Order Quantity: 5023.86
+Adjusted qty: 5024.0
+Final Adjusted qty: 5023.0
+120000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+VIRTUALUSDT | B |  33.58
+Last close price for VIRTUALUSDT: 1.2866
+Opening Buy for  VIRTUALUSDT
+TP: 1.299466
+SL: 1.2608679999999999
+TS: 0.012865999999999999
+Order Quantity: 7772.42
+Adjusted qty: 7772.0
+Final Adjusted qty: 7772.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b0c3bd61-34af-42c7-9e53-31d52124a11a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757381164261}
+b0c3bd61-34af-42c7-9e53-31d52124a11a
+fetching trade data for :  b0c3bd61-34af-42c7-9e53-31d52124a11a
+[{'symbol': 'VIRTUALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b0c3bd61-34af-42c7-9e53-31d52124a11a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757381164261', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2871', 'execPrice': '1.2871', 'markIv': '', 'orderQty': '7772', 'orderPrice': '1.4158', 'execValue': '10003.3412', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196887965, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50183766', 'execId': '036a4186-0cb7-4fbc-8605-095e6b3396b7', 'marketUnit': '', 'execQty': '7772', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 05:26:15
