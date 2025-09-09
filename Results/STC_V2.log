@@ -29536,3 +29536,54 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 09.09.2025 15:31:15
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 15:35:07
+BRETTUSDT 	Latest Close: (0.05013) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 99.43 	STC : 94.61
+IMXUSDT 	Latest Close: (0.553) 	SMA(14) : 0.55 	Delta : S 	Previous STC : 98.96 	STC : 93.93
+WALUSDT 	Latest Close: (0.4334) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 99.43 	STC : 94.13
+ICPUSDT 	Latest Close: (4.988) 	SMA(14) : 5.00 	Delta : S 	Previous STC : 99.25 	STC : 93.57
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BRETTUSDT  | S |  94.61
+Last close price for BRETTUSDT: 0.05017
+Opening Sell for  BRETTUSDT
+TP: 0.0496683
+SL: 0.0511734
+TS: 0.0005017
+Order Quantity: 199322.3
+Adjusted qty: 199320.0
+Final Adjusted qty: 199320.0
+400000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WALUSDT    | S |  94.13
+Last close price for WALUSDT: 0.4334
+Opening Sell for  WALUSDT
+TP: 0.429066
+SL: 0.442068
+TS: 0.004334
+Order Quantity: 23073.37
+Adjusted qty: 23073.0
+Final Adjusted qty: 23073.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '824ac081-4101-4210-b50a-a1d23b67e5c8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757417762069}
+824ac081-4101-4210-b50a-a1d23b67e5c8
+fetching trade data for :  824ac081-4101-4210-b50a-a1d23b67e5c8
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '824ac081-4101-4210-b50a-a1d23b67e5c8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757417762068', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4335', 'execPrice': '0.4334', 'markIv': '', 'orderQty': '23073', 'orderPrice': '0.3468', 'execValue': '9999.8382', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198017579, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991101', 'execId': 'f57e53d2-0942-4636-9ceb-def5d684883e', 'marketUnit': '', 'execQty': '23073', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IMXUSDT    | S |  93.93
+Last close price for IMXUSDT: 0.5537
+Opening Sell for  IMXUSDT
+TP: 0.548163
+SL: 0.564774
+TS: 0.005536999999999999
+Order Quantity: 18060.32
+Adjusted qty: 18060.3
+Final Adjusted qty: 18060.3
+21190.0
