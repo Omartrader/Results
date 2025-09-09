@@ -19522,3 +19522,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 12:26:33
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 12:31:46
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (1.9718) 	SMA(14) : 1.93 	Delta :  	Previous STC : 8.43 	STC : 35.15
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (584.6) 	SMA(14) : 583.49 	Delta :  	Previous STC : 9.33 	STC : 34.02
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | B |  35.15
+1
+Last close price for MUSDT: 1.9727
+Opening Buy for  MUSDT
+TP: 1.992427
+SL: 1.9332459999999998
+TS: 0.019726999999999998
+Order Quantity: 10138.39
+Adjusted qty: 10138.0
+Final Adjusted qty: 10138.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5bca5e72-ce6c-4d1c-962b-2228c30cfdce', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757406728673}
+5bca5e72-ce6c-4d1c-962b-2228c30cfdce
+fetching trade data for :  5bca5e72-ce6c-4d1c-962b-2228c30cfdce
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5bca5e72-ce6c-4d1c-962b-2228c30cfdce', 'stopOrderType': 'UNKNOWN', 'execTime': '1757406728672', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9717', 'execPrice': '1.9741', 'markIv': '', 'orderQty': '10138', 'orderPrice': '2.2674', 'execValue': '20013.4258', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508895782, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '22.01476838', 'execId': '7e756bbf-d453-47f1-8e7f-8ead5bc3f0a5', 'marketUnit': '', 'execQty': '10138', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    | B |  34.02
+1
+Last close price for BCHUSDT: 584.6
+Opening Buy for  BCHUSDT
+TP: 590.446
+SL: 572.908
+TS: 5.846
+Order Quantity: 34.21
+Adjusted qty: 34.21
+Final Adjusted qty: 34.21
+804.0
