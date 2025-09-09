@@ -26295,3 +26295,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 06:15:49
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 06:20:06
+SYRUPUSDT 	Latest Close: (0.47096) 	SMA(14) : 0.48 	Delta : S 	Previous STC : 99.13 	STC : 95.66
+HNTUSDT 	Latest Close: (2.369) 	SMA(14) : 2.37 	Delta : B 	Previous STC : 8.43 	STC : 30.03
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SYRUPUSDT  | S |  95.66
+Last close price for SYRUPUSDT: 0.47091
+Opening Sell for  SYRUPUSDT
+TP: 0.4662009
+SL: 0.4803282
+TS: 0.0047091
+Order Quantity: 21235.48
+Adjusted qty: 21235.0
+Final Adjusted qty: 21235.0
+10000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HNTUSDT    | B |  30.03
+Last close price for HNTUSDT: 2.368
+Opening Buy for  HNTUSDT
+TP: 2.39168
+SL: 2.32064
+TS: 0.02368
+Order Quantity: 4222.97
+Adjusted qty: 4222.97
+Final Adjusted qty: 4222.97
+1322.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0625fafa-4a13-4cdb-9fc3-90299ee0122e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757384461653}
+0625fafa-4a13-4cdb-9fc3-90299ee0122e
+fetching trade data for :  0625fafa-4a13-4cdb-9fc3-90299ee0122e
+[{'symbol': 'HNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0625fafa-4a13-4cdb-9fc3-90299ee0122e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757384461652', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.368', 'execPrice': '2.368', 'markIv': '', 'orderQty': '1322', 'orderPrice': '2.841', 'execValue': '3130.496', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196989083, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '1.7217728', 'execId': 'ce6ed8da-0bda-4396-943e-bc7509296fc6', 'marketUnit': '', 'execQty': '1322', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 06:21:12
