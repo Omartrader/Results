@@ -27959,3 +27959,112 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 09.09.2025 10:16:25
+***************************************************************
+Number of open positions: 6
+Function started at 09.09.2025 10:20:07
+ADAUSDT 	Latest Close: (0.8767) 	SMA(14) : 0.87 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+XRPUSDT 	Latest Close: (2.9863) 	SMA(14) : 2.96 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+HBARUSDT 	Latest Close: (0.22907) 	SMA(14) : 0.23 	Delta : B 	Previous STC : 15.41 	STC : 43.60
+VETUSDT 	Latest Close: (0.02444) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+XLMUSDT 	Latest Close: (0.37854) 	SMA(14) : 0.37 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SUSDT 	Latest Close: (0.3147) 	SMA(14) : 0.31 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+CFXUSDT 	Latest Close: (0.17251) 	SMA(14) : 0.17 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SAROSUSDT 	Latest Close: (0.33049) 	SMA(14) : 0.33 	Delta : S 	Previous STC : 97.22 	STC : 78.12
+TIAUSDT 	Latest Close: (1.742) 	SMA(14) : 1.72 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+IOTAUSDT 	Latest Close: (0.1933) 	SMA(14) : 0.19 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+STXUSDT 	Latest Close: (0.6565) 	SMA(14) : 0.65 	Delta : B 	Previous STC : 23.44 	STC : 48.96
+FILUSDT 	Latest Close: (2.478) 	SMA(14) : 2.45 	Delta : B 	Previous STC : 8.49 	STC : 38.99
+ETCUSDT 	Latest Close: (20.882) 	SMA(14) : 20.67 	Delta : B 	Previous STC : 1.64 	STC : 34.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  78.12
+Last close price for SAROSUSDT: 0.33045
+Opening Sell for  SAROSUSDT
+TP: 0.32714550000000003
+SL: 0.33705900000000005
+TS: 0.0033045
+Order Quantity: 30261.76
+Adjusted qty: 30262.0
+Final Adjusted qty: 30261.0
+27000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+STXUSDT    | B |  48.96
+Last close price for STXUSDT: 0.6566
+Opening Buy for  STXUSDT
+TP: 0.6631659999999999
+SL: 0.6434679999999999
+TS: 0.006566
+Order Quantity: 15229.97
+Adjusted qty: 15230.0
+Final Adjusted qty: 15229.9
+102840.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HBARUSDT   | B |  43.60
+Last close price for HBARUSDT: 0.22922
+Opening Buy for  HBARUSDT
+TP: 0.2315122
+SL: 0.2246356
+TS: 0.0022922
+Order Quantity: 43626.21
+Adjusted qty: 43626.0
+Final Adjusted qty: 43626.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e21e2822-f371-49f4-9780-e1293193f299', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757398869301}
+e21e2822-f371-49f4-9780-e1293193f299
+fetching trade data for :  e21e2822-f371-49f4-9780-e1293193f299
+[{'symbol': 'HBARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e21e2822-f371-49f4-9780-e1293193f299', 'stopOrderType': 'UNKNOWN', 'execTime': '1757398869301', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.22922', 'execPrice': '0.22922', 'markIv': '', 'orderQty': '43626', 'orderPrice': '0.24068', 'execValue': '9999.95172', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197428164, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997345', 'execId': '1022ae17-1a7b-49a7-a817-31d1b67ae8b0', 'marketUnit': '', 'execQty': '43626', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | B |  38.99
+Last close price for FILUSDT: 2.477
+Opening Buy for  FILUSDT
+TP: 2.50177
+SL: 2.42746
+TS: 0.02477
+Order Quantity: 4037.14
+Adjusted qty: 4037.1000000000004
+Final Adjusted qty: 4037.1
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3ba853ae-f71a-4a9f-ae42-5b9b90a3cb41', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757398882732}
+3ba853ae-f71a-4a9f-ae42-5b9b90a3cb41
+fetching trade data for :  3ba853ae-f71a-4a9f-ae42-5b9b90a3cb41
+[{'symbol': 'FILUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3ba853ae-f71a-4a9f-ae42-5b9b90a3cb41', 'stopOrderType': 'UNKNOWN', 'execTime': '1757398882732', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.477', 'execPrice': '2.478', 'markIv': '', 'orderQty': '4037.1', 'orderPrice': '2.6', 'execValue': '10003.9338', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197428570, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50216359', 'execId': '8b2c9d52-44fe-4f8e-b736-d09db1698cf6', 'marketUnit': '', 'execQty': '4037.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  34.43
+Last close price for ETCUSDT: 20.878
+Opening Buy for  ETCUSDT
+TP: 21.08678
+SL: 20.46044
+TS: 0.20878
+Order Quantity: 478.97
+Adjusted qty: 479.0
+Final Adjusted qty: 478.9
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0baddf28-2c78-4b10-ae87-3e7a9c069e25', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757398896163}
+0baddf28-2c78-4b10-ae87-3e7a9c069e25
+fetching trade data for :  0baddf28-2c78-4b10-ae87-3e7a9c069e25
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0baddf28-2c78-4b10-ae87-3e7a9c069e25', 'stopOrderType': 'UNKNOWN', 'execTime': '1757398896163', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.877', 'execPrice': '20.877', 'markIv': '', 'orderQty': '478.9', 'orderPrice': '21.92', 'execValue': '9997.9953', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197428949, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49889742', 'execId': '132e463a-defc-4168-bed3-a4e878ec515f', 'marketUnit': '', 'execQty': '478.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    | B |  33.33
+Last close price for TIAUSDT: 1.744
+Opening Buy for  TIAUSDT
+TP: 1.7614400000000001
+SL: 1.70912
+TS: 0.01744
+Order Quantity: 5733.94
+Adjusted qty: 5733.900000000001
+Final Adjusted qty: 5733.9
+16390.0
