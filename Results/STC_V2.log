@@ -30483,3 +30483,54 @@ Order Quantity: 1382.74
 Adjusted qty: 1382.7
 Final Adjusted qty: 1382.7
 4060.0
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 17:35:07
+PYTHUSDT 	Latest Close: (0.1618) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 100.00 	STC : 92.11
+DOTUSDT 	Latest Close: (4.1475) 	SMA(14) : 4.15 	Delta : S 	Previous STC : 97.77 	STC : 82.79
+ARUSDT 	Latest Close: (7.224) 	SMA(14) : 7.32 	Delta : S 	Previous STC : 98.17 	STC : 85.54
+USD1USDT 	Latest Close: (0.9988) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 92.97
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PYTHUSDT   | S |  92.11
+Last close price for PYTHUSDT: 0.1622
+Opening Sell for  PYTHUSDT
+TP: 0.160578
+SL: 0.165444
+TS: 0.0016220000000000002
+Order Quantity: 61652.28
+Adjusted qty: 61652.0
+Final Adjusted qty: 61652.0
+177000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARUSDT     | S |  85.54
+Last close price for ARUSDT: 7.224
+Opening Sell for  ARUSDT
+TP: 7.15176
+SL: 7.36848
+TS: 0.07224
+Order Quantity: 1384.27
+Adjusted qty: 1384.3000000000002
+Final Adjusted qty: 1384.2
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4e81eaab-e9f8-4faf-8ab7-49e41daae403', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757425013785}
+4e81eaab-e9f8-4faf-8ab7-49e41daae403
+fetching trade data for :  4e81eaab-e9f8-4faf-8ab7-49e41daae403
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4e81eaab-e9f8-4faf-8ab7-49e41daae403', 'stopOrderType': 'UNKNOWN', 'execTime': '1757425013784', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.222', 'execPrice': '7.224', 'markIv': '', 'orderQty': '1384.2', 'orderPrice': '6.861', 'execValue': '9999.4608', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198251812, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49970344', 'execId': '0bfa1ef4-52a6-408d-be81-155539d8cafc', 'marketUnit': '', 'execQty': '1384.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | S |  82.79
+Last close price for DOTUSDT: 4.1485
+Opening Sell for  DOTUSDT
+TP: 4.1070150000000005
+SL: 4.231470000000001
+TS: 0.041485
+Order Quantity: 2410.51
+Adjusted qty: 2410.5
+Final Adjusted qty: 2410.5
+32140.0
