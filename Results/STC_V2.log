@@ -25815,3 +25815,61 @@ Order Quantity: 40181.62
 Adjusted qty: 40182.0
 Final Adjusted qty: 40181.0
 79800.0
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 05:05:16
+WLDUSDT 	Latest Close: (1.7688) 	SMA(14) : 1.62 	Delta : B 	Previous STC : 12.76 	STC : 41.84
+ENAUSDT 	Latest Close: (0.7805) 	SMA(14) : 0.78 	Delta : B 	Previous STC : 15.99 	STC : 44.00
+OPUSDT 	Latest Close: (0.762) 	SMA(14) : 0.76 	Delta : B 	Previous STC : 7.60 	STC : 26.11
+CROUSDT 	Latest Close: (0.24742) 	SMA(14) : 0.25 	Delta : S 	Previous STC : 99.92 	STC : 87.09
+GRTUSDT 	Latest Close: (0.09328) 	SMA(14) : 0.09 	Delta : B 	Previous STC : 13.68 	STC : 42.46
+APEUSDT 	Latest Close: (0.5997) 	SMA(14) : 0.60 	Delta : B 	Previous STC : 14.39 	STC : 42.93
+ETHFIUSDT 	Latest Close: (1.1993) 	SMA(14) : 1.19 	Delta : B 	Previous STC : 24.61 	STC : 49.74
+IMXUSDT 	Latest Close: (0.5473) 	SMA(14) : 0.54 	Delta : B 	Previous STC : 8.97 	STC : 33.74
+FILUSDT 	Latest Close: (2.453) 	SMA(14) : 2.44 	Delta : B 	Previous STC : 7.83 	STC : 27.58
+APTUSDT 	Latest Close: (4.431) 	SMA(14) : 4.41 	Delta : B 	Previous STC : 18.11 	STC : 45.41
+RENDERUSDT 	Latest Close: (3.781) 	SMA(14) : 3.73 	Delta : B 	Previous STC : 18.09 	STC : 45.39
+NEOUSDT 	Latest Close: (6.709) 	SMA(14) : 6.69 	Delta : B 	Previous STC : 16.53 	STC : 44.35
+AAVEUSDT 	Latest Close: (303.71) 	SMA(14) : 303.48 	Delta : B 	Previous STC : 13.54 	STC : 40.77
+TAOUSDT 	Latest Close: (345.66) 	SMA(14) : 344.00 	Delta : B 	Previous STC : 8.36 	STC : 30.77
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  87.09
+Last close price for CROUSDT: 0.24752
+Opening Sell for  CROUSDT
+TP: 0.24504479999999998
+SL: 0.2524704
+TS: 0.0024752
+Order Quantity: 40400.78
+Adjusted qty: 40401.0
+Final Adjusted qty: 40400.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd28fd90e-4e9f-4d78-a737-2bb0990157b7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757380017410}
+d28fd90e-4e9f-4d78-a737-2bb0990157b7
+fetching trade data for :  d28fd90e-4e9f-4d78-a737-2bb0990157b7
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd28fd90e-4e9f-4d78-a737-2bb0990157b7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757380017409', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.24754', 'execPrice': '0.24752', 'markIv': '', 'orderQty': '40400', 'orderPrice': '0.22279', 'execValue': '9999.808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196852940, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4998944', 'execId': '50e9214a-c2e7-44cf-992a-89d1a847cebb', 'marketUnit': '', 'execQty': '40400', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHFIUSDT  | B |  49.74
+Last close price for ETHFIUSDT: 1.2
+Opening Buy for  ETHFIUSDT
+TP: 1.212
+SL: 1.176
+TS: 0.012
+Order Quantity: 8333.33
+Adjusted qty: 8333.300000000001
+Final Adjusted qty: 8333.3
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '97fce77b-a1c8-4d1b-b669-55bf0af44702', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757380030944}
+97fce77b-a1c8-4d1b-b669-55bf0af44702
+fetching trade data for :  97fce77b-a1c8-4d1b-b669-55bf0af44702
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '97fce77b-a1c8-4d1b-b669-55bf0af44702', 'stopOrderType': 'UNKNOWN', 'execTime': '1757380030943', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1998', 'execPrice': '1.1998', 'markIv': '', 'orderQty': '8333.3', 'orderPrice': '1.3197', 'execValue': '9998.29334', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196853381, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49906134', 'execId': '4f9a5f7b-c70b-41a7-be20-93dd8fc83996', 'marketUnit': '', 'execQty': '8333.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 09.09.2025 05:07:22
