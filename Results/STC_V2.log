@@ -31626,3 +31626,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 23:30:46
+***************************************************************
+Number of open positions: 2
+Function started at 09.09.2025 23:45:07
+FARTCOINUSDT 	Latest Close: (0.8382) 	SMA(14) : 0.82 	Delta : B 	Previous STC : 3.76 	STC : 25.62
+SOLUSDT 	Latest Close: (216.16) 	SMA(14) : 215.47 	Delta : B 	Previous STC : 12.68 	STC : 41.79
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | B |  41.79
+Last close price for SOLUSDT: 216.16
+Opening Buy for  SOLUSDT
+TP: 218.3216
+SL: 211.83679999999998
+TS: 2.1616
+Order Quantity: 46.26
+Adjusted qty: 46.300000000000004
+Final Adjusted qty: 46.2
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ba07d40d-34b0-4004-97ea-f195fafb37d9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757447162213}
+ba07d40d-34b0-4004-97ea-f195fafb37d9
+fetching trade data for :  ba07d40d-34b0-4004-97ea-f195fafb37d9
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ba07d40d-34b0-4004-97ea-f195fafb37d9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757447162212', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '216.167', 'execPrice': '216.16', 'markIv': '', 'orderQty': '46.2', 'orderPrice': '226.97', 'execValue': '9986.592', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198949943, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4926256', 'execId': '8f73be8f-2918-4239-97fa-222c04d1d263', 'marketUnit': '', 'execQty': '46.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FARTCOINUSDT | B |  25.62
+Last close price for FARTCOINUSDT: 0.8371
+Opening Buy for  FARTCOINUSDT
+TP: 0.845471
+SL: 0.8203579999999999
+TS: 0.008371
+Order Quantity: 11946.0
+Adjusted qty: 11946.0
+Final Adjusted qty: 11946.0
+600000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '810c19aa-8e05-4f8f-8408-9e7581e65fa2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757447175668}
+810c19aa-8e05-4f8f-8408-9e7581e65fa2
+fetching trade data for :  810c19aa-8e05-4f8f-8408-9e7581e65fa2
+[{'symbol': 'FARTCOINUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '810c19aa-8e05-4f8f-8408-9e7581e65fa2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757447175666', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.837', 'execPrice': '0.8374', 'markIv': '', 'orderQty': '11946', 'orderPrice': '0.9625', 'execValue': '10003.5804', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198950381, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50196922', 'execId': '686e295b-b3a7-4491-9411-f39649472900', 'marketUnit': '', 'execQty': '11946', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 23:46:26
