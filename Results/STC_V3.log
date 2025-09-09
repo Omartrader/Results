@@ -18665,3 +18665,49 @@ Order Quantity: 4357.3
 Adjusted qty: 4357.3
 Final Adjusted qty: 4357.3
 22100.0
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 10:11:10
+	LINKUSDT 	Signal: B
+LINKUSDT 	Latest Close: (23.448) 	SMA(14) : 23.15 	Delta :  	Previous STC : 6.13 	STC : 31.80
+	APTUSDT 	Signal: B
+APTUSDT 	Latest Close: (4.479) 	SMA(14) : 4.43 	Delta :  	Previous STC : 9.80 	STC : 33.13
+	TRUMPUSDT 	Signal: B
+TRUMPUSDT 	Latest Close: (8.72) 	SMA(14) : 8.65 	Delta :  	Previous STC : 8.83 	STC : 31.00
+	AVAXUSDT 	Signal: B
+AVAXUSDT 	Latest Close: (25.455) 	SMA(14) : 25.17 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	ATOMUSDT 	Signal: B
+ATOMUSDT 	Latest Close: (4.592) 	SMA(14) : 4.54 	Delta :  	Previous STC : 16.93 	STC : 44.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATOMUSDT   | B |  44.62
+1
+Last close price for ATOMUSDT: 4.592
+Opening Buy for  ATOMUSDT
+TP: 4.637919999999999
+SL: 4.500159999999999
+TS: 0.045919999999999996
+Order Quantity: 4355.4
+Adjusted qty: 4355.400000000001
+Final Adjusted qty: 4355.4
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '276fafce-40cb-48ed-8ca7-66080d6ea6b1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757398291221}
+276fafce-40cb-48ed-8ca7-66080d6ea6b1
+fetching trade data for :  276fafce-40cb-48ed-8ca7-66080d6ea6b1
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '276fafce-40cb-48ed-8ca7-66080d6ea6b1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757398291220', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.592', 'execPrice': '4.592', 'markIv': '', 'orderQty': '4355.4', 'orderPrice': '4.821', 'execValue': '19999.9968', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508598434, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999824', 'execId': 'b77b977c-b063-453b-81d8-9fbdb6d7c73f', 'marketUnit': '', 'execQty': '4355.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | B |  33.33
+1
+Last close price for AVAXUSDT: 25.47
+Opening Buy for  AVAXUSDT
+TP: 25.7247
+SL: 24.9606
+TS: 0.2547
+Order Quantity: 785.24
+Adjusted qty: 785.2
+Final Adjusted qty: 785.2
+10950.0
