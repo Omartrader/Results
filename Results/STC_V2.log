@@ -29004,3 +29004,43 @@ Order Quantity: 5082.85
 Adjusted qty: 5083.0
 Final Adjusted qty: 5082.0
 120000.0
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 12:40:07
+MUSDT 	Latest Close: (1.9579) 	SMA(14) : 1.93 	Delta : B 	Previous STC : 8.43 	STC : 34.56
+VIRTUALUSDT 	Latest Close: (1.3113) 	SMA(14) : 1.31 	Delta : B 	Previous STC : 18.56 	STC : 45.71
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VIRTUALUSDT | B |  45.71
+Last close price for VIRTUALUSDT: 1.31
+Opening Buy for  VIRTUALUSDT
+TP: 1.3231000000000002
+SL: 1.2838
+TS: 0.0131
+Order Quantity: 7633.59
+Adjusted qty: 7634.0
+Final Adjusted qty: 7633.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MUSDT      | B |  34.56
+Last close price for MUSDT: 1.9556
+Opening Buy for  MUSDT
+TP: 1.975156
+SL: 1.916488
+TS: 0.019556
+Order Quantity: 5113.52
+Adjusted qty: 5114.0
+Final Adjusted qty: 5113.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a865fe70-2bdf-4efe-aa45-33f4cb50af5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757407265122}
+a865fe70-2bdf-4efe-aa45-33f4cb50af5e
+fetching trade data for :  a865fe70-2bdf-4efe-aa45-33f4cb50af5e
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a865fe70-2bdf-4efe-aa45-33f4cb50af5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757407265121', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9545', 'execPrice': '1.9575', 'markIv': '', 'orderQty': '5113', 'orderPrice': '2.2476', 'execValue': '10008.6975', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197688992, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00956725', 'execId': 'a841ccca-28a5-42b2-84ca-33bf8969ffeb', 'marketUnit': '', 'execQty': '5113', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 12:41:14
