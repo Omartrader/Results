@@ -32928,3 +32928,40 @@ Order Quantity: 12400.79
 Adjusted qty: 12401.0
 Final Adjusted qty: 12400.0
 100000.0
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 03:25:07
+ENAUSDT 	Latest Close: (0.8066) 	SMA(14) : 0.82 	Delta : S 	Previous STC : 99.49 	STC : 95.99
+JASMYUSDT 	Latest Close: (0.014076) 	SMA(14) : 0.01 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+RENDERUSDT 	Latest Close: (3.8) 	SMA(14) : 3.78 	Delta : B 	Previous STC : 17.57 	STC : 45.05
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | S |  95.99
+Last close price for ENAUSDT: 0.8068
+Opening Sell for  ENAUSDT
+TP: 0.798732
+SL: 0.822936
+TS: 0.008067999999999999
+Order Quantity: 12394.65
+Adjusted qty: 12395.0
+Final Adjusted qty: 12394.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e8064a70-ea48-460b-8727-67a4b46db89a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757460363582}
+e8064a70-ea48-460b-8727-67a4b46db89a
+fetching trade data for :  e8064a70-ea48-460b-8727-67a4b46db89a
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e8064a70-ea48-460b-8727-67a4b46db89a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757460363581', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.807', 'execPrice': '0.8069', 'markIv': '', 'orderQty': '12394', 'orderPrice': '0.7263', 'execValue': '10000.7186', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199358782, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50039523', 'execId': '6aeefb12-a8be-4eb0-87ec-02d046cdeb37', 'marketUnit': '', 'execQty': '12394', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  45.05
+Last close price for RENDERUSDT: 3.8
+Opening Buy for  RENDERUSDT
+TP: 3.8379999999999996
+SL: 3.7239999999999998
+TS: 0.038
+Order Quantity: 2631.58
+Adjusted qty: 2631.6000000000004
+Final Adjusted qty: 2631.5
+10000.0
