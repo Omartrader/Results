@@ -26070,3 +26070,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.09.2025 05:26:15
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 05:30:07
+DOGEUSDT 	Latest Close: (0.23755) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 97.42 	STC : 94.11
+DOGEUSDT 	Latest Close: (0.23753) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 97.42 	STC : 94.10
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOGEUSDT   | S |  94.11
+Last close price for DOGEUSDT: 0.2374
+Opening Sell for  DOGEUSDT
+TP: 0.23502599999999998
+SL: 0.242148
+TS: 0.002374
+Order Quantity: 42123.0
+Adjusted qty: 42123.0
+Final Adjusted qty: 42123.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'da6a49bf-30b1-4485-83f6-ae816858bd83', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757381465341}
+da6a49bf-30b1-4485-83f6-ae816858bd83
+fetching trade data for :  da6a49bf-30b1-4485-83f6-ae816858bd83
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'da6a49bf-30b1-4485-83f6-ae816858bd83', 'stopOrderType': 'UNKNOWN', 'execTime': '1757381465340', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23742', 'execPrice': '0.23734', 'markIv': '', 'orderQty': '42123', 'orderPrice': '0.22555', 'execValue': '9997.47282', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697196897157, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49861006', 'execId': 'b65ec67a-d853-4a7f-a9dd-c67cb6b522ec', 'marketUnit': '', 'execQty': '42123', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOGEUSDT   | S |  94.10
+Last close price for DOGEUSDT: 0.23753
+Opening Sell for  DOGEUSDT
+TP: 0.2351547
+SL: 0.24228059999999998
+TS: 0.0023753
+Order Quantity: 42099.95
+Adjusted qty: 42100.0
+Final Adjusted qty: 42099.0
+5991100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 09.09.2025 05:31:19
