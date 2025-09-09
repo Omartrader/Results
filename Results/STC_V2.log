@@ -30327,3 +30327,52 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 09.09.2025 17:15:39
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 17:20:06
+XDCUSDT 	Latest Close: (0.07966) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 97.41 	STC : 64.94
+ETHFIUSDT 	Latest Close: (1.2447) 	SMA(14) : 1.26 	Delta : S 	Previous STC : 96.67 	STC : 72.99
+AVAXUSDT 	Latest Close: (25.871) 	SMA(14) : 26.02 	Delta : S 	Previous STC : 97.67 	STC : 78.88
+UNIUSDT 	Latest Close: (9.711) 	SMA(14) : 9.79 	Delta : S 	Previous STC : 98.01 	STC : 80.63
+FORMUSDT 	Latest Close: (3.1257) 	SMA(14) : 3.11 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  80.63
+Last close price for UNIUSDT: 9.706
+Opening Sell for  UNIUSDT
+TP: 9.608939999999999
+SL: 9.90012
+TS: 0.09706
+Order Quantity: 1030.29
+Adjusted qty: 1030.3
+Final Adjusted qty: 1030.2
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3d6effde-bc25-4cb5-8632-e88834116c72', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757424040334}
+3d6effde-bc25-4cb5-8632-e88834116c72
+fetching trade data for :  3d6effde-bc25-4cb5-8632-e88834116c72
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3d6effde-bc25-4cb5-8632-e88834116c72', 'stopOrderType': 'UNKNOWN', 'execTime': '1757424040332', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.706', 'execPrice': '9.706', 'markIv': '', 'orderQty': '1030.2', 'orderPrice': '9.221', 'execValue': '9999.1212', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198220753, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49951666', 'execId': '0cd63b59-918f-4d3e-891a-36dd33634f40', 'marketUnit': '', 'execQty': '1030.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | S |  78.88
+Last close price for AVAXUSDT: 25.885
+Opening Sell for  AVAXUSDT
+TP: 25.626150000000003
+SL: 26.402700000000003
+TS: 0.25885
+Order Quantity: 386.32
+Adjusted qty: 386.3
+Final Adjusted qty: 386.3
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd2eaa082-f3a3-4fc4-a21d-45db9bcbb46d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757424052645}
+d2eaa082-f3a3-4fc4-a21d-45db9bcbb46d
+fetching trade data for :  d2eaa082-f3a3-4fc4-a21d-45db9bcbb46d
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd2eaa082-f3a3-4fc4-a21d-45db9bcbb46d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757424052644', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '25.884', 'execPrice': '25.889', 'markIv': '', 'orderQty': '386.3', 'orderPrice': '25.367', 'execValue': '10000.9207', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198221204, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50050639', 'execId': '6c404d78-4239-4da8-a73d-eb359cd4f317', 'marketUnit': '', 'execQty': '386.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 09.09.2025 17:21:02
