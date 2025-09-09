@@ -27516,3 +27516,60 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 09:40:39
+***************************************************************
+Number of open positions: 7
+Function started at 09.09.2025 09:45:06
+POLUSDT 	Latest Close: (0.2717) 	SMA(14) : 0.27 	Delta : B 	Previous STC : 3.22 	STC : 27.91
+AEROUSDT 	Latest Close: (1.1668) 	SMA(14) : 1.16 	Delta : B 	Previous STC : 11.10 	STC : 40.73
+WALUSDT 	Latest Close: (0.4302) 	SMA(14) : 0.43 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+UNIUSDT 	Latest Close: (9.495) 	SMA(14) : 9.49 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+COREUSDT 	Latest Close: (0.444) 	SMA(14) : 0.44 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AEROUSDT   | B |  40.73
+Last close price for AEROUSDT: 1.1666
+Opening Buy for  AEROUSDT
+TP: 1.178266
+SL: 1.143268
+TS: 0.011666000000000001
+Order Quantity: 8571.92
+Adjusted qty: 8572.0
+Final Adjusted qty: 8571.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c4a1ecae-4165-495c-b9c9-1f1f52f8261f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757396742312}
+c4a1ecae-4165-495c-b9c9-1f1f52f8261f
+fetching trade data for :  c4a1ecae-4165-495c-b9c9-1f1f52f8261f
+[{'symbol': 'AEROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c4a1ecae-4165-495c-b9c9-1f1f52f8261f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757396742312', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1666', 'execPrice': '1.1666', 'markIv': '', 'orderQty': '8571', 'orderPrice': '1.3415', 'execValue': '9998.9286', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197363197, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49941073', 'execId': '78a8c6ea-2500-4561-868e-b7e28d074349', 'marketUnit': '', 'execQty': '8571', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | B |  33.33
+Last close price for UNIUSDT: 9.491
+Opening Buy for  UNIUSDT
+TP: 9.58591
+SL: 9.301179999999999
+TS: 0.09491
+Order Quantity: 1053.63
+Adjusted qty: 1053.6000000000001
+Final Adjusted qty: 1053.6
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cae7dd19-44cb-42e7-962e-fbb3ba45deec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757396754381}
+cae7dd19-44cb-42e7-962e-fbb3ba45deec
+fetching trade data for :  cae7dd19-44cb-42e7-962e-fbb3ba45deec
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cae7dd19-44cb-42e7-962e-fbb3ba45deec', 'stopOrderType': 'UNKNOWN', 'execTime': '1757396754381', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.492', 'execPrice': '9.491', 'markIv': '', 'orderQty': '1053.6', 'orderPrice': '9.966', 'execValue': '9999.7176', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197363544, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49984468', 'execId': 'eeb10ea9-ce8b-4a36-839b-24bf84e56fa0', 'marketUnit': '', 'execQty': '1053.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+COREUSDT   | B |  33.33
+Last close price for COREUSDT: 0.4442
+Opening Buy for  COREUSDT
+TP: 0.448642
+SL: 0.435316
+TS: 0.004442
+Order Quantity: 22512.38
+Adjusted qty: 22512.4
+Final Adjusted qty: 22512.3
+13560.0
