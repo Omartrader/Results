@@ -26356,3 +26356,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 06:25:38
+***************************************************************
+Number of open positions: 4
+Function started at 09.09.2025 06:30:07
+SANDUSDT 	Latest Close: (0.2944) 	SMA(14) : 0.30 	Delta : S 	Previous STC : 96.35 	STC : 95.16
+CAKEUSDT 	Latest Close: (2.434) 	SMA(14) : 2.45 	Delta : S 	Previous STC : 96.45 	STC : 94.75
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SANDUSDT   | S |  95.16
+Last close price for SANDUSDT: 0.2947
+Opening Sell for  SANDUSDT
+TP: 0.29175300000000004
+SL: 0.30059400000000003
+TS: 0.002947
+Order Quantity: 33932.81
+Adjusted qty: 33933.0
+Final Adjusted qty: 33932.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f0a8ac64-5b9e-4110-9544-eda0507ff251', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757385060393}
+f0a8ac64-5b9e-4110-9544-eda0507ff251
+fetching trade data for :  f0a8ac64-5b9e-4110-9544-eda0507ff251
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f0a8ac64-5b9e-4110-9544-eda0507ff251', 'stopOrderType': 'UNKNOWN', 'execTime': '1757385060392', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2948', 'execPrice': '0.2947', 'markIv': '', 'orderQty': '33932', 'orderPrice': '0.2654', 'execValue': '9999.7604', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197007647, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49986822', 'execId': '502b57cb-ba2c-4c37-a76b-9c10a52f9e30', 'marketUnit': '', 'execQty': '33932', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CAKEUSDT   | S |  94.75
+Last close price for CAKEUSDT: 2.434
+Opening Sell for  CAKEUSDT
+TP: 2.40966
+SL: 2.48268
+TS: 0.02434
+Order Quantity: 4108.46
+Adjusted qty: 4108.5
+Final Adjusted qty: 4108.4
+16560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4cc375f0-e71e-4cb5-8c6a-527db8547124', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757385073777}
+4cc375f0-e71e-4cb5-8c6a-527db8547124
+fetching trade data for :  4cc375f0-e71e-4cb5-8c6a-527db8547124
+[{'symbol': 'CAKEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4cc375f0-e71e-4cb5-8c6a-527db8547124', 'stopOrderType': 'UNKNOWN', 'execTime': '1757385073776', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.436', 'execPrice': '2.434', 'markIv': '', 'orderQty': '4108.4', 'orderPrice': '2.193', 'execValue': '9999.8456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197008071, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991508', 'execId': '2c51d90e-de31-4921-9434-eb1b3ee3e061', 'marketUnit': '', 'execQty': '4108.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 06:31:24
