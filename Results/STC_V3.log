@@ -18139,3 +18139,66 @@ Order Quantity: 4948.9
 Adjusted qty: 4948.900000000001
 Final Adjusted qty: 4948.9
 32140.0
+***************************************************************
+Number of open positions: 2
+Function started at 09.09.2025 07:55:43
+	FLRUSDT 	Signal: B
+FLRUSDT 	Latest Close: (0.02206) 	SMA(14) : 0.02 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (4.0428) 	SMA(14) : 4.05 	Delta :  	Previous STC : 98.80 	STC : 94.37
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (583.8) 	SMA(14) : 585.78 	Delta :  	Previous STC : 99.34 	STC : 94.20
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (268.15) 	SMA(14) : 266.61 	Delta :  	Previous STC : 8.72 	STC : 39.14
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOTUSDT    | S |  94.37
+1
+Last close price for DOTUSDT: 4.0424
+Opening Sell for  DOTUSDT
+TP: 4.001976
+SL: 4.123248
+TS: 0.040423999999999995
+Order Quantity: 4947.56
+Adjusted qty: 4947.6
+Final Adjusted qty: 4947.5
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c9e5dfe4-0820-4996-a154-c2ab6b0a53ba', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757390163460}
+c9e5dfe4-0820-4996-a154-c2ab6b0a53ba
+fetching trade data for :  c9e5dfe4-0820-4996-a154-c2ab6b0a53ba
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c9e5dfe4-0820-4996-a154-c2ab6b0a53ba', 'stopOrderType': 'UNKNOWN', 'execTime': '1757390163459', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.0424', 'execPrice': '4.0424', 'markIv': '', 'orderQty': '4947.5', 'orderPrice': '3.8403', 'execValue': '19999.774', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508314206, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9998757', 'execId': 'fe4b141a-4191-4e20-8e53-de382e74a7e1', 'marketUnit': '', 'execQty': '4947.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    | S |  94.20
+1
+Last close price for BCHUSDT: 583.8
+Opening Sell for  BCHUSDT
+TP: 577.962
+SL: 595.476
+TS: 5.837999999999999
+Order Quantity: 34.26
+Adjusted qty: 34.26
+Final Adjusted qty: 34.26
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '92764282-c062-4dcc-bc85-128db4c062d0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757390175533}
+92764282-c062-4dcc-bc85-128db4c062d0
+fetching trade data for :  92764282-c062-4dcc-bc85-128db4c062d0
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '92764282-c062-4dcc-bc85-128db4c062d0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757390175532', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '583.89', 'execPrice': '583.8', 'markIv': '', 'orderQty': '34.26', 'orderPrice': '554.7', 'execValue': '20000.988', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508314616, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0005434', 'execId': 'e29c1691-f558-453d-aa4b-09934fae81bc', 'marketUnit': '', 'execQty': '34.26', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XMRUSDT    | B |  39.14
+1
+Last close price for XMRUSDT: 268.17
+Opening Buy for  XMRUSDT
+TP: 270.8517
+SL: 262.8066
+TS: 2.6817
+Order Quantity: 74.58
+Adjusted qty: 74.58
+Final Adjusted qty: 74.58
+205.0
