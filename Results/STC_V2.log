@@ -26624,3 +26624,55 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 07:10:41
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 07:15:07
+ARBUSDT 	Latest Close: (0.5068) 	SMA(14) : 0.51 	Delta : S 	Previous STC : 96.52 	STC : 89.03
+STRKUSDT 	Latest Close: (0.1275) 	SMA(14) : 0.13 	Delta : S 	Previous STC : 96.85 	STC : 93.29
+KAIAUSDT 	Latest Close: (0.1546) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 99.14 	STC : 94.89
+MNTUSDT 	Latest Close: (1.1919) 	SMA(14) : 1.20 	Delta : S 	Previous STC : 99.02 	STC : 95.71
+SPXUSDT 	Latest Close: (1.3195) 	SMA(14) : 1.32 	Delta : S 	Previous STC : 98.46 	STC : 95.30
+DYDXUSDT 	Latest Close: (0.615) 	SMA(14) : 0.62 	Delta : S 	Previous STC : 96.09 	STC : 90.21
+XTZUSDT 	Latest Close: (0.721) 	SMA(14) : 0.72 	Delta : S 	Previous STC : 97.74 	STC : 91.20
+INJUSDT 	Latest Close: (13.58) 	SMA(14) : 13.64 	Delta : S 	Previous STC : 97.85 	STC : 92.19
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  95.71
+Last close price for MNTUSDT: 1.1922
+Opening Sell for  MNTUSDT
+TP: 1.180278
+SL: 1.216044
+TS: 0.011921999999999999
+Order Quantity: 8387.85
+Adjusted qty: 8388.0
+Final Adjusted qty: 8387.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e5d5fa6b-4c97-4ae9-9087-e745208d2108', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757387760974}
+e5d5fa6b-4c97-4ae9-9087-e745208d2108
+fetching trade data for :  e5d5fa6b-4c97-4ae9-9087-e745208d2108
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e5d5fa6b-4c97-4ae9-9087-e745208d2108', 'stopOrderType': 'UNKNOWN', 'execTime': '1757387760974', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.19224', 'execPrice': '1.1922', 'markIv': '', 'orderQty': '8387', 'orderPrice': '1.0731', 'execValue': '9998.9814', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197090898, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49943977', 'execId': '8c3a16d4-3743-4bc1-ba42-0c1293002312', 'marketUnit': '', 'execQty': '8387', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SPXUSDT    | S |  95.30
+Last close price for SPXUSDT: 1.3207
+Opening Sell for  SPXUSDT
+TP: 1.307493
+SL: 1.347114
+TS: 0.013207
+Order Quantity: 7571.74
+Adjusted qty: 7572.0
+Final Adjusted qty: 7571.0
+14800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '80feb4af-00b7-4079-a8fa-a0da749fd1b4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757387774213}
+80feb4af-00b7-4079-a8fa-a0da749fd1b4
+fetching trade data for :  80feb4af-00b7-4079-a8fa-a0da749fd1b4
+[{'symbol': 'SPXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '80feb4af-00b7-4079-a8fa-a0da749fd1b4', 'stopOrderType': 'UNKNOWN', 'execTime': '1757387774213', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3213', 'execPrice': '1.3213', 'markIv': '', 'orderQty': '7571', 'orderPrice': '1.1232', 'execValue': '10003.5623', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197091300, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50195927', 'execId': 'e2859cc1-d404-464e-95d8-0d34995b84c8', 'marketUnit': '', 'execQty': '7571', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 09.09.2025 07:16:25
