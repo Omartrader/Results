@@ -28520,3 +28520,49 @@ Order Quantity: 63291.14
 Adjusted qty: 63291.0
 Final Adjusted qty: 63291.0
 170000.0
+***************************************************************
+Number of open positions: 9
+Function started at 09.09.2025 11:10:07
+WLFIUSDT 	Latest Close: (0.2144) 	SMA(14) : 0.21 	Delta : B 	Previous STC : 12.18 	STC : 30.00
+CROUSDT 	Latest Close: (0.24911) 	SMA(14) : 0.25 	Delta : B 	Previous STC : 8.01 	STC : 38.67
+SUIUSDT 	Latest Close: (3.5937) 	SMA(14) : 3.50 	Delta : B 	Previous STC : 20.22 	STC : 46.81
+KAIAUSDT 	Latest Close: (0.1579) 	SMA(14) : 0.16 	Delta : B 	Previous STC : 20.04 	STC : 45.34
+INJUSDT 	Latest Close: (14.089) 	SMA(14) : 13.79 	Delta : B 	Previous STC : 14.50 	STC : 43.00
+CAKEUSDT 	Latest Close: (2.467) 	SMA(14) : 2.45 	Delta : B 	Previous STC : 5.88 	STC : 26.29
+LTCUSDT 	Latest Close: (113.9) 	SMA(14) : 112.95 	Delta : B 	Previous STC : 21.77 	STC : 32.55
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  46.81
+Last close price for SUIUSDT: 3.596
+Opening Buy for  SUIUSDT
+TP: 3.6319600000000003
+SL: 3.52408
+TS: 0.03596
+Order Quantity: 2780.87
+Adjusted qty: 2780.0
+Final Adjusted qty: 2780.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+KAIAUSDT   | B |  45.34
+Last close price for KAIAUSDT: 0.1579
+Opening Buy for  KAIAUSDT
+TP: 0.159479
+SL: 0.15474200000000002
+TS: 0.001579
+Order Quantity: 63331.22
+Adjusted qty: 63331.0
+Final Adjusted qty: 63331.0
+170000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '71ab4ec6-937b-4c61-bae1-a154518b38ee', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757401868040}
+71ab4ec6-937b-4c61-bae1-a154518b38ee
+fetching trade data for :  71ab4ec6-937b-4c61-bae1-a154518b38ee
+[{'symbol': 'KAIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '71ab4ec6-937b-4c61-bae1-a154518b38ee', 'stopOrderType': 'UNKNOWN', 'execTime': '1757401868039', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1579', 'execPrice': '0.1579', 'markIv': '', 'orderQty': '63331', 'orderPrice': '0.1815', 'execValue': '9999.9649', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197521686, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999807', 'execId': 'ce5c9a25-fe49-43da-995b-de38995cd746', 'marketUnit': '', 'execQty': '63331', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 11:11:17
