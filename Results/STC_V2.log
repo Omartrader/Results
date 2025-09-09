@@ -29508,3 +29508,31 @@ Order Quantity: 450247.64
 Adjusted qty: 450250.0
 Final Adjusted qty: 450240.0
 509000.0
+***************************************************************
+Number of open positions: 9
+Function started at 09.09.2025 15:30:08
+BRETTUSDT 	Latest Close: (0.05042) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 99.43 	STC : 94.92
+WALUSDT 	Latest Close: (0.4344) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 99.43 	STC : 94.31
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BRETTUSDT  | S |  94.92
+Last close price for BRETTUSDT: 0.05029
+Opening Sell for  BRETTUSDT
+TP: 0.0497871
+SL: 0.0512958
+TS: 0.0005029
+Order Quantity: 198846.69
+Adjusted qty: 198850.0
+Final Adjusted qty: 198840.0
+400000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e6198637-b5ef-4910-bfc0-dc017afb6a03', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757417464499}
+e6198637-b5ef-4910-bfc0-dc017afb6a03
+fetching trade data for :  e6198637-b5ef-4910-bfc0-dc017afb6a03
+[{'symbol': 'BRETTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e6198637-b5ef-4910-bfc0-dc017afb6a03', 'stopOrderType': 'UNKNOWN', 'execTime': '1757417464498', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.05037', 'execPrice': '0.05029', 'markIv': '', 'orderQty': '198840', 'orderPrice': '0.04282', 'execValue': '9999.6636', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198007947, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49981498', 'execId': '36aa9f4a-a795-4971-bf25-1ab6240b33a8', 'marketUnit': '', 'execQty': '198840', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 15:31:15
