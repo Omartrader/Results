@@ -30140,3 +30140,76 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 09.09.2025 16:41:40
+***************************************************************
+Number of open positions: 7
+Function started at 09.09.2025 16:45:05
+HBARUSDT 	Latest Close: (0.2311) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 98.05 	STC : 84.08
+VETUSDT 	Latest Close: (0.02445) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 97.04 	STC : 79.23
+OPUSDT 	Latest Close: (0.7741) 	SMA(14) : 0.78 	Delta : S 	Previous STC : 98.43 	STC : 85.70
+SPXUSDT 	Latest Close: (1.4013) 	SMA(14) : 1.43 	Delta : S 	Previous STC : 98.93 	STC : 88.18
+IOTAUSDT 	Latest Close: (0.1932) 	SMA(14) : 0.20 	Delta : S 	Previous STC : 98.88 	STC : 88.30
+APEUSDT 	Latest Close: (0.614) 	SMA(14) : 0.62 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TRUMPUSDT 	Latest Close: (8.752) 	SMA(14) : 8.81 	Delta : S 	Previous STC : 97.60 	STC : 75.37
+ATOMUSDT 	Latest Close: (4.602) 	SMA(14) : 4.64 	Delta : S 	Previous STC : 97.29 	STC : 75.40
+PENDLEUSDT 	Latest Close: (4.883) 	SMA(14) : 4.93 	Delta : S 	Previous STC : 99.38 	STC : 91.69
+ETCUSDT 	Latest Close: (20.917) 	SMA(14) : 20.98 	Delta : S 	Previous STC : 100.00 	STC : 94.90
+AAVEUSDT 	Latest Close: (303.58) 	SMA(14) : 306.89 	Delta : S 	Previous STC : 96.79 	STC : 78.83
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETCUSDT    | S |  94.90
+Last close price for ETCUSDT: 20.92
+Opening Sell for  ETCUSDT
+TP: 20.710800000000003
+SL: 21.338400000000004
+TS: 0.20920000000000002
+Order Quantity: 478.01
+Adjusted qty: 478.0
+Final Adjusted qty: 478.0
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2fd4c482-f980-454b-829d-ecdeff05dd33', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757421939380}
+2fd4c482-f980-454b-829d-ecdeff05dd33
+fetching trade data for :  2fd4c482-f980-454b-829d-ecdeff05dd33
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2fd4c482-f980-454b-829d-ecdeff05dd33', 'stopOrderType': 'UNKNOWN', 'execTime': '1757421939379', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.92', 'execPrice': '20.92', 'markIv': '', 'orderQty': '478', 'orderPrice': '19.874', 'execValue': '9999.76', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198152025, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499868', 'execId': '90231360-f4d0-4b85-a89d-f2cc43b0c1d5', 'marketUnit': '', 'execQty': '478', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENDLEUSDT | S |  91.69
+Last close price for PENDLEUSDT: 4.8862
+Opening Sell for  PENDLEUSDT
+TP: 4.837338
+SL: 4.983924
+TS: 0.048861999999999996
+Order Quantity: 2046.58
+Adjusted qty: 2047.0
+Final Adjusted qty: 2046.0
+5200.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '026d442f-ac28-4645-8bfb-a43e7a649663', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757421951388}
+026d442f-ac28-4645-8bfb-a43e7a649663
+fetching trade data for :  026d442f-ac28-4645-8bfb-a43e7a649663
+[{'symbol': 'PENDLEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '026d442f-ac28-4645-8bfb-a43e7a649663', 'stopOrderType': 'UNKNOWN', 'execTime': '1757421951387', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.8862', 'execPrice': '4.8862', 'markIv': '', 'orderQty': '2046', 'orderPrice': '4.3976', 'execValue': '9997.1652', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198152388, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49844086', 'execId': 'e4b1beaf-4e3f-45ec-8b6c-07aa50bd38e4', 'marketUnit': '', 'execQty': '2046', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IOTAUSDT   | S |  88.30
+Last close price for IOTAUSDT: 0.1933
+Opening Sell for  IOTAUSDT
+TP: 0.191367
+SL: 0.197166
+TS: 0.001933
+Order Quantity: 51733.06
+Adjusted qty: 51733.100000000006
+Final Adjusted qty: 51733.0
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '05fad0cd-23f2-4796-893a-4f2ba8a165b1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757421963542}
+05fad0cd-23f2-4796-893a-4f2ba8a165b1
+fetching trade data for :  05fad0cd-23f2-4796-893a-4f2ba8a165b1
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '05fad0cd-23f2-4796-893a-4f2ba8a165b1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757421963541', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1933', 'execPrice': '0.1934', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.174', 'execValue': '5144.44', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198152771, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.829442', 'execId': '4db3b7a9-7f29-4421-b3f3-2a3605ce1110', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 09.09.2025 16:46:13
