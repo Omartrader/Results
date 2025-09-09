@@ -28294,3 +28294,78 @@ Order Quantity: 32.78
 Adjusted qty: 32.78
 Final Adjusted qty: 32.78
 2514.0
+***************************************************************
+Number of open positions: 9
+Function started at 09.09.2025 10:40:07
+ARBUSDT 	Latest Close: (0.5306) 	SMA(14) : 0.52 	Delta : B 	Previous STC : 7.20 	STC : 25.47
+KASUSDT 	Latest Close: (0.08147) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+STRKUSDT 	Latest Close: (0.1329) 	SMA(14) : 0.13 	Delta : B 	Previous STC : 7.86 	STC : 26.97
+ONDOUSDT 	Latest Close: (0.9597) 	SMA(14) : 0.94 	Delta : B 	Previous STC : 12.12 	STC : 32.45
+SPXUSDT 	Latest Close: (1.3804) 	SMA(14) : 1.34 	Delta : B 	Previous STC : 8.37 	STC : 27.66
+DYDXUSDT 	Latest Close: (0.6334) 	SMA(14) : 0.62 	Delta : B 	Previous STC : 9.28 	STC : 32.77
+TONUSDT 	Latest Close: (3.1251) 	SMA(14) : 3.09 	Delta : B 	Previous STC : 24.30 	STC : 49.54
+AUSDT 	Latest Close: (0.4761) 	SMA(14) : 0.47 	Delta : B 	Previous STC : 15.02 	STC : 43.35
+NEOUSDT 	Latest Close: (6.75) 	SMA(14) : 6.67 	Delta : B 	Previous STC : 15.99 	STC : 43.99
+AAVEUSDT 	Latest Close: (305.6) 	SMA(14) : 301.23 	Delta : B 	Previous STC : 5.34 	STC : 35.85
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | B |  49.54
+Last close price for TONUSDT: 3.1266
+Opening Buy for  TONUSDT
+TP: 3.157866
+SL: 3.064068
+TS: 0.031265999999999995
+Order Quantity: 3198.36
+Adjusted qty: 3198.4
+Final Adjusted qty: 3198.3
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEOUSDT    | B |  43.99
+Last close price for NEOUSDT: 6.751
+Opening Buy for  NEOUSDT
+TP: 6.818510000000001
+SL: 6.61598
+TS: 0.06751
+Order Quantity: 1481.26
+Adjusted qty: 1481.26
+Final Adjusted qty: 1481.26
+7367.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AUSDT      | B |  43.35
+Last close price for AUSDT: 0.476
+Opening Buy for  AUSDT
+TP: 0.48075999999999997
+SL: 0.46647999999999995
+TS: 0.0047599999999999995
+Order Quantity: 21008.4
+Adjusted qty: 21008.0
+Final Adjusted qty: 21008.0
+32400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AAVEUSDT   | B |  35.85
+Last close price for AAVEUSDT: 305.56
+Opening Buy for  AAVEUSDT
+TP: 308.61560000000003
+SL: 299.4488
+TS: 3.0556
+Order Quantity: 32.73
+Adjusted qty: 32.730000000000004
+Final Adjusted qty: 32.73
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ccfed665-28fe-432d-8ff2-9981b3629182', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757400069361}
+ccfed665-28fe-432d-8ff2-9981b3629182
+fetching trade data for :  ccfed665-28fe-432d-8ff2-9981b3629182
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ccfed665-28fe-432d-8ff2-9981b3629182', 'stopOrderType': 'UNKNOWN', 'execTime': '1757400069361', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '305.57', 'execPrice': '305.49', 'markIv': '', 'orderQty': '32.73', 'orderPrice': '320.84', 'execValue': '9998.6877', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197465237, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49927824', 'execId': 'edd17092-6581-4e4c-b8de-17f2f7509120', 'marketUnit': '', 'execQty': '32.73', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 10:41:19
