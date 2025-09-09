@@ -29693,3 +29693,48 @@ Order Quantity: 28.89
 Adjusted qty: 28.89
 Final Adjusted qty: 28.89
 60.0
+***************************************************************
+Number of open positions: 9
+Function started at 09.09.2025 15:55:05
+CRVUSDT 	Latest Close: (0.8038) 	SMA(14) : 0.81 	Delta : S 	Previous STC : 98.82 	STC : 91.85
+LDOUSDT 	Latest Close: (1.2334) 	SMA(14) : 1.24 	Delta : S 	Previous STC : 99.36 	STC : 93.54
+SOLUSDT 	Latest Close: (217.33) 	SMA(14) : 218.39 	Delta : S 	Previous STC : 99.32 	STC : 93.66
+SYRUPUSDT 	Latest Close: (0.48195) 	SMA(14) : 0.48 	Delta : S 	Previous STC : 98.56 	STC : 91.84
+FLOWUSDT 	Latest Close: (0.4128) 	SMA(14) : 0.41 	Delta : S 	Previous STC : 99.61 	STC : 94.79
+TAOUSDT 	Latest Close: (345.16) 	SMA(14) : 346.24 	Delta : S 	Previous STC : 99.06 	STC : 94.25
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLOWUSDT   | S |  94.79
+Last close price for FLOWUSDT: 0.4128
+Opening Sell for  FLOWUSDT
+TP: 0.408672
+SL: 0.421056
+TS: 0.004128
+Order Quantity: 24224.81
+Adjusted qty: 24224.800000000003
+Final Adjusted qty: 24224.8
+76780.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TAOUSDT    | S |  94.25
+Last close price for TAOUSDT: 345.16
+Opening Sell for  TAOUSDT
+TP: 341.70840000000004
+SL: 352.06320000000005
+TS: 3.4516000000000004
+Order Quantity: 28.97
+Adjusted qty: 28.97
+Final Adjusted qty: 28.97
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1c5233d1-74ca-470e-9b85-6664490c5a16', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757418940554}
+1c5233d1-74ca-470e-9b85-6664490c5a16
+fetching trade data for :  1c5233d1-74ca-470e-9b85-6664490c5a16
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1c5233d1-74ca-470e-9b85-6664490c5a16', 'stopOrderType': 'UNKNOWN', 'execTime': '1757418940553', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '345.16', 'execPrice': '345.16', 'markIv': '', 'orderQty': '28.97', 'orderPrice': '293.39', 'execValue': '9999.2852', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198055010, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49960686', 'execId': '34cd3e72-6071-4957-be87-1c6e0ea6cde3', 'marketUnit': '', 'execQty': '28.97', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 15:55:51
