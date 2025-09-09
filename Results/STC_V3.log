@@ -20118,3 +20118,38 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 09.09.2025 16:06:40
+***************************************************************
+Number of open positions: 4
+Function started at 09.09.2025 16:16:33
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (2.0914) 	SMA(14) : 2.03 	Delta :  	Previous STC : 22.44 	STC : 36.36
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.3174) 	SMA(14) : 0.32 	Delta :  	Previous STC : 96.61 	STC : 84.46
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (113.7) 	SMA(14) : 113.90 	Delta :  	Previous STC : 97.55 	STC : 83.83
+	USDEUSDT 	Signal: B
+USDEUSDT 	Latest Close: (1.0) 	SMA(14) : 1.00 	Delta :  	Previous STC : 15.85 	STC : 30.61
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SEIUSDT    | S |  84.46
+1
+Last close price for SEIUSDT: 0.3173
+Opening Sell for  SEIUSDT
+TP: 0.31412700000000005
+SL: 0.32364600000000004
+TS: 0.0031730000000000005
+Order Quantity: 63031.83
+Adjusted qty: 63032.0
+Final Adjusted qty: 63031.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4b2d8b9c-7784-4fcb-ba42-df27d36adc35', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757420214281}
+4b2d8b9c-7784-4fcb-ba42-df27d36adc35
+fetching trade data for :  4b2d8b9c-7784-4fcb-ba42-df27d36adc35
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4b2d8b9c-7784-4fcb-ba42-df27d36adc35', 'stopOrderType': 'UNKNOWN', 'execTime': '1757420214280', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.31733', 'execPrice': '0.3173', 'markIv': '', 'orderQty': '63031', 'orderPrice': '0.2856', 'execValue': '19999.7363', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612509377583, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99985497', 'execId': 'ad070c66-b8af-4a19-b9ab-5d1518fedf7c', 'marketUnit': '', 'execQty': '63031', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 16:17:04
