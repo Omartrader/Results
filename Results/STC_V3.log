@@ -20247,3 +20247,80 @@ Order Quantity: 83542.19
 Adjusted qty: 83542.20000000001
 Final Adjusted qty: 83542.1
 160000.0
+***************************************************************
+Number of open positions: 2
+Function started at 09.09.2025 16:41:45
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.5265) 	SMA(14) : 0.53 	Delta :  	Previous STC : 99.99 	STC : 92.47
+	XLMUSDT 	Signal: S
+XLMUSDT 	Latest Close: (0.38088) 	SMA(14) : 0.38 	Delta :  	Previous STC : 96.46 	STC : 82.29
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2748) 	SMA(14) : 0.28 	Delta :  	Previous STC : 98.58 	STC : 87.79
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.24433) 	SMA(14) : 0.25 	Delta :  	Previous STC : 98.04 	STC : 87.74
+	ONDOUSDT 	Signal: S
+ONDOUSDT 	Latest Close: (0.9651) 	SMA(14) : 0.97 	Delta :  	Previous STC : 99.64 	STC : 91.59
+	SUIUSDT 	Signal: S
+SUIUSDT 	Latest Close: (3.5479) 	SMA(14) : 3.59 	Delta :  	Previous STC : 96.19 	STC : 79.37
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2384) 	SMA(14) : 0.24 	Delta :  	Previous STC : 99.99 	STC : 95.03
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (3.1276) 	SMA(14) : 3.13 	Delta :  	Previous STC : 99.02 	STC : 91.47
+	FILUSDT 	Signal: S
+FILUSDT 	Latest Close: (2.469) 	SMA(14) : 2.49 	Delta :  	Previous STC : 99.50 	STC : 90.43
+	BNBUSDT 	Signal: S
+BNBUSDT 	Latest Close: (879.1) 	SMA(14) : 881.05 	Delta :  	Previous STC : 99.61 	STC : 93.05
+	QNTUSDT 	Signal: S
+QNTUSDT 	Latest Close: (100.45) 	SMA(14) : 101.03 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ALGOUSDT   | S |  95.03
+1
+Last close price for ALGOUSDT: 0.2384
+Opening Sell for  ALGOUSDT
+TP: 0.236016
+SL: 0.243168
+TS: 0.002384
+Order Quantity: 83892.62
+Adjusted qty: 83892.6
+Final Adjusted qty: 83892.6
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2804fdbe-4afd-439d-8290-532b62cc436e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757421737453}
+2804fdbe-4afd-439d-8290-532b62cc436e
+fetching trade data for :  2804fdbe-4afd-439d-8290-532b62cc436e
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2804fdbe-4afd-439d-8290-532b62cc436e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757421737452', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2384', 'execPrice': '0.2384', 'markIv': '', 'orderQty': '83892.6', 'orderPrice': '0.2265', 'execValue': '19999.99584', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612509434849, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999772', 'execId': '05c87f47-e248-4bde-a66b-4ebdc79b8833', 'marketUnit': '', 'execQty': '83892.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BNBUSDT    | S |  93.05
+1
+Last close price for BNBUSDT: 879.2
+Opening Sell for  BNBUSDT
+TP: 870.408
+SL: 896.7840000000001
+TS: 8.792
+Order Quantity: 22.75
+Adjusted qty: 22.75
+Final Adjusted qty: 22.75
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3b0ffec5-f294-4f8c-84e7-40ac80656f43', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757421750739}
+3b0ffec5-f294-4f8c-84e7-40ac80656f43
+fetching trade data for :  3b0ffec5-f294-4f8c-84e7-40ac80656f43
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3b0ffec5-f294-4f8c-84e7-40ac80656f43', 'stopOrderType': 'UNKNOWN', 'execTime': '1757421750738', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '879.05', 'execPrice': '879', 'markIv': '', 'orderQty': '22.75', 'orderPrice': '835.1', 'execValue': '19997.25', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612509435379, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9984875', 'execId': '5c8d021b-5420-4342-a338-de4377e121ae', 'marketUnit': '', 'execQty': '22.75', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARBUSDT    | S |  92.47
+1
+Last close price for ARBUSDT: 0.5271
+Opening Sell for  ARBUSDT
+TP: 0.521829
+SL: 0.5376420000000001
+TS: 0.0052710000000000005
+Order Quantity: 37943.46
+Adjusted qty: 37943.5
+Final Adjusted qty: 37943.4
+283360.0
