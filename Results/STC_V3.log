@@ -17899,3 +17899,52 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 07:11:06
+***************************************************************
+Number of open positions: 2
+Function started at 09.09.2025 07:16:28
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.5076) 	SMA(14) : 0.51 	Delta :  	Previous STC : 96.52 	STC : 89.10
+	MNTUSDT 	Signal: S
+MNTUSDT 	Latest Close: (1.1917) 	SMA(14) : 1.20 	Delta :  	Previous STC : 99.02 	STC : 95.69
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  95.69
+1
+Last close price for MNTUSDT: 1.1916
+Opening Sell for  MNTUSDT
+TP: 1.179684
+SL: 1.215432
+TS: 0.011916
+Order Quantity: 16784.16
+Adjusted qty: 16784.0
+Final Adjusted qty: 16784.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '16affb13-4a10-43a7-b01b-a8dac3627a7c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757387809299}
+16affb13-4a10-43a7-b01b-a8dac3627a7c
+fetching trade data for :  16affb13-4a10-43a7-b01b-a8dac3627a7c
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '16affb13-4a10-43a7-b01b-a8dac3627a7c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757387809299', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1916', 'execPrice': '1.1916', 'markIv': '', 'orderQty': '16784', 'orderPrice': '1.0725', 'execValue': '19999.8144', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508234808, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99989792', 'execId': 'f0779d04-70a0-48c1-bf1d-8123cdcf699b', 'marketUnit': '', 'execQty': '16784', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARBUSDT    | S |  89.10
+1
+Last close price for ARBUSDT: 0.5079
+Opening Sell for  ARBUSDT
+TP: 0.502821
+SL: 0.518058
+TS: 0.005079
+Order Quantity: 39377.83
+Adjusted qty: 39377.8
+Final Adjusted qty: 39377.8
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fd4e858a-3ef2-44d5-a1f2-b7175f48329e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757387821626}
+fd4e858a-3ef2-44d5-a1f2-b7175f48329e
+fetching trade data for :  fd4e858a-3ef2-44d5-a1f2-b7175f48329e
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fd4e858a-3ef2-44d5-a1f2-b7175f48329e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757387821625', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5079', 'execPrice': '0.5079', 'markIv': '', 'orderQty': '39377.8', 'orderPrice': '0.4826', 'execValue': '19999.98462', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508235240, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999155', 'execId': '2a61be49-661e-4303-8120-c1a66c007474', 'marketUnit': '', 'execQty': '39377.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.09.2025 07:17:11
