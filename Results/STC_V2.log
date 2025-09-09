@@ -29881,3 +29881,69 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  4
 Function finished at 09.09.2025 16:16:28
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 16:20:06
+WLDUSDT 	Latest Close: (2.0717) 	SMA(14) : 2.03 	Delta : B 	Previous STC : 22.44 	STC : 36.36
+SEIUSDT 	Latest Close: (0.317) 	SMA(14) : 0.32 	Delta : S 	Previous STC : 96.61 	STC : 84.26
+ZKUSDT 	Latest Close: (0.06213) 	SMA(14) : 0.06 	Delta : S 	Previous STC : 99.92 	STC : 95.10
+MANAUSDT 	Latest Close: (0.329) 	SMA(14) : 0.33 	Delta : S 	Previous STC : 99.51 	STC : 95.43
+LTCUSDT 	Latest Close: (113.64) 	SMA(14) : 113.89 	Delta : S 	Previous STC : 97.55 	STC : 83.61
+USDEUSDT 	Latest Close: (1.0) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 15.85 	STC : 30.61
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MANAUSDT   | S |  95.43
+Last close price for MANAUSDT: 0.3288
+Opening Sell for  MANAUSDT
+TP: 0.32551199999999997
+SL: 0.335376
+TS: 0.0032879999999999997
+Order Quantity: 30413.63
+Adjusted qty: 30413.600000000002
+Final Adjusted qty: 30413.6
+226290.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ZKUSDT     | S |  95.10
+Last close price for ZKUSDT: 0.06212
+Opening Sell for  ZKUSDT
+TP: 0.0614988
+SL: 0.0633624
+TS: 0.0006212
+Order Quantity: 160978.75
+Adjusted qty: 160978.80000000002
+Final Adjusted qty: 160978.7
+185000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SEIUSDT    | S |  84.26
+Last close price for SEIUSDT: 0.3169
+Opening Sell for  SEIUSDT
+TP: 0.31373100000000004
+SL: 0.323238
+TS: 0.003169
+Order Quantity: 31555.7
+Adjusted qty: 31556.0
+Final Adjusted qty: 31555.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e755cebb-69a7-452a-8d12-6fb581967ef2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757420462453}
+e755cebb-69a7-452a-8d12-6fb581967ef2
+fetching trade data for :  e755cebb-69a7-452a-8d12-6fb581967ef2
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e755cebb-69a7-452a-8d12-6fb581967ef2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757420462452', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.31687', 'execPrice': '0.3168', 'markIv': '', 'orderQty': '31555', 'orderPrice': '0.2852', 'execValue': '9996.624', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198103577, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4981432', 'execId': '47f49d9b-cd98-4a01-913c-0ff37cf54f65', 'marketUnit': '', 'execQty': '31555', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | S |  83.61
+Last close price for LTCUSDT: 113.6
+Opening Sell for  LTCUSDT
+TP: 112.464
+SL: 115.872
+TS: 1.136
+Order Quantity: 88.03
+Adjusted qty: 88.0
+Final Adjusted qty: 88.0
+6160.0
