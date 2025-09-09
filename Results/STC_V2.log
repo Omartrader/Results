@@ -28968,3 +28968,39 @@ Order Quantity: 611.59
 Adjusted qty: 612.0
 Final Adjusted qty: 611.0
 50000.0
+***************************************************************
+Number of open positions: 8
+Function started at 09.09.2025 12:30:07
+MUSDT 	Latest Close: (1.9731) 	SMA(14) : 1.93 	Delta : B 	Previous STC : 8.43 	STC : 35.21
+VIRTUALUSDT 	Latest Close: (1.3113) 	SMA(14) : 1.31 	Delta : B 	Previous STC : 18.56 	STC : 45.71
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VIRTUALUSDT | B |  45.71
+Last close price for VIRTUALUSDT: 1.312
+Opening Buy for  VIRTUALUSDT
+TP: 1.32512
+SL: 1.28576
+TS: 0.01312
+Order Quantity: 7621.95
+Adjusted qty: 7622.0
+Final Adjusted qty: 7621.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8d4a4ffd-1ac7-415a-9d65-2d5bad95a029', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757406662815}
+8d4a4ffd-1ac7-415a-9d65-2d5bad95a029
+fetching trade data for :  8d4a4ffd-1ac7-415a-9d65-2d5bad95a029
+[{'symbol': 'VIRTUALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8d4a4ffd-1ac7-415a-9d65-2d5bad95a029', 'stopOrderType': 'UNKNOWN', 'execTime': '1757406662814', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3125', 'execPrice': '1.3125', 'markIv': '', 'orderQty': '7621', 'orderPrice': '1.4437', 'execValue': '10002.5625', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697197670788, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50140938', 'execId': 'b7468103-52fc-4989-9e59-23ea519adce4', 'marketUnit': '', 'execQty': '7621', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MUSDT      | B |  35.21
+Last close price for MUSDT: 1.9674
+Opening Buy for  MUSDT
+TP: 1.987074
+SL: 1.928052
+TS: 0.019674
+Order Quantity: 5082.85
+Adjusted qty: 5083.0
+Final Adjusted qty: 5082.0
+120000.0
