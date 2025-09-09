@@ -32726,3 +32726,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 02:40:35
+***************************************************************
+Number of open positions: 7
+Function started at 10.09.2025 02:45:06
+EIGENUSDT 	Latest Close: (1.4012) 	SMA(14) : 1.39 	Delta : B 	Previous STC : 15.28 	STC : 43.52
+INJUSDT 	Latest Close: (14.08) 	SMA(14) : 14.04 	Delta : B 	Previous STC : 24.06 	STC : 49.37
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+INJUSDT    | B |  49.37
+Last close price for INJUSDT: 14.076
+Opening Buy for  INJUSDT
+TP: 14.21676
+SL: 13.79448
+TS: 0.14076
+Order Quantity: 710.43
+Adjusted qty: 710.4000000000001
+Final Adjusted qty: 710.4
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c8adbc44-b049-4309-b5a2-4a7b48d81d36', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757457959379}
+c8adbc44-b049-4309-b5a2-4a7b48d81d36
+fetching trade data for :  c8adbc44-b049-4309-b5a2-4a7b48d81d36
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c8adbc44-b049-4309-b5a2-4a7b48d81d36', 'stopOrderType': 'UNKNOWN', 'execTime': '1757457959378', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '14.0765', 'execPrice': '14.073', 'markIv': '', 'orderQty': '710.4', 'orderPrice': '14.78', 'execValue': '9997.4592', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199283190, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49860256', 'execId': 'cfca1cd1-6b40-46fc-bd35-f5e02ebcd68d', 'marketUnit': '', 'execQty': '710.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+EIGENUSDT  | B |  43.52
+Last close price for EIGENUSDT: 1.399
+Opening Buy for  EIGENUSDT
+TP: 1.41299
+SL: 1.37102
+TS: 0.01399
+Order Quantity: 7147.96
+Adjusted qty: 7148.0
+Final Adjusted qty: 7147.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ca446b62-3a48-4bc8-a8d0-8b9ca5de2759', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757457972820}
+ca446b62-3a48-4bc8-a8d0-8b9ca5de2759
+fetching trade data for :  ca446b62-3a48-4bc8-a8d0-8b9ca5de2759
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ca446b62-3a48-4bc8-a8d0-8b9ca5de2759', 'stopOrderType': 'UNKNOWN', 'execTime': '1757457972819', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3991', 'execPrice': '1.399', 'markIv': '', 'orderQty': '7147', 'orderPrice': '1.539', 'execValue': '9998.653', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199283616, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49925915', 'execId': '67cb119e-a94f-427a-9637-5e6783822ffd', 'marketUnit': '', 'execQty': '7147', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 02:46:23
