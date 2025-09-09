@@ -31741,3 +31741,105 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.09.2025 23:55:41
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 00:00:06
+VETUSDT 	Latest Close: (0.02423) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 5.73 	STC : 32.40
+PYTHUSDT 	Latest Close: (0.1627) 	SMA(14) : 0.16 	Delta : B 	Previous STC : 8.23 	STC : 35.12
+MANAUSDT 	Latest Close: (0.3205) 	SMA(14) : 0.32 	Delta : B 	Previous STC : 8.68 	STC : 39.12
+ATOMUSDT 	Latest Close: (4.602) 	SMA(14) : 4.57 	Delta : B 	Previous STC : 15.81 	STC : 43.87
+BNBUSDT 	Latest Close: (876.2) 	SMA(14) : 875.01 	Delta : B 	Previous STC : 10.26 	STC : 40.17
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATOMUSDT   | B |  43.87
+Last close price for ATOMUSDT: 4.604
+Opening Buy for  ATOMUSDT
+TP: 4.65004
+SL: 4.51192
+TS: 0.04604
+Order Quantity: 2172.02
+Adjusted qty: 2172.0
+Final Adjusted qty: 2172.0
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9672fee2-dad8-42c8-b2a4-f0820d2f4256', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757448039463}
+9672fee2-dad8-42c8-b2a4-f0820d2f4256
+fetching trade data for :  9672fee2-dad8-42c8-b2a4-f0820d2f4256
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9672fee2-dad8-42c8-b2a4-f0820d2f4256', 'stopOrderType': 'UNKNOWN', 'execTime': '1757448039462', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.604', 'execPrice': '4.604', 'markIv': '', 'orderQty': '2172', 'orderPrice': '4.834', 'execValue': '9999.888', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198977590, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999384', 'execId': 'b4e7a70a-f4af-4744-8ed9-0c70c9c6e70c', 'marketUnit': '', 'execQty': '2172', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BNBUSDT    | B |  40.17
+Last close price for BNBUSDT: 876.3
+Opening Buy for  BNBUSDT
+TP: 885.063
+SL: 858.7739999999999
+TS: 8.763
+Order Quantity: 11.41
+Adjusted qty: 11.41
+Final Adjusted qty: 11.41
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '80fa294b-bbae-4356-a808-ef836995cf95', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757448051374}
+80fa294b-bbae-4356-a808-ef836995cf95
+fetching trade data for :  80fa294b-bbae-4356-a808-ef836995cf95
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '80fa294b-bbae-4356-a808-ef836995cf95', 'stopOrderType': 'UNKNOWN', 'execTime': '1757448051373', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '876.32', 'execPrice': '876.3', 'markIv': '', 'orderQty': '11.41', 'orderPrice': '920.1', 'execValue': '9998.583', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198977961, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49922065', 'execId': 'c82987db-30ec-4f3c-b277-557ca1335d62', 'marketUnit': '', 'execQty': '11.41', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MANAUSDT   | B |  39.12
+Last close price for MANAUSDT: 0.3204
+Opening Buy for  MANAUSDT
+TP: 0.323604
+SL: 0.313992
+TS: 0.0032040000000000003
+Order Quantity: 31210.99
+Adjusted qty: 31211.0
+Final Adjusted qty: 31210.9
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '59296d24-6f41-4008-bc6f-d81600ff2ed6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757448063215}
+59296d24-6f41-4008-bc6f-d81600ff2ed6
+fetching trade data for :  59296d24-6f41-4008-bc6f-d81600ff2ed6
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '59296d24-6f41-4008-bc6f-d81600ff2ed6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757448063214', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3204', 'execPrice': '0.3204', 'markIv': '', 'orderQty': '31210.9', 'orderPrice': '0.3524', 'execValue': '9999.97236', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198978333, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999848', 'execId': '96e6f698-e29f-48d9-bb3c-3608feffacca', 'marketUnit': '', 'execQty': '31210.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PYTHUSDT   | B |  35.12
+Last close price for PYTHUSDT: 0.1626
+Opening Buy for  PYTHUSDT
+TP: 0.16422599999999998
+SL: 0.159348
+TS: 0.0016259999999999998
+Order Quantity: 61500.62
+Adjusted qty: 61501.0
+Final Adjusted qty: 61500.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c549dd97-6945-4bd9-9dc4-a411542963a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757448074986}
+c549dd97-6945-4bd9-9dc4-a411542963a2
+fetching trade data for :  c549dd97-6945-4bd9-9dc4-a411542963a2
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c549dd97-6945-4bd9-9dc4-a411542963a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757448074985', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1626', 'execPrice': '0.1626', 'markIv': '', 'orderQty': '61500', 'orderPrice': '0.1788', 'execValue': '9999.9', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198978707, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499945', 'execId': '1ee33f09-b304-43fb-810d-3efa49faecc7', 'marketUnit': '', 'execQty': '61500', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    | B |  32.40
+Last close price for VETUSDT: 0.02422
+Opening Buy for  VETUSDT
+TP: 0.0244622
+SL: 0.0237356
+TS: 0.00024219999999999998
+Order Quantity: 412881.92
+Adjusted qty: 412882.0
+Final Adjusted qty: 412881.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'faf38846-9e01-46c6-a90b-67b65fe9b868', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757448087299}
+faf38846-9e01-46c6-a90b-67b65fe9b868
+fetching trade data for :  faf38846-9e01-46c6-a90b-67b65fe9b868
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'faf38846-9e01-46c6-a90b-67b65fe9b868', 'stopOrderType': 'UNKNOWN', 'execTime': '1757448087299', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02423', 'execPrice': '0.02422', 'markIv': '', 'orderQty': '412881', 'orderPrice': '0.02544', 'execValue': '9999.97782', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697198979079, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998781', 'execId': '56f58414-fa85-44e1-b2be-e5fe063649a8', 'marketUnit': '', 'execQty': '412881', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 00:01:37
