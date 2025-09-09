@@ -18202,3 +18202,32 @@ Order Quantity: 74.58
 Adjusted qty: 74.58
 Final Adjusted qty: 74.58
 205.0
+***************************************************************
+Number of open positions: 4
+Function started at 09.09.2025 08:01:05
+	FLRUSDT 	Signal: B
+FLRUSDT 	Latest Close: (0.02205) 	SMA(14) : 0.02 	Delta :  	Previous STC : 0.00 	STC : 33.11
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | B |  33.11
+1
+Last close price for FLRUSDT: 0.02205
+Opening Buy for  FLRUSDT
+TP: 0.0222705
+SL: 0.021609
+TS: 0.0002205
+Order Quantity: 907029.48
+Adjusted qty: 907030.0
+Final Adjusted qty: 907020.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a6df0213-15b4-4c34-893b-19886f27404b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757390499389}
+a6df0213-15b4-4c34-893b-19886f27404b
+fetching trade data for :  a6df0213-15b4-4c34-893b-19886f27404b
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a6df0213-15b4-4c34-893b-19886f27404b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757390499389', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02205', 'execPrice': '0.02205', 'markIv': '', 'orderQty': '509000', 'orderPrice': '0.02646', 'execValue': '11223.45', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508326238, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '6.1728975', 'execId': 'f6430b73-c585-4cf6-a9b2-7332ad24a33a', 'marketUnit': '', 'execQty': '509000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 09.09.2025 08:01:50
