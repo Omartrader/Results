@@ -19073,3 +19073,49 @@ Order Quantity: 5.48
 Adjusted qty: 5.48
 Final Adjusted qty: 5.48
 7.0
+***************************************************************
+Number of open positions: 3
+Function started at 09.09.2025 11:06:06
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.215) 	SMA(14) : 0.21 	Delta :  	Previous STC : 12.18 	STC : 30.00
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.24904) 	SMA(14) : 0.25 	Delta :  	Previous STC : 8.01 	STC : 38.67
+	SUIUSDT 	Signal: B
+SUIUSDT 	Latest Close: (3.5915) 	SMA(14) : 3.50 	Delta :  	Previous STC : 20.22 	STC : 46.81
+	LTCUSDT 	Signal: B
+LTCUSDT 	Latest Close: (113.88) 	SMA(14) : 112.95 	Delta :  	Previous STC : 21.77 	STC : 32.55
+	XAUTUSDT 	Signal: S
+XAUTUSDT 	Latest Close: (3648.21) 	SMA(14) : 3651.09 	Delta :  	Previous STC : 98.86 	STC : 94.10
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XAUTUSDT   | S |  94.10
+1
+Last close price for XAUTUSDT: 3648.22
+Opening Sell for  XAUTUSDT
+TP: 3611.7378
+SL: 3721.1843999999996
+TS: 36.4822
+Order Quantity: 5.48
+Adjusted qty: 5.48
+Final Adjusted qty: 5.48
+7.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '80f9005e-f5ec-42aa-9cef-590cd9221cfb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757401598380}
+80f9005e-f5ec-42aa-9cef-590cd9221cfb
+fetching trade data for :  80f9005e-f5ec-42aa-9cef-590cd9221cfb
+[{'symbol': 'XAUTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '80f9005e-f5ec-42aa-9cef-590cd9221cfb', 'stopOrderType': 'UNKNOWN', 'execTime': '1757401598379', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3648.47', 'execPrice': '3648.22', 'markIv': '', 'orderQty': '5.48', 'orderPrice': '3101.2', 'execValue': '19992.2456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612508715257, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99573508', 'execId': '548e13da-c4d1-4866-b507-b57971ba8740', 'marketUnit': '', 'execQty': '5.48', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | B |  46.81
+1
+Last close price for SUIUSDT: 3.5896
+Opening Buy for  SUIUSDT
+TP: 3.625496
+SL: 3.517808
+TS: 0.035896
+Order Quantity: 5571.65
+Adjusted qty: 5570.0
+Final Adjusted qty: 5570.0
+40000.0
