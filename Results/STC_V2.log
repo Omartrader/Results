@@ -34226,3 +34226,39 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 08:10:39
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 08:15:07
+VETUSDT 	Latest Close: (0.02418) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 17.07 	STC : 26.93
+TIAUSDT 	Latest Close: (1.792) 	SMA(14) : 1.79 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TIAUSDT    | B |  33.33
+Last close price for TIAUSDT: 1.792
+Opening Buy for  TIAUSDT
+TP: 1.80992
+SL: 1.75616
+TS: 0.017920000000000002
+Order Quantity: 5580.36
+Adjusted qty: 5580.400000000001
+Final Adjusted qty: 5580.3
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4b9621a1-8de1-4057-9804-f96b3d18ab03', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757477741040}
+4b9621a1-8de1-4057-9804-f96b3d18ab03
+fetching trade data for :  4b9621a1-8de1-4057-9804-f96b3d18ab03
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4b9621a1-8de1-4057-9804-f96b3d18ab03', 'stopOrderType': 'UNKNOWN', 'execTime': '1757477741040', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.7916', 'execPrice': '1.792', 'markIv': '', 'orderQty': '5580.3', 'orderPrice': '1.881', 'execValue': '9999.8976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199899497, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994368', 'execId': '9e7214a1-87c0-421c-80b5-7561450002e2', 'marketUnit': '', 'execQty': '5580.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    | B |  26.93
+Last close price for VETUSDT: 0.02419
+Opening Buy for  VETUSDT
+TP: 0.0244319
+SL: 0.0237062
+TS: 0.0002419
+Order Quantity: 413393.96
+Adjusted qty: 413394.0
+Final Adjusted qty: 413393.0
+437000.0
