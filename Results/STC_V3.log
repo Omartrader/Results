@@ -25038,3 +25038,32 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 21:12:43
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 21:17:15
+	XDCUSDT 	Signal: S
+XDCUSDT 	Latest Close: (0.07868) 	SMA(14) : 0.08 	Delta :  	Previous STC : 97.59 	STC : 94.86
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XDCUSDT    | S |  94.86
+1
+Last close price for XDCUSDT: 0.07868
+Opening Sell for  XDCUSDT
+TP: 0.0778932
+SL: 0.08025360000000001
+TS: 0.0007868
+Order Quantity: 254194.2
+Adjusted qty: 254194.0
+Final Adjusted qty: 254194.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '04913b49-c944-419a-82a4-b88eb1bb751e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757524654722}
+04913b49-c944-419a-82a4-b88eb1bb751e
+fetching trade data for :  04913b49-c944-419a-82a4-b88eb1bb751e
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '04913b49-c944-419a-82a4-b88eb1bb751e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757524654721', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07867', 'execPrice': '0.07868', 'markIv': '', 'orderQty': '160000', 'orderPrice': '0.06294', 'execValue': '12588.8', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512919185, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '13.84768', 'execId': '0be76706-86f6-4d77-96c1-3cd6b95c0643', 'marketUnit': '', 'execQty': '160000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 10.09.2025 21:17:44
