@@ -37102,3 +37102,95 @@ Order Quantity: 3191.12
 Adjusted qty: 3191.1000000000004
 Final Adjusted qty: 3191.1
 37810.0
+***************************************************************
+Number of open positions: 6
+Function started at 10.09.2025 18:40:48
+FARTCOINUSDT 	Latest Close: (0.8775) 	SMA(14) : 0.86 	Delta : B 	Previous STC : 18.84 	STC : 38.07
+ADAUSDT 	Latest Close: (0.8885) 	SMA(14) : 0.88 	Delta : B 	Previous STC : 19.56 	STC : 41.77
+KASUSDT 	Latest Close: (0.08264) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 20.57 	STC : 34.10
+RSRUSDT 	Latest Close: (0.007811) 	SMA(14) : 0.01 	Delta : B 	Previous STC : 7.28 	STC : 28.69
+SUIUSDT 	Latest Close: (3.5976) 	SMA(14) : 3.56 	Delta : B 	Previous STC : 24.10 	STC : 49.40
+SYRUPUSDT 	Latest Close: (0.45697) 	SMA(14) : 0.45 	Delta : B 	Previous STC : 12.75 	STC : 27.35
+TONUSDT 	Latest Close: (3.1296) 	SMA(14) : 3.12 	Delta : B 	Previous STC : 23.25 	STC : 48.83
+LINKUSDT 	Latest Close: (23.658) 	SMA(14) : 23.59 	Delta : B 	Previous STC : 20.60 	STC : 45.32
+UNIUSDT 	Latest Close: (9.766) 	SMA(14) : 9.68 	Delta : B 	Previous STC : 16.50 	STC : 43.04
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  49.40
+Last close price for SUIUSDT: 3.5983
+Opening Buy for  SUIUSDT
+TP: 3.634283
+SL: 3.526334
+TS: 0.035983
+Order Quantity: 2779.09
+Adjusted qty: 2780.0
+Final Adjusted qty: 2770.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TONUSDT    | B |  48.83
+Last close price for TONUSDT: 3.1292
+Opening Buy for  TONUSDT
+TP: 3.160492
+SL: 3.066616
+TS: 0.031292
+Order Quantity: 3195.7
+Adjusted qty: 3195.7000000000003
+Final Adjusted qty: 3195.7
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '69bc3b87-2c12-45ca-b7e7-17ed5a39258f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757515296865}
+69bc3b87-2c12-45ca-b7e7-17ed5a39258f
+fetching trade data for :  69bc3b87-2c12-45ca-b7e7-17ed5a39258f
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '69bc3b87-2c12-45ca-b7e7-17ed5a39258f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757515296863', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1291', 'execPrice': '3.1292', 'markIv': '', 'orderQty': '3195.7', 'orderPrice': '3.2855', 'execValue': '9999.98444', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201071305, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999145', 'execId': '7456c24b-531c-4a49-ba1d-f1441512579e', 'marketUnit': '', 'execQty': '3195.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LINKUSDT   | B |  45.32
+Last close price for LINKUSDT: 23.66
+Opening Buy for  LINKUSDT
+TP: 23.8966
+SL: 23.186799999999998
+TS: 0.2366
+Order Quantity: 422.65
+Adjusted qty: 422.6
+Final Adjusted qty: 422.6
+31450.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dca6b2b3-7f34-4e74-b3b6-ea0abe46d215', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757515309830}
+dca6b2b3-7f34-4e74-b3b6-ea0abe46d215
+fetching trade data for :  dca6b2b3-7f34-4e74-b3b6-ea0abe46d215
+[{'symbol': 'LINKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dca6b2b3-7f34-4e74-b3b6-ea0abe46d215', 'stopOrderType': 'UNKNOWN', 'execTime': '1757515309828', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '23.66', 'execPrice': '23.653', 'markIv': '', 'orderQty': '422.6', 'orderPrice': '24.843', 'execValue': '9995.7578', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201071695, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49766679', 'execId': 'e8dcc88a-08c4-4ef4-8293-6bea4f6db65a', 'marketUnit': '', 'execQty': '422.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | B |  43.04
+Last close price for UNIUSDT: 9.774
+Opening Buy for  UNIUSDT
+TP: 9.871739999999999
+SL: 9.57852
+TS: 0.09774
+Order Quantity: 1023.12
+Adjusted qty: 1023.1
+Final Adjusted qty: 1023.1
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '76a667d1-a555-434e-aad2-7f85c7367193', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757515322968}
+76a667d1-a555-434e-aad2-7f85c7367193
+fetching trade data for :  76a667d1-a555-434e-aad2-7f85c7367193
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '76a667d1-a555-434e-aad2-7f85c7367193', 'stopOrderType': 'UNKNOWN', 'execTime': '1757515322967', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.774', 'execPrice': '9.774', 'markIv': '', 'orderQty': '1023.1', 'orderPrice': '10.262', 'execValue': '9999.7794', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201072081, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49987867', 'execId': '61fd910b-4d3f-493a-b59b-76860acaf1d6', 'marketUnit': '', 'execQty': '1023.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    | B |  41.77
+Last close price for ADAUSDT: 0.8891
+Opening Buy for  ADAUSDT
+TP: 0.897991
+SL: 0.871318
+TS: 0.008891
+Order Quantity: 11247.33
+Adjusted qty: 11247.0
+Final Adjusted qty: 11247.0
+1109600.0
