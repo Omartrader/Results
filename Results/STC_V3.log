@@ -24880,3 +24880,52 @@ Function started at 10.09.2025 20:04:39
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 10.09.2025 20:05:13
+***************************************************************
+Number of open positions: 1
+Function started at 10.09.2025 20:22:37
+	MNTUSDT 	Signal: S
+MNTUSDT 	Latest Close: (1.4469) 	SMA(14) : 1.47 	Delta :  	Previous STC : 96.24 	STC : 73.97
+	HYPEUSDT 	Signal: B
+HYPEUSDT 	Latest Close: (55.112) 	SMA(14) : 55.03 	Delta :  	Previous STC : 13.75 	STC : 42.50
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  73.97
+1
+Last close price for MNTUSDT: 1.4452
+Opening Sell for  MNTUSDT
+TP: 1.4307480000000001
+SL: 1.474104
+TS: 0.014452
+Order Quantity: 13838.92
+Adjusted qty: 13839.0
+Final Adjusted qty: 13838.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5eec22b4-2c1e-4257-b4dd-7220eaec1908', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757521376971}
+5eec22b4-2c1e-4257-b4dd-7220eaec1908
+fetching trade data for :  5eec22b4-2c1e-4257-b4dd-7220eaec1908
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5eec22b4-2c1e-4257-b4dd-7220eaec1908', 'stopOrderType': 'UNKNOWN', 'execTime': '1757521376970', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.4452', 'execPrice': '1.4445', 'markIv': '', 'orderQty': '13838', 'orderPrice': '1.3007', 'execValue': '19988.991', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512810879, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99394505', 'execId': '2a676506-c935-4f2b-a68f-630cc192d3f4', 'marketUnit': '', 'execQty': '13838', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  42.50
+1
+Last close price for HYPEUSDT: 55.141
+Opening Buy for  HYPEUSDT
+TP: 55.692409999999995
+SL: 54.03818
+TS: 0.55141
+Order Quantity: 362.71
+Adjusted qty: 362.71
+Final Adjusted qty: 362.71
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ebfefdca-8c4b-418d-99e5-6530f4adb814', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757521388821}
+ebfefdca-8c4b-418d-99e5-6530f4adb814
+fetching trade data for :  ebfefdca-8c4b-418d-99e5-6530f4adb814
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ebfefdca-8c4b-418d-99e5-6530f4adb814', 'stopOrderType': 'UNKNOWN', 'execTime': '1757521388819', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '55.149', 'execPrice': '55.157', 'markIv': '', 'orderQty': '362.71', 'orderPrice': '71.693', 'execValue': '20005.99547', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512811283, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00329751', 'execId': '23b2c3aa-3fb6-49ce-984e-49b4e4c54d41', 'marketUnit': '', 'execQty': '362.71', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 20:23:18
