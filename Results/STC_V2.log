@@ -35037,3 +35037,67 @@ Order Quantity: 7926.44
 Adjusted qty: 7926.0
 Final Adjusted qty: 7926.0
 40000.0
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 10:25:48
+SEIUSDT 	Latest Close: (0.3104) 	SMA(14) : 0.31 	Delta : S 	Previous STC : 100.00 	STC : 81.74
+STRKUSDT 	Latest Close: (0.1299) 	SMA(14) : 0.13 	Delta : S 	Previous STC : 99.38 	STC : 67.88
+OPUSDT 	Latest Close: (0.7638) 	SMA(14) : 0.77 	Delta : S 	Previous STC : 100.00 	STC : 85.64
+DYDXUSDT 	Latest Close: (0.631) 	SMA(14) : 0.64 	Delta : S 	Previous STC : 100.00 	STC : 95.03
+SYRUPUSDT 	Latest Close: (0.45385) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 100.00 	STC : 89.92
+PENDLEUSDT 	Latest Close: (4.683) 	SMA(14) : 4.70 	Delta : S 	Previous STC : 99.33 	STC : 77.71
+ARUSDT 	Latest Close: (7.08) 	SMA(14) : 7.15 	Delta : S 	Previous STC : 100.00 	STC : 83.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DYDXUSDT   | S |  95.03
+Last close price for DYDXUSDT: 0.6312
+Opening Sell for  DYDXUSDT
+TP: 0.624888
+SL: 0.643824
+TS: 0.006312
+Order Quantity: 15842.84
+Adjusted qty: 15842.800000000001
+Final Adjusted qty: 15842.8
+72560.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SYRUPUSDT  | S |  89.92
+Last close price for SYRUPUSDT: 0.45394
+Opening Sell for  SYRUPUSDT
+TP: 0.4494006
+SL: 0.4630188
+TS: 0.0045394
+Order Quantity: 22029.34
+Adjusted qty: 22029.0
+Final Adjusted qty: 22029.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '41cfe358-0edb-4431-b94e-bdeb0536d04d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757485584322}
+41cfe358-0edb-4431-b94e-bdeb0536d04d
+fetching trade data for :  41cfe358-0edb-4431-b94e-bdeb0536d04d
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '41cfe358-0edb-4431-b94e-bdeb0536d04d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757485584321', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.45394', 'execPrice': '0.45394', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.40855', 'execValue': '4539.4', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200139582, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.49667', 'execId': 'ec6349d9-9139-4ec1-90f6-227754f72de6', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OPUSDT     | S |  85.64
+Last close price for OPUSDT: 0.7643
+Opening Sell for  OPUSDT
+TP: 0.756657
+SL: 0.779586
+TS: 0.007643
+Order Quantity: 13083.87
+Adjusted qty: 13083.900000000001
+Final Adjusted qty: 13083.8
+84130.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f08cb227-3293-40cd-aeba-911e521a7e84', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757485596437}
+f08cb227-3293-40cd-aeba-911e521a7e84
+fetching trade data for :  f08cb227-3293-40cd-aeba-911e521a7e84
+[{'symbol': 'OPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f08cb227-3293-40cd-aeba-911e521a7e84', 'stopOrderType': 'UNKNOWN', 'execTime': '1757485596436', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7643', 'execPrice': '0.7643', 'markIv': '', 'orderQty': '13083.8', 'orderPrice': '0.7261', 'execValue': '9999.94834', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200139954, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997159', 'execId': '6f57d480-b6b1-429c-9491-38029cb98ad5', 'marketUnit': '', 'execQty': '13083.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 10.09.2025 10:26:46
