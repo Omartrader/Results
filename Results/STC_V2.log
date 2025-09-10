@@ -38281,3 +38281,43 @@ Order Quantity: 37174.72
 Adjusted qty: 37175.0
 Final Adjusted qty: 37174.0
 500000.0
+***************************************************************
+Number of open positions: 7
+Function started at 10.09.2025 23:25:06
+POLUSDT 	Latest Close: (0.2678) 	SMA(14) : 0.27 	Delta : S 	Previous STC : 99.24 	STC : 82.92
+TONUSDT 	Latest Close: (3.1221) 	SMA(14) : 3.13 	Delta : S 	Previous STC : 97.76 	STC : 88.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  88.23
+Last close price for TONUSDT: 3.1218
+Opening Sell for  TONUSDT
+TP: 3.090582
+SL: 3.184236
+TS: 0.031218
+Order Quantity: 3203.28
+Adjusted qty: 3203.3
+Final Adjusted qty: 3203.2
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    | S |  82.92
+Last close price for POLUSDT: 0.2676
+Opening Sell for  POLUSDT
+TP: 0.264924
+SL: 0.27295200000000003
+TS: 0.002676
+Order Quantity: 37369.21
+Adjusted qty: 37369.0
+Final Adjusted qty: 37369.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eebd491e-df00-45e4-9d8f-851110ac5642', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757532417087}
+eebd491e-df00-45e4-9d8f-851110ac5642
+fetching trade data for :  eebd491e-df00-45e4-9d8f-851110ac5642
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'eebd491e-df00-45e4-9d8f-851110ac5642', 'stopOrderType': 'UNKNOWN', 'execTime': '1757532417086', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2675', 'execPrice': '0.2676', 'markIv': '', 'orderQty': '37369', 'orderPrice': '0.2542', 'execValue': '9999.9444', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201593619, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996942', 'execId': 'f56ce2ad-b488-45a2-b4c9-df15ca8ec09e', 'marketUnit': '', 'execQty': '37369', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 23:27:06
