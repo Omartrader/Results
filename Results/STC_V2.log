@@ -35274,3 +35274,48 @@ Function started at 10.09.2025 11:35:50
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 10.09.2025 11:36:48
+***************************************************************
+Number of open positions: 5
+Function started at 10.09.2025 11:45:51
+WLFIUSDT 	Latest Close: (0.1997) 	SMA(14) : 0.20 	Delta : S 	Previous STC : 100.00 	STC : 92.50
+MANAUSDT 	Latest Close: (0.3189) 	SMA(14) : 0.32 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | S |  92.50
+Last close price for WLFIUSDT: 0.1993
+Opening Sell for  WLFIUSDT
+TP: 0.197307
+SL: 0.20328600000000002
+TS: 0.001993
+Order Quantity: 50175.61
+Adjusted qty: 50176.0
+Final Adjusted qty: 50175.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fca2d1fb-0f32-4e5f-9259-dc295f35c69e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757490405733}
+fca2d1fb-0f32-4e5f-9259-dc295f35c69e
+fetching trade data for :  fca2d1fb-0f32-4e5f-9259-dc295f35c69e
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fca2d1fb-0f32-4e5f-9259-dc295f35c69e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757490405732', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1993', 'execPrice': '0.1993', 'markIv': '', 'orderQty': '50175', 'orderPrice': '0.1695', 'execValue': '9999.8775', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200288674, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993263', 'execId': 'a3c9e29a-f39d-4fcf-8c93-513353661610', 'marketUnit': '', 'execQty': '50175', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MANAUSDT   | S |  66.67
+Last close price for MANAUSDT: 0.319
+Opening Sell for  MANAUSDT
+TP: 0.31581
+SL: 0.32538
+TS: 0.00319
+Order Quantity: 31347.96
+Adjusted qty: 31348.0
+Final Adjusted qty: 31347.9
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0918fbb3-390b-47f7-bcf5-7219034e4e66', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757490419271}
+0918fbb3-390b-47f7-bcf5-7219034e4e66
+fetching trade data for :  0918fbb3-390b-47f7-bcf5-7219034e4e66
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0918fbb3-390b-47f7-bcf5-7219034e4e66', 'stopOrderType': 'UNKNOWN', 'execTime': '1757490419270', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.319', 'execPrice': '0.319', 'markIv': '', 'orderQty': '31347.9', 'orderPrice': '0.2871', 'execValue': '9999.9801', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200289097, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998906', 'execId': '152160ad-f6ff-4f43-a42a-bd555cc58a30', 'marketUnit': '', 'execQty': '31347.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 11:47:09
