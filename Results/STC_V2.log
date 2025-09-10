@@ -37447,3 +37447,86 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 20:41:47
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 20:50:23
+CRVUSDT 	Latest Close: (0.7908) 	SMA(14) : 0.80 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+CFXUSDT 	Latest Close: (0.17606) 	SMA(14) : 0.18 	Delta : B 	Previous STC : 12.61 	STC : 26.00
+COREUSDT 	Latest Close: (0.466) 	SMA(14) : 0.47 	Delta : S 	Previous STC : 99.34 	STC : 94.63
+CAKEUSDT 	Latest Close: (2.53) 	SMA(14) : 2.54 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+COREUSDT   | S |  94.63
+Last close price for COREUSDT: 0.4662
+Opening Sell for  COREUSDT
+TP: 0.461538
+SL: 0.475524
+TS: 0.004662
+Order Quantity: 21450.02
+Adjusted qty: 21450.0
+Final Adjusted qty: 21450.0
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '95dd9ab0-da51-4417-8cad-f58950a6eb02', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757523079680}
+95dd9ab0-da51-4417-8cad-f58950a6eb02
+fetching trade data for :  95dd9ab0-da51-4417-8cad-f58950a6eb02
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '95dd9ab0-da51-4417-8cad-f58950a6eb02', 'stopOrderType': 'UNKNOWN', 'execTime': '1757523079680', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4663', 'execPrice': '0.4662', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.4197', 'execValue': '6321.672', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201307719, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.4769196', 'execId': '2a093f6d-9854-4d7f-aecc-31ca46892868', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CAKEUSDT   | S |  66.67
+Last close price for CAKEUSDT: 2.529
+Opening Sell for  CAKEUSDT
+TP: 2.50371
+SL: 2.57958
+TS: 0.02529
+Order Quantity: 3954.13
+Adjusted qty: 3954.1000000000004
+Final Adjusted qty: 3954.1
+16560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '953e1cd5-eae6-496a-b911-0ee490bb9f54', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757523093294}
+953e1cd5-eae6-496a-b911-0ee490bb9f54
+fetching trade data for :  953e1cd5-eae6-496a-b911-0ee490bb9f54
+[{'symbol': 'CAKEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '953e1cd5-eae6-496a-b911-0ee490bb9f54', 'stopOrderType': 'UNKNOWN', 'execTime': '1757523093293', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.529', 'execPrice': '2.529', 'markIv': '', 'orderQty': '3954.1', 'orderPrice': '2.277', 'execValue': '9999.9189', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201308120, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999554', 'execId': 'f75e86a3-2547-4f5f-8d59-2823f4224c60', 'marketUnit': '', 'execQty': '3954.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CRVUSDT    | S |  66.67
+Last close price for CRVUSDT: 0.7916
+Opening Sell for  CRVUSDT
+TP: 0.7836839999999999
+SL: 0.807432
+TS: 0.007916
+Order Quantity: 12632.64
+Adjusted qty: 12632.6
+Final Adjusted qty: 12632.6
+196620.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3baa9ebe-999d-4bd7-b7a7-a79547496c56', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757523106967}
+3baa9ebe-999d-4bd7-b7a7-a79547496c56
+fetching trade data for :  3baa9ebe-999d-4bd7-b7a7-a79547496c56
+[{'symbol': 'CRVUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3baa9ebe-999d-4bd7-b7a7-a79547496c56', 'stopOrderType': 'UNKNOWN', 'execTime': '1757523106966', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7917', 'execPrice': '0.7916', 'markIv': '', 'orderQty': '12632.6', 'orderPrice': '0.7522', 'execValue': '9999.96616', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201308571, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998139', 'execId': '79bfcb45-e44f-4ed5-a439-2496557e882f', 'marketUnit': '', 'execQty': '12632.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CFXUSDT    | B |  26.00
+Last close price for CFXUSDT: 0.17616
+Opening Buy for  CFXUSDT
+TP: 0.1779216
+SL: 0.1726368
+TS: 0.0017616
+Order Quantity: 56766.58
+Adjusted qty: 56767.0
+Final Adjusted qty: 56766.0
+252700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3773f504-ba47-4cb4-bcf4-da69f3358004', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757523120526}
+3773f504-ba47-4cb4-bcf4-da69f3358004
+fetching trade data for :  3773f504-ba47-4cb4-bcf4-da69f3358004
+[{'symbol': 'CFXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3773f504-ba47-4cb4-bcf4-da69f3358004', 'stopOrderType': 'UNKNOWN', 'execTime': '1757523120525', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.17622', 'execPrice': '0.17616', 'markIv': '', 'orderQty': '56766', 'orderPrice': '0.20265', 'execValue': '9999.89856', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201308972, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994421', 'execId': 'cec88216-fd59-4fcb-8b31-8b09c86205c2', 'marketUnit': '', 'execQty': '56766', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 20:52:11
