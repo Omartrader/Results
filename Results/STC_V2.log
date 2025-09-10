@@ -33476,3 +33476,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 05:21:07
+***************************************************************
+Number of open positions: 6
+Function started at 10.09.2025 05:25:07
+NEARUSDT 	Latest Close: (2.665) 	SMA(14) : 2.64 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+JTOUSDT 	Latest Close: (1.896) 	SMA(14) : 1.90 	Delta : S 	Previous STC : 98.91 	STC : 94.95
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JTOUSDT    | S |  94.95
+Last close price for JTOUSDT: 1.898
+Opening Sell for  JTOUSDT
+TP: 1.87902
+SL: 1.93596
+TS: 0.01898
+Order Quantity: 5268.7
+Adjusted qty: 5268.700000000001
+Final Adjusted qty: 5268.7
+27570.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEARUSDT   | B |  33.33
+Last close price for NEARUSDT: 2.672
+Opening Buy for  NEARUSDT
+TP: 2.6987200000000002
+SL: 2.61856
+TS: 0.02672
+Order Quantity: 3742.51
+Adjusted qty: 3742.5
+Final Adjusted qty: 3742.5
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a9f222e0-9eea-4536-9ade-5af347d9676a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757467570250}
+a9f222e0-9eea-4536-9ade-5af347d9676a
+fetching trade data for :  a9f222e0-9eea-4536-9ade-5af347d9676a
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a9f222e0-9eea-4536-9ade-5af347d9676a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757467570249', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.672', 'execPrice': '2.672', 'markIv': '', 'orderQty': '3742.5', 'orderPrice': '2.805', 'execValue': '9999.96', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199585495, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499978', 'execId': '0da8850f-3c36-4e68-b78d-075b71dd96cc', 'marketUnit': '', 'execQty': '3742.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 05:26:19
