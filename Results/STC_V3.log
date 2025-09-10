@@ -25100,3 +25100,40 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 10.09.2025 21:26:52
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 21:31:20
+	HBARUSDT 	Signal: S
+HBARUSDT 	Latest Close: (0.23266) 	SMA(14) : 0.23 	Delta :  	Previous STC : 98.26 	STC : 95.35
+	XRPUSDT 	Signal: S
+XRPUSDT 	Latest Close: (2.9942) 	SMA(14) : 3.00 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	LINKUSDT 	Signal: S
+LINKUSDT 	Latest Close: (23.471) 	SMA(14) : 23.60 	Delta :  	Previous STC : 98.77 	STC : 95.07
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4346.66) 	SMA(14) : 4390.47 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (113471.4) 	SMA(14) : 113778.74 	Delta :  	Previous STC : 99.70 	STC : 66.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HBARUSDT   | S |  95.35
+1
+Last close price for HBARUSDT: 0.23267
+Opening Sell for  HBARUSDT
+TP: 0.23034329999999997
+SL: 0.2373234
+TS: 0.0023266999999999997
+Order Quantity: 85958.65
+Adjusted qty: 85959.0
+Final Adjusted qty: 85958.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ab260ed8-10ba-416e-9958-024166a492b1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757525514731}
+ab260ed8-10ba-416e-9958-024166a492b1
+fetching trade data for :  ab260ed8-10ba-416e-9958-024166a492b1
+[{'symbol': 'HBARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ab260ed8-10ba-416e-9958-024166a492b1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757525514729', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23268', 'execPrice': '0.23267', 'markIv': '', 'orderQty': '85958', 'orderPrice': '0.22105', 'execValue': '19999.84786', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512948401, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991633', 'execId': '4535eb45-8f3b-467f-8957-7c7d6809b6ec', 'marketUnit': '', 'execQty': '85958', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 10.09.2025 21:32:05
