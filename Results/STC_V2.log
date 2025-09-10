@@ -35518,3 +35518,39 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 10.09.2025 12:21:58
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 12:30:51
+TRUMPUSDT 	Latest Close: (8.761) 	SMA(14) : 8.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+PENDLEUSDT 	Latest Close: (4.7336) 	SMA(14) : 4.71 	Delta : B 	Previous STC : 16.44 	STC : 25.35
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | S |  66.67
+Last close price for TRUMPUSDT: 8.759
+Opening Sell for  TRUMPUSDT
+TP: 8.67141
+SL: 8.934180000000001
+TS: 0.08759
+Order Quantity: 1141.68
+Adjusted qty: 1141.7
+Final Adjusted qty: 1141.6
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '79b16522-6a77-418f-8d02-cf57b6155de3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757493112200}
+79b16522-6a77-418f-8d02-cf57b6155de3
+fetching trade data for :  79b16522-6a77-418f-8d02-cf57b6155de3
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '79b16522-6a77-418f-8d02-cf57b6155de3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757493112199', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.757', 'execPrice': '8.758', 'markIv': '', 'orderQty': '1141.6', 'orderPrice': '8.32', 'execValue': '9998.1328', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200370249, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49897304', 'execId': '6c1c84a4-4976-4143-a169-2eac6ab415eb', 'marketUnit': '', 'execQty': '1141.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENDLEUSDT | B |  25.35
+Last close price for PENDLEUSDT: 4.7309
+Opening Buy for  PENDLEUSDT
+TP: 4.778209
+SL: 4.6362820000000005
+TS: 0.047309000000000004
+Order Quantity: 2113.76
+Adjusted qty: 2114.0
+Final Adjusted qty: 2113.0
+5200.0
