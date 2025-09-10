@@ -33349,3 +33349,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 04:51:04
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 04:55:07
+SAROSUSDT 	Latest Close: (0.32642) 	SMA(14) : 0.32 	Delta : B 	Previous STC : 11.44 	STC : 35.28
+HYPEUSDT 	Latest Close: (52.675) 	SMA(14) : 53.10 	Delta : S 	Previous STC : 98.81 	STC : 93.09
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | S |  93.09
+Last close price for HYPEUSDT: 52.646
+Opening Sell for  HYPEUSDT
+TP: 52.11954
+SL: 53.69892
+TS: 0.52646
+Order Quantity: 189.95
+Adjusted qty: 189.95000000000002
+Final Adjusted qty: 189.95
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SAROSUSDT  | B |  35.28
+Last close price for SAROSUSDT: 0.32543
+Opening Buy for  SAROSUSDT
+TP: 0.3286843
+SL: 0.31892139999999997
+TS: 0.0032543
+Order Quantity: 30728.57
+Adjusted qty: 30729.0
+Final Adjusted qty: 30728.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '57bfaf00-60ae-498d-91e1-6bfed4811960', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757465767392}
+57bfaf00-60ae-498d-91e1-6bfed4811960
+fetching trade data for :  57bfaf00-60ae-498d-91e1-6bfed4811960
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '57bfaf00-60ae-498d-91e1-6bfed4811960', 'stopOrderType': 'UNKNOWN', 'execTime': '1757465767392', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.32564', 'execPrice': '0.32559', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.37448', 'execValue': '8790.93', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199529107, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.670023', 'execId': '5f713432-a1bb-43b3-ba4c-991eafb4a166', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 04:56:17
