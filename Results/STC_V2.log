@@ -36062,3 +36062,39 @@ fetching trade data for :  5aecb05c-2ad2-4a70-bfbf-0b75d47a7aa0
 [{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5aecb05c-2ad2-4a70-bfbf-0b75d47a7aa0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757502422028', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9715', 'execPrice': '1.9672', 'markIv': '', 'orderQty': '5077', 'orderPrice': '1.6758', 'execValue': '9987.4744', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200663745, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.98622184', 'execId': '8842524d-8224-4295-a5a6-f9c84b8c460a', 'marketUnit': '', 'execQty': '5077', 'extraFees': ''}]
 Trades inserted successfully.
 None
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 15:15:49
+JASMYUSDT 	Latest Close: (0.014125) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MYXUSDT 	Latest Close: (16.5303) 	SMA(14) : 17.64 	Delta : S 	Previous STC : 96.14 	STC : 69.71
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  69.71
+Last close price for MYXUSDT: 16.3175
+Opening Sell for  MYXUSDT
+TP: 16.154325
+SL: 16.64385
+TS: 0.163175
+Order Quantity: 612.84
+Adjusted qty: 613.0
+Final Adjusted qty: 612.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cd0e8269-b70f-4250-a3de-ccb42c3099a0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757502981238}
+cd0e8269-b70f-4250-a3de-ccb42c3099a0
+fetching trade data for :  cd0e8269-b70f-4250-a3de-ccb42c3099a0
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cd0e8269-b70f-4250-a3de-ccb42c3099a0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757502981237', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '16.26977', 'execPrice': '16.3035', 'markIv': '', 'orderQty': '612', 'orderPrice': '13.8294', 'execValue': '9977.742', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200681224, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9755162', 'execId': '7fb09faf-e895-46d5-9888-8f338215bb83', 'marketUnit': '', 'execQty': '612', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JASMYUSDT  | S |  66.67
+Last close price for JASMYUSDT: 0.014136
+Opening Sell for  JASMYUSDT
+TP: 0.01399464
+SL: 0.01441872
+TS: 0.00014136
+Order Quantity: 707413.7
+Adjusted qty: 707414.0
+Final Adjusted qty: 707413.0
+2421700.0
