@@ -25609,3 +25609,59 @@ USD1USDT 	Latest Close: (0.9982) 	SMA(14) : 1.00 	Delta :  	Previous STC : 100.0
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 11.09.2025 00:11:01
+***************************************************************
+Number of open positions: 3
+Function started at 11.09.2025 00:17:13
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (1.8428) 	SMA(14) : 1.81 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (4.1718) 	SMA(14) : 4.18 	Delta :  	Previous STC : 96.46 	STC : 67.72
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (115.46) 	SMA(14) : 115.84 	Delta :  	Previous STC : 99.01 	STC : 84.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  84.13
+1
+Last close price for LTCUSDT: 115.46
+Opening Sell for  LTCUSDT
+TP: 114.30539999999999
+SL: 117.7692
+TS: 1.1545999999999998
+Order Quantity: 173.22
+Adjusted qty: 173.20000000000002
+Final Adjusted qty: 173.2
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '498af23f-f5ee-44ee-85b8-4f80f7a619a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757535485204}
+498af23f-f5ee-44ee-85b8-4f80f7a619a8
+fetching trade data for :  498af23f-f5ee-44ee-85b8-4f80f7a619a8
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '498af23f-f5ee-44ee-85b8-4f80f7a619a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757535485203', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '115.46', 'execPrice': '115.46', 'markIv': '', 'orderQty': '173.2', 'orderPrice': '109.69', 'execValue': '19997.672', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612513271533, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9987196', 'execId': '93e22ed0-f24e-4327-b744-e9f440db402e', 'marketUnit': '', 'execQty': '173.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | S |  67.72
+1
+Last close price for DOTUSDT: 4.1733
+Opening Sell for  DOTUSDT
+TP: 4.131567
+SL: 4.256766000000001
+TS: 0.041733
+Order Quantity: 4792.37
+Adjusted qty: 4792.400000000001
+Final Adjusted qty: 4792.3
+32140.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    | B |  33.33
+1
+Last close price for WLDUSDT: 1.8408
+Opening Buy for  WLDUSDT
+TP: 1.859208
+SL: 1.803984
+TS: 0.018408
+Order Quantity: 10864.84
+Adjusted qty: 10864.800000000001
+Final Adjusted qty: 10864.8
+34020.0
