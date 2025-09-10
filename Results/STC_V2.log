@@ -34774,3 +34774,62 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 09:55:45
+***************************************************************
+Number of open positions: 7
+Function started at 10.09.2025 10:00:07
+FARTCOINUSDT 	Latest Close: (0.8394) 	SMA(14) : 0.84 	Delta : S 	Previous STC : 100.00 	STC : 68.22
+ONDOUSDT 	Latest Close: (1.005) 	SMA(14) : 1.02 	Delta : S 	Previous STC : 100.00 	STC : 95.51
+MUSDT 	Latest Close: (1.9078) 	SMA(14) : 1.96 	Delta : S 	Previous STC : 99.25 	STC : 94.35
+KAIAUSDT 	Latest Close: (0.1572) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.49 	STC : 88.39
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.49 	STC : 88.39
+AAVEUSDT 	Latest Close: (296.63) 	SMA(14) : 297.54 	Delta : S 	Previous STC : 100.00 	STC : 92.86
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ONDOUSDT   | S |  95.51
+Last close price for ONDOUSDT: 1.0051
+Opening Sell for  ONDOUSDT
+TP: 0.9950490000000001
+SL: 1.0252020000000002
+TS: 0.010051000000000001
+Order Quantity: 9949.26
+Adjusted qty: 9949.0
+Final Adjusted qty: 9949.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0ffa7d43-2fc9-4a90-91c6-6d05fca1f0b0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757484042159}
+0ffa7d43-2fc9-4a90-91c6-6d05fca1f0b0
+fetching trade data for :  0ffa7d43-2fc9-4a90-91c6-6d05fca1f0b0
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0ffa7d43-2fc9-4a90-91c6-6d05fca1f0b0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757484042159', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0053', 'execPrice': '1.0053', 'markIv': '', 'orderQty': '9949', 'orderPrice': '0.9551', 'execValue': '10001.7297', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200092161, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50095134', 'execId': '10693fa4-5a38-4eb0-a96a-bff64d3b2f8c', 'marketUnit': '', 'execQty': '9949', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MUSDT      | S |  94.35
+Last close price for MUSDT: 1.9101
+Opening Sell for  MUSDT
+TP: 1.8909989999999999
+SL: 1.948302
+TS: 0.019101
+Order Quantity: 5235.33
+Adjusted qty: 5235.0
+Final Adjusted qty: 5235.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5249f5a5-851f-4248-8295-6de853456c4b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757484054441}
+5249f5a5-851f-4248-8295-6de853456c4b
+fetching trade data for :  5249f5a5-851f-4248-8295-6de853456c4b
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5249f5a5-851f-4248-8295-6de853456c4b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757484054441', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9097', 'execPrice': '1.9101', 'markIv': '', 'orderQty': '5235', 'orderPrice': '1.6233', 'execValue': '9999.3735', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200092529, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99931085', 'execId': '17f5c21e-43da-4505-bdad-ee22a4ff8c9f', 'marketUnit': '', 'execQty': '5235', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   | S |  92.86
+Last close price for AAVEUSDT: 296.51
+Opening Sell for  AAVEUSDT
+TP: 293.5449
+SL: 302.4402
+TS: 2.9651
+Order Quantity: 33.73
+Adjusted qty: 33.730000000000004
+Final Adjusted qty: 33.73
+2514.0
