@@ -23617,3 +23617,31 @@ Order Quantity: 75.06
 Adjusted qty: 75.06
 Final Adjusted qty: 75.06
 205.0
+***************************************************************
+Number of open positions: 3
+Function started at 10.09.2025 10:36:38
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (578.3) 	SMA(14) : 578.80 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | S |  66.67
+1
+Last close price for BCHUSDT: 578.3
+Opening Sell for  BCHUSDT
+TP: 572.5169999999999
+SL: 589.866
+TS: 5.7829999999999995
+Order Quantity: 34.58
+Adjusted qty: 34.58
+Final Adjusted qty: 34.58
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '49573fb5-98bf-4227-b466-41fa590e1ed9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757486233528}
+49573fb5-98bf-4227-b466-41fa590e1ed9
+fetching trade data for :  49573fb5-98bf-4227-b466-41fa590e1ed9
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '49573fb5-98bf-4227-b466-41fa590e1ed9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757486233527', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '578.3', 'execPrice': '578.3', 'markIv': '', 'orderQty': '34.58', 'orderPrice': '549.4', 'execValue': '19997.614', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612511649463, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9986877', 'execId': 'c9ec7243-fbfa-48fc-adaa-7fb1e3c4e2a6', 'marketUnit': '', 'execQty': '34.58', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 10:37:24
