@@ -34054,3 +34054,29 @@ Order Quantity: 709.37
 Adjusted qty: 709.4000000000001
 Final Adjusted qty: 709.3
 6020.0
+***************************************************************
+Number of open positions: 7
+Function started at 10.09.2025 07:25:07
+INJUSDT 	Latest Close: (14.091) 	SMA(14) : 14.05 	Delta : B 	Previous STC : 10.13 	STC : 33.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+INJUSDT    | B |  33.27
+Last close price for INJUSDT: 14.091
+Opening Buy for  INJUSDT
+TP: 14.23191
+SL: 13.80918
+TS: 0.14090999999999998
+Order Quantity: 709.67
+Adjusted qty: 709.7
+Final Adjusted qty: 709.6
+6020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '81680be7-135b-41b0-9b5f-ea6d3577a9ee', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757474768090}
+81680be7-135b-41b0-9b5f-ea6d3577a9ee
+fetching trade data for :  81680be7-135b-41b0-9b5f-ea6d3577a9ee
+[{'symbol': 'INJUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '81680be7-135b-41b0-9b5f-ea6d3577a9ee', 'stopOrderType': 'UNKNOWN', 'execTime': '1757474768090', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '14.091', 'execPrice': '14.091', 'markIv': '', 'orderQty': '709.6', 'orderPrice': '14.795', 'execValue': '9998.9736', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199808782, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49943548', 'execId': '34ee107f-182b-42cb-bfb0-255b56e37a3f', 'marketUnit': '', 'execQty': '709.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 07:26:20
