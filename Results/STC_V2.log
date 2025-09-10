@@ -38536,3 +38536,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 11.09.2025 00:17:08
+***************************************************************
+Number of open positions: 6
+Function started at 11.09.2025 00:25:10
+WLDUSDT 	Latest Close: (1.855) 	SMA(14) : 1.82 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+LTCUSDT 	Latest Close: (115.46) 	SMA(14) : 115.84 	Delta : S 	Previous STC : 99.01 	STC : 84.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  84.13
+Last close price for LTCUSDT: 115.45
+Opening Sell for  LTCUSDT
+TP: 114.2955
+SL: 117.759
+TS: 1.1545
+Order Quantity: 86.62
+Adjusted qty: 86.60000000000001
+Final Adjusted qty: 86.6
+6160.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    | B |  33.33
+Last close price for WLDUSDT: 1.8492
+Opening Buy for  WLDUSDT
+TP: 1.867692
+SL: 1.8122159999999998
+TS: 0.018491999999999998
+Order Quantity: 5407.74
+Adjusted qty: 5407.700000000001
+Final Adjusted qty: 5407.7
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '65297dbf-4f24-4429-9690-29fd8fd1b6ba', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757536005102}
+65297dbf-4f24-4429-9690-29fd8fd1b6ba
+fetching trade data for :  65297dbf-4f24-4429-9690-29fd8fd1b6ba
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '65297dbf-4f24-4429-9690-29fd8fd1b6ba', 'stopOrderType': 'UNKNOWN', 'execTime': '1757536005101', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.8492', 'execPrice': '1.8495', 'markIv': '', 'orderQty': '5407.7', 'orderPrice': '1.9416', 'execValue': '10001.54115', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201702355, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50084764', 'execId': '1d225ac1-0e27-4a7f-87fa-53b1789b6e88', 'marketUnit': '', 'execQty': '5407.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 00:26:54
