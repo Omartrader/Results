@@ -25269,3 +25269,36 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 10.09.2025 22:21:07
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 22:26:20
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.883) 	SMA(14) : 0.89 	Delta :  	Previous STC : 96.07 	STC : 83.60
+	KASUSDT 	Signal: S
+KASUSDT 	Latest Close: (0.08181) 	SMA(14) : 0.08 	Delta :  	Previous STC : 99.06 	STC : 93.89
+	AAVEUSDT 	Signal: S
+AAVEUSDT 	Latest Close: (301.94) 	SMA(14) : 303.35 	Delta :  	Previous STC : 100.00 	STC : 73.09
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KASUSDT    | S |  93.89
+1
+Last close price for KASUSDT: 0.08181
+Opening Sell for  KASUSDT
+TP: 0.08099189999999999
+SL: 0.0834462
+TS: 0.0008181
+Order Quantity: 244468.89
+Adjusted qty: 244470.0
+Final Adjusted qty: 244460.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '28bdda81-c248-4579-8ffe-d50cb05f8997', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757528803421}
+28bdda81-c248-4579-8ffe-d50cb05f8997
+fetching trade data for :  28bdda81-c248-4579-8ffe-d50cb05f8997
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '28bdda81-c248-4579-8ffe-d50cb05f8997', 'stopOrderType': 'UNKNOWN', 'execTime': '1757528803420', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08181', 'execPrice': '0.0818', 'markIv': '', 'orderQty': '244460', 'orderPrice': '0.06954', 'execValue': '19996.828', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612513054683, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9982554', 'execId': '58358682-9050-4c5f-9ce5-c516f2934897', 'marketUnit': '', 'execQty': '244460', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 10.09.2025 22:26:52
