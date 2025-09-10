@@ -34880,3 +34880,95 @@ Order Quantity: 33.77
 Adjusted qty: 33.77
 Final Adjusted qty: 33.77
 2514.0
+***************************************************************
+Number of open positions: 6
+Function started at 10.09.2025 10:10:06
+FARTCOINUSDT 	Latest Close: (0.8358) 	SMA(14) : 0.84 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ONDOUSDT 	Latest Close: (1.0027) 	SMA(14) : 1.02 	Delta : S 	Previous STC : 100.00 	STC : 95.13
+MUSDT 	Latest Close: (1.9192) 	SMA(14) : 1.96 	Delta : S 	Previous STC : 99.25 	STC : 94.49
+KAIAUSDT 	Latest Close: (0.1569) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+AAVEUSDT 	Latest Close: (295.78) 	SMA(14) : 297.48 	Delta : S 	Previous STC : 100.00 	STC : 83.28
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ONDOUSDT   | S |  95.13
+Last close price for ONDOUSDT: 1.001
+Opening Sell for  ONDOUSDT
+TP: 0.9909899999999999
+SL: 1.0210199999999998
+TS: 0.010009999999999998
+Order Quantity: 9990.01
+Adjusted qty: 9990.0
+Final Adjusted qty: 9990.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MUSDT      | S |  94.49
+Last close price for MUSDT: 1.9211
+Opening Sell for  MUSDT
+TP: 1.901889
+SL: 1.959522
+TS: 0.019211
+Order Quantity: 5205.35
+Adjusted qty: 5205.0
+Final Adjusted qty: 5205.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7856061d-b08f-44c3-8b0d-cdb4d5cf52fa', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757484642190}
+7856061d-b08f-44c3-8b0d-cdb4d5cf52fa
+fetching trade data for :  7856061d-b08f-44c3-8b0d-cdb4d5cf52fa
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7856061d-b08f-44c3-8b0d-cdb4d5cf52fa', 'stopOrderType': 'UNKNOWN', 'execTime': '1757484642190', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9208', 'execPrice': '1.9211', 'markIv': '', 'orderQty': '5205', 'orderPrice': '1.6327', 'execValue': '9999.3255', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200110787, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99925805', 'execId': '45c064d1-6d67-4d72-a057-8f0f23815258', 'marketUnit': '', 'execQty': '5205', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   | S |  83.28
+Last close price for AAVEUSDT: 295.88
+Opening Sell for  AAVEUSDT
+TP: 292.9212
+SL: 301.7976
+TS: 2.9588
+Order Quantity: 33.8
+Adjusted qty: 33.8
+Final Adjusted qty: 33.8
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '83a23147-431f-4a27-8dcf-6eadc2d08d73', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757484654771}
+83a23147-431f-4a27-8dcf-6eadc2d08d73
+fetching trade data for :  83a23147-431f-4a27-8dcf-6eadc2d08d73
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '83a23147-431f-4a27-8dcf-6eadc2d08d73', 'stopOrderType': 'UNKNOWN', 'execTime': '1757484654770', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '295.88', 'execPrice': '295.88', 'markIv': '', 'orderQty': '33.8', 'orderPrice': '281.09', 'execValue': '10000.744', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200111202, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5004092', 'execId': '6b297144-6a19-4f47-8bda-7f297eace733', 'marketUnit': '', 'execQty': '33.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FARTCOINUSDT | S |  66.67
+Last close price for FARTCOINUSDT: 0.8339
+Opening Sell for  FARTCOINUSDT
+TP: 0.825561
+SL: 0.850578
+TS: 0.008339
+Order Quantity: 11991.85
+Adjusted qty: 11992.0
+Final Adjusted qty: 11991.0
+600000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ca73ce3e-6101-40d5-8990-d88dfff909ac', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757484667096}
+ca73ce3e-6101-40d5-8990-d88dfff909ac
+fetching trade data for :  ca73ce3e-6101-40d5-8990-d88dfff909ac
+[{'symbol': 'FARTCOINUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ca73ce3e-6101-40d5-8990-d88dfff909ac', 'stopOrderType': 'UNKNOWN', 'execTime': '1757484667096', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8337', 'execPrice': '0.8351', 'markIv': '', 'orderQty': '11991', 'orderPrice': '0.7087', 'execValue': '10013.6841', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200111582, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50752626', 'execId': '690ecaf5-2540-4edf-a542-b53f667a3a05', 'marketUnit': '', 'execQty': '11991', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KAIAUSDT   | S |  66.67
+Last close price for KAIAUSDT: 0.1568
+Opening Sell for  KAIAUSDT
+TP: 0.15523199999999998
+SL: 0.159936
+TS: 0.001568
+Order Quantity: 63775.51
+Adjusted qty: 63776.0
+Final Adjusted qty: 63775.0
+170000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 10.09.2025 10:11:18
