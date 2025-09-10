@@ -24738,3 +24738,61 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 10.09.2025 18:23:07
+***************************************************************
+Number of open positions: 3
+Function started at 10.09.2025 18:33:09
+	ADAUSDT 	Signal: B
+ADAUSDT 	Latest Close: (0.8901) 	SMA(14) : 0.88 	Delta :  	Previous STC : 19.56 	STC : 41.77
+	KASUSDT 	Signal: B
+KASUSDT 	Latest Close: (0.08274) 	SMA(14) : 0.08 	Delta :  	Previous STC : 20.57 	STC : 34.10
+	SUIUSDT 	Signal: B
+SUIUSDT 	Latest Close: (3.602) 	SMA(14) : 3.56 	Delta :  	Previous STC : 24.10 	STC : 49.40
+	TONUSDT 	Signal: B
+TONUSDT 	Latest Close: (3.1321) 	SMA(14) : 3.12 	Delta :  	Previous STC : 23.25 	STC : 48.83
+	LINKUSDT 	Signal: B
+LINKUSDT 	Latest Close: (23.686) 	SMA(14) : 23.59 	Delta :  	Previous STC : 20.60 	STC : 45.32
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (9.759) 	SMA(14) : 9.68 	Delta :  	Previous STC : 16.50 	STC : 43.04
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  49.40
+1
+Last close price for SUIUSDT: 3.5989
+Opening Buy for  SUIUSDT
+TP: 3.634889
+SL: 3.526922
+TS: 0.035989
+Order Quantity: 5557.25
+Adjusted qty: 5560.0
+Final Adjusted qty: 5550.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5c278f25-82fb-4c9a-931f-7ef2da89bca3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757514830553}
+5c278f25-82fb-4c9a-931f-7ef2da89bca3
+fetching trade data for :  5c278f25-82fb-4c9a-931f-7ef2da89bca3
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5c278f25-82fb-4c9a-931f-7ef2da89bca3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757514830551', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.59873', 'execPrice': '3.5979', 'markIv': '', 'orderQty': '5550', 'orderPrice': '3.7786', 'execValue': '19968.345', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512592039, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.98258975', 'execId': '6240d889-efe1-4610-8263-4389a89a6363', 'marketUnit': '', 'execQty': '5550', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    | B |  48.83
+1
+Last close price for TONUSDT: 3.1304
+Opening Buy for  TONUSDT
+TP: 3.161704
+SL: 3.067792
+TS: 0.031304
+Order Quantity: 6388.96
+Adjusted qty: 6389.0
+Final Adjusted qty: 6388.9
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'edb24f50-fbef-4f81-b8cb-8437222a0e75', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757514844341}
+edb24f50-fbef-4f81-b8cb-8437222a0e75
+fetching trade data for :  edb24f50-fbef-4f81-b8cb-8437222a0e75
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'edb24f50-fbef-4f81-b8cb-8437222a0e75', 'stopOrderType': 'UNKNOWN', 'execTime': '1757514844339', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1303', 'execPrice': '3.1304', 'markIv': '', 'orderQty': '6388.9', 'orderPrice': '3.2868', 'execValue': '19999.81256', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512592512, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99989691', 'execId': 'c1249be7-d1c7-4db1-9771-09757e15cb79', 'marketUnit': '', 'execQty': '6388.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 10.09.2025 18:34:15
