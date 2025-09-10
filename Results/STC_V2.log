@@ -35554,3 +35554,32 @@ Order Quantity: 2113.76
 Adjusted qty: 2114.0
 Final Adjusted qty: 2113.0
 5200.0
+***************************************************************
+Number of open positions: 9
+Function started at 10.09.2025 12:40:49
+TRUMPUSDT 	Latest Close: (8.767) 	SMA(14) : 8.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+THETAUSDT 	Latest Close: (0.8171) 	SMA(14) : 0.82 	Delta : S 	Previous STC : 100.00 	STC : 75.26
+PENDLEUSDT 	Latest Close: (4.732) 	SMA(14) : 4.71 	Delta : B 	Previous STC : 16.44 	STC : 25.35
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+THETAUSDT  | S |  75.26
+Last close price for THETAUSDT: 0.8171
+Opening Sell for  THETAUSDT
+TP: 0.808929
+SL: 0.833442
+TS: 0.008171000000000001
+Order Quantity: 12238.4
+Adjusted qty: 12238.400000000001
+Final Adjusted qty: 12238.4
+52860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ec2c9b14-1c9e-4a15-9a83-382dd6226efe', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757493711832}
+ec2c9b14-1c9e-4a15-9a83-382dd6226efe
+fetching trade data for :  ec2c9b14-1c9e-4a15-9a83-382dd6226efe
+[{'symbol': 'THETAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ec2c9b14-1c9e-4a15-9a83-382dd6226efe', 'stopOrderType': 'UNKNOWN', 'execTime': '1757493711831', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8171', 'execPrice': '0.8171', 'markIv': '', 'orderQty': '12238.4', 'orderPrice': '0.7354', 'execValue': '9999.99664', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200389182, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999816', 'execId': 'ae55759f-41e8-43bc-9172-c99fc14c7779', 'marketUnit': '', 'execQty': '12238.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 10.09.2025 12:42:02
