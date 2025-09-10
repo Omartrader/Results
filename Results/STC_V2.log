@@ -33556,3 +33556,48 @@ Function started at 10.09.2025 05:40:07
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 10.09.2025 05:41:03
+***************************************************************
+Number of open positions: 5
+Function started at 10.09.2025 05:45:05
+VETUSDT 	Latest Close: (0.02411) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 97.41 	STC : 90.71
+MUSDT 	Latest Close: (1.9716) 	SMA(14) : 1.96 	Delta : B 	Previous STC : 7.02 	STC : 38.01
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | S |  90.71
+Last close price for VETUSDT: 0.0241
+Opening Sell for  VETUSDT
+TP: 0.023858999999999998
+SL: 0.024582
+TS: 0.000241
+Order Quantity: 414937.76
+Adjusted qty: 414938.0
+Final Adjusted qty: 414937.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1181bbd3-f9fc-47e5-8d33-61c0a5b4300e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757468739867}
+1181bbd3-f9fc-47e5-8d33-61c0a5b4300e
+fetching trade data for :  1181bbd3-f9fc-47e5-8d33-61c0a5b4300e
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1181bbd3-f9fc-47e5-8d33-61c0a5b4300e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757468739866', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02411', 'execPrice': '0.0241', 'markIv': '', 'orderQty': '414937', 'orderPrice': '0.02291', 'execValue': '9999.9817', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199621815, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998994', 'execId': 'd77ce4a0-f03d-4ff1-b234-8b9bd1b539fb', 'marketUnit': '', 'execQty': '414937', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MUSDT      | B |  38.01
+Last close price for MUSDT: 1.9739
+Opening Buy for  MUSDT
+TP: 1.993639
+SL: 1.9344219999999999
+TS: 0.019739
+Order Quantity: 5066.11
+Adjusted qty: 5066.0
+Final Adjusted qty: 5066.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '77c35eb8-5513-43e0-9a68-cd6a89a736b9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757468751650}
+77c35eb8-5513-43e0-9a68-cd6a89a736b9
+fetching trade data for :  77c35eb8-5513-43e0-9a68-cd6a89a736b9
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '77c35eb8-5513-43e0-9a68-cd6a89a736b9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757468751649', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9739', 'execPrice': '1.9738', 'markIv': '', 'orderQty': '5066', 'orderPrice': '2.2699', 'execValue': '9999.2708', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199622180, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99919788', 'execId': '26cb4b60-386c-4d5a-981e-6e0e3ea6c47d', 'marketUnit': '', 'execQty': '5066', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 05:46:00
