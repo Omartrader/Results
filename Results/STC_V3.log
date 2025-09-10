@@ -25067,3 +25067,36 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 10.09.2025 21:17:44
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 21:26:08
+	TIAUSDT 	Signal: S
+TIAUSDT 	Latest Close: (1.763) 	SMA(14) : 1.79 	Delta :  	Previous STC : 99.47 	STC : 95.93
+	XDCUSDT 	Signal: S
+XDCUSDT 	Latest Close: (0.07852) 	SMA(14) : 0.08 	Delta :  	Previous STC : 97.59 	STC : 94.75
+	ATOMUSDT 	Signal: S
+ATOMUSDT 	Latest Close: (4.671) 	SMA(14) : 4.68 	Delta :  	Previous STC : 100.00 	STC : 85.11
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TIAUSDT    | S |  95.93
+1
+Last close price for TIAUSDT: 1.762
+Opening Sell for  TIAUSDT
+TP: 1.74438
+SL: 1.79724
+TS: 0.01762
+Order Quantity: 11350.74
+Adjusted qty: 11350.7
+Final Adjusted qty: 11350.7
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bd09ef85-361f-45cd-a1ee-12f42e576919', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757525202269}
+bd09ef85-361f-45cd-a1ee-12f42e576919
+fetching trade data for :  bd09ef85-361f-45cd-a1ee-12f42e576919
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bd09ef85-361f-45cd-a1ee-12f42e576919', 'stopOrderType': 'UNKNOWN', 'execTime': '1757525202268', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.7623', 'execPrice': '1.762', 'markIv': '', 'orderQty': '11350.7', 'orderPrice': '1.675', 'execValue': '19999.9334', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512937126, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99996337', 'execId': 'd6a5e5bb-993e-4749-b850-e1ddedfbbb27', 'marketUnit': '', 'execQty': '11350.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 10.09.2025 21:26:52
