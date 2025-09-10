@@ -39156,3 +39156,96 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 03:10:48
+***************************************************************
+Number of open positions: 5
+Function started at 11.09.2025 03:15:06
+PYTHUSDT 	Latest Close: (0.1721) 	SMA(14) : 0.17 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+ENAUSDT 	Latest Close: (0.783) 	SMA(14) : 0.78 	Delta : B 	Previous STC : 9.16 	STC : 39.44
+ONDOUSDT 	Latest Close: (1.0193) 	SMA(14) : 1.02 	Delta : B 	Previous STC : 7.15 	STC : 38.10
+XDCUSDT 	Latest Close: (0.07863) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 16.08 	STC : 44.05
+FORMUSDT 	Latest Close: (3.0264) 	SMA(14) : 3.03 	Delta : B 	Previous STC : 20.50 	STC : 47.00
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | B |  47.00
+Last close price for FORMUSDT: 3.0264
+Opening Buy for  FORMUSDT
+TP: 3.056664
+SL: 2.965872
+TS: 0.030264000000000003
+Order Quantity: 3304.26
+Adjusted qty: 3304.0
+Final Adjusted qty: 3304.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '997f4c63-35e0-49b2-8e1f-a9647d1ae72e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757546151342}
+997f4c63-35e0-49b2-8e1f-a9647d1ae72e
+fetching trade data for :  997f4c63-35e0-49b2-8e1f-a9647d1ae72e
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '997f4c63-35e0-49b2-8e1f-a9647d1ae72e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757546151341', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.0265', 'execPrice': '3.0258', 'markIv': '', 'orderQty': '2850', 'orderPrice': '3.4804', 'execValue': '8623.53', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202007996, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.7429415', 'execId': '6211c534-4170-491e-ae99-42d56035e16e', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    | B |  44.05
+Last close price for XDCUSDT: 0.0787
+Opening Buy for  XDCUSDT
+TP: 0.079487
+SL: 0.077126
+TS: 0.000787
+Order Quantity: 127064.8
+Adjusted qty: 127065.0
+Final Adjusted qty: 127064.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9805c3b2-ae69-4efa-ae68-c8a26240420f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757546164069}
+9805c3b2-ae69-4efa-ae68-c8a26240420f
+fetching trade data for :  9805c3b2-ae69-4efa-ae68-c8a26240420f
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9805c3b2-ae69-4efa-ae68-c8a26240420f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757546164068', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07869', 'execPrice': '0.0787', 'markIv': '', 'orderQty': '127064', 'orderPrice': '0.09442', 'execValue': '9999.9368', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202008377, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99993048', 'execId': 'e72103ab-57a7-4ebe-ad9d-aa4aef2114dd', 'marketUnit': '', 'execQty': '127064', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | B |  39.44
+Last close price for ENAUSDT: 0.7829
+Opening Buy for  ENAUSDT
+TP: 0.790729
+SL: 0.767242
+TS: 0.007829000000000001
+Order Quantity: 12773.02
+Adjusted qty: 12773.0
+Final Adjusted qty: 12773.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '76cd393f-f3ae-4fe7-b070-0a67d51f1f15', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757546176897}
+76cd393f-f3ae-4fe7-b070-0a67d51f1f15
+fetching trade data for :  76cd393f-f3ae-4fe7-b070-0a67d51f1f15
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '76cd393f-f3ae-4fe7-b070-0a67d51f1f15', 'stopOrderType': 'UNKNOWN', 'execTime': '1757546176896', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.783', 'execPrice': '0.783', 'markIv': '', 'orderQty': '12773', 'orderPrice': '0.8613', 'execValue': '10001.259', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202008744, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50069245', 'execId': 'c533f80f-3ca8-4049-825b-2c0ead6b1624', 'marketUnit': '', 'execQty': '12773', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  38.10
+Last close price for ONDOUSDT: 1.0197
+Opening Buy for  ONDOUSDT
+TP: 1.029897
+SL: 0.999306
+TS: 0.010197000000000001
+Order Quantity: 9806.81
+Adjusted qty: 9807.0
+Final Adjusted qty: 9806.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a90cedf6-ee85-4dbf-8155-8bd133e11440', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757546189644}
+a90cedf6-ee85-4dbf-8155-8bd133e11440
+fetching trade data for :  a90cedf6-ee85-4dbf-8155-8bd133e11440
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a90cedf6-ee85-4dbf-8155-8bd133e11440', 'stopOrderType': 'UNKNOWN', 'execTime': '1757546189643', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0197', 'execPrice': '1.0197', 'markIv': '', 'orderQty': '9806', 'orderPrice': '1.0706', 'execValue': '9999.1782', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202009114, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49954801', 'execId': '9c888200-34a5-49af-9abe-a1e48efb62e3', 'marketUnit': '', 'execQty': '9806', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PYTHUSDT   | B |  33.33
+Last close price for PYTHUSDT: 0.1723
+Opening Buy for  PYTHUSDT
+TP: 0.174023
+SL: 0.168854
+TS: 0.0017230000000000001
+Order Quantity: 58038.31
+Adjusted qty: 58038.0
+Final Adjusted qty: 58038.0
+177000.0
