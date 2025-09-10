@@ -26201,3 +26201,55 @@ Order Quantity: 34.45
 Adjusted qty: 34.45
 Final Adjusted qty: 34.45
 804.0
+***************************************************************
+Number of open positions: 3
+Function started at 11.09.2025 03:16:46
+	ENAUSDT 	Signal: B
+ENAUSDT 	Latest Close: (0.783) 	SMA(14) : 0.78 	Delta :  	Previous STC : 9.16 	STC : 39.44
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0198) 	SMA(14) : 1.02 	Delta :  	Previous STC : 7.15 	STC : 38.10
+	XDCUSDT 	Signal: B
+XDCUSDT 	Latest Close: (0.07871) 	SMA(14) : 0.08 	Delta :  	Previous STC : 16.08 	STC : 44.05
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XDCUSDT    | B |  44.05
+1
+Last close price for XDCUSDT: 0.07872
+Opening Buy for  XDCUSDT
+TP: 0.0795072
+SL: 0.0771456
+TS: 0.0007871999999999999
+Order Quantity: 254065.04
+Adjusted qty: 254065.0
+Final Adjusted qty: 254065.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e7028462-4be6-4439-8605-414acbdd64d6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757546232599}
+e7028462-4be6-4439-8605-414acbdd64d6
+fetching trade data for :  e7028462-4be6-4439-8605-414acbdd64d6
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e7028462-4be6-4439-8605-414acbdd64d6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757546232598', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07869', 'execPrice': '0.07872', 'markIv': '', 'orderQty': '160000', 'orderPrice': '0.09442', 'execValue': '12595.2', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612513606520, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '13.85472', 'execId': 'ae42daa7-aa20-4989-ab1f-3e026aef006b', 'marketUnit': '', 'execQty': '160000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | B |  39.44
+1
+Last close price for ENAUSDT: 0.7831
+Opening Buy for  ENAUSDT
+TP: 0.790931
+SL: 0.767438
+TS: 0.007831
+Order Quantity: 25539.52
+Adjusted qty: 25540.0
+Final Adjusted qty: 25539.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e2595b3b-c12a-49a2-9405-073099da2dba', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757546245251}
+e2595b3b-c12a-49a2-9405-073099da2dba
+fetching trade data for :  e2595b3b-c12a-49a2-9405-073099da2dba
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e2595b3b-c12a-49a2-9405-073099da2dba', 'stopOrderType': 'UNKNOWN', 'execTime': '1757546245251', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7831', 'execPrice': '0.7831', 'markIv': '', 'orderQty': '25539', 'orderPrice': '0.8614', 'execValue': '19999.5909', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612513606886, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.999775', 'execId': 'd64eef85-af8d-429f-9fef-e50ae2069128', 'marketUnit': '', 'execQty': '25539', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 11.09.2025 03:17:36
