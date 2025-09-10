@@ -24529,3 +24529,52 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 10.09.2025 17:18:30
+***************************************************************
+Number of open positions: 4
+Function started at 10.09.2025 17:27:17
+	OPUSDT 	Signal: B
+OPUSDT 	Latest Close: (0.7801) 	SMA(14) : 0.77 	Delta :  	Previous STC : 15.34 	STC : 43.56
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (2.712) 	SMA(14) : 2.67 	Delta :  	Previous STC : 4.91 	STC : 27.09
+	TRUMPUSDT 	Signal: B
+TRUMPUSDT 	Latest Close: (8.857) 	SMA(14) : 8.82 	Delta :  	Previous STC : 6.68 	STC : 25.52
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (99.7) 	SMA(14) : 99.00 	Delta :  	Previous STC : 14.95 	STC : 27.88
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OPUSDT     | B |  43.56
+1
+Last close price for OPUSDT: 0.78
+Opening Buy for  OPUSDT
+TP: 0.7878000000000001
+SL: 0.7644
+TS: 0.0078000000000000005
+Order Quantity: 25641.03
+Adjusted qty: 25641.0
+Final Adjusted qty: 25641.0
+84130.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+QNTUSDT    | B |  27.88
+1
+Last close price for QNTUSDT: 99.7
+Opening Buy for  QNTUSDT
+TP: 100.697
+SL: 97.706
+TS: 0.997
+Order Quantity: 200.6
+Adjusted qty: 200.6
+Final Adjusted qty: 200.6
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8ea13b3f-bf1f-4f9b-aedd-9c0c474952e6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757510857932}
+8ea13b3f-bf1f-4f9b-aedd-9c0c474952e6
+fetching trade data for :  8ea13b3f-bf1f-4f9b-aedd-9c0c474952e6
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8ea13b3f-bf1f-4f9b-aedd-9c0c474952e6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757510857931', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '99.72', 'execPrice': '99.7', 'markIv': '', 'orderQty': '200.6', 'orderPrice': '109.69', 'execValue': '19999.82', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612512456914, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.999901', 'execId': 'dc099024-9604-4395-8a36-7ddde11472a6', 'marketUnit': '', 'execQty': '200.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 10.09.2025 17:27:48
