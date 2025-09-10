@@ -37530,3 +37530,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 10.09.2025 20:52:11
+***************************************************************
+Number of open positions: 7
+Function started at 10.09.2025 21:00:10
+RSRUSDT 	Latest Close: (0.007752) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 96.63 	STC : 92.13
+CROUSDT 	Latest Close: (0.25449) 	SMA(14) : 0.26 	Delta : S 	Previous STC : 98.38 	STC : 91.51
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RSRUSDT    | S |  92.13
+Last close price for RSRUSDT: 0.007756
+Opening Sell for  RSRUSDT
+TP: 0.00767844
+SL: 0.00791112
+TS: 7.756e-05
+Order Quantity: 1289324.39
+Adjusted qty: 1289320.0
+Final Adjusted qty: 1289320.0
+1190000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2409aafa-d4ef-4c73-bdb0-ebdf9d0179f0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757523667046}
+2409aafa-d4ef-4c73-bdb0-ebdf9d0179f0
+fetching trade data for :  2409aafa-d4ef-4c73-bdb0-ebdf9d0179f0
+[{'symbol': 'RSRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2409aafa-d4ef-4c73-bdb0-ebdf9d0179f0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757523667045', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.007755', 'execPrice': '0.007756', 'markIv': '', 'orderQty': '1190000', 'orderPrice': '0.00698', 'execValue': '9229.64', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201326210, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.076302', 'execId': 'cda29471-6640-42ef-abb3-e57b9d0b6b18', 'marketUnit': '', 'execQty': '1190000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | S |  91.51
+Last close price for CROUSDT: 0.25426
+Opening Sell for  CROUSDT
+TP: 0.2517174
+SL: 0.2593452
+TS: 0.0025426
+Order Quantity: 39329.82
+Adjusted qty: 39330.0
+Final Adjusted qty: 39329.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a36cf4fd-37fb-4d75-9898-d731fff244bf', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757523680426}
+a36cf4fd-37fb-4d75-9898-d731fff244bf
+fetching trade data for :  a36cf4fd-37fb-4d75-9898-d731fff244bf
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a36cf4fd-37fb-4d75-9898-d731fff244bf', 'stopOrderType': 'UNKNOWN', 'execTime': '1757523680425', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.25429', 'execPrice': '0.25426', 'markIv': '', 'orderQty': '39329', 'orderPrice': '0.22887', 'execValue': '9999.79154', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201326613, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988535', 'execId': 'f7271f11-f305-4bb8-a3c9-acefc773184b', 'marketUnit': '', 'execQty': '39329', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 10.09.2025 21:01:30
