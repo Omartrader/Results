@@ -33601,3 +33601,57 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 10.09.2025 05:46:00
+***************************************************************
+Number of open positions: 7
+Function started at 10.09.2025 05:50:06
+VETUSDT 	Latest Close: (0.02402) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 97.41 	STC : 89.60
+MUSDT 	Latest Close: (1.9773) 	SMA(14) : 1.96 	Delta : B 	Previous STC : 7.02 	STC : 38.01
+ATOMUSDT 	Latest Close: (4.575) 	SMA(14) : 4.58 	Delta : S 	Previous STC : 98.06 	STC : 92.87
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATOMUSDT   | S |  92.87
+Last close price for ATOMUSDT: 4.577
+Opening Sell for  ATOMUSDT
+TP: 4.53123
+SL: 4.66854
+TS: 0.04577
+Order Quantity: 2184.84
+Adjusted qty: 2184.8
+Final Adjusted qty: 2184.8
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7dba0bf8-4bae-4044-b984-56710e90ff73', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757469061572}
+7dba0bf8-4bae-4044-b984-56710e90ff73
+fetching trade data for :  7dba0bf8-4bae-4044-b984-56710e90ff73
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7dba0bf8-4bae-4044-b984-56710e90ff73', 'stopOrderType': 'UNKNOWN', 'execTime': '1757469061571', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.577', 'execPrice': '4.577', 'markIv': '', 'orderQty': '2184.8', 'orderPrice': '4.349', 'execValue': '9999.8296', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697199631770, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990628', 'execId': '396bdbd7-a7b5-4226-87c2-633cc20d4b61', 'marketUnit': '', 'execQty': '2184.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    | S |  89.60
+Last close price for VETUSDT: 0.02401
+Opening Sell for  VETUSDT
+TP: 0.0237699
+SL: 0.0244902
+TS: 0.0002401
+Order Quantity: 416493.13
+Adjusted qty: 416493.0
+Final Adjusted qty: 416493.0
+437000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MUSDT      | B |  38.01
+Last close price for MUSDT: 1.9703
+Opening Buy for  MUSDT
+TP: 1.990003
+SL: 1.9308939999999999
+TS: 0.019703
+Order Quantity: 5075.37
+Adjusted qty: 5075.0
+Final Adjusted qty: 5075.0
+120000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 10.09.2025 05:51:14
