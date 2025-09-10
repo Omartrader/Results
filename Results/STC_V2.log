@@ -38244,3 +38244,40 @@ Order Quantity: 11461.32
 Adjusted qty: 11461.0
 Final Adjusted qty: 11461.0
 600000.0
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 23:20:05
+POLUSDT 	Latest Close: (0.2691) 	SMA(14) : 0.27 	Delta : S 	Previous STC : 99.24 	STC : 87.29
+MUSDT 	Latest Close: (1.9708) 	SMA(14) : 1.97 	Delta : B 	Previous STC : 3.37 	STC : 25.55
+TONUSDT 	Latest Close: (3.1291) 	SMA(14) : 3.13 	Delta : S 	Previous STC : 97.76 	STC : 89.74
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  89.74
+Last close price for TONUSDT: 3.1288
+Opening Sell for  TONUSDT
+TP: 3.097512
+SL: 3.191376
+TS: 0.031288
+Order Quantity: 3196.11
+Adjusted qty: 3196.1000000000004
+Final Adjusted qty: 3196.1
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cfecaebe-716f-42ec-8a48-435d75be8792', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757532039947}
+cfecaebe-716f-42ec-8a48-435d75be8792
+fetching trade data for :  cfecaebe-716f-42ec-8a48-435d75be8792
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cfecaebe-716f-42ec-8a48-435d75be8792', 'stopOrderType': 'UNKNOWN', 'execTime': '1757532039946', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.129', 'execPrice': '3.1288', 'markIv': '', 'orderQty': '3196.1', 'orderPrice': '2.9726', 'execValue': '9999.95768', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201581751, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997673', 'execId': '26e5f7bc-ece1-4e11-9bdb-5ae98ddfc269', 'marketUnit': '', 'execQty': '3196.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    | S |  87.29
+Last close price for POLUSDT: 0.269
+Opening Sell for  POLUSDT
+TP: 0.26631
+SL: 0.27438
+TS: 0.00269
+Order Quantity: 37174.72
+Adjusted qty: 37175.0
+Final Adjusted qty: 37174.0
+500000.0
