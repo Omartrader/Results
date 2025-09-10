@@ -35977,3 +35977,58 @@ Order Quantity: 413564.93
 Adjusted qty: 413565.0
 Final Adjusted qty: 413564.0
 437000.0
+***************************************************************
+Number of open positions: 8
+Function started at 10.09.2025 14:55:50
+ATHUSDT 	Latest Close: (0.04416) 	SMA(14) : 0.04 	Delta : B 	Previous STC : 13.89 	STC : 42.59
+HBARUSDT 	Latest Close: (0.23036) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+BRETTUSDT 	Latest Close: (0.04905) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 99.92 	STC : 66.61
+VETUSDT 	Latest Close: (0.02414) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 82.47
+KASUSDT 	Latest Close: (0.08135) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+FLOWUSDT 	Latest Close: (0.4081) 	SMA(14) : 0.41 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+AVAXUSDT 	Latest Close: (26.682) 	SMA(14) : 26.70 	Delta : S 	Previous STC : 97.92 	STC : 79.25
+XTZUSDT 	Latest Close: (0.726) 	SMA(14) : 0.73 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ICPUSDT 	Latest Close: (4.863) 	SMA(14) : 4.89 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+LTCUSDT 	Latest Close: (112.78) 	SMA(14) : 112.98 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TAOUSDT 	Latest Close: (336.74) 	SMA(14) : 338.99 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | S |  82.47
+Last close price for VETUSDT: 0.02414
+Opening Sell for  VETUSDT
+TP: 0.023898600000000002
+SL: 0.024622800000000004
+TS: 0.0002414
+Order Quantity: 414250.21
+Adjusted qty: 414250.0
+Final Adjusted qty: 414250.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0e0d6efe-f997-48e2-8cc6-f299e030059c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757501816569}
+0e0d6efe-f997-48e2-8cc6-f299e030059c
+fetching trade data for :  0e0d6efe-f997-48e2-8cc6-f299e030059c
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0e0d6efe-f997-48e2-8cc6-f299e030059c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757501816568', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02414', 'execPrice': '0.02414', 'markIv': '', 'orderQty': '414250', 'orderPrice': '0.02294', 'execValue': '9999.995', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200643879, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999725', 'execId': 'a22b74a0-ac69-4ab7-b30e-e5621d737f7d', 'marketUnit': '', 'execQty': '414250', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | S |  79.25
+Last close price for AVAXUSDT: 26.683
+Opening Sell for  AVAXUSDT
+TP: 26.41617
+SL: 27.21666
+TS: 0.26683
+Order Quantity: 374.77
+Adjusted qty: 374.8
+Final Adjusted qty: 374.7
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '95d523b2-eede-4be2-931f-0c54954b1bf9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757501829921}
+95d523b2-eede-4be2-931f-0c54954b1bf9
+fetching trade data for :  95d523b2-eede-4be2-931f-0c54954b1bf9
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '95d523b2-eede-4be2-931f-0c54954b1bf9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757501829920', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '26.683', 'execPrice': '26.683', 'markIv': '', 'orderQty': '374.7', 'orderPrice': '26.15', 'execValue': '9998.1201', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200644276, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49896606', 'execId': 'd64fbd6a-1b03-4620-b48b-67703defab98', 'marketUnit': '', 'execQty': '374.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 10.09.2025 14:57:19
