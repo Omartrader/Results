@@ -25465,3 +25465,55 @@ Order Quantity: 6393.04
 Adjusted qty: 6393.0
 Final Adjusted qty: 6393.0
 37810.0
+***************************************************************
+Number of open positions: 3
+Function started at 10.09.2025 23:27:18
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2673) 	SMA(14) : 0.27 	Delta :  	Previous STC : 99.24 	STC : 81.25
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (1.9712) 	SMA(14) : 1.97 	Delta :  	Previous STC : 3.37 	STC : 25.67
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (3.1225) 	SMA(14) : 3.13 	Delta :  	Previous STC : 97.76 	STC : 88.32
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  88.32
+1
+Last close price for TONUSDT: 3.1232
+Opening Sell for  TONUSDT
+TP: 3.091968
+SL: 3.185664
+TS: 0.031232000000000003
+Order Quantity: 6403.69
+Adjusted qty: 6403.700000000001
+Final Adjusted qty: 6403.6
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2df77681-1964-4edc-bffb-f2e86406c743', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757532510162}
+2df77681-1964-4edc-bffb-f2e86406c743
+fetching trade data for :  2df77681-1964-4edc-bffb-f2e86406c743
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2df77681-1964-4edc-bffb-f2e86406c743', 'stopOrderType': 'UNKNOWN', 'execTime': '1757532510160', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1229', 'execPrice': '3.1229', 'markIv': '', 'orderQty': '6403.6', 'orderPrice': '2.9668', 'execValue': '19997.80244', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612513174244, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99879135', 'execId': '7384a48c-8b44-4401-9092-c93a9632a077', 'marketUnit': '', 'execQty': '6403.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    | S |  81.25
+1
+Last close price for POLUSDT: 0.2673
+Opening Sell for  POLUSDT
+TP: 0.264627
+SL: 0.272646
+TS: 0.002673
+Order Quantity: 74822.3
+Adjusted qty: 74822.0
+Final Adjusted qty: 74822.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2b954859-45ca-4c00-914d-7965142c3113', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757532524378}
+2b954859-45ca-4c00-914d-7965142c3113
+fetching trade data for :  2b954859-45ca-4c00-914d-7965142c3113
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2b954859-45ca-4c00-914d-7965142c3113', 'stopOrderType': 'UNKNOWN', 'execTime': '1757532524377', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2673', 'execPrice': '0.2674', 'markIv': '', 'orderQty': '74822', 'orderPrice': '0.254', 'execValue': '20007.4028', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612513174709, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00407154', 'execId': '354d2c73-62c3-4236-946b-7f8c7827621f', 'marketUnit': '', 'execQty': '74822', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 10.09.2025 23:28:56
