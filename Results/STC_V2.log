@@ -36427,3 +36427,57 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 10.09.2025 17:01:45
+***************************************************************
+Number of open positions: 3
+Function started at 10.09.2025 17:10:48
+ZKUSDT 	Latest Close: (0.0612) 	SMA(14) : 0.06 	Delta : B 	Previous STC : 21.61 	STC : 47.74
+TIAUSDT 	Latest Close: (1.816) 	SMA(14) : 1.78 	Delta : B 	Previous STC : 4.87 	STC : 27.48
+DOTUSDT 	Latest Close: (4.1696) 	SMA(14) : 4.10 	Delta : B 	Previous STC : 21.25 	STC : 47.50
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ZKUSDT     | B |  47.74
+Last close price for ZKUSDT: 0.06117
+Opening Buy for  ZKUSDT
+TP: 0.0617817
+SL: 0.0599466
+TS: 0.0006117000000000001
+Order Quantity: 163478.83
+Adjusted qty: 163478.80000000002
+Final Adjusted qty: 163478.8
+185000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9c72fc58-6fa4-4831-b4ea-12a7ff34a602', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757509885432}
+9c72fc58-6fa4-4831-b4ea-12a7ff34a602
+fetching trade data for :  9c72fc58-6fa4-4831-b4ea-12a7ff34a602
+[{'symbol': 'ZKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9c72fc58-6fa4-4831-b4ea-12a7ff34a602', 'stopOrderType': 'UNKNOWN', 'execTime': '1757509885430', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.06119', 'execPrice': '0.06117', 'markIv': '', 'orderQty': '163478.8', 'orderPrice': '0.0673', 'execValue': '9999.998196', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697200902782, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999901', 'execId': '8c0521c7-9b61-445d-907c-fde23781f532', 'marketUnit': '', 'execQty': '163478.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | B |  47.50
+Last close price for DOTUSDT: 4.1644
+Opening Buy for  DOTUSDT
+TP: 4.2060439999999994
+SL: 4.081111999999999
+TS: 0.041643999999999994
+Order Quantity: 2401.31
+Adjusted qty: 2401.3
+Final Adjusted qty: 2401.3
+32140.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TIAUSDT    | B |  27.48
+Last close price for TIAUSDT: 1.815
+Opening Buy for  TIAUSDT
+TP: 1.83315
+SL: 1.7787
+TS: 0.01815
+Order Quantity: 5509.64
+Adjusted qty: 5509.6
+Final Adjusted qty: 5509.6
+16390.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 10.09.2025 17:11:38
