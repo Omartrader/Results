@@ -38434,3 +38434,30 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 10.09.2025 23:56:45
+***************************************************************
+Number of open positions: 7
+Function started at 11.09.2025 00:00:05
+DOTUSDT 	Latest Close: (4.1584) 	SMA(14) : 4.18 	Delta : S 	Previous STC : 100.00 	STC : 93.18
+USD1USDT 	Latest Close: (0.9983) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 89.02
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOTUSDT    | S |  93.18
+Last close price for DOTUSDT: 4.1589
+Opening Sell for  DOTUSDT
+TP: 4.117311
+SL: 4.242078
+TS: 0.041589
+Order Quantity: 2404.48
+Adjusted qty: 2404.5
+Final Adjusted qty: 2404.4
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f3d97815-6ad8-42dc-b979-111a1f93223e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757534444230}
+f3d97815-6ad8-42dc-b979-111a1f93223e
+fetching trade data for :  f3d97815-6ad8-42dc-b979-111a1f93223e
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f3d97815-6ad8-42dc-b979-111a1f93223e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757534444229', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.1589', 'execPrice': '4.1589', 'markIv': '', 'orderQty': '2404.4', 'orderPrice': '3.951', 'execValue': '9999.65916', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697201655582, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49981254', 'execId': 'b94e53d5-f7dd-4d11-8e1c-eac2e0b33330', 'marketUnit': '', 'execQty': '2404.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 00:00:53
