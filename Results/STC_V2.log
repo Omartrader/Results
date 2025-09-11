@@ -43097,3 +43097,39 @@ Order Quantity: 17623.94
 Adjusted qty: 17624.0
 Final Adjusted qty: 17623.0
 90000.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 15:35:06
+SANDUSDT 	Latest Close: (0.3003) 	SMA(14) : 0.30 	Delta : S 	Previous STC : 96.43 	STC : 85.46
+BUSDT 	Latest Close: (0.56769) 	SMA(14) : 0.57 	Delta : B 	Previous STC : 24.15 	STC : 49.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SANDUSDT   | S |  85.46
+Last close price for SANDUSDT: 0.3003
+Opening Sell for  SANDUSDT
+TP: 0.29729700000000003
+SL: 0.306306
+TS: 0.003003
+Order Quantity: 33300.03
+Adjusted qty: 33300.0
+Final Adjusted qty: 33300.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd7e3d4e2-c978-44f4-b024-99e40bf5a412', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757590544102}
+d7e3d4e2-c978-44f4-b024-99e40bf5a412
+fetching trade data for :  d7e3d4e2-c978-44f4-b024-99e40bf5a412
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd7e3d4e2-c978-44f4-b024-99e40bf5a412', 'stopOrderType': 'UNKNOWN', 'execTime': '1757590544102', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3003', 'execPrice': '0.3003', 'markIv': '', 'orderQty': '33300', 'orderPrice': '0.2703', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203336160, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': 'a1136399-bbaf-40d2-806c-2150fc044d2d', 'marketUnit': '', 'execQty': '33300', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BUSDT      | B |  49.43
+Last close price for BUSDT: 0.56769
+Opening Buy for  BUSDT
+TP: 0.5733669
+SL: 0.5563362000000001
+TS: 0.0056769
+Order Quantity: 17615.25
+Adjusted qty: 17615.0
+Final Adjusted qty: 17615.0
+90000.0
