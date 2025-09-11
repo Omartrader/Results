@@ -44377,3 +44377,57 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 11.09.2025 19:01:09
+***************************************************************
+Number of open positions: 6
+Function started at 11.09.2025 19:05:08
+ONDOUSDT 	Latest Close: (1.0166) 	SMA(14) : 1.02 	Delta : S 	Previous STC : 98.32 	STC : 89.79
+HYPEUSDT 	Latest Close: (54.445) 	SMA(14) : 54.22 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+BUSDT 	Latest Close: (0.52871) 	SMA(14) : 0.55 	Delta : S 	Previous STC : 96.45 	STC : 83.97
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ONDOUSDT   | S |  89.79
+Last close price for ONDOUSDT: 1.0163
+Opening Sell for  ONDOUSDT
+TP: 1.006137
+SL: 1.036626
+TS: 0.010163
+Order Quantity: 9839.61
+Adjusted qty: 9840.0
+Final Adjusted qty: 9839.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '69129697-9aeb-42cf-bd4c-0910869ab047', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757603163375}
+69129697-9aeb-42cf-bd4c-0910869ab047
+fetching trade data for :  69129697-9aeb-42cf-bd4c-0910869ab047
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '69129697-9aeb-42cf-bd4c-0910869ab047', 'stopOrderType': 'UNKNOWN', 'execTime': '1757603163374', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0163', 'execPrice': '1.0164', 'markIv': '', 'orderQty': '9839', 'orderPrice': '0.9655', 'execValue': '10000.3596', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203724174, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50019778', 'execId': '2e4cb20d-8e9e-4cf2-aa77-dc449fe586a4', 'marketUnit': '', 'execQty': '9839', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BUSDT      | S |  83.97
+Last close price for BUSDT: 0.52986
+Opening Sell for  BUSDT
+TP: 0.5245614
+SL: 0.5404572
+TS: 0.0052986
+Order Quantity: 18872.91
+Adjusted qty: 18873.0
+Final Adjusted qty: 18872.0
+90000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HYPEUSDT   | B |  33.33
+Last close price for HYPEUSDT: 54.517
+Opening Buy for  HYPEUSDT
+TP: 55.06217
+SL: 53.426660000000005
+TS: 0.54517
+Order Quantity: 183.43
+Adjusted qty: 183.43
+Final Adjusted qty: 183.43
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 11.09.2025 19:06:14
