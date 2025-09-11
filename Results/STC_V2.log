@@ -40784,3 +40784,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 11.09.2025 08:00:56
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 08:05:09
+SOLUSDT 	Latest Close: (223.64) 	SMA(14) : 224.26 	Delta : S 	Previous STC : 96.89 	STC : 85.75
+BUSDT 	Latest Close: (0.59379) 	SMA(14) : 0.60 	Delta : S 	Previous STC : 100.00 	STC : 86.81
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | S |  86.81
+Last close price for BUSDT: 0.59357
+Opening Sell for  BUSDT
+TP: 0.5876343
+SL: 0.6054414
+TS: 0.0059357
+Order Quantity: 16847.21
+Adjusted qty: 16847.0
+Final Adjusted qty: 16847.0
+90000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b608ee9f-0462-4330-8f0c-3dc0a396bbbf', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757563562473}
+b608ee9f-0462-4330-8f0c-3dc0a396bbbf
+fetching trade data for :  b608ee9f-0462-4330-8f0c-3dc0a396bbbf
+[{'symbol': 'BUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b608ee9f-0462-4330-8f0c-3dc0a396bbbf', 'stopOrderType': 'UNKNOWN', 'execTime': '1757563562472', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.59356', 'execPrice': '0.59395', 'markIv': '', 'orderQty': '16847', 'orderPrice': '0.50453', 'execValue': '10006.27565', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202532935, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00690322', 'execId': 'fc67e5a9-5f91-466f-b6c7-10cfac7573f7', 'marketUnit': '', 'execQty': '16847', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SOLUSDT    | S |  85.75
+Last close price for SOLUSDT: 223.66
+Opening Sell for  SOLUSDT
+TP: 221.4234
+SL: 228.1332
+TS: 2.2366
+Order Quantity: 44.71
+Adjusted qty: 44.7
+Final Adjusted qty: 44.7
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 11.09.2025 08:06:13
