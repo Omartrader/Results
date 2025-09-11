@@ -43164,3 +43164,41 @@ Order Quantity: 17608.11
 Adjusted qty: 17608.0
 Final Adjusted qty: 17608.0
 90000.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 15:45:06
+HBARUSDT 	Latest Close: (0.23738) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+FLRUSDT 	Latest Close: (0.02231) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 17.66 	STC : 45.10
+AVAXUSDT 	Latest Close: (28.968) 	SMA(14) : 28.96 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SAROSUSDT 	Latest Close: (0.32137) 	SMA(14) : 0.32 	Delta : B 	Previous STC : 5.90 	STC : 31.55
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HBARUSDT   | S |  66.67
+Last close price for HBARUSDT: 0.23726
+Opening Sell for  HBARUSDT
+TP: 0.2348874
+SL: 0.2420052
+TS: 0.0023726
+Order Quantity: 42147.85
+Adjusted qty: 42148.0
+Final Adjusted qty: 42147.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8bcf5fa1-212f-4e7d-b495-657c446107a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757591147692}
+8bcf5fa1-212f-4e7d-b495-657c446107a2
+fetching trade data for :  8bcf5fa1-212f-4e7d-b495-657c446107a2
+[{'symbol': 'HBARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8bcf5fa1-212f-4e7d-b495-657c446107a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757591147691', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23726', 'execPrice': '0.23732', 'markIv': '', 'orderQty': '42147', 'orderPrice': '0.2254', 'execValue': '10002.32604', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203354080, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50127933', 'execId': '7a4571ec-e410-4cfc-ac86-e527366dc710', 'marketUnit': '', 'execQty': '42147', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLRUSDT    | B |  45.10
+Last close price for FLRUSDT: 0.02232
+Opening Buy for  FLRUSDT
+TP: 0.0225432
+SL: 0.0218736
+TS: 0.0002232
+Order Quantity: 448028.67
+Adjusted qty: 448030.0
+Final Adjusted qty: 448020.0
+509000.0
