@@ -42904,3 +42904,43 @@ Order Quantity: 406504.07
 Adjusted qty: 406504.0
 Final Adjusted qty: 406504.0
 437000.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 14:55:05
+VETUSDT 	Latest Close: (0.02461) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+FORMUSDT 	Latest Close: (2.8579) 	SMA(14) : 2.94 	Delta : S 	Previous STC : 99.66 	STC : 94.79
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | S |  94.79
+Last close price for FORMUSDT: 2.8579
+Opening Sell for  FORMUSDT
+TP: 2.8293209999999998
+SL: 2.915058
+TS: 0.028579
+Order Quantity: 3499.07
+Adjusted qty: 3499.0
+Final Adjusted qty: 3499.0
+2850.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+VETUSDT    | S |  66.67
+Last close price for VETUSDT: 0.02462
+Opening Sell for  VETUSDT
+TP: 0.0243738
+SL: 0.0251124
+TS: 0.0002462
+Order Quantity: 406173.84
+Adjusted qty: 406174.0
+Final Adjusted qty: 406173.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '58e3742d-9221-474c-8a46-6fe4bb69fa6f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757588140237}
+58e3742d-9221-474c-8a46-6fe4bb69fa6f
+fetching trade data for :  58e3742d-9221-474c-8a46-6fe4bb69fa6f
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '58e3742d-9221-474c-8a46-6fe4bb69fa6f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757588140237', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02462', 'execPrice': '0.02462', 'markIv': '', 'orderQty': '406173', 'orderPrice': '0.02339', 'execValue': '9999.97926', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203264957, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999886', 'execId': 'e1bcdb65-a941-4547-9a79-e0ee40a51942', 'marketUnit': '', 'execQty': '406173', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 14:55:49
