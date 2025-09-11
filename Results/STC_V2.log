@@ -43293,3 +43293,44 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 11.09.2025 16:00:55
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 16:05:06
+TIAUSDT 	Latest Close: (1.773) 	SMA(14) : 1.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MORPHOUSDT 	Latest Close: (2.034) 	SMA(14) : 2.05 	Delta : S 	Previous STC : 100.00 	STC : 93.76
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 86.61
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MORPHOUSDT | S |  93.76
+Last close price for MORPHOUSDT: 2.031
+Opening Sell for  MORPHOUSDT
+TP: 2.0106900000000003
+SL: 2.0716200000000002
+TS: 0.02031
+Order Quantity: 4923.68
+Adjusted qty: 4924.0
+Final Adjusted qty: 4923.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '75d1ae14-3c55-478d-81b7-ffa3f145bcd5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757592366272}
+75d1ae14-3c55-478d-81b7-ffa3f145bcd5
+fetching trade data for :  75d1ae14-3c55-478d-81b7-ffa3f145bcd5
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '75d1ae14-3c55-478d-81b7-ffa3f145bcd5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757592366271', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.0312', 'execPrice': '2.0305', 'markIv': '', 'orderQty': '4923', 'orderPrice': '1.7266', 'execValue': '9996.1515', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203391946, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49788333', 'execId': 'd5d71fc8-e15a-4235-aa82-051ee17bd300', 'marketUnit': '', 'execQty': '4923', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    | S |  66.67
+Last close price for TIAUSDT: 1.774
+Opening Sell for  TIAUSDT
+TP: 1.75626
+SL: 1.80948
+TS: 0.01774
+Order Quantity: 5636.98
+Adjusted qty: 5637.0
+Final Adjusted qty: 5636.9
+16390.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 11.09.2025 16:06:17
