@@ -39981,3 +39981,40 @@ Order Quantity: 8049.59
 Adjusted qty: 8049.6
 Final Adjusted qty: 8049.5
 59020.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 05:00:05
+ATHUSDT 	Latest Close: (0.04532) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 96.01 	STC : 77.88
+ETCUSDT 	Latest Close: (21.001) 	SMA(14) : 20.93 	Delta : B 	Previous STC : 14.93 	STC : 43.29
+LTCUSDT 	Latest Close: (116.76) 	SMA(14) : 116.63 	Delta : B 	Previous STC : 10.05 	STC : 31.20
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATHUSDT    | S |  77.88
+Last close price for ATHUSDT: 0.04527
+Opening Sell for  ATHUSDT
+TP: 0.0448173
+SL: 0.0461754
+TS: 0.0004527
+Order Quantity: 220896.84
+Adjusted qty: 220900.0
+Final Adjusted qty: 220890.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '98faad6f-13db-4723-9387-aae47fbb5d1f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757552443970}
+98faad6f-13db-4723-9387-aae47fbb5d1f
+fetching trade data for :  98faad6f-13db-4723-9387-aae47fbb5d1f
+[{'symbol': 'ATHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '98faad6f-13db-4723-9387-aae47fbb5d1f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757552443969', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.04532', 'execPrice': '0.04533', 'markIv': '', 'orderQty': '220890', 'orderPrice': '0.04079', 'execValue': '10012.9437', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202200353, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50711904', 'execId': '0c3cf87d-e5bd-4ae8-a079-0d90070197c9', 'marketUnit': '', 'execQty': '220890', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  43.29
+Last close price for ETCUSDT: 21.001
+Opening Buy for  ETCUSDT
+TP: 21.21101
+SL: 20.58098
+TS: 0.21001
+Order Quantity: 476.17
+Adjusted qty: 476.20000000000005
+Final Adjusted qty: 476.1
+10610.0
