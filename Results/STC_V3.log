@@ -27859,3 +27859,48 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 11.09.2025 13:16:40
+***************************************************************
+Number of open positions: 4
+Function started at 11.09.2025 13:20:52
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (9.862) 	SMA(14) : 9.92 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	LTCUSDT 	Signal: B
+LTCUSDT 	Latest Close: (116.95) 	SMA(14) : 116.93 	Delta :  	Previous STC : 15.50 	STC : 43.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  66.67
+1
+Last close price for UNIUSDT: 9.861
+Opening Sell for  UNIUSDT
+TP: 9.76239
+SL: 10.05822
+TS: 0.09861
+Order Quantity: 2028.19
+Adjusted qty: 2028.2
+Final Adjusted qty: 2028.1
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LTCUSDT    | B |  43.67
+1
+Last close price for LTCUSDT: 116.93
+Opening Buy for  LTCUSDT
+TP: 118.09930000000001
+SL: 114.59140000000001
+TS: 1.1693
+Order Quantity: 171.04
+Adjusted qty: 171.0
+Final Adjusted qty: 171.0
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5256f357-764a-4edc-9c27-323a6e9b881d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757582474238}
+5256f357-764a-4edc-9c27-323a6e9b881d
+fetching trade data for :  5256f357-764a-4edc-9c27-323a6e9b881d
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5256f357-764a-4edc-9c27-323a6e9b881d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757582474238', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '116.94', 'execPrice': '116.91', 'markIv': '', 'orderQty': '171', 'orderPrice': '122.78', 'execValue': '19991.61', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612514744751, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9953855', 'execId': 'd8176ba2-8e0b-4d1b-90c3-ad616285d847', 'marketUnit': '', 'execQty': '171', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 11.09.2025 13:21:24
