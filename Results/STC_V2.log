@@ -45632,3 +45632,54 @@ Order Quantity: 470.68
 Adjusted qty: 470.70000000000005
 Final Adjusted qty: 470.6
 10610.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 23:55:06
+STXUSDT 	Latest Close: (0.6702) 	SMA(14) : 0.67 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+UNIUSDT 	Latest Close: (9.815) 	SMA(14) : 9.80 	Delta : B 	Previous STC : 16.10 	STC : 44.07
+ETCUSDT 	Latest Close: (21.226) 	SMA(14) : 21.22 	Delta : B 	Previous STC : 12.92 	STC : 41.95
+ENSUSDT 	Latest Close: (23.937) 	SMA(14) : 23.89 	Delta : B 	Previous STC : 4.50 	STC : 36.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | B |  44.07
+Last close price for UNIUSDT: 9.817
+Opening Buy for  UNIUSDT
+TP: 9.91517
+SL: 9.62066
+TS: 0.09817000000000001
+Order Quantity: 1018.64
+Adjusted qty: 1018.6
+Final Adjusted qty: 1018.6
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETCUSDT    | B |  41.95
+Last close price for ETCUSDT: 21.23
+Opening Buy for  ETCUSDT
+TP: 21.4423
+SL: 20.8054
+TS: 0.21230000000000002
+Order Quantity: 471.03
+Adjusted qty: 471.0
+Final Adjusted qty: 471.0
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '41bf2783-7df5-4a55-97d7-a3cf41f9b8dd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757620540794}
+41bf2783-7df5-4a55-97d7-a3cf41f9b8dd
+fetching trade data for :  41bf2783-7df5-4a55-97d7-a3cf41f9b8dd
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '41bf2783-7df5-4a55-97d7-a3cf41f9b8dd', 'stopOrderType': 'UNKNOWN', 'execTime': '1757620540793', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '21.23', 'execPrice': '21.23', 'markIv': '', 'orderQty': '471', 'orderPrice': '22.291', 'execValue': '9999.33', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204256054, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4996315', 'execId': '1583a981-ef5d-41c2-bf69-e81a4b43a68b', 'marketUnit': '', 'execQty': '471', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENSUSDT    | B |  36.34
+Last close price for ENSUSDT: 23.94
+Opening Buy for  ENSUSDT
+TP: 24.1794
+SL: 23.4612
+TS: 0.2394
+Order Quantity: 417.71
+Adjusted qty: 417.70000000000005
+Final Adjusted qty: 417.7
+1400.0
