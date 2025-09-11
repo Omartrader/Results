@@ -40672,3 +40672,33 @@ Order Quantity: 8017.32
 Adjusted qty: 8017.0
 Final Adjusted qty: 8017.0
 40000.0
+***************************************************************
+Number of open positions: 9
+Function started at 11.09.2025 07:40:06
+VIRTUALUSDT 	Latest Close: (1.2513) 	SMA(14) : 1.25 	Delta : S 	Previous STC : 98.78 	STC : 94.18
+FLOWUSDT 	Latest Close: (0.4165) 	SMA(14) : 0.41 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+WALUSDT 	Latest Close: (0.4437) 	SMA(14) : 0.45 	Delta : S 	Previous STC : 96.39 	STC : 78.54
+MORPHOUSDT 	Latest Close: (2.0172) 	SMA(14) : 2.01 	Delta : B 	Previous STC : 7.45 	STC : 38.30
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VIRTUALUSDT | S |  94.18
+Last close price for VIRTUALUSDT: 1.2508
+Opening Sell for  VIRTUALUSDT
+TP: 1.238292
+SL: 1.2758159999999998
+TS: 0.012507999999999998
+Order Quantity: 7994.88
+Adjusted qty: 7995.0
+Final Adjusted qty: 7994.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f3fd69c0-3338-4bab-98ea-92e6e1864ae6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757562048333}
+f3fd69c0-3338-4bab-98ea-92e6e1864ae6
+fetching trade data for :  f3fd69c0-3338-4bab-98ea-92e6e1864ae6
+[{'symbol': 'VIRTUALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f3fd69c0-3338-4bab-98ea-92e6e1864ae6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757562048332', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2509', 'execPrice': '1.2508', 'markIv': '', 'orderQty': '7994', 'orderPrice': '1.1259', 'execValue': '9998.8952', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202486624, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49939236', 'execId': '043d0204-3911-4a32-af9c-e4eb911e0e5e', 'marketUnit': '', 'execQty': '7994', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 11.09.2025 07:40:57
