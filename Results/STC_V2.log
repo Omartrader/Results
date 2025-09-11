@@ -40395,3 +40395,29 @@ Order Quantity: 9883.38
 Adjusted qty: 9883.0
 Final Adjusted qty: 9883.0
 72300.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 06:25:06
+ONDOUSDT 	Latest Close: (1.0105) 	SMA(14) : 1.02 	Delta : S 	Previous STC : 97.69 	STC : 92.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ONDOUSDT   | S |  92.13
+Last close price for ONDOUSDT: 1.0109
+Opening Sell for  ONDOUSDT
+TP: 1.000791
+SL: 1.031118
+TS: 0.010109
+Order Quantity: 9892.18
+Adjusted qty: 9892.0
+Final Adjusted qty: 9892.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cfe7ee6b-5e4a-4535-95a5-0d78d96d377d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757557545424}
+cfe7ee6b-5e4a-4535-95a5-0d78d96d377d
+fetching trade data for :  cfe7ee6b-5e4a-4535-95a5-0d78d96d377d
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cfe7ee6b-5e4a-4535-95a5-0d78d96d377d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757557545423', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.011', 'execPrice': '1.0109', 'markIv': '', 'orderQty': '9892', 'orderPrice': '0.9605', 'execValue': '9999.8228', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202353134, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990254', 'execId': '46a4980b-8fca-422b-903d-5fc9011b76df', 'marketUnit': '', 'execQty': '9892', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 06:25:55
