@@ -44943,3 +44943,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 20:55:38
+***************************************************************
+Number of open positions: 6
+Function started at 11.09.2025 21:00:05
+CRVUSDT 	Latest Close: (0.797) 	SMA(14) : 0.79 	Delta : B 	Previous STC : 10.40 	STC : 40.27
+SOLUSDT 	Latest Close: (225.51) 	SMA(14) : 226.49 	Delta : S 	Previous STC : 100.00 	STC : 93.77
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  93.77
+Last close price for SOLUSDT: 225.67
+Opening Sell for  SOLUSDT
+TP: 223.4133
+SL: 230.18339999999998
+TS: 2.2567
+Order Quantity: 44.31
+Adjusted qty: 44.300000000000004
+Final Adjusted qty: 44.3
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a106daad-562f-4480-bb69-ace09060dbd7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757610058597}
+a106daad-562f-4480-bb69-ace09060dbd7
+fetching trade data for :  a106daad-562f-4480-bb69-ace09060dbd7
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a106daad-562f-4480-bb69-ace09060dbd7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757610058596', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '225.66', 'execPrice': '225.66', 'markIv': '', 'orderQty': '44.3', 'orderPrice': '214.38', 'execValue': '9996.738', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203936945, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4982059', 'execId': '503e06bc-6888-42a3-bdeb-cb21d38c7d66', 'marketUnit': '', 'execQty': '44.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CRVUSDT    | B |  40.27
+Last close price for CRVUSDT: 0.7976
+Opening Buy for  CRVUSDT
+TP: 0.805576
+SL: 0.781648
+TS: 0.007976
+Order Quantity: 12537.61
+Adjusted qty: 12537.6
+Final Adjusted qty: 12537.6
+196620.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '27a76bbd-2042-4887-8aee-1b4f0ba3876e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757610072352}
+27a76bbd-2042-4887-8aee-1b4f0ba3876e
+fetching trade data for :  27a76bbd-2042-4887-8aee-1b4f0ba3876e
+[{'symbol': 'CRVUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '27a76bbd-2042-4887-8aee-1b4f0ba3876e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757610072351', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7973', 'execPrice': '0.7976', 'markIv': '', 'orderQty': '12537.6', 'orderPrice': '0.8371', 'execValue': '9999.98976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203937345, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999437', 'execId': '0ec3e1b8-0179-496b-b967-037667e3c209', 'marketUnit': '', 'execQty': '12537.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 21:01:24
