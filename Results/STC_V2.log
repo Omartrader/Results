@@ -42300,3 +42300,53 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 12:55:44
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 13:00:05
+ARBUSDT 	Latest Close: (0.5234) 	SMA(14) : 0.52 	Delta : S 	Previous STC : 100.00 	STC : 93.91
+ONDOUSDT 	Latest Close: (1.0139) 	SMA(14) : 1.01 	Delta : B 	Previous STC : 23.75 	STC : 49.17
+STRKUSDT 	Latest Close: (0.136) 	SMA(14) : 0.14 	Delta : B 	Previous STC : 24.56 	STC : 35.44
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARBUSDT    | S |  93.91
+Last close price for ARBUSDT: 0.5229
+Opening Sell for  ARBUSDT
+TP: 0.517671
+SL: 0.533358
+TS: 0.005229
+Order Quantity: 19124.12
+Adjusted qty: 19124.100000000002
+Final Adjusted qty: 19124.1
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2a42f7d4-3420-41e3-95f6-974edc468624', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757581245200}
+2a42f7d4-3420-41e3-95f6-974edc468624
+fetching trade data for :  2a42f7d4-3420-41e3-95f6-974edc468624
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2a42f7d4-3420-41e3-95f6-974edc468624', 'stopOrderType': 'UNKNOWN', 'execTime': '1757581245199', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5229', 'execPrice': '0.5229', 'markIv': '', 'orderQty': '19124.1', 'orderPrice': '0.4968', 'execValue': '9999.99189', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203060300, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999554', 'execId': '3b41e131-ccd2-4dd6-bedf-4e939452680d', 'marketUnit': '', 'execQty': '19124.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  49.17
+Last close price for ONDOUSDT: 1.0135
+Opening Buy for  ONDOUSDT
+TP: 1.023635
+SL: 0.9932300000000001
+TS: 0.010135
+Order Quantity: 9866.8
+Adjusted qty: 9867.0
+Final Adjusted qty: 9866.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+STRKUSDT   | B |  35.44
+Last close price for STRKUSDT: 0.1359
+Opening Buy for  STRKUSDT
+TP: 0.137259
+SL: 0.133182
+TS: 0.001359
+Order Quantity: 73583.52
+Adjusted qty: 73583.5
+Final Adjusted qty: 73583.5
+119050.0
