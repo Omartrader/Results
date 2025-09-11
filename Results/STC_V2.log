@@ -42213,3 +42213,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 12:40:38
+***************************************************************
+Number of open positions: 7
+Function started at 11.09.2025 12:45:06
+WLFIUSDT 	Latest Close: (0.2021) 	SMA(14) : 0.20 	Delta : B 	Previous STC : 20.01 	STC : 46.67
+ONDOUSDT 	Latest Close: (1.0148) 	SMA(14) : 1.01 	Delta : B 	Previous STC : 2.23 	STC : 25.28
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | B |  46.67
+Last close price for WLFIUSDT: 0.2021
+Opening Buy for  WLFIUSDT
+TP: 0.204121
+SL: 0.198058
+TS: 0.0020210000000000002
+Order Quantity: 49480.46
+Adjusted qty: 49480.0
+Final Adjusted qty: 49480.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '855218f2-f6dd-4525-9281-7b906450ed5a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757580345911}
+855218f2-f6dd-4525-9281-7b906450ed5a
+fetching trade data for :  855218f2-f6dd-4525-9281-7b906450ed5a
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '855218f2-f6dd-4525-9281-7b906450ed5a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757580345910', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2021', 'execPrice': '0.2021', 'markIv': '', 'orderQty': '49480', 'orderPrice': '0.2324', 'execValue': '9999.908', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203033963, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999494', 'execId': '3dcd17aa-d6bd-4f6d-8e5c-1fec1957a75f', 'marketUnit': '', 'execQty': '49480', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  25.28
+Last close price for ONDOUSDT: 1.014
+Opening Buy for  ONDOUSDT
+TP: 1.02414
+SL: 0.99372
+TS: 0.01014
+Order Quantity: 9861.93
+Adjusted qty: 9862.0
+Final Adjusted qty: 9861.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cdfbfdc3-e5ef-4f9b-a1a7-14323789cadf', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757580358600}
+cdfbfdc3-e5ef-4f9b-a1a7-14323789cadf
+fetching trade data for :  cdfbfdc3-e5ef-4f9b-a1a7-14323789cadf
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cdfbfdc3-e5ef-4f9b-a1a7-14323789cadf', 'stopOrderType': 'UNKNOWN', 'execTime': '1757580358599', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.014', 'execPrice': '1.014', 'markIv': '', 'orderQty': '9861', 'orderPrice': '1.0647', 'execValue': '9999.054', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203034365, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4994797', 'execId': '3f0f0041-74c3-4e6e-a9be-5688752f4ef5', 'marketUnit': '', 'execQty': '9861', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 12:46:09
