@@ -43452,3 +43452,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 16:25:45
+***************************************************************
+Number of open positions: 1
+Function started at 11.09.2025 16:30:06
+WLDUSDT 	Latest Close: (1.7019) 	SMA(14) : 1.73 	Delta : S 	Previous STC : 96.67 	STC : 94.68
+MORPHOUSDT 	Latest Close: (2.0376) 	SMA(14) : 2.05 	Delta : S 	Previous STC : 99.65 	STC : 87.55
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLDUSDT    | S |  94.68
+Last close price for WLDUSDT: 1.6794
+Opening Sell for  WLDUSDT
+TP: 1.662606
+SL: 1.712988
+TS: 0.016794
+Order Quantity: 5954.51
+Adjusted qty: 5954.5
+Final Adjusted qty: 5954.5
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b88da492-8cff-4edf-8eef-1b984651b5d6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757593846119}
+b88da492-8cff-4edf-8eef-1b984651b5d6
+fetching trade data for :  b88da492-8cff-4edf-8eef-1b984651b5d6
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b88da492-8cff-4edf-8eef-1b984651b5d6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757593846119', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6773', 'execPrice': '1.6786', 'markIv': '', 'orderQty': '5954.5', 'orderPrice': '1.5935', 'execValue': '9995.2237', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203439417, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49737304', 'execId': '8c6b69fd-9c1d-4bd4-82ed-cdebe8af8771', 'marketUnit': '', 'execQty': '5954.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MORPHOUSDT | S |  87.55
+Last close price for MORPHOUSDT: 2.0178
+Opening Sell for  MORPHOUSDT
+TP: 1.9976219999999998
+SL: 2.058156
+TS: 0.020177999999999998
+Order Quantity: 4955.89
+Adjusted qty: 4956.0
+Final Adjusted qty: 4955.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4819c72b-4d23-4acc-ac8f-8a81431ff7de', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757593858883}
+4819c72b-4d23-4acc-ac8f-8a81431ff7de
+fetching trade data for :  4819c72b-4d23-4acc-ac8f-8a81431ff7de
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4819c72b-4d23-4acc-ac8f-8a81431ff7de', 'stopOrderType': 'UNKNOWN', 'execTime': '1757593858882', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.0193', 'execPrice': '2.0205', 'markIv': '', 'orderQty': '4955', 'orderPrice': '1.7165', 'execValue': '10011.5775', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203439953, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50636763', 'execId': '334b16f9-873a-461c-8d7b-c19ab636e153', 'marketUnit': '', 'execQty': '4955', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 16:31:08
