@@ -45044,3 +45044,51 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 21:11:04
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 21:15:05
+PENGUUSDT 	Latest Close: (0.033646) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 11.81 	STC : 41.21
+GRTUSDT 	Latest Close: (0.09731) 	SMA(14) : 0.10 	Delta : B 	Previous STC : 9.41 	STC : 35.37
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 0.00 	STC : 31.81
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 0.00 	STC : 31.81
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENGUUSDT  | B |  41.21
+Last close price for PENGUUSDT: 0.033648
+Opening Buy for  PENGUUSDT
+TP: 0.03398448
+SL: 0.03297504
+TS: 0.00033647999999999995
+Order Quantity: 297194.48
+Adjusted qty: 297190.0
+Final Adjusted qty: 297190.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5ec020b5-2b2d-4bd0-a844-d9cc21bebc96', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757610968830}
+5ec020b5-2b2d-4bd0-a844-d9cc21bebc96
+fetching trade data for :  5ec020b5-2b2d-4bd0-a844-d9cc21bebc96
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5ec020b5-2b2d-4bd0-a844-d9cc21bebc96', 'stopOrderType': 'UNKNOWN', 'execTime': '1757610968829', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.03365', 'execPrice': '0.03365', 'markIv': '', 'orderQty': '297190', 'orderPrice': '0.037015', 'execValue': '10000.4435', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203964826, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50024393', 'execId': '8c966636-03a6-4dca-be0d-1a0abf4f8748', 'marketUnit': '', 'execQty': '297190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+GRTUSDT    | B |  35.37
+Last close price for GRTUSDT: 0.09742
+Opening Buy for  GRTUSDT
+TP: 0.0983942
+SL: 0.0954716
+TS: 0.0009742
+Order Quantity: 102648.33
+Adjusted qty: 102648.3
+Final Adjusted qty: 102648.3
+555670.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f9e5cd14-2d67-4d51-a299-4d9104488402', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757610981120}
+f9e5cd14-2d67-4d51-a299-4d9104488402
+fetching trade data for :  f9e5cd14-2d67-4d51-a299-4d9104488402
+[{'symbol': 'GRTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f9e5cd14-2d67-4d51-a299-4d9104488402', 'stopOrderType': 'UNKNOWN', 'execTime': '1757610981119', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.09741', 'execPrice': '0.09742', 'markIv': '', 'orderQty': '102648.3', 'orderPrice': '0.09912', 'execValue': '9999.997386', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203965184, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999857', 'execId': '0d597815-73fb-47e9-acc5-537b04ac5eb1', 'marketUnit': '', 'execQty': '102648.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 11.09.2025 21:16:32
