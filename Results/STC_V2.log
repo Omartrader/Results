@@ -41497,3 +41497,34 @@ Order Quantity: 41545.49
 Adjusted qty: 41545.5
 Final Adjusted qty: 41545.4
 160000.0
+***************************************************************
+Number of open positions: 9
+Function started at 11.09.2025 10:00:06
+WIFUSDT 	Latest Close: (0.8955) 	SMA(14) : 0.90 	Delta : S 	Previous STC : 98.79 	STC : 93.61
+BRETTUSDT 	Latest Close: (0.05064) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 98.94 	STC : 92.04
+STRKUSDT 	Latest Close: (0.1342) 	SMA(14) : 0.13 	Delta : S 	Previous STC : 99.74 	STC : 95.53
+FLOWUSDT 	Latest Close: (0.413) 	SMA(14) : 0.41 	Delta : S 	Previous STC : 97.37 	STC : 93.87
+NEOUSDT 	Latest Close: (6.686) 	SMA(14) : 6.70 	Delta : S 	Previous STC : 98.59 	STC : 91.29
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+STRKUSDT   | S |  95.53
+Last close price for STRKUSDT: 0.1342
+Opening Sell for  STRKUSDT
+TP: 0.132858
+SL: 0.136884
+TS: 0.001342
+Order Quantity: 74515.65
+Adjusted qty: 74515.6
+Final Adjusted qty: 74515.6
+119050.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c643271e-7583-4d2f-bba8-485a332cf9a3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757570447872}
+c643271e-7583-4d2f-bba8-485a332cf9a3
+fetching trade data for :  c643271e-7583-4d2f-bba8-485a332cf9a3
+[{'symbol': 'STRKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c643271e-7583-4d2f-bba8-485a332cf9a3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757570447871', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1342', 'execPrice': '0.1343', 'markIv': '', 'orderQty': '74515.6', 'orderPrice': '0.1208', 'execValue': '10007.44508', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202739030, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5040948', 'execId': '32583d34-80e4-4817-bd35-dad631d297e2', 'marketUnit': '', 'execQty': '74515.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 11.09.2025 10:00:56
