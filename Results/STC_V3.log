@@ -27354,3 +27354,34 @@ Function started at 11.09.2025 10:01:00
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 11.09.2025 10:01:20
+***************************************************************
+Number of open positions: 4
+Function started at 11.09.2025 10:05:52
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.324) 	SMA(14) : 0.33 	Delta :  	Previous STC : 100.00 	STC : 95.87
+	XLMUSDT 	Signal: S
+XLMUSDT 	Latest Close: (0.38638) 	SMA(14) : 0.39 	Delta :  	Previous STC : 99.53 	STC : 95.88
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    | S |  95.88
+1
+Last close price for XLMUSDT: 0.38632
+Opening Sell for  XLMUSDT
+TP: 0.3824568
+SL: 0.3940464
+TS: 0.0038632
+Order Quantity: 51770.55
+Adjusted qty: 51771.0
+Final Adjusted qty: 51770.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '24a4a834-8853-49af-b31d-99aa86657e53', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757570779404}
+24a4a834-8853-49af-b31d-99aa86657e53
+fetching trade data for :  24a4a834-8853-49af-b31d-99aa86657e53
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '24a4a834-8853-49af-b31d-99aa86657e53', 'stopOrderType': 'UNKNOWN', 'execTime': '1757570779403', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.38634', 'execPrice': '0.38632', 'markIv': '', 'orderQty': '51770', 'orderPrice': '0.36703', 'execValue': '19999.7864', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612514376208, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99988252', 'execId': 'd04cf0ad-afca-4158-9096-c9b7780a48ca', 'marketUnit': '', 'execQty': '51770', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 11.09.2025 10:06:28
