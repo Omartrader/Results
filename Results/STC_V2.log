@@ -46576,3 +46576,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 03:45:50
+***************************************************************
+Number of open positions: 6
+Function started at 12.09.2025 03:50:06
+SOLUSDT 	Latest Close: (228.5) 	SMA(14) : 227.31 	Delta : B 	Previous STC : 10.05 	STC : 40.03
+TAOUSDT 	Latest Close: (357.46) 	SMA(14) : 357.53 	Delta : S 	Previous STC : 96.33 	STC : 84.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | S |  84.23
+Last close price for TAOUSDT: 357.46
+Opening Sell for  TAOUSDT
+TP: 353.8854
+SL: 364.6092
+TS: 3.5745999999999998
+Order Quantity: 27.98
+Adjusted qty: 27.98
+Final Adjusted qty: 27.98
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5eab4c0f-c4f2-4869-805f-702b50d4deff', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757634643216}
+5eab4c0f-c4f2-4869-805f-702b50d4deff
+fetching trade data for :  5eab4c0f-c4f2-4869-805f-702b50d4deff
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5eab4c0f-c4f2-4869-805f-702b50d4deff', 'stopOrderType': 'UNKNOWN', 'execTime': '1757634643215', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '357.46', 'execPrice': '357.46', 'markIv': '', 'orderQty': '27.98', 'orderPrice': '303.85', 'execValue': '10001.7308', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204691701, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50095194', 'execId': '6aa4fc10-ef6b-48a9-8506-2f68590503ec', 'marketUnit': '', 'execQty': '27.98', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SOLUSDT    | B |  40.03
+Last close price for SOLUSDT: 228.52
+Opening Buy for  SOLUSDT
+TP: 230.8052
+SL: 223.9496
+TS: 2.2852
+Order Quantity: 43.76
+Adjusted qty: 43.800000000000004
+Final Adjusted qty: 43.7
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 12.09.2025 03:50:53
