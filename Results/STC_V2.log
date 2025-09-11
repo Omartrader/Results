@@ -43351,3 +43351,48 @@ Order Quantity: 344.38
 Adjusted qty: 344.40000000000003
 Final Adjusted qty: 344.3
 10950.0
+***************************************************************
+Number of open positions: 4
+Function started at 11.09.2025 16:15:06
+TIAUSDT 	Latest Close: (1.779) 	SMA(14) : 1.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MORPHOUSDT 	Latest Close: (2.0438) 	SMA(14) : 2.05 	Delta : S 	Previous STC : 99.48 	STC : 86.09
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MORPHOUSDT | S |  86.09
+Last close price for MORPHOUSDT: 2.0438
+Opening Sell for  MORPHOUSDT
+TP: 2.023362
+SL: 2.084676
+TS: 0.020438
+Order Quantity: 4892.85
+Adjusted qty: 4893.0
+Final Adjusted qty: 4892.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '823e209c-6e0d-48b8-950b-688e00e448a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757592939976}
+823e209c-6e0d-48b8-950b-688e00e448a2
+fetching trade data for :  823e209c-6e0d-48b8-950b-688e00e448a2
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '823e209c-6e0d-48b8-950b-688e00e448a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757592939975', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.0448', 'execPrice': '2.0438', 'markIv': '', 'orderQty': '4892', 'orderPrice': '1.7381', 'execValue': '9998.2696', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203410344, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49904828', 'execId': '5e1db481-e1bc-4ed2-8c1a-64151654f624', 'marketUnit': '', 'execQty': '4892', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    | S |  66.67
+Last close price for TIAUSDT: 1.778
+Opening Sell for  TIAUSDT
+TP: 1.7602200000000001
+SL: 1.81356
+TS: 0.01778
+Order Quantity: 5624.3
+Adjusted qty: 5624.3
+Final Adjusted qty: 5624.3
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f3d29dbf-81d2-400b-b72b-f29c9a3f1636', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757592951831}
+f3d29dbf-81d2-400b-b72b-f29c9a3f1636
+fetching trade data for :  f3d29dbf-81d2-400b-b72b-f29c9a3f1636
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f3d29dbf-81d2-400b-b72b-f29c9a3f1636', 'stopOrderType': 'UNKNOWN', 'execTime': '1757592951831', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.778', 'execPrice': '1.778', 'markIv': '', 'orderQty': '5624.3', 'orderPrice': '1.69', 'execValue': '10000.0054', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203410718, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000297', 'execId': 'b8075416-3a24-4886-a3ab-c96c843f80a5', 'marketUnit': '', 'execQty': '5624.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 16:16:01
