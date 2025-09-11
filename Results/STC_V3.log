@@ -28666,3 +28666,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 20:36:24
+***************************************************************
+Number of open positions: 1
+Function started at 11.09.2025 20:41:14
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.07145) 	SMA(14) : 0.07 	Delta :  	Previous STC : 98.70 	STC : 90.35
+	ATOMUSDT 	Signal: B
+ATOMUSDT 	Latest Close: (4.65) 	SMA(14) : 4.64 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  90.35
+1
+Last close price for SKYUSDT: 0.07138
+Opening Sell for  SKYUSDT
+TP: 0.0706662
+SL: 0.0728076
+TS: 0.0007138
+Order Quantity: 280190.53
+Adjusted qty: 280190.0
+Final Adjusted qty: 280190.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '24661cf8-d699-47c9-b95d-255953020e25', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757608891937}
+24661cf8-d699-47c9-b95d-255953020e25
+fetching trade data for :  24661cf8-d699-47c9-b95d-255953020e25
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '24661cf8-d699-47c9-b95d-255953020e25', 'stopOrderType': 'UNKNOWN', 'execTime': '1757608891936', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07139', 'execPrice': '0.07134', 'markIv': '', 'orderQty': '280190', 'orderPrice': '0.06069', 'execValue': '19988.7546', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612515613244, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99381503', 'execId': '852abd46-2275-455d-b04d-f1557cc847c3', 'marketUnit': '', 'execQty': '280190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | B |  33.33
+1
+Last close price for ATOMUSDT: 4.649
+Opening Buy for  ATOMUSDT
+TP: 4.69549
+SL: 4.55602
+TS: 0.046490000000000004
+Order Quantity: 4302.0
+Adjusted qty: 4302.0
+Final Adjusted qty: 4302.0
+22100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 11.09.2025 20:41:43
