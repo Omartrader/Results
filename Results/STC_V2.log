@@ -42780,3 +42780,40 @@ Order Quantity: 17661.6
 Adjusted qty: 17661.600000000002
 Final Adjusted qty: 17661.6
 21190.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 14:35:07
+CROUSDT 	Latest Close: (0.26018) 	SMA(14) : 0.26 	Delta : B 	Previous STC : 11.43 	STC : 40.95
+MANAUSDT 	Latest Close: (0.3239) 	SMA(14) : 0.33 	Delta : S 	Previous STC : 100.00 	STC : 80.98
+IMXUSDT 	Latest Close: (0.5674) 	SMA(14) : 0.57 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MANAUSDT   | S |  80.98
+Last close price for MANAUSDT: 0.3239
+Opening Sell for  MANAUSDT
+TP: 0.32066100000000003
+SL: 0.330378
+TS: 0.003239
+Order Quantity: 30873.73
+Adjusted qty: 30873.7
+Final Adjusted qty: 30873.7
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd24d66c2-3ff8-4f9c-b096-d7576fee65d9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757586955153}
+d24d66c2-3ff8-4f9c-b096-d7576fee65d9
+fetching trade data for :  d24d66c2-3ff8-4f9c-b096-d7576fee65d9
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd24d66c2-3ff8-4f9c-b096-d7576fee65d9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757586955153', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3239', 'execPrice': '0.3238', 'markIv': '', 'orderQty': '30873.7', 'orderPrice': '0.2916', 'execValue': '9996.90406', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203229966, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49829724', 'execId': '7f2ff088-d841-4164-b599-2b43f1993d7d', 'marketUnit': '', 'execQty': '30873.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IMXUSDT    | S |  66.67
+Last close price for IMXUSDT: 0.567
+Opening Sell for  IMXUSDT
+TP: 0.56133
+SL: 0.57834
+TS: 0.00567
+Order Quantity: 17636.68
+Adjusted qty: 17636.7
+Final Adjusted qty: 17636.6
+21190.0
