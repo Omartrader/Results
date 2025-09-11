@@ -29641,3 +29641,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 02:26:49
+***************************************************************
+Number of open positions: 4
+Function started at 12.09.2025 02:30:52
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (595.5) 	SMA(14) : 589.90 	Delta :  	Previous STC : 21.05 	STC : 47.37
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (271.04) 	SMA(14) : 269.85 	Delta :  	Previous STC : 16.73 	STC : 44.49
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | B |  47.37
+1
+Last close price for BCHUSDT: 595.3
+Opening Buy for  BCHUSDT
+TP: 601.2529999999999
+SL: 583.3939999999999
+TS: 5.952999999999999
+Order Quantity: 33.6
+Adjusted qty: 33.6
+Final Adjusted qty: 33.6
+804.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XMRUSDT    | B |  44.49
+1
+Last close price for XMRUSDT: 271.04
+Opening Buy for  XMRUSDT
+TP: 273.7504
+SL: 265.61920000000003
+TS: 2.7104000000000004
+Order Quantity: 73.79
+Adjusted qty: 73.79
+Final Adjusted qty: 73.79
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '69018fe2-832a-488d-ada1-499fe4105188', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757629875071}
+69018fe2-832a-488d-ada1-499fe4105188
+fetching trade data for :  69018fe2-832a-488d-ada1-499fe4105188
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '69018fe2-832a-488d-ada1-499fe4105188', 'stopOrderType': 'UNKNOWN', 'execTime': '1757629875070', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '271', 'execPrice': '271.04', 'markIv': '', 'orderQty': '73.79', 'orderPrice': '284.55', 'execValue': '20000.0416', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612516265109, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00002288', 'execId': '9cba927b-cb7b-4206-a90e-df5c33575a98', 'marketUnit': '', 'execQty': '73.79', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 12.09.2025 02:31:24
