@@ -45943,3 +45943,39 @@ Order Quantity: 7093.71
 Adjusted qty: 7094.0
 Final Adjusted qty: 7093.0
 14800.0
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 01:40:06
+PYTHUSDT 	Latest Close: (0.1783) 	SMA(14) : 0.18 	Delta : S 	Previous STC : 98.73 	STC : 89.64
+SPXUSDT 	Latest Close: (1.4134) 	SMA(14) : 1.40 	Delta : B 	Previous STC : 1.08 	STC : 31.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PYTHUSDT   | S |  89.64
+Last close price for PYTHUSDT: 0.1783
+Opening Sell for  PYTHUSDT
+TP: 0.17651699999999998
+SL: 0.181866
+TS: 0.0017829999999999999
+Order Quantity: 56085.25
+Adjusted qty: 56085.0
+Final Adjusted qty: 56085.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8fd2efef-cedb-4d4e-88dd-380ac6b06c61', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757626874089}
+8fd2efef-cedb-4d4e-88dd-380ac6b06c61
+fetching trade data for :  8fd2efef-cedb-4d4e-88dd-380ac6b06c61
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8fd2efef-cedb-4d4e-88dd-380ac6b06c61', 'stopOrderType': 'UNKNOWN', 'execTime': '1757626874089', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1783', 'execPrice': '0.1783', 'markIv': '', 'orderQty': '56085', 'orderPrice': '0.1605', 'execValue': '9999.9555', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204450748, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997553', 'execId': '09491739-7f3c-4ec2-89c7-b416bc6cd07c', 'marketUnit': '', 'execQty': '56085', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SPXUSDT    | B |  31.33
+Last close price for SPXUSDT: 1.413
+Opening Buy for  SPXUSDT
+TP: 1.42713
+SL: 1.38474
+TS: 0.01413
+Order Quantity: 7077.14
+Adjusted qty: 7077.0
+Final Adjusted qty: 7077.0
+14800.0
