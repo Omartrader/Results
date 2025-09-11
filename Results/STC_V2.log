@@ -44757,3 +44757,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 11.09.2025 20:31:07
+***************************************************************
+Number of open positions: 6
+Function started at 11.09.2025 20:35:06
+SKYUSDT 	Latest Close: (0.07159) 	SMA(14) : 0.07 	Delta : S 	Previous STC : 98.70 	STC : 90.51
+PYTHUSDT 	Latest Close: (0.1781) 	SMA(14) : 0.18 	Delta : B 	Previous STC : 19.61 	STC : 33.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  90.51
+Last close price for SKYUSDT: 0.07167
+Opening Sell for  SKYUSDT
+TP: 0.0709533
+SL: 0.0731034
+TS: 0.0007167
+Order Quantity: 139528.39
+Adjusted qty: 139530.0
+Final Adjusted qty: 139520.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+PYTHUSDT   | B |  33.27
+Last close price for PYTHUSDT: 0.1783
+Opening Buy for  PYTHUSDT
+TP: 0.180083
+SL: 0.17473399999999997
+TS: 0.0017829999999999999
+Order Quantity: 56085.25
+Adjusted qty: 56085.0
+Final Adjusted qty: 56085.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8ae81ac0-d65b-47a8-812b-2aa9836706da', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757608546814}
+8ae81ac0-d65b-47a8-812b-2aa9836706da
+fetching trade data for :  8ae81ac0-d65b-47a8-812b-2aa9836706da
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8ae81ac0-d65b-47a8-812b-2aa9836706da', 'stopOrderType': 'UNKNOWN', 'execTime': '1757608546813', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1783', 'execPrice': '0.1783', 'markIv': '', 'orderQty': '56085', 'orderPrice': '0.1961', 'execValue': '9999.9555', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203889891, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997553', 'execId': 'da36a540-6629-4eea-b17d-77a2cadacc00', 'marketUnit': '', 'execQty': '56085', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 20:35:57
