@@ -45465,3 +45465,40 @@ Order Quantity: 4865.94
 Adjusted qty: 4866.0
 Final Adjusted qty: 4865.0
 14000.0
+***************************************************************
+Number of open positions: 8
+Function started at 11.09.2025 23:15:06
+POLUSDT 	Latest Close: (0.2695) 	SMA(14) : 0.27 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+AEROUSDT 	Latest Close: (1.186) 	SMA(14) : 1.19 	Delta : S 	Previous STC : 98.50 	STC : 93.10
+LTCUSDT 	Latest Close: (114.83) 	SMA(14) : 114.51 	Delta : B 	Previous STC : 9.79 	STC : 39.86
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AEROUSDT   | S |  93.10
+Last close price for AEROUSDT: 1.1858
+Opening Sell for  AEROUSDT
+TP: 1.173942
+SL: 1.209516
+TS: 0.011858
+Order Quantity: 8433.13
+Adjusted qty: 8433.0
+Final Adjusted qty: 8433.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ed4ff0b7-2fbe-4d80-ace1-40b886b0e645', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757618143433}
+ed4ff0b7-2fbe-4d80-ace1-40b886b0e645
+fetching trade data for :  ed4ff0b7-2fbe-4d80-ace1-40b886b0e645
+[{'symbol': 'AEROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ed4ff0b7-2fbe-4d80-ace1-40b886b0e645', 'stopOrderType': 'UNKNOWN', 'execTime': '1757618143433', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1861', 'execPrice': '1.1858', 'markIv': '', 'orderQty': '8433', 'orderPrice': '1.0082', 'execValue': '9999.8514', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204183553, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991827', 'execId': 'f1a962f8-861d-44bc-9672-4eeea4c99531', 'marketUnit': '', 'execQty': '8433', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | B |  39.86
+Last close price for LTCUSDT: 114.83
+Opening Buy for  LTCUSDT
+TP: 115.9783
+SL: 112.5334
+TS: 1.1482999999999999
+Order Quantity: 87.09
+Adjusted qty: 87.10000000000001
+Final Adjusted qty: 87.0
+6160.0
