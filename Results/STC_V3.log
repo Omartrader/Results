@@ -27191,3 +27191,53 @@ Function started at 11.09.2025 09:10:53
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 11.09.2025 09:11:18
+***************************************************************
+Number of open positions: 3
+Function started at 11.09.2025 09:16:04
+	FLRUSDT 	Signal: S
+FLRUSDT 	Latest Close: (0.02222) 	SMA(14) : 0.02 	Delta :  	Previous STC : 97.91 	STC : 87.32
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (350.55) 	SMA(14) : 351.80 	Delta :  	Previous STC : 97.12 	STC : 83.95
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | S |  87.32
+1
+Last close price for FLRUSDT: 0.02222
+Opening Sell for  FLRUSDT
+TP: 0.0219978
+SL: 0.0226644
+TS: 0.0002222
+Order Quantity: 900090.01
+Adjusted qty: 900090.0
+Final Adjusted qty: 900090.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5b0bcba9-6fb1-4c49-97ce-ea5cd6087729', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757567791896}
+5b0bcba9-6fb1-4c49-97ce-ea5cd6087729
+fetching trade data for :  5b0bcba9-6fb1-4c49-97ce-ea5cd6087729
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5b0bcba9-6fb1-4c49-97ce-ea5cd6087729', 'stopOrderType': 'UNKNOWN', 'execTime': '1757567791895', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02222', 'execPrice': '0.02222', 'markIv': '', 'orderQty': '509000', 'orderPrice': '0.01778', 'execValue': '11309.98', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612514283132, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '6.220489', 'execId': '4fc9a5d7-80ce-45db-8443-9b63d22ee7e0', 'marketUnit': '', 'execQty': '509000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TAOUSDT    | S |  83.95
+1
+Last close price for TAOUSDT: 350.7
+Opening Sell for  TAOUSDT
+TP: 347.193
+SL: 357.714
+TS: 3.5069999999999997
+Order Quantity: 57.03
+Adjusted qty: 57.03
+Final Adjusted qty: 57.03
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd5a798e7-5e7b-41a2-ac50-86f4aa0189a3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757567804561}
+d5a798e7-5e7b-41a2-ac50-86f4aa0189a3
+fetching trade data for :  d5a798e7-5e7b-41a2-ac50-86f4aa0189a3
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd5a798e7-5e7b-41a2-ac50-86f4aa0189a3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757567804560', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '350.66', 'execPrice': '350.76', 'markIv': '', 'orderQty': '57.03', 'orderPrice': '298.07', 'execValue': '20003.8428', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612514283519, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00211354', 'execId': '9cf1faba-480e-47a5-b079-aa558351777a', 'marketUnit': '', 'execQty': '57.03', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 11.09.2025 09:16:54
