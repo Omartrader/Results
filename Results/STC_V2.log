@@ -45502,3 +45502,32 @@ Order Quantity: 87.09
 Adjusted qty: 87.10000000000001
 Final Adjusted qty: 87.0
 6160.0
+***************************************************************
+Number of open positions: 9
+Function started at 11.09.2025 23:25:07
+POLUSDT 	Latest Close: (0.27) 	SMA(14) : 0.27 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SUIUSDT 	Latest Close: (3.6033) 	SMA(14) : 3.60 	Delta : B 	Previous STC : 0.00 	STC : 33.34
+LTCUSDT 	Latest Close: (114.93) 	SMA(14) : 114.52 	Delta : B 	Previous STC : 9.79 	STC : 39.86
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | B |  39.86
+Last close price for LTCUSDT: 114.95
+Opening Buy for  LTCUSDT
+TP: 116.0995
+SL: 112.651
+TS: 1.1495
+Order Quantity: 86.99
+Adjusted qty: 87.0
+Final Adjusted qty: 86.9
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'caff3184-a299-4df1-9b57-543f74f6cae0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757618798885}
+caff3184-a299-4df1-9b57-543f74f6cae0
+fetching trade data for :  caff3184-a299-4df1-9b57-543f74f6cae0
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'caff3184-a299-4df1-9b57-543f74f6cae0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757618798884', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '114.95', 'execPrice': '114.95', 'markIv': '', 'orderQty': '86.9', 'orderPrice': '120.69', 'execValue': '9989.155', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204203554, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49403525', 'execId': '02143cda-e4de-4487-9cff-2152e6352605', 'marketUnit': '', 'execQty': '86.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 11.09.2025 23:26:50
