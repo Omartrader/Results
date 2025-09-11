@@ -41102,3 +41102,105 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 09:25:50
+***************************************************************
+Number of open positions: 4
+Function started at 11.09.2025 09:30:05
+KASUSDT 	Latest Close: (0.08257) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 96.47 	STC : 77.06
+TRUMPUSDT 	Latest Close: (8.823) 	SMA(14) : 8.83 	Delta : S 	Previous STC : 97.27 	STC : 84.76
+SAROSUSDT 	Latest Close: (0.31636) 	SMA(14) : 0.32 	Delta : S 	Previous STC : 100.00 	STC : 93.99
+XTZUSDT 	Latest Close: (0.7334) 	SMA(14) : 0.74 	Delta : S 	Previous STC : 97.75 	STC : 85.03
+THETAUSDT 	Latest Close: (0.8291) 	SMA(14) : 0.83 	Delta : S 	Previous STC : 98.87 	STC : 89.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  93.99
+Last close price for SAROSUSDT: 0.31636
+Opening Sell for  SAROSUSDT
+TP: 0.3131964
+SL: 0.3226872
+TS: 0.0031636
+Order Quantity: 31609.56
+Adjusted qty: 31610.0
+Final Adjusted qty: 31609.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '445f297d-688c-4f32-9cd9-3baa692a5bb8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757568645957}
+445f297d-688c-4f32-9cd9-3baa692a5bb8
+fetching trade data for :  445f297d-688c-4f32-9cd9-3baa692a5bb8
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '445f297d-688c-4f32-9cd9-3baa692a5bb8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757568645956', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.31636', 'execPrice': '0.31636', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.26891', 'execValue': '8541.72', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202684414, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.395892', 'execId': 'd9c80be0-cd9a-4619-a334-61ddd0e6a2fc', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+THETAUSDT  | S |  89.23
+Last close price for THETAUSDT: 0.8291
+Opening Sell for  THETAUSDT
+TP: 0.8208089999999999
+SL: 0.8456819999999999
+TS: 0.008291
+Order Quantity: 12061.27
+Adjusted qty: 12061.300000000001
+Final Adjusted qty: 12061.2
+52860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '96fd3dc3-72ea-4c88-bff6-e1b9e99aae02', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757568658375}
+96fd3dc3-72ea-4c88-bff6-e1b9e99aae02
+fetching trade data for :  96fd3dc3-72ea-4c88-bff6-e1b9e99aae02
+[{'symbol': 'THETAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '96fd3dc3-72ea-4c88-bff6-e1b9e99aae02', 'stopOrderType': 'UNKNOWN', 'execTime': '1757568658375', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8291', 'execPrice': '0.8291', 'markIv': '', 'orderQty': '12061.2', 'orderPrice': '0.7462', 'execValue': '9999.94092', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202684768, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996751', 'execId': '5124be1b-8ad3-49e8-b38b-e618321b8949', 'marketUnit': '', 'execQty': '12061.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XTZUSDT    | S |  85.03
+Last close price for XTZUSDT: 0.7331
+Opening Sell for  XTZUSDT
+TP: 0.725769
+SL: 0.747762
+TS: 0.007331
+Order Quantity: 13640.7
+Adjusted qty: 13640.7
+Final Adjusted qty: 13640.7
+62530.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9dda8a1e-da5e-4d33-8303-3a679604785a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757568670695}
+9dda8a1e-da5e-4d33-8303-3a679604785a
+fetching trade data for :  9dda8a1e-da5e-4d33-8303-3a679604785a
+[{'symbol': 'XTZUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9dda8a1e-da5e-4d33-8303-3a679604785a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757568670694', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7332', 'execPrice': '0.733', 'markIv': '', 'orderQty': '13640.7', 'orderPrice': '0.6599', 'execValue': '9998.6331', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202685164, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49924821', 'execId': 'a299415d-fd0a-4503-ac36-00b4398fbe18', 'marketUnit': '', 'execQty': '13640.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  | S |  84.76
+Last close price for TRUMPUSDT: 8.822
+Opening Sell for  TRUMPUSDT
+TP: 8.73378
+SL: 8.998439999999999
+TS: 0.08821999999999999
+Order Quantity: 1133.53
+Adjusted qty: 1133.5
+Final Adjusted qty: 1133.5
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8aac0fbe-5255-4695-807b-a9862b05df04', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757568682660}
+8aac0fbe-5255-4695-807b-a9862b05df04
+fetching trade data for :  8aac0fbe-5255-4695-807b-a9862b05df04
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8aac0fbe-5255-4695-807b-a9862b05df04', 'stopOrderType': 'UNKNOWN', 'execTime': '1757568682660', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.819', 'execPrice': '8.824', 'markIv': '', 'orderQty': '1133.5', 'orderPrice': '8.379', 'execValue': '10002.004', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202685527, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5011022', 'execId': 'f631f41a-6472-458d-8971-b0e0cb31c12e', 'marketUnit': '', 'execQty': '1133.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    | S |  77.06
+Last close price for KASUSDT: 0.08259
+Opening Sell for  KASUSDT
+TP: 0.08176409999999999
+SL: 0.08424179999999999
+TS: 0.0008259
+Order Quantity: 121080.03
+Adjusted qty: 121080.0
+Final Adjusted qty: 121080.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '52389059-d399-4f89-8676-af399653d2c7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757568694578}
+52389059-d399-4f89-8676-af399653d2c7
+fetching trade data for :  52389059-d399-4f89-8676-af399653d2c7
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '52389059-d399-4f89-8676-af399653d2c7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757568694578', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08258', 'execPrice': '0.08259', 'markIv': '', 'orderQty': '121080', 'orderPrice': '0.0702', 'execValue': '9999.9972', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697202685886, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999846', 'execId': 'd3a5fa6f-f88d-40b1-ab56-ba750bd32679', 'marketUnit': '', 'execQty': '121080', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 09:31:43
