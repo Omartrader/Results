@@ -44658,3 +44658,29 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 20:10:43
+***************************************************************
+Number of open positions: 5
+Function started at 11.09.2025 20:15:05
+ATOMUSDT 	Latest Close: (4.651) 	SMA(14) : 4.64 	Delta : B 	Previous STC : 0.00 	STC : 29.15
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATOMUSDT   | B |  29.15
+Last close price for ATOMUSDT: 4.651
+Opening Buy for  ATOMUSDT
+TP: 4.697509999999999
+SL: 4.55798
+TS: 0.046509999999999996
+Order Quantity: 2150.08
+Adjusted qty: 2150.1
+Final Adjusted qty: 2150.0
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '666cdf7b-9cab-4080-b77e-687465ed99bd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757607335853}
+666cdf7b-9cab-4080-b77e-687465ed99bd
+fetching trade data for :  666cdf7b-9cab-4080-b77e-687465ed99bd
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '666cdf7b-9cab-4080-b77e-687465ed99bd', 'stopOrderType': 'UNKNOWN', 'execTime': '1757607335853', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.651', 'execPrice': '4.651', 'markIv': '', 'orderQty': '2150', 'orderPrice': '4.883', 'execValue': '9999.65', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203852829, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4998075', 'execId': '5d0ca4bb-c800-4491-890a-8312a3dc8017', 'marketUnit': '', 'execQty': '2150', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 20:15:46
