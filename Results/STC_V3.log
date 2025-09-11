@@ -27769,3 +27769,36 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 11.09.2025 12:56:06
+***************************************************************
+Number of open positions: 4
+Function started at 11.09.2025 13:01:02
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.5226) 	SMA(14) : 0.52 	Delta :  	Previous STC : 100.00 	STC : 85.28
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0134) 	SMA(14) : 1.01 	Delta :  	Previous STC : 23.75 	STC : 49.17
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (360.23) 	SMA(14) : 356.97 	Delta :  	Previous STC : 12.25 	STC : 30.55
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARBUSDT    | S |  85.28
+1
+Last close price for ARBUSDT: 0.5225
+Opening Sell for  ARBUSDT
+TP: 0.5172749999999999
+SL: 0.5329499999999999
+TS: 0.005225
+Order Quantity: 38277.51
+Adjusted qty: 38277.5
+Final Adjusted qty: 38277.5
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '800d10e2-d235-4411-967b-08655fc0ef4f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757581284341}
+800d10e2-d235-4411-967b-08655fc0ef4f
+fetching trade data for :  800d10e2-d235-4411-967b-08655fc0ef4f
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '800d10e2-d235-4411-967b-08655fc0ef4f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757581284340', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5225', 'execPrice': '0.5225', 'markIv': '', 'orderQty': '38277.5', 'orderPrice': '0.4964', 'execValue': '19999.99375', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612514707614, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999657', 'execId': 'c3bf0c05-b603-41d5-a02c-19ba93283456', 'marketUnit': '', 'execQty': '38277.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 11.09.2025 13:01:34
