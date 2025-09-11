@@ -43266,3 +43266,30 @@ Order Quantity: 344.97
 Adjusted qty: 345.0
 Final Adjusted qty: 344.9
 10950.0
+***************************************************************
+Number of open positions: 7
+Function started at 11.09.2025 16:00:06
+TIAUSDT 	Latest Close: (1.776) 	SMA(14) : 1.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 86.61
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TIAUSDT    | S |  66.67
+Last close price for TIAUSDT: 1.777
+Opening Sell for  TIAUSDT
+TP: 1.7592299999999998
+SL: 1.81254
+TS: 0.017769999999999998
+Order Quantity: 5627.46
+Adjusted qty: 5627.5
+Final Adjusted qty: 5627.4
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1eb80596-fa3e-4db7-b191-345164bda78b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757592045922}
+1eb80596-fa3e-4db7-b191-345164bda78b
+fetching trade data for :  1eb80596-fa3e-4db7-b191-345164bda78b
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1eb80596-fa3e-4db7-b191-345164bda78b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757592045921', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.777', 'execPrice': '1.777', 'markIv': '', 'orderQty': '5627.4', 'orderPrice': '1.689', 'execValue': '9999.8898', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697203381879, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993939', 'execId': '2ca0eb5b-07de-4af0-80c3-3ca7544d7718', 'marketUnit': '', 'execQty': '5627.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 11.09.2025 16:00:55
