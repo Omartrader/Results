@@ -33178,3 +33178,43 @@ Order Quantity: 270489.59
 Adjusted qty: 270490.0
 Final Adjusted qty: 270480.0
 310000.0
+***************************************************************
+Number of open positions: 3
+Function started at 12.09.2025 21:31:26
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.3952) 	SMA(14) : 0.39 	Delta :  	Previous STC : 10.34 	STC : 40.22
+	IPUSDT 	Signal: B
+IPUSDT 	Latest Close: (9.7876) 	SMA(14) : 9.75 	Delta :  	Previous STC : 8.98 	STC : 35.19
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    | B |  40.22
+1
+Last close price for XLMUSDT: 0.39494
+Opening Buy for  XLMUSDT
+TP: 0.3988894
+SL: 0.38704120000000003
+TS: 0.0039494000000000005
+Order Quantity: 50640.6
+Adjusted qty: 50641.0
+Final Adjusted qty: 50640.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '437b2ed9-6c47-4ba1-88e1-e01cd7c0f64c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757698311031}
+437b2ed9-6c47-4ba1-88e1-e01cd7c0f64c
+fetching trade data for :  437b2ed9-6c47-4ba1-88e1-e01cd7c0f64c
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '437b2ed9-6c47-4ba1-88e1-e01cd7c0f64c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757698311030', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.39496', 'execPrice': '0.39488', 'markIv': '', 'orderQty': '50640', 'orderPrice': '0.4147', 'execValue': '19996.7232', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612518499004, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99819776', 'execId': '70da4ff0-7bc4-4bfd-90f1-a7a0f76358ba', 'marketUnit': '', 'execQty': '50640', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     | B |  35.19
+1
+Last close price for IPUSDT: 9.7795
+Opening Buy for  IPUSDT
+TP: 9.877295
+SL: 9.58391
+TS: 0.097795
+Order Quantity: 2045.09
+Adjusted qty: 2045.1000000000001
+Final Adjusted qty: 2045.0
+2400.0
