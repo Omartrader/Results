@@ -33440,3 +33440,31 @@ Order Quantity: 194.67
 Adjusted qty: 194.67000000000002
 Final Adjusted qty: 194.67
 279.0
+***************************************************************
+Number of open positions: 3
+Function started at 12.09.2025 22:31:03
+	KASUSDT 	Signal: B
+KASUSDT 	Latest Close: (0.08727) 	SMA(14) : 0.09 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KASUSDT    | B |  33.33
+1
+Last close price for KASUSDT: 0.08735
+Opening Buy for  KASUSDT
+TP: 0.0882235
+SL: 0.085603
+TS: 0.0008734999999999999
+Order Quantity: 228963.94
+Adjusted qty: 228960.0
+Final Adjusted qty: 228960.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd5f3c250-3213-49b9-abfe-12586b285c15', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757701885243}
+d5f3c250-3213-49b9-abfe-12586b285c15
+fetching trade data for :  d5f3c250-3213-49b9-abfe-12586b285c15
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd5f3c250-3213-49b9-abfe-12586b285c15', 'stopOrderType': 'UNKNOWN', 'execTime': '1757701885242', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08734', 'execPrice': '0.08735', 'markIv': '', 'orderQty': '228960', 'orderPrice': '0.10044', 'execValue': '19999.656', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612518624145, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9998108', 'execId': '39b85a53-4790-4b74-91b3-7f79b19bf298', 'marketUnit': '', 'execQty': '228960', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 22:31:34
