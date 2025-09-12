@@ -46993,3 +46993,86 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 06:25:41
+***************************************************************
+Number of open positions: 3
+Function started at 12.09.2025 06:30:06
+VETUSDT 	Latest Close: (0.02496) 	SMA(14) : 0.03 	Delta : S 	Previous STC : 100.00 	STC : 87.82
+GRTUSDT 	Latest Close: (0.09962) 	SMA(14) : 0.10 	Delta : S 	Previous STC : 99.97 	STC : 70.16
+SYRUPUSDT 	Latest Close: (0.46069) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 100.00 	STC : 76.68
+ATOMUSDT 	Latest Close: (4.685) 	SMA(14) : 4.70 	Delta : S 	Previous STC : 100.00 	STC : 77.25
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | S |  87.82
+Last close price for VETUSDT: 0.02496
+Opening Sell for  VETUSDT
+TP: 0.0247104
+SL: 0.0254592
+TS: 0.0002496
+Order Quantity: 400641.03
+Adjusted qty: 400641.0
+Final Adjusted qty: 400641.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '40f02a01-ead1-477f-beb2-6c336489deb3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757644240251}
+40f02a01-ead1-477f-beb2-6c336489deb3
+fetching trade data for :  40f02a01-ead1-477f-beb2-6c336489deb3
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '40f02a01-ead1-477f-beb2-6c336489deb3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757644240251', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02496', 'execPrice': '0.02496', 'markIv': '', 'orderQty': '400641', 'orderPrice': '0.02372', 'execValue': '9999.99936', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204992290, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999965', 'execId': '13c7f0f9-7e85-4c92-b1d2-7c58e368a985', 'marketUnit': '', 'execQty': '400641', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | S |  77.25
+Last close price for ATOMUSDT: 4.684
+Opening Sell for  ATOMUSDT
+TP: 4.63716
+SL: 4.77768
+TS: 0.04684
+Order Quantity: 2134.93
+Adjusted qty: 2134.9
+Final Adjusted qty: 2134.9
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '52e961de-680c-4306-b325-eeb58bb00f92', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757644252465}
+52e961de-680c-4306-b325-eeb58bb00f92
+fetching trade data for :  52e961de-680c-4306-b325-eeb58bb00f92
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '52e961de-680c-4306-b325-eeb58bb00f92', 'stopOrderType': 'UNKNOWN', 'execTime': '1757644252464', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.685', 'execPrice': '4.684', 'markIv': '', 'orderQty': '2134.9', 'orderPrice': '4.451', 'execValue': '9999.8716', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204992649, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992938', 'execId': '7ef8a2e5-9249-455f-9558-567fb49d49eb', 'marketUnit': '', 'execQty': '2134.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  76.68
+Last close price for SYRUPUSDT: 0.46099
+Opening Sell for  SYRUPUSDT
+TP: 0.4563801
+SL: 0.4702098
+TS: 0.0046099
+Order Quantity: 21692.44
+Adjusted qty: 21692.0
+Final Adjusted qty: 21692.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '71aeb197-bcba-4a65-8cee-a50b3e4e10e9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757644264634}
+71aeb197-bcba-4a65-8cee-a50b3e4e10e9
+fetching trade data for :  71aeb197-bcba-4a65-8cee-a50b3e4e10e9
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '71aeb197-bcba-4a65-8cee-a50b3e4e10e9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757644264634', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.46091', 'execPrice': '0.46101', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.41482', 'execValue': '4610.1', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204993046, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.535555', 'execId': 'a3cf172f-9aac-430a-b426-ae41da954645', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+GRTUSDT    | S |  70.16
+Last close price for GRTUSDT: 0.09961
+Opening Sell for  GRTUSDT
+TP: 0.0986139
+SL: 0.1016022
+TS: 0.0009961
+Order Quantity: 100391.53
+Adjusted qty: 100391.5
+Final Adjusted qty: 100391.5
+555670.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '25d8a729-914f-4d5b-b0fd-8dfc2fd64669', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757644276959}
+25d8a729-914f-4d5b-b0fd-8dfc2fd64669
+fetching trade data for :  25d8a729-914f-4d5b-b0fd-8dfc2fd64669
+[{'symbol': 'GRTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '25d8a729-914f-4d5b-b0fd-8dfc2fd64669', 'stopOrderType': 'UNKNOWN', 'execTime': '1757644276959', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.09961', 'execPrice': '0.09961', 'markIv': '', 'orderQty': '100391.5', 'orderPrice': '0.08965', 'execValue': '9999.997315', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697204993393, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999853', 'execId': 'd81971af-b0c9-4658-b27c-40214aae51c5', 'marketUnit': '', 'execQty': '100391.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 06:31:27
