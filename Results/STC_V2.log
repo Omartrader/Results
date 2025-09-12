@@ -52407,3 +52407,39 @@ Order Quantity: 5073.57
 Adjusted qty: 5073.6
 Final Adjusted qty: 5073.5
 27570.0
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 22:05:06
+JTOUSDT 	Latest Close: (1.967) 	SMA(14) : 1.97 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+WALUSDT 	Latest Close: (0.4443) 	SMA(14) : 0.44 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JTOUSDT    | S |  66.67
+Last close price for JTOUSDT: 1.967
+Opening Sell for  JTOUSDT
+TP: 1.94733
+SL: 2.0063400000000002
+TS: 0.01967
+Order Quantity: 5083.88
+Adjusted qty: 5083.900000000001
+Final Adjusted qty: 5083.8
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b95311ae-b7d4-464e-a63e-7c2f6676854e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757700342842}
+b95311ae-b7d4-464e-a63e-7c2f6676854e
+fetching trade data for :  b95311ae-b7d4-464e-a63e-7c2f6676854e
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b95311ae-b7d4-464e-a63e-7c2f6676854e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757700342841', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.967', 'execPrice': '1.967', 'markIv': '', 'orderQty': '5083.8', 'orderPrice': '1.771', 'execValue': '9999.8346', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206806238, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990903', 'execId': 'c665b21f-708e-458a-a252-236faac183ff', 'marketUnit': '', 'execQty': '5083.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WALUSDT    | B |  33.33
+Last close price for WALUSDT: 0.4443
+Opening Buy for  WALUSDT
+TP: 0.448743
+SL: 0.43541399999999997
+TS: 0.004443
+Order Quantity: 22507.31
+Adjusted qty: 22507.0
+Final Adjusted qty: 22507.0
+51400.0
