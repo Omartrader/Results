@@ -32231,3 +32231,47 @@ Order Quantity: 72.13
 Adjusted qty: 72.13
 Final Adjusted qty: 72.13
 205.0
+***************************************************************
+Number of open positions: 3
+Function started at 12.09.2025 17:20:50
+	MYXUSDT 	Signal: S
+MYXUSDT 	Latest Close: (15.9849) 	SMA(14) : 17.25 	Delta :  	Previous STC : 100.00 	STC : 72.30
+	USDCUSDT 	Signal: B
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta :  	Previous STC : 15.67 	STC : 27.61
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (276.99) 	SMA(14) : 278.45 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	OKBUSDT 	Signal: B
+OKBUSDT 	Latest Close: (193.47) 	SMA(14) : 191.84 	Delta :  	Previous STC : 5.86 	STC : 37.24
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  72.30
+1
+Last close price for MYXUSDT: 16.0211
+Opening Sell for  MYXUSDT
+TP: 15.860889
+SL: 16.341522
+TS: 0.160211
+Order Quantity: 1248.35
+Adjusted qty: 1248.0
+Final Adjusted qty: 1248.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd528b6b4-c364-488e-a1fc-f90bbe04ac75', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757683274340}
+d528b6b4-c364-488e-a1fc-f90bbe04ac75
+fetching trade data for :  d528b6b4-c364-488e-a1fc-f90bbe04ac75
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd528b6b4-c364-488e-a1fc-f90bbe04ac75', 'stopOrderType': 'UNKNOWN', 'execTime': '1757683274339', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '16.0401', 'execPrice': '16.0305', 'markIv': '', 'orderQty': '1248', 'orderPrice': '13.6341', 'execValue': '20006.064', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612517979842, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '22.0066704', 'execId': 'fef42c7a-7e5c-486c-a838-3fc77c0912c2', 'marketUnit': '', 'execQty': '1248', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XMRUSDT    | S |  66.67
+1
+Last close price for XMRUSDT: 277.05
+Opening Sell for  XMRUSDT
+TP: 274.2795
+SL: 282.591
+TS: 2.7705
+Order Quantity: 72.19
+Adjusted qty: 72.19
+Final Adjusted qty: 72.19
+205.0
