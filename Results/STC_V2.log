@@ -51895,3 +51895,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 20:55:39
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 21:00:05
+SKYUSDT 	Latest Close: (0.07393) 	SMA(14) : 0.07 	Delta : B 	Previous STC : 0.00 	STC : 26.15
+TRXUSDT 	Latest Close: (0.34955) 	SMA(14) : 0.35 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | B |  33.33
+Last close price for TRXUSDT: 0.34974
+Opening Buy for  TRXUSDT
+TP: 0.3532374
+SL: 0.34274519999999997
+TS: 0.0034974
+Order Quantity: 28592.67
+Adjusted qty: 28593.0
+Final Adjusted qty: 28592.0
+1356000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SKYUSDT    | B |  26.15
+Last close price for SKYUSDT: 0.07384
+Opening Buy for  SKYUSDT
+TP: 0.0745784
+SL: 0.0723632
+TS: 0.0007384000000000001
+Order Quantity: 135427.95
+Adjusted qty: 135430.0
+Final Adjusted qty: 135420.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7494efb9-491c-4348-9eb8-44f56380d4c7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757696441941}
+7494efb9-491c-4348-9eb8-44f56380d4c7
+fetching trade data for :  7494efb9-491c-4348-9eb8-44f56380d4c7
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7494efb9-491c-4348-9eb8-44f56380d4c7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757696441940', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07384', 'execPrice': '0.07383', 'markIv': '', 'orderQty': '135420', 'orderPrice': '0.08491', 'execValue': '9998.0586', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206673354, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49893223', 'execId': '65a3b7dc-5f15-40eb-8eca-87bcde8dd2c0', 'marketUnit': '', 'execQty': '135420', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 21:00:51
