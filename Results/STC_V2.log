@@ -49289,3 +49289,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 13:30:49
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 13:35:06
+ATHUSDT 	Latest Close: (0.0566) 	SMA(14) : 0.06 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IOTAUSDT 	Latest Close: (0.1958) 	SMA(14) : 0.20 	Delta : S 	Previous STC : 98.49 	STC : 94.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IOTAUSDT   | S |  94.47
+Last close price for IOTAUSDT: 0.1956
+Opening Sell for  IOTAUSDT
+TP: 0.19364399999999998
+SL: 0.199512
+TS: 0.001956
+Order Quantity: 51124.74
+Adjusted qty: 51124.700000000004
+Final Adjusted qty: 51124.7
+26600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ATHUSDT    | S |  66.67
+Last close price for ATHUSDT: 0.05641
+Opening Sell for  ATHUSDT
+TP: 0.055845900000000004
+SL: 0.057538200000000005
+TS: 0.0005641
+Order Quantity: 177273.53
+Adjusted qty: 177270.0
+Final Adjusted qty: 177270.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ed931f1e-117a-489a-ae6a-50f79a9913ca', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757669748506}
+ed931f1e-117a-489a-ae6a-50f79a9913ca
+fetching trade data for :  ed931f1e-117a-489a-ae6a-50f79a9913ca
+[{'symbol': 'ATHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ed931f1e-117a-489a-ae6a-50f79a9913ca', 'stopOrderType': 'UNKNOWN', 'execTime': '1757669748505', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.05639', 'execPrice': '0.05642', 'markIv': '', 'orderQty': '177270', 'orderPrice': '0.05076', 'execValue': '10001.5734', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205779433, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50086537', 'execId': '5fb65408-80db-431b-be26-03e134efd545', 'marketUnit': '', 'execQty': '177270', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 13:35:57
