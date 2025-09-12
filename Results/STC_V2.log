@@ -49937,3 +49937,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 15:55:49
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 16:00:07
+MNTUSDT 	Latest Close: (1.5983) 	SMA(14) : 1.59 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+XDCUSDT 	Latest Close: (0.07684) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XDCUSDT    | S |  66.67
+Last close price for XDCUSDT: 0.07679
+Opening Sell for  XDCUSDT
+TP: 0.0760221
+SL: 0.0783258
+TS: 0.0007679
+Order Quantity: 130225.29
+Adjusted qty: 130225.0
+Final Adjusted qty: 130225.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '231ae232-c39d-46b3-bc4a-9f51dbfe9f37', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757678455210}
+231ae232-c39d-46b3-bc4a-9f51dbfe9f37
+fetching trade data for :  231ae232-c39d-46b3-bc4a-9f51dbfe9f37
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '231ae232-c39d-46b3-bc4a-9f51dbfe9f37', 'stopOrderType': 'UNKNOWN', 'execTime': '1757678455209', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07675', 'execPrice': '0.07675', 'markIv': '', 'orderQty': '130225', 'orderPrice': '0.0614', 'execValue': '9994.76875', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206066693, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99424563', 'execId': '9fdc1621-3646-42d3-8809-499cefdff310', 'marketUnit': '', 'execQty': '130225', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    | B |  33.33
+Last close price for MNTUSDT: 1.6002
+Opening Buy for  MNTUSDT
+TP: 1.6162020000000001
+SL: 1.5681960000000001
+TS: 0.016002000000000002
+Order Quantity: 6249.22
+Adjusted qty: 6249.0
+Final Adjusted qty: 6249.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '71466575-941e-4eb6-947f-b6d6b10ec504', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757678467811}
+71466575-941e-4eb6-947f-b6d6b10ec504
+fetching trade data for :  71466575-941e-4eb6-947f-b6d6b10ec504
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '71466575-941e-4eb6-947f-b6d6b10ec504', 'stopOrderType': 'UNKNOWN', 'execTime': '1757678467810', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6002', 'execPrice': '1.6002', 'markIv': '', 'orderQty': '6249', 'orderPrice': '1.6164', 'execValue': '9999.6498', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206067128, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49980739', 'execId': '7cb71315-11b9-444e-8314-e7d43d96846f', 'marketUnit': '', 'execQty': '6249', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 16:01:18
