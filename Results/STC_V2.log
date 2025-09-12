@@ -49817,3 +49817,48 @@ Function started at 12.09.2025 15:40:07
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 12.09.2025 15:40:45
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 15:45:08
+SPXUSDT 	Latest Close: (1.4501) 	SMA(14) : 1.41 	Delta : B 	Previous STC : 15.79 	STC : 43.86
+IPUSDT 	Latest Close: (9.7434) 	SMA(14) : 9.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  66.67
+Last close price for IPUSDT: 9.744
+Opening Sell for  IPUSDT
+TP: 9.64656
+SL: 9.93888
+TS: 0.09744
+Order Quantity: 1026.27
+Adjusted qty: 1026.3
+Final Adjusted qty: 1026.2
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bb1012d3-cd6f-4440-899c-ddfae7dedc45', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757677550632}
+bb1012d3-cd6f-4440-899c-ddfae7dedc45
+fetching trade data for :  bb1012d3-cd6f-4440-899c-ddfae7dedc45
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bb1012d3-cd6f-4440-899c-ddfae7dedc45', 'stopOrderType': 'UNKNOWN', 'execTime': '1757677550630', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.7431', 'execPrice': '9.744', 'markIv': '', 'orderQty': '1026.2', 'orderPrice': '8.7688', 'execValue': '9999.2928', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206036338, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49961104', 'execId': '49ae1ef5-6ea7-4d0c-8482-2e25c491f6c2', 'marketUnit': '', 'execQty': '1026.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SPXUSDT    | B |  43.86
+Last close price for SPXUSDT: 1.4504
+Opening Buy for  SPXUSDT
+TP: 1.464904
+SL: 1.421392
+TS: 0.014504
+Order Quantity: 6894.65
+Adjusted qty: 6895.0
+Final Adjusted qty: 6894.0
+14800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5f9ea97d-0adb-45a2-b593-0d6aaa7d9087', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757677563057}
+5f9ea97d-0adb-45a2-b593-0d6aaa7d9087
+fetching trade data for :  5f9ea97d-0adb-45a2-b593-0d6aaa7d9087
+[{'symbol': 'SPXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5f9ea97d-0adb-45a2-b593-0d6aaa7d9087', 'stopOrderType': 'UNKNOWN', 'execTime': '1757677563056', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.4504', 'execPrice': '1.4504', 'markIv': '', 'orderQty': '6894', 'orderPrice': '1.4584', 'execValue': '9999.0576', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206036728, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49948168', 'execId': 'f6d31d18-4935-4d42-86ee-dc5d65101fde', 'marketUnit': '', 'execQty': '6894', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 15:46:14
