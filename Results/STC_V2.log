@@ -48391,3 +48391,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 10:36:00
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 10:40:06
+WLDUSDT 	Latest Close: (1.7178) 	SMA(14) : 1.65 	Delta : B 	Previous STC : 20.00 	STC : 30.69
+WALUSDT 	Latest Close: (0.4502) 	SMA(14) : 0.45 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | S |  66.67
+Last close price for WALUSDT: 0.4505
+Opening Sell for  WALUSDT
+TP: 0.44599500000000003
+SL: 0.45951000000000003
+TS: 0.004505
+Order Quantity: 22197.56
+Adjusted qty: 22198.0
+Final Adjusted qty: 22197.0
+51400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    | B |  30.69
+Last close price for WLDUSDT: 1.7128
+Opening Buy for  WLDUSDT
+TP: 1.7299280000000001
+SL: 1.678544
+TS: 0.017128
+Order Quantity: 5838.39
+Adjusted qty: 5838.400000000001
+Final Adjusted qty: 5838.3
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f8e77a43-ef9b-46a9-b836-1d15d523241c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757659241629}
+f8e77a43-ef9b-46a9-b836-1d15d523241c
+fetching trade data for :  f8e77a43-ef9b-46a9-b836-1d15d523241c
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f8e77a43-ef9b-46a9-b836-1d15d523241c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757659241629', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.7133', 'execPrice': '1.7137', 'markIv': '', 'orderQty': '5838.3', 'orderPrice': '1.7989', 'execValue': '10005.09471', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205443124, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5028021', 'execId': '733e5ba8-334f-402d-8178-576df741f22e', 'marketUnit': '', 'execQty': '5838.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 10:40:51
