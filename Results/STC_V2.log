@@ -51711,3 +51711,49 @@ Order Quantity: 1129.56
 Adjusted qty: 1129.6000000000001
 Final Adjusted qty: 1129.5
 8000.0
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 20:30:06
+GALAUSDT 	Latest Close: (0.01775) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 5.24 	STC : 34.98
+IOTAUSDT 	Latest Close: (0.1958) 	SMA(14) : 0.19 	Delta : B 	Previous STC : 6.50 	STC : 37.31
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IOTAUSDT   | B |  37.31
+Last close price for IOTAUSDT: 0.1958
+Opening Buy for  IOTAUSDT
+TP: 0.19775800000000002
+SL: 0.191884
+TS: 0.001958
+Order Quantity: 51072.52
+Adjusted qty: 51072.5
+Final Adjusted qty: 51072.5
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '15bf73a4-bc11-46a6-85b4-76c612e90654', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757694645990}
+15bf73a4-bc11-46a6-85b4-76c612e90654
+fetching trade data for :  15bf73a4-bc11-46a6-85b4-76c612e90654
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '15bf73a4-bc11-46a6-85b4-76c612e90654', 'stopOrderType': 'UNKNOWN', 'execTime': '1757694645990', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.196', 'execPrice': '0.1958', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.2156', 'execValue': '5208.28', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206613049, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.864554', 'execId': '3ea9cb2a-7b47-495e-90cb-cbccc6bac9e3', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+GALAUSDT   | B |  34.98
+Last close price for GALAUSDT: 0.01774
+Opening Buy for  GALAUSDT
+TP: 0.0179174
+SL: 0.0173852
+TS: 0.00017739999999999998
+Order Quantity: 563697.86
+Adjusted qty: 563698.0
+Final Adjusted qty: 563697.0
+7167900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '894a2507-8046-444b-9af0-bf317d582433', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757694658680}
+894a2507-8046-444b-9af0-bf317d582433
+fetching trade data for :  894a2507-8046-444b-9af0-bf317d582433
+[{'symbol': 'GALAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '894a2507-8046-444b-9af0-bf317d582433', 'stopOrderType': 'UNKNOWN', 'execTime': '1757694658679', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.01774', 'execPrice': '0.01774', 'markIv': '', 'orderQty': '563697', 'orderPrice': '0.01862', 'execValue': '9999.98478', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206613487, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999163', 'execId': '79999fd8-24b3-4ef9-ba27-aa96d194138e', 'marketUnit': '', 'execQty': '563697', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 12.09.2025 20:31:08
