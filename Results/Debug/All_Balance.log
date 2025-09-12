@@ -22638,3 +22638,13 @@
 2025-09-13 00:35:30,859 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757709330542],server_timestamp[1757709328018],recv_window[102500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
 2025-09-13 00:35:34,189 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
 2025-09-13 00:35:34,189 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757709333859],server_timestamp[1757709331348],recv_window[105000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
+2025-09-13 00:40:26,003 - DEBUG - Initializing HTTP session.
+2025-09-13 00:40:26,004 - DEBUG - Initializing HTTP session.
+2025-09-13 00:40:26,004 - DEBUG - Initializing HTTP session.
+2025-09-13 00:40:26,005 - DEBUG - Starting new HTTPS connection (1): api-demo.bybit.com:443
+2025-09-13 00:40:27,238 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
+2025-09-13 00:40:27,238 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757709626004],server_timestamp[1757709624489],recv_window[100000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 2 retries remain.
+2025-09-13 00:40:30,515 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
+2025-09-13 00:40:30,515 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757709630239],server_timestamp[1757709627763],recv_window[102500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
+2025-09-13 00:40:33,764 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
+2025-09-13 00:40:33,764 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757709633516],server_timestamp[1757709631002],recv_window[105000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
