@@ -49437,3 +49437,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 13:55:38
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 14:00:06
+TONUSDT 	Latest Close: (3.1879) 	SMA(14) : 3.19 	Delta : S 	Previous STC : 97.00 	STC : 92.82
+LTCUSDT 	Latest Close: (115.63) 	SMA(14) : 115.78 	Delta : S 	Previous STC : 97.60 	STC : 94.64
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  94.64
+Last close price for LTCUSDT: 115.63
+Opening Sell for  LTCUSDT
+TP: 114.4737
+SL: 117.9426
+TS: 1.1562999999999999
+Order Quantity: 86.48
+Adjusted qty: 86.5
+Final Adjusted qty: 86.4
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a3b43b18-ed76-4389-93a1-0b75e5882ab8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757671245435}
+a3b43b18-ed76-4389-93a1-0b75e5882ab8
+fetching trade data for :  a3b43b18-ed76-4389-93a1-0b75e5882ab8
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a3b43b18-ed76-4389-93a1-0b75e5882ab8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757671245435', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '115.64', 'execPrice': '115.63', 'markIv': '', 'orderQty': '86.4', 'orderPrice': '109.86', 'execValue': '9990.432', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205828651, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4947376', 'execId': '9319c73c-e6ab-4b3d-a50b-c26fd71ca204', 'marketUnit': '', 'execQty': '86.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    | S |  92.82
+Last close price for TONUSDT: 3.1892
+Opening Sell for  TONUSDT
+TP: 3.157308
+SL: 3.252984
+TS: 0.031892000000000004
+Order Quantity: 3135.58
+Adjusted qty: 3135.6000000000004
+Final Adjusted qty: 3135.5
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 12.09.2025 14:00:55
