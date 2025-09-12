@@ -47988,3 +47988,39 @@ Order Quantity: 994.23
 Adjusted qty: 994.2
 Final Adjusted qty: 994.2
 17540.0
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 09:10:06
+AUSDT 	Latest Close: (0.4789) 	SMA(14) : 0.48 	Delta : S 	Previous STC : 100.00 	STC : 70.64
+COREUSDT 	Latest Close: (0.4612) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 98.13 	STC : 65.42
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AUSDT      | S |  70.64
+Last close price for AUSDT: 0.4789
+Opening Sell for  AUSDT
+TP: 0.474111
+SL: 0.488478
+TS: 0.004789
+Order Quantity: 20881.19
+Adjusted qty: 20881.0
+Final Adjusted qty: 20881.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a1c79d19-bc55-469f-aedd-3996a08dde93', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757653846163}
+a1c79d19-bc55-469f-aedd-3996a08dde93
+fetching trade data for :  a1c79d19-bc55-469f-aedd-3996a08dde93
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a1c79d19-bc55-469f-aedd-3996a08dde93', 'stopOrderType': 'UNKNOWN', 'execTime': '1757653846163', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4789', 'execPrice': '0.4789', 'markIv': '', 'orderQty': '20881', 'orderPrice': '0.4311', 'execValue': '9999.9109', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205281659, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499951', 'execId': 'd183fe26-3942-4678-92cd-f6a0de6a7bcc', 'marketUnit': '', 'execQty': '20881', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+COREUSDT   | S |  65.42
+Last close price for COREUSDT: 0.4612
+Opening Sell for  COREUSDT
+TP: 0.456588
+SL: 0.470424
+TS: 0.004612
+Order Quantity: 21682.57
+Adjusted qty: 21682.600000000002
+Final Adjusted qty: 21682.5
+13560.0
