@@ -51956,3 +51956,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 21:05:41
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 21:10:06
+TRXUSDT 	Latest Close: (0.34992) 	SMA(14) : 0.35 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+CROUSDT 	Latest Close: (0.25423) 	SMA(14) : 0.25 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | B |  33.33
+Last close price for TRXUSDT: 0.34993
+Opening Buy for  TRXUSDT
+TP: 0.3534293
+SL: 0.3429314
+TS: 0.0034993000000000003
+Order Quantity: 28577.14
+Adjusted qty: 28577.0
+Final Adjusted qty: 28577.0
+1356000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+CROUSDT    | B |  33.33
+Last close price for CROUSDT: 0.25423
+Opening Buy for  CROUSDT
+TP: 0.2567723
+SL: 0.24914540000000002
+TS: 0.0025423
+Order Quantity: 39334.46
+Adjusted qty: 39334.0
+Final Adjusted qty: 39334.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6f7db669-2dd3-4ccf-b20b-8b73312c4b86', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757697043002}
+6f7db669-2dd3-4ccf-b20b-8b73312c4b86
+fetching trade data for :  6f7db669-2dd3-4ccf-b20b-8b73312c4b86
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6f7db669-2dd3-4ccf-b20b-8b73312c4b86', 'stopOrderType': 'UNKNOWN', 'execTime': '1757697043002', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.25423', 'execPrice': '0.25423', 'markIv': '', 'orderQty': '39334', 'orderPrice': '0.27965', 'execValue': '9999.88282', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206693456, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993556', 'execId': 'd2290242-a758-4dd1-8e1b-8e100f19c762', 'marketUnit': '', 'execQty': '39334', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 21:10:52
