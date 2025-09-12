@@ -48802,3 +48802,57 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 11:35:46
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 11:40:06
+HBARUSDT 	Latest Close: (0.24151) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TONUSDT 	Latest Close: (3.2016) 	SMA(14) : 3.20 	Delta : B 	Previous STC : 11.00 	STC : 28.40
+INJUSDT 	Latest Close: (14.286) 	SMA(14) : 14.26 	Delta : B 	Previous STC : 10.30 	STC : 34.50
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HBARUSDT   | S |  66.67
+Last close price for HBARUSDT: 0.24151
+Opening Sell for  HBARUSDT
+TP: 0.2390949
+SL: 0.2463402
+TS: 0.0024151
+Order Quantity: 41406.15
+Adjusted qty: 41406.0
+Final Adjusted qty: 41406.0
+1064600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+INJUSDT    | B |  34.50
+Last close price for INJUSDT: 14.289
+Opening Buy for  INJUSDT
+TP: 14.43189
+SL: 14.003219999999999
+TS: 0.14289
+Order Quantity: 699.84
+Adjusted qty: 699.8000000000001
+Final Adjusted qty: 699.8
+6020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TONUSDT    | B |  28.40
+Last close price for TONUSDT: 3.2008
+Opening Buy for  TONUSDT
+TP: 3.232808
+SL: 3.136784
+TS: 0.032008
+Order Quantity: 3124.22
+Adjusted qty: 3124.2000000000003
+Final Adjusted qty: 3124.2
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5dbc7ad2-c70a-4f37-96cd-7007ce91abe5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757662855884}
+5dbc7ad2-c70a-4f37-96cd-7007ce91abe5
+fetching trade data for :  5dbc7ad2-c70a-4f37-96cd-7007ce91abe5
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5dbc7ad2-c70a-4f37-96cd-7007ce91abe5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757662855884', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.2008', 'execPrice': '3.2008', 'markIv': '', 'orderQty': '3124.2', 'orderPrice': '3.3608', 'execValue': '9999.93936', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205554090, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996665', 'execId': '446f35c3-ff26-449b-869b-3907c11d674e', 'marketUnit': '', 'execQty': '3124.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 11:41:05
