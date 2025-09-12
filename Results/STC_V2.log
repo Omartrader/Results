@@ -47174,3 +47174,59 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 06:40:51
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 06:45:05
+SEIUSDT 	Latest Close: (0.3356) 	SMA(14) : 0.34 	Delta : S 	Previous STC : 98.38 	STC : 81.42
+SANDUSDT 	Latest Close: (0.3037) 	SMA(14) : 0.30 	Delta : S 	Previous STC : 100.00 	STC : 94.51
+PENDLEUSDT 	Latest Close: (5.2457) 	SMA(14) : 5.28 	Delta : S 	Previous STC : 100.00 	STC : 78.62
+MORPHOUSDT 	Latest Close: (2.1212) 	SMA(14) : 2.12 	Delta : S 	Previous STC : 98.16 	STC : 89.22
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SANDUSDT   | S |  94.51
+Last close price for SANDUSDT: 0.3037
+Opening Sell for  SANDUSDT
+TP: 0.300663
+SL: 0.30977400000000005
+TS: 0.003037
+Order Quantity: 32927.23
+Adjusted qty: 32927.0
+Final Adjusted qty: 32927.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '325befc7-3ab8-4bca-bc4d-5263f8725cd7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757645143304}
+325befc7-3ab8-4bca-bc4d-5263f8725cd7
+fetching trade data for :  325befc7-3ab8-4bca-bc4d-5263f8725cd7
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '325befc7-3ab8-4bca-bc4d-5263f8725cd7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757645143303', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3037', 'execPrice': '0.3037', 'markIv': '', 'orderQty': '32927', 'orderPrice': '0.2734', 'execValue': '9999.9299', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205019083, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996145', 'execId': '3fb84ff5-377b-4c56-a589-861e8e9a02a9', 'marketUnit': '', 'execQty': '32927', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MORPHOUSDT | S |  89.22
+Last close price for MORPHOUSDT: 2.1212
+Opening Sell for  MORPHOUSDT
+TP: 2.0999879999999997
+SL: 2.163624
+TS: 0.021211999999999998
+Order Quantity: 4714.31
+Adjusted qty: 4714.0
+Final Adjusted qty: 4714.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a7b8601f-21d5-41ff-9d26-bf787d49b978', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757645155730}
+a7b8601f-21d5-41ff-9d26-bf787d49b978
+fetching trade data for :  a7b8601f-21d5-41ff-9d26-bf787d49b978
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a7b8601f-21d5-41ff-9d26-bf787d49b978', 'stopOrderType': 'UNKNOWN', 'execTime': '1757645155730', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.1212', 'execPrice': '2.1212', 'markIv': '', 'orderQty': '4714', 'orderPrice': '1.8031', 'execValue': '9999.3368', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205019458, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49963524', 'execId': '54516e2c-6ed7-4255-963b-560ccdc6fce7', 'marketUnit': '', 'execQty': '4714', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SEIUSDT    | S |  81.42
+Last close price for SEIUSDT: 0.3355
+Opening Sell for  SEIUSDT
+TP: 0.332145
+SL: 0.34221
+TS: 0.0033550000000000003
+Order Quantity: 29806.26
+Adjusted qty: 29806.0
+Final Adjusted qty: 29806.0
+245500.0
