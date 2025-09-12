@@ -23031,3 +23031,17 @@
 2025-09-13 03:36:33,830 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757720193570],server_timestamp[1757720191879],recv_window[102500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
 2025-09-13 03:36:37,092 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
 2025-09-13 03:36:37,092 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757720196831],server_timestamp[1757720195139],recv_window[105000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
+2025-09-13 03:41:37,212 - DEBUG - Initializing HTTP session.
+2025-09-13 03:41:37,213 - DEBUG - Initializing HTTP session.
+2025-09-13 03:41:37,213 - DEBUG - Initializing HTTP session.
+2025-09-13 03:41:37,214 - DEBUG - Starting new HTTPS connection (1): api-demo.bybit.com:443
+2025-09-13 03:41:38,246 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 937
+2025-09-13 03:41:38,248 - DEBUG - Starting new HTTPS connection (1): api-demo.bybit.com:443
+2025-09-13 03:41:39,223 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 930
+2025-09-13 03:41:39,225 - DEBUG - Starting new HTTPS connection (1): api-demo.bybit.com:443
+2025-09-13 03:41:40,146 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
+2025-09-13 03:41:40,146 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757720499224],server_timestamp[1757720498219],recv_window[100000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 2 retries remain.
+2025-09-13 03:41:43,419 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
+2025-09-13 03:41:43,420 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757720503147],server_timestamp[1757720501492],recv_window[102500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
+2025-09-13 03:41:46,795 - DEBUG - https://api-demo.bybit.com:443 "GET /v5/account/wallet-balance?accountType=UNIFIED&coin=USDT HTTP/1.1" 200 232
+2025-09-13 03:41:46,795 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1757720506420],server_timestamp[1757720504866],recv_window[105000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
