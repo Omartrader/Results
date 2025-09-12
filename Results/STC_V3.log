@@ -31085,3 +31085,45 @@ Function started at 12.09.2025 10:10:46
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 12.09.2025 10:11:07
+***************************************************************
+Number of open positions: 3
+Function started at 12.09.2025 10:16:41
+	WLFIUSDT 	Signal: S
+WLFIUSDT 	Latest Close: (0.1992) 	SMA(14) : 0.20 	Delta :  	Previous STC : 100.00 	STC : 88.00
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (10.16) 	SMA(14) : 10.09 	Delta :  	Previous STC : 24.50 	STC : 28.36
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9992) 	SMA(14) : 1.00 	Delta :  	Previous STC : 99.99 	STC : 91.07
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | S |  88.00
+1
+Last close price for WLFIUSDT: 0.1991
+Opening Sell for  WLFIUSDT
+TP: 0.197109
+SL: 0.203082
+TS: 0.001991
+Order Quantity: 100452.03
+Adjusted qty: 100452.0
+Final Adjusted qty: 100452.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'de12fd11-684d-4deb-acbb-7f6f11ec477d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757657825613}
+de12fd11-684d-4deb-acbb-7f6f11ec477d
+fetching trade data for :  de12fd11-684d-4deb-acbb-7f6f11ec477d
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'de12fd11-684d-4deb-acbb-7f6f11ec477d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757657825612', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1991', 'execPrice': '0.1991', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.1693', 'execValue': '15928', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612517143040, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.7604', 'execId': 'dce923a4-2fd0-480a-ac46-08f80725c908', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | B |  28.36
+1
+Last close price for UNIUSDT: 10.161
+Opening Buy for  UNIUSDT
+TP: 10.26261
+SL: 9.95778
+TS: 0.10160999999999999
+Order Quantity: 1968.31
+Adjusted qty: 1968.3000000000002
+Final Adjusted qty: 1968.3
+17540.0
