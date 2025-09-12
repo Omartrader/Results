@@ -48999,3 +48999,31 @@ Order Quantity: 136855.07
 Adjusted qty: 136860.0
 Final Adjusted qty: 136850.0
 310000.0
+***************************************************************
+Number of open positions: 9
+Function started at 12.09.2025 12:15:06
+FLRUSDT 	Latest Close: (0.0226) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ETHUSDT 	Latest Close: (4524.55) 	SMA(14) : 4534.03 	Delta : S 	Previous STC : 100.00 	STC : 75.16
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | S |  75.16
+Last close price for ETHUSDT: 4524.52
+Opening Sell for  ETHUSDT
+TP: 4479.2748
+SL: 4615.0104
+TS: 45.245200000000004
+Order Quantity: 2.21
+Adjusted qty: 2.21
+Final Adjusted qty: 2.21
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3257e1c1-cf79-4a8e-8f28-6e64c0bbdebb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757664940262}
+3257e1c1-cf79-4a8e-8f28-6e64c0bbdebb
+fetching trade data for :  3257e1c1-cf79-4a8e-8f28-6e64c0bbdebb
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3257e1c1-cf79-4a8e-8f28-6e64c0bbdebb', 'stopOrderType': 'UNKNOWN', 'execTime': '1757664940262', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4524.53', 'execPrice': '4524.52', 'markIv': '', 'orderQty': '2.21', 'orderPrice': '4434.04', 'execValue': '9999.1892', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205620982, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49955406', 'execId': '9ca9e85b-1092-4539-92fa-4ba78a0d0fe7', 'marketUnit': '', 'execQty': '2.21', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 12.09.2025 12:15:49
