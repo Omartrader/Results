@@ -51438,3 +51438,84 @@ Order Quantity: 2756.49
 Adjusted qty: 2760.0
 Final Adjusted qty: 2750.0
 40000.0
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 19:50:06
+ONDOUSDT 	Latest Close: (1.0909) 	SMA(14) : 1.08 	Delta : B 	Previous STC : 1.76 	STC : 34.51
+SUIUSDT 	Latest Close: (3.6342) 	SMA(14) : 3.62 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+USDCUSDT 	Latest Close: (0.9997) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 97.07 	STC : 92.49
+USDCUSDT 	Latest Close: (0.9997) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 97.07 	STC : 92.49
+COREUSDT 	Latest Close: (0.4624) 	SMA(14) : 0.46 	Delta : B 	Previous STC : 22.83 	STC : 48.55
+MORPHOUSDT 	Latest Close: (2.1213) 	SMA(14) : 2.11 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+HNTUSDT 	Latest Close: (2.596) 	SMA(14) : 2.59 	Delta : B 	Previous STC : 14.12 	STC : 36.91
+ARUSDT 	Latest Close: (7.229) 	SMA(14) : 7.21 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+COREUSDT   | B |  48.55
+Last close price for COREUSDT: 0.4624
+Opening Buy for  COREUSDT
+TP: 0.467024
+SL: 0.45315199999999994
+TS: 0.004624
+Order Quantity: 21626.3
+Adjusted qty: 21626.300000000003
+Final Adjusted qty: 21626.3
+13560.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HNTUSDT    | B |  36.91
+Last close price for HNTUSDT: 2.596
+Opening Buy for  HNTUSDT
+TP: 2.62196
+SL: 2.54408
+TS: 0.02596
+Order Quantity: 3852.08
+Adjusted qty: 3852.08
+Final Adjusted qty: 3852.08
+1322.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   | B |  34.51
+Last close price for ONDOUSDT: 1.0906
+Opening Buy for  ONDOUSDT
+TP: 1.101506
+SL: 1.068788
+TS: 0.010906
+Order Quantity: 9169.26
+Adjusted qty: 9169.0
+Final Adjusted qty: 9169.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARUSDT     | B |  33.33
+Last close price for ARUSDT: 7.229
+Opening Buy for  ARUSDT
+TP: 7.30129
+SL: 7.08442
+TS: 0.07229000000000001
+Order Quantity: 1383.32
+Adjusted qty: 1383.3000000000002
+Final Adjusted qty: 1383.3
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '021c4e46-0e1a-4797-9a48-7fa43c0b0768', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757692251716}
+021c4e46-0e1a-4797-9a48-7fa43c0b0768
+fetching trade data for :  021c4e46-0e1a-4797-9a48-7fa43c0b0768
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '021c4e46-0e1a-4797-9a48-7fa43c0b0768', 'stopOrderType': 'UNKNOWN', 'execTime': '1757692251716', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.233', 'execPrice': '7.229', 'markIv': '', 'orderQty': '1383.3', 'orderPrice': '7.594', 'execValue': '9999.8757', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206532202, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993164', 'execId': '50954872-353f-4440-8378-c6e082a69a08', 'marketUnit': '', 'execQty': '1383.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | B |  33.33
+Last close price for SUIUSDT: 3.6339
+Opening Buy for  SUIUSDT
+TP: 3.670239
+SL: 3.561222
+TS: 0.036339
+Order Quantity: 2751.86
+Adjusted qty: 2750.0
+Final Adjusted qty: 2750.0
+40000.0
