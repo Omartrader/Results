@@ -30520,3 +30520,34 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 12.09.2025 06:56:10
+***************************************************************
+Number of open positions: 4
+Function started at 12.09.2025 07:00:59
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (4.2256) 	SMA(14) : 4.25 	Delta :  	Previous STC : 100.00 	STC : 90.98
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (356.22) 	SMA(14) : 358.33 	Delta :  	Previous STC : 96.33 	STC : 94.96
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | S |  94.96
+1
+Last close price for TAOUSDT: 356.14
+Opening Sell for  TAOUSDT
+TP: 352.5786
+SL: 363.26279999999997
+TS: 3.5614
+Order Quantity: 56.16
+Adjusted qty: 56.160000000000004
+Final Adjusted qty: 56.16
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a1ffdb71-6589-4468-bc8f-325966145218', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757646082411}
+a1ffdb71-6589-4468-bc8f-325966145218
+fetching trade data for :  a1ffdb71-6589-4468-bc8f-325966145218
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a1ffdb71-6589-4468-bc8f-325966145218', 'stopOrderType': 'UNKNOWN', 'execTime': '1757646082410', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '356.2', 'execPrice': '356.12', 'markIv': '', 'orderQty': '56.16', 'orderPrice': '302.77', 'execValue': '19999.6992', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612516775038, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99983456', 'execId': '118baffd-a0f8-4e12-8f79-508c7727f36a', 'marketUnit': '', 'execQty': '56.16', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 12.09.2025 07:01:33
