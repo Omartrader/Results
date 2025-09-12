@@ -51319,3 +51319,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 19:30:50
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 19:35:05
+COREUSDT 	Latest Close: (0.4618) 	SMA(14) : 0.46 	Delta : B 	Previous STC : 1.71 	STC : 26.53
+ENSUSDT 	Latest Close: (24.212) 	SMA(14) : 24.17 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENSUSDT    | B |  33.33
+Last close price for ENSUSDT: 24.212
+Opening Buy for  ENSUSDT
+TP: 24.45412
+SL: 23.72776
+TS: 0.24212
+Order Quantity: 413.02
+Adjusted qty: 413.0
+Final Adjusted qty: 413.0
+1400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+COREUSDT   | B |  26.53
+Last close price for COREUSDT: 0.4618
+Opening Buy for  COREUSDT
+TP: 0.466418
+SL: 0.45256399999999997
+TS: 0.004618
+Order Quantity: 21654.4
+Adjusted qty: 21654.4
+Final Adjusted qty: 21654.4
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ca84c90b-952a-4c61-9c22-dc0260ba1e0e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757691340728}
+ca84c90b-952a-4c61-9c22-dc0260ba1e0e
+fetching trade data for :  ca84c90b-952a-4c61-9c22-dc0260ba1e0e
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ca84c90b-952a-4c61-9c22-dc0260ba1e0e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757691340727', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4618', 'execPrice': '0.4618', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.5079', 'execValue': '6262.008', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206502268, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.4441044', 'execId': '3a75e2ef-1719-4c4d-89c5-a0f02129dc80', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 19:35:50
