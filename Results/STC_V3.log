@@ -32361,3 +32361,64 @@ Function started at 12.09.2025 17:55:46
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 12.09.2025 17:56:08
+***************************************************************
+Number of open positions: 2
+Function started at 12.09.2025 18:01:37
+	ATOMUSDT 	Signal: B
+ATOMUSDT 	Latest Close: (4.665) 	SMA(14) : 4.64 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	AAVEUSDT 	Signal: B
+AAVEUSDT 	Latest Close: (314.86) 	SMA(14) : 313.47 	Delta :  	Previous STC : 20.57 	STC : 47.05
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (351.81) 	SMA(14) : 348.82 	Delta :  	Previous STC : 0.00 	STC : 28.56
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AAVEUSDT   | B |  47.05
+1
+Last close price for AAVEUSDT: 314.94
+Opening Buy for  AAVEUSDT
+TP: 318.0894
+SL: 308.64119999999997
+TS: 3.1494
+Order Quantity: 63.5
+Adjusted qty: 63.5
+Final Adjusted qty: 63.5
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6c3de8b3-b0ba-4b97-883f-29356ee81a01', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757685716932}
+6c3de8b3-b0ba-4b97-883f-29356ee81a01
+fetching trade data for :  6c3de8b3-b0ba-4b97-883f-29356ee81a01
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6c3de8b3-b0ba-4b97-883f-29356ee81a01', 'stopOrderType': 'UNKNOWN', 'execTime': '1757685716931', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '314.96', 'execPrice': '314.94', 'markIv': '', 'orderQty': '63.5', 'orderPrice': '330.7', 'execValue': '19998.69', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612518064157, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9992795', 'execId': '61c222ad-86f3-41b3-b588-7156a542123f', 'marketUnit': '', 'execQty': '63.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | B |  33.33
+1
+Last close price for ATOMUSDT: 4.664
+Opening Buy for  ATOMUSDT
+TP: 4.71064
+SL: 4.57072
+TS: 0.046639999999999994
+Order Quantity: 4288.16
+Adjusted qty: 4288.2
+Final Adjusted qty: 4288.1
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0647f1b4-8ae4-4e5d-a1b8-e5d21fa5057c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757685728933}
+0647f1b4-8ae4-4e5d-a1b8-e5d21fa5057c
+fetching trade data for :  0647f1b4-8ae4-4e5d-a1b8-e5d21fa5057c
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0647f1b4-8ae4-4e5d-a1b8-e5d21fa5057c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757685728932', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.664', 'execPrice': '4.664', 'markIv': '', 'orderQty': '4288.1', 'orderPrice': '4.897', 'execValue': '19999.6984', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612518064593, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99983412', 'execId': 'b5456060-c0cd-43d7-b0c8-97ffa0fd8a91', 'marketUnit': '', 'execQty': '4288.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TAOUSDT    | B |  28.56
+1
+Last close price for TAOUSDT: 351.6
+Opening Buy for  TAOUSDT
+TP: 355.11600000000004
+SL: 344.56800000000004
+TS: 3.516
+Order Quantity: 56.88
+Adjusted qty: 56.88
+Final Adjusted qty: 56.88
+60.0
