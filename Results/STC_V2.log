@@ -49329,3 +49329,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 13:35:57
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 13:40:06
+ATHUSDT 	Latest Close: (0.05597) 	SMA(14) : 0.06 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IOTAUSDT 	Latest Close: (0.1953) 	SMA(14) : 0.20 	Delta : S 	Previous STC : 98.49 	STC : 92.54
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IOTAUSDT   | S |  92.54
+Last close price for IOTAUSDT: 0.1953
+Opening Sell for  IOTAUSDT
+TP: 0.193347
+SL: 0.199206
+TS: 0.001953
+Order Quantity: 51203.28
+Adjusted qty: 51203.3
+Final Adjusted qty: 51203.2
+26600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ATHUSDT    | S |  66.67
+Last close price for ATHUSDT: 0.0559
+Opening Sell for  ATHUSDT
+TP: 0.055340999999999994
+SL: 0.057018
+TS: 0.000559
+Order Quantity: 178890.88
+Adjusted qty: 178890.0
+Final Adjusted qty: 178890.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '50332619-8a20-4fa9-99ed-b05586ca3eb2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757670046712}
+50332619-8a20-4fa9-99ed-b05586ca3eb2
+fetching trade data for :  50332619-8a20-4fa9-99ed-b05586ca3eb2
+[{'symbol': 'ATHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '50332619-8a20-4fa9-99ed-b05586ca3eb2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757670046712', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.05588', 'execPrice': '0.0559', 'markIv': '', 'orderQty': '178890', 'orderPrice': '0.0503', 'execValue': '9999.951', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205789435, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997305', 'execId': '6806fbe3-caf5-461d-897f-de535f074597', 'marketUnit': '', 'execQty': '178890', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 13:40:55
