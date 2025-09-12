@@ -51996,3 +51996,63 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 21:10:52
+***************************************************************
+Number of open positions: 8
+Function started at 12.09.2025 21:15:05
+WUSDT 	Latest Close: (0.09443) 	SMA(14) : 0.09 	Delta : B 	Previous STC : 0.00 	STC : 25.95
+SKYUSDT 	Latest Close: (0.07383) 	SMA(14) : 0.07 	Delta : B 	Previous STC : 21.70 	STC : 47.80
+SAROSUSDT 	Latest Close: (0.35292) 	SMA(14) : 0.35 	Delta : S 	Previous STC : 98.55 	STC : 94.10
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  94.10
+Last close price for SAROSUSDT: 0.35292
+Opening Sell for  SAROSUSDT
+TP: 0.3493908
+SL: 0.35997840000000003
+TS: 0.0035292
+Order Quantity: 28335.03
+Adjusted qty: 28335.0
+Final Adjusted qty: 28335.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ecefe691-b3de-4b9c-9e66-b195db70cbc3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757697340212}
+ecefe691-b3de-4b9c-9e66-b195db70cbc3
+fetching trade data for :  ecefe691-b3de-4b9c-9e66-b195db70cbc3
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ecefe691-b3de-4b9c-9e66-b195db70cbc3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757697340211', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3531', 'execPrice': '0.35292', 'markIv': '', 'orderQty': '27000', 'orderPrice': '0.30014', 'execValue': '9528.84', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206704051, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.481724', 'execId': 'f427e1ef-b954-4667-8380-53417b163f83', 'marketUnit': '', 'execQty': '27000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SKYUSDT    | B |  47.80
+Last close price for SKYUSDT: 0.07379
+Opening Buy for  SKYUSDT
+TP: 0.0745279
+SL: 0.0723142
+TS: 0.0007379
+Order Quantity: 135519.72
+Adjusted qty: 135520.0
+Final Adjusted qty: 135510.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WUSDT      | B |  25.95
+Last close price for WUSDT: 0.09436
+Opening Buy for  WUSDT
+TP: 0.0953036
+SL: 0.0924728
+TS: 0.0009436
+Order Quantity: 105977.11
+Adjusted qty: 105977.1
+Final Adjusted qty: 105977.1
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd7d53b6f-8b7a-461f-b9ff-752d61c11218', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757697353436}
+d7d53b6f-8b7a-461f-b9ff-752d61c11218
+fetching trade data for :  d7d53b6f-8b7a-461f-b9ff-752d61c11218
+[{'symbol': 'WUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd7d53b6f-8b7a-461f-b9ff-752d61c11218', 'stopOrderType': 'UNKNOWN', 'execTime': '1757697353435', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.09436', 'execPrice': '0.09436', 'markIv': '', 'orderQty': '100000', 'orderPrice': '0.10379', 'execValue': '9436', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206704523, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.1898', 'execId': '3c5b0f02-f730-4889-a8a4-485db153c9f5', 'marketUnit': '', 'execQty': '100000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 12.09.2025 21:16:03
