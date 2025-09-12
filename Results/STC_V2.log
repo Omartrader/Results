@@ -49862,3 +49862,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 15:46:14
+***************************************************************
+Number of open positions: 7
+Function started at 12.09.2025 15:50:06
+SPXUSDT 	Latest Close: (1.4447) 	SMA(14) : 1.41 	Delta : B 	Previous STC : 15.79 	STC : 43.86
+IPUSDT 	Latest Close: (9.6792) 	SMA(14) : 9.78 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  66.67
+Last close price for IPUSDT: 9.6842
+Opening Sell for  IPUSDT
+TP: 9.587358
+SL: 9.877884
+TS: 0.09684200000000001
+Order Quantity: 1032.61
+Adjusted qty: 1032.6000000000001
+Final Adjusted qty: 1032.6
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0d0ad07c-d9c5-4684-b863-8c700828852f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757677845776}
+0d0ad07c-d9c5-4684-b863-8c700828852f
+fetching trade data for :  0d0ad07c-d9c5-4684-b863-8c700828852f
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0d0ad07c-d9c5-4684-b863-8c700828852f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757677845775', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.6851', 'execPrice': '9.6842', 'markIv': '', 'orderQty': '1032.6', 'orderPrice': '8.7166', 'execValue': '9999.90492', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697206046141, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994771', 'execId': '6c2eead7-cc1f-4661-87b0-fd30a958beb2', 'marketUnit': '', 'execQty': '1032.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SPXUSDT    | B |  43.86
+Last close price for SPXUSDT: 1.4434
+Opening Buy for  SPXUSDT
+TP: 1.457834
+SL: 1.414532
+TS: 0.014434
+Order Quantity: 6928.09
+Adjusted qty: 6928.0
+Final Adjusted qty: 6928.0
+14800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 12.09.2025 15:50:58
