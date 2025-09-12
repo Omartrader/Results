@@ -30817,3 +30817,36 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 12.09.2025 08:21:08
+***************************************************************
+Number of open positions: 4
+Function started at 12.09.2025 08:25:47
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (21.433) 	SMA(14) : 21.48 	Delta :  	Previous STC : 98.55 	STC : 80.82
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (593.5) 	SMA(14) : 595.34 	Delta :  	Previous STC : 98.46 	STC : 89.62
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (115258.0) 	SMA(14) : 115365.46 	Delta :  	Previous STC : 96.92 	STC : 82.58
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | S |  89.62
+1
+Last close price for BCHUSDT: 593.5
+Opening Sell for  BCHUSDT
+TP: 587.5649999999999
+SL: 605.37
+TS: 5.935
+Order Quantity: 33.7
+Adjusted qty: 33.7
+Final Adjusted qty: 33.7
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dabf49cf-9af0-49ba-93bb-372f48982a32', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757651170932}
+dabf49cf-9af0-49ba-93bb-372f48982a32
+fetching trade data for :  dabf49cf-9af0-49ba-93bb-372f48982a32
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dabf49cf-9af0-49ba-93bb-372f48982a32', 'stopOrderType': 'UNKNOWN', 'execTime': '1757651170931', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '593.5', 'execPrice': '593.5', 'markIv': '', 'orderQty': '33.7', 'orderPrice': '563.9', 'execValue': '20000.95', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612516934613, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0005225', 'execId': 'd9aaeec9-44b8-42e9-b91b-406eeee89a48', 'marketUnit': '', 'execQty': '33.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 12.09.2025 08:26:21
