@@ -48346,3 +48346,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 12.09.2025 10:30:47
+***************************************************************
+Number of open positions: 6
+Function started at 12.09.2025 10:35:05
+WLDUSDT 	Latest Close: (1.7369) 	SMA(14) : 1.65 	Delta : B 	Previous STC : 20.00 	STC : 30.69
+WALUSDT 	Latest Close: (0.4508) 	SMA(14) : 0.45 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | S |  66.67
+Last close price for WALUSDT: 0.4508
+Opening Sell for  WALUSDT
+TP: 0.44629199999999997
+SL: 0.459816
+TS: 0.004508
+Order Quantity: 22182.79
+Adjusted qty: 22183.0
+Final Adjusted qty: 22182.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9f376133-7be1-4cb5-865a-252c577140b9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757658938570}
+9f376133-7be1-4cb5-865a-252c577140b9
+fetching trade data for :  9f376133-7be1-4cb5-865a-252c577140b9
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9f376133-7be1-4cb5-865a-252c577140b9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757658938569', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4508', 'execPrice': '0.4508', 'markIv': '', 'orderQty': '22182', 'orderPrice': '0.3607', 'execValue': '9999.6456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205433940, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49980508', 'execId': 'a92f08c0-19f4-4d34-b7f7-29d4b8812aa8', 'marketUnit': '', 'execQty': '22182', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | B |  30.69
+Last close price for WLDUSDT: 1.744
+Opening Buy for  WLDUSDT
+TP: 1.7614400000000001
+SL: 1.70912
+TS: 0.01744
+Order Quantity: 5733.94
+Adjusted qty: 5733.900000000001
+Final Adjusted qty: 5733.9
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '495a7fd1-d777-46db-a8e0-180308ad8b6c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757658950573}
+495a7fd1-d777-46db-a8e0-180308ad8b6c
+fetching trade data for :  495a7fd1-d777-46db-a8e0-180308ad8b6c
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '495a7fd1-d777-46db-a8e0-180308ad8b6c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757658950573', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.744', 'execPrice': '1.7441', 'markIv': '', 'orderQty': '5733.9', 'orderPrice': '1.8312', 'execValue': '10000.49499', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697205434334, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50027225', 'execId': '161833c1-5d75-401a-b3d2-87d701e76061', 'marketUnit': '', 'execQty': '5733.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 10:36:00
