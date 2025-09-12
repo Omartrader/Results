@@ -33218,3 +33218,47 @@ Order Quantity: 2045.09
 Adjusted qty: 2045.1000000000001
 Final Adjusted qty: 2045.0
 2400.0
+***************************************************************
+Number of open positions: 3
+Function started at 12.09.2025 21:35:55
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.39487) 	SMA(14) : 0.39 	Delta :  	Previous STC : 10.34 	STC : 40.22
+	IPUSDT 	Signal: B
+IPUSDT 	Latest Close: (9.7837) 	SMA(14) : 9.75 	Delta :  	Previous STC : 8.98 	STC : 35.10
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    | B |  40.22
+1
+Last close price for XLMUSDT: 0.39531
+Opening Buy for  XLMUSDT
+TP: 0.3992631
+SL: 0.38740379999999996
+TS: 0.0039531
+Order Quantity: 50593.21
+Adjusted qty: 50593.0
+Final Adjusted qty: 50593.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IPUSDT     | B |  35.10
+1
+Last close price for IPUSDT: 9.7837
+Opening Buy for  IPUSDT
+TP: 9.881537
+SL: 9.588026
+TS: 0.097837
+Order Quantity: 2044.22
+Adjusted qty: 2044.2
+Final Adjusted qty: 2044.2
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b54b85ed-e213-4932-b61d-181d80f05f12', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757698582182}
+b54b85ed-e213-4932-b61d-181d80f05f12
+fetching trade data for :  b54b85ed-e213-4932-b61d-181d80f05f12
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b54b85ed-e213-4932-b61d-181d80f05f12', 'stopOrderType': 'UNKNOWN', 'execTime': '1757698582182', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.7801', 'execPrice': '9.7837', 'markIv': '', 'orderQty': '2044.2', 'orderPrice': '10.7581', 'execValue': '19999.83954', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612518509000, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991175', 'execId': '8226133c-5cae-4988-b1bd-f6d94fba38ac', 'marketUnit': '', 'execQty': '2044.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 12.09.2025 21:36:31
