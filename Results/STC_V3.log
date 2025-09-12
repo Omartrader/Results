@@ -31815,3 +31815,34 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 12.09.2025 13:56:00
+***************************************************************
+Number of open positions: 4
+Function started at 12.09.2025 14:00:59
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (3.1885) 	SMA(14) : 3.19 	Delta :  	Previous STC : 97.00 	STC : 92.84
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (115.65) 	SMA(14) : 115.78 	Delta :  	Previous STC : 97.60 	STC : 94.66
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  94.66
+1
+Last close price for LTCUSDT: 115.65
+Opening Sell for  LTCUSDT
+TP: 114.49350000000001
+SL: 117.96300000000001
+TS: 1.1565
+Order Quantity: 172.94
+Adjusted qty: 172.9
+Final Adjusted qty: 172.9
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '97fd6386-5430-4200-a87c-df06f012f7b0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757671284033}
+97fd6386-5430-4200-a87c-df06f012f7b0
+fetching trade data for :  97fd6386-5430-4200-a87c-df06f012f7b0
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '97fd6386-5430-4200-a87c-df06f012f7b0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757671284033', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '115.65', 'execPrice': '115.65', 'markIv': '', 'orderQty': '172.9', 'orderPrice': '109.87', 'execValue': '19995.885', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612517577179, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99773675', 'execId': 'a7c93ab4-5cc9-485a-93f4-bec34d0beb42', 'marketUnit': '', 'execQty': '172.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 12.09.2025 14:01:32
