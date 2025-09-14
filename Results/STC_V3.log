@@ -35264,3 +35264,45 @@ Order Quantity: 940.69
 Adjusted qty: 940.7
 Final Adjusted qty: 940.6
 10610.0
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 16:55:54
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2429) 	SMA(14) : 0.25 	Delta :  	Previous STC : 99.04 	STC : 93.79
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (21.331) 	SMA(14) : 21.50 	Delta :  	Previous STC : 98.77 	STC : 95.52
+	USDEUSDT 	Signal: B
+USDEUSDT 	Latest Close: (1.0003) 	SMA(14) : 1.00 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETCUSDT    | S |  95.52
+1
+Last close price for ETCUSDT: 21.33
+Opening Sell for  ETCUSDT
+TP: 21.116699999999998
+SL: 21.7566
+TS: 0.2133
+Order Quantity: 937.65
+Adjusted qty: 937.6
+Final Adjusted qty: 937.6
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '431a6b1e-1488-475b-b62b-01114cb84533', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757854574841}
+431a6b1e-1488-475b-b62b-01114cb84533
+fetching trade data for :  431a6b1e-1488-475b-b62b-01114cb84533
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '431a6b1e-1488-475b-b62b-01114cb84533', 'stopOrderType': 'UNKNOWN', 'execTime': '1757854574840', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '21.337', 'execPrice': '21.331', 'markIv': '', 'orderQty': '937.6', 'orderPrice': '20.271', 'execValue': '19999.9456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612523712967, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99997008', 'execId': 'c3f45f06-20c0-406c-849e-2fe93f4d7941', 'marketUnit': '', 'execQty': '937.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ALGOUSDT   | S |  93.79
+1
+Last close price for ALGOUSDT: 0.2429
+Opening Sell for  ALGOUSDT
+TP: 0.240471
+SL: 0.247758
+TS: 0.002429
+Order Quantity: 82338.41
+Adjusted qty: 82338.40000000001
+Final Adjusted qty: 82338.4
+160000.0
