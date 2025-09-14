@@ -55481,3 +55481,57 @@ Order Quantity: 32.57
 Adjusted qty: 32.57
 Final Adjusted qty: 32.57
 2514.0
+***************************************************************
+Number of open positions: 7
+Function started at 14.09.2025 17:05:06
+HBARUSDT 	Latest Close: (0.23968) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 98.31 	STC : 91.37
+SEIUSDT 	Latest Close: (0.3332) 	SMA(14) : 0.34 	Delta : S 	Previous STC : 98.13 	STC : 87.00
+SUIUSDT 	Latest Close: (3.6912) 	SMA(14) : 3.74 	Delta : S 	Previous STC : 98.00 	STC : 90.55
+DOTUSDT 	Latest Close: (4.3482) 	SMA(14) : 4.40 	Delta : S 	Previous STC : 97.66 	STC : 86.21
+UNIUSDT 	Latest Close: (9.483) 	SMA(14) : 9.57 	Delta : S 	Previous STC : 98.84 	STC : 93.89
+ICPUSDT 	Latest Close: (4.902) 	SMA(14) : 4.96 	Delta : S 	Previous STC : 96.86 	STC : 81.74
+AAVEUSDT 	Latest Close: (306.66) 	SMA(14) : 309.14 	Delta : S 	Previous STC : 97.48 	STC : 91.47
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  93.89
+Last close price for UNIUSDT: 9.482
+Opening Sell for  UNIUSDT
+TP: 9.387179999999999
+SL: 9.67164
+TS: 0.09481999999999999
+Order Quantity: 1054.63
+Adjusted qty: 1054.6000000000001
+Final Adjusted qty: 1054.6
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AAVEUSDT   | S |  91.47
+Last close price for AAVEUSDT: 306.72
+Opening Sell for  AAVEUSDT
+TP: 303.6528
+SL: 312.85440000000006
+TS: 3.0672
+Order Quantity: 32.6
+Adjusted qty: 32.6
+Final Adjusted qty: 32.6
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aa1bcb7d-8e65-4230-8118-ac21fdb82608', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757855148115}
+aa1bcb7d-8e65-4230-8118-ac21fdb82608
+fetching trade data for :  aa1bcb7d-8e65-4230-8118-ac21fdb82608
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aa1bcb7d-8e65-4230-8118-ac21fdb82608', 'stopOrderType': 'UNKNOWN', 'execTime': '1757855148114', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '306.73', 'execPrice': '306.72', 'markIv': '', 'orderQty': '32.6', 'orderPrice': '291.4', 'execValue': '9999.072', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211974381, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4994896', 'execId': '67f3abdc-8c8f-4657-a5d6-594878ef2c87', 'marketUnit': '', 'execQty': '32.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HBARUSDT   | S |  91.37
+Last close price for HBARUSDT: 0.23981
+Opening Sell for  HBARUSDT
+TP: 0.23741189999999998
+SL: 0.2446062
+TS: 0.0023981
+Order Quantity: 41699.68
+Adjusted qty: 41700.0
+Final Adjusted qty: 41699.0
+1064600.0
