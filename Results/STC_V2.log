@@ -56162,3 +56162,48 @@ Function started at 14.09.2025 20:25:05
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 14.09.2025 20:25:30
+***************************************************************
+Number of open positions: 2
+Function started at 14.09.2025 20:30:07
+LINEAUSDT 	Latest Close: (0.03045) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 8.91 	STC : 39.27
+HYPEUSDT 	Latest Close: (54.649) 	SMA(14) : 54.09 	Delta : B 	Previous STC : 6.09 	STC : 31.86
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINEAUSDT  | B |  39.27
+Last close price for LINEAUSDT: 0.03048
+Opening Buy for  LINEAUSDT
+TP: 0.0307848
+SL: 0.0298704
+TS: 0.0003048
+Order Quantity: 328083.99
+Adjusted qty: 328080.0
+Final Adjusted qty: 328080.0
+1000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '31183505-7121-4a43-87b8-5a5878096531', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757867429147}
+31183505-7121-4a43-87b8-5a5878096531
+fetching trade data for :  31183505-7121-4a43-87b8-5a5878096531
+[{'symbol': 'LINEAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '31183505-7121-4a43-87b8-5a5878096531', 'stopOrderType': 'UNKNOWN', 'execTime': '1757867429146', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.03051', 'execPrice': '0.03052', 'markIv': '', 'orderQty': '328080', 'orderPrice': '0.03508', 'execValue': '10013.0016', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212375158, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50715088', 'execId': '0583da8c-29c2-4641-a371-62ebc8060729', 'marketUnit': '', 'execQty': '328080', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  31.86
+Last close price for HYPEUSDT: 54.631
+Opening Buy for  HYPEUSDT
+TP: 55.17731
+SL: 53.53838
+TS: 0.54631
+Order Quantity: 183.05
+Adjusted qty: 183.05
+Final Adjusted qty: 183.05
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e19d285d-838c-47ef-b242-c079ce06b2a1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757867440286}
+e19d285d-838c-47ef-b242-c079ce06b2a1
+fetching trade data for :  e19d285d-838c-47ef-b242-c079ce06b2a1
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e19d285d-838c-47ef-b242-c079ce06b2a1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757867440285', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '54.634', 'execPrice': '54.634', 'markIv': '', 'orderQty': '183.05', 'orderPrice': '71.024', 'execValue': '10000.7537', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212375516, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50041454', 'execId': '29a63520-56b2-4841-a30b-32247db99dd0', 'marketUnit': '', 'execQty': '183.05', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 20:30:50
