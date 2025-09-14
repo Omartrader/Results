@@ -34034,3 +34034,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 10:16:33
+***************************************************************
+Number of open positions: 1
+Function started at 14.09.2025 10:21:20
+	MYXUSDT 	Signal: B
+MYXUSDT 	Latest Close: (11.2645) 	SMA(14) : 11.10 	Delta :  	Previous STC : 13.10 	STC : 25.16
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4664.23) 	SMA(14) : 4667.40 	Delta :  	Previous STC : 100.00 	STC : 92.95
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | S |  92.95
+1
+Last close price for ETHUSDT: 4665.41
+Opening Sell for  ETHUSDT
+TP: 4618.7559
+SL: 4758.7182
+TS: 46.6541
+Order Quantity: 4.29
+Adjusted qty: 4.29
+Final Adjusted qty: 4.29
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b301af34-94fd-417e-97cf-47fd04f2f0aa', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757830906749}
+b301af34-94fd-417e-97cf-47fd04f2f0aa
+fetching trade data for :  b301af34-94fd-417e-97cf-47fd04f2f0aa
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b301af34-94fd-417e-97cf-47fd04f2f0aa', 'stopOrderType': 'UNKNOWN', 'execTime': '1757830906748', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4665.4', 'execPrice': '4665.56', 'markIv': '', 'orderQty': '4.29', 'orderPrice': '4572.1', 'execValue': '20015.2524', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612522924448, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00838882', 'execId': '85d3fc1c-2340-40fc-b324-40c6979be13e', 'marketUnit': '', 'execQty': '4.29', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MYXUSDT    | B |  25.16
+1
+Last close price for MYXUSDT: 11.234
+Opening Buy for  MYXUSDT
+TP: 11.34634
+SL: 11.00932
+TS: 0.11234
+Order Quantity: 1780.31
+Adjusted qty: 1780.0
+Final Adjusted qty: 1780.0
+50000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 14.09.2025 10:21:59
