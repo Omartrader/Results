@@ -54074,3 +54074,48 @@ Order Quantity: 7560.86
 Adjusted qty: 7561.0
 Final Adjusted qty: 7560.0
 40000.0
+***************************************************************
+Number of open positions: 7
+Function started at 14.09.2025 12:45:06
+WIFUSDT 	Latest Close: (0.9654) 	SMA(14) : 0.96 	Delta : B 	Previous STC : 24.87 	STC : 49.91
+FORMUSDT 	Latest Close: (2.3562) 	SMA(14) : 2.35 	Delta : B 	Previous STC : 13.31 	STC : 42.21
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WIFUSDT    | B |  49.91
+Last close price for WIFUSDT: 0.9657
+Opening Buy for  WIFUSDT
+TP: 0.975357
+SL: 0.946386
+TS: 0.009657
+Order Quantity: 10355.18
+Adjusted qty: 10355.0
+Final Adjusted qty: 10355.0
+98500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b9082caf-fcc0-4c5d-b313-ed9e1333e9a5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757839550943}
+b9082caf-fcc0-4c5d-b313-ed9e1333e9a5
+fetching trade data for :  b9082caf-fcc0-4c5d-b313-ed9e1333e9a5
+[{'symbol': 'WIFUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b9082caf-fcc0-4c5d-b313-ed9e1333e9a5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757839550942', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9656', 'execPrice': '0.9656', 'markIv': '', 'orderQty': '10355', 'orderPrice': '1.0138', 'execValue': '9998.788', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211474051, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4993334', 'execId': '0a5752b0-5b1c-44d4-b7a1-3499a12c74e7', 'marketUnit': '', 'execQty': '10355', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FORMUSDT   | B |  42.21
+Last close price for FORMUSDT: 2.3562
+Opening Buy for  FORMUSDT
+TP: 2.379762
+SL: 2.3090759999999997
+TS: 0.023562
+Order Quantity: 4244.12
+Adjusted qty: 4244.0
+Final Adjusted qty: 4244.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1e6bbf8a-841c-4df6-b697-4d1fefb2d085', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757839563630}
+1e6bbf8a-841c-4df6-b697-4d1fefb2d085
+fetching trade data for :  1e6bbf8a-841c-4df6-b697-4d1fefb2d085
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1e6bbf8a-841c-4df6-b697-4d1fefb2d085', 'stopOrderType': 'UNKNOWN', 'execTime': '1757839563629', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.3567', 'execPrice': '2.3562', 'markIv': '', 'orderQty': '2850', 'orderPrice': '2.7102', 'execValue': '6715.17', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211474462, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.6933435', 'execId': '938c47d7-6028-4be6-bee8-45f7b36f5f64', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 12:46:14
