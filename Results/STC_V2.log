@@ -58033,3 +58033,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 01:35:40
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 01:40:05
+MYXUSDT 	Latest Close: (10.7882) 	SMA(14) : 10.87 	Delta : S 	Previous STC : 98.90 	STC : 90.89
+HYPEUSDT 	Latest Close: (54.0) 	SMA(14) : 54.28 	Delta : S 	Previous STC : 99.55 	STC : 94.97
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | S |  94.97
+Last close price for HYPEUSDT: 54.007
+Opening Sell for  HYPEUSDT
+TP: 53.46693
+SL: 55.08714
+TS: 0.5400699999999999
+Order Quantity: 185.16
+Adjusted qty: 185.16
+Final Adjusted qty: 185.16
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | S |  90.89
+Last close price for MYXUSDT: 10.8286
+Opening Sell for  MYXUSDT
+TP: 10.720314
+SL: 11.045171999999999
+TS: 0.108286
+Order Quantity: 923.48
+Adjusted qty: 923.0
+Final Adjusted qty: 923.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '48d0d6e6-12dc-4d98-a24e-f4e7bed57149', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757886049832}
+48d0d6e6-12dc-4d98-a24e-f4e7bed57149
+fetching trade data for :  48d0d6e6-12dc-4d98-a24e-f4e7bed57149
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '48d0d6e6-12dc-4d98-a24e-f4e7bed57149', 'stopOrderType': 'UNKNOWN', 'execTime': '1757886049831', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.82072', 'execPrice': '10.8274', 'markIv': '', 'orderQty': '923', 'orderPrice': '9.1977', 'execValue': '9993.6902', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212974551, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99305922', 'execId': 'fbc3b5c4-b199-4193-836d-4509cfe1b9de', 'marketUnit': '', 'execQty': '923', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 01:40:59
