@@ -53212,3 +53212,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 10:15:53
+***************************************************************
+Number of open positions: 2
+Function started at 14.09.2025 10:20:06
+MYXUSDT 	Latest Close: (11.2845) 	SMA(14) : 11.10 	Delta : B 	Previous STC : 13.10 	STC : 25.16
+MORPHOUSDT 	Latest Close: (2.0873) 	SMA(14) : 2.09 	Delta : S 	Previous STC : 100.00 	STC : 81.14
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MORPHOUSDT | S |  81.14
+Last close price for MORPHOUSDT: 2.0873
+Opening Sell for  MORPHOUSDT
+TP: 2.066427
+SL: 2.1290459999999998
+TS: 0.020873
+Order Quantity: 4790.88
+Adjusted qty: 4791.0
+Final Adjusted qty: 4790.0
+14000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6ee6db54-8bad-4983-b89c-417bde74e1e6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757830852911}
+6ee6db54-8bad-4983-b89c-417bde74e1e6
+fetching trade data for :  6ee6db54-8bad-4983-b89c-417bde74e1e6
+[{'symbol': 'MORPHOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6ee6db54-8bad-4983-b89c-417bde74e1e6', 'stopOrderType': 'UNKNOWN', 'execTime': '1757830852910', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.0872', 'execPrice': '2.0873', 'markIv': '', 'orderQty': '4790', 'orderPrice': '1.7742', 'execValue': '9998.167', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211197333, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49899185', 'execId': '27ca68ed-9617-466a-a0e9-862020f0fb6b', 'marketUnit': '', 'execQty': '4790', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MYXUSDT    | B |  25.16
+Last close price for MYXUSDT: 11.3021
+Opening Buy for  MYXUSDT
+TP: 11.415121
+SL: 11.076058
+TS: 0.113021
+Order Quantity: 884.79
+Adjusted qty: 885.0
+Final Adjusted qty: 884.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b5773ce6-4bc7-4c70-b58a-50729fa3b9d2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757830865530}
+b5773ce6-4bc7-4c70-b58a-50729fa3b9d2
+fetching trade data for :  b5773ce6-4bc7-4c70-b58a-50729fa3b9d2
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b5773ce6-4bc7-4c70-b58a-50729fa3b9d2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757830865529', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '11.28711', 'execPrice': '11.3024', 'markIv': '', 'orderQty': '884', 'orderPrice': '12.9801', 'execValue': '9991.3216', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211197711, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99045376', 'execId': '41581d15-01c8-41fd-94aa-67cdf3467e72', 'marketUnit': '', 'execQty': '884', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 10:21:16
