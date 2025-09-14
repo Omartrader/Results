@@ -54808,3 +54808,58 @@ Order Quantity: 184.48
 Adjusted qty: 184.48
 Final Adjusted qty: 184.48
 980.0
+***************************************************************
+Number of open positions: 7
+Function started at 14.09.2025 15:20:06
+CROUSDT 	Latest Close: (0.24295) 	SMA(14) : 0.25 	Delta : S 	Previous STC : 98.26 	STC : 87.97
+SYRUPUSDT 	Latest Close: (0.47136) 	SMA(14) : 0.47 	Delta : S 	Previous STC : 100.00 	STC : 94.16
+HYPEUSDT 	Latest Close: (54.146) 	SMA(14) : 54.39 	Delta : S 	Previous STC : 98.72 	STC : 95.28
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | S |  95.28
+Last close price for HYPEUSDT: 54.131
+Opening Sell for  HYPEUSDT
+TP: 53.58969
+SL: 55.21362
+TS: 0.54131
+Order Quantity: 184.74
+Adjusted qty: 184.74
+Final Adjusted qty: 184.74
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '74ab8db9-50a2-47df-a7a8-75eac7fcb144', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757848848592}
+74ab8db9-50a2-47df-a7a8-75eac7fcb144
+fetching trade data for :  74ab8db9-50a2-47df-a7a8-75eac7fcb144
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '74ab8db9-50a2-47df-a7a8-75eac7fcb144', 'stopOrderType': 'UNKNOWN', 'execTime': '1757848848591', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '54.14', 'execPrice': '54.131', 'markIv': '', 'orderQty': '184.74', 'orderPrice': '37.898', 'execValue': '10000.16094', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211770286, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50008852', 'execId': 'bb3eb1bd-d636-4705-a9f2-d9b6ffec9e91', 'marketUnit': '', 'execQty': '184.74', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  94.16
+Last close price for SYRUPUSDT: 0.47151
+Opening Sell for  SYRUPUSDT
+TP: 0.46679489999999996
+SL: 0.4809402
+TS: 0.0047151
+Order Quantity: 21208.46
+Adjusted qty: 21208.0
+Final Adjusted qty: 21208.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9dbd78aa-b9b3-4d16-bc70-556e1f22af61', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757848861203}
+9dbd78aa-b9b3-4d16-bc70-556e1f22af61
+fetching trade data for :  9dbd78aa-b9b3-4d16-bc70-556e1f22af61
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9dbd78aa-b9b3-4d16-bc70-556e1f22af61', 'stopOrderType': 'UNKNOWN', 'execTime': '1757848861201', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.47149', 'execPrice': '0.4716', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.42435', 'execValue': '4716', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211770679, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.5938', 'execId': '7becd072-12fb-4d6c-8192-1133880b61c5', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | S |  87.97
+Last close price for CROUSDT: 0.24328
+Opening Sell for  CROUSDT
+TP: 0.24084719999999998
+SL: 0.2481456
+TS: 0.0024328
+Order Quantity: 41104.9
+Adjusted qty: 41105.0
+Final Adjusted qty: 41104.0
+79800.0
