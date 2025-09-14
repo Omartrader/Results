@@ -56101,3 +56101,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 20:05:57
+***************************************************************
+Number of open positions: 1
+Function started at 14.09.2025 20:10:07
+COREUSDT 	Latest Close: (0.4594) 	SMA(14) : 0.46 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+BUSDT 	Latest Close: (0.53593) 	SMA(14) : 0.53 	Delta : B 	Previous STC : 5.21 	STC : 36.80
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | B |  36.80
+Last close price for BUSDT: 0.53593
+Opening Buy for  BUSDT
+TP: 0.5412893
+SL: 0.5252114
+TS: 0.0053593
+Order Quantity: 18659.15
+Adjusted qty: 18659.0
+Final Adjusted qty: 18659.0
+90000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9fe2e7bd-237d-4838-b6ce-93adf0d05a15', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757866242597}
+9fe2e7bd-237d-4838-b6ce-93adf0d05a15
+fetching trade data for :  9fe2e7bd-237d-4838-b6ce-93adf0d05a15
+[{'symbol': 'BUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9fe2e7bd-237d-4838-b6ce-93adf0d05a15', 'stopOrderType': 'UNKNOWN', 'execTime': '1757866242596', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.53593', 'execPrice': '0.53593', 'markIv': '', 'orderQty': '18659', 'orderPrice': '0.61631', 'execValue': '9999.91787', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212336522, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99990966', 'execId': 'e04711d9-8f11-47f7-8cc9-f7a1e48eacc7', 'marketUnit': '', 'execQty': '18659', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+COREUSDT   | B |  33.33
+Last close price for COREUSDT: 0.4594
+Opening Buy for  COREUSDT
+TP: 0.46399399999999996
+SL: 0.45021199999999995
+TS: 0.004594
+Order Quantity: 21767.52
+Adjusted qty: 21767.5
+Final Adjusted qty: 21767.5
+13560.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 14.09.2025 20:10:53
