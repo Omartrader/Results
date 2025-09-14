@@ -36261,3 +36261,47 @@ Order Quantity: 195.22
 Adjusted qty: 195.22
 Final Adjusted qty: 195.22
 279.0
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 21:26:18
+	ENAUSDT 	Signal: B
+ENAUSDT 	Latest Close: (0.7489) 	SMA(14) : 0.74 	Delta :  	Previous STC : 11.69 	STC : 41.12
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (102.56) 	SMA(14) : 102.09 	Delta :  	Previous STC : 6.76 	STC : 37.84
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | B |  41.12
+1
+Last close price for ENAUSDT: 0.7495
+Opening Buy for  ENAUSDT
+TP: 0.7569950000000001
+SL: 0.73451
+TS: 0.007495000000000001
+Order Quantity: 26684.46
+Adjusted qty: 26684.0
+Final Adjusted qty: 26684.0
+100000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+QNTUSDT    | B |  37.84
+1
+Last close price for QNTUSDT: 102.56
+Opening Buy for  QNTUSDT
+TP: 103.5856
+SL: 100.5088
+TS: 1.0256
+Order Quantity: 195.01
+Adjusted qty: 195.01
+Final Adjusted qty: 195.01
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9c70dbe8-ce2f-4631-bce6-f6f923f79e1e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757870809710}
+9c70dbe8-ce2f-4631-bce6-f6f923f79e1e
+fetching trade data for :  9c70dbe8-ce2f-4631-bce6-f6f923f79e1e
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9c70dbe8-ce2f-4631-bce6-f6f923f79e1e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757870809709', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '102.57', 'execPrice': '102.56', 'markIv': '', 'orderQty': '195.01', 'orderPrice': '112.82', 'execValue': '20000.2256', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612524262215, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00012408', 'execId': '3f31c6e7-facc-47c4-93a5-8bc712dc0f25', 'marketUnit': '', 'execQty': '195.01', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 21:27:00
