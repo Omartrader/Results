@@ -54000,3 +54000,40 @@ Order Quantity: 1010.36
 Adjusted qty: 1010.4000000000001
 Final Adjusted qty: 1010.3
 2400.0
+***************************************************************
+Number of open positions: 7
+Function started at 14.09.2025 12:35:06
+LINEAUSDT 	Latest Close: (0.02993) 	SMA(14) : 0.03 	Delta : S 	Previous STC : 99.99 	STC : 66.66
+WLFIUSDT 	Latest Close: (0.2283) 	SMA(14) : 0.22 	Delta : B 	Previous STC : 7.57 	STC : 27.30
+IPUSDT 	Latest Close: (9.8524) 	SMA(14) : 9.73 	Delta : B 	Previous STC : 13.84 	STC : 42.56
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINEAUSDT  | S |  66.66
+Last close price for LINEAUSDT: 0.02999
+Opening Sell for  LINEAUSDT
+TP: 0.0296901
+SL: 0.0305898
+TS: 0.00029989999999999997
+Order Quantity: 333444.48
+Adjusted qty: 333440.0
+Final Adjusted qty: 333440.0
+1000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bf6c6820-16c7-4346-8931-b41a3e123f9b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757838950844}
+bf6c6820-16c7-4346-8931-b41a3e123f9b
+fetching trade data for :  bf6c6820-16c7-4346-8931-b41a3e123f9b
+[{'symbol': 'LINEAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bf6c6820-16c7-4346-8931-b41a3e123f9b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757838950843', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02998', 'execPrice': '0.02999', 'markIv': '', 'orderQty': '333440', 'orderPrice': '0.02549', 'execValue': '9999.8656', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211455109, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992608', 'execId': '8bf81461-d56b-4986-97b8-0ae0437d0f5a', 'marketUnit': '', 'execQty': '333440', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     | B |  42.56
+Last close price for IPUSDT: 9.8525
+Opening Buy for  IPUSDT
+TP: 9.951025
+SL: 9.655449999999998
+TS: 0.09852499999999999
+Order Quantity: 1014.97
+Adjusted qty: 1015.0
+Final Adjusted qty: 1014.9
+2400.0
