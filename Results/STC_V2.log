@@ -55306,3 +55306,73 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 14.09.2025 16:46:21
+***************************************************************
+Number of open positions: 9
+Function started at 14.09.2025 16:50:06
+BRETTUSDT 	Latest Close: (0.05261) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 96.64 	STC : 86.98
+STRKUSDT 	Latest Close: (0.1314) 	SMA(14) : 0.13 	Delta : S 	Previous STC : 97.02 	STC : 90.61
+ALGOUSDT 	Latest Close: (0.2427) 	SMA(14) : 0.25 	Delta : S 	Previous STC : 99.04 	STC : 93.72
+ETCUSDT 	Latest Close: (21.278) 	SMA(14) : 21.50 	Delta : S 	Previous STC : 98.77 	STC : 95.28
+USDEUSDT 	Latest Close: (1.0003) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETCUSDT    | S |  95.28
+Last close price for ETCUSDT: 21.266
+Opening Sell for  ETCUSDT
+TP: 21.05334
+SL: 21.691319999999997
+TS: 0.21266
+Order Quantity: 470.23
+Adjusted qty: 470.20000000000005
+Final Adjusted qty: 470.2
+10610.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ALGOUSDT   | S |  93.72
+Last close price for ALGOUSDT: 0.2425
+Opening Sell for  ALGOUSDT
+TP: 0.24007499999999998
+SL: 0.24735
+TS: 0.002425
+Order Quantity: 41237.11
+Adjusted qty: 41237.100000000006
+Final Adjusted qty: 41237.1
+160000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+STRKUSDT   | S |  90.61
+Last close price for STRKUSDT: 0.1313
+Opening Sell for  STRKUSDT
+TP: 0.129987
+SL: 0.133926
+TS: 0.001313
+Order Quantity: 76161.46
+Adjusted qty: 76161.5
+Final Adjusted qty: 76161.4
+119050.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+BRETTUSDT  | S |  86.98
+Last close price for BRETTUSDT: 0.05249
+Opening Sell for  BRETTUSDT
+TP: 0.0519651
+SL: 0.053539800000000005
+TS: 0.0005249
+Order Quantity: 190512.48
+Adjusted qty: 190510.0
+Final Adjusted qty: 190510.0
+400000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4b0ffd64-b046-44db-abb0-a1062b4074de', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757854244243}
+4b0ffd64-b046-44db-abb0-a1062b4074de
+fetching trade data for :  4b0ffd64-b046-44db-abb0-a1062b4074de
+[{'symbol': 'BRETTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4b0ffd64-b046-44db-abb0-a1062b4074de', 'stopOrderType': 'UNKNOWN', 'execTime': '1757854244242', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.05249', 'execPrice': '0.05249', 'markIv': '', 'orderQty': '190510', 'orderPrice': '0.04462', 'execValue': '9999.8699', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211945016, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992845', 'execId': '0ab715d8-bd37-49a6-8c53-4b2353540609', 'marketUnit': '', 'execQty': '190510', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 14.09.2025 16:50:53
