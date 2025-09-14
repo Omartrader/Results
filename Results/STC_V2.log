@@ -53887,3 +53887,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 12:15:56
+***************************************************************
+Number of open positions: 6
+Function started at 14.09.2025 12:20:06
+TRXUSDT 	Latest Close: (0.34965) 	SMA(14) : 0.35 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MNTUSDT 	Latest Close: (1.633) 	SMA(14) : 1.65 	Delta : S 	Previous STC : 99.66 	STC : 95.78
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  95.78
+Last close price for MNTUSDT: 1.6332
+Opening Sell for  MNTUSDT
+TP: 1.616868
+SL: 1.665864
+TS: 0.016332
+Order Quantity: 6122.95
+Adjusted qty: 6123.0
+Final Adjusted qty: 6122.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f2c6dcaf-2aac-496f-a78e-242cfa7cf1a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757838044461}
+f2c6dcaf-2aac-496f-a78e-242cfa7cf1a8
+fetching trade data for :  f2c6dcaf-2aac-496f-a78e-242cfa7cf1a8
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f2c6dcaf-2aac-496f-a78e-242cfa7cf1a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757838044460', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6332', 'execPrice': '1.6332', 'markIv': '', 'orderQty': '6122', 'orderPrice': '1.4699', 'execValue': '9998.4504', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211426281, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49914772', 'execId': 'e643d1c3-c9a4-46e6-8d67-cc54ac7081f6', 'marketUnit': '', 'execQty': '6122', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRXUSDT    | S |  66.67
+Last close price for TRXUSDT: 0.34974
+Opening Sell for  TRXUSDT
+TP: 0.3462426
+SL: 0.3567348
+TS: 0.0034974
+Order Quantity: 28592.67
+Adjusted qty: 28593.0
+Final Adjusted qty: 28592.0
+1356000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 14.09.2025 12:20:55
