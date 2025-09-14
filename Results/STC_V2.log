@@ -55440,3 +55440,44 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 14.09.2025 16:55:50
+***************************************************************
+Number of open positions: 7
+Function started at 14.09.2025 17:00:06
+HBARUSDT 	Latest Close: (0.23996) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 98.31 	STC : 91.48
+SEIUSDT 	Latest Close: (0.3331) 	SMA(14) : 0.34 	Delta : S 	Previous STC : 98.13 	STC : 86.92
+SUIUSDT 	Latest Close: (3.692) 	SMA(14) : 3.74 	Delta : S 	Previous STC : 98.00 	STC : 90.56
+DOTUSDT 	Latest Close: (4.3453) 	SMA(14) : 4.40 	Delta : S 	Previous STC : 97.66 	STC : 86.13
+UNIUSDT 	Latest Close: (9.476) 	SMA(14) : 9.56 	Delta : S 	Previous STC : 98.84 	STC : 93.84
+ICPUSDT 	Latest Close: (4.903) 	SMA(14) : 4.96 	Delta : S 	Previous STC : 96.86 	STC : 81.79
+AAVEUSDT 	Latest Close: (307.06) 	SMA(14) : 309.17 	Delta : S 	Previous STC : 97.48 	STC : 91.58
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  93.84
+Last close price for UNIUSDT: 9.49
+Opening Sell for  UNIUSDT
+TP: 9.3951
+SL: 9.6798
+TS: 0.0949
+Order Quantity: 1053.74
+Adjusted qty: 1053.7
+Final Adjusted qty: 1053.7
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4ec983fb-0891-4910-bddb-e873f88acd6b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757854842176}
+4ec983fb-0891-4910-bddb-e873f88acd6b
+fetching trade data for :  4ec983fb-0891-4910-bddb-e873f88acd6b
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4ec983fb-0891-4910-bddb-e873f88acd6b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757854842175', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.49', 'execPrice': '9.49', 'markIv': '', 'orderQty': '1053.7', 'orderPrice': '9.016', 'execValue': '9999.613', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211964587, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49978715', 'execId': 'fe459a1f-88fb-46ab-b7a3-12a23438e64a', 'marketUnit': '', 'execQty': '1053.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   | S |  91.58
+Last close price for AAVEUSDT: 307.06
+Opening Sell for  AAVEUSDT
+TP: 303.9894
+SL: 313.20120000000003
+TS: 3.0706
+Order Quantity: 32.57
+Adjusted qty: 32.57
+Final Adjusted qty: 32.57
+2514.0
