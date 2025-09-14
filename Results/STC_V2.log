@@ -56632,3 +56632,85 @@ Order Quantity: 6261.35
 Adjusted qty: 6261.0
 Final Adjusted qty: 6261.0
 20000.0
+***************************************************************
+Number of open positions: 8
+Function started at 14.09.2025 21:25:09
+ENAUSDT 	Latest Close: (0.7479) 	SMA(14) : 0.74 	Delta : B 	Previous STC : 11.69 	STC : 41.12
+MANAUSDT 	Latest Close: (0.3501) 	SMA(14) : 0.35 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+EIGENUSDT 	Latest Close: (1.6034) 	SMA(14) : 1.58 	Delta : B 	Previous STC : 2.37 	STC : 29.26
+DYDXUSDT 	Latest Close: (0.6442) 	SMA(14) : 0.64 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+JTOUSDT 	Latest Close: (1.937) 	SMA(14) : 1.92 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | B |  41.12
+Last close price for ENAUSDT: 0.7484
+Opening Buy for  ENAUSDT
+TP: 0.755884
+SL: 0.733432
+TS: 0.007483999999999999
+Order Quantity: 13361.84
+Adjusted qty: 13362.0
+Final Adjusted qty: 13361.0
+100000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JTOUSDT    | B |  33.33
+Last close price for JTOUSDT: 1.937
+Opening Buy for  JTOUSDT
+TP: 1.9563700000000002
+SL: 1.89826
+TS: 0.019370000000000002
+Order Quantity: 5162.62
+Adjusted qty: 5162.6
+Final Adjusted qty: 5162.6
+27570.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+DYDXUSDT   | B |  33.33
+Last close price for DYDXUSDT: 0.6443
+Opening Buy for  DYDXUSDT
+TP: 0.650743
+SL: 0.6314139999999999
+TS: 0.006443
+Order Quantity: 15520.72
+Adjusted qty: 15520.7
+Final Adjusted qty: 15520.7
+72560.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MANAUSDT   | B |  33.33
+Last close price for MANAUSDT: 0.3498
+Opening Buy for  MANAUSDT
+TP: 0.353298
+SL: 0.342804
+TS: 0.003498
+Order Quantity: 28587.76
+Adjusted qty: 28587.800000000003
+Final Adjusted qty: 28587.7
+226290.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+EIGENUSDT  | B |  29.26
+Last close price for EIGENUSDT: 1.6037
+Opening Buy for  EIGENUSDT
+TP: 1.619737
+SL: 1.571626
+TS: 0.016037
+Order Quantity: 6235.58
+Adjusted qty: 6236.0
+Final Adjusted qty: 6235.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8c2d9506-cd50-4d1e-a6e3-7f1319ec9451', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757870763150}
+8c2d9506-cd50-4d1e-a6e3-7f1319ec9451
+fetching trade data for :  8c2d9506-cd50-4d1e-a6e3-7f1319ec9451
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8c2d9506-cd50-4d1e-a6e3-7f1319ec9451', 'stopOrderType': 'UNKNOWN', 'execTime': '1757870763149', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6033', 'execPrice': '1.6034', 'markIv': '', 'orderQty': '6235', 'orderPrice': '1.7636', 'execValue': '9997.199', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212482163, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49845945', 'execId': 'a3d03cfb-3c24-42d1-9153-94bc5293fa6a', 'marketUnit': '', 'execQty': '6235', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 21:26:13
