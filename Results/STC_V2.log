@@ -56207,3 +56207,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 20:30:50
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 20:35:06
+LINEAUSDT 	Latest Close: (0.03061) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 8.91 	STC : 39.27
+HYPEUSDT 	Latest Close: (54.72) 	SMA(14) : 54.09 	Delta : B 	Previous STC : 6.09 	STC : 32.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINEAUSDT  | B |  39.27
+Last close price for LINEAUSDT: 0.03064
+Opening Buy for  LINEAUSDT
+TP: 0.030946400000000002
+SL: 0.0300272
+TS: 0.0003064
+Order Quantity: 326370.76
+Adjusted qty: 326370.0
+Final Adjusted qty: 326370.0
+1000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '94f39889-7dc1-4988-90e5-d138730d7319', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757867728980}
+94f39889-7dc1-4988-90e5-d138730d7319
+fetching trade data for :  94f39889-7dc1-4988-90e5-d138730d7319
+[{'symbol': 'LINEAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '94f39889-7dc1-4988-90e5-d138730d7319', 'stopOrderType': 'UNKNOWN', 'execTime': '1757867728979', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.03064', 'execPrice': '0.03068', 'markIv': '', 'orderQty': '326370', 'orderPrice': '0.03523', 'execValue': '10013.0316', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212384728, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50716738', 'execId': 'a6ef977b-d6c3-4d95-a66d-1dcf71c0b3b5', 'marketUnit': '', 'execQty': '326370', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  32.23
+Last close price for HYPEUSDT: 54.716
+Opening Buy for  HYPEUSDT
+TP: 55.26316
+SL: 53.62168
+TS: 0.54716
+Order Quantity: 182.76
+Adjusted qty: 182.76
+Final Adjusted qty: 182.76
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 14.09.2025 20:35:39
