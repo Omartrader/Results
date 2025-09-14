@@ -36068,3 +36068,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 20:51:33
+***************************************************************
+Number of open positions: 2
+Function started at 14.09.2025 20:56:32
+	MYXUSDT 	Signal: B
+MYXUSDT 	Latest Close: (11.146) 	SMA(14) : 10.82 	Delta :  	Previous STC : 16.59 	STC : 26.28
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (348.52) 	SMA(14) : 347.53 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | B |  33.33
+1
+Last close price for TAOUSDT: 348.52
+Opening Buy for  TAOUSDT
+TP: 352.0052
+SL: 341.5496
+TS: 3.4852
+Order Quantity: 57.39
+Adjusted qty: 57.39
+Final Adjusted qty: 57.39
+60.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  26.28
+1
+Last close price for MYXUSDT: 11.1926
+Opening Buy for  MYXUSDT
+TP: 11.304526000000001
+SL: 10.968748
+TS: 0.11192600000000001
+Order Quantity: 1786.89
+Adjusted qty: 1787.0
+Final Adjusted qty: 1786.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '10a9008f-900c-448c-bc30-3bdd4d7521ea', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757869022561}
+10a9008f-900c-448c-bc30-3bdd4d7521ea
+fetching trade data for :  10a9008f-900c-448c-bc30-3bdd4d7521ea
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '10a9008f-900c-448c-bc30-3bdd4d7521ea', 'stopOrderType': 'UNKNOWN', 'execTime': '1757869022560', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '11.1961', 'execPrice': '11.2002', 'markIv': '', 'orderQty': '1786', 'orderPrice': '12.8755', 'execValue': '20003.5572', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612524202284, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '22.00391292', 'execId': '742d3e05-21d1-493d-b323-411a8f197100', 'marketUnit': '', 'execQty': '1786', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 20:57:13
