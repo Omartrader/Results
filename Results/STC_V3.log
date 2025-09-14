@@ -36186,3 +36186,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 14.09.2025 21:11:35
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 21:16:58
+	ENAUSDT 	Signal: B
+ENAUSDT 	Latest Close: (0.7464) 	SMA(14) : 0.74 	Delta :  	Previous STC : 11.69 	STC : 41.12
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (102.6) 	SMA(14) : 102.10 	Delta :  	Previous STC : 6.76 	STC : 37.84
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | B |  41.12
+1
+Last close price for ENAUSDT: 0.747
+Opening Buy for  ENAUSDT
+TP: 0.75447
+SL: 0.7320599999999999
+TS: 0.00747
+Order Quantity: 26773.76
+Adjusted qty: 26774.0
+Final Adjusted qty: 26773.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4caf66ee-258e-446f-a1f7-fce2a9a28e08', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757870248740}
+4caf66ee-258e-446f-a1f7-fce2a9a28e08
+fetching trade data for :  4caf66ee-258e-446f-a1f7-fce2a9a28e08
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4caf66ee-258e-446f-a1f7-fce2a9a28e08', 'stopOrderType': 'UNKNOWN', 'execTime': '1757870248739', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.747', 'execPrice': '0.7469', 'markIv': '', 'orderQty': '26773', 'orderPrice': '0.8217', 'execValue': '19996.7537', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612524243325, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99821454', 'execId': '80ccd82f-e218-488f-9027-122d387f5122', 'marketUnit': '', 'execQty': '26773', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+QNTUSDT    | B |  37.84
+1
+Last close price for QNTUSDT: 102.6
+Opening Buy for  QNTUSDT
+TP: 103.62599999999999
+SL: 100.54799999999999
+TS: 1.026
+Order Quantity: 194.93
+Adjusted qty: 194.93
+Final Adjusted qty: 194.93
+279.0
