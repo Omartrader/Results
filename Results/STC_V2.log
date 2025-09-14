@@ -54436,3 +54436,42 @@ Order Quantity: 50025.01
 Adjusted qty: 50025.0
 Final Adjusted qty: 50025.0
 26600.0
+***************************************************************
+Number of open positions: 8
+Function started at 14.09.2025 14:05:07
+ONDOUSDT 	Latest Close: (1.068) 	SMA(14) : 1.07 	Delta : B 	Previous STC : 21.35 	STC : 47.57
+STRKUSDT 	Latest Close: (0.1352) 	SMA(14) : 0.13 	Delta : B 	Previous STC : 16.25 	STC : 44.16
+IOTAUSDT 	Latest Close: (0.2) 	SMA(14) : 0.20 	Delta : B 	Previous STC : 22.80 	STC : 48.53
+RENDERUSDT 	Latest Close: (3.98) 	SMA(14) : 3.96 	Delta : B 	Previous STC : 20.94 	STC : 47.30
+INJUSDT 	Latest Close: (14.32) 	SMA(14) : 14.28 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IOTAUSDT   | B |  48.53
+Last close price for IOTAUSDT: 0.1999
+Opening Buy for  IOTAUSDT
+TP: 0.201899
+SL: 0.195902
+TS: 0.001999
+Order Quantity: 50025.01
+Adjusted qty: 50025.0
+Final Adjusted qty: 50025.0
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bb793d59-531d-4231-b8f5-b1bf8249d7f7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757844351971}
+bb793d59-531d-4231-b8f5-b1bf8249d7f7
+fetching trade data for :  bb793d59-531d-4231-b8f5-b1bf8249d7f7
+[{'symbol': 'IOTAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bb793d59-531d-4231-b8f5-b1bf8249d7f7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757844351970', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2', 'execPrice': '0.1999', 'markIv': '', 'orderQty': '26600', 'orderPrice': '0.22', 'execValue': '5317.34', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211627281, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.924537', 'execId': '557b9947-6236-4c54-9494-518015c39091', 'marketUnit': '', 'execQty': '26600', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  47.57
+Last close price for ONDOUSDT: 1.0671
+Opening Buy for  ONDOUSDT
+TP: 1.077771
+SL: 1.045758
+TS: 0.010671
+Order Quantity: 9371.19
+Adjusted qty: 9371.0
+Final Adjusted qty: 9371.0
+72300.0
