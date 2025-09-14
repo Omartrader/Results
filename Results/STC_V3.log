@@ -35337,3 +35337,53 @@ Order Quantity: 2108.81
 Adjusted qty: 2108.8
 Final Adjusted qty: 2108.8
 17540.0
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 17:06:02
+	HBARUSDT 	Signal: S
+HBARUSDT 	Latest Close: (0.23988) 	SMA(14) : 0.24 	Delta :  	Previous STC : 98.31 	STC : 91.45
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.3335) 	SMA(14) : 0.34 	Delta :  	Previous STC : 98.13 	STC : 87.22
+	SUIUSDT 	Signal: S
+SUIUSDT 	Latest Close: (3.6955) 	SMA(14) : 3.75 	Delta :  	Previous STC : 98.00 	STC : 90.62
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (4.3496) 	SMA(14) : 4.40 	Delta :  	Previous STC : 97.66 	STC : 86.25
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (9.479) 	SMA(14) : 9.57 	Delta :  	Previous STC : 98.84 	STC : 93.86
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.9) 	SMA(14) : 4.96 	Delta :  	Previous STC : 96.86 	STC : 81.64
+	AAVEUSDT 	Signal: S
+AAVEUSDT 	Latest Close: (306.52) 	SMA(14) : 309.13 	Delta :  	Previous STC : 97.48 	STC : 91.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  93.86
+1
+Last close price for UNIUSDT: 9.471
+Opening Sell for  UNIUSDT
+TP: 9.37629
+SL: 9.66042
+TS: 0.09471
+Order Quantity: 2111.71
+Adjusted qty: 2111.7000000000003
+Final Adjusted qty: 2111.7
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dfa316aa-a3e5-418e-b136-3bd064b31734', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757855185503}
+dfa316aa-a3e5-418e-b136-3bd064b31734
+fetching trade data for :  dfa316aa-a3e5-418e-b136-3bd064b31734
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dfa316aa-a3e5-418e-b136-3bd064b31734', 'stopOrderType': 'UNKNOWN', 'execTime': '1757855185503', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.473', 'execPrice': '9.472', 'markIv': '', 'orderQty': '2111.7', 'orderPrice': '9', 'execValue': '20002.0224', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612523733656, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00111232', 'execId': 'cd0528dc-120d-4da6-9a0e-3eadbcf802d5', 'marketUnit': '', 'execQty': '2111.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HBARUSDT   | S |  91.45
+1
+Last close price for HBARUSDT: 0.23975
+Opening Sell for  HBARUSDT
+TP: 0.2373525
+SL: 0.24454499999999998
+TS: 0.0023975
+Order Quantity: 83420.23
+Adjusted qty: 83420.0
+Final Adjusted qty: 83420.0
+1064600.0
