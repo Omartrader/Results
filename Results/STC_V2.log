@@ -54154,3 +54154,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 14.09.2025 12:50:44
+***************************************************************
+Number of open positions: 8
+Function started at 14.09.2025 12:55:06
+AVAXUSDT 	Latest Close: (29.951) 	SMA(14) : 30.18 	Delta : S 	Previous STC : 99.98 	STC : 86.26
+FORMUSDT 	Latest Close: (2.3571) 	SMA(14) : 2.35 	Delta : B 	Previous STC : 13.31 	STC : 42.21
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | S |  86.26
+Last close price for AVAXUSDT: 29.94
+Opening Sell for  AVAXUSDT
+TP: 29.640600000000003
+SL: 30.538800000000002
+TS: 0.2994
+Order Quantity: 334.0
+Adjusted qty: 334.0
+Final Adjusted qty: 334.0
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bb04f120-a1c2-4361-8ffb-35953be47d8b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757840145651}
+bb04f120-a1c2-4361-8ffb-35953be47d8b
+fetching trade data for :  bb04f120-a1c2-4361-8ffb-35953be47d8b
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bb04f120-a1c2-4361-8ffb-35953be47d8b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757840145650', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '29.936', 'execPrice': '29.936', 'markIv': '', 'orderQty': '334', 'orderPrice': '29.338', 'execValue': '9998.624', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211492793, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4992432', 'execId': 'e1152568-8908-4571-8018-bafcca0327f6', 'marketUnit': '', 'execQty': '334', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FORMUSDT   | B |  42.21
+Last close price for FORMUSDT: 2.3571
+Opening Buy for  FORMUSDT
+TP: 2.380671
+SL: 2.309958
+TS: 0.023570999999999998
+Order Quantity: 4242.5
+Adjusted qty: 4242.0
+Final Adjusted qty: 4242.0
+2850.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 14.09.2025 12:55:57
