@@ -36024,3 +36024,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 20:46:38
+***************************************************************
+Number of open positions: 2
+Function started at 14.09.2025 20:51:00
+	MYXUSDT 	Signal: B
+MYXUSDT 	Latest Close: (11.1611) 	SMA(14) : 10.82 	Delta :  	Previous STC : 16.59 	STC : 26.28
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (349.05) 	SMA(14) : 347.57 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | B |  33.33
+1
+Last close price for TAOUSDT: 349.1
+Opening Buy for  TAOUSDT
+TP: 352.591
+SL: 342.118
+TS: 3.491
+Order Quantity: 57.29
+Adjusted qty: 57.29
+Final Adjusted qty: 57.29
+60.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  26.28
+1
+Last close price for MYXUSDT: 11.1686
+Opening Buy for  MYXUSDT
+TP: 11.280286
+SL: 10.945228
+TS: 0.111686
+Order Quantity: 1790.73
+Adjusted qty: 1791.0
+Final Adjusted qty: 1790.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c94e4269-4a09-4741-82d1-3465cd59f04d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757868683560}
+c94e4269-4a09-4741-82d1-3465cd59f04d
+fetching trade data for :  c94e4269-4a09-4741-82d1-3465cd59f04d
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c94e4269-4a09-4741-82d1-3465cd59f04d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757868683559', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '11.167', 'execPrice': '11.1637', 'markIv': '', 'orderQty': '1790', 'orderPrice': '12.842', 'execValue': '19983.023', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612524191180, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.9813253', 'execId': '9da61275-c81b-41b5-aee7-bf36cf4db384', 'marketUnit': '', 'execQty': '1790', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 20:51:33
