@@ -56365,3 +56365,48 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 20:56:03
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 21:00:07
+NEARUSDT 	Latest Close: (2.709) 	SMA(14) : 2.70 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+STXUSDT 	Latest Close: (0.6726) 	SMA(14) : 0.67 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | B |  33.33
+Last close price for NEARUSDT: 2.709
+Opening Buy for  NEARUSDT
+TP: 2.73609
+SL: 2.65482
+TS: 0.02709
+Order Quantity: 3691.4
+Adjusted qty: 3691.4
+Final Adjusted qty: 3691.4
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2b9c071e-2c5a-4b9e-85dd-1e0e64d2f89c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757869249397}
+2b9c071e-2c5a-4b9e-85dd-1e0e64d2f89c
+fetching trade data for :  2b9c071e-2c5a-4b9e-85dd-1e0e64d2f89c
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2b9c071e-2c5a-4b9e-85dd-1e0e64d2f89c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757869249395', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.709', 'execPrice': '2.709', 'markIv': '', 'orderQty': '3691.4', 'orderPrice': '2.844', 'execValue': '10000.0026', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212433446, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000143', 'execId': 'd9aa399c-de3e-4379-a90f-cab0499a68bf', 'marketUnit': '', 'execQty': '3691.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | B |  33.33
+Last close price for STXUSDT: 0.6725
+Opening Buy for  STXUSDT
+TP: 0.679225
+SL: 0.65905
+TS: 0.006725
+Order Quantity: 14869.89
+Adjusted qty: 14869.900000000001
+Final Adjusted qty: 14869.8
+102840.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8f6ef4d6-e3a2-491c-814a-6a560b3272ed', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757869261740}
+8f6ef4d6-e3a2-491c-814a-6a560b3272ed
+fetching trade data for :  8f6ef4d6-e3a2-491c-814a-6a560b3272ed
+[{'symbol': 'STXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8f6ef4d6-e3a2-491c-814a-6a560b3272ed', 'stopOrderType': 'UNKNOWN', 'execTime': '1757869261739', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.67242', 'execPrice': '0.6725', 'markIv': '', 'orderQty': '14869.8', 'orderPrice': '0.706', 'execValue': '9999.9405', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212433859, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996728', 'execId': 'ed3439b5-7a29-4894-a43f-5e3e1cb119aa', 'marketUnit': '', 'execQty': '14869.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 21:01:12
