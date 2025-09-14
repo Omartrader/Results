@@ -36348,3 +36348,77 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 14.09.2025 21:31:36
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 21:35:58
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (3.0527) 	SMA(14) : 3.03 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	VETUSDT 	Signal: B
+VETUSDT 	Latest Close: (0.02482) 	SMA(14) : 0.02 	Delta :  	Previous STC : 6.16 	STC : 37.44
+	ARBUSDT 	Signal: B
+ARBUSDT 	Latest Close: (0.5162) 	SMA(14) : 0.51 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.39077) 	SMA(14) : 0.39 	Delta :  	Previous STC : 0.06 	STC : 33.37
+	OPUSDT 	Signal: B
+OPUSDT 	Latest Close: (0.7874) 	SMA(14) : 0.78 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (2.572) 	SMA(14) : 2.56 	Delta :  	Previous STC : 10.01 	STC : 32.09
+	USDCUSDT 	Signal: B
+USDCUSDT 	Latest Close: (0.9997) 	SMA(14) : 1.00 	Delta :  	Previous STC : 11.18 	STC : 32.29
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | B |  37.44
+1
+Last close price for VETUSDT: 0.02481
+Opening Buy for  VETUSDT
+TP: 0.0250581
+SL: 0.0243138
+TS: 0.0002481
+Order Quantity: 806126.56
+Adjusted qty: 806127.0
+Final Adjusted qty: 806126.0
+437000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XLMUSDT    | B |  33.37
+1
+Last close price for XLMUSDT: 0.39087
+Opening Buy for  XLMUSDT
+TP: 0.3947787
+SL: 0.38305259999999997
+TS: 0.0039087
+Order Quantity: 51167.91
+Adjusted qty: 51168.0
+Final Adjusted qty: 51167.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '79bf6d9c-1a8b-43b2-9711-cb393993bcfc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757871384763}
+79bf6d9c-1a8b-43b2-9711-cb393993bcfc
+fetching trade data for :  79bf6d9c-1a8b-43b2-9711-cb393993bcfc
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '79bf6d9c-1a8b-43b2-9711-cb393993bcfc', 'stopOrderType': 'UNKNOWN', 'execTime': '1757871384762', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.39087', 'execPrice': '0.39087', 'markIv': '', 'orderQty': '51167', 'orderPrice': '0.41041', 'execValue': '19999.64529', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612524281854, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99980491', 'execId': '764d6bb0-8f93-4ef5-9a02-59f12eb698bd', 'marketUnit': '', 'execQty': '51167', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARBUSDT    | B |  33.33
+1
+Last close price for ARBUSDT: 0.5166
+Opening Buy for  ARBUSDT
+TP: 0.521766
+SL: 0.5062679999999999
+TS: 0.005166
+Order Quantity: 38714.67
+Adjusted qty: 38714.700000000004
+Final Adjusted qty: 38714.6
+283360.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9d567698-741c-4067-8c50-ad8e0d0348ae', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757871397371}
+9d567698-741c-4067-8c50-ad8e0d0348ae
+fetching trade data for :  9d567698-741c-4067-8c50-ad8e0d0348ae
+[{'symbol': 'ARBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9d567698-741c-4067-8c50-ad8e0d0348ae', 'stopOrderType': 'UNKNOWN', 'execTime': '1757871397369', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5166', 'execPrice': '0.5166', 'markIv': '', 'orderQty': '38714.6', 'orderPrice': '0.5424', 'execValue': '19999.96236', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612524282259, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999793', 'execId': '2f73375d-aedc-4ccb-9e9e-f22ed5df6409', 'marketUnit': '', 'execQty': '38714.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 14.09.2025 21:36:47
