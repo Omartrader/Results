@@ -35176,3 +35176,45 @@ Order Quantity: 576070.05
 Adjusted qty: 576070.0
 Final Adjusted qty: 576070.0
 2500000.0
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 16:40:49
+	PENGUUSDT 	Signal: S
+PENGUUSDT 	Latest Close: (0.034456) 	SMA(14) : 0.04 	Delta :  	Previous STC : 98.02 	STC : 89.64
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (115.29) 	SMA(14) : 116.28 	Delta :  	Previous STC : 99.48 	STC : 95.95
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9991) 	SMA(14) : 1.00 	Delta :  	Previous STC : 98.23 	STC : 87.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  95.95
+1
+Last close price for LTCUSDT: 115.25
+Opening Sell for  LTCUSDT
+TP: 114.0975
+SL: 117.555
+TS: 1.1525
+Order Quantity: 173.54
+Adjusted qty: 173.5
+Final Adjusted qty: 173.5
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd35aa5bb-536d-4d3c-b9ef-cffe3c435030', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757853670343}
+d35aa5bb-536d-4d3c-b9ef-cffe3c435030
+fetching trade data for :  d35aa5bb-536d-4d3c-b9ef-cffe3c435030
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd35aa5bb-536d-4d3c-b9ef-cffe3c435030', 'stopOrderType': 'UNKNOWN', 'execTime': '1757853670341', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '115.25', 'execPrice': '115.27', 'markIv': '', 'orderQty': '173.5', 'orderPrice': '109.49', 'execValue': '19999.345', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612523681856, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99963975', 'execId': 'cef766e0-4b96-4f1f-998b-79db2e728665', 'marketUnit': '', 'execQty': '173.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | S |  89.64
+1
+Last close price for PENGUUSDT: 0.034517
+Opening Sell for  PENGUUSDT
+TP: 0.03417183
+SL: 0.03520734
+TS: 0.00034517
+Order Quantity: 579424.63
+Adjusted qty: 579420.0
+Final Adjusted qty: 579420.0
+2500000.0
