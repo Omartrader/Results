@@ -56061,3 +56061,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 20:01:00
+***************************************************************
+Number of open positions: 2
+Function started at 14.09.2025 20:05:07
+COREUSDT 	Latest Close: (0.4593) 	SMA(14) : 0.46 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+BUSDT 	Latest Close: (0.53679) 	SMA(14) : 0.53 	Delta : B 	Previous STC : 5.21 	STC : 36.80
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | B |  36.80
+Last close price for BUSDT: 0.53679
+Opening Buy for  BUSDT
+TP: 0.5421579
+SL: 0.5260542
+TS: 0.0053679
+Order Quantity: 18629.26
+Adjusted qty: 18629.0
+Final Adjusted qty: 18629.0
+90000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+COREUSDT   | B |  33.33
+Last close price for COREUSDT: 0.4593
+Opening Buy for  COREUSDT
+TP: 0.463893
+SL: 0.45011399999999996
+TS: 0.004593
+Order Quantity: 21772.26
+Adjusted qty: 21772.300000000003
+Final Adjusted qty: 21772.2
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd2eebde6-ffd0-4ef4-9538-57bd8a9f86a1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757865946637}
+d2eebde6-ffd0-4ef4-9538-57bd8a9f86a1
+fetching trade data for :  d2eebde6-ffd0-4ef4-9538-57bd8a9f86a1
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd2eebde6-ffd0-4ef4-9538-57bd8a9f86a1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757865946636', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4593', 'execPrice': '0.4593', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.5052', 'execValue': '6228.108', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212326794, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.4254594', 'execId': '09aefbf8-1ed0-4dc7-ade4-f2a3b7707b35', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 20:05:57
