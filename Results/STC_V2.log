@@ -53630,3 +53630,59 @@ Function started at 14.09.2025 11:25:06
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 14.09.2025 11:25:43
+***************************************************************
+Number of open positions: 6
+Function started at 14.09.2025 11:30:06
+PENGUUSDT 	Latest Close: (0.035595) 	SMA(14) : 0.04 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+AEROUSDT 	Latest Close: (1.2114) 	SMA(14) : 1.21 	Delta : B 	Previous STC : 13.00 	STC : 42.00
+XDCUSDT 	Latest Close: (0.07747) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 98.58 	STC : 95.81
+BUSDT 	Latest Close: (0.55386) 	SMA(14) : 0.56 	Delta : S 	Previous STC : 100.00 	STC : 82.75
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XDCUSDT    | S |  95.81
+Last close price for XDCUSDT: 0.0774
+Opening Sell for  XDCUSDT
+TP: 0.076626
+SL: 0.078948
+TS: 0.000774
+Order Quantity: 129198.97
+Adjusted qty: 129199.0
+Final Adjusted qty: 129198.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9609ffb5-faec-47cb-8515-0405e2d5a46b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757835051940}
+9609ffb5-faec-47cb-8515-0405e2d5a46b
+fetching trade data for :  9609ffb5-faec-47cb-8515-0405e2d5a46b
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9609ffb5-faec-47cb-8515-0405e2d5a46b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757835051939', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.0774', 'execPrice': '0.0774', 'markIv': '', 'orderQty': '129198', 'orderPrice': '0.06192', 'execValue': '9999.9252', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211330442, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991772', 'execId': 'd0ddeea1-0d97-45c2-9beb-ebed94ffa927', 'marketUnit': '', 'execQty': '129198', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BUSDT      | S |  82.75
+Last close price for BUSDT: 0.55424
+Opening Sell for  BUSDT
+TP: 0.5486975999999999
+SL: 0.5653248
+TS: 0.005542399999999999
+Order Quantity: 18042.73
+Adjusted qty: 18043.0
+Final Adjusted qty: 18042.0
+90000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3e018c51-e85b-4422-bc82-f5aa58aa3981', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757835064400}
+3e018c51-e85b-4422-bc82-f5aa58aa3981
+fetching trade data for :  3e018c51-e85b-4422-bc82-f5aa58aa3981
+[{'symbol': 'BUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3e018c51-e85b-4422-bc82-f5aa58aa3981', 'stopOrderType': 'UNKNOWN', 'execTime': '1757835064399', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.55424', 'execPrice': '0.55424', 'markIv': '', 'orderQty': '18042', 'orderPrice': '0.47111', 'execValue': '9999.59808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211330825, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99955789', 'execId': 'd958df15-697d-4128-b7a6-65ac2e8c8ae4', 'marketUnit': '', 'execQty': '18042', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AEROUSDT   | B |  42.00
+Last close price for AEROUSDT: 1.2112
+Opening Buy for  AEROUSDT
+TP: 1.223312
+SL: 1.186976
+TS: 0.012112000000000001
+Order Quantity: 8256.27
+Adjusted qty: 8256.0
+Final Adjusted qty: 8256.0
+30000.0
