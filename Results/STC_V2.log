@@ -56247,3 +56247,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 14.09.2025 20:35:39
+***************************************************************
+Number of open positions: 3
+Function started at 14.09.2025 20:40:06
+LINEAUSDT 	Latest Close: (0.03081) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 8.91 	STC : 39.27
+HYPEUSDT 	Latest Close: (54.769) 	SMA(14) : 54.10 	Delta : B 	Previous STC : 6.09 	STC : 32.49
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINEAUSDT  | B |  39.27
+Last close price for LINEAUSDT: 0.03084
+Opening Buy for  LINEAUSDT
+TP: 0.0311484
+SL: 0.0302232
+TS: 0.0003084
+Order Quantity: 324254.22
+Adjusted qty: 324250.0
+Final Adjusted qty: 324250.0
+1000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd016895b-b8f0-4652-9221-45ecb262a1a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757868030288}
+d016895b-b8f0-4652-9221-45ecb262a1a2
+fetching trade data for :  d016895b-b8f0-4652-9221-45ecb262a1a2
+[{'symbol': 'LINEAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd016895b-b8f0-4652-9221-45ecb262a1a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757868030287', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.03087', 'execPrice': '0.03089', 'markIv': '', 'orderQty': '324250', 'orderPrice': '0.0355', 'execValue': '10016.0825', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697212394365, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50884538', 'execId': '873bcbed-833e-4794-881f-64383f37626f', 'marketUnit': '', 'execQty': '324250', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  32.49
+Last close price for HYPEUSDT: 54.782
+Opening Buy for  HYPEUSDT
+TP: 55.32982
+SL: 53.68635999999999
+TS: 0.54782
+Order Quantity: 182.54
+Adjusted qty: 182.54
+Final Adjusted qty: 182.54
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 14.09.2025 20:40:41
