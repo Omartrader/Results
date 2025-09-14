@@ -54251,3 +54251,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 14.09.2025 13:15:56
+***************************************************************
+Number of open positions: 8
+Function started at 14.09.2025 13:20:06
+TONUSDT 	Latest Close: (3.2287) 	SMA(14) : 3.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+UNIUSDT 	Latest Close: (9.704) 	SMA(14) : 9.70 	Delta : B 	Previous STC : 8.32 	STC : 30.20
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  66.67
+Last close price for TONUSDT: 3.2284
+Opening Sell for  TONUSDT
+TP: 3.196116
+SL: 3.292968
+TS: 0.032284
+Order Quantity: 3097.51
+Adjusted qty: 3097.5
+Final Adjusted qty: 3097.5
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    | B |  30.20
+Last close price for UNIUSDT: 9.706
+Opening Buy for  UNIUSDT
+TP: 9.80306
+SL: 9.51188
+TS: 0.09706
+Order Quantity: 1030.29
+Adjusted qty: 1030.3
+Final Adjusted qty: 1030.2
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd120461e-4e3e-425b-8d7f-78da3f03fe83', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757841654957}
+d120461e-4e3e-425b-8d7f-78da3f03fe83
+fetching trade data for :  d120461e-4e3e-425b-8d7f-78da3f03fe83
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd120461e-4e3e-425b-8d7f-78da3f03fe83', 'stopOrderType': 'UNKNOWN', 'execTime': '1757841654956', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.706', 'execPrice': '9.706', 'markIv': '', 'orderQty': '1030.2', 'orderPrice': '10.191', 'execValue': '9999.1212', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697211540673, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49951666', 'execId': 'cba245d1-f5b3-4da4-b1d3-8719d060316c', 'marketUnit': '', 'execQty': '1030.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 14.09.2025 13:21:05
