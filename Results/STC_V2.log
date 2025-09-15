@@ -65794,3 +65794,60 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 23:40:37
+***************************************************************
+Number of open positions: 7
+Function started at 15.09.2025 23:45:06
+XRPUSDT 	Latest Close: (2.9999) 	SMA(14) : 3.00 	Delta : S 	Previous STC : 98.89 	STC : 91.29
+CROUSDT 	Latest Close: (0.2302) 	SMA(14) : 0.23 	Delta : B 	Previous STC : 14.93 	STC : 25.67
+EIGENUSDT 	Latest Close: (1.535) 	SMA(14) : 1.52 	Delta : B 	Previous STC : 0.00 	STC : 31.07
+TIAUSDT 	Latest Close: (1.687) 	SMA(14) : 1.68 	Delta : B 	Previous STC : 16.02 	STC : 27.16
+HYPEUSDT 	Latest Close: (53.256) 	SMA(14) : 52.63 	Delta : B 	Previous STC : 18.50 	STC : 45.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XRPUSDT    | S |  91.29
+Last close price for XRPUSDT: 2.9999
+Opening Sell for  XRPUSDT
+TP: 2.9699009999999997
+SL: 3.059898
+TS: 0.029998999999999998
+Order Quantity: 3333.44
+Adjusted qty: 3333.0
+Final Adjusted qty: 3333.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '05768bbf-401e-4472-b433-cfa6314d8283', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757965550093}
+05768bbf-401e-4472-b433-cfa6314d8283
+fetching trade data for :  05768bbf-401e-4472-b433-cfa6314d8283
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '05768bbf-401e-4472-b433-cfa6314d8283', 'stopOrderType': 'UNKNOWN', 'execTime': '1757965550092', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.9999', 'execPrice': '2.9997', 'markIv': '', 'orderQty': '3333', 'orderPrice': '2.85', 'execValue': '9998.0001', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215567326, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49890006', 'execId': '2455202f-1302-497c-a8a7-3183d1533a35', 'marketUnit': '', 'execQty': '3333', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  45.67
+Last close price for HYPEUSDT: 53.26
+Opening Buy for  HYPEUSDT
+TP: 53.7926
+SL: 52.194799999999994
+TS: 0.5326
+Order Quantity: 187.76
+Adjusted qty: 187.76
+Final Adjusted qty: 187.76
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '54022ef2-dcc4-40d3-868c-34ea7d85a31d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757965562558}
+54022ef2-dcc4-40d3-868c-34ea7d85a31d
+fetching trade data for :  54022ef2-dcc4-40d3-868c-34ea7d85a31d
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '54022ef2-dcc4-40d3-868c-34ea7d85a31d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757965562557', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '53.252', 'execPrice': '53.26', 'markIv': '', 'orderQty': '187.76', 'orderPrice': '69.227', 'execValue': '10000.0976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215567741, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50005368', 'execId': 'ff30573f-367a-4054-933b-6d32e1a7ce34', 'marketUnit': '', 'execQty': '187.76', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+EIGENUSDT  | B |  31.07
+Last close price for EIGENUSDT: 1.5367
+Opening Buy for  EIGENUSDT
+TP: 1.5520669999999999
+SL: 1.505966
+TS: 0.015366999999999999
+Order Quantity: 6507.45
+Adjusted qty: 6507.0
+Final Adjusted qty: 6507.0
+20000.0
