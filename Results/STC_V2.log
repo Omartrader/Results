@@ -65150,3 +65150,41 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 21:40:44
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 21:45:07
+ONDOUSDT 	Latest Close: (1.0195) 	SMA(14) : 1.02 	Delta : B 	Previous STC : 11.57 	STC : 41.05
+CRVUSDT 	Latest Close: (0.7386) 	SMA(14) : 0.74 	Delta : S 	Previous STC : 97.99 	STC : 91.87
+SYRUPUSDT 	Latest Close: (0.42853) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 97.41 	STC : 88.01
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.67 	STC : 91.44
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CRVUSDT    | S |  91.87
+Last close price for CRVUSDT: 0.7383
+Opening Sell for  CRVUSDT
+TP: 0.7309169999999999
+SL: 0.753066
+TS: 0.007383
+Order Quantity: 13544.63
+Adjusted qty: 13544.6
+Final Adjusted qty: 13544.6
+196620.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2c6bb151-048b-4328-9a3a-a074af6b0599', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757958339660}
+2c6bb151-048b-4328-9a3a-a074af6b0599
+fetching trade data for :  2c6bb151-048b-4328-9a3a-a074af6b0599
+[{'symbol': 'CRVUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2c6bb151-048b-4328-9a3a-a074af6b0599', 'stopOrderType': 'UNKNOWN', 'execTime': '1757958339658', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7383', 'execPrice': '0.7383', 'markIv': '', 'orderQty': '13544.6', 'orderPrice': '0.7014', 'execValue': '9999.97818', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215318875, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499988', 'execId': 'd3c2f28a-b575-4786-ae2a-5cb1dfb7577f', 'marketUnit': '', 'execQty': '13544.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  88.01
+Last close price for SYRUPUSDT: 0.42875
+Opening Sell for  SYRUPUSDT
+TP: 0.4244625
+SL: 0.437325
+TS: 0.0042875000000000005
+Order Quantity: 23323.62
+Adjusted qty: 23324.0
+Final Adjusted qty: 23323.0
+10000.0
