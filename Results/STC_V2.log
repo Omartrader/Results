@@ -64270,3 +64270,49 @@ Order Quantity: 107503.76
 Adjusted qty: 107503.8
 Final Adjusted qty: 107503.7
 555670.0
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 18:55:06
+SUSDT 	Latest Close: (0.2981) 	SMA(14) : 0.30 	Delta : B 	Previous STC : 13.46 	STC : 42.30
+FORMUSDT 	Latest Close: (2.1326) 	SMA(14) : 2.13 	Delta : B 	Previous STC : 18.07 	STC : 45.38
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | B |  45.38
+Last close price for FORMUSDT: 2.1326
+Opening Buy for  FORMUSDT
+TP: 2.1539260000000002
+SL: 2.089948
+TS: 0.021326
+Order Quantity: 4689.11
+Adjusted qty: 4689.0
+Final Adjusted qty: 4689.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '47545621-d2a8-4d1e-9d3f-30ece83a20c8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757948138540}
+47545621-d2a8-4d1e-9d3f-30ece83a20c8
+fetching trade data for :  47545621-d2a8-4d1e-9d3f-30ece83a20c8
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '47545621-d2a8-4d1e-9d3f-30ece83a20c8', 'stopOrderType': 'UNKNOWN', 'execTime': '1757948138539', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.1333', 'execPrice': '2.1326', 'markIv': '', 'orderQty': '2850', 'orderPrice': '2.4532', 'execValue': '6077.91', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214979413, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.3428505', 'execId': 'c7856a07-6209-4144-b4de-4ce1b0301edf', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUSDT      | B |  42.30
+Last close price for SUSDT: 0.2981
+Opening Buy for  SUSDT
+TP: 0.301081
+SL: 0.29213799999999995
+TS: 0.0029809999999999997
+Order Quantity: 33545.79
+Adjusted qty: 33546.0
+Final Adjusted qty: 33545.0
+26000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ac6c855d-4869-4396-a9fa-598758292ebe', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757948150532}
+ac6c855d-4869-4396-a9fa-598758292ebe
+fetching trade data for :  ac6c855d-4869-4396-a9fa-598758292ebe
+[{'symbol': 'SUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ac6c855d-4869-4396-a9fa-598758292ebe', 'stopOrderType': 'UNKNOWN', 'execTime': '1757948150530', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2981', 'execPrice': '0.2981', 'markIv': '', 'orderQty': '26000', 'orderPrice': '0.313', 'execValue': '7750.6', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214979862, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.26283', 'execId': '76fc76f5-27c2-4f31-9ec0-1dfdac4a4f2c', 'marketUnit': '', 'execQty': '26000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 15.09.2025 18:55:59
