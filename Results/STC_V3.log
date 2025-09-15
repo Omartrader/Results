@@ -41975,3 +41975,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 15.09.2025 21:01:44
+***************************************************************
+Number of open positions: 3
+Function started at 15.09.2025 21:05:51
+	SOLUSDT 	Signal: S
+SOLUSDT 	Latest Close: (230.86) 	SMA(14) : 233.29 	Delta :  	Previous STC : 98.57 	STC : 92.59
+	MYXUSDT 	Signal: B
+MYXUSDT 	Latest Close: (10.5537) 	SMA(14) : 10.54 	Delta :  	Previous STC : 21.03 	STC : 37.59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  92.59
+1
+Last close price for SOLUSDT: 231.18
+Opening Sell for  SOLUSDT
+TP: 228.8682
+SL: 235.80360000000002
+TS: 2.3118
+Order Quantity: 86.51
+Adjusted qty: 86.5
+Final Adjusted qty: 86.5
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  37.59
+1
+Last close price for MYXUSDT: 10.5704
+Opening Buy for  MYXUSDT
+TP: 10.676103999999999
+SL: 10.358991999999999
+TS: 0.10570399999999999
+Order Quantity: 1892.08
+Adjusted qty: 1892.0
+Final Adjusted qty: 1892.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ee8f5b75-e345-4541-ad38-07d6c684e275', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757955972608}
+ee8f5b75-e345-4541-ad38-07d6c684e275
+fetching trade data for :  ee8f5b75-e345-4541-ad38-07d6c684e275
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ee8f5b75-e345-4541-ad38-07d6c684e275', 'stopOrderType': 'UNKNOWN', 'execTime': '1757955972607', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.56467', 'execPrice': '10.5704', 'markIv': '', 'orderQty': '1892', 'orderPrice': '12.1493', 'execValue': '19999.1968', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612527127916, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.99911648', 'execId': '85901e6e-e3fc-4c66-ab90-77d0cd11961b', 'marketUnit': '', 'execQty': '1892', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 21:06:21
