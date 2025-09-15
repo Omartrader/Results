@@ -58936,3 +58936,93 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 05:10:56
+***************************************************************
+Number of open positions: 6
+Function started at 15.09.2025 05:15:06
+PENGUUSDT 	Latest Close: (0.034412) 	SMA(14) : 0.03 	Delta : S 	Previous STC : 100.00 	STC : 89.85
+ENAUSDT 	Latest Close: (0.7471) 	SMA(14) : 0.75 	Delta : S 	Previous STC : 97.46 	STC : 68.01
+ONDOUSDT 	Latest Close: (1.0424) 	SMA(14) : 1.05 	Delta : S 	Previous STC : 100.00 	STC : 95.70
+STRKUSDT 	Latest Close: (0.1304) 	SMA(14) : 0.13 	Delta : S 	Previous STC : 100.00 	STC : 94.36
+SUIUSDT 	Latest Close: (3.6657) 	SMA(14) : 3.70 	Delta : S 	Previous STC : 98.27 	STC : 81.48
+STXUSDT 	Latest Close: (0.6637) 	SMA(14) : 0.67 	Delta : S 	Previous STC : 100.00 	STC : 92.92
+ETHUSDT 	Latest Close: (4584.76) 	SMA(14) : 4608.26 	Delta : S 	Previous STC : 98.24 	STC : 84.48
+ARUSDT 	Latest Close: (7.184) 	SMA(14) : 7.27 	Delta : S 	Previous STC : 96.03 	STC : 69.15
+NEOUSDT 	Latest Close: (6.679) 	SMA(14) : 6.75 	Delta : S 	Previous STC : 98.65 	STC : 82.52
+AAVEUSDT 	Latest Close: (304.72) 	SMA(14) : 306.99 	Delta : S 	Previous STC : 98.15 	STC : 81.93
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ONDOUSDT   | S |  95.70
+Last close price for ONDOUSDT: 1.042
+Opening Sell for  ONDOUSDT
+TP: 1.03158
+SL: 1.06284
+TS: 0.01042
+Order Quantity: 9596.93
+Adjusted qty: 9597.0
+Final Adjusted qty: 9596.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4f663795-a3fc-49da-ab98-25aeb31215a0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757898947560}
+4f663795-a3fc-49da-ab98-25aeb31215a0
+fetching trade data for :  4f663795-a3fc-49da-ab98-25aeb31215a0
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4f663795-a3fc-49da-ab98-25aeb31215a0', 'stopOrderType': 'UNKNOWN', 'execTime': '1757898947559', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0421', 'execPrice': '1.0423', 'markIv': '', 'orderQty': '9596', 'orderPrice': '0.99', 'execValue': '10001.9108', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213394924, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50105094', 'execId': '071c449f-a83c-4cba-980a-bf3f7d7ff53d', 'marketUnit': '', 'execQty': '9596', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STRKUSDT   | S |  94.36
+Last close price for STRKUSDT: 0.1303
+Opening Sell for  STRKUSDT
+TP: 0.128997
+SL: 0.132906
+TS: 0.001303
+Order Quantity: 76745.97
+Adjusted qty: 76746.0
+Final Adjusted qty: 76745.9
+119050.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'edcb7097-5e37-4c98-8f37-bf029367578c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757898960387}
+edcb7097-5e37-4c98-8f37-bf029367578c
+fetching trade data for :  edcb7097-5e37-4c98-8f37-bf029367578c
+[{'symbol': 'STRKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'edcb7097-5e37-4c98-8f37-bf029367578c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757898960386', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1303', 'execPrice': '0.1303', 'markIv': '', 'orderQty': '76745.9', 'orderPrice': '0.1173', 'execValue': '9999.99077', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213395334, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999493', 'execId': '6399bfd5-6b65-47a8-bef6-db160d9b3df4', 'marketUnit': '', 'execQty': '76745.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | S |  92.92
+Last close price for STXUSDT: 0.6636
+Opening Sell for  STXUSDT
+TP: 0.656964
+SL: 0.676872
+TS: 0.0066359999999999995
+Order Quantity: 15069.32
+Adjusted qty: 15069.300000000001
+Final Adjusted qty: 15069.3
+102840.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2e5d1c66-cc1d-4eab-aa9a-e759c5b2396c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757898972657}
+2e5d1c66-cc1d-4eab-aa9a-e759c5b2396c
+fetching trade data for :  2e5d1c66-cc1d-4eab-aa9a-e759c5b2396c
+[{'symbol': 'STXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2e5d1c66-cc1d-4eab-aa9a-e759c5b2396c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757898972656', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.66388', 'execPrice': '0.6636', 'markIv': '', 'orderQty': '15069.3', 'orderPrice': '0.6307', 'execValue': '9999.98748', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213395748, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999312', 'execId': '01c58c82-0b2d-41ad-9ed7-de25c194f17a', 'marketUnit': '', 'execQty': '15069.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | S |  89.85
+Last close price for PENGUUSDT: 0.034469
+Opening Sell for  PENGUUSDT
+TP: 0.03412431
+SL: 0.03515838
+TS: 0.00034469
+Order Quantity: 290115.76
+Adjusted qty: 290120.0
+Final Adjusted qty: 290110.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4866b931-755d-44e1-a47c-173cde30d123', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757898984919}
+4866b931-755d-44e1-a47c-173cde30d123
+fetching trade data for :  4866b931-755d-44e1-a47c-173cde30d123
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4866b931-755d-44e1-a47c-173cde30d123', 'stopOrderType': 'UNKNOWN', 'execTime': '1757898984917', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.034469', 'execPrice': '0.034479', 'markIv': '', 'orderQty': '290110', 'orderPrice': '0.031023', 'execValue': '10002.70269', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213396141, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50148648', 'execId': 'e05c579c-7028-4648-8e4a-23886e95470f', 'marketUnit': '', 'execQty': '290110', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  4
+Function finished at 15.09.2025 05:16:35
