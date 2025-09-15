@@ -58506,3 +58506,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 04:25:40
+***************************************************************
+Number of open positions: 3
+Function started at 15.09.2025 04:30:10
+JUPUSDT 	Latest Close: (0.5392) 	SMA(14) : 0.54 	Delta : S 	Previous STC : 98.70 	STC : 92.97
+HNTUSDT 	Latest Close: (2.734) 	SMA(14) : 2.77 	Delta : S 	Previous STC : 96.06 	STC : 78.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JUPUSDT    | S |  92.97
+Last close price for JUPUSDT: 0.539
+Opening Sell for  JUPUSDT
+TP: 0.53361
+SL: 0.54978
+TS: 0.005390000000000001
+Order Quantity: 18552.88
+Adjusted qty: 18553.0
+Final Adjusted qty: 18552.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ff195f66-77a3-44c7-abf6-37cd878c6970', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757896244428}
+ff195f66-77a3-44c7-abf6-37cd878c6970
+fetching trade data for :  ff195f66-77a3-44c7-abf6-37cd878c6970
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ff195f66-77a3-44c7-abf6-37cd878c6970', 'stopOrderType': 'UNKNOWN', 'execTime': '1757896244427', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.539', 'execPrice': '0.5389', 'markIv': '', 'orderQty': '18552', 'orderPrice': '0.5121', 'execValue': '9997.6728', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213308473, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49872004', 'execId': '8b68f0ea-b9bb-47aa-b82b-c1b73422d135', 'marketUnit': '', 'execQty': '18552', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HNTUSDT    | S |  78.33
+Last close price for HNTUSDT: 2.732
+Opening Sell for  HNTUSDT
+TP: 2.70468
+SL: 2.7866400000000002
+TS: 0.02732
+Order Quantity: 3660.32
+Adjusted qty: 3660.32
+Final Adjusted qty: 3660.32
+1322.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e16032c6-9c01-4b0f-b92d-a80d4239395a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757896256429}
+e16032c6-9c01-4b0f-b92d-a80d4239395a
+fetching trade data for :  e16032c6-9c01-4b0f-b92d-a80d4239395a
+[{'symbol': 'HNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e16032c6-9c01-4b0f-b92d-a80d4239395a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757896256428', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.732', 'execPrice': '2.732', 'markIv': '', 'orderQty': '1322', 'orderPrice': '2.186', 'execValue': '3611.704', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213308850, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '1.9864372', 'execId': '95264594-e2be-4de4-8f86-8083973e61f4', 'marketUnit': '', 'execQty': '1322', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 04:31:07
