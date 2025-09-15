@@ -66442,3 +66442,31 @@ Order Quantity: 7650.52
 Adjusted qty: 7651.0
 Final Adjusted qty: 7650.0
 30000.0
+***************************************************************
+Number of open positions: 8
+Function started at 16.09.2025 02:00:05
+MYXUSDT 	Latest Close: (10.5209) 	SMA(14) : 10.71 	Delta : S 	Previous STC : 99.97 	STC : 95.44
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 3.38 	STC : 35.59
+USDCUSDT 	Latest Close: (0.9998) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 3.38 	STC : 35.59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  95.44
+Last close price for MYXUSDT: 10.5189
+Opening Sell for  MYXUSDT
+TP: 10.413711000000001
+SL: 10.729278
+TS: 0.105189
+Order Quantity: 950.67
+Adjusted qty: 951.0
+Final Adjusted qty: 950.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5eee11f5-9df3-49ed-bba4-80ecd1141737', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757973640948}
+5eee11f5-9df3-49ed-bba4-80ecd1141737
+fetching trade data for :  5eee11f5-9df3-49ed-bba4-80ecd1141737
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5eee11f5-9df3-49ed-bba4-80ecd1141737', 'stopOrderType': 'UNKNOWN', 'execTime': '1757973640947', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.5189', 'execPrice': '10.5189', 'markIv': '', 'orderQty': '950', 'orderPrice': '8.9411', 'execValue': '9992.955', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215834040, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9922505', 'execId': '6e9c64d3-2f2f-4182-a1b7-ace1ed2a5840', 'marketUnit': '', 'execQty': '950', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 02:00:50
