@@ -65239,3 +65239,68 @@ Order Quantity: 9797.2
 Adjusted qty: 9797.0
 Final Adjusted qty: 9797.0
 72300.0
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 21:55:06
+ONDOUSDT 	Latest Close: (1.0236) 	SMA(14) : 1.02 	Delta : B 	Previous STC : 11.57 	STC : 41.05
+CRVUSDT 	Latest Close: (0.7405) 	SMA(14) : 0.74 	Delta : S 	Previous STC : 97.99 	STC : 92.00
+STXUSDT 	Latest Close: (0.6412) 	SMA(14) : 0.64 	Delta : B 	Previous STC : 0.00 	STC : 29.09
+SYRUPUSDT 	Latest Close: (0.43169) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 97.41 	STC : 88.29
+USD1USDT 	Latest Close: (0.9985) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.67 	STC : 91.66
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CRVUSDT    | S |  92.00
+Last close price for CRVUSDT: 0.7415
+Opening Sell for  CRVUSDT
+TP: 0.734085
+SL: 0.7563300000000001
+TS: 0.007415000000000001
+Order Quantity: 13486.18
+Adjusted qty: 13486.2
+Final Adjusted qty: 13486.1
+196620.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SYRUPUSDT  | S |  88.29
+Last close price for SYRUPUSDT: 0.43207
+Opening Sell for  SYRUPUSDT
+TP: 0.4277493
+SL: 0.44071140000000003
+TS: 0.0043207
+Order Quantity: 23144.4
+Adjusted qty: 23144.0
+Final Adjusted qty: 23144.0
+10000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   | B |  41.05
+Last close price for ONDOUSDT: 1.0242
+Opening Buy for  ONDOUSDT
+TP: 1.034442
+SL: 1.003716
+TS: 0.010242
+Order Quantity: 9763.72
+Adjusted qty: 9764.0
+Final Adjusted qty: 9763.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1ed64644-d36a-42a5-a942-bce817590590', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757958951388}
+1ed64644-d36a-42a5-a942-bce817590590
+fetching trade data for :  1ed64644-d36a-42a5-a942-bce817590590
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1ed64644-d36a-42a5-a942-bce817590590', 'stopOrderType': 'UNKNOWN', 'execTime': '1757958951387', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0242', 'execPrice': '1.0242', 'markIv': '', 'orderQty': '9763', 'orderPrice': '1.0754', 'execValue': '9999.2646', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215340309, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49959553', 'execId': 'e9d0d4aa-4c4f-414f-8b7f-128f4e18e803', 'marketUnit': '', 'execQty': '9763', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | B |  29.09
+Last close price for STXUSDT: 0.6419
+Opening Buy for  STXUSDT
+TP: 0.648319
+SL: 0.629062
+TS: 0.006419
+Order Quantity: 15578.75
+Adjusted qty: 15578.800000000001
+Final Adjusted qty: 15578.7
+102840.0
