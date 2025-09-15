@@ -59768,3 +59768,68 @@ Order Quantity: 2550.37
 Adjusted qty: 2550.4
 Final Adjusted qty: 2550.3
 10000.0
+***************************************************************
+Number of open positions: 7
+Function started at 15.09.2025 07:35:05
+LINEAUSDT 	Latest Close: (0.0322) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 10.72 	STC : 39.74
+SKYUSDT 	Latest Close: (0.07555) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 9.62 	STC : 39.75
+SOLUSDT 	Latest Close: (242.09) 	SMA(14) : 241.44 	Delta : B 	Previous STC : 21.28 	STC : 47.52
+RENDERUSDT 	Latest Close: (3.919) 	SMA(14) : 3.91 	Delta : B 	Previous STC : 23.60 	STC : 28.96
+USD1USDT 	Latest Close: (0.9991) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 12.58 	STC : 41.72
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | B |  47.52
+Last close price for SOLUSDT: 242.1
+Opening Buy for  SOLUSDT
+TP: 244.521
+SL: 237.25799999999998
+TS: 2.421
+Order Quantity: 41.31
+Adjusted qty: 41.300000000000004
+Final Adjusted qty: 41.3
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SKYUSDT    | B |  39.75
+Last close price for SKYUSDT: 0.07555
+Opening Buy for  SKYUSDT
+TP: 0.07630550000000001
+SL: 0.07403900000000001
+TS: 0.0007555000000000001
+Order Quantity: 132362.67
+Adjusted qty: 132360.0
+Final Adjusted qty: 132360.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LINEAUSDT  | B |  39.74
+Last close price for LINEAUSDT: 0.03226
+Opening Buy for  LINEAUSDT
+TP: 0.032582599999999996
+SL: 0.0316148
+TS: 0.0003226
+Order Quantity: 309981.4
+Adjusted qty: 309980.0
+Final Adjusted qty: 309980.0
+1000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fe88f165-039d-4ab2-8749-8fc48ea14b5b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757907347299}
+fe88f165-039d-4ab2-8749-8fc48ea14b5b
+fetching trade data for :  fe88f165-039d-4ab2-8749-8fc48ea14b5b
+[{'symbol': 'LINEAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fe88f165-039d-4ab2-8749-8fc48ea14b5b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757907347297', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.03227', 'execPrice': '0.03226', 'markIv': '', 'orderQty': '309980', 'orderPrice': '0.03711', 'execValue': '9999.9548', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213661515, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997514', 'execId': 'cbbdbfd8-ff80-4d8e-8340-d8a5eb8dd189', 'marketUnit': '', 'execQty': '309980', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  28.96
+Last close price for RENDERUSDT: 3.921
+Opening Buy for  RENDERUSDT
+TP: 3.96021
+SL: 3.84258
+TS: 0.039209999999999995
+Order Quantity: 2550.37
+Adjusted qty: 2550.4
+Final Adjusted qty: 2550.3
+10000.0
