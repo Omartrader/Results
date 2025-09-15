@@ -42102,3 +42102,45 @@ Function started at 15.09.2025 21:40:48
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 15.09.2025 21:41:08
+***************************************************************
+Number of open positions: 3
+Function started at 15.09.2025 21:45:55
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0193) 	SMA(14) : 1.02 	Delta :  	Previous STC : 11.57 	STC : 41.05
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta :  	Previous STC : 98.67 	STC : 91.44
+	QNTUSDT 	Signal: S
+QNTUSDT 	Latest Close: (99.76) 	SMA(14) : 100.05 	Delta :  	Previous STC : 98.36 	STC : 93.57
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+QNTUSDT    | S |  93.57
+1
+Last close price for QNTUSDT: 99.76
+Opening Sell for  QNTUSDT
+TP: 98.7624
+SL: 101.7552
+TS: 0.9976
+Order Quantity: 200.48
+Adjusted qty: 200.48000000000002
+Final Adjusted qty: 200.48
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '682c0f6e-9936-4c37-bfc8-9e311fb0ee3d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757958373901}
+682c0f6e-9936-4c37-bfc8-9e311fb0ee3d
+fetching trade data for :  682c0f6e-9936-4c37-bfc8-9e311fb0ee3d
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '682c0f6e-9936-4c37-bfc8-9e311fb0ee3d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757958373900', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '99.76', 'execPrice': '99.76', 'markIv': '', 'orderQty': '200.48', 'orderPrice': '89.79', 'execValue': '19999.8848', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612527208474, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99993664', 'execId': '6c438531-c9fd-41fc-afd6-b00ce5caf581', 'marketUnit': '', 'execQty': '200.48', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  41.05
+1
+Last close price for ONDOUSDT: 1.019
+Opening Buy for  ONDOUSDT
+TP: 1.0291899999999998
+SL: 0.9986199999999998
+TS: 0.01019
+Order Quantity: 19627.09
+Adjusted qty: 19627.0
+Final Adjusted qty: 19627.0
+72300.0
