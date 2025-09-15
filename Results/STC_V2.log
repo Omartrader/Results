@@ -61244,3 +61244,71 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 10:51:11
+***************************************************************
+Number of open positions: 4
+Function started at 15.09.2025 10:55:06
+HBARUSDT 	Latest Close: (0.23863) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+RSRUSDT 	Latest Close: (0.007616) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MYXUSDT 	Latest Close: (10.1364) 	SMA(14) : 10.77 	Delta : S 	Previous STC : 96.49 	STC : 78.10
+SPXUSDT 	Latest Close: (1.3247) 	SMA(14) : 1.36 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  78.10
+Last close price for MYXUSDT: 10.1923
+Opening Sell for  MYXUSDT
+TP: 10.090377
+SL: 10.396146
+TS: 0.101923
+Order Quantity: 981.13
+Adjusted qty: 981.0
+Final Adjusted qty: 981.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '804826bf-2ca5-4318-a3fd-b6961d261891', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919342534}
+804826bf-2ca5-4318-a3fd-b6961d261891
+fetching trade data for :  804826bf-2ca5-4318-a3fd-b6961d261891
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '804826bf-2ca5-4318-a3fd-b6961d261891', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919342533', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.18471', 'execPrice': '10.1797', 'markIv': '', 'orderQty': '981', 'orderPrice': '8.6571', 'execValue': '9986.2857', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214048177, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.98491427', 'execId': '1d5877ab-0f64-49a7-82fa-8258e2851018', 'marketUnit': '', 'execQty': '981', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RSRUSDT    | S |  66.67
+Last close price for RSRUSDT: 0.007615
+Opening Sell for  RSRUSDT
+TP: 0.007538850000000001
+SL: 0.0077673
+TS: 7.615000000000001e-05
+Order Quantity: 1313197.64
+Adjusted qty: 1313200.0
+Final Adjusted qty: 1313190.0
+1190000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HBARUSDT   | S |  66.67
+Last close price for HBARUSDT: 0.23862
+Opening Sell for  HBARUSDT
+TP: 0.2362338
+SL: 0.2433924
+TS: 0.0023861999999999998
+Order Quantity: 41907.64
+Adjusted qty: 41908.0
+Final Adjusted qty: 41907.0
+1064600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SPXUSDT    | S |  66.67
+Last close price for SPXUSDT: 1.3262
+Opening Sell for  SPXUSDT
+TP: 1.312938
+SL: 1.352724
+TS: 0.013262000000000001
+Order Quantity: 7540.34
+Adjusted qty: 7540.0
+Final Adjusted qty: 7540.0
+14800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 15.09.2025 10:55:55
