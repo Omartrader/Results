@@ -62772,3 +62772,44 @@ Function started at 15.09.2025 13:10:06
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 15.09.2025 13:10:46
+***************************************************************
+Number of open positions: 2
+Function started at 15.09.2025 13:15:05
+EIGENUSDT 	Latest Close: (1.6012) 	SMA(14) : 1.61 	Delta : S 	Previous STC : 97.50 	STC : 88.85
+BUSDT 	Latest Close: (0.53403) 	SMA(14) : 0.54 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+USDEUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+EIGENUSDT  | S |  88.85
+Last close price for EIGENUSDT: 1.6023
+Opening Sell for  EIGENUSDT
+TP: 1.586277
+SL: 1.634346
+TS: 0.016023
+Order Quantity: 6241.03
+Adjusted qty: 6241.0
+Final Adjusted qty: 6241.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a97c9d4d-0cc3-4590-9d2d-4234d8dbbf03', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757927740310}
+a97c9d4d-0cc3-4590-9d2d-4234d8dbbf03
+fetching trade data for :  a97c9d4d-0cc3-4590-9d2d-4234d8dbbf03
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a97c9d4d-0cc3-4590-9d2d-4234d8dbbf03', 'stopOrderType': 'UNKNOWN', 'execTime': '1757927740309', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6023', 'execPrice': '1.6023', 'markIv': '', 'orderQty': '6241', 'orderPrice': '1.4421', 'execValue': '9999.9543', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214324397, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997487', 'execId': 'f1f02e8c-3385-4ab4-94a2-72076c8fd79f', 'marketUnit': '', 'execQty': '6241', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BUSDT      | S |  66.67
+Last close price for BUSDT: 0.53353
+Opening Sell for  BUSDT
+TP: 0.5281946999999999
+SL: 0.5442005999999999
+TS: 0.005335299999999999
+Order Quantity: 18743.09
+Adjusted qty: 18743.0
+Final Adjusted qty: 18743.0
+90000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 15.09.2025 13:15:52
