@@ -63763,3 +63763,48 @@ Order Quantity: 346.67
 Adjusted qty: 346.70000000000005
 Final Adjusted qty: 346.6
 10950.0
+***************************************************************
+Number of open positions: 4
+Function started at 15.09.2025 18:05:05
+MYXUSDT 	Latest Close: (10.2788) 	SMA(14) : 10.50 	Delta : S 	Previous STC : 97.62 	STC : 94.07
+SYRUPUSDT 	Latest Close: (0.44513) 	SMA(14) : 0.44 	Delta : B 	Previous STC : 15.94 	STC : 43.96
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  94.07
+Last close price for MYXUSDT: 10.2905
+Opening Sell for  MYXUSDT
+TP: 10.187595
+SL: 10.49631
+TS: 0.102905
+Order Quantity: 971.77
+Adjusted qty: 972.0
+Final Adjusted qty: 971.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2614d5c3-f91e-4f3c-947d-353fd2b9ffd4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757945138123}
+2614d5c3-f91e-4f3c-947d-353fd2b9ffd4
+fetching trade data for :  2614d5c3-f91e-4f3c-947d-353fd2b9ffd4
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2614d5c3-f91e-4f3c-947d-353fd2b9ffd4', 'stopOrderType': 'UNKNOWN', 'execTime': '1757945138121', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.28707', 'execPrice': '10.29', 'markIv': '', 'orderQty': '971', 'orderPrice': '8.7441', 'execValue': '9991.59', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214881427, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.990749', 'execId': '4d34c103-f75c-43d3-a826-c6e123ce015b', 'marketUnit': '', 'execQty': '971', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | B |  43.96
+Last close price for SYRUPUSDT: 0.44521
+Opening Buy for  SYRUPUSDT
+TP: 0.4496621
+SL: 0.43630579999999997
+TS: 0.0044521
+Order Quantity: 22461.31
+Adjusted qty: 22461.0
+Final Adjusted qty: 22461.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '92fc2a5d-620b-4a59-bd54-90cf8d2dc890', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757945149898}
+92fc2a5d-620b-4a59-bd54-90cf8d2dc890
+fetching trade data for :  92fc2a5d-620b-4a59-bd54-90cf8d2dc890
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '92fc2a5d-620b-4a59-bd54-90cf8d2dc890', 'stopOrderType': 'UNKNOWN', 'execTime': '1757945149897', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.44504', 'execPrice': '0.44521', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.48954', 'execValue': '4452.1', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214881835, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.448655', 'execId': 'e0d15989-97a5-4b1f-953e-f1a5790585e5', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 18:05:59
