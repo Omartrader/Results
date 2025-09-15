@@ -65188,3 +65188,54 @@ Order Quantity: 23323.62
 Adjusted qty: 23324.0
 Final Adjusted qty: 23323.0
 10000.0
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 21:50:06
+ONDOUSDT 	Latest Close: (1.0206) 	SMA(14) : 1.02 	Delta : B 	Previous STC : 11.57 	STC : 41.05
+CRVUSDT 	Latest Close: (0.7388) 	SMA(14) : 0.74 	Delta : S 	Previous STC : 97.99 	STC : 91.88
+SYRUPUSDT 	Latest Close: (0.43015) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 97.41 	STC : 88.15
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.67 	STC : 91.44
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CRVUSDT    | S |  91.88
+Last close price for CRVUSDT: 0.7385
+Opening Sell for  CRVUSDT
+TP: 0.7311150000000001
+SL: 0.7532700000000001
+TS: 0.007385
+Order Quantity: 13540.96
+Adjusted qty: 13541.0
+Final Adjusted qty: 13540.9
+196620.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SYRUPUSDT  | S |  88.15
+Last close price for SYRUPUSDT: 0.43015
+Opening Sell for  SYRUPUSDT
+TP: 0.42584849999999996
+SL: 0.438753
+TS: 0.0043015
+Order Quantity: 23247.7
+Adjusted qty: 23248.0
+Final Adjusted qty: 23247.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '39a701ac-0e06-4906-ae80-869555d06f6b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757958645497}
+39a701ac-0e06-4906-ae80-869555d06f6b
+fetching trade data for :  39a701ac-0e06-4906-ae80-869555d06f6b
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '39a701ac-0e06-4906-ae80-869555d06f6b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757958645495', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.43021', 'execPrice': '0.43021', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.38719', 'execValue': '4302.1', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215329892, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.366155', 'execId': '5cbbf2eb-66be-415d-b9c6-4dade69dbae9', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  41.05
+Last close price for ONDOUSDT: 1.0207
+Opening Buy for  ONDOUSDT
+TP: 1.030907
+SL: 1.000286
+TS: 0.010206999999999999
+Order Quantity: 9797.2
+Adjusted qty: 9797.0
+Final Adjusted qty: 9797.0
+72300.0
