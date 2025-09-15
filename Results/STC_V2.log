@@ -63669,3 +63669,97 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 17:56:01
+***************************************************************
+Number of open positions: 5
+Function started at 15.09.2025 18:00:05
+WIFUSDT 	Latest Close: (0.8822) 	SMA(14) : 0.88 	Delta : B 	Previous STC : 7.44 	STC : 35.32
+KASUSDT 	Latest Close: (0.08281) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 11.27 	STC : 40.85
+MYXUSDT 	Latest Close: (10.5148) 	SMA(14) : 10.52 	Delta : S 	Previous STC : 97.62 	STC : 94.36
+SYRUPUSDT 	Latest Close: (0.45003) 	SMA(14) : 0.44 	Delta : B 	Previous STC : 15.94 	STC : 43.96
+AVAXUSDT 	Latest Close: (28.909) 	SMA(14) : 28.78 	Delta : B 	Previous STC : 10.10 	STC : 40.06
+ATOMUSDT 	Latest Close: (4.514) 	SMA(14) : 4.51 	Delta : B 	Previous STC : 16.95 	STC : 44.63
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  94.36
+Last close price for MYXUSDT: 10.5482
+Opening Sell for  MYXUSDT
+TP: 10.442718
+SL: 10.759164
+TS: 0.10548199999999999
+Order Quantity: 948.03
+Adjusted qty: 948.0
+Final Adjusted qty: 948.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '50e270b8-a9f9-4224-828f-537f5170a871', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757944837475}
+50e270b8-a9f9-4224-828f-537f5170a871
+fetching trade data for :  50e270b8-a9f9-4224-828f-537f5170a871
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '50e270b8-a9f9-4224-828f-537f5170a871', 'stopOrderType': 'UNKNOWN', 'execTime': '1757944837473', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.54631', 'execPrice': '10.5521', 'markIv': '', 'orderQty': '948', 'orderPrice': '8.9644', 'execValue': '10003.3908', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214871204, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00372988', 'execId': '35154d87-7f95-40e6-ba2f-07af51619da0', 'marketUnit': '', 'execQty': '948', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | B |  44.63
+Last close price for ATOMUSDT: 4.511
+Opening Buy for  ATOMUSDT
+TP: 4.55611
+SL: 4.42078
+TS: 0.045110000000000004
+Order Quantity: 2216.8
+Adjusted qty: 2216.8
+Final Adjusted qty: 2216.8
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7d198983-d93e-401f-8efc-5cb4f32fe1d7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757944849718}
+7d198983-d93e-401f-8efc-5cb4f32fe1d7
+fetching trade data for :  7d198983-d93e-401f-8efc-5cb4f32fe1d7
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7d198983-d93e-401f-8efc-5cb4f32fe1d7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757944849716', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.511', 'execPrice': '4.511', 'markIv': '', 'orderQty': '2216.8', 'orderPrice': '4.736', 'execValue': '9999.9848', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214871606, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999164', 'execId': '23729f0d-f059-4a18-97bb-e5247928a3e6', 'marketUnit': '', 'execQty': '2216.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | B |  43.96
+Last close price for SYRUPUSDT: 0.4493
+Opening Buy for  SYRUPUSDT
+TP: 0.453793
+SL: 0.440314
+TS: 0.004493
+Order Quantity: 22256.84
+Adjusted qty: 22257.0
+Final Adjusted qty: 22256.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '76c26367-aadf-413f-877d-27f2119564d1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757944861798}
+76c26367-aadf-413f-877d-27f2119564d1
+fetching trade data for :  76c26367-aadf-413f-877d-27f2119564d1
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '76c26367-aadf-413f-877d-27f2119564d1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757944861796', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4493', 'execPrice': '0.44925', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.49423', 'execValue': '4492.5', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214871994, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.470875', 'execId': 'f275ef42-d74d-4f3b-a077-08663f4e7a75', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    | B |  40.85
+Last close price for KASUSDT: 0.08273
+Opening Buy for  KASUSDT
+TP: 0.0835573
+SL: 0.08107539999999999
+TS: 0.0008273
+Order Quantity: 120875.14
+Adjusted qty: 120880.0
+Final Adjusted qty: 120870.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '38d57309-7283-41aa-9343-ccf16a319a2b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757944873473}
+38d57309-7283-41aa-9343-ccf16a319a2b
+fetching trade data for :  38d57309-7283-41aa-9343-ccf16a319a2b
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '38d57309-7283-41aa-9343-ccf16a319a2b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757944873471', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08273', 'execPrice': '0.08273', 'markIv': '', 'orderQty': '120870', 'orderPrice': '0.09513', 'execValue': '9999.5751', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214872338, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49976631', 'execId': '97ed3a51-6d55-448b-9060-98d24a3894ef', 'marketUnit': '', 'execQty': '120870', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | B |  40.06
+Last close price for AVAXUSDT: 28.846
+Opening Buy for  AVAXUSDT
+TP: 29.13446
+SL: 28.26908
+TS: 0.28846
+Order Quantity: 346.67
+Adjusted qty: 346.70000000000005
+Final Adjusted qty: 346.6
+10950.0
