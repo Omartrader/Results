@@ -41095,3 +41095,34 @@ Order Quantity: 84.81
 Adjusted qty: 84.80000000000001
 Final Adjusted qty: 84.8
 11740.0
+***************************************************************
+Number of open positions: 4
+Function started at 15.09.2025 18:01:27
+	MYXUSDT 	Signal: S
+MYXUSDT 	Latest Close: (10.5116) 	SMA(14) : 10.52 	Delta :  	Previous STC : 97.62 	STC : 94.36
+	AVAXUSDT 	Signal: B
+AVAXUSDT 	Latest Close: (28.831) 	SMA(14) : 28.77 	Delta :  	Previous STC : 10.10 	STC : 40.06
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  94.36
+1
+Last close price for MYXUSDT: 10.499
+Opening Sell for  MYXUSDT
+TP: 10.39401
+SL: 10.70898
+TS: 0.10499
+Order Quantity: 1904.94
+Adjusted qty: 1905.0
+Final Adjusted qty: 1904.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '49565822-1e9f-4e59-9ff9-a51e3bac3c01', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757944910123}
+49565822-1e9f-4e59-9ff9-a51e3bac3c01
+fetching trade data for :  49565822-1e9f-4e59-9ff9-a51e3bac3c01
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '49565822-1e9f-4e59-9ff9-a51e3bac3c01', 'stopOrderType': 'UNKNOWN', 'execTime': '1757944910122', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.499', 'execPrice': '10.5024', 'markIv': '', 'orderQty': '1904', 'orderPrice': '8.9242', 'execValue': '19996.5696', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612526746485, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.99622656', 'execId': '0c2a3b3c-55b0-4dc8-a718-44a1458bc078', 'marketUnit': '', 'execQty': '1904', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 15.09.2025 18:01:59
