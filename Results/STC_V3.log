@@ -39248,3 +39248,52 @@ fetching trade data for :  0f26cc4a-d888-40b2-9d7a-7e0af3b7706c
 [{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0f26cc4a-d888-40b2-9d7a-7e0af3b7706c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919096427', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.3972', 'execPrice': '10.3972', 'markIv': '', 'orderQty': '1921', 'orderPrice': '8.8377', 'execValue': '19973.0212', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525867230, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.97032332', 'execId': 'cfa66203-17d6-4252-89cc-e7ff36fe8165', 'marketUnit': '', 'execQty': '1921', 'extraFees': ''}]
 Trades inserted successfully.
 None
+***************************************************************
+Number of open positions: 0
+Function started at 15.09.2025 10:56:03
+	HBARUSDT 	Signal: S
+HBARUSDT 	Latest Close: (0.23871) 	SMA(14) : 0.24 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	MYXUSDT 	Signal: S
+MYXUSDT 	Latest Close: (10.2603) 	SMA(14) : 10.78 	Delta :  	Previous STC : 96.49 	STC : 78.98
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MYXUSDT    | S |  78.98
+1
+Last close price for MYXUSDT: 10.2752
+Opening Sell for  MYXUSDT
+TP: 10.172448
+SL: 10.480704
+TS: 0.102752
+Order Quantity: 1946.43
+Adjusted qty: 1946.0
+Final Adjusted qty: 1946.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'da2e2999-c538-4542-8c9c-46c967352cbc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919387637}
+da2e2999-c538-4542-8c9c-46c967352cbc
+fetching trade data for :  da2e2999-c538-4542-8c9c-46c967352cbc
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'da2e2999-c538-4542-8c9c-46c967352cbc', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919387635', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.27147', 'execPrice': '10.2716', 'markIv': '', 'orderQty': '1946', 'orderPrice': '8.7308', 'execValue': '19988.5336', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525877365, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.98738696', 'execId': 'c5406744-a6af-4d97-abb2-2c62520bd85c', 'marketUnit': '', 'execQty': '1946', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HBARUSDT   | S |  66.67
+1
+Last close price for HBARUSDT: 0.23884
+Opening Sell for  HBARUSDT
+TP: 0.23645159999999998
+SL: 0.2436168
+TS: 0.0023884
+Order Quantity: 83738.07
+Adjusted qty: 83738.0
+Final Adjusted qty: 83738.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dfc9e30a-0b69-4443-b4b3-e3162f6f843a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919400137}
+dfc9e30a-0b69-4443-b4b3-e3162f6f843a
+fetching trade data for :  dfc9e30a-0b69-4443-b4b3-e3162f6f843a
+[{'symbol': 'HBARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dfc9e30a-0b69-4443-b4b3-e3162f6f843a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919400135', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23886', 'execPrice': '0.23886', 'markIv': '', 'orderQty': '83738', 'orderPrice': '0.22692', 'execValue': '20001.65868', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525877761, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00091228', 'execId': '1295e8aa-1118-4132-9b85-595b77b79f64', 'marketUnit': '', 'execQty': '83738', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 10:56:49
