@@ -58868,3 +58868,71 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 05:06:00
+***************************************************************
+Number of open positions: 6
+Function started at 15.09.2025 05:10:06
+EIGENUSDT 	Latest Close: (1.5827) 	SMA(14) : 1.61 	Delta : S 	Previous STC : 100.00 	STC : 91.82
+SYRUPUSDT 	Latest Close: (0.45495) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 96.43 	STC : 73.69
+COREUSDT 	Latest Close: (0.4547) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 100.00 	STC : 70.97
+CAKEUSDT 	Latest Close: (2.514) 	SMA(14) : 2.54 	Delta : S 	Previous STC : 100.00 	STC : 95.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CAKEUSDT   | S |  95.13
+Last close price for CAKEUSDT: 2.514
+Opening Sell for  CAKEUSDT
+TP: 2.48886
+SL: 2.5642799999999997
+TS: 0.02514
+Order Quantity: 3977.72
+Adjusted qty: 3977.7000000000003
+Final Adjusted qty: 3977.7
+16560.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+EIGENUSDT  | S |  91.82
+Last close price for EIGENUSDT: 1.5815
+Opening Sell for  EIGENUSDT
+TP: 1.565685
+SL: 1.61313
+TS: 0.015815
+Order Quantity: 6323.11
+Adjusted qty: 6323.0
+Final Adjusted qty: 6323.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ae648b79-68ba-4647-bdf6-bec5b8360e67', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757898642119}
+ae648b79-68ba-4647-bdf6-bec5b8360e67
+fetching trade data for :  ae648b79-68ba-4647-bdf6-bec5b8360e67
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ae648b79-68ba-4647-bdf6-bec5b8360e67', 'stopOrderType': 'UNKNOWN', 'execTime': '1757898642118', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.5816', 'execPrice': '1.5815', 'markIv': '', 'orderQty': '6323', 'orderPrice': '1.4235', 'execValue': '9999.8245', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213385041, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990348', 'execId': '13827b75-a2d0-4da7-a474-693cee95f80c', 'marketUnit': '', 'execQty': '6323', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  73.69
+Last close price for SYRUPUSDT: 0.45472
+Opening Sell for  SYRUPUSDT
+TP: 0.4501728
+SL: 0.4638144
+TS: 0.0045472
+Order Quantity: 21991.56
+Adjusted qty: 21992.0
+Final Adjusted qty: 21991.0
+10000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+COREUSDT   | S |  70.97
+Last close price for COREUSDT: 0.4547
+Opening Sell for  COREUSDT
+TP: 0.45015299999999997
+SL: 0.463794
+TS: 0.004547
+Order Quantity: 21992.52
+Adjusted qty: 21992.5
+Final Adjusted qty: 21992.5
+13560.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 15.09.2025 05:10:56
