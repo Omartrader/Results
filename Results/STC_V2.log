@@ -60645,3 +60645,68 @@ Order Quantity: 284965.23
 Adjusted qty: 284970.0
 Final Adjusted qty: 284960.0
 2500000.0
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 09:20:06
+PENGUUSDT 	Latest Close: (0.035117) 	SMA(14) : 0.03 	Delta : B 	Previous STC : 23.43 	STC : 40.60
+SUIUSDT 	Latest Close: (3.7171) 	SMA(14) : 3.70 	Delta : B 	Previous STC : 23.82 	STC : 48.24
+JUPUSDT 	Latest Close: (0.5422) 	SMA(14) : 0.54 	Delta : B 	Previous STC : 9.11 	STC : 33.06
+WALUSDT 	Latest Close: (0.4351) 	SMA(14) : 0.43 	Delta : B 	Previous STC : 16.48 	STC : 44.32
+AAVEUSDT 	Latest Close: (309.55) 	SMA(14) : 307.65 	Delta : B 	Previous STC : 18.26 	STC : 40.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  48.24
+Last close price for SUIUSDT: 3.7182
+Opening Buy for  SUIUSDT
+TP: 3.755382
+SL: 3.643836
+TS: 0.037182
+Order Quantity: 2689.47
+Adjusted qty: 2690.0
+Final Adjusted qty: 2680.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WALUSDT    | B |  44.32
+Last close price for WALUSDT: 0.4351
+Opening Buy for  WALUSDT
+TP: 0.439451
+SL: 0.426398
+TS: 0.004351
+Order Quantity: 22983.22
+Adjusted qty: 22983.0
+Final Adjusted qty: 22983.0
+51400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+PENGUUSDT  | B |  40.60
+Last close price for PENGUUSDT: 0.035155
+Opening Buy for  PENGUUSDT
+TP: 0.03550655
+SL: 0.0344519
+TS: 0.00035155
+Order Quantity: 284454.56
+Adjusted qty: 284450.0
+Final Adjusted qty: 284450.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3fbe1876-63bf-48ba-be4d-4d06ecdb427b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757913652059}
+3fbe1876-63bf-48ba-be4d-4d06ecdb427b
+fetching trade data for :  3fbe1876-63bf-48ba-be4d-4d06ecdb427b
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3fbe1876-63bf-48ba-be4d-4d06ecdb427b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757913652058', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.035158', 'execPrice': '0.035151', 'markIv': '', 'orderQty': '284450', 'orderPrice': '0.038673', 'execValue': '9998.70195', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213864419, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49928608', 'execId': '8d1b9a4a-a8d8-42e2-9c41-8905a9e9092f', 'marketUnit': '', 'execQty': '284450', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   | B |  40.12
+Last close price for AAVEUSDT: 309.4
+Opening Buy for  AAVEUSDT
+TP: 312.49399999999997
+SL: 303.212
+TS: 3.094
+Order Quantity: 32.32
+Adjusted qty: 32.32
+Final Adjusted qty: 32.32
+2514.0
