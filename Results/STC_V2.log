@@ -61760,3 +61760,106 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 15.09.2025 11:31:13
+***************************************************************
+Number of open positions: 6
+Function started at 15.09.2025 11:35:05
+FARTCOINUSDT 	Latest Close: (0.8573) 	SMA(14) : 0.89 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+XLMUSDT 	Latest Close: (0.38662) 	SMA(14) : 0.39 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TRXUSDT 	Latest Close: (0.34942) 	SMA(14) : 0.35 	Delta : S 	Previous STC : 100.00 	STC : 80.53
+OPUSDT 	Latest Close: (0.7803) 	SMA(14) : 0.80 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SYRUPUSDT 	Latest Close: (0.45039) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 96.69 	STC : 95.50
+FILUSDT 	Latest Close: (2.505) 	SMA(14) : 2.53 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+ICPUSDT 	Latest Close: (4.793) 	SMA(14) : 4.86 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SYRUPUSDT  | S |  95.50
+Last close price for SYRUPUSDT: 0.45038
+Opening Sell for  SYRUPUSDT
+TP: 0.4458762
+SL: 0.4593876
+TS: 0.0045038
+Order Quantity: 22203.47
+Adjusted qty: 22203.0
+Final Adjusted qty: 22203.0
+10000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TRXUSDT    | S |  80.53
+Last close price for TRXUSDT: 0.34947
+Opening Sell for  TRXUSDT
+TP: 0.3459753
+SL: 0.3564594
+TS: 0.0034947
+Order Quantity: 28614.76
+Adjusted qty: 28615.0
+Final Adjusted qty: 28614.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd5e0fc47-db9c-4778-a030-f8a6f81cf151', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757921743940}
+d5e0fc47-db9c-4778-a030-f8a6f81cf151
+fetching trade data for :  d5e0fc47-db9c-4778-a030-f8a6f81cf151
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd5e0fc47-db9c-4778-a030-f8a6f81cf151', 'stopOrderType': 'UNKNOWN', 'execTime': '1757921743939', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.34947', 'execPrice': '0.34947', 'markIv': '', 'orderQty': '28614', 'orderPrice': '0.332', 'execValue': '9999.73458', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214126120, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49985402', 'execId': 'f24183e5-eaf5-42ed-85d1-9e84e5035255', 'marketUnit': '', 'execQty': '28614', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    | S |  66.67
+Last close price for XLMUSDT: 0.38702
+Opening Sell for  XLMUSDT
+TP: 0.3831498
+SL: 0.39476039999999996
+TS: 0.0038702
+Order Quantity: 25838.46
+Adjusted qty: 25838.0
+Final Adjusted qty: 25838.0
+1636400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FARTCOINUSDT | S |  66.67
+Last close price for FARTCOINUSDT: 0.8575
+Opening Sell for  FARTCOINUSDT
+TP: 0.848925
+SL: 0.87465
+TS: 0.008575000000000001
+Order Quantity: 11661.81
+Adjusted qty: 11662.0
+Final Adjusted qty: 11661.0
+600000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9f581ef5-71a4-4bcc-b030-5b3168cf3c2b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757921757062}
+9f581ef5-71a4-4bcc-b030-5b3168cf3c2b
+fetching trade data for :  9f581ef5-71a4-4bcc-b030-5b3168cf3c2b
+[{'symbol': 'FARTCOINUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9f581ef5-71a4-4bcc-b030-5b3168cf3c2b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757921757060', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.857', 'execPrice': '0.857', 'markIv': '', 'orderQty': '11661', 'orderPrice': '0.7285', 'execValue': '9993.477', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214126545, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49641235', 'execId': '6d59036d-06b9-418e-8209-d47030363b53', 'marketUnit': '', 'execQty': '11661', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OPUSDT     | S |  66.67
+Last close price for OPUSDT: 0.7805
+Opening Sell for  OPUSDT
+TP: 0.7726949999999999
+SL: 0.79611
+TS: 0.0078049999999999994
+Order Quantity: 12812.3
+Adjusted qty: 12812.300000000001
+Final Adjusted qty: 12812.3
+84130.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '30b1fe5a-7ea4-427d-8114-cf9f98552a5a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757921768858}
+30b1fe5a-7ea4-427d-8114-cf9f98552a5a
+fetching trade data for :  30b1fe5a-7ea4-427d-8114-cf9f98552a5a
+[{'symbol': 'OPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '30b1fe5a-7ea4-427d-8114-cf9f98552a5a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757921768857', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7801', 'execPrice': '0.78', 'markIv': '', 'orderQty': '12812.3', 'orderPrice': '0.7411', 'execValue': '9993.594', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214126949, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4964767', 'execId': 'e4644801-2ced-4554-8326-9e64615ed450', 'marketUnit': '', 'execQty': '12812.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | S |  66.67
+Last close price for FILUSDT: 2.503
+Opening Sell for  FILUSDT
+TP: 2.47797
+SL: 2.5530600000000003
+TS: 0.02503
+Order Quantity: 3995.21
+Adjusted qty: 3995.2000000000003
+Final Adjusted qty: 3995.2
+60730.0
