@@ -37621,3 +37621,52 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 04:26:08
+***************************************************************
+Number of open positions: 2
+Function started at 15.09.2025 04:31:10
+	JUPUSDT 	Signal: S
+JUPUSDT 	Latest Close: (0.5386) 	SMA(14) : 0.54 	Delta :  	Previous STC : 98.70 	STC : 92.39
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (305.46) 	SMA(14) : 305.69 	Delta :  	Previous STC : 99.22 	STC : 93.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XMRUSDT    | S |  93.12
+1
+Last close price for XMRUSDT: 305.46
+Opening Sell for  XMRUSDT
+TP: 302.4054
+SL: 311.56919999999997
+TS: 3.0545999999999998
+Order Quantity: 65.48
+Adjusted qty: 65.48
+Final Adjusted qty: 65.48
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '224226a7-b2dc-43a7-be9c-0b6722d9c7ef', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757896290509}
+224226a7-b2dc-43a7-be9c-0b6722d9c7ef
+fetching trade data for :  224226a7-b2dc-43a7-be9c-0b6722d9c7ef
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '224226a7-b2dc-43a7-be9c-0b6722d9c7ef', 'stopOrderType': 'UNKNOWN', 'execTime': '1757896290508', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '305.45', 'execPrice': '305.46', 'markIv': '', 'orderQty': '65.48', 'orderPrice': '290.18', 'execValue': '20001.5208', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525111329, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00083644', 'execId': 'be55e8b5-13ac-455a-9fee-2121eb8478cc', 'marketUnit': '', 'execQty': '65.48', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JUPUSDT    | S |  92.39
+1
+Last close price for JUPUSDT: 0.5382
+Opening Sell for  JUPUSDT
+TP: 0.532818
+SL: 0.548964
+TS: 0.0053820000000000005
+Order Quantity: 37160.91
+Adjusted qty: 37161.0
+Final Adjusted qty: 37160.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f779b9f9-1e0a-42f2-93cd-538c7cd8bd95', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757896302969}
+f779b9f9-1e0a-42f2-93cd-538c7cd8bd95
+fetching trade data for :  f779b9f9-1e0a-42f2-93cd-538c7cd8bd95
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f779b9f9-1e0a-42f2-93cd-538c7cd8bd95', 'stopOrderType': 'UNKNOWN', 'execTime': '1757896302968', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5383', 'execPrice': '0.5382', 'markIv': '', 'orderQty': '37160', 'orderPrice': '0.5114', 'execValue': '19999.512', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525111752, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9997316', 'execId': '65d58113-acf4-4c13-b55e-53d7fd7e5c8a', 'marketUnit': '', 'execQty': '37160', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 04:31:53
