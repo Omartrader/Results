@@ -60078,3 +60078,62 @@ Order Quantity: 2.15
 Adjusted qty: 2.15
 Final Adjusted qty: 2.15
 724.0
+***************************************************************
+Number of open positions: 6
+Function started at 15.09.2025 08:20:05
+SEIUSDT 	Latest Close: (0.3356) 	SMA(14) : 0.33 	Delta : B 	Previous STC : 17.51 	STC : 26.93
+ATOMUSDT 	Latest Close: (4.659) 	SMA(14) : 4.64 	Delta : B 	Previous STC : 17.88 	STC : 27.39
+ETHUSDT 	Latest Close: (4653.06) 	SMA(14) : 4622.93 	Delta : B 	Previous STC : 23.92 	STC : 35.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | B |  35.12
+Last close price for ETHUSDT: 4652.41
+Opening Buy for  ETHUSDT
+TP: 4698.9340999999995
+SL: 4559.3618
+TS: 46.5241
+Order Quantity: 2.15
+Adjusted qty: 2.15
+Final Adjusted qty: 2.15
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fefe4933-3fc4-46e3-b3c3-22f20acccad7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757910043183}
+fefe4933-3fc4-46e3-b3c3-22f20acccad7
+fetching trade data for :  fefe4933-3fc4-46e3-b3c3-22f20acccad7
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fefe4933-3fc4-46e3-b3c3-22f20acccad7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757910043182', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4652.53', 'execPrice': '4651.75', 'markIv': '', 'orderQty': '2.15', 'orderPrice': '4745.58', 'execValue': '10001.2625', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213748260, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50069438', 'execId': '48ab8413-fdd5-4408-8b05-97d715162539', 'marketUnit': '', 'execQty': '2.15', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | B |  27.39
+Last close price for ATOMUSDT: 4.658
+Opening Buy for  ATOMUSDT
+TP: 4.70458
+SL: 4.56484
+TS: 0.04658
+Order Quantity: 2146.84
+Adjusted qty: 2146.8
+Final Adjusted qty: 2146.8
+22100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SEIUSDT    | B |  26.93
+Last close price for SEIUSDT: 0.3358
+Opening Buy for  SEIUSDT
+TP: 0.339158
+SL: 0.329084
+TS: 0.003358
+Order Quantity: 29779.63
+Adjusted qty: 29780.0
+Final Adjusted qty: 29779.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c25930ee-faec-4cfb-9521-d35d5ad315b1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757910056786}
+c25930ee-faec-4cfb-9521-d35d5ad315b1
+fetching trade data for :  c25930ee-faec-4cfb-9521-d35d5ad315b1
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c25930ee-faec-4cfb-9521-d35d5ad315b1', 'stopOrderType': 'UNKNOWN', 'execTime': '1757910056785', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.33597', 'execPrice': '0.3358', 'markIv': '', 'orderQty': '29779', 'orderPrice': '0.3695', 'execValue': '9999.7882', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213748735, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988351', 'execId': '12cdd350-4321-48da-8acc-82639da96af3', 'marketUnit': '', 'execQty': '29779', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 08:21:06
