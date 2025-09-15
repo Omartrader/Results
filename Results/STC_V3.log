@@ -40249,3 +40249,33 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 13:11:15
+***************************************************************
+Number of open positions: 1
+Function started at 15.09.2025 13:15:56
+	USDEUSDT 	Signal: B
+USDEUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (114733.2) 	SMA(14) : 115680.68 	Delta :  	Previous STC : 98.88 	STC : 92.73
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BTCUSDT    | S |  92.73
+1
+Last close price for BTCUSDT: 114733.1
+Opening Sell for  BTCUSDT
+TP: 113585.769
+SL: 117027.762
+TS: 1147.3310000000001
+Order Quantity: 0.17
+Adjusted qty: 0.17
+Final Adjusted qty: 0.17
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ba940d72-bd29-4ecb-b078-019f5da73b79', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757927776919}
+ba940d72-bd29-4ecb-b078-019f5da73b79
+fetching trade data for :  ba940d72-bd29-4ecb-b078-019f5da73b79
+[{'symbol': 'BTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ba940d72-bd29-4ecb-b078-019f5da73b79', 'stopOrderType': 'UNKNOWN', 'execTime': '1757927776918', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '114733.1', 'execPrice': '114733.2', 'markIv': '', 'orderQty': '0.17', 'orderPrice': '113585.8', 'execValue': '19504.644', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612526169655, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.7275542', 'execId': 'b80dec80-af33-4346-9ca5-9eff2d79a4ee', 'marketUnit': '', 'execQty': '0.17', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 13:16:27
