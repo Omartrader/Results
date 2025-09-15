@@ -60952,3 +60952,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 10:20:51
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 10:25:07
+MANAUSDT 	Latest Close: (0.3532) 	SMA(14) : 0.36 	Delta : S 	Previous STC : 100.00 	STC : 69.15
+SAROSUSDT 	Latest Close: (0.41146) 	SMA(14) : 0.41 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MANAUSDT   | S |  69.15
+Last close price for MANAUSDT: 0.3531
+Opening Sell for  MANAUSDT
+TP: 0.349569
+SL: 0.36016200000000004
+TS: 0.0035310000000000003
+Order Quantity: 28320.59
+Adjusted qty: 28320.600000000002
+Final Adjusted qty: 28320.5
+226290.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '988cbf99-10dd-4b10-bdd4-c013ecf87704', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757917551758}
+988cbf99-10dd-4b10-bdd4-c013ecf87704
+fetching trade data for :  988cbf99-10dd-4b10-bdd4-c013ecf87704
+[{'symbol': 'MANAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '988cbf99-10dd-4b10-bdd4-c013ecf87704', 'stopOrderType': 'UNKNOWN', 'execTime': '1757917551756', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3531', 'execPrice': '0.3531', 'markIv': '', 'orderQty': '28320.5', 'orderPrice': '0.3178', 'execValue': '9999.96855', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697213989968, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998271', 'execId': '54ee64ea-9231-473d-94a9-5c2f971209a4', 'marketUnit': '', 'execQty': '28320.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SAROSUSDT  | B |  33.33
+Last close price for SAROSUSDT: 0.41127
+Opening Buy for  SAROSUSDT
+TP: 0.41538270000000005
+SL: 0.40304460000000003
+TS: 0.0041127
+Order Quantity: 24314.93
+Adjusted qty: 24315.0
+Final Adjusted qty: 24314.0
+27000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 15.09.2025 10:26:02
