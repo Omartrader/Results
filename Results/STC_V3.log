@@ -38240,3 +38240,55 @@ USDCUSDT 	Latest Close: (0.9997) 	SMA(14) : 1.00 	Delta :  	Previous STC : 12.97
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 15.09.2025 06:31:00
+***************************************************************
+Number of open positions: 3
+Function started at 15.09.2025 06:35:43
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2715) 	SMA(14) : 0.27 	Delta :  	Previous STC : 97.91 	STC : 86.39
+	LINKUSDT 	Signal: S
+LINKUSDT 	Latest Close: (24.098) 	SMA(14) : 24.12 	Delta :  	Previous STC : 98.84 	STC : 92.24
+	USDCUSDT 	Signal: B
+USDCUSDT 	Latest Close: (0.9997) 	SMA(14) : 1.00 	Delta :  	Previous STC : 12.97 	STC : 32.63
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINKUSDT   | S |  92.24
+1
+Last close price for LINKUSDT: 24.099
+Opening Sell for  LINKUSDT
+TP: 23.85801
+SL: 24.58098
+TS: 0.24099
+Order Quantity: 829.91
+Adjusted qty: 829.9000000000001
+Final Adjusted qty: 829.9
+31450.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1b505ec1-0648-421e-9a23-b443431d378e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757903765569}
+1b505ec1-0648-421e-9a23-b443431d378e
+fetching trade data for :  1b505ec1-0648-421e-9a23-b443431d378e
+[{'symbol': 'LINKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1b505ec1-0648-421e-9a23-b443431d378e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757903765568', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '24.102', 'execPrice': '24.102', 'markIv': '', 'orderQty': '829.9', 'orderPrice': '22.897', 'execValue': '20002.2498', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525359733, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00123739', 'execId': 'c56a4aee-d3d6-453f-8bcb-4743fd82dd7b', 'marketUnit': '', 'execQty': '829.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    | S |  86.39
+1
+Last close price for POLUSDT: 0.2717
+Opening Sell for  POLUSDT
+TP: 0.26898299999999997
+SL: 0.277134
+TS: 0.002717
+Order Quantity: 73610.6
+Adjusted qty: 73611.0
+Final Adjusted qty: 73610.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9fe2296a-3e92-42ca-9b5e-35588f2719f9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757903777385}
+9fe2296a-3e92-42ca-9b5e-35588f2719f9
+fetching trade data for :  9fe2296a-3e92-42ca-9b5e-35588f2719f9
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9fe2296a-3e92-42ca-9b5e-35588f2719f9', 'stopOrderType': 'UNKNOWN', 'execTime': '1757903777384', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2717', 'execPrice': '0.2717', 'markIv': '', 'orderQty': '73610', 'orderPrice': '0.2582', 'execValue': '19999.837', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525360109, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991035', 'execId': 'd3c5717f-38fa-42d7-8753-36a87a078fcb', 'marketUnit': '', 'execQty': '73610', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 15.09.2025 06:36:27
