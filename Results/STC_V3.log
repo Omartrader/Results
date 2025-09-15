@@ -41652,3 +41652,33 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 20:05:58
+***************************************************************
+Number of open positions: 2
+Function started at 15.09.2025 20:11:02
+	MNTUSDT 	Signal: S
+MNTUSDT 	Latest Close: (1.6327) 	SMA(14) : 1.67 	Delta :  	Previous STC : 97.47 	STC : 88.96
+	USDEUSDT 	Signal: S
+USDEUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta :  	Previous STC : 99.49 	STC : 93.82
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  88.96
+1
+Last close price for MNTUSDT: 1.6336
+Opening Sell for  MNTUSDT
+TP: 1.617264
+SL: 1.666272
+TS: 0.016336
+Order Quantity: 12242.9
+Adjusted qty: 12243.0
+Final Adjusted qty: 12242.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd8ec7c6d-961d-4dc1-90ef-5ab8203260c5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757952685581}
+d8ec7c6d-961d-4dc1-90ef-5ab8203260c5
+fetching trade data for :  d8ec7c6d-961d-4dc1-90ef-5ab8203260c5
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd8ec7c6d-961d-4dc1-90ef-5ab8203260c5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757952685580', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6336', 'execPrice': '1.633', 'markIv': '', 'orderQty': '12242', 'orderPrice': '1.4703', 'execValue': '19991.186', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612527016280, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9951523', 'execId': 'e733ea1e-0b32-4f17-be6e-be4e50595a4c', 'marketUnit': '', 'execQty': '12242', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 20:11:34
