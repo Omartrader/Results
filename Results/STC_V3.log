@@ -41841,3 +41841,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 20:40:58
+***************************************************************
+Number of open positions: 2
+Function started at 15.09.2025 20:45:59
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2576) 	SMA(14) : 0.26 	Delta :  	Previous STC : 97.47 	STC : 93.57
+	BTCUSDT 	Signal: B
+BTCUSDT 	Latest Close: (114810.9) 	SMA(14) : 114698.62 	Delta :  	Previous STC : 21.28 	STC : 47.52
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+POLUSDT    | S |  93.57
+1
+Last close price for POLUSDT: 0.2576
+Opening Sell for  POLUSDT
+TP: 0.255024
+SL: 0.262752
+TS: 0.002576
+Order Quantity: 77639.75
+Adjusted qty: 77640.0
+Final Adjusted qty: 77639.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'edeaa2ad-936a-4871-86bc-314ef8256b54', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757954779511}
+edeaa2ad-936a-4871-86bc-314ef8256b54
+fetching trade data for :  edeaa2ad-936a-4871-86bc-314ef8256b54
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'edeaa2ad-936a-4871-86bc-314ef8256b54', 'stopOrderType': 'UNKNOWN', 'execTime': '1757954779510', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2576', 'execPrice': '0.2576', 'markIv': '', 'orderQty': '77639', 'orderPrice': '0.2448', 'execValue': '19999.8064', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612527086927, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99989352', 'execId': '08cda7b5-1d0f-4f90-9886-56914849974d', 'marketUnit': '', 'execQty': '77639', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | B |  47.52
+1
+Last close price for BTCUSDT: 114805.9
+Opening Buy for  BTCUSDT
+TP: 115953.95899999999
+SL: 112509.78199999999
+TS: 1148.059
+Order Quantity: 0.17
+Adjusted qty: 0.17
+Final Adjusted qty: 0.17
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 15.09.2025 20:46:29
