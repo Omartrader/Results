@@ -39552,3 +39552,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 11:26:16
+***************************************************************
+Number of open positions: 3
+Function started at 15.09.2025 11:31:17
+	XLMUSDT 	Signal: S
+XLMUSDT 	Latest Close: (0.38689) 	SMA(14) : 0.39 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	OPUSDT 	Signal: S
+OPUSDT 	Latest Close: (0.7815) 	SMA(14) : 0.80 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	FILUSDT 	Signal: S
+FILUSDT 	Latest Close: (2.509) 	SMA(14) : 2.53 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.795) 	SMA(14) : 4.86 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    | S |  66.67
+1
+Last close price for XLMUSDT: 0.38688
+Opening Sell for  XLMUSDT
+TP: 0.3830112
+SL: 0.3946176
+TS: 0.0038688
+Order Quantity: 51695.62
+Adjusted qty: 51696.0
+Final Adjusted qty: 51695.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5fca0b76-cd3a-48c6-b73a-00a531eaaa5f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757921504094}
+5fca0b76-cd3a-48c6-b73a-00a531eaaa5f
+fetching trade data for :  5fca0b76-cd3a-48c6-b73a-00a531eaaa5f
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5fca0b76-cd3a-48c6-b73a-00a531eaaa5f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757921504092', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.38705', 'execPrice': '0.38672', 'markIv': '', 'orderQty': '51695', 'orderPrice': '0.3677', 'execValue': '19991.4904', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612525947686, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99531972', 'execId': 'bd903f81-9be3-44d8-8779-b4daab9adc90', 'marketUnit': '', 'execQty': '51695', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OPUSDT     | S |  66.67
+1
+Last close price for OPUSDT: 0.7806
+Opening Sell for  OPUSDT
+TP: 0.772794
+SL: 0.7962119999999999
+TS: 0.007806
+Order Quantity: 25621.32
+Adjusted qty: 25621.300000000003
+Final Adjusted qty: 25621.3
+84130.0
