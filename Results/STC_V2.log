@@ -61419,3 +61419,57 @@ Order Quantity: 15328.02
 Adjusted qty: 15328.0
 Final Adjusted qty: 15328.0
 21190.0
+***************************************************************
+Number of open positions: 7
+Function started at 15.09.2025 11:05:13
+HBARUSDT 	Latest Close: (0.2402) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IMXUSDT 	Latest Close: (0.6515) 	SMA(14) : 0.66 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+KAIAUSDT 	Latest Close: (0.1572) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 100.00 	STC : 72.82
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KAIAUSDT   | S |  72.82
+Last close price for KAIAUSDT: 0.1572
+Opening Sell for  KAIAUSDT
+TP: 0.15562800000000002
+SL: 0.16034400000000001
+TS: 0.001572
+Order Quantity: 63613.23
+Adjusted qty: 63613.0
+Final Adjusted qty: 63613.0
+170000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HBARUSDT   | S |  66.67
+Last close price for HBARUSDT: 0.24042
+Opening Sell for  HBARUSDT
+TP: 0.2380158
+SL: 0.24522839999999999
+TS: 0.0024042
+Order Quantity: 41593.88
+Adjusted qty: 41594.0
+Final Adjusted qty: 41593.0
+1064600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IMXUSDT    | S |  66.67
+Last close price for IMXUSDT: 0.6527
+Opening Sell for  IMXUSDT
+TP: 0.6461729999999999
+SL: 0.665754
+TS: 0.006527
+Order Quantity: 15320.97
+Adjusted qty: 15321.0
+Final Adjusted qty: 15320.9
+21190.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0af97d75-65f7-44b6-830a-3a671d8319d5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919959900}
+0af97d75-65f7-44b6-830a-3a671d8319d5
+fetching trade data for :  0af97d75-65f7-44b6-830a-3a671d8319d5
+[{'symbol': 'IMXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0af97d75-65f7-44b6-830a-3a671d8319d5', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919959899', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.6524', 'execPrice': '0.6525', 'markIv': '', 'orderQty': '15320.9', 'orderPrice': '0.5872', 'execValue': '9996.88725', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214068254, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49828799', 'execId': 'f02589f7-b463-4e6b-94fe-7cba0a52c2d1', 'marketUnit': '', 'execQty': '15320.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 11:06:09
