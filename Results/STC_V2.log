@@ -61312,3 +61312,110 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 15.09.2025 10:55:55
+***************************************************************
+Number of open positions: 4
+Function started at 15.09.2025 11:00:06
+WIFUSDT 	Latest Close: (0.9133) 	SMA(14) : 0.93 	Delta : S 	Previous STC : 99.27 	STC : 87.14
+HBARUSDT 	Latest Close: (0.2392) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+IMXUSDT 	Latest Close: (0.6507) 	SMA(14) : 0.66 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+KAIAUSDT 	Latest Close: (0.1566) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TONUSDT 	Latest Close: (3.184) 	SMA(14) : 3.21 	Delta : S 	Previous STC : 100.00 	STC : 82.48
+FLOWUSDT 	Latest Close: (0.4134) 	SMA(14) : 0.42 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WIFUSDT    | S |  87.14
+Last close price for WIFUSDT: 0.9146
+Opening Sell for  WIFUSDT
+TP: 0.905454
+SL: 0.9328919999999999
+TS: 0.009146
+Order Quantity: 10933.74
+Adjusted qty: 10934.0
+Final Adjusted qty: 10933.0
+98500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6ee41968-efb6-46cd-bc4d-588f3172a897', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919644329}
+6ee41968-efb6-46cd-bc4d-588f3172a897
+fetching trade data for :  6ee41968-efb6-46cd-bc4d-588f3172a897
+[{'symbol': 'WIFUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6ee41968-efb6-46cd-bc4d-588f3172a897', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919644327', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9148', 'execPrice': '0.9146', 'markIv': '', 'orderQty': '10933', 'orderPrice': '0.8691', 'execValue': '9999.3218', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214058104, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49962699', 'execId': '3d751dcc-7326-4795-803a-b56b9b8e4ce4', 'marketUnit': '', 'execQty': '10933', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    | S |  82.48
+Last close price for TONUSDT: 3.1858
+Opening Sell for  TONUSDT
+TP: 3.153942
+SL: 3.249516
+TS: 0.031858
+Order Quantity: 3138.93
+Adjusted qty: 3138.9
+Final Adjusted qty: 3138.9
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9a6a920e-9407-4a29-a958-7524126faa5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919656589}
+9a6a920e-9407-4a29-a958-7524126faa5e
+fetching trade data for :  9a6a920e-9407-4a29-a958-7524126faa5e
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9a6a920e-9407-4a29-a958-7524126faa5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919656588', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1858', 'execPrice': '3.1858', 'markIv': '', 'orderQty': '3138.9', 'orderPrice': '3.0266', 'execValue': '9999.90762', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214058544, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999492', 'execId': 'ef271242-2b91-43ec-af04-4e650a00b47f', 'marketUnit': '', 'execQty': '3138.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLOWUSDT   | S |  66.67
+Last close price for FLOWUSDT: 0.4136
+Opening Sell for  FLOWUSDT
+TP: 0.409464
+SL: 0.421872
+TS: 0.004136
+Order Quantity: 24177.95
+Adjusted qty: 24178.0
+Final Adjusted qty: 24177.9
+76780.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4696488a-9b2e-47c5-8654-34558404ca08', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919668806}
+4696488a-9b2e-47c5-8654-34558404ca08
+fetching trade data for :  4696488a-9b2e-47c5-8654-34558404ca08
+[{'symbol': 'FLOWUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4696488a-9b2e-47c5-8654-34558404ca08', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919668804', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4134', 'execPrice': '0.4136', 'markIv': '', 'orderQty': '24177.9', 'orderPrice': '0.3721', 'execValue': '9999.97944', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214058932, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999887', 'execId': '0d328728-3197-4a04-a107-017e4a37e2c1', 'marketUnit': '', 'execQty': '24177.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HBARUSDT   | S |  66.67
+Last close price for HBARUSDT: 0.23989
+Opening Sell for  HBARUSDT
+TP: 0.23749109999999998
+SL: 0.24468779999999998
+TS: 0.0023989
+Order Quantity: 41685.77
+Adjusted qty: 41686.0
+Final Adjusted qty: 41685.0
+1064600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+KAIAUSDT   | S |  66.67
+Last close price for KAIAUSDT: 0.1568
+Opening Sell for  KAIAUSDT
+TP: 0.15523199999999998
+SL: 0.159936
+TS: 0.001568
+Order Quantity: 63775.51
+Adjusted qty: 63776.0
+Final Adjusted qty: 63775.0
+170000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e9581d17-90b3-40cc-89c2-bad484d07612', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757919681842}
+e9581d17-90b3-40cc-89c2-bad484d07612
+fetching trade data for :  e9581d17-90b3-40cc-89c2-bad484d07612
+[{'symbol': 'KAIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e9581d17-90b3-40cc-89c2-bad484d07612', 'stopOrderType': 'UNKNOWN', 'execTime': '1757919681841', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1569', 'execPrice': '0.1568', 'markIv': '', 'orderQty': '63775', 'orderPrice': '0.1334', 'execValue': '9999.92', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214059354, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499956', 'execId': '060076f1-0628-45df-8475-fecaec07a5a3', 'marketUnit': '', 'execQty': '63775', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IMXUSDT    | S |  66.67
+Last close price for IMXUSDT: 0.6524
+Opening Sell for  IMXUSDT
+TP: 0.645876
+SL: 0.665448
+TS: 0.006523999999999999
+Order Quantity: 15328.02
+Adjusted qty: 15328.0
+Final Adjusted qty: 15328.0
+21190.0
