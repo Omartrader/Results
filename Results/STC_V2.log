@@ -65560,3 +65560,51 @@ Order Quantity: 24265.95
 Adjusted qty: 24266.0
 Final Adjusted qty: 24265.0
 51400.0
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 22:55:05
+CFXUSDT 	Latest Close: (0.17767) 	SMA(14) : 0.18 	Delta : B 	Previous STC : 12.35 	STC : 41.57
+SANDUSDT 	Latest Close: (0.2936) 	SMA(14) : 0.29 	Delta : B 	Previous STC : 11.60 	STC : 41.07
+MANAUSDT 	Latest Close: (0.3321) 	SMA(14) : 0.33 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+DYDXUSDT 	Latest Close: (0.608) 	SMA(14) : 0.60 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CFXUSDT    | B |  41.57
+Last close price for CFXUSDT: 0.17789
+Opening Buy for  CFXUSDT
+TP: 0.1796689
+SL: 0.1743322
+TS: 0.0017789
+Order Quantity: 56214.51
+Adjusted qty: 56215.0
+Final Adjusted qty: 56214.0
+252700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '22f97ec8-cec6-459e-9b78-a7b6d494abd4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757962538388}
+22f97ec8-cec6-459e-9b78-a7b6d494abd4
+fetching trade data for :  22f97ec8-cec6-459e-9b78-a7b6d494abd4
+[{'symbol': 'CFXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '22f97ec8-cec6-459e-9b78-a7b6d494abd4', 'stopOrderType': 'UNKNOWN', 'execTime': '1757962538387', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.17795', 'execPrice': '0.17789', 'markIv': '', 'orderQty': '56214', 'orderPrice': '0.20464', 'execValue': '9999.90846', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215464575, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994966', 'execId': 'f4776497-34dd-495f-b0e2-ce58764fd008', 'marketUnit': '', 'execQty': '56214', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SANDUSDT   | B |  41.07
+Last close price for SANDUSDT: 0.2939
+Opening Buy for  SANDUSDT
+TP: 0.296839
+SL: 0.288022
+TS: 0.0029389999999999998
+Order Quantity: 34025.18
+Adjusted qty: 34025.0
+Final Adjusted qty: 34025.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3cfb9f94-c822-4205-b35a-eb254fd7d414', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757962550525}
+3cfb9f94-c822-4205-b35a-eb254fd7d414
+fetching trade data for :  3cfb9f94-c822-4205-b35a-eb254fd7d414
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3cfb9f94-c822-4205-b35a-eb254fd7d414', 'stopOrderType': 'UNKNOWN', 'execTime': '1757962550524', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2939', 'execPrice': '0.2939', 'markIv': '', 'orderQty': '34025', 'orderPrice': '0.3232', 'execValue': '9999.9475', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215465004, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997113', 'execId': 'f4c80a86-8e73-4c30-af8e-6cf839eb8e76', 'marketUnit': '', 'execQty': '34025', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 15.09.2025 22:56:01
