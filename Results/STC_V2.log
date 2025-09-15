@@ -64922,3 +64922,121 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 15.09.2025 21:05:48
+***************************************************************
+Number of open positions: 4
+Function started at 15.09.2025 21:10:06
+SOLUSDT 	Latest Close: (231.36) 	SMA(14) : 233.32 	Delta : S 	Previous STC : 98.57 	STC : 92.88
+NEOUSDT 	Latest Close: (6.445) 	SMA(14) : 6.48 	Delta : S 	Previous STC : 96.66 	STC : 94.68
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEOUSDT    | S |  94.68
+Last close price for NEOUSDT: 6.445
+Opening Sell for  NEOUSDT
+TP: 6.38055
+SL: 6.5739
+TS: 0.06445000000000001
+Order Quantity: 1551.59
+Adjusted qty: 1551.5900000000001
+Final Adjusted qty: 1551.59
+7367.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SOLUSDT    | S |  92.88
+Last close price for SOLUSDT: 231.43
+Opening Sell for  SOLUSDT
+TP: 229.1157
+SL: 236.0586
+TS: 2.3143000000000002
+Order Quantity: 43.21
+Adjusted qty: 43.2
+Final Adjusted qty: 43.2
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 15.09.2025 21:10:40
+***************************************************************
+Number of open positions: 4
+Function started at 15.09.2025 21:15:07
+CROUSDT 	Latest Close: (0.22693) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 98.89 	STC : 94.55
+TIAUSDT 	Latest Close: (1.667) 	SMA(14) : 1.68 	Delta : S 	Previous STC : 98.38 	STC : 95.91
+TRUMPUSDT 	Latest Close: (8.443) 	SMA(14) : 8.46 	Delta : S 	Previous STC : 97.95 	STC : 92.40
+LTCUSDT 	Latest Close: (112.57) 	SMA(14) : 112.82 	Delta : S 	Previous STC : 98.47 	STC : 93.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TIAUSDT    | S |  95.91
+Last close price for TIAUSDT: 1.667
+Opening Sell for  TIAUSDT
+TP: 1.65033
+SL: 1.70034
+TS: 0.01667
+Order Quantity: 5998.8
+Adjusted qty: 5998.8
+Final Adjusted qty: 5998.8
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9d8bd7dc-ffd3-4503-b10a-91fc1e58d74b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757956547139}
+9d8bd7dc-ffd3-4503-b10a-91fc1e58d74b
+fetching trade data for :  9d8bd7dc-ffd3-4503-b10a-91fc1e58d74b
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9d8bd7dc-ffd3-4503-b10a-91fc1e58d74b', 'stopOrderType': 'UNKNOWN', 'execTime': '1757956547138', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.667', 'execPrice': '1.667', 'markIv': '', 'orderQty': '5998.8', 'orderPrice': '1.584', 'execValue': '9999.9996', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215258571, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999978', 'execId': 'c68307da-6d93-4111-9e42-253238e9af9e', 'marketUnit': '', 'execQty': '5998.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | S |  94.55
+Last close price for CROUSDT: 0.22717
+Opening Sell for  CROUSDT
+TP: 0.2248983
+SL: 0.2317134
+TS: 0.0022717
+Order Quantity: 44019.9
+Adjusted qty: 44020.0
+Final Adjusted qty: 44019.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0a1100a3-8066-468d-8dc6-9431f67e00a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757956559695}
+0a1100a3-8066-468d-8dc6-9431f67e00a2
+fetching trade data for :  0a1100a3-8066-468d-8dc6-9431f67e00a2
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0a1100a3-8066-468d-8dc6-9431f67e00a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757956559693', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.22708', 'execPrice': '0.22717', 'markIv': '', 'orderQty': '44019', 'orderPrice': '0.20438', 'execValue': '9999.79623', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215258997, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49988793', 'execId': 'fb703f4f-dcb6-4ae3-b47a-b2f0066c5249', 'marketUnit': '', 'execQty': '44019', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | S |  93.27
+Last close price for LTCUSDT: 112.58
+Opening Sell for  LTCUSDT
+TP: 111.4542
+SL: 114.8316
+TS: 1.1258
+Order Quantity: 88.83
+Adjusted qty: 88.80000000000001
+Final Adjusted qty: 88.8
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9061606f-5d22-4865-b278-48ad82392a4d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757956572076}
+9061606f-5d22-4865-b278-48ad82392a4d
+fetching trade data for :  9061606f-5d22-4865-b278-48ad82392a4d
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9061606f-5d22-4865-b278-48ad82392a4d', 'stopOrderType': 'UNKNOWN', 'execTime': '1757956572075', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '112.58', 'execPrice': '112.56', 'markIv': '', 'orderQty': '88.8', 'orderPrice': '106.96', 'execValue': '9995.328', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215259445, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4974304', 'execId': '1c34c649-a592-45f0-a572-1722c79d118e', 'marketUnit': '', 'execQty': '88.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  | S |  92.40
+Last close price for TRUMPUSDT: 8.436
+Opening Sell for  TRUMPUSDT
+TP: 8.35164
+SL: 8.60472
+TS: 0.08436
+Order Quantity: 1185.4
+Adjusted qty: 1185.4
+Final Adjusted qty: 1185.4
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '641ef4f9-3ec1-4fa0-b140-4600c0ac028c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757956584245}
+641ef4f9-3ec1-4fa0-b140-4600c0ac028c
+fetching trade data for :  641ef4f9-3ec1-4fa0-b140-4600c0ac028c
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '641ef4f9-3ec1-4fa0-b140-4600c0ac028c', 'stopOrderType': 'UNKNOWN', 'execTime': '1757956584244', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.44', 'execPrice': '8.436', 'markIv': '', 'orderQty': '1185.4', 'orderPrice': '8.018', 'execValue': '10000.0344', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697215259846, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50001892', 'execId': '2033d2cb-6f37-4fb7-a360-a02926f7495b', 'marketUnit': '', 'execQty': '1185.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 21:16:33
