@@ -62434,3 +62434,57 @@ Order Quantity: 33.15
 Adjusted qty: 33.15
 Final Adjusted qty: 33.15
 2514.0
+***************************************************************
+Number of open positions: 8
+Function started at 15.09.2025 12:20:06
+FLRUSDT 	Latest Close: (0.02382) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 97.12 	STC : 90.61
+ONDOUSDT 	Latest Close: (1.0369) 	SMA(14) : 1.06 	Delta : S 	Previous STC : 96.61 	STC : 70.20
+CFXUSDT 	Latest Close: (0.17775) 	SMA(14) : 0.18 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SOLUSDT 	Latest Close: (236.2) 	SMA(14) : 240.64 	Delta : S 	Previous STC : 97.06 	STC : 84.52
+AVAXUSDT 	Latest Close: (28.629) 	SMA(14) : 29.57 	Delta : S 	Previous STC : 97.48 	STC : 91.41
+COREUSDT 	Latest Close: (0.4451) 	SMA(14) : 0.46 	Delta : S 	Previous STC : 97.48 	STC : 87.89
+ETHUSDT 	Latest Close: (4554.06) 	SMA(14) : 4627.65 	Delta : S 	Previous STC : 98.75 	STC : 89.91
+CAKEUSDT 	Latest Close: (2.471) 	SMA(14) : 2.53 	Delta : S 	Previous STC : 96.57 	STC : 82.86
+NEOUSDT 	Latest Close: (6.582) 	SMA(14) : 6.74 	Delta : S 	Previous STC : 96.14 	STC : 80.35
+AAVEUSDT 	Latest Close: (301.35) 	SMA(14) : 306.65 	Delta : S 	Previous STC : 98.72 	STC : 94.42
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AAVEUSDT   | S |  94.42
+Last close price for AAVEUSDT: 301.35
+Opening Sell for  AAVEUSDT
+TP: 298.3365
+SL: 307.377
+TS: 3.0135
+Order Quantity: 33.18
+Adjusted qty: 33.18
+Final Adjusted qty: 33.18
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cddaf70f-0891-4b7f-9c7b-b680f211ee7f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757924443549}
+cddaf70f-0891-4b7f-9c7b-b680f211ee7f
+fetching trade data for :  cddaf70f-0891-4b7f-9c7b-b680f211ee7f
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cddaf70f-0891-4b7f-9c7b-b680f211ee7f', 'stopOrderType': 'UNKNOWN', 'execTime': '1757924443547', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '301.35', 'execPrice': '301.26', 'markIv': '', 'orderQty': '33.18', 'orderPrice': '286.29', 'execValue': '9995.8068', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214216718, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49769374', 'execId': '43b77b54-a41e-4733-8162-e845298818b5', 'marketUnit': '', 'execQty': '33.18', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | S |  91.41
+Last close price for AVAXUSDT: 28.653
+Opening Sell for  AVAXUSDT
+TP: 28.36647
+SL: 29.22606
+TS: 0.28653
+Order Quantity: 349.0
+Adjusted qty: 349.0
+Final Adjusted qty: 349.0
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '61a738f4-27bf-46b6-8165-c80ae354defc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757924455551}
+61a738f4-27bf-46b6-8165-c80ae354defc
+fetching trade data for :  61a738f4-27bf-46b6-8165-c80ae354defc
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '61a738f4-27bf-46b6-8165-c80ae354defc', 'stopOrderType': 'UNKNOWN', 'execTime': '1757924455550', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '28.653', 'execPrice': '28.65', 'markIv': '', 'orderQty': '349', 'orderPrice': '28.08', 'execValue': '9998.85', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214217099, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4993675', 'execId': 'b217559d-f6ac-4a4f-b068-305d13ac0506', 'marketUnit': '', 'execQty': '349', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 15.09.2025 12:21:04
