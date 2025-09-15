@@ -63486,3 +63486,44 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 15.09.2025 17:30:46
+***************************************************************
+Number of open positions: 1
+Function started at 15.09.2025 17:35:06
+CROUSDT 	Latest Close: (0.23218) 	SMA(14) : 0.23 	Delta : B 	Previous STC : 13.42 	STC : 42.28
+IPUSDT 	Latest Close: (9.7471) 	SMA(14) : 9.83 	Delta : S 	Previous STC : 99.11 	STC : 90.83
+USD1USDT 	Latest Close: (0.999) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 17.61 	STC : 45.08
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  90.83
+Last close price for IPUSDT: 9.7473
+Opening Sell for  IPUSDT
+TP: 9.649826999999998
+SL: 9.942245999999999
+TS: 0.09747299999999999
+Order Quantity: 1025.93
+Adjusted qty: 1025.9
+Final Adjusted qty: 1025.9
+2400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+CROUSDT    | B |  42.28
+Last close price for CROUSDT: 0.23227
+Opening Buy for  CROUSDT
+TP: 0.23459270000000002
+SL: 0.2276246
+TS: 0.0023227
+Order Quantity: 43053.34
+Adjusted qty: 43053.0
+Final Adjusted qty: 43053.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6779a0d6-ad07-48da-bfcd-f3621eb20fb3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757943346493}
+6779a0d6-ad07-48da-bfcd-f3621eb20fb3
+fetching trade data for :  6779a0d6-ad07-48da-bfcd-f3621eb20fb3
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6779a0d6-ad07-48da-bfcd-f3621eb20fb3', 'stopOrderType': 'UNKNOWN', 'execTime': '1757943346492', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23229', 'execPrice': '0.23227', 'markIv': '', 'orderQty': '43053', 'orderPrice': '0.25551', 'execValue': '9999.92031', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697214821708, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49995618', 'execId': 'df64b651-3302-4ae5-9b27-97676edf1d42', 'marketUnit': '', 'execQty': '43053', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 15.09.2025 17:35:56
