@@ -71542,3 +71542,105 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 20:40:45
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 20:45:06
+WIFUSDT 	Latest Close: (0.9085) 	SMA(14) : 0.90 	Delta : B 	Previous STC : 21.01 	STC : 47.34
+WLDUSDT 	Latest Close: (1.5045) 	SMA(14) : 1.53 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+JUPUSDT 	Latest Close: (0.5161) 	SMA(14) : 0.51 	Delta : B 	Previous STC : 12.87 	STC : 30.48
+MUSDT 	Latest Close: (2.4581) 	SMA(14) : 2.49 	Delta : S 	Previous STC : 99.15 	STC : 94.63
+AUSDT 	Latest Close: (0.4715) 	SMA(14) : 0.47 	Delta : B 	Previous STC : 17.41 	STC : 44.94
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | S |  94.63
+Last close price for MUSDT: 2.4584
+Opening Sell for  MUSDT
+TP: 2.433816
+SL: 2.507568
+TS: 0.024584
+Order Quantity: 4067.69
+Adjusted qty: 4068.0
+Final Adjusted qty: 4067.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '85b7303b-02a3-4d8d-9aff-5db42ba6912f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758041149806}
+85b7303b-02a3-4d8d-9aff-5db42ba6912f
+fetching trade data for :  85b7303b-02a3-4d8d-9aff-5db42ba6912f
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '85b7303b-02a3-4d8d-9aff-5db42ba6912f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758041149806', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.459', 'execPrice': '2.459', 'markIv': '', 'orderQty': '4067', 'orderPrice': '2.0902', 'execValue': '10000.753', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218016287, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0008283', 'execId': '3c614881-841e-47b8-804a-2fdf1f53b038', 'marketUnit': '', 'execQty': '4067', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | S |  66.67
+Last close price for WLDUSDT: 1.5033
+Opening Sell for  WLDUSDT
+TP: 1.488267
+SL: 1.533366
+TS: 0.015033000000000001
+Order Quantity: 6652.03
+Adjusted qty: 6652.0
+Final Adjusted qty: 6652.0
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '84a7a700-db3e-4f15-8a40-f7368327bc62', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758041162128}
+84a7a700-db3e-4f15-8a40-f7368327bc62
+fetching trade data for :  84a7a700-db3e-4f15-8a40-f7368327bc62
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '84a7a700-db3e-4f15-8a40-f7368327bc62', 'stopOrderType': 'UNKNOWN', 'execTime': '1758041162127', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.5046', 'execPrice': '1.5047', 'markIv': '', 'orderQty': '6652', 'orderPrice': '1.4294', 'execValue': '10009.2644', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218016669, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50509542', 'execId': '2a5fcafa-a320-4768-b915-b18cf2b20f1d', 'marketUnit': '', 'execQty': '6652', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WIFUSDT    | B |  47.34
+Last close price for WIFUSDT: 0.9087
+Opening Buy for  WIFUSDT
+TP: 0.9177869999999999
+SL: 0.8905259999999999
+TS: 0.009087
+Order Quantity: 11004.73
+Adjusted qty: 11005.0
+Final Adjusted qty: 11004.0
+98500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cdcd6a32-5d1a-4e01-a429-9da42d740a9e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758041181754}
+cdcd6a32-5d1a-4e01-a429-9da42d740a9e
+fetching trade data for :  cdcd6a32-5d1a-4e01-a429-9da42d740a9e
+[{'symbol': 'WIFUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cdcd6a32-5d1a-4e01-a429-9da42d740a9e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758041181753', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9087', 'execPrice': '0.9086', 'markIv': '', 'orderQty': '11004', 'orderPrice': '0.9541', 'execValue': '9998.2344', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218017308, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49902892', 'execId': 'cec13461-3623-4ef7-804a-ab6c5cb45dd2', 'marketUnit': '', 'execQty': '11004', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AUSDT      | B |  44.94
+Last close price for AUSDT: 0.4716
+Opening Buy for  AUSDT
+TP: 0.476316
+SL: 0.462168
+TS: 0.004716000000000001
+Order Quantity: 21204.41
+Adjusted qty: 21204.0
+Final Adjusted qty: 21204.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'febeefd3-1d36-4c0c-96fc-87881287b608', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758041194067}
+febeefd3-1d36-4c0c-96fc-87881287b608
+fetching trade data for :  febeefd3-1d36-4c0c-96fc-87881287b608
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'febeefd3-1d36-4c0c-96fc-87881287b608', 'stopOrderType': 'UNKNOWN', 'execTime': '1758041194066', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4716', 'execPrice': '0.4716', 'markIv': '', 'orderQty': '21204', 'orderPrice': '0.5187', 'execValue': '9999.8064', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218017686, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989352', 'execId': '732fe3ac-9a2b-4762-aab4-315ab1b49ffe', 'marketUnit': '', 'execQty': '21204', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JUPUSDT    | B |  30.48
+Last close price for JUPUSDT: 0.517
+Opening Buy for  JUPUSDT
+TP: 0.52217
+SL: 0.50666
+TS: 0.00517
+Order Quantity: 19342.36
+Adjusted qty: 19342.0
+Final Adjusted qty: 19342.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '890c305c-edf9-41bf-9911-38d07ee3c96a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758041206205}
+890c305c-edf9-41bf-9911-38d07ee3c96a
+fetching trade data for :  890c305c-edf9-41bf-9911-38d07ee3c96a
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '890c305c-edf9-41bf-9911-38d07ee3c96a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758041206204', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.517', 'execPrice': '0.517', 'markIv': '', 'orderQty': '19342', 'orderPrice': '0.5428', 'execValue': '9999.814', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218018066, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4998977', 'execId': 'd2d65890-c874-49b3-b66e-c12dd9a78876', 'marketUnit': '', 'execQty': '19342', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 20:46:56
