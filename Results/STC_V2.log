@@ -70669,3 +70669,75 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 16.09.2025 17:45:48
+***************************************************************
+Number of open positions: 7
+Function started at 16.09.2025 17:50:06
+ADAUSDT 	Latest Close: (0.8618) 	SMA(14) : 0.87 	Delta : S 	Previous STC : 100.00 	STC : 82.39
+ONDOUSDT 	Latest Close: (1.0278) 	SMA(14) : 1.04 	Delta : S 	Previous STC : 99.39 	STC : 87.74
+DYDXUSDT 	Latest Close: (0.6142) 	SMA(14) : 0.62 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+TONUSDT 	Latest Close: (3.1591) 	SMA(14) : 3.18 	Delta : S 	Previous STC : 100.00 	STC : 90.05
+FLOWUSDT 	Latest Close: (0.3983) 	SMA(14) : 0.40 	Delta : S 	Previous STC : 100.00 	STC : 78.65
+ICPUSDT 	Latest Close: (4.662) 	SMA(14) : 4.69 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+INJUSDT 	Latest Close: (13.483) 	SMA(14) : 13.59 	Delta : S 	Previous STC : 98.88 	STC : 75.52
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  90.05
+Last close price for TONUSDT: 3.1608
+Opening Sell for  TONUSDT
+TP: 3.129192
+SL: 3.224016
+TS: 0.031608
+Order Quantity: 3163.76
+Adjusted qty: 3163.8
+Final Adjusted qty: 3163.7
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ONDOUSDT   | S |  87.74
+Last close price for ONDOUSDT: 1.0272
+Opening Sell for  ONDOUSDT
+TP: 1.0169279999999998
+SL: 1.047744
+TS: 0.010271999999999998
+Order Quantity: 9735.2
+Adjusted qty: 9735.0
+Final Adjusted qty: 9735.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eec0abe9-6cc0-4bf8-b1f0-0e7928f8fe5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758030647805}
+eec0abe9-6cc0-4bf8-b1f0-0e7928f8fe5e
+fetching trade data for :  eec0abe9-6cc0-4bf8-b1f0-0e7928f8fe5e
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'eec0abe9-6cc0-4bf8-b1f0-0e7928f8fe5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758030647804', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0273', 'execPrice': '1.0276', 'markIv': '', 'orderQty': '9735', 'orderPrice': '0.976', 'execValue': '10003.686', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217672225, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5020273', 'execId': 'a64c1526-2127-487d-9794-0ba9e4c384e5', 'marketUnit': '', 'execQty': '9735', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    | S |  82.39
+Last close price for ADAUSDT: 0.8597
+Opening Sell for  ADAUSDT
+TP: 0.851103
+SL: 0.8768940000000001
+TS: 0.008597
+Order Quantity: 11631.96
+Adjusted qty: 11632.0
+Final Adjusted qty: 11631.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '789c14f6-7486-46fd-8dc5-43ed671d387a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758030660054}
+789c14f6-7486-46fd-8dc5-43ed671d387a
+fetching trade data for :  789c14f6-7486-46fd-8dc5-43ed671d387a
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '789c14f6-7486-46fd-8dc5-43ed671d387a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758030660052', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8601', 'execPrice': '0.8601', 'markIv': '', 'orderQty': '11631', 'orderPrice': '0.8171', 'execValue': '10003.8231', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217672636, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50210271', 'execId': '750a0153-7b02-48a9-9244-022066142cd1', 'marketUnit': '', 'execQty': '11631', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLOWUSDT   | S |  78.65
+Last close price for FLOWUSDT: 0.3983
+Opening Sell for  FLOWUSDT
+TP: 0.394317
+SL: 0.406266
+TS: 0.0039829999999999996
+Order Quantity: 25106.7
+Adjusted qty: 25106.7
+Final Adjusted qty: 25106.7
+76780.0
