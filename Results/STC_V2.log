@@ -68280,3 +68280,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 09:10:40
+***************************************************************
+Number of open positions: 4
+Function started at 16.09.2025 09:40:06
+XRPUSDT 	Latest Close: (2.9948) 	SMA(14) : 2.98 	Delta : B 	Previous STC : 0.00 	STC : 29.12
+MUSDT 	Latest Close: (2.5001) 	SMA(14) : 2.49 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | B |  33.33
+Last close price for MUSDT: 2.5008
+Opening Buy for  MUSDT
+TP: 2.525808
+SL: 2.450784
+TS: 0.025008
+Order Quantity: 3998.72
+Adjusted qty: 3999.0
+Final Adjusted qty: 3998.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '274e38e0-158e-4914-8ffb-ec364a9967d7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758001241110}
+274e38e0-158e-4914-8ffb-ec364a9967d7
+fetching trade data for :  274e38e0-158e-4914-8ffb-ec364a9967d7
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '274e38e0-158e-4914-8ffb-ec364a9967d7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758001241109', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.4984', 'execPrice': '2.5002', 'markIv': '', 'orderQty': '3998', 'orderPrice': '2.8731', 'execValue': '9995.7996', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216737196, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99537956', 'execId': 'd986ab39-8378-4e86-a0a9-27a9b1b86b77', 'marketUnit': '', 'execQty': '3998', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XRPUSDT    | B |  29.12
+Last close price for XRPUSDT: 2.9949
+Opening Buy for  XRPUSDT
+TP: 3.024849
+SL: 2.935002
+TS: 0.029949
+Order Quantity: 3339.01
+Adjusted qty: 3339.0
+Final Adjusted qty: 3339.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0e07a6f3-225e-4720-9ba0-e3c7be650f17', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758001253259}
+0e07a6f3-225e-4720-9ba0-e3c7be650f17
+fetching trade data for :  0e07a6f3-225e-4720-9ba0-e3c7be650f17
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0e07a6f3-225e-4720-9ba0-e3c7be650f17', 'stopOrderType': 'UNKNOWN', 'execTime': '1758001253259', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.995', 'execPrice': '2.995', 'markIv': '', 'orderQty': '3339', 'orderPrice': '3.1447', 'execValue': '10000.305', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216737567, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50016775', 'execId': '642aabde-936f-44ef-a7cf-77f4a0635340', 'marketUnit': '', 'execQty': '3339', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 09:41:03
