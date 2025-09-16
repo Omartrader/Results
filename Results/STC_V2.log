@@ -70557,3 +70557,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 16.09.2025 17:30:45
+***************************************************************
+Number of open positions: 8
+Function started at 16.09.2025 17:35:05
+ATHUSDT 	Latest Close: (0.06094) 	SMA(14) : 0.06 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+LINKUSDT 	Latest Close: (23.508) 	SMA(14) : 23.57 	Delta : S 	Previous STC : 98.50 	STC : 90.35
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINKUSDT   | S |  90.35
+Last close price for LINKUSDT: 23.517
+Opening Sell for  LINKUSDT
+TP: 23.28183
+SL: 23.98734
+TS: 0.23517
+Order Quantity: 425.22
+Adjusted qty: 425.20000000000005
+Final Adjusted qty: 425.2
+31450.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7167906a-79b9-498f-bb4b-00e68664a843', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758029734521}
+7167906a-79b9-498f-bb4b-00e68664a843
+fetching trade data for :  7167906a-79b9-498f-bb4b-00e68664a843
+[{'symbol': 'LINKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7167906a-79b9-498f-bb4b-00e68664a843', 'stopOrderType': 'UNKNOWN', 'execTime': '1758029734519', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '23.517', 'execPrice': '23.51', 'markIv': '', 'orderQty': '425.2', 'orderPrice': '22.342', 'execValue': '9996.452', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217641258, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4980486', 'execId': '716de96b-d1e8-4ee5-9594-1cc9624c0d11', 'marketUnit': '', 'execQty': '425.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATHUSDT    | B |  33.33
+Last close price for ATHUSDT: 0.06086
+Opening Buy for  ATHUSDT
+TP: 0.0614686
+SL: 0.059642799999999996
+TS: 0.0006085999999999999
+Order Quantity: 164311.53
+Adjusted qty: 164310.0
+Final Adjusted qty: 164310.0
+300000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 16.09.2025 17:35:46
