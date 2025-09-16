@@ -69293,3 +69293,35 @@ Order Quantity: 12112.4
 Adjusted qty: 12112.0
 Final Adjusted qty: 12112.0
 600000.0
+***************************************************************
+Number of open positions: 9
+Function started at 16.09.2025 12:15:05
+CRVUSDT 	Latest Close: (0.7412) 	SMA(14) : 0.74 	Delta : B 	Previous STC : 16.72 	STC : 44.48
+ETHFIUSDT 	Latest Close: (1.4855) 	SMA(14) : 1.46 	Delta : B 	Previous STC : 22.54 	STC : 40.59
+LINKUSDT 	Latest Close: (23.686) 	SMA(14) : 23.48 	Delta : B 	Previous STC : 5.72 	STC : 31.13
+BUSDT 	Latest Close: (0.53499) 	SMA(14) : 0.53 	Delta : B 	Previous STC : 19.61 	STC : 46.41
+ARUSDT 	Latest Close: (7.097) 	SMA(14) : 6.99 	Delta : B 	Previous STC : 11.70 	STC : 41.13
+ENSUSDT 	Latest Close: (23.332) 	SMA(14) : 23.17 	Delta : B 	Previous STC : 20.57 	STC : 33.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | B |  46.41
+Last close price for BUSDT: 0.53499
+Opening Buy for  BUSDT
+TP: 0.5403399
+SL: 0.5242901999999999
+TS: 0.0053498999999999994
+Order Quantity: 18691.94
+Adjusted qty: 18692.0
+Final Adjusted qty: 18691.0
+90000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c1096824-1f70-4df2-b0a0-5ac467f9ec0b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758010539078}
+c1096824-1f70-4df2-b0a0-5ac467f9ec0b
+fetching trade data for :  c1096824-1f70-4df2-b0a0-5ac467f9ec0b
+[{'symbol': 'BUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c1096824-1f70-4df2-b0a0-5ac467f9ec0b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758010539077', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.53491', 'execPrice': '0.53499', 'markIv': '', 'orderQty': '18691', 'orderPrice': '0.61514', 'execValue': '9999.49809', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217030808, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9994479', 'execId': '64e51913-b9e6-4a1b-b769-c1c6d9e50cda', 'marketUnit': '', 'execQty': '18691', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 16.09.2025 12:15:48
