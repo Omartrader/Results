@@ -68393,3 +68393,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 09:55:38
+***************************************************************
+Number of open positions: 5
+Function started at 16.09.2025 10:00:06
+VIRTUALUSDT 	Latest Close: (1.2381) 	SMA(14) : 1.22 	Delta : B 	Previous STC : 17.01 	STC : 25.03
+LDOUSDT 	Latest Close: (1.1755) 	SMA(14) : 1.17 	Delta : B 	Previous STC : 23.85 	STC : 30.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LDOUSDT    | B |  30.99
+Last close price for LDOUSDT: 1.1757
+Opening Buy for  LDOUSDT
+TP: 1.187457
+SL: 1.152186
+TS: 0.011757
+Order Quantity: 8505.57
+Adjusted qty: 8505.6
+Final Adjusted qty: 8505.5
+59020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6ddb3f3b-56e7-4ca2-8427-2cec29790280', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758002442287}
+6ddb3f3b-56e7-4ca2-8427-2cec29790280
+fetching trade data for :  6ddb3f3b-56e7-4ca2-8427-2cec29790280
+[{'symbol': 'LDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6ddb3f3b-56e7-4ca2-8427-2cec29790280', 'stopOrderType': 'UNKNOWN', 'execTime': '1758002442286', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.1757', 'execPrice': '1.1757', 'markIv': '', 'orderQty': '8505.5', 'orderPrice': '1.2344', 'execValue': '9999.91635', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216775518, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499954', 'execId': '4551d433-b958-4e67-afae-943f6238f7ab', 'marketUnit': '', 'execQty': '8505.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VIRTUALUSDT | B |  25.03
+Last close price for VIRTUALUSDT: 1.2369
+Opening Buy for  VIRTUALUSDT
+TP: 1.2492690000000002
+SL: 1.2121620000000002
+TS: 0.012369000000000002
+Order Quantity: 8084.73
+Adjusted qty: 8085.0
+Final Adjusted qty: 8084.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c6e0a83b-dd9f-42f1-a415-268e4f6c6683', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758002454396}
+c6e0a83b-dd9f-42f1-a415-268e4f6c6683
+fetching trade data for :  c6e0a83b-dd9f-42f1-a415-268e4f6c6683
+[{'symbol': 'VIRTUALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c6e0a83b-dd9f-42f1-a415-268e4f6c6683', 'stopOrderType': 'UNKNOWN', 'execTime': '1758002454396', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.237', 'execPrice': '1.2369', 'markIv': '', 'orderQty': '8084', 'orderPrice': '1.3607', 'execValue': '9999.0996', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216775910, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49950478', 'execId': 'cdf01301-4038-4cd4-acf7-83421e66e447', 'marketUnit': '', 'execQty': '8084', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 10:01:04
