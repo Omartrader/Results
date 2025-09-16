@@ -43867,3 +43867,38 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 16.09.2025 08:11:35
+***************************************************************
+Number of open positions: 4
+Function started at 16.09.2025 08:16:01
+	DOGEUSDT 	Signal: S
+DOGEUSDT 	Latest Close: (0.26466) 	SMA(14) : 0.27 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.855) 	SMA(14) : 0.86 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	FILUSDT 	Signal: S
+FILUSDT 	Latest Close: (2.384) 	SMA(14) : 2.40 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (8.449) 	SMA(14) : 8.50 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOGEUSDT   | S |  66.67
+1
+Last close price for DOGEUSDT: 0.26458
+Opening Sell for  DOGEUSDT
+TP: 0.2619342
+SL: 0.2698716
+TS: 0.0026458
+Order Quantity: 75591.5
+Adjusted qty: 75592.0
+Final Adjusted qty: 75591.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c4827c21-9bae-4d74-93da-14bdb08573be', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757996181571}
+c4827c21-9bae-4d74-93da-14bdb08573be
+fetching trade data for :  c4827c21-9bae-4d74-93da-14bdb08573be
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c4827c21-9bae-4d74-93da-14bdb08573be', 'stopOrderType': 'UNKNOWN', 'execTime': '1757996181570', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.26457', 'execPrice': '0.26444', 'markIv': '', 'orderQty': '75591', 'orderPrice': '0.25135', 'execValue': '19989.28404', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612528441138, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99410623', 'execId': '2edd2f09-197e-42ff-b9ce-b6f1a991abdf', 'marketUnit': '', 'execQty': '75591', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 16.09.2025 08:16:32
