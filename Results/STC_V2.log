@@ -71427,3 +71427,48 @@ Function started at 16.09.2025 20:25:07
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 16.09.2025 20:25:48
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 20:30:06
+SAROSUSDT 	Latest Close: (0.40263) 	SMA(14) : 0.40 	Delta : S 	Previous STC : 96.29 	STC : 87.02
+BNBUSDT 	Latest Close: (934.5) 	SMA(14) : 929.73 	Delta : B 	Previous STC : 9.28 	STC : 33.22
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  87.02
+Last close price for SAROSUSDT: 0.40263
+Opening Sell for  SAROSUSDT
+TP: 0.3986037
+SL: 0.4106826
+TS: 0.0040263
+Order Quantity: 24836.7
+Adjusted qty: 24837.0
+Final Adjusted qty: 24836.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8b485bdf-d579-4acb-9bc6-7c743cdb9b89', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758040245994}
+8b485bdf-d579-4acb-9bc6-7c743cdb9b89
+fetching trade data for :  8b485bdf-d579-4acb-9bc6-7c743cdb9b89
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8b485bdf-d579-4acb-9bc6-7c743cdb9b89', 'stopOrderType': 'UNKNOWN', 'execTime': '1758040245993', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.40249', 'execPrice': '0.40263', 'markIv': '', 'orderQty': '24836', 'orderPrice': '0.34212', 'execValue': '9999.71868', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217987501, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99969055', 'execId': '8748a1bd-70d4-4a52-a73f-91b1f6a6656f', 'marketUnit': '', 'execQty': '24836', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BNBUSDT    | B |  33.22
+Last close price for BNBUSDT: 934.6
+Opening Buy for  BNBUSDT
+TP: 943.946
+SL: 915.908
+TS: 9.346
+Order Quantity: 10.7
+Adjusted qty: 10.700000000000001
+Final Adjusted qty: 10.7
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2fe4e092-8a80-421d-b497-d9476a81365b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758040258442}
+2fe4e092-8a80-421d-b497-d9476a81365b
+fetching trade data for :  2fe4e092-8a80-421d-b497-d9476a81365b
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2fe4e092-8a80-421d-b497-d9476a81365b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758040258441', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '934.9', 'execPrice': '934.9', 'markIv': '', 'orderQty': '10.7', 'orderPrice': '981.6', 'execValue': '10003.43', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217987883, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5018865', 'execId': 'fc5d1c0f-7927-4c94-9989-649aa10ad062', 'marketUnit': '', 'execQty': '10.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 20:31:09
