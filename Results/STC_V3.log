@@ -45372,3 +45372,48 @@ Order Quantity: 2344.94
 Adjusted qty: 2344.9
 Final Adjusted qty: 2344.9
 8000.0
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 16:11:02
+	VETUSDT 	Signal: S
+VETUSDT 	Latest Close: (0.02422) 	SMA(14) : 0.02 	Delta :  	Previous STC : 96.27 	STC : 64.18
+	IMXUSDT 	Signal: S
+IMXUSDT 	Latest Close: (0.7068) 	SMA(14) : 0.72 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (4.4) 	SMA(14) : 4.40 	Delta :  	Previous STC : 99.99 	STC : 66.66
+	USDCUSDT 	Signal: B
+USDCUSDT 	Latest Close: (0.9999) 	SMA(14) : 1.00 	Delta :  	Previous STC : 7.67 	STC : 30.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IMXUSDT    | S |  66.67
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758024684701}
+Last close price for IMXUSDT: 0.7073
+Opening Sell for  IMXUSDT
+TP: 0.700227
+SL: 0.721446
+TS: 0.007073
+Order Quantity: 28276.54
+Adjusted qty: 28276.5
+Final Adjusted qty: 28276.5
+21190.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1f781557-cbe8-4da9-97e6-101c8e55a18c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758024685923}
+1f781557-cbe8-4da9-97e6-101c8e55a18c
+fetching trade data for :  1f781557-cbe8-4da9-97e6-101c8e55a18c
+[{'symbol': 'IMXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1f781557-cbe8-4da9-97e6-101c8e55a18c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758024685922', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7071', 'execPrice': '0.7075', 'markIv': '', 'orderQty': '21190', 'orderPrice': '0.6364', 'execValue': '14991.925', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612529387915, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.24555875', 'execId': '160e58dc-8278-4463-96d4-ba30890162c9', 'marketUnit': '', 'execQty': '21190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+APTUSDT    | S |  66.66
+1
+Last close price for APTUSDT: 4.4
+Opening Sell for  APTUSDT
+TP: 4.356
+SL: 4.488
+TS: 0.044000000000000004
+Order Quantity: 4545.45
+Adjusted qty: 4545.45
+Final Adjusted qty: 4545.45
+15408.0
