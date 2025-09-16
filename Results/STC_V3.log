@@ -44139,3 +44139,43 @@ Function started at 16.09.2025 08:56:18
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 16.09.2025 08:56:37
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 09:00:49
+	MNTUSDT 	Signal: B
+MNTUSDT 	Latest Close: (1.6212) 	SMA(14) : 1.61 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (20.271) 	SMA(14) : 20.27 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETCUSDT    | S |  66.67
+1
+Last close price for ETCUSDT: 20.277
+Opening Sell for  ETCUSDT
+TP: 20.07423
+SL: 20.682540000000003
+TS: 0.20277
+Order Quantity: 986.34
+Adjusted qty: 986.3000000000001
+Final Adjusted qty: 986.3
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1eb4f4c6-d3a4-4b81-a96a-a76cd59ab5fc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757998872505}
+1eb4f4c6-d3a4-4b81-a96a-a76cd59ab5fc
+fetching trade data for :  1eb4f4c6-d3a4-4b81-a96a-a76cd59ab5fc
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1eb4f4c6-d3a4-4b81-a96a-a76cd59ab5fc', 'stopOrderType': 'UNKNOWN', 'execTime': '1757998872505', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.277', 'execPrice': '20.277', 'markIv': '', 'orderQty': '986.3', 'orderPrice': '19.264', 'execValue': '19999.2051', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612528532252, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99956281', 'execId': '7f400174-e9e7-41b5-aac9-86818db929d2', 'marketUnit': '', 'execQty': '986.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    | B |  33.33
+1
+Last close price for MNTUSDT: 1.6232
+Opening Buy for  MNTUSDT
+TP: 1.639432
+SL: 1.590736
+TS: 0.016232
+Order Quantity: 12321.34
+Adjusted qty: 12321.0
+Final Adjusted qty: 12321.0
+71000.0
