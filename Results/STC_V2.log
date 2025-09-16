@@ -67122,3 +67122,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 05:55:40
+***************************************************************
+Number of open positions: 6
+Function started at 16.09.2025 06:00:05
+CROUSDT 	Latest Close: (0.22725) 	SMA(14) : 0.23 	Delta : S 	Previous STC : 99.99 	STC : 95.47
+LINKUSDT 	Latest Close: (23.428) 	SMA(14) : 23.53 	Delta : S 	Previous STC : 100.00 	STC : 89.77
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  95.47
+Last close price for CROUSDT: 0.2272
+Opening Sell for  CROUSDT
+TP: 0.22492800000000002
+SL: 0.231744
+TS: 0.002272
+Order Quantity: 44014.08
+Adjusted qty: 44014.0
+Final Adjusted qty: 44014.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6d3cd135-a526-47d3-bfbc-94a717a0eda2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757988041268}
+6d3cd135-a526-47d3-bfbc-94a717a0eda2
+fetching trade data for :  6d3cd135-a526-47d3-bfbc-94a717a0eda2
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6d3cd135-a526-47d3-bfbc-94a717a0eda2', 'stopOrderType': 'UNKNOWN', 'execTime': '1757988041267', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2272', 'execPrice': '0.2272', 'markIv': '', 'orderQty': '44014', 'orderPrice': '0.20448', 'execValue': '9999.9808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216304567, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998944', 'execId': '71a2d556-782a-4e32-8693-5f36939a8197', 'marketUnit': '', 'execQty': '44014', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LINKUSDT   | S |  89.77
+Last close price for LINKUSDT: 23.423
+Opening Sell for  LINKUSDT
+TP: 23.188769999999998
+SL: 23.89146
+TS: 0.23423
+Order Quantity: 426.93
+Adjusted qty: 426.90000000000003
+Final Adjusted qty: 426.9
+31450.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '454c53e8-80e0-4c00-ba62-9d11649c5da7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757988053126}
+454c53e8-80e0-4c00-ba62-9d11649c5da7
+fetching trade data for :  454c53e8-80e0-4c00-ba62-9d11649c5da7
+[{'symbol': 'LINKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '454c53e8-80e0-4c00-ba62-9d11649c5da7', 'stopOrderType': 'UNKNOWN', 'execTime': '1757988053125', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '23.424', 'execPrice': '23.423', 'markIv': '', 'orderQty': '426.9', 'orderPrice': '22.253', 'execValue': '9999.2787', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216304958, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49960329', 'execId': '2884e131-49b6-46ea-88f0-d2c81fd7789d', 'marketUnit': '', 'execQty': '426.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 06:01:01
