@@ -66986,3 +66986,29 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 05:25:40
+***************************************************************
+Number of open positions: 6
+Function started at 16.09.2025 05:30:05
+BUSDT 	Latest Close: (0.53398) 	SMA(14) : 0.54 	Delta : S 	Previous STC : 99.48 	STC : 93.10
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | S |  93.10
+Last close price for BUSDT: 0.53398
+Opening Sell for  BUSDT
+TP: 0.5286402
+SL: 0.5446596
+TS: 0.0053398000000000004
+Order Quantity: 18727.29
+Adjusted qty: 18727.0
+Final Adjusted qty: 18727.0
+90000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '234f3d2a-0b1a-4f5a-9c2f-317d20fc4e29', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757986240180}
+234f3d2a-0b1a-4f5a-9c2f-317d20fc4e29
+fetching trade data for :  234f3d2a-0b1a-4f5a-9c2f-317d20fc4e29
+[{'symbol': 'BUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '234f3d2a-0b1a-4f5a-9c2f-317d20fc4e29', 'stopOrderType': 'UNKNOWN', 'execTime': '1757986240178', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.53398', 'execPrice': '0.53398', 'markIv': '', 'orderQty': '18727', 'orderPrice': '0.45389', 'execValue': '9999.84346', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216245815, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99982781', 'execId': 'd315ea24-5ae8-4e25-bbdd-5cd667306382', 'marketUnit': '', 'execQty': '18727', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 05:30:49
