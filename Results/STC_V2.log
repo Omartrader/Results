@@ -69497,3 +69497,59 @@ Order Quantity: 28957.81
 Adjusted qty: 28958.0
 Final Adjusted qty: 28957.0
 1356000.0
+***************************************************************
+Number of open positions: 6
+Function started at 16.09.2025 12:40:05
+HBARUSDT 	Latest Close: (0.23644) 	SMA(14) : 0.23 	Delta : B 	Previous STC : 8.08 	STC : 33.18
+TRXUSDT 	Latest Close: (0.34549) 	SMA(14) : 0.35 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+CFXUSDT 	Latest Close: (0.17803) 	SMA(14) : 0.18 	Delta : B 	Previous STC : 22.31 	STC : 48.21
+XDCUSDT 	Latest Close: (0.07517) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | S |  66.67
+Last close price for TRXUSDT: 0.34552
+Opening Sell for  TRXUSDT
+TP: 0.3420648
+SL: 0.3524304
+TS: 0.0034552
+Order Quantity: 28941.88
+Adjusted qty: 28942.0
+Final Adjusted qty: 28941.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '422ecc3c-f88a-4cb8-8b3c-c8c1c093ba99', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758012040459}
+422ecc3c-f88a-4cb8-8b3c-c8c1c093ba99
+fetching trade data for :  422ecc3c-f88a-4cb8-8b3c-c8c1c093ba99
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '422ecc3c-f88a-4cb8-8b3c-c8c1c093ba99', 'stopOrderType': 'UNKNOWN', 'execTime': '1758012040459', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.34558', 'execPrice': '0.34552', 'markIv': '', 'orderQty': '28941', 'orderPrice': '0.32831', 'execValue': '9999.69432', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217078757, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49983188', 'execId': '58c25cda-30c0-4438-a9a1-f995aae7ce0c', 'marketUnit': '', 'execQty': '28941', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    | S |  66.67
+Last close price for XDCUSDT: 0.07523
+Opening Sell for  XDCUSDT
+TP: 0.07447770000000001
+SL: 0.0767346
+TS: 0.0007523
+Order Quantity: 132925.69
+Adjusted qty: 132926.0
+Final Adjusted qty: 132925.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f36fea88-eb54-4538-a8de-664f2bba3c98', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758012052602}
+f36fea88-eb54-4538-a8de-664f2bba3c98
+fetching trade data for :  f36fea88-eb54-4538-a8de-664f2bba3c98
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f36fea88-eb54-4538-a8de-664f2bba3c98', 'stopOrderType': 'UNKNOWN', 'execTime': '1758012052602', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07517', 'execPrice': '0.07523', 'markIv': '', 'orderQty': '132925', 'orderPrice': '0.06014', 'execValue': '9999.94775', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217079164, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99994253', 'execId': 'b7d8d631-e6ab-4873-97ac-ee673443e982', 'marketUnit': '', 'execQty': '132925', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CFXUSDT    | B |  48.21
+Last close price for CFXUSDT: 0.17792
+Opening Buy for  CFXUSDT
+TP: 0.1796992
+SL: 0.1743616
+TS: 0.0017791999999999999
+Order Quantity: 56205.04
+Adjusted qty: 56205.0
+Final Adjusted qty: 56205.0
+252700.0
