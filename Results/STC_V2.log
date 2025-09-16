@@ -69068,3 +69068,74 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 16.09.2025 11:45:55
+***************************************************************
+Number of open positions: 7
+Function started at 16.09.2025 11:50:11
+ONDOUSDT 	Latest Close: (1.0345) 	SMA(14) : 1.03 	Delta : B 	Previous STC : 12.87 	STC : 41.91
+SUIUSDT 	Latest Close: (3.5331) 	SMA(14) : 3.51 	Delta : B 	Previous STC : 22.24 	STC : 33.17
+ALGOUSDT 	Latest Close: (0.2334) 	SMA(14) : 0.23 	Delta : B 	Previous STC : 22.36 	STC : 42.00
+JUPUSDT 	Latest Close: (0.5093) 	SMA(14) : 0.51 	Delta : B 	Previous STC : 15.29 	STC : 34.66
+AVAXUSDT 	Latest Close: (30.586) 	SMA(14) : 29.74 	Delta : B 	Previous STC : 7.08 	STC : 36.70
+FORMUSDT 	Latest Close: (2.1614) 	SMA(14) : 2.15 	Delta : B 	Previous STC : 19.63 	STC : 42.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | B |  42.62
+Last close price for FORMUSDT: 2.1614
+Opening Buy for  FORMUSDT
+TP: 2.183014
+SL: 2.118172
+TS: 0.021614
+Order Quantity: 4626.63
+Adjusted qty: 4627.0
+Final Adjusted qty: 4626.0
+2850.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ALGOUSDT   | B |  42.00
+Last close price for ALGOUSDT: 0.2334
+Opening Buy for  ALGOUSDT
+TP: 0.235734
+SL: 0.228732
+TS: 0.002334
+Order Quantity: 42844.9
+Adjusted qty: 42844.9
+Final Adjusted qty: 42844.9
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6713008c-ab28-472f-99f4-ca9cde002c34', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758009046421}
+6713008c-ab28-472f-99f4-ca9cde002c34
+fetching trade data for :  6713008c-ab28-472f-99f4-ca9cde002c34
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6713008c-ab28-472f-99f4-ca9cde002c34', 'stopOrderType': 'UNKNOWN', 'execTime': '1758009046421', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2334', 'execPrice': '0.2334', 'markIv': '', 'orderQty': '42844.9', 'orderPrice': '0.245', 'execValue': '9999.99966', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216982724, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999982', 'execId': 'd377ea88-effc-47ed-8b11-9522aaff4f16', 'marketUnit': '', 'execQty': '42844.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  41.91
+Last close price for ONDOUSDT: 1.0336
+Opening Buy for  ONDOUSDT
+TP: 1.043936
+SL: 1.012928
+TS: 0.010336000000000001
+Order Quantity: 9674.92
+Adjusted qty: 9675.0
+Final Adjusted qty: 9674.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd3a224b7-b98a-400f-82be-1b0577317094', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758009058424}
+d3a224b7-b98a-400f-82be-1b0577317094
+fetching trade data for :  d3a224b7-b98a-400f-82be-1b0577317094
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd3a224b7-b98a-400f-82be-1b0577317094', 'stopOrderType': 'UNKNOWN', 'execTime': '1758009058423', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0338', 'execPrice': '1.0336', 'markIv': '', 'orderQty': '9674', 'orderPrice': '1.0854', 'execValue': '9999.0464', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216983097, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49947552', 'execId': 'd45d00d3-b86a-46cc-a7ae-8cbb96dc3a77', 'marketUnit': '', 'execQty': '9674', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | B |  36.70
+Last close price for AVAXUSDT: 30.548
+Opening Buy for  AVAXUSDT
+TP: 30.853479999999998
+SL: 29.937039999999996
+TS: 0.30548
+Order Quantity: 327.35
+Adjusted qty: 327.40000000000003
+Final Adjusted qty: 327.3
+10950.0
