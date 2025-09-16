@@ -45442,3 +45442,47 @@ Order Quantity: 174.83
 Adjusted qty: 174.8
 Final Adjusted qty: 174.8
 6160.0
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 16:20:40
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4925) 	SMA(14) : 0.49 	Delta :  	Previous STC : 99.98 	STC : 80.12
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (2.533) 	SMA(14) : 2.48 	Delta :  	Previous STC : 16.51 	STC : 44.34
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (8.552) 	SMA(14) : 8.55 	Delta :  	Previous STC : 97.93 	STC : 70.35
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (114.39) 	SMA(14) : 114.53 	Delta :  	Previous STC : 99.33 	STC : 94.58
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  94.58
+1
+Last close price for LTCUSDT: 114.4
+Opening Sell for  LTCUSDT
+TP: 113.256
+SL: 116.688
+TS: 1.1440000000000001
+Order Quantity: 174.83
+Adjusted qty: 174.8
+Final Adjusted qty: 174.8
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '650b25bd-e333-4f83-84ad-a0d9f15151d5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758025258610}
+650b25bd-e333-4f83-84ad-a0d9f15151d5
+fetching trade data for :  650b25bd-e333-4f83-84ad-a0d9f15151d5
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '650b25bd-e333-4f83-84ad-a0d9f15151d5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758025258609', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '114.41', 'execPrice': '114.42', 'markIv': '', 'orderQty': '174.8', 'orderPrice': '108.69', 'execValue': '20000.616', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612529406611, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0003388', 'execId': 'c1ae4dd9-ebd8-416f-a3e7-c2624a08e97b', 'marketUnit': '', 'execQty': '174.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARBUSDT    | S |  80.12
+1
+Last close price for ARBUSDT: 0.4926
+Opening Sell for  ARBUSDT
+TP: 0.487674
+SL: 0.502452
+TS: 0.004926
+Order Quantity: 40600.89
+Adjusted qty: 40600.9
+Final Adjusted qty: 40600.8
+283360.0
