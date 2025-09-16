@@ -73207,3 +73207,77 @@ Function started at 17.09.2025 02:55:06
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 17.09.2025 02:55:38
+***************************************************************
+Number of open positions: 5
+Function started at 17.09.2025 03:00:05
+ONDOUSDT 	Latest Close: (1.0254) 	SMA(14) : 1.02 	Delta : B 	Previous STC : 9.47 	STC : 39.64
+MNTUSDT 	Latest Close: (1.7478) 	SMA(14) : 1.72 	Delta : B 	Previous STC : 12.55 	STC : 26.92
+XTZUSDT 	Latest Close: (0.7696) 	SMA(14) : 0.77 	Delta : S 	Previous STC : 96.24 	STC : 82.23
+JTOUSDT 	Latest Close: (1.855) 	SMA(14) : 1.86 	Delta : S 	Previous STC : 98.63 	STC : 84.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JTOUSDT    | S |  84.13
+Last close price for JTOUSDT: 1.856
+Opening Sell for  JTOUSDT
+TP: 1.8374400000000002
+SL: 1.8931200000000001
+TS: 0.01856
+Order Quantity: 5387.93
+Adjusted qty: 5387.900000000001
+Final Adjusted qty: 5387.9
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7563344b-9e1c-4f69-9860-b7590e73087c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758063642069}
+7563344b-9e1c-4f69-9860-b7590e73087c
+fetching trade data for :  7563344b-9e1c-4f69-9860-b7590e73087c
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7563344b-9e1c-4f69-9860-b7590e73087c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758063642068', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.856', 'execPrice': '1.856', 'markIv': '', 'orderQty': '5387.9', 'orderPrice': '1.671', 'execValue': '9999.9424', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218743450, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996832', 'execId': '083c2b62-a9af-42ee-9e5e-25399583702a', 'marketUnit': '', 'execQty': '5387.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XTZUSDT    | S |  82.23
+Last close price for XTZUSDT: 0.7701
+Opening Sell for  XTZUSDT
+TP: 0.762399
+SL: 0.785502
+TS: 0.007701
+Order Quantity: 12985.33
+Adjusted qty: 12985.300000000001
+Final Adjusted qty: 12985.3
+62530.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '14fc7321-2637-43d2-b4d6-591619ca7d4d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758063654309}
+14fc7321-2637-43d2-b4d6-591619ca7d4d
+fetching trade data for :  14fc7321-2637-43d2-b4d6-591619ca7d4d
+[{'symbol': 'XTZUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '14fc7321-2637-43d2-b4d6-591619ca7d4d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758063654309', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7701', 'execPrice': '0.7702', 'markIv': '', 'orderQty': '12985.3', 'orderPrice': '0.6931', 'execValue': '10001.27806', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218743822, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50070294', 'execId': '768ae3ee-5512-4c6b-a8fe-45f911e50588', 'marketUnit': '', 'execQty': '12985.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  39.64
+Last close price for ONDOUSDT: 1.0251
+Opening Buy for  ONDOUSDT
+TP: 1.035351
+SL: 1.0045979999999999
+TS: 0.010251
+Order Quantity: 9755.15
+Adjusted qty: 9755.0
+Final Adjusted qty: 9755.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '898efb9b-ef27-45b5-aeb0-142daa4cc9b1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758063666469}
+898efb9b-ef27-45b5-aeb0-142daa4cc9b1
+fetching trade data for :  898efb9b-ef27-45b5-aeb0-142daa4cc9b1
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '898efb9b-ef27-45b5-aeb0-142daa4cc9b1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758063666468', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0251', 'execPrice': '1.025', 'markIv': '', 'orderQty': '9755', 'orderPrice': '1.0763', 'execValue': '9998.875', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218744211, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49938125', 'execId': 'dc122856-8817-42f7-8d4f-61b629e67c38', 'marketUnit': '', 'execQty': '9755', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    | B |  26.92
+Last close price for MNTUSDT: 1.7482
+Opening Buy for  MNTUSDT
+TP: 1.765682
+SL: 1.713236
+TS: 0.017482
+Order Quantity: 5720.17
+Adjusted qty: 5720.0
+Final Adjusted qty: 5720.0
+71000.0
