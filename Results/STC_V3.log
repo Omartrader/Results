@@ -44367,3 +44367,34 @@ USD1USDT 	Latest Close: (0.999) 	SMA(14) : 1.00 	Delta :  	Previous STC : 99.37 
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 16.09.2025 10:26:33
+***************************************************************
+Number of open positions: 4
+Function started at 16.09.2025 10:31:37
+	ARBUSDT 	Signal: B
+ARBUSDT 	Latest Close: (0.4895) 	SMA(14) : 0.49 	Delta :  	Previous STC : 19.01 	STC : 27.80
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (100.13) 	SMA(14) : 99.91 	Delta :  	Previous STC : 10.51 	STC : 35.40
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+QNTUSDT    | B |  35.40
+1
+Last close price for QNTUSDT: 100.13
+Opening Buy for  QNTUSDT
+TP: 101.1313
+SL: 98.1274
+TS: 1.0012999999999999
+Order Quantity: 199.74
+Adjusted qty: 199.74
+Final Adjusted qty: 199.74
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '97e555e2-b28e-43c9-a950-66be514b6355', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758004320807}
+97e555e2-b28e-43c9-a950-66be514b6355
+fetching trade data for :  97e555e2-b28e-43c9-a950-66be514b6355
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '97e555e2-b28e-43c9-a950-66be514b6355', 'stopOrderType': 'UNKNOWN', 'execTime': '1758004320807', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '100.13', 'execPrice': '100.13', 'markIv': '', 'orderQty': '199.74', 'orderPrice': '110.14', 'execValue': '19999.9662', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612528710641, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998141', 'execId': '94c0f52d-4c09-485a-9be1-fdbe96e36d36', 'marketUnit': '', 'execQty': '199.74', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 16.09.2025 10:32:10
