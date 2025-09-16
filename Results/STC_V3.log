@@ -44207,3 +44207,66 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 16.09.2025 09:06:21
+***************************************************************
+Number of open positions: 4
+Function started at 16.09.2025 09:10:44
+	MNTUSDT 	Signal: B
+MNTUSDT 	Latest Close: (1.634) 	SMA(14) : 1.61 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | B |  33.33
+1
+Last close price for MNTUSDT: 1.6327
+Opening Buy for  MNTUSDT
+TP: 1.649027
+SL: 1.600046
+TS: 0.016327
+Order Quantity: 12249.65
+Adjusted qty: 12250.0
+Final Adjusted qty: 12249.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 16.09.2025 09:11:04
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 09:41:15
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (2.9954) 	SMA(14) : 2.98 	Delta :  	Previous STC : 0.00 	STC : 31.81
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (2.4986) 	SMA(14) : 2.49 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | B |  33.33
+1
+Last close price for MUSDT: 2.4986
+Opening Buy for  MUSDT
+TP: 2.5235860000000003
+SL: 2.4486280000000002
+TS: 0.024986
+Order Quantity: 8004.48
+Adjusted qty: 8004.0
+Final Adjusted qty: 8004.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd94a7f09-1006-4b89-8b4c-1c6c50a211d6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758001295899}
+d94a7f09-1006-4b89-8b4c-1c6c50a211d6
+fetching trade data for :  d94a7f09-1006-4b89-8b4c-1c6c50a211d6
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd94a7f09-1006-4b89-8b4c-1c6c50a211d6', 'stopOrderType': 'UNKNOWN', 'execTime': '1758001295898', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.4971', 'execPrice': '2.4986', 'markIv': '', 'orderQty': '8004', 'orderPrice': '2.8716', 'execValue': '19998.7944', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612528611467, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.99867384', 'execId': '0beaab10-c557-4d76-a0c7-10a0cda1ddd7', 'marketUnit': '', 'execQty': '8004', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XRPUSDT    | B |  31.81
+1
+Last close price for XRPUSDT: 2.9954
+Opening Buy for  XRPUSDT
+TP: 3.025354
+SL: 2.935492
+TS: 0.029954
+Order Quantity: 6676.9
+Adjusted qty: 6677.0
+Final Adjusted qty: 6676.0
+2467800.0
