@@ -69325,3 +69325,74 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 16.09.2025 12:15:48
+***************************************************************
+Number of open positions: 6
+Function started at 16.09.2025 12:20:07
+CRVUSDT 	Latest Close: (0.7376) 	SMA(14) : 0.73 	Delta : B 	Previous STC : 16.72 	STC : 44.48
+ETHFIUSDT 	Latest Close: (1.4854) 	SMA(14) : 1.46 	Delta : B 	Previous STC : 22.54 	STC : 40.59
+LINKUSDT 	Latest Close: (23.612) 	SMA(14) : 23.48 	Delta : B 	Previous STC : 5.72 	STC : 30.04
+BUSDT 	Latest Close: (0.5331) 	SMA(14) : 0.53 	Delta : B 	Previous STC : 19.61 	STC : 46.41
+ARUSDT 	Latest Close: (7.068) 	SMA(14) : 6.98 	Delta : B 	Previous STC : 11.70 	STC : 41.13
+ENSUSDT 	Latest Close: (23.304) 	SMA(14) : 23.17 	Delta : B 	Previous STC : 20.57 	STC : 33.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BUSDT      | B |  46.41
+Last close price for BUSDT: 0.5331
+Opening Buy for  BUSDT
+TP: 0.538431
+SL: 0.522438
+TS: 0.005331
+Order Quantity: 18758.21
+Adjusted qty: 18758.0
+Final Adjusted qty: 18758.0
+90000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+CRVUSDT    | B |  44.48
+Last close price for CRVUSDT: 0.7371
+Opening Buy for  CRVUSDT
+TP: 0.744471
+SL: 0.722358
+TS: 0.007371
+Order Quantity: 13566.68
+Adjusted qty: 13566.7
+Final Adjusted qty: 13566.6
+196620.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '333a3188-9bd0-4d69-9d2a-75acd85e2ee0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758010842401}
+333a3188-9bd0-4d69-9d2a-75acd85e2ee0
+fetching trade data for :  333a3188-9bd0-4d69-9d2a-75acd85e2ee0
+[{'symbol': 'CRVUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '333a3188-9bd0-4d69-9d2a-75acd85e2ee0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758010842400', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.737', 'execPrice': '0.737', 'markIv': '', 'orderQty': '13566.6', 'orderPrice': '0.7738', 'execValue': '9998.5842', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217040631, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49922131', 'execId': 'c106d1ec-82ca-4f21-b701-a47ba56da02d', 'marketUnit': '', 'execQty': '13566.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARUSDT     | B |  41.13
+Last close price for ARUSDT: 7.068
+Opening Buy for  ARUSDT
+TP: 7.13868
+SL: 6.92664
+TS: 0.07067999999999999
+Order Quantity: 1414.83
+Adjusted qty: 1414.8000000000002
+Final Adjusted qty: 1414.8
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '44a48824-c7a7-4005-9522-4eb7ecf87e14', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758010854438}
+44a48824-c7a7-4005-9522-4eb7ecf87e14
+fetching trade data for :  44a48824-c7a7-4005-9522-4eb7ecf87e14
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '44a48824-c7a7-4005-9522-4eb7ecf87e14', 'stopOrderType': 'UNKNOWN', 'execTime': '1758010854437', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.072', 'execPrice': '7.068', 'markIv': '', 'orderQty': '1414.8', 'orderPrice': '7.425', 'execValue': '9999.8064', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217041026, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989352', 'execId': 'ca49400e-c7ea-4a60-837e-1961c4f7f3db', 'marketUnit': '', 'execQty': '1414.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHFIUSDT  | B |  40.59
+Last close price for ETHFIUSDT: 1.4859
+Opening Buy for  ETHFIUSDT
+TP: 1.500759
+SL: 1.4561819999999999
+TS: 0.014859
+Order Quantity: 6729.93
+Adjusted qty: 6729.900000000001
+Final Adjusted qty: 6729.9
+17000.0
