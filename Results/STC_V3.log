@@ -46679,3 +46679,66 @@ Order Quantity: 58.54
 Adjusted qty: 58.54
 Final Adjusted qty: 58.54
 60.0
+***************************************************************
+Number of open positions: 2
+Function started at 16.09.2025 21:06:19
+	KASUSDT 	Signal: B
+KASUSDT 	Latest Close: (0.08599) 	SMA(14) : 0.09 	Delta :  	Previous STC : 16.06 	STC : 37.54
+	SOLUSDT 	Signal: B
+SOLUSDT 	Latest Close: (238.81) 	SMA(14) : 235.44 	Delta :  	Previous STC : 8.12 	STC : 37.06
+	BTCUSDT 	Signal: B
+BTCUSDT 	Latest Close: (116372.8) 	SMA(14) : 115447.28 	Delta :  	Previous STC : 14.37 	STC : 42.91
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (342.94) 	SMA(14) : 340.69 	Delta :  	Previous STC : 15.84 	STC : 43.90
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | B |  43.90
+1
+Last close price for TAOUSDT: 342.99
+Opening Buy for  TAOUSDT
+TP: 346.4199
+SL: 336.1302
+TS: 3.4299
+Order Quantity: 58.31
+Adjusted qty: 58.31
+Final Adjusted qty: 58.31
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6e52bd2d-feec-45a1-b397-c20108adc4f9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758042403410}
+6e52bd2d-feec-45a1-b397-c20108adc4f9
+fetching trade data for :  6e52bd2d-feec-45a1-b397-c20108adc4f9
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6e52bd2d-feec-45a1-b397-c20108adc4f9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758042403409', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '342.99', 'execPrice': '342.99', 'markIv': '', 'orderQty': '58.31', 'orderPrice': '394.43', 'execValue': '19999.7469', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612529984355, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9998608', 'execId': '06f4a6b5-0fad-4f3d-bc25-3916e97e9701', 'marketUnit': '', 'execQty': '58.31', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | B |  42.91
+1
+Last close price for BTCUSDT: 116348.7
+Opening Buy for  BTCUSDT
+TP: 117512.187
+SL: 114021.726
+TS: 1163.487
+Order Quantity: 0.17
+Adjusted qty: 0.17
+Final Adjusted qty: 0.17
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '97d0e9f4-29b1-4813-b6d5-eb436208e754', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758042416331}
+97d0e9f4-29b1-4813-b6d5-eb436208e754
+fetching trade data for :  97d0e9f4-29b1-4813-b6d5-eb436208e754
+[{'symbol': 'BTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '97d0e9f4-29b1-4813-b6d5-eb436208e754', 'stopOrderType': 'UNKNOWN', 'execTime': '1758042416329', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '116349.42', 'execPrice': '116341.5', 'markIv': '', 'orderQty': '0.17', 'orderPrice': '117512.9', 'execValue': '19778.055', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612529984813, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.87793025', 'execId': '2e80a58c-eb4b-4076-b217-3e7408aa4362', 'marketUnit': '', 'execQty': '0.17', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    | B |  37.54
+1
+Last close price for KASUSDT: 0.08598
+Opening Buy for  KASUSDT
+TP: 0.0868398
+SL: 0.0842604
+TS: 0.0008598
+Order Quantity: 232612.24
+Adjusted qty: 232610.0
+Final Adjusted qty: 232610.0
+774000.0
