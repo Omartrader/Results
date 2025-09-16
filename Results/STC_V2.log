@@ -70597,3 +70597,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 17:35:46
+***************************************************************
+Number of open positions: 8
+Function started at 16.09.2025 17:40:06
+DOTUSDT 	Latest Close: (4.2066) 	SMA(14) : 4.21 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+LINKUSDT 	Latest Close: (23.402) 	SMA(14) : 23.56 	Delta : S 	Previous STC : 98.50 	STC : 89.18
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINKUSDT   | S |  89.18
+Last close price for LINKUSDT: 23.42
+Opening Sell for  LINKUSDT
+TP: 23.1858
+SL: 23.8884
+TS: 0.23420000000000002
+Order Quantity: 426.99
+Adjusted qty: 427.0
+Final Adjusted qty: 426.9
+31450.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+DOTUSDT    | S |  66.67
+Last close price for DOTUSDT: 4.2047
+Opening Sell for  DOTUSDT
+TP: 4.162653
+SL: 4.288794
+TS: 0.042047
+Order Quantity: 2378.29
+Adjusted qty: 2378.3
+Final Adjusted qty: 2378.2
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '36d9dc8d-7276-4d04-a81e-7de0703955c4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758030045378}
+36d9dc8d-7276-4d04-a81e-7de0703955c4
+fetching trade data for :  36d9dc8d-7276-4d04-a81e-7de0703955c4
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '36d9dc8d-7276-4d04-a81e-7de0703955c4', 'stopOrderType': 'UNKNOWN', 'execTime': '1758030045377', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.2051', 'execPrice': '4.2039', 'markIv': '', 'orderQty': '2378.2', 'orderPrice': '3.9949', 'execValue': '9997.71498', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217651457, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49874324', 'execId': '9e419348-5ae8-4d87-8674-72b11d7e2646', 'marketUnit': '', 'execQty': '2378.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 16.09.2025 17:40:56
