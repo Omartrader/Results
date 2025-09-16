@@ -45812,3 +45812,47 @@ Order Quantity: 853.83
 Adjusted qty: 853.8000000000001
 Final Adjusted qty: 853.8
 31450.0
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 17:45:51
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.8603) 	SMA(14) : 0.87 	Delta :  	Previous STC : 100.00 	STC : 79.09
+	ONDOUSDT 	Signal: S
+ONDOUSDT 	Latest Close: (1.0281) 	SMA(14) : 1.04 	Delta :  	Previous STC : 99.39 	STC : 87.87
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (3.1654) 	SMA(14) : 3.18 	Delta :  	Previous STC : 100.00 	STC : 92.94
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.668) 	SMA(14) : 4.69 	Delta :  	Previous STC : 100.00 	STC : 90.26
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  92.94
+1
+Last close price for TONUSDT: 3.1648
+Opening Sell for  TONUSDT
+TP: 3.133152
+SL: 3.2280960000000003
+TS: 0.031648
+Order Quantity: 6319.51
+Adjusted qty: 6319.5
+Final Adjusted qty: 6319.5
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b7bdc163-0420-45a3-be8d-45832b2989cb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758030384837}
+b7bdc163-0420-45a3-be8d-45832b2989cb
+fetching trade data for :  b7bdc163-0420-45a3-be8d-45832b2989cb
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b7bdc163-0420-45a3-be8d-45832b2989cb', 'stopOrderType': 'UNKNOWN', 'execTime': '1758030384835', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1652', 'execPrice': '3.1646', 'markIv': '', 'orderQty': '6319.5', 'orderPrice': '3.007', 'execValue': '19998.6897', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612529577915, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99927934', 'execId': 'a60a5722-c0bd-46f9-a512-670ebdbf1a25', 'marketUnit': '', 'execQty': '6319.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    | S |  90.26
+1
+Last close price for ICPUSDT: 4.667
+Opening Sell for  ICPUSDT
+TP: 4.62033
+SL: 4.76034
+TS: 0.046669999999999996
+Order Quantity: 4285.41
+Adjusted qty: 4285.400000000001
+Final Adjusted qty: 4285.4
+25860.0
