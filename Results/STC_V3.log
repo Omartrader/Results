@@ -46881,3 +46881,43 @@ Order Quantity: 85903.27
 Adjusted qty: 85903.0
 Final Adjusted qty: 85903.0
 79800.0
+***************************************************************
+Number of open positions: 3
+Function started at 16.09.2025 21:36:12
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.23236) 	SMA(14) : 0.23 	Delta :  	Previous STC : 24.31 	STC : 49.54
+	MYXUSDT 	Signal: B
+MYXUSDT 	Latest Close: (11.3368) 	SMA(14) : 10.95 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | B |  49.54
+1
+Last close price for CROUSDT: 0.23236
+Opening Buy for  CROUSDT
+TP: 0.23468360000000002
+SL: 0.2277128
+TS: 0.0023236000000000003
+Order Quantity: 86073.33
+Adjusted qty: 86073.0
+Final Adjusted qty: 86073.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6eabf0fe-3f81-418d-9b6f-773f6927a389', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758044192023}
+6eabf0fe-3f81-418d-9b6f-773f6927a389
+fetching trade data for :  6eabf0fe-3f81-418d-9b6f-773f6927a389
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6eabf0fe-3f81-418d-9b6f-773f6927a389', 'stopOrderType': 'UNKNOWN', 'execTime': '1758044192022', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23236', 'execPrice': '0.23235', 'markIv': '', 'orderQty': '79800', 'orderPrice': '0.25559', 'execValue': '18541.53', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612530046204, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.1978415', 'execId': '2d18cca3-caca-4a06-b268-576a7c4937fd', 'marketUnit': '', 'execQty': '79800', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MYXUSDT    | B |  33.33
+1
+Last close price for MYXUSDT: 11.3221
+Opening Buy for  MYXUSDT
+TP: 11.435321
+SL: 11.095658
+TS: 0.113221
+Order Quantity: 1766.46
+Adjusted qty: 1766.0
+Final Adjusted qty: 1766.0
+50000.0
