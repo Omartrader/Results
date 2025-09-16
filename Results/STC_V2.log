@@ -69036,3 +69036,35 @@ Order Quantity: 741.84
 Adjusted qty: 741.8000000000001
 Final Adjusted qty: 741.8
 6020.0
+***************************************************************
+Number of open positions: 9
+Function started at 16.09.2025 11:45:06
+ONDOUSDT 	Latest Close: (1.0321) 	SMA(14) : 1.03 	Delta : B 	Previous STC : 12.87 	STC : 41.91
+SUIUSDT 	Latest Close: (3.523) 	SMA(14) : 3.51 	Delta : B 	Previous STC : 22.24 	STC : 33.17
+ALGOUSDT 	Latest Close: (0.2326) 	SMA(14) : 0.23 	Delta : B 	Previous STC : 22.36 	STC : 42.00
+JUPUSDT 	Latest Close: (0.5072) 	SMA(14) : 0.51 	Delta : B 	Previous STC : 15.29 	STC : 34.66
+AVAXUSDT 	Latest Close: (30.095) 	SMA(14) : 29.71 	Delta : B 	Previous STC : 7.08 	STC : 33.20
+FORMUSDT 	Latest Close: (2.1596) 	SMA(14) : 2.15 	Delta : B 	Previous STC : 19.63 	STC : 42.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | B |  42.62
+Last close price for FORMUSDT: 2.1596
+Opening Buy for  FORMUSDT
+TP: 2.1811960000000004
+SL: 2.1164080000000003
+TS: 0.021596
+Order Quantity: 4630.49
+Adjusted qty: 4630.0
+Final Adjusted qty: 4630.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '88451512-4df5-4b10-a6cd-fbe902697cd8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758008745270}
+88451512-4df5-4b10-a6cd-fbe902697cd8
+fetching trade data for :  88451512-4df5-4b10-a6cd-fbe902697cd8
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '88451512-4df5-4b10-a6cd-fbe902697cd8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758008745269', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.1596', 'execPrice': '2.1596', 'markIv': '', 'orderQty': '2850', 'orderPrice': '2.4835', 'execValue': '6154.86', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216973218, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.385173', 'execId': 'fc871453-c2f2-4c3f-ac64-4f895f843c8f', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 16.09.2025 11:45:55
