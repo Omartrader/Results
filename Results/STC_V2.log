@@ -73281,3 +73281,81 @@ Order Quantity: 5720.17
 Adjusted qty: 5720.0
 Final Adjusted qty: 5720.0
 71000.0
+***************************************************************
+Number of open positions: 8
+Function started at 17.09.2025 03:05:05
+ONDOUSDT 	Latest Close: (1.0239) 	SMA(14) : 1.02 	Delta : B 	Previous STC : 9.47 	STC : 39.64
+MNTUSDT 	Latest Close: (1.7408) 	SMA(14) : 1.71 	Delta : B 	Previous STC : 12.55 	STC : 26.92
+XTZUSDT 	Latest Close: (0.7701) 	SMA(14) : 0.77 	Delta : S 	Previous STC : 96.24 	STC : 82.23
+SYRUPUSDT 	Latest Close: (0.43856) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+JTOUSDT 	Latest Close: (1.853) 	SMA(14) : 1.86 	Delta : S 	Previous STC : 98.63 	STC : 82.64
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JTOUSDT    | S |  82.64
+Last close price for JTOUSDT: 1.853
+Opening Sell for  JTOUSDT
+TP: 1.83447
+SL: 1.89006
+TS: 0.01853
+Order Quantity: 5396.65
+Adjusted qty: 5396.6
+Final Adjusted qty: 5396.6
+27570.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XTZUSDT    | S |  82.23
+Last close price for XTZUSDT: 0.7701
+Opening Sell for  XTZUSDT
+TP: 0.762399
+SL: 0.785502
+TS: 0.007701
+Order Quantity: 12985.33
+Adjusted qty: 12985.300000000001
+Final Adjusted qty: 12985.3
+62530.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SYRUPUSDT  | S |  66.67
+Last close price for SYRUPUSDT: 0.4388
+Opening Sell for  SYRUPUSDT
+TP: 0.434412
+SL: 0.44757600000000003
+TS: 0.004388
+Order Quantity: 22789.43
+Adjusted qty: 22789.0
+Final Adjusted qty: 22789.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e5a7994c-7d01-4309-9ddb-4cb520e02257', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758063944789}
+e5a7994c-7d01-4309-9ddb-4cb520e02257
+fetching trade data for :  e5a7994c-7d01-4309-9ddb-4cb520e02257
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e5a7994c-7d01-4309-9ddb-4cb520e02257', 'stopOrderType': 'UNKNOWN', 'execTime': '1758063944788', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.43883', 'execPrice': '0.4388', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.39495', 'execValue': '4388', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697218752986, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.4134', 'execId': '8b8d46d1-3ec1-4f97-b921-2292ba418e01', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  39.64
+Last close price for ONDOUSDT: 1.0238
+Opening Buy for  ONDOUSDT
+TP: 1.034038
+SL: 1.003324
+TS: 0.010238
+Order Quantity: 9767.53
+Adjusted qty: 9768.0
+Final Adjusted qty: 9767.0
+72300.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MNTUSDT    | B |  26.92
+Last close price for MNTUSDT: 1.7403
+Opening Buy for  MNTUSDT
+TP: 1.757703
+SL: 1.7054939999999998
+TS: 0.017403
+Order Quantity: 5746.14
+Adjusted qty: 5746.0
+Final Adjusted qty: 5746.0
+71000.0
