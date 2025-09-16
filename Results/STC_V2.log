@@ -71222,3 +71222,57 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 16.09.2025 19:01:30
+***************************************************************
+Number of open positions: 7
+Function started at 16.09.2025 19:05:05
+NEARUSDT 	Latest Close: (2.671) 	SMA(14) : 2.69 	Delta : S 	Previous STC : 100.00 	STC : 75.55
+XDCUSDT 	Latest Close: (0.07563) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 4.80 	STC : 31.12
+HYPEUSDT 	Latest Close: (53.522) 	SMA(14) : 53.07 	Delta : B 	Previous STC : 7.47 	STC : 38.32
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | S |  75.55
+Last close price for NEARUSDT: 2.672
+Opening Sell for  NEARUSDT
+TP: 2.64528
+SL: 2.7254400000000003
+TS: 0.02672
+Order Quantity: 3742.51
+Adjusted qty: 3742.5
+Final Adjusted qty: 3742.5
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '323e7f23-4087-470d-92b3-f53431d6bac7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758035139681}
+323e7f23-4087-470d-92b3-f53431d6bac7
+fetching trade data for :  323e7f23-4087-470d-92b3-f53431d6bac7
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '323e7f23-4087-470d-92b3-f53431d6bac7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758035139680', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.672', 'execPrice': '2.674', 'markIv': '', 'orderQty': '3742.5', 'orderPrice': '2.539', 'execValue': '10007.445', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697217819727, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50409475', 'execId': 'a0e5790f-2bf4-486a-b712-313bf65ab2f0', 'marketUnit': '', 'execQty': '3742.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  38.32
+Last close price for HYPEUSDT: 53.598
+Opening Buy for  HYPEUSDT
+TP: 54.13398
+SL: 52.526039999999995
+TS: 0.53598
+Order Quantity: 186.57
+Adjusted qty: 186.57
+Final Adjusted qty: 186.57
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XDCUSDT    | B |  31.12
+Last close price for XDCUSDT: 0.07563
+Opening Buy for  XDCUSDT
+TP: 0.0763863
+SL: 0.0741174
+TS: 0.0007563
+Order Quantity: 132222.66
+Adjusted qty: 132223.0
+Final Adjusted qty: 132222.0
+160000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 16.09.2025 19:05:52
