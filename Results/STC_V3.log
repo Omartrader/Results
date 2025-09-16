@@ -43820,3 +43820,50 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 16.09.2025 08:05:56
+***************************************************************
+Number of open positions: 4
+Function started at 16.09.2025 08:10:59
+	FLRUSDT 	Signal: S
+FLRUSDT 	Latest Close: (0.02306) 	SMA(14) : 0.02 	Delta :  	Previous STC : 99.32 	STC : 92.92
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2305) 	SMA(14) : 0.23 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (2.507) 	SMA(14) : 2.50 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | S |  92.92
+1
+Last close price for FLRUSDT: 0.02305
+Opening Sell for  FLRUSDT
+TP: 0.0228195
+SL: 0.023511
+TS: 0.00023050000000000002
+Order Quantity: 867678.96
+Adjusted qty: 867680.0
+Final Adjusted qty: 867670.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ALGOUSDT   | S |  66.67
+1
+Last close price for ALGOUSDT: 0.2306
+Opening Sell for  ALGOUSDT
+TP: 0.228294
+SL: 0.235212
+TS: 0.002306
+Order Quantity: 86730.27
+Adjusted qty: 86730.3
+Final Adjusted qty: 86730.2
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '60221dd1-a1b8-4570-a513-8bb58402800a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1757995883400}
+60221dd1-a1b8-4570-a513-8bb58402800a
+fetching trade data for :  60221dd1-a1b8-4570-a513-8bb58402800a
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '60221dd1-a1b8-4570-a513-8bb58402800a', 'stopOrderType': 'UNKNOWN', 'execTime': '1757995883399', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2306', 'execPrice': '0.2306', 'markIv': '', 'orderQty': '86730.2', 'orderPrice': '0.2191', 'execValue': '19999.98412', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612528431153, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999127', 'execId': 'f7b353c8-6db7-495a-842e-213e7f43a524', 'marketUnit': '', 'execQty': '86730.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 16.09.2025 08:11:35
