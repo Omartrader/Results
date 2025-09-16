@@ -68707,3 +68707,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 16.09.2025 10:40:47
+***************************************************************
+Number of open positions: 8
+Function started at 16.09.2025 10:45:07
+KAIAUSDT 	Latest Close: (0.1549) 	SMA(14) : 0.15 	Delta : B 	Previous STC : 20.07 	STC : 30.85
+TIAUSDT 	Latest Close: (1.685) 	SMA(14) : 1.68 	Delta : B 	Previous STC : 23.82 	STC : 43.96
+IOTAUSDT 	Latest Close: (0.1873) 	SMA(14) : 0.19 	Delta : B 	Previous STC : 16.56 	STC : 28.56
+RENDERUSDT 	Latest Close: (3.78) 	SMA(14) : 3.77 	Delta : B 	Previous STC : 18.64 	STC : 27.64
+NEOUSDT 	Latest Close: (6.52) 	SMA(14) : 6.51 	Delta : B 	Previous STC : 17.21 	STC : 26.57
+BCHUSDT 	Latest Close: (594.4) 	SMA(14) : 592.95 	Delta : B 	Previous STC : 12.59 	STC : 31.88
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TIAUSDT    | B |  43.96
+Last close price for TIAUSDT: 1.685
+Opening Buy for  TIAUSDT
+TP: 1.70185
+SL: 1.6513
+TS: 0.01685
+Order Quantity: 5934.72
+Adjusted qty: 5934.700000000001
+Final Adjusted qty: 5934.7
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5cbd1435-a263-43d2-b5cf-de9f620708a5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758005146728}
+5cbd1435-a263-43d2-b5cf-de9f620708a5
+fetching trade data for :  5cbd1435-a263-43d2-b5cf-de9f620708a5
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5cbd1435-a263-43d2-b5cf-de9f620708a5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758005146727', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6851', 'execPrice': '1.685', 'markIv': '', 'orderQty': '5934.7', 'orderPrice': '1.769', 'execValue': '9999.9695', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697216860717, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998323', 'execId': '07e0007c-a925-4a2a-a913-f988e5ca55db', 'marketUnit': '', 'execQty': '5934.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BCHUSDT    | B |  31.88
+Last close price for BCHUSDT: 594.5
+Opening Buy for  BCHUSDT
+TP: 600.445
+SL: 582.61
+TS: 5.945
+Order Quantity: 16.82
+Adjusted qty: 16.82
+Final Adjusted qty: 16.82
+804.0
