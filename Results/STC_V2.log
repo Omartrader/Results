@@ -78529,3 +78529,101 @@ Order Quantity: 1079.45
 Adjusted qty: 1079.4
 Final Adjusted qty: 1079.4
 17540.0
+***************************************************************
+Number of open positions: 7
+Function started at 17.09.2025 21:40:06
+DOGEUSDT 	Latest Close: (0.26888) 	SMA(14) : 0.27 	Delta : B 	Previous STC : 0.01 	STC : 33.34
+DOGEUSDT 	Latest Close: (0.26881) 	SMA(14) : 0.27 	Delta : B 	Previous STC : 0.01 	STC : 33.34
+ARBUSDT 	Latest Close: (0.4933) 	SMA(14) : 0.49 	Delta : B 	Previous STC : 7.48 	STC : 26.16
+OPUSDT 	Latest Close: (0.7712) 	SMA(14) : 0.76 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+FILUSDT 	Latest Close: (2.501) 	SMA(14) : 2.48 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+FLOWUSDT 	Latest Close: (0.3983) 	SMA(14) : 0.40 	Delta : B 	Previous STC : 0.00 	STC : 33.34
+ATOMUSDT 	Latest Close: (4.498) 	SMA(14) : 4.47 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+UNIUSDT 	Latest Close: (9.308) 	SMA(14) : 9.22 	Delta : B 	Previous STC : 0.82 	STC : 33.88
+RUNEUSDT 	Latest Close: (1.269) 	SMA(14) : 1.26 	Delta : B 	Previous STC : 15.35 	STC : 43.57
+USD1USDT 	Latest Close: (0.9987) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 89.40
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RUNEUSDT   | B |  43.57
+Last close price for RUNEUSDT: 1.27
+Opening Buy for  RUNEUSDT
+TP: 1.2827
+SL: 1.2446
+TS: 0.0127
+Order Quantity: 7874.02
+Adjusted qty: 7874.0
+Final Adjusted qty: 7874.0
+44260.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    | B |  33.88
+Last close price for UNIUSDT: 9.314
+Opening Buy for  UNIUSDT
+TP: 9.40714
+SL: 9.12772
+TS: 0.09314
+Order Quantity: 1073.65
+Adjusted qty: 1073.6000000000001
+Final Adjusted qty: 1073.6
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6284b766-b1a2-4f2c-9ee6-4fa37ce16cf4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758130842729}
+6284b766-b1a2-4f2c-9ee6-4fa37ce16cf4
+fetching trade data for :  6284b766-b1a2-4f2c-9ee6-4fa37ce16cf4
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6284b766-b1a2-4f2c-9ee6-4fa37ce16cf4', 'stopOrderType': 'UNKNOWN', 'execTime': '1758130842727', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '9.315', 'execPrice': '9.314', 'markIv': '', 'orderQty': '1073.6', 'orderPrice': '9.78', 'execValue': '9999.5104', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220927474, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49973072', 'execId': 'c6e3ea84-4420-4630-a8a3-21195eb61de8', 'marketUnit': '', 'execQty': '1073.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOGEUSDT   | B |  33.34
+Last close price for DOGEUSDT: 0.26941
+Opening Buy for  DOGEUSDT
+TP: 0.27210409999999996
+SL: 0.2640218
+TS: 0.0026940999999999996
+Order Quantity: 37118.15
+Adjusted qty: 37118.0
+Final Adjusted qty: 37118.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'df9273da-4fe4-4990-9371-76c030387fdc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758130855164}
+df9273da-4fe4-4990-9371-76c030387fdc
+fetching trade data for :  df9273da-4fe4-4990-9371-76c030387fdc
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'df9273da-4fe4-4990-9371-76c030387fdc', 'stopOrderType': 'UNKNOWN', 'execTime': '1758130855163', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.26944', 'execPrice': '0.26941', 'markIv': '', 'orderQty': '37118', 'orderPrice': '0.28291', 'execValue': '9999.96038', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220927900, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997821', 'execId': '99f40abb-2c3e-4b88-aa5b-1f3cf9181de2', 'marketUnit': '', 'execQty': '37118', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOGEUSDT   | B |  33.34
+Last close price for DOGEUSDT: 0.2698
+Opening Buy for  DOGEUSDT
+TP: 0.27249799999999996
+SL: 0.264404
+TS: 0.002698
+Order Quantity: 37064.49
+Adjusted qty: 37064.0
+Final Adjusted qty: 37064.0
+5991100.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FLOWUSDT   | B |  33.34
+Last close price for FLOWUSDT: 0.399
+Opening Buy for  FLOWUSDT
+TP: 0.40299
+SL: 0.39102000000000003
+TS: 0.0039900000000000005
+Order Quantity: 25062.66
+Adjusted qty: 25062.7
+Final Adjusted qty: 25062.6
+76780.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8ca3d87b-9b3f-4142-9573-c44925d4b192', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758130868178}
+8ca3d87b-9b3f-4142-9573-c44925d4b192
+fetching trade data for :  8ca3d87b-9b3f-4142-9573-c44925d4b192
+[{'symbol': 'FLOWUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8ca3d87b-9b3f-4142-9573-c44925d4b192', 'stopOrderType': 'UNKNOWN', 'execTime': '1758130868177', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.399', 'execPrice': '0.399', 'markIv': '', 'orderQty': '25062.6', 'orderPrice': '0.4389', 'execValue': '9999.9774', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220928408, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49998757', 'execId': '0c514684-bf38-47a7-8e63-6a29a3d0fc43', 'marketUnit': '', 'execQty': '25062.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  3
+Function finished at 17.09.2025 21:41:18
