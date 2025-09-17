@@ -49801,3 +49801,34 @@ SYMBOL     |   ΔRSI |    STC
 ----------------------------
 All full:  0
 Function finished at 17.09.2025 15:46:04
+***************************************************************
+Number of open positions: 4
+Function started at 17.09.2025 15:51:05
+	SOLUSDT 	Signal: S
+SOLUSDT 	Latest Close: (234.06) 	SMA(14) : 234.84 	Delta :  	Previous STC : 98.14 	STC : 91.91
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (599.0) 	SMA(14) : 599.55 	Delta :  	Previous STC : 96.70 	STC : 86.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  91.91
+1
+Last close price for SOLUSDT: 234.03
+Opening Sell for  SOLUSDT
+TP: 231.6897
+SL: 238.7106
+TS: 2.3403
+Order Quantity: 85.46
+Adjusted qty: 85.5
+Final Adjusted qty: 85.4
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7f0102c1-f65e-4bd8-a35e-f6c187961ffd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758109886146}
+7f0102c1-f65e-4bd8-a35e-f6c187961ffd
+fetching trade data for :  7f0102c1-f65e-4bd8-a35e-f6c187961ffd
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7f0102c1-f65e-4bd8-a35e-f6c187961ffd', 'stopOrderType': 'UNKNOWN', 'execTime': '1758109886145', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '234.038', 'execPrice': '234.04', 'markIv': '', 'orderQty': '85.4', 'orderPrice': '222.34', 'execValue': '19987.016', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612532334718, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9928588', 'execId': '477b302b-bc6c-455f-b869-083f6c6b28ad', 'marketUnit': '', 'execQty': '85.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 17.09.2025 15:51:35
