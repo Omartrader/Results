@@ -80509,3 +80509,48 @@ USD1USDT 	Latest Close: (0.9989) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 15.6
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 18.09.2025 01:10:46
+***************************************************************
+Number of open positions: 1
+Function started at 18.09.2025 01:15:06
+SKYUSDT 	Latest Close: (0.07738) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 99.99 	STC : 95.24
+XDCUSDT 	Latest Close: (0.07787) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 23.41 	STC : 33.75
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  95.24
+Last close price for SKYUSDT: 0.0774
+Opening Sell for  SKYUSDT
+TP: 0.076626
+SL: 0.078948
+TS: 0.000774
+Order Quantity: 129198.97
+Adjusted qty: 129200.0
+Final Adjusted qty: 129190.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9f06d676-b065-4d89-ac7a-a05e68ff21ff', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758143741825}
+9f06d676-b065-4d89-ac7a-a05e68ff21ff
+fetching trade data for :  9f06d676-b065-4d89-ac7a-a05e68ff21ff
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9f06d676-b065-4d89-ac7a-a05e68ff21ff', 'stopOrderType': 'UNKNOWN', 'execTime': '1758143741824', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07741', 'execPrice': '0.07737', 'markIv': '', 'orderQty': '129190', 'orderPrice': '0.0658', 'execValue': '9995.4303', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221358639, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49748667', 'execId': '6cf22f79-da8d-4327-8cea-b2b945c7dd94', 'marketUnit': '', 'execQty': '129190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    | B |  33.75
+Last close price for XDCUSDT: 0.07787
+Opening Buy for  XDCUSDT
+TP: 0.0786487
+SL: 0.0763126
+TS: 0.0007786999999999999
+Order Quantity: 128419.16
+Adjusted qty: 128419.0
+Final Adjusted qty: 128419.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bea6b1e4-e226-4f20-be57-968561bdee5a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758143753865}
+bea6b1e4-e226-4f20-be57-968561bdee5a
+fetching trade data for :  bea6b1e4-e226-4f20-be57-968561bdee5a
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bea6b1e4-e226-4f20-be57-968561bdee5a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758143753864', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07786', 'execPrice': '0.07787', 'markIv': '', 'orderQty': '128419', 'orderPrice': '0.09343', 'execValue': '9999.98753', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221359013, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998629', 'execId': '1a2b93a4-a51a-47c6-ac23-7cb5780526d8', 'marketUnit': '', 'execQty': '128419', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 01:16:03
