@@ -49026,3 +49026,53 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 17.09.2025 11:26:25
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 11:33:10
+	KASUSDT 	Signal: B
+KASUSDT 	Latest Close: (0.08684) 	SMA(14) : 0.09 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	SEIUSDT 	Signal: B
+SEIUSDT 	Latest Close: (0.3163) 	SMA(14) : 0.32 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0259) 	SMA(14) : 1.02 	Delta :  	Previous STC : 8.69 	STC : 39.13
+	AVAXUSDT 	Signal: B
+AVAXUSDT 	Latest Close: (30.191) 	SMA(14) : 29.85 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	HYPEUSDT 	Signal: B
+HYPEUSDT 	Latest Close: (54.908) 	SMA(14) : 54.64 	Delta :  	Previous STC : 24.57 	STC : 49.71
+	BTCUSDT 	Signal: B
+BTCUSDT 	Latest Close: (117149.4) 	SMA(14) : 116795.10 	Delta :  	Previous STC : 7.08 	STC : 38.05
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (601.1) 	SMA(14) : 598.64 	Delta :  	Previous STC : 6.99 	STC : 37.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | B |  49.71
+1
+Last close price for HYPEUSDT: 54.93
+Opening Buy for  HYPEUSDT
+TP: 55.4793
+SL: 53.8314
+TS: 0.5493
+Order Quantity: 364.1
+Adjusted qty: 364.1
+Final Adjusted qty: 364.1
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd76c6e22-67aa-4de4-8e47-ee9f97a2c698', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758094414228}
+d76c6e22-67aa-4de4-8e47-ee9f97a2c698
+fetching trade data for :  d76c6e22-67aa-4de4-8e47-ee9f97a2c698
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd76c6e22-67aa-4de4-8e47-ee9f97a2c698', 'stopOrderType': 'UNKNOWN', 'execTime': '1758094414228', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '54.94', 'execPrice': '54.94', 'markIv': '', 'orderQty': '364.1', 'orderPrice': '71.422', 'execValue': '20003.654', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612531785738, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0020097', 'execId': '4accf0c1-1b07-43cc-aa6a-5797286728a7', 'marketUnit': '', 'execQty': '364.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  39.13
+1
+Last close price for ONDOUSDT: 1.0265
+Opening Buy for  ONDOUSDT
+TP: 1.036765
+SL: 1.00597
+TS: 0.010265
+Order Quantity: 19483.68
+Adjusted qty: 19484.0
+Final Adjusted qty: 19483.0
+72300.0
