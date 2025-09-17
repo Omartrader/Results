@@ -79439,3 +79439,81 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 17.09.2025 22:45:50
+***************************************************************
+Number of open positions: 4
+Function started at 17.09.2025 22:50:10
+TIAUSDT 	Latest Close: (1.694) 	SMA(14) : 1.69 	Delta : B 	Previous STC : 6.95 	STC : 37.97
+ETHFIUSDT 	Latest Close: (1.4722) 	SMA(14) : 1.48 	Delta : S 	Previous STC : 97.48 	STC : 77.33
+TRUMPUSDT 	Latest Close: (8.507) 	SMA(14) : 8.50 	Delta : B 	Previous STC : 24.48 	STC : 33.22
+COREUSDT 	Latest Close: (0.4489) 	SMA(14) : 0.45 	Delta : B 	Previous STC : 23.90 	STC : 49.27
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHFIUSDT  | S |  77.33
+Last close price for ETHFIUSDT: 1.4685
+Opening Sell for  ETHFIUSDT
+TP: 1.4538149999999999
+SL: 1.49787
+TS: 0.014684999999999998
+Order Quantity: 6809.67
+Adjusted qty: 6809.700000000001
+Final Adjusted qty: 6809.6
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7e15b4b4-d601-4f3a-a763-8e187c18a8d6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135051484}
+7e15b4b4-d601-4f3a-a763-8e187c18a8d6
+fetching trade data for :  7e15b4b4-d601-4f3a-a763-8e187c18a8d6
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7e15b4b4-d601-4f3a-a763-8e187c18a8d6', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135051483', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.4674', 'execPrice': '1.4669', 'markIv': '', 'orderQty': '6809.6', 'orderPrice': '1.3207', 'execValue': '9989.00224', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221072601, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49395124', 'execId': '3428765b-fe09-4a75-b300-03cbba9f6876', 'marketUnit': '', 'execQty': '6809.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+COREUSDT   | B |  49.27
+Last close price for COREUSDT: 0.4484
+Opening Buy for  COREUSDT
+TP: 0.452884
+SL: 0.439432
+TS: 0.004484
+Order Quantity: 22301.52
+Adjusted qty: 22301.5
+Final Adjusted qty: 22301.5
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7d2b0ef9-3b4e-4649-854a-3cc11bd6a465', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135064235}
+7d2b0ef9-3b4e-4649-854a-3cc11bd6a465
+fetching trade data for :  7d2b0ef9-3b4e-4649-854a-3cc11bd6a465
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7d2b0ef9-3b4e-4649-854a-3cc11bd6a465', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135064234', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4484', 'execPrice': '0.4484', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.4932', 'execValue': '6080.304', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221073035, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.3441672', 'execId': '4b8d51a0-e53f-4829-bffc-f80a6ccb384b', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    | B |  37.97
+Last close price for TIAUSDT: 1.69
+Opening Buy for  TIAUSDT
+TP: 1.7068999999999999
+SL: 1.6562
+TS: 0.0169
+Order Quantity: 5917.16
+Adjusted qty: 5917.200000000001
+Final Adjusted qty: 5917.1
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e769ed51-6f14-4998-9a5d-43a56bb83ad8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135076675}
+e769ed51-6f14-4998-9a5d-43a56bb83ad8
+fetching trade data for :  e769ed51-6f14-4998-9a5d-43a56bb83ad8
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e769ed51-6f14-4998-9a5d-43a56bb83ad8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135076673', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6899', 'execPrice': '1.69', 'markIv': '', 'orderQty': '5917.1', 'orderPrice': '1.774', 'execValue': '9999.899', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221073462, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994445', 'execId': '0d55474e-8949-4636-bcc5-0371734ef37b', 'marketUnit': '', 'execQty': '5917.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRUMPUSDT  | B |  33.22
+Last close price for TRUMPUSDT: 8.497
+Opening Buy for  TRUMPUSDT
+TP: 8.58197
+SL: 8.32706
+TS: 0.08497
+Order Quantity: 1176.89
+Adjusted qty: 1176.9
+Final Adjusted qty: 1176.8
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 17.09.2025 22:51:28
