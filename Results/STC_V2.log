@@ -77731,3 +77731,53 @@ Order Quantity: 200521.36
 Adjusted qty: 200520.0
 Final Adjusted qty: 200520.0
 400000.0
+***************************************************************
+Number of open positions: 7
+Function started at 17.09.2025 18:25:05
+XRPUSDT 	Latest Close: (3.0248) 	SMA(14) : 3.02 	Delta : B 	Previous STC : 20.99 	STC : 43.77
+ONDOUSDT 	Latest Close: (1.0151) 	SMA(14) : 1.01 	Delta : B 	Previous STC : 18.38 	STC : 30.02
+INJUSDT 	Latest Close: (13.746) 	SMA(14) : 13.80 	Delta : S 	Previous STC : 97.01 	STC : 91.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+INJUSDT    | S |  91.23
+Last close price for INJUSDT: 13.745
+Opening Sell for  INJUSDT
+TP: 13.60755
+SL: 14.0199
+TS: 0.13745
+Order Quantity: 727.54
+Adjusted qty: 727.5
+Final Adjusted qty: 727.5
+6020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XRPUSDT    | B |  43.77
+Last close price for XRPUSDT: 3.0271
+Opening Buy for  XRPUSDT
+TP: 3.057371
+SL: 2.966558
+TS: 0.030271
+Order Quantity: 3303.49
+Adjusted qty: 3303.0
+Final Adjusted qty: 3303.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '88559b02-6696-4a8a-b4c7-06ac8f14fc9b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758119143790}
+88559b02-6696-4a8a-b4c7-06ac8f14fc9b
+fetching trade data for :  88559b02-6696-4a8a-b4c7-06ac8f14fc9b
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '88559b02-6696-4a8a-b4c7-06ac8f14fc9b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758119143789', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.0271', 'execPrice': '3.0272', 'markIv': '', 'orderQty': '3303', 'orderPrice': '3.1784', 'execValue': '9998.8416', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220547799, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49936288', 'execId': 'c6a89e25-fc5d-4252-8aa8-34f12fc3da6d', 'marketUnit': '', 'execQty': '3303', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  30.02
+Last close price for ONDOUSDT: 1.011
+Opening Buy for  ONDOUSDT
+TP: 1.02111
+SL: 0.9907799999999999
+TS: 0.01011
+Order Quantity: 9891.2
+Adjusted qty: 9891.0
+Final Adjusted qty: 9891.0
+72300.0
