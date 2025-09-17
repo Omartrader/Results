@@ -76067,3 +76067,48 @@ Order Quantity: 12911.56
 Adjusted qty: 12911.6
 Final Adjusted qty: 12911.5
 62530.0
+***************************************************************
+Number of open positions: 4
+Function started at 17.09.2025 12:15:09
+SAROSUSDT 	Latest Close: (0.40694) 	SMA(14) : 0.41 	Delta : S 	Previous STC : 99.70 	STC : 94.79
+LTCUSDT 	Latest Close: (115.06) 	SMA(14) : 114.81 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  94.79
+Last close price for SAROSUSDT: 0.40694
+Opening Sell for  SAROSUSDT
+TP: 0.4028706
+SL: 0.4150788
+TS: 0.0040694
+Order Quantity: 24573.65
+Adjusted qty: 24574.0
+Final Adjusted qty: 24573.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '27c5068f-5c7f-4f57-870a-8665c718bf22', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758096945890}
+27c5068f-5c7f-4f57-870a-8665c718bf22
+fetching trade data for :  27c5068f-5c7f-4f57-870a-8665c718bf22
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '27c5068f-5c7f-4f57-870a-8665c718bf22', 'stopOrderType': 'UNKNOWN', 'execTime': '1758096945889', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.40697', 'execPrice': '0.40694', 'markIv': '', 'orderQty': '24573', 'orderPrice': '0.34593', 'execValue': '9999.73662', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219811026, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99971029', 'execId': 'c1078f4d-b1da-423e-b1e7-31e07a7024ab', 'marketUnit': '', 'execQty': '24573', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | B |  33.33
+Last close price for LTCUSDT: 115.06
+Opening Buy for  LTCUSDT
+TP: 116.2106
+SL: 112.7588
+TS: 1.1506
+Order Quantity: 86.91
+Adjusted qty: 86.9
+Final Adjusted qty: 86.9
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f6e8bf2a-f2c0-4421-9513-cc08ddfb1627', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758096958239}
+f6e8bf2a-f2c0-4421-9513-cc08ddfb1627
+fetching trade data for :  f6e8bf2a-f2c0-4421-9513-cc08ddfb1627
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f6e8bf2a-f2c0-4421-9513-cc08ddfb1627', 'stopOrderType': 'UNKNOWN', 'execTime': '1758096958239', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '115.06', 'execPrice': '115.06', 'markIv': '', 'orderQty': '86.9', 'orderPrice': '120.81', 'execValue': '9998.714', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219811411, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4992927', 'execId': '2b455ce2-c784-4404-aed1-f15ba5e7e761', 'marketUnit': '', 'execQty': '86.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 12:16:08
