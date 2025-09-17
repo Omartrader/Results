@@ -79829,3 +79829,52 @@ Order Quantity: 3667.03
 Adjusted qty: 3667.0
 Final Adjusted qty: 3667.0
 66470.0
+***************************************************************
+Number of open positions: 8
+Function started at 17.09.2025 23:25:06
+KASUSDT 	Latest Close: (0.08564) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 6.14 	STC : 37.43
+SUIUSDT 	Latest Close: (3.616) 	SMA(14) : 3.58 	Delta : B 	Previous STC : 20.66 	STC : 47.11
+NEARUSDT 	Latest Close: (2.746) 	SMA(14) : 2.69 	Delta : B 	Previous STC : 21.52 	STC : 47.68
+CAKEUSDT 	Latest Close: (2.573) 	SMA(14) : 2.54 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+FORMUSDT 	Latest Close: (1.9284) 	SMA(14) : 1.91 	Delta : B 	Previous STC : 20.19 	STC : 31.25
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | B |  47.68
+Last close price for NEARUSDT: 2.753
+Opening Buy for  NEARUSDT
+TP: 2.78053
+SL: 2.69794
+TS: 0.027530000000000002
+Order Quantity: 3632.4
+Adjusted qty: 3632.4
+Final Adjusted qty: 3632.4
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c00058e3-3f79-471e-a9f3-37ffa0f3d7a6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758137150158}
+c00058e3-3f79-471e-a9f3-37ffa0f3d7a6
+fetching trade data for :  c00058e3-3f79-471e-a9f3-37ffa0f3d7a6
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c00058e3-3f79-471e-a9f3-37ffa0f3d7a6', 'stopOrderType': 'UNKNOWN', 'execTime': '1758137150157', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.753', 'execPrice': '2.752', 'markIv': '', 'orderQty': '3632.4', 'orderPrice': '2.89', 'execValue': '9996.3648', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221143061, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49800064', 'execId': 'b0821d32-3920-4170-aae2-f93d8941dd80', 'marketUnit': '', 'execQty': '3632.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | B |  47.11
+Last close price for SUIUSDT: 3.6332
+Opening Buy for  SUIUSDT
+TP: 3.6695320000000002
+SL: 3.560536
+TS: 0.036332
+Order Quantity: 2752.39
+Adjusted qty: 2750.0
+Final Adjusted qty: 2750.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2628529b-739f-4485-88ee-598056ada0b3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758137162444}
+2628529b-739f-4485-88ee-598056ada0b3
+fetching trade data for :  2628529b-739f-4485-88ee-598056ada0b3
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2628529b-739f-4485-88ee-598056ada0b3', 'stopOrderType': 'UNKNOWN', 'execTime': '1758137162443', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.63257', 'execPrice': '3.6329', 'markIv': '', 'orderQty': '2750', 'orderPrice': '3.8141', 'execValue': '9990.475', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221143632, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49476125', 'execId': '64ad7339-3af9-4435-b5a8-a975a1fafc60', 'marketUnit': '', 'execQty': '2750', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 17.09.2025 23:26:12
