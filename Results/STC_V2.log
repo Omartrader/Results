@@ -77019,3 +77019,40 @@ Order Quantity: 9885.33
 Adjusted qty: 9885.0
 Final Adjusted qty: 9885.0
 72300.0
+***************************************************************
+Number of open positions: 8
+Function started at 17.09.2025 15:35:06
+XRPUSDT 	Latest Close: (3.0082) 	SMA(14) : 3.01 	Delta : S 	Previous STC : 96.61 	STC : 88.96
+KASUSDT 	Latest Close: (0.08568) 	SMA(14) : 0.09 	Delta : S 	Previous STC : 97.08 	STC : 89.00
+ONDOUSDT 	Latest Close: (1.0097) 	SMA(14) : 1.01 	Delta : S 	Previous STC : 98.58 	STC : 93.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ONDOUSDT   | S |  93.23
+Last close price for ONDOUSDT: 1.0097
+Opening Sell for  ONDOUSDT
+TP: 0.999603
+SL: 1.029894
+TS: 0.010097
+Order Quantity: 9903.93
+Adjusted qty: 9904.0
+Final Adjusted qty: 9903.0
+72300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dc79a852-40ff-49de-9ccd-27785a17f611', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758108941118}
+dc79a852-40ff-49de-9ccd-27785a17f611
+fetching trade data for :  dc79a852-40ff-49de-9ccd-27785a17f611
+[{'symbol': 'ONDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dc79a852-40ff-49de-9ccd-27785a17f611', 'stopOrderType': 'UNKNOWN', 'execTime': '1758108941117', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.0097', 'execPrice': '1.0097', 'markIv': '', 'orderQty': '9903', 'orderPrice': '0.9593', 'execValue': '9999.0591', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220218229, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49948251', 'execId': '5d92e269-8a39-4ec2-a8b1-09f826a7b78a', 'marketUnit': '', 'execQty': '9903', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+KASUSDT    | S |  89.00
+Last close price for KASUSDT: 0.08568
+Opening Sell for  KASUSDT
+TP: 0.0848232
+SL: 0.0873936
+TS: 0.0008568
+Order Quantity: 116713.35
+Adjusted qty: 116710.0
+Final Adjusted qty: 116710.0
+774000.0
