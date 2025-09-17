@@ -78086,3 +78086,49 @@ Order Quantity: 26038.28
 Adjusted qty: 26038.0
 Final Adjusted qty: 26038.0
 1636400.0
+***************************************************************
+Number of open positions: 8
+Function started at 17.09.2025 20:05:06
+XLMUSDT 	Latest Close: (0.38272) 	SMA(14) : 0.39 	Delta : S 	Previous STC : 100.00 	STC : 88.05
+COREUSDT 	Latest Close: (0.4445) 	SMA(14) : 0.45 	Delta : S 	Previous STC : 96.70 	STC : 92.16
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+COREUSDT   | S |  92.16
+Last close price for COREUSDT: 0.4445
+Opening Sell for  COREUSDT
+TP: 0.44005500000000003
+SL: 0.45339
+TS: 0.004445
+Order Quantity: 22497.19
+Adjusted qty: 22497.2
+Final Adjusted qty: 22497.1
+13560.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '19711fd8-3704-483e-8ac4-0cf70ec1f152', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758125159151}
+19711fd8-3704-483e-8ac4-0cf70ec1f152
+fetching trade data for :  19711fd8-3704-483e-8ac4-0cf70ec1f152
+[{'symbol': 'COREUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '19711fd8-3704-483e-8ac4-0cf70ec1f152', 'stopOrderType': 'UNKNOWN', 'execTime': '1758125159150', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4445', 'execPrice': '0.4445', 'markIv': '', 'orderQty': '13560', 'orderPrice': '0.4001', 'execValue': '6027.42', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220744353, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '3.315081', 'execId': '1d550ab8-c26c-4577-96ca-6e9007155763', 'marketUnit': '', 'execQty': '13560', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    | S |  88.05
+Last close price for XLMUSDT: 0.38279
+Opening Sell for  XLMUSDT
+TP: 0.3789621
+SL: 0.3904458
+TS: 0.0038279000000000004
+Order Quantity: 26123.98
+Adjusted qty: 26124.0
+Final Adjusted qty: 26123.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1bf46659-de0e-4225-a6eb-f8b73433eed1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758125172237}
+1bf46659-de0e-4225-a6eb-f8b73433eed1
+fetching trade data for :  1bf46659-de0e-4225-a6eb-f8b73433eed1
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1bf46659-de0e-4225-a6eb-f8b73433eed1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758125172236', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3828', 'execPrice': '0.38279', 'markIv': '', 'orderQty': '26123', 'orderPrice': '0.36366', 'execValue': '9999.62317', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220744772, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49979275', 'execId': 'c300118f-aaa0-4809-98d3-d9ddd39e9e7b', 'marketUnit': '', 'execQty': '26123', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 17.09.2025 20:06:23
