@@ -48620,3 +48620,43 @@ Order Quantity: 4.46
 Adjusted qty: 4.46
 Final Adjusted qty: 4.46
 724.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 08:25:54
+	TRXUSDT 	Signal: S
+TRXUSDT 	Latest Close: (0.33966) 	SMA(14) : 0.34 	Delta :  	Previous STC : 100.00 	STC : 95.23
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4486.64) 	SMA(14) : 4511.40 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | S |  95.23
+1
+Last close price for TRXUSDT: 0.33966
+Opening Sell for  TRXUSDT
+TP: 0.3362634
+SL: 0.3464532
+TS: 0.0033966
+Order Quantity: 58882.41
+Adjusted qty: 58882.0
+Final Adjusted qty: 58882.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '78f49889-8b3b-48ef-afd9-cc2792615366', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758083176317}
+78f49889-8b3b-48ef-afd9-cc2792615366
+fetching trade data for :  78f49889-8b3b-48ef-afd9-cc2792615366
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '78f49889-8b3b-48ef-afd9-cc2792615366', 'stopOrderType': 'UNKNOWN', 'execTime': '1758083176316', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.33969', 'execPrice': '0.33966', 'markIv': '', 'orderQty': '58882', 'orderPrice': '0.32271', 'execValue': '19999.86012', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612531376994, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99992307', 'execId': '9c7ecdff-eff3-49b7-88ee-73220f2d21b4', 'marketUnit': '', 'execQty': '58882', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHUSDT    | S |  66.67
+1
+Last close price for ETHUSDT: 4486.64
+Opening Sell for  ETHUSDT
+TP: 4441.7736
+SL: 4576.3728
+TS: 44.866400000000006
+Order Quantity: 4.46
+Adjusted qty: 4.46
+Final Adjusted qty: 4.46
+724.0
