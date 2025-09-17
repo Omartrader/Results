@@ -74655,3 +74655,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 17.09.2025 07:20:48
+***************************************************************
+Number of open positions: 5
+Function started at 17.09.2025 07:25:06
+MYXUSDT 	Latest Close: (13.3565) 	SMA(14) : 12.10 	Delta : B 	Previous STC : 24.63 	STC : 34.93
+SAROSUSDT 	Latest Close: (0.41207) 	SMA(14) : 0.40 	Delta : B 	Previous STC : 24.68 	STC : 38.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | B |  38.13
+Last close price for SAROSUSDT: 0.41207
+Opening Buy for  SAROSUSDT
+TP: 0.41619069999999997
+SL: 0.4038286
+TS: 0.0041207
+Order Quantity: 24267.72
+Adjusted qty: 24268.0
+Final Adjusted qty: 24267.0
+27000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  34.93
+Last close price for MYXUSDT: 13.36
+Opening Buy for  MYXUSDT
+TP: 13.493599999999999
+SL: 13.092799999999999
+TS: 0.1336
+Order Quantity: 748.5
+Adjusted qty: 748.0
+Final Adjusted qty: 748.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '436af380-0a0a-43f8-af1e-8e53914982fc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758079543081}
+436af380-0a0a-43f8-af1e-8e53914982fc
+fetching trade data for :  436af380-0a0a-43f8-af1e-8e53914982fc
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '436af380-0a0a-43f8-af1e-8e53914982fc', 'stopOrderType': 'UNKNOWN', 'execTime': '1758079543080', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '13.36307', 'execPrice': '13.3676', 'markIv': '', 'orderQty': '748', 'orderPrice': '15.3675', 'execValue': '9998.9648', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219247622, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99886128', 'execId': '149c4d56-08c8-4cd3-bbc8-52fd2e1f25dd', 'marketUnit': '', 'execQty': '748', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 07:25:52
