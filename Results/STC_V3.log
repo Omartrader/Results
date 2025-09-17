@@ -51547,3 +51547,43 @@ Order Quantity: 5499.04
 Adjusted qty: 5500.0
 Final Adjusted qty: 5490.0
 40000.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 23:30:48
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0269) 	SMA(14) : 1.01 	Delta :  	Previous STC : 14.97 	STC : 28.59
+	SOLUSDT 	Signal: B
+SOLUSDT 	Latest Close: (237.14) 	SMA(14) : 234.58 	Delta :  	Previous STC : 10.54 	STC : 36.91
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | B |  36.91
+1
+Last close price for SOLUSDT: 237.25
+Opening Buy for  SOLUSDT
+TP: 239.6225
+SL: 232.505
+TS: 2.3725
+Order Quantity: 84.3
+Adjusted qty: 84.30000000000001
+Final Adjusted qty: 84.3
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6bd73781-501f-46c7-a511-32e3722f6ead', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758137470710}
+6bd73781-501f-46c7-a511-32e3722f6ead
+fetching trade data for :  6bd73781-501f-46c7-a511-32e3722f6ead
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6bd73781-501f-46c7-a511-32e3722f6ead', 'stopOrderType': 'UNKNOWN', 'execTime': '1758137470709', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '237.3', 'execPrice': '237.31', 'markIv': '', 'orderQty': '84.3', 'orderPrice': '249.16', 'execValue': '20005.233', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533369839, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00287815', 'execId': 'fb55e4c9-05c6-4371-86eb-cfc2a67ed367', 'marketUnit': '', 'execQty': '84.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ONDOUSDT   | B |  28.59
+1
+Last close price for ONDOUSDT: 1.0268
+Opening Buy for  ONDOUSDT
+TP: 1.0370679999999999
+SL: 1.0062639999999998
+TS: 0.010268
+Order Quantity: 19477.99
+Adjusted qty: 19478.0
+Final Adjusted qty: 19477.0
+72300.0
