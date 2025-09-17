@@ -78327,3 +78327,59 @@ Order Quantity: 5029.93
 Adjusted qty: 5030.0
 Final Adjusted qty: 5029.0
 14000.0
+***************************************************************
+Number of open positions: 7
+Function started at 17.09.2025 21:00:06
+SYRUPUSDT 	Latest Close: (0.43267) 	SMA(14) : 0.43 	Delta : B 	Previous STC : 21.69 	STC : 47.80
+IPUSDT 	Latest Close: (10.2175) 	SMA(14) : 10.13 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+FORMUSDT 	Latest Close: (1.9007) 	SMA(14) : 1.90 	Delta : S 	Previous STC : 97.09 	STC : 90.15
+ENSUSDT 	Latest Close: (23.336) 	SMA(14) : 23.22 	Delta : B 	Previous STC : 0.00 	STC : 33.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FORMUSDT   | S |  90.15
+Last close price for FORMUSDT: 1.9007
+Opening Sell for  FORMUSDT
+TP: 1.881693
+SL: 1.938714
+TS: 0.019007
+Order Quantity: 5261.22
+Adjusted qty: 5261.0
+Final Adjusted qty: 5261.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '489faf6c-a9b9-4232-8657-c8cdded43702', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758128441923}
+489faf6c-a9b9-4232-8657-c8cdded43702
+fetching trade data for :  489faf6c-a9b9-4232-8657-c8cdded43702
+[{'symbol': 'FORMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '489faf6c-a9b9-4232-8657-c8cdded43702', 'stopOrderType': 'UNKNOWN', 'execTime': '1758128441922', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9008', 'execPrice': '1.9007', 'markIv': '', 'orderQty': '2850', 'orderPrice': '1.6157', 'execValue': '5416.995', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220849956, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.97934725', 'execId': 'aaba66fa-bbaa-48ca-bb03-78802f533d12', 'marketUnit': '', 'execQty': '2850', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | B |  47.80
+Last close price for SYRUPUSDT: 0.43302
+Opening Buy for  SYRUPUSDT
+TP: 0.4373502
+SL: 0.4243596
+TS: 0.0043302
+Order Quantity: 23093.62
+Adjusted qty: 23094.0
+Final Adjusted qty: 23093.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2fdce076-0e21-4f05-80ef-96420084d15e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758128454514}
+2fdce076-0e21-4f05-80ef-96420084d15e
+fetching trade data for :  2fdce076-0e21-4f05-80ef-96420084d15e
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2fdce076-0e21-4f05-80ef-96420084d15e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758128454513', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.43305', 'execPrice': '0.43302', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.47635', 'execValue': '4330.2', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220850342, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.38161', 'execId': '62028863-66a6-4ae0-9b43-c30f59676a0e', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENSUSDT    | B |  33.34
+Last close price for ENSUSDT: 23.356
+Opening Buy for  ENSUSDT
+TP: 23.589560000000002
+SL: 22.88888
+TS: 0.23356000000000002
+Order Quantity: 428.16
+Adjusted qty: 428.20000000000005
+Final Adjusted qty: 428.1
+1400.0
