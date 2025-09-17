@@ -78809,3 +78809,48 @@ Order Quantity: 33.76
 Adjusted qty: 33.76
 Final Adjusted qty: 33.76
 2514.0
+***************************************************************
+Number of open positions: 2
+Function started at 17.09.2025 22:00:05
+AUSDT 	Latest Close: (0.4711) 	SMA(14) : 0.47 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+LTCUSDT 	Latest Close: (114.83) 	SMA(14) : 114.03 	Delta : B 	Previous STC : 20.68 	STC : 47.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | B |  47.12
+Last close price for LTCUSDT: 114.91
+Opening Buy for  LTCUSDT
+TP: 116.0591
+SL: 112.61179999999999
+TS: 1.1491
+Order Quantity: 87.02
+Adjusted qty: 87.0
+Final Adjusted qty: 87.0
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '691ae9d3-2d2c-464b-9a0b-51c83776c575', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758132041917}
+691ae9d3-2d2c-464b-9a0b-51c83776c575
+fetching trade data for :  691ae9d3-2d2c-464b-9a0b-51c83776c575
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '691ae9d3-2d2c-464b-9a0b-51c83776c575', 'stopOrderType': 'UNKNOWN', 'execTime': '1758132041916', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '114.92', 'execPrice': '114.83', 'markIv': '', 'orderQty': '87', 'orderPrice': '120.66', 'execValue': '9990.21', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220969123, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4946155', 'execId': '333929f7-bc33-4fd5-a7b8-2d0073f2a6da', 'marketUnit': '', 'execQty': '87', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AUSDT      | B |  33.33
+Last close price for AUSDT: 0.4713
+Opening Buy for  AUSDT
+TP: 0.476013
+SL: 0.461874
+TS: 0.004713
+Order Quantity: 21217.91
+Adjusted qty: 21218.0
+Final Adjusted qty: 21217.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'abdee67b-8239-4384-878f-0b812b0cb46b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758132054597}
+abdee67b-8239-4384-878f-0b812b0cb46b
+fetching trade data for :  abdee67b-8239-4384-878f-0b812b0cb46b
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'abdee67b-8239-4384-878f-0b812b0cb46b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758132054595', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4712', 'execPrice': '0.471', 'markIv': '', 'orderQty': '21217', 'orderPrice': '0.5183', 'execValue': '9993.207', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220969596, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49626385', 'execId': '6344bbda-dc75-472f-9859-6ecb9cce7788', 'marketUnit': '', 'execQty': '21217', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 22:01:04
