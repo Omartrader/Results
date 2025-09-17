@@ -79924,3 +79924,43 @@ Order Quantity: 8252.19
 Adjusted qty: 8252.2
 Final Adjusted qty: 8252.1
 59020.0
+***************************************************************
+Number of open positions: 7
+Function started at 17.09.2025 23:40:06
+BRETTUSDT 	Latest Close: (0.05167) 	SMA(14) : 0.05 	Delta : B 	Previous STC : 21.89 	STC : 33.06
+ONDOUSDT 	Latest Close: (1.0333) 	SMA(14) : 1.01 	Delta : B 	Previous STC : 14.97 	STC : 28.59
+LDOUSDT 	Latest Close: (1.2107) 	SMA(14) : 1.19 	Delta : B 	Previous STC : 13.18 	STC : 42.12
+SPXUSDT 	Latest Close: (1.3039) 	SMA(14) : 1.28 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SOLUSDT 	Latest Close: (237.83) 	SMA(14) : 234.63 	Delta : B 	Previous STC : 10.54 	STC : 37.15
+INJUSDT 	Latest Close: (14.04) 	SMA(14) : 13.76 	Delta : B 	Previous STC : 12.98 	STC : 41.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LDOUSDT    | B |  42.12
+Last close price for LDOUSDT: 1.2112
+Opening Buy for  LDOUSDT
+TP: 1.223312
+SL: 1.186976
+TS: 0.012112000000000001
+Order Quantity: 8256.27
+Adjusted qty: 8256.300000000001
+Final Adjusted qty: 8256.2
+59020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f5859356-f446-4edc-89f0-acef037996de', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758138044306}
+f5859356-f446-4edc-89f0-acef037996de
+fetching trade data for :  f5859356-f446-4edc-89f0-acef037996de
+[{'symbol': 'LDOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f5859356-f446-4edc-89f0-acef037996de', 'stopOrderType': 'UNKNOWN', 'execTime': '1758138044305', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.211', 'execPrice': '1.211', 'markIv': '', 'orderQty': '8256.2', 'orderPrice': '1.2715', 'execValue': '9998.2582', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221173316, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49904201', 'execId': 'c8325e69-bd86-4d24-baeb-5f37fb03d047', 'marketUnit': '', 'execQty': '8256.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+INJUSDT    | B |  41.99
+Last close price for INJUSDT: 14.04
+Opening Buy for  INJUSDT
+TP: 14.180399999999999
+SL: 13.759199999999998
+TS: 0.1404
+Order Quantity: 712.25
+Adjusted qty: 712.2
+Final Adjusted qty: 712.2
+6020.0
