@@ -74615,3 +74615,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 17.09.2025 07:16:05
+***************************************************************
+Number of open positions: 6
+Function started at 17.09.2025 07:20:06
+MYXUSDT 	Latest Close: (13.2175) 	SMA(14) : 12.09 	Delta : B 	Previous STC : 24.63 	STC : 34.93
+SAROSUSDT 	Latest Close: (0.41051) 	SMA(14) : 0.40 	Delta : B 	Previous STC : 24.68 	STC : 38.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | B |  38.13
+Last close price for SAROSUSDT: 0.41051
+Opening Buy for  SAROSUSDT
+TP: 0.4146151
+SL: 0.4022998
+TS: 0.0041050999999999995
+Order Quantity: 24359.94
+Adjusted qty: 24360.0
+Final Adjusted qty: 24359.0
+27000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  34.93
+Last close price for MYXUSDT: 13.237
+Opening Buy for  MYXUSDT
+TP: 13.36937
+SL: 12.97226
+TS: 0.13237
+Order Quantity: 755.46
+Adjusted qty: 755.0
+Final Adjusted qty: 755.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd16f0097-2930-4608-a8a3-cbadaeb18667', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758079239246}
+d16f0097-2930-4608-a8a3-cbadaeb18667
+fetching trade data for :  d16f0097-2930-4608-a8a3-cbadaeb18667
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd16f0097-2930-4608-a8a3-cbadaeb18667', 'stopOrderType': 'UNKNOWN', 'execTime': '1758079239245', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '13.2399', 'execPrice': '13.2361', 'markIv': '', 'orderQty': '755', 'orderPrice': '15.2258', 'execValue': '9993.2555', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219238036, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99258105', 'execId': '717f998c-2d34-4b7e-94a5-29cebebde926', 'marketUnit': '', 'execQty': '755', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 07:20:48
