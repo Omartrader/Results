@@ -78277,3 +78277,53 @@ Order Quantity: 46425.26
 Adjusted qty: 46425.0
 Final Adjusted qty: 46425.0
 80000.0
+***************************************************************
+Number of open positions: 7
+Function started at 17.09.2025 20:50:05
+WLFIUSDT 	Latest Close: (0.2156) 	SMA(14) : 0.22 	Delta : S 	Previous STC : 96.21 	STC : 88.52
+JUPUSDT 	Latest Close: (0.5058) 	SMA(14) : 0.51 	Delta : S 	Previous STC : 99.85 	STC : 95.65
+MORPHOUSDT 	Latest Close: (1.9881) 	SMA(14) : 1.98 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JUPUSDT    | S |  95.65
+Last close price for JUPUSDT: 0.5058
+Opening Sell for  JUPUSDT
+TP: 0.500742
+SL: 0.515916
+TS: 0.005058
+Order Quantity: 19770.66
+Adjusted qty: 19771.0
+Final Adjusted qty: 19770.0
+79000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLFIUSDT   | S |  88.52
+Last close price for WLFIUSDT: 0.2155
+Opening Sell for  WLFIUSDT
+TP: 0.213345
+SL: 0.21981
+TS: 0.002155
+Order Quantity: 46403.71
+Adjusted qty: 46404.0
+Final Adjusted qty: 46403.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e5cad694-69bf-4f50-a3ad-05006d948487', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758127839258}
+e5cad694-69bf-4f50-a3ad-05006d948487
+fetching trade data for :  e5cad694-69bf-4f50-a3ad-05006d948487
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e5cad694-69bf-4f50-a3ad-05006d948487', 'stopOrderType': 'UNKNOWN', 'execTime': '1758127839257', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2154', 'execPrice': '0.2155', 'markIv': '', 'orderQty': '46403', 'orderPrice': '0.1831', 'execValue': '9999.8465', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220830223, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991558', 'execId': 'c07df25e-de23-464d-a23e-324c524873d2', 'marketUnit': '', 'execQty': '46403', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MORPHOUSDT | B |  33.33
+Last close price for MORPHOUSDT: 1.9881
+Opening Buy for  MORPHOUSDT
+TP: 2.007981
+SL: 1.948338
+TS: 0.019881
+Order Quantity: 5029.93
+Adjusted qty: 5030.0
+Final Adjusted qty: 5029.0
+14000.0
