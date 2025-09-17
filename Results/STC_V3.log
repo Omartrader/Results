@@ -49218,3 +49218,53 @@ Order Quantity: 84.19
 Adjusted qty: 84.2
 Final Adjusted qty: 84.1
 11740.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 12:00:55
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (3.0274) 	SMA(14) : 3.02 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	VETUSDT 	Signal: B
+VETUSDT 	Latest Close: (0.0245) 	SMA(14) : 0.02 	Delta :  	Previous STC : 6.12 	STC : 37.42
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | B |  37.42
+1
+Last close price for VETUSDT: 0.0245
+Opening Buy for  VETUSDT
+TP: 0.024745
+SL: 0.02401
+TS: 0.000245
+Order Quantity: 816326.53
+Adjusted qty: 816327.0
+Final Adjusted qty: 816326.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3377205e-9aef-4aec-b189-2f324d3e1350', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758096078422}
+3377205e-9aef-4aec-b189-2f324d3e1350
+fetching trade data for :  3377205e-9aef-4aec-b189-2f324d3e1350
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3377205e-9aef-4aec-b189-2f324d3e1350', 'stopOrderType': 'UNKNOWN', 'execTime': '1758096078421', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.0245', 'execPrice': '0.0245', 'markIv': '', 'orderQty': '437000', 'orderPrice': '0.02572', 'execValue': '10706.5', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612531844323, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.888575', 'execId': 'f32145e2-76e6-4ed4-8493-a47963c3d4ea', 'marketUnit': '', 'execQty': '437000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XRPUSDT    | B |  33.33
+1
+Last close price for XRPUSDT: 3.0278
+Opening Buy for  XRPUSDT
+TP: 3.058078
+SL: 2.967244
+TS: 0.030278
+Order Quantity: 6605.46
+Adjusted qty: 6605.0
+Final Adjusted qty: 6605.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9e888a6e-4832-492a-8a06-929fd2b92201', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758096090885}
+9e888a6e-4832-492a-8a06-929fd2b92201
+fetching trade data for :  9e888a6e-4832-492a-8a06-929fd2b92201
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9e888a6e-4832-492a-8a06-929fd2b92201', 'stopOrderType': 'UNKNOWN', 'execTime': '1758096090885', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.0278', 'execPrice': '3.0278', 'markIv': '', 'orderQty': '6605', 'orderPrice': '3.1791', 'execValue': '19998.619', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612531844811, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99924045', 'execId': '9048a175-e9f9-46ca-aeb7-ace34618bfdb', 'marketUnit': '', 'execQty': '6605', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 17.09.2025 12:01:41
