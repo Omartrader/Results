@@ -50458,3 +50458,52 @@ Number of open positions: 4
 Function started at 17.09.2025 20:50:55
 	WLFIUSDT 	Signal: S
 WLFIUSDT 	Latest Close: (0.2156) 	SMA(14) : 0.22 	Delta :  	Previous STC : 96.21 	STC : 88.52
+***************************************************************
+Number of open positions: 2
+Function started at 17.09.2025 21:01:33
+	IPUSDT 	Signal: B
+IPUSDT 	Latest Close: (10.2258) 	SMA(14) : 10.13 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	OKBUSDT 	Signal: B
+OKBUSDT 	Latest Close: (192.02) 	SMA(14) : 191.75 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | B |  33.33
+1
+Last close price for IPUSDT: 10.2182
+Opening Buy for  IPUSDT
+TP: 10.320382
+SL: 10.013836
+TS: 0.102182
+Order Quantity: 1957.29
+Adjusted qty: 1957.3000000000002
+Final Adjusted qty: 1957.2
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '21a23ea0-74f0-4ec4-94dc-8c1858970d36', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758128520532}
+21a23ea0-74f0-4ec4-94dc-8c1858970d36
+fetching trade data for :  21a23ea0-74f0-4ec4-94dc-8c1858970d36
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '21a23ea0-74f0-4ec4-94dc-8c1858970d36', 'stopOrderType': 'UNKNOWN', 'execTime': '1758128520530', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.2204', 'execPrice': '10.2227', 'markIv': '', 'orderQty': '1957.2', 'orderPrice': '11.2424', 'execValue': '20007.86844', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533013348, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00432765', 'execId': '2816d907-b0bf-4bee-81d6-644ce6926180', 'marketUnit': '', 'execQty': '1957.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OKBUSDT    | B |  33.33
+1
+Last close price for OKBUSDT: 192.02
+Opening Buy for  OKBUSDT
+TP: 193.9402
+SL: 188.1796
+TS: 1.9202000000000001
+Order Quantity: 104.16
+Adjusted qty: 104.16
+Final Adjusted qty: 104.16
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '72ecee73-f232-4fb3-9deb-17b92b092cfd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758128534330}
+72ecee73-f232-4fb3-9deb-17b92b092cfd
+fetching trade data for :  72ecee73-f232-4fb3-9deb-17b92b092cfd
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '72ecee73-f232-4fb3-9deb-17b92b092cfd', 'stopOrderType': 'UNKNOWN', 'execTime': '1758128534329', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '191.97', 'execPrice': '192.02', 'markIv': '', 'orderQty': '104.16', 'orderPrice': '220.76', 'execValue': '20000.8032', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533013889, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00044176', 'execId': '7430eb1e-46c9-442b-823c-8106edfc5ddb', 'marketUnit': '', 'execQty': '104.16', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 21:02:26
