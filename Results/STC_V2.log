@@ -74958,3 +74958,67 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 17.09.2025 08:25:51
+***************************************************************
+Number of open positions: 5
+Function started at 17.09.2025 08:30:05
+PYTHUSDT 	Latest Close: (0.1628) 	SMA(14) : 0.16 	Delta : S 	Previous STC : 97.87 	STC : 94.38
+CRVUSDT 	Latest Close: (0.7257) 	SMA(14) : 0.73 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+AEROUSDT 	Latest Close: (1.262) 	SMA(14) : 1.27 	Delta : S 	Previous STC : 100.00 	STC : 90.23
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PYTHUSDT   | S |  94.38
+Last close price for PYTHUSDT: 0.1628
+Opening Sell for  PYTHUSDT
+TP: 0.161172
+SL: 0.166056
+TS: 0.001628
+Order Quantity: 61425.06
+Adjusted qty: 61425.0
+Final Adjusted qty: 61425.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2e413ea5-ee9a-4f09-b5ae-dda33962e83c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758083443369}
+2e413ea5-ee9a-4f09-b5ae-dda33962e83c
+fetching trade data for :  2e413ea5-ee9a-4f09-b5ae-dda33962e83c
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2e413ea5-ee9a-4f09-b5ae-dda33962e83c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758083443367', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1628', 'execPrice': '0.1628', 'markIv': '', 'orderQty': '61425', 'orderPrice': '0.1466', 'execValue': '9999.99', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219372015, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999945', 'execId': 'e3e1e8f2-524e-4d41-a25b-af69b1d48d7f', 'marketUnit': '', 'execQty': '61425', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AEROUSDT   | S |  90.23
+Last close price for AEROUSDT: 1.2617
+Opening Sell for  AEROUSDT
+TP: 1.249083
+SL: 1.286934
+TS: 0.012617
+Order Quantity: 7925.81
+Adjusted qty: 7926.0
+Final Adjusted qty: 7925.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6ca69221-cf24-41c0-b1c1-d701dd24a37d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758083455190}
+6ca69221-cf24-41c0-b1c1-d701dd24a37d
+fetching trade data for :  6ca69221-cf24-41c0-b1c1-d701dd24a37d
+[{'symbol': 'AEROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6ca69221-cf24-41c0-b1c1-d701dd24a37d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758083455189', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2617', 'execPrice': '1.2617', 'markIv': '', 'orderQty': '7925', 'orderPrice': '1.0725', 'execValue': '9998.9725', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219372404, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49943488', 'execId': 'a7974770-9f9d-4c72-a444-52cefdada602', 'marketUnit': '', 'execQty': '7925', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CRVUSDT    | S |  66.67
+Last close price for CRVUSDT: 0.7254
+Opening Sell for  CRVUSDT
+TP: 0.7181460000000001
+SL: 0.739908
+TS: 0.007254
+Order Quantity: 13785.5
+Adjusted qty: 13785.5
+Final Adjusted qty: 13785.5
+196620.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bead637c-dd05-4399-8f48-1e496d581cf5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758083467058}
+bead637c-dd05-4399-8f48-1e496d581cf5
+fetching trade data for :  bead637c-dd05-4399-8f48-1e496d581cf5
+[{'symbol': 'CRVUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bead637c-dd05-4399-8f48-1e496d581cf5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758083467057', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7254', 'execPrice': '0.7254', 'markIv': '', 'orderQty': '13785.5', 'orderPrice': '0.6892', 'execValue': '10000.0017', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219372794, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000094', 'execId': '8d33a078-8b3b-4c48-beb2-f30d64394d6a', 'marketUnit': '', 'execQty': '13785.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 08:31:15
