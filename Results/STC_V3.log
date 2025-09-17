@@ -51468,3 +51468,45 @@ Order Quantity: 7323.32
 Adjusted qty: 7323.3
 Final Adjusted qty: 7323.3
 66470.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 23:20:47
+	KASUSDT 	Signal: B
+KASUSDT 	Latest Close: (0.08537) 	SMA(14) : 0.08 	Delta :  	Previous STC : 6.14 	STC : 37.43
+	SUIUSDT 	Signal: B
+SUIUSDT 	Latest Close: (3.5997) 	SMA(14) : 3.57 	Delta :  	Previous STC : 20.66 	STC : 47.11
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (2.729) 	SMA(14) : 2.69 	Delta :  	Previous STC : 21.52 	STC : 47.68
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | B |  47.68
+1
+Last close price for NEARUSDT: 2.73
+Opening Buy for  NEARUSDT
+TP: 2.7573
+SL: 2.6754
+TS: 0.0273
+Order Quantity: 7326.01
+Adjusted qty: 7326.0
+Final Adjusted qty: 7326.0
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'af0e413c-f8bf-4a98-94e0-9e4534d8cafd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758136868657}
+af0e413c-f8bf-4a98-94e0-9e4534d8cafd
+fetching trade data for :  af0e413c-f8bf-4a98-94e0-9e4534d8cafd
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'af0e413c-f8bf-4a98-94e0-9e4534d8cafd', 'stopOrderType': 'UNKNOWN', 'execTime': '1758136868656', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.73', 'execPrice': '2.73', 'markIv': '', 'orderQty': '7326', 'orderPrice': '2.866', 'execValue': '19999.98', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533346857, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.999989', 'execId': '163dc937-e161-4878-93b3-7a150f7edc3f', 'marketUnit': '', 'execQty': '7326', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | B |  47.11
+1
+Last close price for SUIUSDT: 3.6061
+Opening Buy for  SUIUSDT
+TP: 3.642161
+SL: 3.533978
+TS: 0.036061
+Order Quantity: 5546.16
+Adjusted qty: 5550.0
+Final Adjusted qty: 5540.0
+40000.0
