@@ -79078,3 +79078,73 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 17.09.2025 22:16:17
+***************************************************************
+Number of open positions: 4
+Function started at 17.09.2025 22:20:06
+ADAUSDT 	Latest Close: (0.8735) 	SMA(14) : 0.87 	Delta : B 	Previous STC : 15.49 	STC : 43.66
+MNTUSDT 	Latest Close: (1.6606) 	SMA(14) : 1.64 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+XDCUSDT 	Latest Close: (0.07682) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+APTUSDT 	Latest Close: (4.396) 	SMA(14) : 4.39 	Delta : B 	Previous STC : 3.36 	STC : 35.58
+USDCUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 99.25 	STC : 94.80
+USDCUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 99.25 	STC : 94.80
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XDCUSDT    | S |  66.67
+Last close price for XDCUSDT: 0.07677
+Opening Sell for  XDCUSDT
+TP: 0.07600230000000001
+SL: 0.07830540000000001
+TS: 0.0007677000000000001
+Order Quantity: 130259.22
+Adjusted qty: 130259.0
+Final Adjusted qty: 130259.0
+160000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ADAUSDT    | B |  43.66
+Last close price for ADAUSDT: 0.8708
+Opening Buy for  ADAUSDT
+TP: 0.8795080000000001
+SL: 0.853384
+TS: 0.008708
+Order Quantity: 11483.69
+Adjusted qty: 11484.0
+Final Adjusted qty: 11483.0
+1109600.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+APTUSDT    | B |  35.58
+Last close price for APTUSDT: 4.395
+Opening Buy for  APTUSDT
+TP: 4.438949999999999
+SL: 4.307099999999999
+TS: 0.043949999999999996
+Order Quantity: 2275.31
+Adjusted qty: 2275.31
+Final Adjusted qty: 2275.31
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'adbbfa8a-4105-457b-853a-95f1fdb7af0a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758133243459}
+adbbfa8a-4105-457b-853a-95f1fdb7af0a
+fetching trade data for :  adbbfa8a-4105-457b-853a-95f1fdb7af0a
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'adbbfa8a-4105-457b-853a-95f1fdb7af0a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758133243458', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.3961', 'execPrice': '4.396', 'markIv': '', 'orderQty': '2275.31', 'orderPrice': '4.615', 'execValue': '10002.26276', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221011428, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50124452', 'execId': 'a85ad20c-969c-4f2c-89a7-72a9482981eb', 'marketUnit': '', 'execQty': '2275.31', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    | B |  33.33
+Last close price for MNTUSDT: 1.6573
+Opening Buy for  MNTUSDT
+TP: 1.673873
+SL: 1.6241539999999999
+TS: 0.016573
+Order Quantity: 6033.91
+Adjusted qty: 6034.0
+Final Adjusted qty: 6033.0
+71000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 17.09.2025 22:20:54
