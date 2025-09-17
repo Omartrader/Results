@@ -79612,3 +79612,87 @@ Order Quantity: 33478.41
 Adjusted qty: 33478.0
 Final Adjusted qty: 33478.0
 253900.0
+***************************************************************
+Number of open positions: 6
+Function started at 17.09.2025 23:05:06
+SANDUSDT 	Latest Close: (0.2998) 	SMA(14) : 0.30 	Delta : B 	Previous STC : 15.42 	STC : 29.65
+WALUSDT 	Latest Close: (0.4238) 	SMA(14) : 0.42 	Delta : B 	Previous STC : 11.82 	STC : 41.21
+AVAXUSDT 	Latest Close: (29.95) 	SMA(14) : 29.70 	Delta : B 	Previous STC : 20.95 	STC : 47.30
+RENDERUSDT 	Latest Close: (3.837) 	SMA(14) : 3.80 	Delta : B 	Previous STC : 18.22 	STC : 36.54
+ETCUSDT 	Latest Close: (20.321) 	SMA(14) : 20.25 	Delta : B 	Previous STC : 9.46 	STC : 39.64
+AAVEUSDT 	Latest Close: (294.46) 	SMA(14) : 293.29 	Delta : B 	Previous STC : 4.00 	STC : 36.00
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | B |  47.30
+Last close price for AVAXUSDT: 29.988
+Opening Buy for  AVAXUSDT
+TP: 30.28788
+SL: 29.38824
+TS: 0.29988
+Order Quantity: 333.47
+Adjusted qty: 333.5
+Final Adjusted qty: 333.4
+10950.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WALUSDT    | B |  41.21
+Last close price for WALUSDT: 0.4244
+Opening Buy for  WALUSDT
+TP: 0.428644
+SL: 0.415912
+TS: 0.004244
+Order Quantity: 23562.68
+Adjusted qty: 23563.0
+Final Adjusted qty: 23562.0
+51400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETCUSDT    | B |  39.64
+Last close price for ETCUSDT: 20.313
+Opening Buy for  ETCUSDT
+TP: 20.51613
+SL: 19.90674
+TS: 0.20312999999999998
+Order Quantity: 492.3
+Adjusted qty: 492.3
+Final Adjusted qty: 492.3
+10610.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0cd00f89-fddd-403d-9835-18d0773d1e90', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135947709}
+0cd00f89-fddd-403d-9835-18d0773d1e90
+fetching trade data for :  0cd00f89-fddd-403d-9835-18d0773d1e90
+[{'symbol': 'ETCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0cd00f89-fddd-403d-9835-18d0773d1e90', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135947708', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '20.317', 'execPrice': '20.313', 'markIv': '', 'orderQty': '492.3', 'orderPrice': '21.332', 'execValue': '10000.0899', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221103139, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50004945', 'execId': 'c5fb6069-3dcc-4002-ab8b-4c0734863919', 'marketUnit': '', 'execQty': '492.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  36.54
+Last close price for RENDERUSDT: 3.837
+Opening Buy for  RENDERUSDT
+TP: 3.87537
+SL: 3.76026
+TS: 0.03837
+Order Quantity: 2606.2
+Adjusted qty: 2606.2000000000003
+Final Adjusted qty: 2606.2
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '38b089d0-4afc-4ff4-b823-865443e74b8b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135959918}
+38b089d0-4afc-4ff4-b823-865443e74b8b
+fetching trade data for :  38b089d0-4afc-4ff4-b823-865443e74b8b
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '38b089d0-4afc-4ff4-b823-865443e74b8b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135959917', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.839', 'execPrice': '3.838', 'markIv': '', 'orderQty': '2606.2', 'orderPrice': '4.03', 'execValue': '10002.5956', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221103553, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50142758', 'execId': 'c77e416e-cb39-40bb-bcef-5bb2d51db6fa', 'marketUnit': '', 'execQty': '2606.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   | B |  36.00
+Last close price for AAVEUSDT: 294.58
+Opening Buy for  AAVEUSDT
+TP: 297.5258
+SL: 288.6884
+TS: 2.9457999999999998
+Order Quantity: 33.95
+Adjusted qty: 33.95
+Final Adjusted qty: 33.95
+2514.0
