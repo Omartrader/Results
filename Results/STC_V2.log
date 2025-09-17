@@ -75504,3 +75504,86 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 17.09.2025 11:10:46
+***************************************************************
+Number of open positions: 2
+Function started at 17.09.2025 11:15:06
+BRETTUSDT 	Latest Close: (0.05034) 	SMA(14) : 0.05 	Delta : B 	Previous STC : 21.14 	STC : 33.47
+XLMUSDT 	Latest Close: (0.38717) 	SMA(14) : 0.38 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SKYUSDT 	Latest Close: (0.07653) 	SMA(14) : 0.07 	Delta : B 	Previous STC : 10.77 	STC : 40.51
+HYPEUSDT 	Latest Close: (55.104) 	SMA(14) : 54.61 	Delta : B 	Previous STC : 5.08 	STC : 25.53
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | B |  40.51
+Last close price for SKYUSDT: 0.07657
+Opening Buy for  SKYUSDT
+TP: 0.0773357
+SL: 0.0750386
+TS: 0.0007657
+Order Quantity: 130599.45
+Adjusted qty: 130600.0
+Final Adjusted qty: 130590.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9470f9ec-0faa-4bab-bdd6-ae499d66d82f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758093339161}
+9470f9ec-0faa-4bab-bdd6-ae499d66d82f
+fetching trade data for :  9470f9ec-0faa-4bab-bdd6-ae499d66d82f
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9470f9ec-0faa-4bab-bdd6-ae499d66d82f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758093339160', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07663', 'execPrice': '0.07657', 'markIv': '', 'orderQty': '130590', 'orderPrice': '0.08812', 'execValue': '9999.2763', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219692655, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49960197', 'execId': 'c89b88b6-f26f-4001-abd2-1486a99f0d66', 'marketUnit': '', 'execQty': '130590', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BRETTUSDT  | B |  33.47
+Last close price for BRETTUSDT: 0.05047
+Opening Buy for  BRETTUSDT
+TP: 0.050974700000000005
+SL: 0.0494606
+TS: 0.0005047
+Order Quantity: 198137.51
+Adjusted qty: 198140.0
+Final Adjusted qty: 198130.0
+400000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd6469720-c67f-4dd5-9dde-d4cc7f04aa6c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758093351198}
+d6469720-c67f-4dd5-9dde-d4cc7f04aa6c
+fetching trade data for :  d6469720-c67f-4dd5-9dde-d4cc7f04aa6c
+[{'symbol': 'BRETTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd6469720-c67f-4dd5-9dde-d4cc7f04aa6c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758093351197', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.05047', 'execPrice': '0.05047', 'markIv': '', 'orderQty': '198130', 'orderPrice': '0.05804', 'execValue': '9999.6211', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219693045, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49979161', 'execId': 'e262ea3f-490e-4d76-bf66-6b47e323fff2', 'marketUnit': '', 'execQty': '198130', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    | B |  33.33
+Last close price for XLMUSDT: 0.38729
+Opening Buy for  XLMUSDT
+TP: 0.39116290000000004
+SL: 0.3795442
+TS: 0.0038729000000000003
+Order Quantity: 25820.44
+Adjusted qty: 25820.0
+Final Adjusted qty: 25820.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e5b99ed8-aa55-49ad-82f8-5bd9f167274c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758093363240}
+e5b99ed8-aa55-49ad-82f8-5bd9f167274c
+fetching trade data for :  e5b99ed8-aa55-49ad-82f8-5bd9f167274c
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e5b99ed8-aa55-49ad-82f8-5bd9f167274c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758093363239', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3873', 'execPrice': '0.38729', 'markIv': '', 'orderQty': '25820', 'orderPrice': '0.40666', 'execValue': '9999.8278', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219693431, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49990529', 'execId': '970544ef-728d-4d4a-8492-94a8a474bfdc', 'marketUnit': '', 'execQty': '25820', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | B |  25.53
+Last close price for HYPEUSDT: 55.153
+Opening Buy for  HYPEUSDT
+TP: 55.70453
+SL: 54.04994
+TS: 0.55153
+Order Quantity: 181.31
+Adjusted qty: 181.31
+Final Adjusted qty: 181.31
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '206a2e03-a74f-40a0-8a2f-310d85b4eaee', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758093375307}
+206a2e03-a74f-40a0-8a2f-310d85b4eaee
+fetching trade data for :  206a2e03-a74f-40a0-8a2f-310d85b4eaee
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '206a2e03-a74f-40a0-8a2f-310d85b4eaee', 'stopOrderType': 'UNKNOWN', 'execTime': '1758093375306', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '55.166', 'execPrice': '55.167', 'markIv': '', 'orderQty': '181.31', 'orderPrice': '71.715', 'execValue': '10002.32877', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697219693824, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50128083', 'execId': '00209aad-2fd9-4eab-b066-0b4c3d48fb6a', 'marketUnit': '', 'execQty': '181.31', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 11:16:25
