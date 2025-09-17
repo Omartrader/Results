@@ -77479,3 +77479,40 @@ Order Quantity: 62073.25
 Adjusted qty: 62073.0
 Final Adjusted qty: 62073.0
 177000.0
+***************************************************************
+Number of open positions: 7
+Function started at 17.09.2025 17:40:06
+PYTHUSDT 	Latest Close: (0.161) 	SMA(14) : 0.16 	Delta : B 	Previous STC : 16.56 	STC : 44.37
+EIGENUSDT 	Latest Close: (1.5086) 	SMA(14) : 1.51 	Delta : B 	Previous STC : 10.62 	STC : 25.70
+STXUSDT 	Latest Close: (0.6447) 	SMA(14) : 0.64 	Delta : B 	Previous STC : 1.20 	STC : 34.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PYTHUSDT   | B |  44.37
+Last close price for PYTHUSDT: 0.1607
+Opening Buy for  PYTHUSDT
+TP: 0.162307
+SL: 0.15748600000000001
+TS: 0.0016070000000000001
+Order Quantity: 62227.75
+Adjusted qty: 62228.0
+Final Adjusted qty: 62227.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a30c2817-a960-4fcc-a8e2-62df0a6762c9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758116449039}
+a30c2817-a960-4fcc-a8e2-62df0a6762c9
+fetching trade data for :  a30c2817-a960-4fcc-a8e2-62df0a6762c9
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a30c2817-a960-4fcc-a8e2-62df0a6762c9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758116449037', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1608', 'execPrice': '0.1608', 'markIv': '', 'orderQty': '62227', 'orderPrice': '0.1768', 'execValue': '10006.1016', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220461281, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50335588', 'execId': 'dba2cbe2-f25b-4c8e-b4bd-ac5c378f910e', 'marketUnit': '', 'execQty': '62227', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | B |  34.13
+Last close price for STXUSDT: 0.6442
+Opening Buy for  STXUSDT
+TP: 0.650642
+SL: 0.631316
+TS: 0.006442
+Order Quantity: 15523.13
+Adjusted qty: 15523.1
+Final Adjusted qty: 15523.1
+102840.0
