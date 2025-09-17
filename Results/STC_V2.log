@@ -80228,3 +80228,43 @@ Order Quantity: 6416.84
 Adjusted qty: 6416.8
 Final Adjusted qty: 6416.8
 17000.0
+***************************************************************
+Number of open positions: 7
+Function started at 18.09.2025 00:05:06
+ETHFIUSDT 	Latest Close: (1.5595) 	SMA(14) : 1.50 	Delta : B 	Previous STC : 21.35 	STC : 25.84
+XTZUSDT 	Latest Close: (0.777) 	SMA(14) : 0.76 	Delta : B 	Previous STC : 6.75 	STC : 31.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XTZUSDT    | B |  31.12
+Last close price for XTZUSDT: 0.7768
+Opening Buy for  XTZUSDT
+TP: 0.784568
+SL: 0.761264
+TS: 0.007768000000000001
+Order Quantity: 12873.33
+Adjusted qty: 12873.300000000001
+Final Adjusted qty: 12873.3
+62530.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHFIUSDT  | B |  25.84
+Last close price for ETHFIUSDT: 1.5593
+Opening Buy for  ETHFIUSDT
+TP: 1.5748929999999999
+SL: 1.528114
+TS: 0.015593
+Order Quantity: 6413.13
+Adjusted qty: 6413.1
+Final Adjusted qty: 6413.1
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c58708b1-1cb7-475a-bb33-a983a3814685', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758139541028}
+c58708b1-1cb7-475a-bb33-a983a3814685
+fetching trade data for :  c58708b1-1cb7-475a-bb33-a983a3814685
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c58708b1-1cb7-475a-bb33-a983a3814685', 'stopOrderType': 'UNKNOWN', 'execTime': '1758139541027', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.5593', 'execPrice': '1.5593', 'markIv': '', 'orderQty': '6413.1', 'orderPrice': '1.7152', 'execValue': '9999.94683', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221222288, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997076', 'execId': 'f921c7b9-f6af-4616-85ac-31c90d643ed6', 'marketUnit': '', 'execQty': '6413.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 00:05:50
