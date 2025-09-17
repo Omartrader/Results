@@ -50837,3 +50837,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 17.09.2025 22:01:41
+***************************************************************
+Number of open positions: 2
+Function started at 17.09.2025 22:06:41
+	ADAUSDT 	Signal: B
+ADAUSDT 	Latest Close: (0.8787) 	SMA(14) : 0.87 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	LTCUSDT 	Signal: B
+LTCUSDT 	Latest Close: (114.58) 	SMA(14) : 114.01 	Delta :  	Previous STC : 20.68 	STC : 47.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | B |  47.12
+1
+Last close price for LTCUSDT: 114.54
+Opening Buy for  LTCUSDT
+TP: 115.6854
+SL: 112.2492
+TS: 1.1454
+Order Quantity: 174.61
+Adjusted qty: 174.60000000000002
+Final Adjusted qty: 174.6
+6160.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ADAUSDT    | B |  33.33
+1
+Last close price for ADAUSDT: 0.8775
+Opening Buy for  ADAUSDT
+TP: 0.8862749999999999
+SL: 0.8599499999999999
+TS: 0.008775
+Order Quantity: 22792.02
+Adjusted qty: 22792.0
+Final Adjusted qty: 22792.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4e75b25b-56b2-4b86-b801-a0e449ba58a8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758132426828}
+4e75b25b-56b2-4b86-b801-a0e449ba58a8
+fetching trade data for :  4e75b25b-56b2-4b86-b801-a0e449ba58a8
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4e75b25b-56b2-4b86-b801-a0e449ba58a8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758132426827', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8783', 'execPrice': '0.8783', 'markIv': '', 'orderQty': '22792', 'orderPrice': '0.9222', 'execValue': '20018.2136', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533173524, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.01001748', 'execId': '1c42892e-53a8-4f18-a3e1-b53070559ba7', 'marketUnit': '', 'execQty': '22792', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 22:07:17
