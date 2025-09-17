@@ -51163,3 +51163,47 @@ Order Quantity: 39215.69
 Adjusted qty: 39216.0
 Final Adjusted qty: 39215.0
 79000.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 22:35:57
+	JUPUSDT 	Signal: B
+JUPUSDT 	Latest Close: (0.5096) 	SMA(14) : 0.51 	Delta :  	Previous STC : 21.26 	STC : 26.12
+	TRUMPUSDT 	Signal: B
+TRUMPUSDT 	Latest Close: (8.532) 	SMA(14) : 8.50 	Delta :  	Previous STC : 24.40 	STC : 27.31
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | B |  27.31
+1
+Last close price for TRUMPUSDT: 8.532
+Opening Buy for  TRUMPUSDT
+TP: 8.61732
+SL: 8.36136
+TS: 0.08532000000000001
+Order Quantity: 2344.12
+Adjusted qty: 2344.1
+Final Adjusted qty: 2344.1
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JUPUSDT    | B |  26.12
+1
+Last close price for JUPUSDT: 0.5097
+Opening Buy for  JUPUSDT
+TP: 0.5147970000000001
+SL: 0.499506
+TS: 0.005097000000000001
+Order Quantity: 39238.77
+Adjusted qty: 39239.0
+Final Adjusted qty: 39238.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aec9d7aa-b383-4ec4-9efe-142a636680ee', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758134182599}
+aec9d7aa-b383-4ec4-9efe-142a636680ee
+fetching trade data for :  aec9d7aa-b383-4ec4-9efe-142a636680ee
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aec9d7aa-b383-4ec4-9efe-142a636680ee', 'stopOrderType': 'UNKNOWN', 'execTime': '1758134182598', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5097', 'execPrice': '0.5097', 'markIv': '', 'orderQty': '39238', 'orderPrice': '0.5351', 'execValue': '19999.6086', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533245585, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99978473', 'execId': '7644e292-329b-4877-8564-e3b6d8751b29', 'marketUnit': '', 'execQty': '39238', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 17.09.2025 22:36:32
