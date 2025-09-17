@@ -76498,3 +76498,97 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 17.09.2025 14:00:52
+***************************************************************
+Number of open positions: 5
+Function started at 17.09.2025 14:30:07
+ATHUSDT 	Latest Close: (0.06425) 	SMA(14) : 0.07 	Delta : S 	Previous STC : 96.41 	STC : 80.04
+BRETTUSDT 	Latest Close: (0.049) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 98.02 	STC : 90.70
+ADAUSDT 	Latest Close: (0.8692) 	SMA(14) : 0.88 	Delta : S 	Previous STC : 97.59 	STC : 94.67
+ALGOUSDT 	Latest Close: (0.2338) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 98.81 	STC : 95.83
+AEROUSDT 	Latest Close: (1.2772) 	SMA(14) : 1.29 	Delta : S 	Previous STC : 97.92 	STC : 93.46
+EIGENUSDT 	Latest Close: (1.4963) 	SMA(14) : 1.51 	Delta : S 	Previous STC : 97.41 	STC : 95.17
+TIAUSDT 	Latest Close: (1.687) 	SMA(14) : 1.70 	Delta : S 	Previous STC : 97.65 	STC : 91.70
+APTUSDT 	Latest Close: (4.386) 	SMA(14) : 4.41 	Delta : S 	Previous STC : 96.51 	STC : 94.08
+PENDLEUSDT 	Latest Close: (4.9359) 	SMA(14) : 4.98 	Delta : S 	Previous STC : 96.50 	STC : 88.67
+ARUSDT 	Latest Close: (6.805) 	SMA(14) : 6.87 	Delta : S 	Previous STC : 98.35 	STC : 95.37
+BTCUSDT 	Latest Close: (116385.2) 	SMA(14) : 116749.19 	Delta : S 	Previous STC : 98.69 	STC : 95.73
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ALGOUSDT   | S |  95.83
+Last close price for ALGOUSDT: 0.2337
+Opening Sell for  ALGOUSDT
+TP: 0.23136299999999999
+SL: 0.238374
+TS: 0.002337
+Order Quantity: 42789.9
+Adjusted qty: 42789.9
+Final Adjusted qty: 42789.9
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '68fbbcb3-06fd-4fd9-bfe5-69f85aef7df8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758105043029}
+68fbbcb3-06fd-4fd9-bfe5-69f85aef7df8
+fetching trade data for :  68fbbcb3-06fd-4fd9-bfe5-69f85aef7df8
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '68fbbcb3-06fd-4fd9-bfe5-69f85aef7df8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758105043028', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2337', 'execPrice': '0.2337', 'markIv': '', 'orderQty': '42789.9', 'orderPrice': '0.2221', 'execValue': '9999.99963', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220086769, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999998', 'execId': 'e523efee-8e5f-47c2-a91e-456ee07178b6', 'marketUnit': '', 'execQty': '42789.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | S |  95.73
+Last close price for BTCUSDT: 116385.3
+Opening Sell for  BTCUSDT
+TP: 115221.447
+SL: 118713.00600000001
+TS: 1163.853
+Order Quantity: 0.09
+Adjusted qty: 0.09
+Final Adjusted qty: 0.09
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARUSDT     | S |  95.37
+Last close price for ARUSDT: 6.805
+Opening Sell for  ARUSDT
+TP: 6.736949999999999
+SL: 6.9411
+TS: 0.06805
+Order Quantity: 1469.51
+Adjusted qty: 1469.5
+Final Adjusted qty: 1469.5
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '854d4934-ae15-4b31-976f-1abe621c2357', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758105056652}
+854d4934-ae15-4b31-976f-1abe621c2357
+fetching trade data for :  854d4934-ae15-4b31-976f-1abe621c2357
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '854d4934-ae15-4b31-976f-1abe621c2357', 'stopOrderType': 'UNKNOWN', 'execTime': '1758105056650', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '6.806', 'execPrice': '6.805', 'markIv': '', 'orderQty': '1469.5', 'orderPrice': '6.466', 'execValue': '9999.9475', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220087222, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997113', 'execId': 'b5d2fda8-5e5f-4c3b-b466-a87a0a203494', 'marketUnit': '', 'execQty': '1469.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+EIGENUSDT  | S |  95.17
+Last close price for EIGENUSDT: 1.4959
+Opening Sell for  EIGENUSDT
+TP: 1.480941
+SL: 1.5258180000000001
+TS: 0.014959
+Order Quantity: 6684.94
+Adjusted qty: 6685.0
+Final Adjusted qty: 6684.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '419f84b4-fef1-4182-9967-4649cb512be2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758105068638}
+419f84b4-fef1-4182-9967-4649cb512be2
+fetching trade data for :  419f84b4-fef1-4182-9967-4649cb512be2
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '419f84b4-fef1-4182-9967-4649cb512be2', 'stopOrderType': 'UNKNOWN', 'execTime': '1758105068637', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.496', 'execPrice': '1.4965', 'markIv': '', 'orderQty': '6684', 'orderPrice': '1.3464', 'execValue': '10002.606', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697220087616, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5014333', 'execId': 'f2403e22-a264-43bd-949c-81b4ddf6b70e', 'marketUnit': '', 'execQty': '6684', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    | S |  94.67
+Last close price for ADAUSDT: 0.8696
+Opening Sell for  ADAUSDT
+TP: 0.860904
+SL: 0.886992
+TS: 0.008696
+Order Quantity: 11499.54
+Adjusted qty: 11500.0
+Final Adjusted qty: 11499.0
+1109600.0
