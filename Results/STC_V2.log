@@ -79538,3 +79538,77 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 17.09.2025 22:55:44
+***************************************************************
+Number of open positions: 6
+Function started at 17.09.2025 23:00:06
+SANDUSDT 	Latest Close: (0.2985) 	SMA(14) : 0.30 	Delta : B 	Previous STC : 15.42 	STC : 29.65
+WALUSDT 	Latest Close: (0.4226) 	SMA(14) : 0.42 	Delta : B 	Previous STC : 11.82 	STC : 41.21
+AVAXUSDT 	Latest Close: (29.808) 	SMA(14) : 29.69 	Delta : B 	Previous STC : 20.95 	STC : 47.30
+RENDERUSDT 	Latest Close: (3.803) 	SMA(14) : 3.80 	Delta : B 	Previous STC : 18.22 	STC : 34.68
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | B |  47.30
+Last close price for AVAXUSDT: 29.837
+Opening Buy for  AVAXUSDT
+TP: 30.13537
+SL: 29.24026
+TS: 0.29837
+Order Quantity: 335.15
+Adjusted qty: 335.1
+Final Adjusted qty: 335.1
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c611ccb2-4cb6-4c45-88bb-197a0dcefe0c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135643485}
+c611ccb2-4cb6-4c45-88bb-197a0dcefe0c
+fetching trade data for :  c611ccb2-4cb6-4c45-88bb-197a0dcefe0c
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c611ccb2-4cb6-4c45-88bb-197a0dcefe0c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135643483', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '29.839', 'execPrice': '29.854', 'markIv': '', 'orderQty': '335.1', 'orderPrice': '30.435', 'execValue': '10004.0754', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221092380, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50224147', 'execId': '84dd5456-7d3e-43d4-857d-929bb9a845b3', 'marketUnit': '', 'execQty': '335.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WALUSDT    | B |  41.21
+Last close price for WALUSDT: 0.4227
+Opening Buy for  WALUSDT
+TP: 0.426927
+SL: 0.414246
+TS: 0.004227
+Order Quantity: 23657.44
+Adjusted qty: 23657.0
+Final Adjusted qty: 23657.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f5f99466-4a41-44c5-8411-df5d61f586f5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135655486}
+f5f99466-4a41-44c5-8411-df5d61f586f5
+fetching trade data for :  f5f99466-4a41-44c5-8411-df5d61f586f5
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f5f99466-4a41-44c5-8411-df5d61f586f5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135655485', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4227', 'execPrice': '0.4227', 'markIv': '', 'orderQty': '23657', 'orderPrice': '0.5072', 'execValue': '9999.8139', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221092779, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989765', 'execId': 'db96541d-e02f-40da-8a7b-acec64c62fd9', 'marketUnit': '', 'execQty': '23657', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  34.68
+Last close price for RENDERUSDT: 3.803
+Opening Buy for  RENDERUSDT
+TP: 3.84103
+SL: 3.72694
+TS: 0.03803
+Order Quantity: 2629.5
+Adjusted qty: 2629.5
+Final Adjusted qty: 2629.5
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4ea40688-7aa8-4d90-9d8c-4a69b99af93a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758135667547}
+4ea40688-7aa8-4d90-9d8c-4a69b99af93a
+fetching trade data for :  4ea40688-7aa8-4d90-9d8c-4a69b99af93a
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4ea40688-7aa8-4d90-9d8c-4a69b99af93a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758135667546', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.805', 'execPrice': '3.805', 'markIv': '', 'orderQty': '2629.5', 'orderPrice': '3.995', 'execValue': '10005.2475', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221093174, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50288613', 'execId': 'db8a1995-455a-4352-8ead-58bbb6cffcbf', 'marketUnit': '', 'execQty': '2629.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SANDUSDT   | B |  29.65
+Last close price for SANDUSDT: 0.2987
+Opening Buy for  SANDUSDT
+TP: 0.30168700000000004
+SL: 0.29272600000000004
+TS: 0.002987
+Order Quantity: 33478.41
+Adjusted qty: 33478.0
+Final Adjusted qty: 33478.0
+253900.0
