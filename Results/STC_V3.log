@@ -52175,3 +52175,32 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 01:41:08
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 01:46:01
+	IPUSDT 	Signal: S
+IPUSDT 	Latest Close: (10.1545) 	SMA(14) : 10.19 	Delta :  	Previous STC : 97.61 	STC : 90.03
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  90.03
+1
+Last close price for IPUSDT: 10.1555
+Opening Sell for  IPUSDT
+TP: 10.053945
+SL: 10.35861
+TS: 0.101555
+Order Quantity: 1969.38
+Adjusted qty: 1969.4
+Final Adjusted qty: 1969.3
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b84f93ce-c2cf-46a9-a2c3-17673f6f6d64', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758145580668}
+b84f93ce-c2cf-46a9-a2c3-17673f6f6d64
+fetching trade data for :  b84f93ce-c2cf-46a9-a2c3-17673f6f6d64
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b84f93ce-c2cf-46a9-a2c3-17673f6f6d64', 'stopOrderType': 'UNKNOWN', 'execTime': '1758145580666', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '10.1543', 'execPrice': '10.1555', 'markIv': '', 'orderQty': '1969.3', 'orderPrice': '9.1389', 'execValue': '19999.22615', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533662015, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99957439', 'execId': 'e2a5583b-7681-4c0b-a45d-9f82fd6d8175', 'marketUnit': '', 'execQty': '1969.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 18.09.2025 01:46:29
