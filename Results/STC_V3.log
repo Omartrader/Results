@@ -50610,3 +50610,49 @@ Order Quantity: 58.23
 Adjusted qty: 58.230000000000004
 Final Adjusted qty: 58.23
 60.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 21:35:57
+	DOGEUSDT 	Signal: B
+DOGEUSDT 	Latest Close: (0.26855) 	SMA(14) : 0.27 	Delta :  	Previous STC : 0.01 	STC : 33.34
+	FILUSDT 	Signal: B
+FILUSDT 	Latest Close: (2.49) 	SMA(14) : 2.48 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (9.26) 	SMA(14) : 9.21 	Delta :  	Previous STC : 0.82 	STC : 33.88
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9987) 	SMA(14) : 1.00 	Delta :  	Previous STC : 100.00 	STC : 89.40
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (344.15) 	SMA(14) : 344.75 	Delta :  	Previous STC : 97.76 	STC : 89.90
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | S |  89.90
+1
+Last close price for TAOUSDT: 344.15
+Opening Sell for  TAOUSDT
+TP: 340.70849999999996
+SL: 351.03299999999996
+TS: 3.4414999999999996
+Order Quantity: 58.11
+Adjusted qty: 58.11
+Final Adjusted qty: 58.11
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7ea5b523-a9c9-4731-a328-7c81799be81c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758130581188}
+7ea5b523-a9c9-4731-a328-7c81799be81c
+fetching trade data for :  7ea5b523-a9c9-4731-a328-7c81799be81c
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7ea5b523-a9c9-4731-a328-7c81799be81c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758130581187', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '344.26', 'execPrice': '344.15', 'markIv': '', 'orderQty': '58.11', 'orderPrice': '292.63', 'execValue': '19998.5565', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533095782, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99920608', 'execId': '57a9527b-b43e-48ee-af76-8b83711fa065', 'marketUnit': '', 'execQty': '58.11', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | B |  33.88
+1
+Last close price for UNIUSDT: 9.256
+Opening Buy for  UNIUSDT
+TP: 9.34856
+SL: 9.07088
+TS: 0.09256
+Order Quantity: 2160.76
+Adjusted qty: 2160.8
+Final Adjusted qty: 2160.7
+17540.0
