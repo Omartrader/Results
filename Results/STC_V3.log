@@ -51791,3 +51791,52 @@ Order Quantity: 0.17
 Adjusted qty: 0.17
 Final Adjusted qty: 0.17
 119.0
+***************************************************************
+Number of open positions: 2
+Function started at 18.09.2025 00:11:09
+	TRXUSDT 	Signal: B
+TRXUSDT 	Latest Close: (0.34147) 	SMA(14) : 0.34 	Delta :  	Previous STC : 2.97 	STC : 26.29
+	BTCUSDT 	Signal: B
+BTCUSDT 	Latest Close: (116044.5) 	SMA(14) : 115588.11 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BTCUSDT    | B |  33.33
+1
+Last close price for BTCUSDT: 116050.0
+Opening Buy for  BTCUSDT
+TP: 117210.5
+SL: 113729.0
+TS: 1160.5
+Order Quantity: 0.17
+Adjusted qty: 0.17
+Final Adjusted qty: 0.17
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5355e6f5-98a5-4cdf-a5eb-6fa657fa6741', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758139891628}
+5355e6f5-98a5-4cdf-a5eb-6fa657fa6741
+fetching trade data for :  5355e6f5-98a5-4cdf-a5eb-6fa657fa6741
+[{'symbol': 'BTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5355e6f5-98a5-4cdf-a5eb-6fa657fa6741', 'stopOrderType': 'UNKNOWN', 'execTime': '1758139891627', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '116049.9', 'execPrice': '116050', 'markIv': '', 'orderQty': '0.17', 'orderPrice': '117210.3', 'execValue': '19728.5', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533461238, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.850675', 'execId': '4aa52b0f-96df-40bf-a5a4-31f4647ae6df', 'marketUnit': '', 'execQty': '0.17', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TRXUSDT    | B |  26.29
+1
+Last close price for TRXUSDT: 0.34151
+Opening Buy for  TRXUSDT
+TP: 0.3449251
+SL: 0.33467979999999997
+TS: 0.0034151
+Order Quantity: 58563.44
+Adjusted qty: 58563.0
+Final Adjusted qty: 58563.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c43a146b-bf3e-45f2-b5a5-3446d35e4dce', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758139903795}
+c43a146b-bf3e-45f2-b5a5-3446d35e4dce
+fetching trade data for :  c43a146b-bf3e-45f2-b5a5-3446d35e4dce
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c43a146b-bf3e-45f2-b5a5-3446d35e4dce', 'stopOrderType': 'UNKNOWN', 'execTime': '1758139903793', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.34156', 'execPrice': '0.34151', 'markIv': '', 'orderQty': '58563', 'orderPrice': '0.35863', 'execValue': '19999.85013', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533461652, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991758', 'execId': '512d8aa8-6835-46cf-b4bf-d140bf9bea43', 'marketUnit': '', 'execQty': '58563', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 00:11:53
