@@ -51707,3 +51707,49 @@ Order Quantity: 198.57
 Adjusted qty: 198.57
 Final Adjusted qty: 198.57
 279.0
+***************************************************************
+Number of open positions: 3
+Function started at 17.09.2025 23:55:59
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.23323) 	SMA(14) : 0.23 	Delta :  	Previous STC : 9.30 	STC : 38.48
+	HYPEUSDT 	Signal: B
+HYPEUSDT 	Latest Close: (55.447) 	SMA(14) : 55.18 	Delta :  	Previous STC : 7.26 	STC : 38.17
+	ETHUSDT 	Signal: B
+ETHUSDT 	Latest Close: (4517.53) 	SMA(14) : 4479.40 	Delta :  	Previous STC : 0.00 	STC : 30.72
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (599.6) 	SMA(14) : 594.59 	Delta :  	Previous STC : 6.63 	STC : 37.75
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (100.83) 	SMA(14) : 99.98 	Delta :  	Previous STC : 11.05 	STC : 40.70
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+QNTUSDT    | B |  40.70
+1
+Last close price for QNTUSDT: 100.83
+Opening Buy for  QNTUSDT
+TP: 101.8383
+SL: 98.8134
+TS: 1.0083
+Order Quantity: 198.35
+Adjusted qty: 198.35
+Final Adjusted qty: 198.35
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd69e62e1-928d-49e8-9996-93efda68fbcc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758138979236}
+d69e62e1-928d-49e8-9996-93efda68fbcc
+fetching trade data for :  d69e62e1-928d-49e8-9996-93efda68fbcc
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd69e62e1-928d-49e8-9996-93efda68fbcc', 'stopOrderType': 'UNKNOWN', 'execTime': '1758138979234', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '100.84', 'execPrice': '100.83', 'markIv': '', 'orderQty': '198.35', 'orderPrice': '110.92', 'execValue': '19999.6305', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612533427167, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99979678', 'execId': '0ee26ff3-e9c6-4a85-94a3-f27f982602f5', 'marketUnit': '', 'execQty': '198.35', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | B |  38.48
+1
+Last close price for CROUSDT: 0.23327
+Opening Buy for  CROUSDT
+TP: 0.2356027
+SL: 0.2286046
+TS: 0.0023327
+Order Quantity: 85737.56
+Adjusted qty: 85738.0
+Final Adjusted qty: 85737.0
+79800.0
