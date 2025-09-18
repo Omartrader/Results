@@ -54533,3 +54533,48 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 18.09.2025 14:47:05
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 14:50:48
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (3.1117) 	SMA(14) : 3.10 	Delta :  	Previous STC : 7.38 	STC : 25.60
+	SUIUSDT 	Signal: B
+SUIUSDT 	Latest Close: (3.882) 	SMA(14) : 3.85 	Delta :  	Previous STC : 16.89 	STC : 44.60
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  44.60
+1
+Last close price for SUIUSDT: 3.8834
+Opening Buy for  SUIUSDT
+TP: 3.922234
+SL: 3.805732
+TS: 0.038834
+Order Quantity: 5150.13
+Adjusted qty: 5150.0
+Final Adjusted qty: 5150.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XRPUSDT    | B |  25.60
+1
+Last close price for XRPUSDT: 3.1133
+Opening Buy for  XRPUSDT
+TP: 3.1444330000000003
+SL: 3.051034
+TS: 0.031133
+Order Quantity: 6424.05
+Adjusted qty: 6424.0
+Final Adjusted qty: 6424.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '11093bf6-c15c-4bd8-b958-233764621b34', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758192670112}
+11093bf6-c15c-4bd8-b958-233764621b34
+fetching trade data for :  11093bf6-c15c-4bd8-b958-233764621b34
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '11093bf6-c15c-4bd8-b958-233764621b34', 'stopOrderType': 'UNKNOWN', 'execTime': '1758192670111', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.1134', 'execPrice': '3.1134', 'markIv': '', 'orderQty': '6424', 'orderPrice': '3.269', 'execValue': '20000.4816', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612535297453, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00026488', 'execId': '165a2a67-2da5-4f79-ae57-e5907ee47c71', 'marketUnit': '', 'execQty': '6424', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 18.09.2025 14:51:20
