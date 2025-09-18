@@ -81894,3 +81894,42 @@ Order Quantity: 113973.1
 Adjusted qty: 113970.0
 Final Adjusted qty: 113970.0
 774000.0
+***************************************************************
+Number of open positions: 8
+Function started at 18.09.2025 06:55:06
+HBARUSDT 	Latest Close: (0.24273) 	SMA(14) : 0.24 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SEIUSDT 	Latest Close: (0.3293) 	SMA(14) : 0.33 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+KASUSDT 	Latest Close: (0.08777) 	SMA(14) : 0.09 	Delta : S 	Previous STC : 98.51 	STC : 85.03
+XTZUSDT 	Latest Close: (0.7826) 	SMA(14) : 0.78 	Delta : S 	Previous STC : 96.32 	STC : 77.99
+IPUSDT 	Latest Close: (10.3044) 	SMA(14) : 10.24 	Delta : B 	Previous STC : 10.75 	STC : 40.50
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KASUSDT    | S |  85.03
+Last close price for KASUSDT: 0.08777
+Opening Sell for  KASUSDT
+TP: 0.0868923
+SL: 0.0895254
+TS: 0.0008777
+Order Quantity: 113934.15
+Adjusted qty: 113930.0
+Final Adjusted qty: 113930.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '559a6bc0-5473-473a-86e8-b916f99c480f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758164139581}
+559a6bc0-5473-473a-86e8-b916f99c480f
+fetching trade data for :  559a6bc0-5473-473a-86e8-b916f99c480f
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '559a6bc0-5473-473a-86e8-b916f99c480f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758164139580', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08776', 'execPrice': '0.08776', 'markIv': '', 'orderQty': '113930', 'orderPrice': '0.0746', 'execValue': '9998.4968', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222003816, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49917324', 'execId': '30a4058a-cb29-44d2-8396-4e65ea16ef04', 'marketUnit': '', 'execQty': '113930', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XTZUSDT    | S |  77.99
+Last close price for XTZUSDT: 0.7831
+Opening Sell for  XTZUSDT
+TP: 0.775269
+SL: 0.7987620000000001
+TS: 0.007831
+Order Quantity: 12769.76
+Adjusted qty: 12769.800000000001
+Final Adjusted qty: 12769.7
+62530.0
