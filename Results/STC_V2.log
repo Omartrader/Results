@@ -84898,3 +84898,86 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 17:45:54
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 17:50:06
+KAIAUSDT 	Latest Close: (0.1601) 	SMA(14) : 0.16 	Delta : B 	Previous STC : 7.79 	STC : 38.53
+RENDERUSDT 	Latest Close: (4.052) 	SMA(14) : 4.03 	Delta : B 	Previous STC : 3.04 	STC : 35.36
+PENDLEUSDT 	Latest Close: (5.2146) 	SMA(14) : 5.12 	Delta : B 	Previous STC : 0.00 	STC : 32.05
+AUSDT 	Latest Close: (0.4849) 	SMA(14) : 0.48 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KAIAUSDT   | B |  38.53
+Last close price for KAIAUSDT: 0.1602
+Opening Buy for  KAIAUSDT
+TP: 0.161802
+SL: 0.156996
+TS: 0.0016020000000000001
+Order Quantity: 62421.97
+Adjusted qty: 62422.0
+Final Adjusted qty: 62421.0
+170000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '57bc5220-07bc-4b3e-9080-3dc8997a37bc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758203442878}
+57bc5220-07bc-4b3e-9080-3dc8997a37bc
+fetching trade data for :  57bc5220-07bc-4b3e-9080-3dc8997a37bc
+[{'symbol': 'KAIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '57bc5220-07bc-4b3e-9080-3dc8997a37bc', 'stopOrderType': 'UNKNOWN', 'execTime': '1758203442878', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1602', 'execPrice': '0.1602', 'markIv': '', 'orderQty': '62421', 'orderPrice': '0.1842', 'execValue': '9999.8442', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223268327, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991431', 'execId': 'af535d2d-cf78-4a83-9b44-ea2e720a62f1', 'marketUnit': '', 'execQty': '62421', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  35.36
+Last close price for RENDERUSDT: 4.05
+Opening Buy for  RENDERUSDT
+TP: 4.0905
+SL: 3.969
+TS: 0.0405
+Order Quantity: 2469.14
+Adjusted qty: 2469.1000000000004
+Final Adjusted qty: 2469.1
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '34951497-09dd-4de9-a60c-abe61b6b3d72', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758203455225}
+34951497-09dd-4de9-a60c-abe61b6b3d72
+fetching trade data for :  34951497-09dd-4de9-a60c-abe61b6b3d72
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '34951497-09dd-4de9-a60c-abe61b6b3d72', 'stopOrderType': 'UNKNOWN', 'execTime': '1758203455225', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.05', 'execPrice': '4.05', 'markIv': '', 'orderQty': '2469.1', 'orderPrice': '4.252', 'execValue': '9999.855', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223268714, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49992025', 'execId': '5206cd14-15db-489f-b68f-71c828a1e3a0', 'marketUnit': '', 'execQty': '2469.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AUSDT      | B |  33.33
+Last close price for AUSDT: 0.4851
+Opening Buy for  AUSDT
+TP: 0.48995099999999997
+SL: 0.475398
+TS: 0.004850999999999999
+Order Quantity: 20614.31
+Adjusted qty: 20614.0
+Final Adjusted qty: 20614.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5741dbf9-5677-43e5-b80c-4d2b3f790cf6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758203467286}
+5741dbf9-5677-43e5-b80c-4d2b3f790cf6
+fetching trade data for :  5741dbf9-5677-43e5-b80c-4d2b3f790cf6
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5741dbf9-5677-43e5-b80c-4d2b3f790cf6', 'stopOrderType': 'UNKNOWN', 'execTime': '1758203467285', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4851', 'execPrice': '0.4851', 'markIv': '', 'orderQty': '20614', 'orderPrice': '0.5336', 'execValue': '9999.8514', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223269118, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49991827', 'execId': '2868c5aa-3493-4157-a0de-b379d7ab579d', 'marketUnit': '', 'execQty': '20614', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENDLEUSDT | B |  32.05
+Last close price for PENDLEUSDT: 5.2213
+Opening Buy for  PENDLEUSDT
+TP: 5.273513
+SL: 5.116874
+TS: 0.052213
+Order Quantity: 1915.23
+Adjusted qty: 1915.0
+Final Adjusted qty: 1915.0
+5200.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '16234c6c-5977-4d9a-9bee-4f2982828561', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758203479269}
+16234c6c-5977-4d9a-9bee-4f2982828561
+fetching trade data for :  16234c6c-5977-4d9a-9bee-4f2982828561
+[{'symbol': 'PENDLEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '16234c6c-5977-4d9a-9bee-4f2982828561', 'stopOrderType': 'UNKNOWN', 'execTime': '1758203479269', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '5.2227', 'execPrice': '5.222', 'markIv': '', 'orderQty': '1915', 'orderPrice': '5.7449', 'execValue': '10000.13', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223269498, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5000715', 'execId': 'e06a9139-09aa-48ed-9570-84f09026d613', 'marketUnit': '', 'execQty': '1915', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 17:51:29
