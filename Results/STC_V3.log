@@ -54258,3 +54258,33 @@ Order Quantity: 80434.35
 Adjusted qty: 80434.0
 Final Adjusted qty: 80434.0
 1064600.0
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 13:50:43
+	HBARUSDT 	Signal: B
+HBARUSDT 	Latest Close: (0.24844) 	SMA(14) : 0.25 	Delta :  	Previous STC : 7.14 	STC : 25.33
+	USDCUSDT 	Signal: B
+USDCUSDT 	Latest Close: (1.0002) 	SMA(14) : 1.00 	Delta :  	Previous STC : 16.04 	STC : 39.30
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HBARUSDT   | B |  25.33
+1
+Last close price for HBARUSDT: 0.24858
+Opening Buy for  HBARUSDT
+TP: 0.2510658
+SL: 0.2436084
+TS: 0.0024858
+Order Quantity: 80457.0
+Adjusted qty: 80457.0
+Final Adjusted qty: 80457.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '690532ed-727c-4da1-9ce5-1ae8a9af801a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758189063699}
+690532ed-727c-4da1-9ce5-1ae8a9af801a
+fetching trade data for :  690532ed-727c-4da1-9ce5-1ae8a9af801a
+[{'symbol': 'HBARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '690532ed-727c-4da1-9ce5-1ae8a9af801a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758189063698', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.24858', 'execPrice': '0.24859', 'markIv': '', 'orderQty': '80457', 'orderPrice': '0.261', 'execValue': '20000.80563', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612535167940, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0004431', 'execId': '216e0ab5-28c8-48d2-b6b7-41d7b7ab542b', 'marketUnit': '', 'execQty': '80457', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 13:51:14
