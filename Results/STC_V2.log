@@ -83537,3 +83537,29 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 13:10:40
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 13:15:07
+EIGENUSDT 	Latest Close: (1.9872) 	SMA(14) : 2.02 	Delta : S 	Previous STC : 97.13 	STC : 85.26
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+EIGENUSDT  | S |  85.26
+Last close price for EIGENUSDT: 1.9875
+Opening Sell for  EIGENUSDT
+TP: 1.967625
+SL: 2.02725
+TS: 0.019875
+Order Quantity: 5031.45
+Adjusted qty: 5031.0
+Final Adjusted qty: 5031.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5ced7d38-d619-4114-b0d8-b82aa5f12c27', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758186944499}
+5ced7d38-d619-4114-b0d8-b82aa5f12c27
+fetching trade data for :  5ced7d38-d619-4114-b0d8-b82aa5f12c27
+[{'symbol': 'EIGENUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5ced7d38-d619-4114-b0d8-b82aa5f12c27', 'stopOrderType': 'UNKNOWN', 'execTime': '1758186944498', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.987', 'execPrice': '1.9875', 'markIv': '', 'orderQty': '5031', 'orderPrice': '1.7883', 'execValue': '9999.1125', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222728207, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49951188', 'execId': '7b9f6c20-34e3-4dc0-930b-4cea88b6ed94', 'marketUnit': '', 'execQty': '5031', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 13:15:53
