@@ -53601,3 +53601,53 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 10:11:16
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 10:16:07
+	MNTUSDT 	Signal: S
+MNTUSDT 	Latest Close: (1.6799) 	SMA(14) : 1.70 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	AVAXUSDT 	Signal: S
+AVAXUSDT 	Latest Close: (32.556) 	SMA(14) : 32.78 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  66.67
+1
+Last close price for MNTUSDT: 1.6799
+Opening Sell for  MNTUSDT
+TP: 1.663101
+SL: 1.713498
+TS: 0.016798999999999998
+Order Quantity: 11905.47
+Adjusted qty: 11905.0
+Final Adjusted qty: 11905.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6cc1843d-66de-413a-ae66-c949ba7efbb2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758176186322}
+6cc1843d-66de-413a-ae66-c949ba7efbb2
+fetching trade data for :  6cc1843d-66de-413a-ae66-c949ba7efbb2
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6cc1843d-66de-413a-ae66-c949ba7efbb2', 'stopOrderType': 'UNKNOWN', 'execTime': '1758176186321', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6799', 'execPrice': '1.6799', 'markIv': '', 'orderQty': '11905', 'orderPrice': '1.512', 'execValue': '19999.2095', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612534709569, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99956523', 'execId': '32ea3d3f-25ac-4160-832f-d4ff43a73703', 'marketUnit': '', 'execQty': '11905', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AVAXUSDT   | S |  66.67
+1
+Last close price for AVAXUSDT: 32.572
+Opening Sell for  AVAXUSDT
+TP: 32.246280000000006
+SL: 33.223440000000004
+TS: 0.32572
+Order Quantity: 614.02
+Adjusted qty: 614.0
+Final Adjusted qty: 614.0
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '60e4c6bd-8ac0-4465-8bc2-dab3ef6f5dad', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758176198287}
+60e4c6bd-8ac0-4465-8bc2-dab3ef6f5dad
+fetching trade data for :  60e4c6bd-8ac0-4465-8bc2-dab3ef6f5dad
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '60e4c6bd-8ac0-4465-8bc2-dab3ef6f5dad', 'stopOrderType': 'UNKNOWN', 'execTime': '1758176198286', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '32.57', 'execPrice': '32.569', 'markIv': '', 'orderQty': '614', 'orderPrice': '31.919', 'execValue': '19997.366', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612534710021, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9985513', 'execId': '465b8d42-d8bd-4a06-9050-383bd1356010', 'marketUnit': '', 'execQty': '614', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 18.09.2025 10:16:47
