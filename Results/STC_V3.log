@@ -57213,3 +57213,49 @@ Order Quantity: 76423.39
 Adjusted qty: 76423.0
 Final Adjusted qty: 76423.0
 500000.0
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 02:10:55
+	VETUSDT 	Signal: S
+VETUSDT 	Latest Close: (0.02598) 	SMA(14) : 0.03 	Delta :  	Previous STC : 98.88 	STC : 88.60
+	ONDOUSDT 	Signal: S
+ONDOUSDT 	Latest Close: (1.0817) 	SMA(14) : 1.09 	Delta :  	Previous STC : 100.00 	STC : 83.99
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2616) 	SMA(14) : 0.26 	Delta :  	Previous STC : 99.64 	STC : 95.85
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (3.165) 	SMA(14) : 3.17 	Delta :  	Previous STC : 100.00 	STC : 85.30
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (21.054) 	SMA(14) : 21.12 	Delta :  	Previous STC : 98.82 	STC : 89.21
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+POLUSDT    | S |  95.85
+1
+Last close price for POLUSDT: 0.2617
+Opening Sell for  POLUSDT
+TP: 0.259083
+SL: 0.266934
+TS: 0.002617
+Order Quantity: 76423.39
+Adjusted qty: 76423.0
+Final Adjusted qty: 76423.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1f9e227d-90f4-4e25-8672-5fc925ba5467', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758233476789}
+1f9e227d-90f4-4e25-8672-5fc925ba5467
+fetching trade data for :  1f9e227d-90f4-4e25-8672-5fc925ba5467
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1f9e227d-90f4-4e25-8672-5fc925ba5467', 'stopOrderType': 'UNKNOWN', 'execTime': '1758233476788', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2617', 'execPrice': '0.2617', 'markIv': '', 'orderQty': '76423', 'orderPrice': '0.2487', 'execValue': '19999.8991', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612536762866, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99994451', 'execId': '77ff1789-d419-47df-88a1-07fef4605cf1', 'marketUnit': '', 'execQty': '76423', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | S |  89.21
+1
+Last close price for ETCUSDT: 21.053
+Opening Sell for  ETCUSDT
+TP: 20.842470000000002
+SL: 21.47406
+TS: 0.21053
+Order Quantity: 949.98
+Adjusted qty: 950.0
+Final Adjusted qty: 949.9
+10610.0
