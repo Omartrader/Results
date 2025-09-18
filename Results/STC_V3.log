@@ -54056,3 +54056,43 @@ Order Quantity: 26727.25
 Adjusted qty: 26727.2
 Final Adjusted qty: 26727.2
 21190.0
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 12:40:49
+	IMXUSDT 	Signal: S
+IMXUSDT 	Latest Close: (0.7504) 	SMA(14) : 0.75 	Delta :  	Previous STC : 96.27 	STC : 90.90
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (296.14) 	SMA(14) : 294.96 	Delta :  	Previous STC : 8.15 	STC : 28.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IMXUSDT    | S |  90.90
+1
+Last close price for IMXUSDT: 0.7507
+Opening Sell for  IMXUSDT
+TP: 0.743193
+SL: 0.765714
+TS: 0.007507000000000001
+Order Quantity: 26641.8
+Adjusted qty: 26641.800000000003
+Final Adjusted qty: 26641.8
+21190.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0a19c6ef-693d-43b6-a779-6763cc4ab9c8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758184872481}
+0a19c6ef-693d-43b6-a779-6763cc4ab9c8
+fetching trade data for :  0a19c6ef-693d-43b6-a779-6763cc4ab9c8
+[{'symbol': 'IMXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0a19c6ef-693d-43b6-a779-6763cc4ab9c8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758184872480', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7507', 'execPrice': '0.7507', 'markIv': '', 'orderQty': '21190', 'orderPrice': '0.6757', 'execValue': '15907.333', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612535019376, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.74903315', 'execId': 'afa5482f-0787-47be-b994-6afd3d3a92ed', 'marketUnit': '', 'execQty': '21190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XMRUSDT    | B |  28.13
+1
+Last close price for XMRUSDT: 296.14
+Opening Buy for  XMRUSDT
+TP: 299.1014
+SL: 290.2172
+TS: 2.9614
+Order Quantity: 67.54
+Adjusted qty: 67.54
+Final Adjusted qty: 67.54
+205.0
