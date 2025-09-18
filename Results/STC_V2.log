@@ -82316,3 +82316,58 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 08:40:40
+***************************************************************
+Number of open positions: 6
+Function started at 18.09.2025 08:45:06
+CFXUSDT 	Latest Close: (0.18504) 	SMA(14) : 0.19 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+HYPEUSDT 	Latest Close: (58.485) 	SMA(14) : 58.80 	Delta : S 	Previous STC : 100.00 	STC : 87.34
+WALUSDT 	Latest Close: (0.4434) 	SMA(14) : 0.44 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | S |  87.34
+Last close price for HYPEUSDT: 58.468
+Opening Sell for  HYPEUSDT
+TP: 57.883320000000005
+SL: 59.63736000000001
+TS: 0.5846800000000001
+Order Quantity: 171.03
+Adjusted qty: 171.03
+Final Adjusted qty: 171.03
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aa1460e0-2334-4029-8304-c07b2c9877c0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758170740949}
+aa1460e0-2334-4029-8304-c07b2c9877c0
+fetching trade data for :  aa1460e0-2334-4029-8304-c07b2c9877c0
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aa1460e0-2334-4029-8304-c07b2c9877c0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758170740948', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '58.495', 'execPrice': '58.495', 'markIv': '', 'orderQty': '171.03', 'orderPrice': '40.947', 'execValue': '10004.39985', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222214236, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50241992', 'execId': '5fd00a8f-673f-4689-afff-61a7e9702412', 'marketUnit': '', 'execQty': '171.03', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CFXUSDT    | S |  66.67
+Last close price for CFXUSDT: 0.18502
+Opening Sell for  CFXUSDT
+TP: 0.1831698
+SL: 0.18872039999999998
+TS: 0.0018502
+Order Quantity: 54048.21
+Adjusted qty: 54048.0
+Final Adjusted qty: 54048.0
+252700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '04049a6d-41da-4a35-80ae-cf2ff2f79b47', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758170752948}
+04049a6d-41da-4a35-80ae-cf2ff2f79b47
+fetching trade data for :  04049a6d-41da-4a35-80ae-cf2ff2f79b47
+[{'symbol': 'CFXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '04049a6d-41da-4a35-80ae-cf2ff2f79b47', 'stopOrderType': 'UNKNOWN', 'execTime': '1758170752947', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.185', 'execPrice': '0.18502', 'markIv': '', 'orderQty': '54048', 'orderPrice': '0.15725', 'execValue': '9999.96096', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222214602, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49997853', 'execId': 'a3f2ef22-0e22-46a9-bced-bfb3e12b5ac1', 'marketUnit': '', 'execQty': '54048', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WALUSDT    | S |  66.67
+Last close price for WALUSDT: 0.4434
+Opening Sell for  WALUSDT
+TP: 0.438966
+SL: 0.452268
+TS: 0.0044340000000000004
+Order Quantity: 22553.0
+Adjusted qty: 22553.0
+Final Adjusted qty: 22553.0
+51400.0
