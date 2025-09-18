@@ -81322,3 +81322,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 05:40:39
+***************************************************************
+Number of open positions: 5
+Function started at 18.09.2025 05:45:05
+ETHFIUSDT 	Latest Close: (1.5955) 	SMA(14) : 1.60 	Delta : S 	Previous STC : 99.97 	STC : 87.71
+ARUSDT 	Latest Close: (7.143) 	SMA(14) : 7.17 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHFIUSDT  | S |  87.71
+Last close price for ETHFIUSDT: 1.5946
+Opening Sell for  ETHFIUSDT
+TP: 1.578654
+SL: 1.626492
+TS: 0.015946000000000002
+Order Quantity: 6271.17
+Adjusted qty: 6271.200000000001
+Final Adjusted qty: 6271.1
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '42f812f8-deeb-4c73-bd6a-89c8e5a3a0bd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758159940847}
+42f812f8-deeb-4c73-bd6a-89c8e5a3a0bd
+fetching trade data for :  42f812f8-deeb-4c73-bd6a-89c8e5a3a0bd
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '42f812f8-deeb-4c73-bd6a-89c8e5a3a0bd', 'stopOrderType': 'UNKNOWN', 'execTime': '1758159940845', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.5942', 'execPrice': '1.5946', 'markIv': '', 'orderQty': '6271.1', 'orderPrice': '1.4348', 'execValue': '9999.89606', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221873062, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994284', 'execId': '8969e8e0-67af-4e3e-b971-9c57b9aa9cac', 'marketUnit': '', 'execQty': '6271.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARUSDT     | S |  66.67
+Last close price for ARUSDT: 7.149
+Opening Sell for  ARUSDT
+TP: 7.07751
+SL: 7.291980000000001
+TS: 0.07149
+Order Quantity: 1398.8
+Adjusted qty: 1398.8000000000002
+Final Adjusted qty: 1398.8
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c6b5466e-db84-410d-8121-0370d9489866', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758159952795}
+c6b5466e-db84-410d-8121-0370d9489866
+fetching trade data for :  c6b5466e-db84-410d-8121-0370d9489866
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c6b5466e-db84-410d-8121-0370d9489866', 'stopOrderType': 'UNKNOWN', 'execTime': '1758159952794', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.149', 'execPrice': '7.149', 'markIv': '', 'orderQty': '1398.8', 'orderPrice': '6.792', 'execValue': '10000.0212', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221873496, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50001166', 'execId': '0f3d904c-e289-4f27-837a-3e558bd8ae5c', 'marketUnit': '', 'execQty': '1398.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 05:46:03
