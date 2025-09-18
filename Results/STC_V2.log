@@ -81087,3 +81087,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 18.09.2025 05:00:56
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 05:05:06
+WLDUSDT 	Latest Close: (1.5758) 	SMA(14) : 1.59 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MYXUSDT 	Latest Close: (16.7438) 	SMA(14) : 16.46 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLDUSDT    | S |  66.67
+Last close price for WLDUSDT: 1.5757
+Opening Sell for  WLDUSDT
+TP: 1.559943
+SL: 1.6072140000000001
+TS: 0.015757
+Order Quantity: 6346.39
+Adjusted qty: 6346.400000000001
+Final Adjusted qty: 6346.3
+34020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  33.33
+Last close price for MYXUSDT: 16.7959
+Opening Buy for  MYXUSDT
+TP: 16.963859
+SL: 16.459982
+TS: 0.167959
+Order Quantity: 595.38
+Adjusted qty: 595.0
+Final Adjusted qty: 595.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd51ac1b2-4a55-4047-bc63-3b76144a4530', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758157543153}
+d51ac1b2-4a55-4047-bc63-3b76144a4530
+fetching trade data for :  d51ac1b2-4a55-4047-bc63-3b76144a4530
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd51ac1b2-4a55-4047-bc63-3b76144a4530', 'stopOrderType': 'UNKNOWN', 'execTime': '1758157543152', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '16.8041', 'execPrice': '16.8032', 'markIv': '', 'orderQty': '595', 'orderPrice': '19.3247', 'execValue': '9997.904', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221798422, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9976944', 'execId': 'd44d573c-9437-491f-81f0-892108fdc523', 'marketUnit': '', 'execQty': '595', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 05:05:53
