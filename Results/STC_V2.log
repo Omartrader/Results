@@ -86595,3 +86595,40 @@ Order Quantity: 32113.04
 Adjusted qty: 32113.0
 Final Adjusted qty: 32113.0
 26000.0
+***************************************************************
+Number of open positions: 7
+Function started at 18.09.2025 22:50:06
+SUSDT 	Latest Close: (0.3115) 	SMA(14) : 0.31 	Delta : S 	Previous STC : 98.70 	STC : 91.30
+JTOUSDT 	Latest Close: (2.049) 	SMA(14) : 2.05 	Delta : B 	Previous STC : 16.43 	STC : 44.28
+USD1USDT 	Latest Close: (0.9993) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 97.93 	STC : 89.94
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUSDT      | S |  91.30
+Last close price for SUSDT: 0.3116
+Opening Sell for  SUSDT
+TP: 0.308484
+SL: 0.317832
+TS: 0.003116
+Order Quantity: 32092.43
+Adjusted qty: 32092.0
+Final Adjusted qty: 32092.0
+26000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '506a862a-b11b-4d3b-aee7-aabc70e150f0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758221445469}
+506a862a-b11b-4d3b-aee7-aabc70e150f0
+fetching trade data for :  506a862a-b11b-4d3b-aee7-aabc70e150f0
+[{'symbol': 'SUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '506a862a-b11b-4d3b-aee7-aabc70e150f0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758221445468', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3116', 'execPrice': '0.3116', 'markIv': '', 'orderQty': '26000', 'orderPrice': '0.2961', 'execValue': '8101.6', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223863049, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.45588', 'execId': 'b4cf6aae-b722-4fd0-a38e-f962f717b2f3', 'marketUnit': '', 'execQty': '26000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JTOUSDT    | B |  44.28
+Last close price for JTOUSDT: 2.052
+Opening Buy for  JTOUSDT
+TP: 2.07252
+SL: 2.01096
+TS: 0.02052
+Order Quantity: 4873.29
+Adjusted qty: 4873.3
+Final Adjusted qty: 4873.2
+27570.0
