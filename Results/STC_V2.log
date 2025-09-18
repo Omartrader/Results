@@ -83650,3 +83650,50 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 18.09.2025 13:41:00
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 13:45:15
+HBARUSDT 	Latest Close: (0.24865) 	SMA(14) : 0.25 	Delta : B 	Previous STC : 7.14 	STC : 25.42
+SYRUPUSDT 	Latest Close: (0.44874) 	SMA(14) : 0.45 	Delta : B 	Previous STC : 9.60 	STC : 39.73
+USDCUSDT 	Latest Close: (1.0002) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 16.04 	STC : 39.30
+USDCUSDT 	Latest Close: (1.0002) 	SMA(14) : 1.00 	Delta : B 	Previous STC : 16.04 	STC : 39.30
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SYRUPUSDT  | B |  39.73
+Last close price for SYRUPUSDT: 0.4488
+Opening Buy for  SYRUPUSDT
+TP: 0.45328799999999997
+SL: 0.439824
+TS: 0.004488
+Order Quantity: 22281.64
+Adjusted qty: 22282.0
+Final Adjusted qty: 22281.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f2a06171-8648-4d18-8778-081a51bed6c7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758188748912}
+f2a06171-8648-4d18-8778-081a51bed6c7
+fetching trade data for :  f2a06171-8648-4d18-8778-081a51bed6c7
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f2a06171-8648-4d18-8778-081a51bed6c7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758188748911', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.44879', 'execPrice': '0.4488', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.49366', 'execValue': '4488', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222786905, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.4684', 'execId': 'ca9a5657-a417-4485-8bd2-606371541b74', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HBARUSDT   | B |  25.42
+Last close price for HBARUSDT: 0.2488
+Opening Buy for  HBARUSDT
+TP: 0.251288
+SL: 0.24382399999999999
+TS: 0.0024879999999999998
+Order Quantity: 40192.93
+Adjusted qty: 40193.0
+Final Adjusted qty: 40192.0
+1064600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1aab0045-c105-4863-ab73-478920e6ec06', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758188761567}
+1aab0045-c105-4863-ab73-478920e6ec06
+fetching trade data for :  1aab0045-c105-4863-ab73-478920e6ec06
+[{'symbol': 'HBARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1aab0045-c105-4863-ab73-478920e6ec06', 'stopOrderType': 'UNKNOWN', 'execTime': '1758188761566', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2488', 'execPrice': '0.2488', 'markIv': '', 'orderQty': '40192', 'orderPrice': '0.26124', 'execValue': '9999.7696', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222787310, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49987328', 'execId': '08701149-f23f-4242-8aaf-f980db0f3db2', 'marketUnit': '', 'execQty': '40192', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 13:46:12
