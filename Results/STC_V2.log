@@ -86048,3 +86048,49 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 18.09.2025 20:40:59
+***************************************************************
+Number of open positions: 8
+Function started at 18.09.2025 20:45:06
+ETHFIUSDT 	Latest Close: (1.6598) 	SMA(14) : 1.64 	Delta : B 	Previous STC : 23.52 	STC : 49.01
+HNTUSDT 	Latest Close: (2.655) 	SMA(14) : 2.64 	Delta : B 	Previous STC : 12.18 	STC : 41.46
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHFIUSDT  | B |  49.01
+Last close price for ETHFIUSDT: 1.6576
+Opening Buy for  ETHFIUSDT
+TP: 1.6741759999999999
+SL: 1.624448
+TS: 0.016576
+Order Quantity: 6032.82
+Adjusted qty: 6032.8
+Final Adjusted qty: 6032.8
+17000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b81ccbe5-0fdf-4eae-91ba-32cc669cdd11', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758213941908}
+b81ccbe5-0fdf-4eae-91ba-32cc669cdd11
+fetching trade data for :  b81ccbe5-0fdf-4eae-91ba-32cc669cdd11
+[{'symbol': 'ETHFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b81ccbe5-0fdf-4eae-91ba-32cc669cdd11', 'stopOrderType': 'UNKNOWN', 'execTime': '1758213941908', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.6573', 'execPrice': '1.6569', 'markIv': '', 'orderQty': '6032.8', 'orderPrice': '1.823', 'execValue': '9995.74632', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223616918, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49766048', 'execId': '3ec13320-c660-440b-8d9f-f9865359bd96', 'marketUnit': '', 'execQty': '6032.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HNTUSDT    | B |  41.46
+Last close price for HNTUSDT: 2.655
+Opening Buy for  HNTUSDT
+TP: 2.6815499999999997
+SL: 2.6018999999999997
+TS: 0.026549999999999997
+Order Quantity: 3766.48
+Adjusted qty: 3766.48
+Final Adjusted qty: 3766.48
+1322.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3b943485-ff6f-4ff5-b032-f0adbd00af5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758213953925}
+3b943485-ff6f-4ff5-b032-f0adbd00af5e
+fetching trade data for :  3b943485-ff6f-4ff5-b032-f0adbd00af5e
+[{'symbol': 'HNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3b943485-ff6f-4ff5-b032-f0adbd00af5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758213953925', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.655', 'execPrice': '2.655', 'markIv': '', 'orderQty': '1322', 'orderPrice': '3.082', 'execValue': '3509.91', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223617306, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '1.9304505', 'execId': '10e4993b-b19e-4f11-8599-1a9b6d607912', 'marketUnit': '', 'execQty': '1322', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 18.09.2025 20:46:02
