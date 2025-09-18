@@ -86975,3 +86975,81 @@ Order Quantity: 5500.55
 Adjusted qty: 5501.0
 Final Adjusted qty: 5500.0
 71000.0
+***************************************************************
+Number of open positions: 7
+Function started at 18.09.2025 23:55:06
+HBARUSDT 	Latest Close: (0.2492) 	SMA(14) : 0.25 	Delta : B 	Previous STC : 7.62 	STC : 38.42
+MNTUSDT 	Latest Close: (1.8197) 	SMA(14) : 1.84 	Delta : S 	Previous STC : 100.00 	STC : 79.13
+CFXUSDT 	Latest Close: (0.1863) 	SMA(14) : 0.19 	Delta : S 	Previous STC : 98.79 	STC : 86.27
+AUSDT 	Latest Close: (0.4852) 	SMA(14) : 0.49 	Delta : S 	Previous STC : 99.99 	STC : 94.93
+ARUSDT 	Latest Close: (7.278) 	SMA(14) : 7.31 	Delta : S 	Previous STC : 100.00 	STC : 91.38
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AUSDT      | S |  94.93
+Last close price for AUSDT: 0.4851
+Opening Sell for  AUSDT
+TP: 0.480249
+SL: 0.49480199999999996
+TS: 0.004850999999999999
+Order Quantity: 20614.31
+Adjusted qty: 20614.0
+Final Adjusted qty: 20614.0
+32400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ARUSDT     | S |  91.38
+Last close price for ARUSDT: 7.278
+Opening Sell for  ARUSDT
+TP: 7.20522
+SL: 7.423559999999999
+TS: 0.07278
+Order Quantity: 1374.0
+Adjusted qty: 1374.0
+Final Adjusted qty: 1374.0
+4060.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+CFXUSDT    | S |  86.27
+Last close price for CFXUSDT: 0.18631
+Opening Sell for  CFXUSDT
+TP: 0.1844469
+SL: 0.19003620000000002
+TS: 0.0018631000000000001
+Order Quantity: 53673.98
+Adjusted qty: 53674.0
+Final Adjusted qty: 53673.0
+252700.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MNTUSDT    | S |  79.13
+Last close price for MNTUSDT: 1.8153
+Opening Sell for  MNTUSDT
+TP: 1.7971469999999998
+SL: 1.8516059999999999
+TS: 0.018153
+Order Quantity: 5508.73
+Adjusted qty: 5509.0
+Final Adjusted qty: 5508.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2463cbfa-1392-4dd8-8713-b0ba587c52f8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758225345507}
+2463cbfa-1392-4dd8-8713-b0ba587c52f8
+fetching trade data for :  2463cbfa-1392-4dd8-8713-b0ba587c52f8
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2463cbfa-1392-4dd8-8713-b0ba587c52f8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758225345506', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.81542', 'execPrice': '1.8152', 'markIv': '', 'orderQty': '5508', 'orderPrice': '1.6339', 'execValue': '9998.1216', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223990742, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49896688', 'execId': '066566e1-454f-4225-8eff-fdbd1561417a', 'marketUnit': '', 'execQty': '5508', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HBARUSDT   | B |  38.42
+Last close price for HBARUSDT: 0.24901
+Opening Buy for  HBARUSDT
+TP: 0.2515001
+SL: 0.2440298
+TS: 0.0024901000000000003
+Order Quantity: 40159.03
+Adjusted qty: 40159.0
+Final Adjusted qty: 40159.0
+1064600.0
