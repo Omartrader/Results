@@ -54502,3 +54502,34 @@ Order Quantity: 826.34
 Adjusted qty: 826.3000000000001
 Final Adjusted qty: 826.3
 31450.0
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 14:46:23
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (3.1107) 	SMA(14) : 3.10 	Delta :  	Previous STC : 7.38 	STC : 25.54
+	SUIUSDT 	Signal: B
+SUIUSDT 	Latest Close: (3.8699) 	SMA(14) : 3.85 	Delta :  	Previous STC : 16.89 	STC : 44.60
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUIUSDT    | B |  44.60
+1
+Last close price for SUIUSDT: 3.8687
+Opening Buy for  SUIUSDT
+TP: 3.907387
+SL: 3.7913259999999998
+TS: 0.038687
+Order Quantity: 5169.7
+Adjusted qty: 5170.0
+Final Adjusted qty: 5160.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c09e3bb3-2d31-44f3-9132-2bf6db57e559', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758192414406}
+c09e3bb3-2d31-44f3-9132-2bf6db57e559
+fetching trade data for :  c09e3bb3-2d31-44f3-9132-2bf6db57e559
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c09e3bb3-2d31-44f3-9132-2bf6db57e559', 'stopOrderType': 'UNKNOWN', 'execTime': '1758192414405', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.86957', 'execPrice': '3.8687', 'markIv': '', 'orderQty': '5160', 'orderPrice': '4.063', 'execValue': '19962.492', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612535288284, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9793706', 'execId': '3e97687b-ef61-4c4e-a6b3-cc4f55b1b613', 'marketUnit': '', 'execQty': '5160', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 18.09.2025 14:47:05
