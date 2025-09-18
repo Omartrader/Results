@@ -87779,3 +87779,40 @@ Order Quantity: 23837.9
 Adjusted qty: 23837.9
 Final Adjusted qty: 23837.9
 76780.0
+***************************************************************
+Number of open positions: 8
+Function started at 19.09.2025 02:20:05
+SKYUSDT 	Latest Close: (0.07731) 	SMA(14) : 0.08 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+SANDUSDT 	Latest Close: (0.3145) 	SMA(14) : 0.31 	Delta : S 	Previous STC : 99.72 	STC : 90.32
+MYXUSDT 	Latest Close: (14.6996) 	SMA(14) : 14.64 	Delta : B 	Previous STC : 12.13 	STC : 41.42
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SANDUSDT   | S |  90.32
+Last close price for SANDUSDT: 0.3145
+Opening Sell for  SANDUSDT
+TP: 0.311355
+SL: 0.32079
+TS: 0.0031450000000000002
+Order Quantity: 31796.5
+Adjusted qty: 31796.0
+Final Adjusted qty: 31796.0
+253900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '54721a91-30cf-4e63-b7a1-24001de6b926', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758234044909}
+54721a91-30cf-4e63-b7a1-24001de6b926
+fetching trade data for :  54721a91-30cf-4e63-b7a1-24001de6b926
+[{'symbol': 'SANDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '54721a91-30cf-4e63-b7a1-24001de6b926', 'stopOrderType': 'UNKNOWN', 'execTime': '1758234044909', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3145', 'execPrice': '0.3145', 'markIv': '', 'orderQty': '31796', 'orderPrice': '0.2831', 'execValue': '9999.842', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224281085, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.4999131', 'execId': '07d020b6-8052-4c82-a856-e104f17a73b9', 'marketUnit': '', 'execQty': '31796', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SKYUSDT    | S |  66.67
+Last close price for SKYUSDT: 0.07733
+Opening Sell for  SKYUSDT
+TP: 0.07655669999999999
+SL: 0.07887659999999999
+TS: 0.0007733
+Order Quantity: 129315.92
+Adjusted qty: 129320.0
+Final Adjusted qty: 129310.0
+310000.0
