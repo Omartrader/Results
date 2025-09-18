@@ -84123,3 +84123,48 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 14:55:49
+***************************************************************
+Number of open positions: 5
+Function started at 18.09.2025 15:00:09
+JTOUSDT 	Latest Close: (2.053) 	SMA(14) : 2.04 	Delta : B 	Previous STC : 5.23 	STC : 28.70
+WALUSDT 	Latest Close: (0.4504) 	SMA(14) : 0.45 	Delta : B 	Previous STC : 24.83 	STC : 49.89
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | B |  49.89
+Last close price for WALUSDT: 0.4504
+Opening Buy for  WALUSDT
+TP: 0.45490400000000003
+SL: 0.441392
+TS: 0.004504
+Order Quantity: 22202.49
+Adjusted qty: 22202.0
+Final Adjusted qty: 22202.0
+51400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7c3b609c-abec-464f-9d3d-f44fb27fffbe', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758193243193}
+7c3b609c-abec-464f-9d3d-f44fb27fffbe
+fetching trade data for :  7c3b609c-abec-464f-9d3d-f44fb27fffbe
+[{'symbol': 'WALUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7c3b609c-abec-464f-9d3d-f44fb27fffbe', 'stopOrderType': 'UNKNOWN', 'execTime': '1758193243192', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4505', 'execPrice': '0.4504', 'markIv': '', 'orderQty': '22202', 'orderPrice': '0.5406', 'execValue': '9999.7808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222933826, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49987944', 'execId': 'faff80d5-e983-4f5a-ab14-ac45eaa35375', 'marketUnit': '', 'execQty': '22202', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JTOUSDT    | B |  28.70
+Last close price for JTOUSDT: 2.062
+Opening Buy for  JTOUSDT
+TP: 2.08262
+SL: 2.0207599999999997
+TS: 0.02062
+Order Quantity: 4849.66
+Adjusted qty: 4849.7
+Final Adjusted qty: 4849.6
+27570.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9f1f70c1-6453-4a93-b658-d093ca8219f4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758193255408}
+9f1f70c1-6453-4a93-b658-d093ca8219f4
+fetching trade data for :  9f1f70c1-6453-4a93-b658-d093ca8219f4
+[{'symbol': 'JTOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9f1f70c1-6453-4a93-b658-d093ca8219f4', 'stopOrderType': 'UNKNOWN', 'execTime': '1758193255407', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.062', 'execPrice': '2.062', 'markIv': '', 'orderQty': '4849.6', 'orderPrice': '2.268', 'execValue': '9999.8752', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222934213, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993136', 'execId': 'a22a36ac-bbda-4479-a3bf-51488564ba66', 'marketUnit': '', 'execQty': '4849.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 15:01:05
