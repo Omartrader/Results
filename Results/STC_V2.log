@@ -81047,3 +81047,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 04:55:40
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 05:00:06
+WLDUSDT 	Latest Close: (1.5792) 	SMA(14) : 1.59 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+MYXUSDT 	Latest Close: (16.6857) 	SMA(14) : 16.45 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLDUSDT    | S |  66.67
+Last close price for WLDUSDT: 1.5814
+Opening Sell for  WLDUSDT
+TP: 1.565586
+SL: 1.613028
+TS: 0.015813999999999998
+Order Quantity: 6323.51
+Adjusted qty: 6323.5
+Final Adjusted qty: 6323.5
+34020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MYXUSDT    | B |  33.33
+Last close price for MYXUSDT: 16.6846
+Opening Buy for  MYXUSDT
+TP: 16.851446
+SL: 16.350908
+TS: 0.166846
+Order Quantity: 599.36
+Adjusted qty: 599.0
+Final Adjusted qty: 599.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '68d84515-5f7e-4fb5-930f-2e0feb43e55a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758157245347}
+68d84515-5f7e-4fb5-930f-2e0feb43e55a
+fetching trade data for :  68d84515-5f7e-4fb5-930f-2e0feb43e55a
+[{'symbol': 'MYXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '68d84515-5f7e-4fb5-930f-2e0feb43e55a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758157245346', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '16.6875', 'execPrice': '16.6852', 'markIv': '', 'orderQty': '599', 'orderPrice': '19.1906', 'execValue': '9994.4348', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221789086, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99387828', 'execId': 'dbaa5e1c-faf7-4c28-9dbc-e94eceb4a627', 'marketUnit': '', 'execQty': '599', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 05:00:56
