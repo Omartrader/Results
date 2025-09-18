@@ -55758,3 +55758,43 @@ Order Quantity: 21619.28
 Adjusted qty: 21619.0
 Final Adjusted qty: 21619.0
 1109600.0
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 19:50:50
+	ENAUSDT 	Signal: B
+ENAUSDT 	Latest Close: (0.6999) 	SMA(14) : 0.70 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	ADAUSDT 	Signal: B
+ADAUSDT 	Latest Close: (0.9265) 	SMA(14) : 0.92 	Delta :  	Previous STC : 24.75 	STC : 49.83
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ADAUSDT    | B |  49.83
+1
+Last close price for ADAUSDT: 0.9267
+Opening Buy for  ADAUSDT
+TP: 0.935967
+SL: 0.9081659999999999
+TS: 0.009267
+Order Quantity: 21581.96
+Adjusted qty: 21582.0
+Final Adjusted qty: 21581.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7dfefafc-4455-4707-973c-0cffb6a92731', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758210672492}
+7dfefafc-4455-4707-973c-0cffb6a92731
+fetching trade data for :  7dfefafc-4455-4707-973c-0cffb6a92731
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7dfefafc-4455-4707-973c-0cffb6a92731', 'stopOrderType': 'UNKNOWN', 'execTime': '1758210672492', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9267', 'execPrice': '0.9267', 'markIv': '', 'orderQty': '21581', 'orderPrice': '0.973', 'execValue': '19999.1127', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612535950682, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99951199', 'execId': '80b4ff26-36f4-4f2c-a9cb-574d49e3b477', 'marketUnit': '', 'execQty': '21581', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | B |  33.33
+1
+Last close price for ENAUSDT: 0.7007
+Opening Buy for  ENAUSDT
+TP: 0.707707
+SL: 0.686686
+TS: 0.007007
+Order Quantity: 28542.89
+Adjusted qty: 28543.0
+Final Adjusted qty: 28542.0
+100000.0
