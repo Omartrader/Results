@@ -87386,3 +87386,43 @@ Order Quantity: 7342.14
 Adjusted qty: 7342.1
 Final Adjusted qty: 7342.1
 44260.0
+***************************************************************
+Number of open positions: 8
+Function started at 19.09.2025 01:05:06
+RUNEUSDT 	Latest Close: (1.359) 	SMA(14) : 1.36 	Delta : S 	Previous STC : 96.74 	STC : 84.18
+HNTUSDT 	Latest Close: (2.629) 	SMA(14) : 2.64 	Delta : S 	Previous STC : 97.31 	STC : 85.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HNTUSDT    | S |  85.62
+Last close price for HNTUSDT: 2.629
+Opening Sell for  HNTUSDT
+TP: 2.60271
+SL: 2.68158
+TS: 0.02629
+Order Quantity: 3803.73
+Adjusted qty: 3803.73
+Final Adjusted qty: 3803.73
+1322.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+RUNEUSDT   | S |  84.18
+Last close price for RUNEUSDT: 1.357
+Opening Sell for  RUNEUSDT
+TP: 1.34343
+SL: 1.38414
+TS: 0.01357
+Order Quantity: 7369.2
+Adjusted qty: 7369.200000000001
+Final Adjusted qty: 7369.2
+44260.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'edca1c92-7692-451a-8fce-82420c4e641f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758229542368}
+edca1c92-7692-451a-8fce-82420c4e641f
+fetching trade data for :  edca1c92-7692-451a-8fce-82420c4e641f
+[{'symbol': 'RUNEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'edca1c92-7692-451a-8fce-82420c4e641f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758229542367', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.359', 'execPrice': '1.357', 'markIv': '', 'orderQty': '7369.2', 'orderPrice': '1.224', 'execValue': '10000.0044', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224127027, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000242', 'execId': 'd6c4c060-17ee-424d-9499-21b3022bf2c3', 'marketUnit': '', 'execQty': '7369.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 19.09.2025 01:05:52
