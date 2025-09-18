@@ -84203,3 +84203,57 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 15:05:43
+***************************************************************
+Number of open positions: 7
+Function started at 18.09.2025 15:10:06
+KASUSDT 	Latest Close: (0.08738) 	SMA(14) : 0.09 	Delta : B 	Previous STC : 8.77 	STC : 39.18
+JTOUSDT 	Latest Close: (2.065) 	SMA(14) : 2.04 	Delta : B 	Previous STC : 5.23 	STC : 30.69
+WALUSDT 	Latest Close: (0.4504) 	SMA(14) : 0.45 	Delta : B 	Previous STC : 24.83 	STC : 49.89
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WALUSDT    | B |  49.89
+Last close price for WALUSDT: 0.4504
+Opening Buy for  WALUSDT
+TP: 0.45490400000000003
+SL: 0.441392
+TS: 0.004504
+Order Quantity: 22202.49
+Adjusted qty: 22202.0
+Final Adjusted qty: 22202.0
+51400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+KASUSDT    | B |  39.18
+Last close price for KASUSDT: 0.08738
+Opening Buy for  KASUSDT
+TP: 0.0882538
+SL: 0.0856324
+TS: 0.0008738
+Order Quantity: 114442.66
+Adjusted qty: 114440.0
+Final Adjusted qty: 114440.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4daf3e54-29ba-40f4-ae5d-3f0c2ca101d8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758193844410}
+4daf3e54-29ba-40f4-ae5d-3f0c2ca101d8
+fetching trade data for :  4daf3e54-29ba-40f4-ae5d-3f0c2ca101d8
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4daf3e54-29ba-40f4-ae5d-3f0c2ca101d8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758193844410', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.08738', 'execPrice': '0.08738', 'markIv': '', 'orderQty': '114440', 'orderPrice': '0.10048', 'execValue': '9999.7672', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222953264, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49987196', 'execId': '00678af2-854d-45be-88b7-34cd10e1794e', 'marketUnit': '', 'execQty': '114440', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+JTOUSDT    | B |  30.69
+Last close price for JTOUSDT: 2.065
+Opening Buy for  JTOUSDT
+TP: 2.08565
+SL: 2.0237
+TS: 0.020649999999999998
+Order Quantity: 4842.62
+Adjusted qty: 4842.6
+Final Adjusted qty: 4842.6
+27570.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 18.09.2025 15:10:56
