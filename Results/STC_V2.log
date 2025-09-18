@@ -82159,3 +82159,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 18.09.2025 08:16:03
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 08:20:05
+ADAUSDT 	Latest Close: (0.9153) 	SMA(14) : 0.92 	Delta : S 	Previous STC : 100.00 	STC : 88.99
+FLRUSDT 	Latest Close: (0.02383) 	SMA(14) : 0.02 	Delta : S 	Previous STC : 98.30 	STC : 91.71
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | S |  91.71
+Last close price for FLRUSDT: 0.02385
+Opening Sell for  FLRUSDT
+TP: 0.0236115
+SL: 0.024327
+TS: 0.0002385
+Order Quantity: 419287.21
+Adjusted qty: 419290.0
+Final Adjusted qty: 419280.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ADAUSDT    | S |  88.99
+Last close price for ADAUSDT: 0.9146
+Opening Sell for  ADAUSDT
+TP: 0.905454
+SL: 0.9328919999999999
+TS: 0.009146
+Order Quantity: 10933.74
+Adjusted qty: 10934.0
+Final Adjusted qty: 10933.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9eb4cf27-75bc-4b9f-8120-966983540fd3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758169242721}
+9eb4cf27-75bc-4b9f-8120-966983540fd3
+fetching trade data for :  9eb4cf27-75bc-4b9f-8120-966983540fd3
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9eb4cf27-75bc-4b9f-8120-966983540fd3', 'stopOrderType': 'UNKNOWN', 'execTime': '1758169242720', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9147', 'execPrice': '0.9146', 'markIv': '', 'orderQty': '10933', 'orderPrice': '0.869', 'execValue': '9999.3218', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222167342, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49962699', 'execId': '95573f1d-b074-4006-bed6-900a4bf135bd', 'marketUnit': '', 'execQty': '10933', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 08:20:52
