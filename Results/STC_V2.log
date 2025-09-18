@@ -84858,3 +84858,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 17:40:49
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 17:45:06
+JASMYUSDT 	Latest Close: (0.014763) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 98.88 	STC : 95.71
+STXUSDT 	Latest Close: (0.6828) 	SMA(14) : 0.69 	Delta : S 	Previous STC : 97.37 	STC : 91.13
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JASMYUSDT  | S |  95.71
+Last close price for JASMYUSDT: 0.014758
+Opening Sell for  JASMYUSDT
+TP: 0.01461042
+SL: 0.015053160000000001
+TS: 0.00014758
+Order Quantity: 677598.59
+Adjusted qty: 677599.0
+Final Adjusted qty: 677598.0
+2421700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd24e54f5-a95c-439e-a489-419a38d660c5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758203143016}
+d24e54f5-a95c-439e-a489-419a38d660c5
+fetching trade data for :  d24e54f5-a95c-439e-a489-419a38d660c5
+[{'symbol': 'JASMYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd24e54f5-a95c-439e-a489-419a38d660c5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758203143015', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.014754', 'execPrice': '0.014753', 'markIv': '', 'orderQty': '677598', 'orderPrice': '0.013279', 'execValue': '9996.603294', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223258307, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49813182', 'execId': '43822d33-f672-4b97-a3fc-08383cf021a9', 'marketUnit': '', 'execQty': '677598', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | S |  91.13
+Last close price for STXUSDT: 0.6837
+Opening Sell for  STXUSDT
+TP: 0.676863
+SL: 0.6973739999999999
+TS: 0.006836999999999999
+Order Quantity: 14626.3
+Adjusted qty: 14626.300000000001
+Final Adjusted qty: 14626.3
+102840.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 18.09.2025 17:45:54
