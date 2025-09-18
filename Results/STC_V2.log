@@ -85856,3 +85856,54 @@ Order Quantity: 51072.52
 Adjusted qty: 51072.5
 Final Adjusted qty: 51072.5
 26600.0
+***************************************************************
+Number of open positions: 7
+Function started at 18.09.2025 20:15:06
+SPXUSDT 	Latest Close: (1.4615) 	SMA(14) : 1.45 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SOLUSDT 	Latest Close: (248.91) 	SMA(14) : 247.37 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+ENSUSDT 	Latest Close: (24.369) 	SMA(14) : 24.29 	Delta : B 	Previous STC : 20.18 	STC : 46.78
+USDEUSDT 	Latest Close: (1.0003) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENSUSDT    | B |  46.78
+Last close price for ENSUSDT: 24.369
+Opening Buy for  ENSUSDT
+TP: 24.61269
+SL: 23.881619999999998
+TS: 0.24369
+Order Quantity: 410.36
+Adjusted qty: 410.40000000000003
+Final Adjusted qty: 410.3
+1400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SOLUSDT    | B |  33.33
+Last close price for SOLUSDT: 248.82
+Opening Buy for  SOLUSDT
+TP: 251.3082
+SL: 243.84359999999998
+TS: 2.4882
+Order Quantity: 40.19
+Adjusted qty: 40.2
+Final Adjusted qty: 40.1
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '74cd30db-0d52-4a68-907b-00aa8ef8f9f1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758212149931}
+74cd30db-0d52-4a68-907b-00aa8ef8f9f1
+fetching trade data for :  74cd30db-0d52-4a68-907b-00aa8ef8f9f1
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '74cd30db-0d52-4a68-907b-00aa8ef8f9f1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758212149930', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '248.87', 'execPrice': '248.89', 'markIv': '', 'orderQty': '40.1', 'orderPrice': '261.31', 'execValue': '9980.489', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223558814, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.48926895', 'execId': '41135365-f3b6-43bb-9303-fb2676a626c1', 'marketUnit': '', 'execQty': '40.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SPXUSDT    | B |  33.33
+Last close price for SPXUSDT: 1.463
+Opening Buy for  SPXUSDT
+TP: 1.47763
+SL: 1.43374
+TS: 0.01463
+Order Quantity: 6835.27
+Adjusted qty: 6835.0
+Final Adjusted qty: 6835.0
+14800.0
