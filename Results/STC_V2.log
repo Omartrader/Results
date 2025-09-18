@@ -81437,3 +81437,67 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 05:55:42
+***************************************************************
+Number of open positions: 6
+Function started at 18.09.2025 06:00:06
+BRETTUSDT 	Latest Close: (0.05267) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 100.00 	STC : 92.97
+AEROUSDT 	Latest Close: (1.3208) 	SMA(14) : 1.34 	Delta : S 	Previous STC : 100.00 	STC : 94.66
+SYRUPUSDT 	Latest Close: (0.4428) 	SMA(14) : 0.45 	Delta : S 	Previous STC : 100.00 	STC : 80.68
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AEROUSDT   | S |  94.66
+Last close price for AEROUSDT: 1.3214
+Opening Sell for  AEROUSDT
+TP: 1.3081859999999998
+SL: 1.347828
+TS: 0.013213999999999998
+Order Quantity: 7567.73
+Adjusted qty: 7568.0
+Final Adjusted qty: 7567.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bdb4970c-8051-4278-810b-ca03382cfbb2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758160844957}
+bdb4970c-8051-4278-810b-ca03382cfbb2
+fetching trade data for :  bdb4970c-8051-4278-810b-ca03382cfbb2
+[{'symbol': 'AEROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bdb4970c-8051-4278-810b-ca03382cfbb2', 'stopOrderType': 'UNKNOWN', 'execTime': '1758160844956', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3211', 'execPrice': '1.3214', 'markIv': '', 'orderQty': '7567', 'orderPrice': '1.123', 'execValue': '9999.0338', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221901422, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49946859', 'execId': 'dc0a0807-cd66-4eb3-8f7e-5010be1d5563', 'marketUnit': '', 'execQty': '7567', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BRETTUSDT  | S |  92.97
+Last close price for BRETTUSDT: 0.05259
+Opening Sell for  BRETTUSDT
+TP: 0.052064099999999995
+SL: 0.053641799999999996
+TS: 0.0005258999999999999
+Order Quantity: 190150.22
+Adjusted qty: 190150.0
+Final Adjusted qty: 190150.0
+400000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '065ffb38-fbda-49be-b42a-f628e679f7cb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758160857347}
+065ffb38-fbda-49be-b42a-f628e679f7cb
+fetching trade data for :  065ffb38-fbda-49be-b42a-f628e679f7cb
+[{'symbol': 'BRETTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '065ffb38-fbda-49be-b42a-f628e679f7cb', 'stopOrderType': 'UNKNOWN', 'execTime': '1758160857347', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.05263', 'execPrice': '0.05259', 'markIv': '', 'orderQty': '190150', 'orderPrice': '0.04474', 'execValue': '9999.9885', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221901811, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49999368', 'execId': '35856e09-fa03-4177-b506-d3a13d43bc55', 'marketUnit': '', 'execQty': '190150', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  80.68
+Last close price for SYRUPUSDT: 0.44266
+Opening Sell for  SYRUPUSDT
+TP: 0.4382334
+SL: 0.4515132
+TS: 0.0044266
+Order Quantity: 22590.7
+Adjusted qty: 22591.0
+Final Adjusted qty: 22590.0
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '300e40cc-3e06-485e-a79d-61871ce5d18d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758160869788}
+300e40cc-3e06-485e-a79d-61871ce5d18d
+fetching trade data for :  300e40cc-3e06-485e-a79d-61871ce5d18d
+[{'symbol': 'SYRUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '300e40cc-3e06-485e-a79d-61871ce5d18d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758160869787', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.44263', 'execPrice': '0.44266', 'markIv': '', 'orderQty': '10000', 'orderPrice': '0.39837', 'execValue': '4426.6', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221902211, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '2.43463', 'execId': '28afc23b-5770-4c6e-bf00-c0f2c0f7285b', 'marketUnit': '', 'execQty': '10000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 18.09.2025 06:01:20
