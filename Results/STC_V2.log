@@ -86183,3 +86183,31 @@ Order Quantity: 24760.44
 Adjusted qty: 24760.0
 Final Adjusted qty: 24760.0
 27000.0
+***************************************************************
+Number of open positions: 9
+Function started at 18.09.2025 21:05:48
+LDOUSDT 	Latest Close: (1.332) 	SMA(14) : 1.33 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+SAROSUSDT 	Latest Close: (0.40275) 	SMA(14) : 0.41 	Delta : S 	Previous STC : 96.02 	STC : 88.39
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SAROSUSDT  | S |  88.39
+Last close price for SAROSUSDT: 0.40275
+Opening Sell for  SAROSUSDT
+TP: 0.3987225
+SL: 0.41080500000000003
+TS: 0.0040275
+Order Quantity: 24829.3
+Adjusted qty: 24829.0
+Final Adjusted qty: 24829.0
+27000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dfb4baf7-98f1-4067-87fa-4b97b87980a1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758215184684}
+dfb4baf7-98f1-4067-87fa-4b97b87980a1
+fetching trade data for :  dfb4baf7-98f1-4067-87fa-4b97b87980a1
+[{'symbol': 'SAROSUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dfb4baf7-98f1-4067-87fa-4b97b87980a1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758215184683', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.40245', 'execPrice': '0.40275', 'markIv': '', 'orderQty': '24829', 'orderPrice': '0.34209', 'execValue': '9999.87975', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223657958, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99986773', 'execId': 'ad7037bc-4f77-44fe-8747-e2ff198fd224', 'marketUnit': '', 'execQty': '24829', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 18.09.2025 21:06:33
