@@ -84981,3 +84981,58 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 18.09.2025 17:51:29
+***************************************************************
+Number of open positions: 7
+Function started at 18.09.2025 17:55:07
+JASMYUSDT 	Latest Close: (0.014832) 	SMA(14) : 0.01 	Delta : S 	Previous STC : 98.88 	STC : 95.99
+STXUSDT 	Latest Close: (0.6856) 	SMA(14) : 0.69 	Delta : S 	Previous STC : 97.37 	STC : 91.45
+AUSDT 	Latest Close: (0.4841) 	SMA(14) : 0.48 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+USDCUSDT 	Latest Close: (1.0) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 99.86 	STC : 94.55
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JASMYUSDT  | S |  95.99
+Last close price for JASMYUSDT: 0.014798
+Opening Sell for  JASMYUSDT
+TP: 0.01465002
+SL: 0.01509396
+TS: 0.00014798
+Order Quantity: 675767.0
+Adjusted qty: 675767.0
+Final Adjusted qty: 675767.0
+2421700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '551b3d94-8132-4e00-992b-0c80fed24e38', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758203748324}
+551b3d94-8132-4e00-992b-0c80fed24e38
+fetching trade data for :  551b3d94-8132-4e00-992b-0c80fed24e38
+[{'symbol': 'JASMYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '551b3d94-8132-4e00-992b-0c80fed24e38', 'stopOrderType': 'UNKNOWN', 'execTime': '1758203748323', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.014798', 'execPrice': '0.014798', 'markIv': '', 'orderQty': '675767', 'orderPrice': '0.013319', 'execValue': '10000.000066', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223278224, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.50000004', 'execId': '2bb76b8e-6318-4eea-991e-8a72dcd3444e', 'marketUnit': '', 'execQty': '675767', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | S |  91.45
+Last close price for STXUSDT: 0.6856
+Opening Sell for  STXUSDT
+TP: 0.678744
+SL: 0.699312
+TS: 0.006856
+Order Quantity: 14585.76
+Adjusted qty: 14585.800000000001
+Final Adjusted qty: 14585.7
+102840.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AUSDT      | B |  33.33
+Last close price for AUSDT: 0.4839
+Opening Buy for  AUSDT
+TP: 0.488739
+SL: 0.474222
+TS: 0.0048389999999999996
+Order Quantity: 20665.43
+Adjusted qty: 20665.0
+Final Adjusted qty: 20665.0
+32400.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 18.09.2025 17:56:01
