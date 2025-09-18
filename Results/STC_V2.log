@@ -88052,3 +88052,57 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 19.09.2025 03:16:01
+***************************************************************
+Number of open positions: 8
+Function started at 19.09.2025 03:20:06
+ATHUSDT 	Latest Close: (0.06308) 	SMA(14) : 0.06 	Delta : S 	Previous STC : 100.00 	STC : 95.92
+NEARUSDT 	Latest Close: (3.145) 	SMA(14) : 3.19 	Delta : S 	Previous STC : 98.68 	STC : 83.73
+UNIUSDT 	Latest Close: (9.579) 	SMA(14) : 9.61 	Delta : S 	Previous STC : 98.29 	STC : 86.25
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATHUSDT    | S |  95.92
+Last close price for ATHUSDT: 0.0631
+Opening Sell for  ATHUSDT
+TP: 0.062469000000000004
+SL: 0.064362
+TS: 0.000631
+Order Quantity: 158478.61
+Adjusted qty: 158480.0
+Final Adjusted qty: 158470.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2c2c2b40-0142-40f2-b7ea-465433dd83df', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758237641917}
+2c2c2b40-0142-40f2-b7ea-465433dd83df
+fetching trade data for :  2c2c2b40-0142-40f2-b7ea-465433dd83df
+[{'symbol': 'ATHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2c2c2b40-0142-40f2-b7ea-465433dd83df', 'stopOrderType': 'UNKNOWN', 'execTime': '1758237641916', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.06309', 'execPrice': '0.0631', 'markIv': '', 'orderQty': '158470', 'orderPrice': '0.05679', 'execValue': '9999.457', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224404150, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49970135', 'execId': 'cafa6337-77ce-4480-9bbe-cb49bc03672c', 'marketUnit': '', 'execQty': '158470', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | S |  86.25
+Last close price for UNIUSDT: 9.583
+Opening Sell for  UNIUSDT
+TP: 9.48717
+SL: 9.77466
+TS: 0.09583
+Order Quantity: 1043.51
+Adjusted qty: 1043.5
+Final Adjusted qty: 1043.5
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEARUSDT   | S |  83.73
+Last close price for NEARUSDT: 3.148
+Opening Sell for  NEARUSDT
+TP: 3.11652
+SL: 3.21096
+TS: 0.03148
+Order Quantity: 3176.62
+Adjusted qty: 3176.6000000000004
+Final Adjusted qty: 3176.6
+66470.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 19.09.2025 03:20:53
