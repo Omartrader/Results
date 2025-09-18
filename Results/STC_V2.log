@@ -83886,3 +83886,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 18.09.2025 14:30:51
+***************************************************************
+Number of open positions: 3
+Function started at 18.09.2025 14:35:06
+STXUSDT 	Latest Close: (0.6856) 	SMA(14) : 0.68 	Delta : B 	Previous STC : 6.15 	STC : 26.94
+LINKUSDT 	Latest Close: (24.154) 	SMA(14) : 24.13 	Delta : B 	Previous STC : 11.65 	STC : 39.98
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LINKUSDT   | B |  39.98
+Last close price for LINKUSDT: 24.144
+Opening Buy for  LINKUSDT
+TP: 24.38544
+SL: 23.661119999999997
+TS: 0.24144
+Order Quantity: 414.18
+Adjusted qty: 414.20000000000005
+Final Adjusted qty: 414.1
+31450.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2e77ef04-87c6-4a6d-8792-7e86302b0fed', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758191741369}
+2e77ef04-87c6-4a6d-8792-7e86302b0fed
+fetching trade data for :  2e77ef04-87c6-4a6d-8792-7e86302b0fed
+[{'symbol': 'LINKUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2e77ef04-87c6-4a6d-8792-7e86302b0fed', 'stopOrderType': 'UNKNOWN', 'execTime': '1758191741367', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '24.151', 'execPrice': '24.144', 'markIv': '', 'orderQty': '414.1', 'orderPrice': '25.358', 'execValue': '9998.0304', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697222884682, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49891672', 'execId': '730b1786-ceee-4fb4-84a2-1bb67ea2a05d', 'marketUnit': '', 'execQty': '414.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+STXUSDT    | B |  26.94
+Last close price for STXUSDT: 0.6855
+Opening Buy for  STXUSDT
+TP: 0.692355
+SL: 0.67179
+TS: 0.006855
+Order Quantity: 14587.89
+Adjusted qty: 14587.900000000001
+Final Adjusted qty: 14587.8
+102840.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 18.09.2025 14:35:53
