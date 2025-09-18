@@ -86840,3 +86840,78 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 23:40:44
+***************************************************************
+Number of open positions: 5
+Function started at 18.09.2025 23:45:07
+HBARUSDT 	Latest Close: (0.24826) 	SMA(14) : 0.25 	Delta : B 	Previous STC : 7.62 	STC : 35.23
+MNTUSDT 	Latest Close: (1.8117) 	SMA(14) : 1.84 	Delta : S 	Previous STC : 100.00 	STC : 75.04
+CFXUSDT 	Latest Close: (0.18617) 	SMA(14) : 0.19 	Delta : S 	Previous STC : 98.79 	STC : 85.75
+AUSDT 	Latest Close: (0.4853) 	SMA(14) : 0.49 	Delta : S 	Previous STC : 99.99 	STC : 95.05
+ARUSDT 	Latest Close: (7.268) 	SMA(14) : 7.30 	Delta : S 	Previous STC : 100.00 	STC : 90.63
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AUSDT      | S |  95.05
+Last close price for AUSDT: 0.4853
+Opening Sell for  AUSDT
+TP: 0.480447
+SL: 0.495006
+TS: 0.004853
+Order Quantity: 20605.81
+Adjusted qty: 20606.0
+Final Adjusted qty: 20605.0
+32400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '46853bae-573a-40e4-99eb-cb6313dc2d3c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758224745448}
+46853bae-573a-40e4-99eb-cb6313dc2d3c
+fetching trade data for :  46853bae-573a-40e4-99eb-cb6313dc2d3c
+[{'symbol': 'AUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '46853bae-573a-40e4-99eb-cb6313dc2d3c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758224745446', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4853', 'execPrice': '0.4853', 'markIv': '', 'orderQty': '20605', 'orderPrice': '0.4368', 'execValue': '9999.6065', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223971404, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49978358', 'execId': 'f56c06d7-c4c7-44fc-9ea5-c08a500a3bd9', 'marketUnit': '', 'execQty': '20605', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARUSDT     | S |  90.63
+Last close price for ARUSDT: 7.264
+Opening Sell for  ARUSDT
+TP: 7.19136
+SL: 7.409280000000001
+TS: 0.07264
+Order Quantity: 1376.65
+Adjusted qty: 1376.6000000000001
+Final Adjusted qty: 1376.6
+4060.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a6b5deae-b4ea-4f02-8a69-445e5ef587f9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758224757915}
+a6b5deae-b4ea-4f02-8a69-445e5ef587f9
+fetching trade data for :  a6b5deae-b4ea-4f02-8a69-445e5ef587f9
+[{'symbol': 'ARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a6b5deae-b4ea-4f02-8a69-445e5ef587f9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758224757914', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.264', 'execPrice': '7.264', 'markIv': '', 'orderQty': '1376.6', 'orderPrice': '6.901', 'execValue': '9999.6224', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223971824, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49979232', 'execId': '2d14b5cc-06bd-4754-b37f-2732effa68ec', 'marketUnit': '', 'execQty': '1376.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CFXUSDT    | S |  85.75
+Last close price for CFXUSDT: 0.1861
+Opening Sell for  CFXUSDT
+TP: 0.18423899999999999
+SL: 0.189822
+TS: 0.0018609999999999998
+Order Quantity: 53734.55
+Adjusted qty: 53735.0
+Final Adjusted qty: 53734.0
+252700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0218f4bc-d497-4ab9-92b4-f189de132fda', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758224770252}
+0218f4bc-d497-4ab9-92b4-f189de132fda
+fetching trade data for :  0218f4bc-d497-4ab9-92b4-f189de132fda
+[{'symbol': 'CFXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0218f4bc-d497-4ab9-92b4-f189de132fda', 'stopOrderType': 'UNKNOWN', 'execTime': '1758224770250', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.18608', 'execPrice': '0.1861', 'markIv': '', 'orderQty': '53734', 'orderPrice': '0.15817', 'execValue': '9999.8974', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697223972218, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49994357', 'execId': '0f5ccc70-b142-49a9-ab37-ca0d7552573a', 'marketUnit': '', 'execQty': '53734', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+MNTUSDT    | S |  75.04
+Last close price for MNTUSDT: 1.8109
+Opening Sell for  MNTUSDT
+TP: 1.792791
+SL: 1.847118
+TS: 0.018109
+Order Quantity: 5522.12
+Adjusted qty: 5522.0
+Final Adjusted qty: 5522.0
+71000.0
