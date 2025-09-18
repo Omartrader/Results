@@ -81547,3 +81547,72 @@ Order Quantity: 60240.96
 Adjusted qty: 60241.0
 Final Adjusted qty: 60240.0
 177000.0
+***************************************************************
+Number of open positions: 8
+Function started at 18.09.2025 06:10:05
+BRETTUSDT 	Latest Close: (0.05251) 	SMA(14) : 0.05 	Delta : S 	Previous STC : 100.00 	STC : 91.98
+PYTHUSDT 	Latest Close: (0.1661) 	SMA(14) : 0.17 	Delta : S 	Previous STC : 100.00 	STC : 79.18
+AEROUSDT 	Latest Close: (1.3249) 	SMA(14) : 1.34 	Delta : S 	Previous STC : 100.00 	STC : 95.15
+SYRUPUSDT 	Latest Close: (0.44196) 	SMA(14) : 0.45 	Delta : S 	Previous STC : 100.00 	STC : 78.26
+USD1USDT 	Latest Close: (0.9989) 	SMA(14) : 1.00 	Delta : S 	Previous STC : 98.37 	STC : 81.95
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AEROUSDT   | S |  95.15
+Last close price for AEROUSDT: 1.3254
+Opening Sell for  AEROUSDT
+TP: 1.3121459999999998
+SL: 1.3519079999999999
+TS: 0.013253999999999998
+Order Quantity: 7544.89
+Adjusted qty: 7545.0
+Final Adjusted qty: 7544.0
+30000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+BRETTUSDT  | S |  91.98
+Last close price for BRETTUSDT: 0.05254
+Opening Sell for  BRETTUSDT
+TP: 0.0520146
+SL: 0.0535908
+TS: 0.0005254000000000001
+Order Quantity: 190331.18
+Adjusted qty: 190330.0
+Final Adjusted qty: 190330.0
+400000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+PYTHUSDT   | S |  79.18
+Last close price for PYTHUSDT: 0.1661
+Opening Sell for  PYTHUSDT
+TP: 0.164439
+SL: 0.169422
+TS: 0.001661
+Order Quantity: 60204.7
+Adjusted qty: 60205.0
+Final Adjusted qty: 60204.0
+177000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dba61ebe-1e3e-4f20-a906-1092e35f5d8c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758161442950}
+dba61ebe-1e3e-4f20-a906-1092e35f5d8c
+fetching trade data for :  dba61ebe-1e3e-4f20-a906-1092e35f5d8c
+[{'symbol': 'PYTHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dba61ebe-1e3e-4f20-a906-1092e35f5d8c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758161442949', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1661', 'execPrice': '0.1661', 'markIv': '', 'orderQty': '60204', 'orderPrice': '0.1495', 'execValue': '9999.8844', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697221919890, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49993642', 'execId': '9f9be1ae-e12a-4fdb-8945-deeca918a8ce', 'marketUnit': '', 'execQty': '60204', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SYRUPUSDT  | S |  78.26
+Last close price for SYRUPUSDT: 0.44196
+Opening Sell for  SYRUPUSDT
+TP: 0.4375404
+SL: 0.4507992
+TS: 0.0044196
+Order Quantity: 22626.48
+Adjusted qty: 22626.0
+Final Adjusted qty: 22626.0
+10000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 18.09.2025 06:10:54
