@@ -53702,3 +53702,36 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 18.09.2025 10:26:10
+***************************************************************
+Number of open positions: 4
+Function started at 18.09.2025 10:31:18
+	TRXUSDT 	Signal: S
+TRXUSDT 	Latest Close: (0.34356) 	SMA(14) : 0.34 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (3.1174) 	SMA(14) : 3.15 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	USDCUSDT 	Signal: S
+USDCUSDT 	Latest Close: (1.0001) 	SMA(14) : 1.00 	Delta :  	Previous STC : 97.55 	STC : 91.89
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | S |  66.67
+1
+Last close price for TRXUSDT: 0.34358
+Opening Sell for  TRXUSDT
+TP: 0.3401442
+SL: 0.35045160000000003
+TS: 0.0034358
+Order Quantity: 58210.61
+Adjusted qty: 58211.0
+Final Adjusted qty: 58210.0
+1356000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '56ea2d15-9bae-42a4-bce4-fd9d22d1b2ec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758177098835}
+56ea2d15-9bae-42a4-bce4-fd9d22d1b2ec
+fetching trade data for :  56ea2d15-9bae-42a4-bce4-fd9d22d1b2ec
+[{'symbol': 'TRXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '56ea2d15-9bae-42a4-bce4-fd9d22d1b2ec', 'stopOrderType': 'UNKNOWN', 'execTime': '1758177098833', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.34358', 'execPrice': '0.34358', 'markIv': '', 'orderQty': '58210', 'orderPrice': '0.32641', 'execValue': '19999.7918', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612534742868, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99988549', 'execId': '636f09bf-d3a3-47c1-b83a-725bdfc984bd', 'marketUnit': '', 'execQty': '58210', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 18.09.2025 10:31:48
