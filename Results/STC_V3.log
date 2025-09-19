@@ -58097,3 +58097,33 @@ Order Quantity: 23640.66
 Adjusted qty: 23640.7
 Final Adjusted qty: 23640.6
 84130.0
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 06:05:45
+	OPUSDT 	Signal: B
+OPUSDT 	Latest Close: (0.854) 	SMA(14) : 0.84 	Delta :  	Previous STC : 10.57 	STC : 25.84
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9994) 	SMA(14) : 1.00 	Delta :  	Previous STC : 96.08 	STC : 84.72
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OPUSDT     | B |  25.84
+1
+Last close price for OPUSDT: 0.8546
+Opening Buy for  OPUSDT
+TP: 0.8631460000000001
+SL: 0.837508
+TS: 0.008546
+Order Quantity: 23402.76
+Adjusted qty: 23402.800000000003
+Final Adjusted qty: 23402.7
+84130.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c90bee3b-2f8b-49b4-9989-c4aaba7dc909', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758247569737}
+c90bee3b-2f8b-49b4-9989-c4aaba7dc909
+fetching trade data for :  c90bee3b-2f8b-49b4-9989-c4aaba7dc909
+[{'symbol': 'OPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c90bee3b-2f8b-49b4-9989-c4aaba7dc909', 'stopOrderType': 'UNKNOWN', 'execTime': '1758247569736', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8548', 'execPrice': '0.8547', 'markIv': '', 'orderQty': '23402.7', 'orderPrice': '0.8975', 'execValue': '20002.28769', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612537246245, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00125823', 'execId': '5832e6cc-f323-4d5a-89b8-3da567e36643', 'marketUnit': '', 'execQty': '23402.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 19.09.2025 06:06:18
