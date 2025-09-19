@@ -88366,3 +88366,67 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 19.09.2025 04:55:52
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 05:00:06
+ENAUSDT 	Latest Close: (0.7076) 	SMA(14) : 0.70 	Delta : B 	Previous STC : 22.98 	STC : 48.65
+XDCUSDT 	Latest Close: (0.07933) 	SMA(14) : 0.08 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+TIAUSDT 	Latest Close: (1.842) 	SMA(14) : 1.82 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | B |  48.65
+Last close price for ENAUSDT: 0.7076
+Opening Buy for  ENAUSDT
+TP: 0.714676
+SL: 0.693448
+TS: 0.007076
+Order Quantity: 14132.28
+Adjusted qty: 14132.0
+Final Adjusted qty: 14132.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dcf1ede8-8166-421a-b488-68583567c447', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758243645277}
+dcf1ede8-8166-421a-b488-68583567c447
+fetching trade data for :  dcf1ede8-8166-421a-b488-68583567c447
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'dcf1ede8-8166-421a-b488-68583567c447', 'stopOrderType': 'UNKNOWN', 'execTime': '1758243645276', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7077', 'execPrice': '0.7076', 'markIv': '', 'orderQty': '14132', 'orderPrice': '0.7784', 'execValue': '9999.8032', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224596835, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49989176', 'execId': 'da12d2f9-7a3e-4f01-91e7-41e6f01b9f28', 'marketUnit': '', 'execQty': '14132', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XDCUSDT    | B |  33.33
+Last close price for XDCUSDT: 0.0794
+Opening Buy for  XDCUSDT
+TP: 0.080194
+SL: 0.07781199999999999
+TS: 0.000794
+Order Quantity: 125944.58
+Adjusted qty: 125945.0
+Final Adjusted qty: 125944.0
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bbd86f5e-2c6a-448b-a85e-80754b7d0e53', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758243657566}
+bbd86f5e-2c6a-448b-a85e-80754b7d0e53
+fetching trade data for :  bbd86f5e-2c6a-448b-a85e-80754b7d0e53
+[{'symbol': 'XDCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bbd86f5e-2c6a-448b-a85e-80754b7d0e53', 'stopOrderType': 'UNKNOWN', 'execTime': '1758243657566', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07935', 'execPrice': '0.0794', 'markIv': '', 'orderQty': '125944', 'orderPrice': '0.09522', 'execValue': '9999.9536', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224597230, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99994896', 'execId': '2568c073-7eee-4d42-a417-e540826c066b', 'marketUnit': '', 'execQty': '125944', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TIAUSDT    | B |  33.33
+Last close price for TIAUSDT: 1.845
+Opening Buy for  TIAUSDT
+TP: 1.86345
+SL: 1.8081
+TS: 0.01845
+Order Quantity: 5420.05
+Adjusted qty: 5420.0
+Final Adjusted qty: 5420.0
+16390.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '693c66f6-b817-4349-8a55-d39c21f52883', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758243669888}
+693c66f6-b817-4349-8a55-d39c21f52883
+fetching trade data for :  693c66f6-b817-4349-8a55-d39c21f52883
+[{'symbol': 'TIAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '693c66f6-b817-4349-8a55-d39c21f52883', 'stopOrderType': 'UNKNOWN', 'execTime': '1758243669888', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.8444', 'execPrice': '1.845', 'markIv': '', 'orderQty': '5420', 'orderPrice': '1.936', 'execValue': '9999.9', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224597635, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.499945', 'execId': '9af8cdca-ddf9-4bc3-afcf-8ca4f4c976b4', 'marketUnit': '', 'execQty': '5420', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 19.09.2025 05:01:19
