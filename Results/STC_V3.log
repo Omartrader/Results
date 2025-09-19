@@ -61573,3 +61573,53 @@ Order Quantity: 23526.64
 Adjusted qty: 23526.600000000002
 Final Adjusted qty: 23526.6
 21190.0
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 22:11:08
+	IMXUSDT 	Signal: S
+IMXUSDT 	Latest Close: (0.8455) 	SMA(14) : 0.86 	Delta :  	Previous STC : 97.24 	STC : 91.16
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (4.541) 	SMA(14) : 4.59 	Delta :  	Previous STC : 98.84 	STC : 95.62
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+APTUSDT    | S |  95.62
+1
+Last close price for APTUSDT: 4.545
+Opening Sell for  APTUSDT
+TP: 4.49955
+SL: 4.6359
+TS: 0.04545
+Order Quantity: 4400.44
+Adjusted qty: 4400.4400000000005
+Final Adjusted qty: 4400.44
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bae3325e-be06-436a-bb12-5f9da62e2d89', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758305488868}
+bae3325e-be06-436a-bb12-5f9da62e2d89
+fetching trade data for :  bae3325e-be06-436a-bb12-5f9da62e2d89
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bae3325e-be06-436a-bb12-5f9da62e2d89', 'stopOrderType': 'UNKNOWN', 'execTime': '1758305488867', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.5442', 'execPrice': '4.543', 'markIv': '', 'orderQty': '4400.44', 'orderPrice': '4.317', 'execValue': '19991.19892', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612539256682, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99515941', 'execId': '5174a3c1-02cd-48dc-aa42-2042f00d2ae1', 'marketUnit': '', 'execQty': '4400.44', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IMXUSDT    | S |  91.16
+1
+Last close price for IMXUSDT: 0.8458
+Opening Sell for  IMXUSDT
+TP: 0.837342
+SL: 0.862716
+TS: 0.008458
+Order Quantity: 23646.25
+Adjusted qty: 23646.2
+Final Adjusted qty: 23646.2
+21190.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b179b520-d4fd-414e-80cf-1d8c9dc4984c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758305500728}
+b179b520-d4fd-414e-80cf-1d8c9dc4984c
+fetching trade data for :  b179b520-d4fd-414e-80cf-1d8c9dc4984c
+[{'symbol': 'IMXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b179b520-d4fd-414e-80cf-1d8c9dc4984c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758305500727', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.8458', 'execPrice': '0.8458', 'markIv': '', 'orderQty': '21190', 'orderPrice': '0.7613', 'execValue': '17922.502', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612539257100, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.8573761', 'execId': '38132c86-2a7e-47c4-b91c-28a056084a58', 'marketUnit': '', 'execQty': '21190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 19.09.2025 22:11:50
