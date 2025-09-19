@@ -62155,3 +62155,38 @@ Order Quantity: 84.19
 Adjusted qty: 84.2
 Final Adjusted qty: 84.1
 11740.0
+***************************************************************
+Number of open positions: 4
+Function started at 20.09.2025 00:45:44
+	VETUSDT 	Signal: B
+VETUSDT 	Latest Close: (0.02501) 	SMA(14) : 0.02 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	SEIUSDT 	Signal: B
+SEIUSDT 	Latest Close: (0.3225) 	SMA(14) : 0.32 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0248) 	SMA(14) : 1.02 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	OPUSDT 	Signal: B
+OPUSDT 	Latest Close: (0.7987) 	SMA(14) : 0.80 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | B |  33.33
+1
+Last close price for VETUSDT: 0.02501
+Opening Buy for  VETUSDT
+TP: 0.0252601
+SL: 0.0245098
+TS: 0.0002501
+Order Quantity: 799680.13
+Adjusted qty: 799680.0
+Final Adjusted qty: 799680.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2e31c57a-bc64-4ae2-9277-6728a938a4a2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758314766717}
+2e31c57a-bc64-4ae2-9277-6728a938a4a2
+fetching trade data for :  2e31c57a-bc64-4ae2-9277-6728a938a4a2
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2e31c57a-bc64-4ae2-9277-6728a938a4a2', 'stopOrderType': 'UNKNOWN', 'execTime': '1758314766716', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02501', 'execPrice': '0.02501', 'markIv': '', 'orderQty': '437000', 'orderPrice': '0.02523', 'execValue': '10929.37', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612539573091, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '6.0111535', 'execId': '3c96ed21-d43d-4622-b8e6-e9df28b9d1d5', 'marketUnit': '', 'execQty': '437000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 20.09.2025 00:46:15
