@@ -61669,3 +61669,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 19.09.2025 22:21:09
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 22:25:44
+	AVAXUSDT 	Signal: B
+AVAXUSDT 	Latest Close: (33.961) 	SMA(14) : 33.96 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (4.565) 	SMA(14) : 4.59 	Delta :  	Previous STC : 96.10 	STC : 88.74
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+APTUSDT    | S |  88.74
+1
+Last close price for APTUSDT: 4.565
+Opening Sell for  APTUSDT
+TP: 4.51935
+SL: 4.656300000000001
+TS: 0.04565
+Order Quantity: 4381.16
+Adjusted qty: 4381.16
+Final Adjusted qty: 4381.16
+15408.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+AVAXUSDT   | B |  33.33
+1
+Last close price for AVAXUSDT: 33.954
+Opening Buy for  AVAXUSDT
+TP: 34.29354
+SL: 33.27492
+TS: 0.33954
+Order Quantity: 589.03
+Adjusted qty: 589.0
+Final Adjusted qty: 589.0
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f2d7dc41-f471-4368-81f1-c91ee9f25f46', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758306367329}
+f2d7dc41-f471-4368-81f1-c91ee9f25f46
+fetching trade data for :  f2d7dc41-f471-4368-81f1-c91ee9f25f46
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f2d7dc41-f471-4368-81f1-c91ee9f25f46', 'stopOrderType': 'UNKNOWN', 'execTime': '1758306367327', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '33.963', 'execPrice': '33.956', 'markIv': '', 'orderQty': '589', 'orderPrice': '34.642', 'execValue': '20000.084', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612539286802, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0000462', 'execId': '050d523f-98e6-456e-99d0-f4d6db51bfda', 'marketUnit': '', 'execQty': '589', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 19.09.2025 22:26:16
