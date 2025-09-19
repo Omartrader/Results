@@ -88596,3 +88596,29 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 19.09.2025 05:25:40
+***************************************************************
+Number of open positions: 4
+Function started at 19.09.2025 05:30:06
+SUSDT 	Latest Close: (0.3147) 	SMA(14) : 0.31 	Delta : B 	Previous STC : 6.59 	STC : 33.52
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SUSDT      | B |  33.52
+Last close price for SUSDT: 0.3147
+Opening Buy for  SUSDT
+TP: 0.317847
+SL: 0.30840599999999996
+TS: 0.0031469999999999996
+Order Quantity: 31776.29
+Adjusted qty: 31776.0
+Final Adjusted qty: 31776.0
+26000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fabae14b-e140-4ac2-af17-1ec233ee1f84', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758245441916}
+fabae14b-e140-4ac2-af17-1ec233ee1f84
+fetching trade data for :  fabae14b-e140-4ac2-af17-1ec233ee1f84
+[{'symbol': 'SUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fabae14b-e140-4ac2-af17-1ec233ee1f84', 'stopOrderType': 'UNKNOWN', 'execTime': '1758245441915', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.3146', 'execPrice': '0.3147', 'markIv': '', 'orderQty': '26000', 'orderPrice': '0.3303', 'execValue': '8182.2', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224655738, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '4.50021', 'execId': 'f1c3c423-1e6c-455e-a0bc-106ab5f11a14', 'marketUnit': '', 'execQty': '26000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 19.09.2025 05:30:51
