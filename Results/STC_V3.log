@@ -58685,3 +58685,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 19.09.2025 08:26:18
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 08:31:43
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.3384) 	SMA(14) : 0.34 	Delta :  	Previous STC : 98.37 	STC : 95.47
+	OPUSDT 	Signal: S
+OPUSDT 	Latest Close: (0.8253) 	SMA(14) : 0.84 	Delta :  	Previous STC : 96.94 	STC : 92.35
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SEIUSDT    | S |  95.47
+1
+Last close price for SEIUSDT: 0.3382
+Opening Sell for  SEIUSDT
+TP: 0.334818
+SL: 0.344964
+TS: 0.003382
+Order Quantity: 59136.61
+Adjusted qty: 59137.0
+Final Adjusted qty: 59136.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e7c04456-7bf1-4263-8450-74caf026287e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758256322657}
+e7c04456-7bf1-4263-8450-74caf026287e
+fetching trade data for :  e7c04456-7bf1-4263-8450-74caf026287e
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e7c04456-7bf1-4263-8450-74caf026287e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758256322656', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.33826', 'execPrice': '0.3383', 'markIv': '', 'orderQty': '59136', 'orderPrice': '0.3045', 'execValue': '20005.7088', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612537549890, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00313984', 'execId': 'bba899fa-e463-47ba-9bca-c113612222c4', 'marketUnit': '', 'execQty': '59136', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OPUSDT     | S |  92.35
+1
+Last close price for OPUSDT: 0.8257
+Opening Sell for  OPUSDT
+TP: 0.817443
+SL: 0.842214
+TS: 0.008257
+Order Quantity: 24221.87
+Adjusted qty: 24221.9
+Final Adjusted qty: 24221.8
+84130.0
