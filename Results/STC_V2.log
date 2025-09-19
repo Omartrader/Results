@@ -89073,3 +89073,76 @@ Order Quantity: 421762.97
 Adjusted qty: 421760.0
 Final Adjusted qty: 421760.0
 509000.0
+***************************************************************
+Number of open positions: 6
+Function started at 19.09.2025 06:25:05
+IMXUSDT 	Latest Close: (0.9131) 	SMA(14) : 0.89 	Delta : B 	Previous STC : 8.87 	STC : 32.71
+FLRUSDT 	Latest Close: (0.02371) 	SMA(14) : 0.02 	Delta : B 	Previous STC : 0.00 	STC : 33.33
+XTZUSDT 	Latest Close: (0.8118) 	SMA(14) : 0.80 	Delta : B 	Previous STC : 20.61 	STC : 47.08
+INJUSDT 	Latest Close: (14.734) 	SMA(14) : 14.75 	Delta : S 	Previous STC : 100.00 	STC : 93.42
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+INJUSDT    | S |  93.42
+Last close price for INJUSDT: 14.735
+Opening Sell for  INJUSDT
+TP: 14.58765
+SL: 15.0297
+TS: 0.14734999999999998
+Order Quantity: 678.66
+Adjusted qty: 678.7
+Final Adjusted qty: 678.6
+6020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XTZUSDT    | B |  47.08
+Last close price for XTZUSDT: 0.8118
+Opening Buy for  XTZUSDT
+TP: 0.8199179999999999
+SL: 0.7955639999999999
+TS: 0.008118
+Order Quantity: 12318.31
+Adjusted qty: 12318.300000000001
+Final Adjusted qty: 12318.3
+62530.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+FLRUSDT    | B |  33.33
+Last close price for FLRUSDT: 0.02371
+Opening Buy for  FLRUSDT
+TP: 0.0239471
+SL: 0.023235799999999997
+TS: 0.0002371
+Order Quantity: 421762.97
+Adjusted qty: 421760.0
+Final Adjusted qty: 421760.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '879dbbfe-7124-42e7-a39f-d9fc290bca7d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758248744019}
+879dbbfe-7124-42e7-a39f-d9fc290bca7d
+fetching trade data for :  879dbbfe-7124-42e7-a39f-d9fc290bca7d
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '879dbbfe-7124-42e7-a39f-d9fc290bca7d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758248744018', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02371', 'execPrice': '0.02371', 'markIv': '', 'orderQty': '421760', 'orderPrice': '0.02845', 'execValue': '9999.9296', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224761549, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.49996128', 'execId': '80edbc08-962c-4066-a4a1-bcefa5e9f4e5', 'marketUnit': '', 'execQty': '421760', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IMXUSDT    | B |  32.71
+Last close price for IMXUSDT: 0.9178
+Opening Buy for  IMXUSDT
+TP: 0.926978
+SL: 0.8994439999999999
+TS: 0.009177999999999999
+Order Quantity: 10895.62
+Adjusted qty: 10895.6
+Final Adjusted qty: 10895.6
+21190.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fcad2e20-9b2c-45c0-bc19-e30e0464ecb5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758248756084}
+fcad2e20-9b2c-45c0-bc19-e30e0464ecb5
+fetching trade data for :  fcad2e20-9b2c-45c0-bc19-e30e0464ecb5
+[{'symbol': 'IMXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fcad2e20-9b2c-45c0-bc19-e30e0464ecb5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758248756083', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.9179', 'execPrice': '0.9181', 'markIv': '', 'orderQty': '10895.6', 'orderPrice': '1.0096', 'execValue': '10003.25036', 'closedSize': '0', 'execType': 'Trade', 'seq': 140697224761942, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.5017877', 'execId': '5c70ad4d-6ebd-41b0-ba54-6874e2711be5', 'marketUnit': '', 'execQty': '10895.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 19.09.2025 06:26:04
