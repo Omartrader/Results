@@ -59085,3 +59085,43 @@ Order Quantity: 66.98
 Adjusted qty: 66.98
 Final Adjusted qty: 66.98
 205.0
+***************************************************************
+Number of open positions: 3
+Function started at 19.09.2025 10:21:07
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.2214) 	SMA(14) : 0.22 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (298.66) 	SMA(14) : 298.02 	Delta :  	Previous STC : 22.00 	STC : 48.00
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XMRUSDT    | B |  48.00
+1
+Last close price for XMRUSDT: 298.66
+Opening Buy for  XMRUSDT
+TP: 301.64660000000003
+SL: 292.6868
+TS: 2.9866
+Order Quantity: 66.97
+Adjusted qty: 66.97
+Final Adjusted qty: 66.97
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6f18b63c-b8a0-45af-91e0-db3407b44df0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758262889109}
+6f18b63c-b8a0-45af-91e0-db3407b44df0
+fetching trade data for :  6f18b63c-b8a0-45af-91e0-db3407b44df0
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6f18b63c-b8a0-45af-91e0-db3407b44df0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758262889108', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '298.66', 'execPrice': '298.66', 'markIv': '', 'orderQty': '66.97', 'orderPrice': '313.59', 'execValue': '20001.2602', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612537775129, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00069311', 'execId': 'a9659f12-9e2d-4c11-a965-36419de7f467', 'marketUnit': '', 'execQty': '66.97', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLFIUSDT   | B |  33.33
+1
+Last close price for WLFIUSDT: 0.2209
+Opening Buy for  WLFIUSDT
+TP: 0.223109
+SL: 0.216482
+TS: 0.002209
+Order Quantity: 90538.71
+Adjusted qty: 90539.0
+Final Adjusted qty: 90538.0
+80000.0
