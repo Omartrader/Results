@@ -59408,3 +59408,36 @@ USDEUSDT 	Latest Close: (1.0003) 	SMA(14) : 1.00 	Delta :  	Previous STC : 0.00 
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 19.09.2025 12:26:01
+***************************************************************
+Number of open positions: 4
+Function started at 19.09.2025 12:30:54
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (612.3) 	SMA(14) : 610.34 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (355.8) 	SMA(14) : 354.40 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	BTCUSDT 	Signal: B
+BTCUSDT 	Latest Close: (117020.3) 	SMA(14) : 116830.52 	Delta :  	Previous STC : 0.00 	STC : 25.35
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TAOUSDT    | B |  33.33
+1
+Last close price for TAOUSDT: 355.81
+Opening Buy for  TAOUSDT
+TP: 359.3681
+SL: 348.6938
+TS: 3.5581
+Order Quantity: 56.21
+Adjusted qty: 56.21
+Final Adjusted qty: 56.21
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '32f5ea2f-580e-4797-97a6-25ec27dc4a9b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758270678388}
+32f5ea2f-580e-4797-97a6-25ec27dc4a9b
+fetching trade data for :  32f5ea2f-580e-4797-97a6-25ec27dc4a9b
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '32f5ea2f-580e-4797-97a6-25ec27dc4a9b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758270678387', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '355.79', 'execPrice': '355.79', 'markIv': '', 'orderQty': '56.21', 'orderPrice': '368.48', 'execValue': '19998.9559', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612538042962, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99942575', 'execId': 'b435ede3-c831-4e03-8af6-e5a5fa6e3d81', 'marketUnit': '', 'execQty': '56.21', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 19.09.2025 12:31:28
