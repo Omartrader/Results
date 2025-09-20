@@ -66071,3 +66071,51 @@ Order Quantity: 103.85
 Adjusted qty: 103.85000000000001
 Final Adjusted qty: 103.85
 128.0
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 18:51:11
+	SEIUSDT 	Signal: B
+SEIUSDT 	Latest Close: (0.3218) 	SMA(14) : 0.32 	Delta :  	Previous STC : 16.25 	STC : 31.23
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0253) 	SMA(14) : 1.02 	Delta :  	Previous STC : 10.50 	STC : 26.26
+	IPUSDT 	Signal: B
+IPUSDT 	Latest Close: (10.884) 	SMA(14) : 10.73 	Delta :  	Previous STC : 18.33 	STC : 45.55
+	TRUMPUSDT 	Signal: B
+TRUMPUSDT 	Latest Close: (8.48) 	SMA(14) : 8.45 	Delta :  	Previous STC : 18.25 	STC : 45.50
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (9.231) 	SMA(14) : 9.17 	Delta :  	Previous STC : 4.96 	STC : 25.27
+	OKBUSDT 	Signal: B
+OKBUSDT 	Latest Close: (193.12) 	SMA(14) : 191.94 	Delta :  	Previous STC : 23.62 	STC : 49.08
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OKBUSDT    | B |  49.08
+1
+Last close price for OKBUSDT: 193.12
+Opening Buy for  OKBUSDT
+TP: 195.0512
+SL: 189.2576
+TS: 1.9312
+Order Quantity: 103.56
+Adjusted qty: 103.56
+Final Adjusted qty: 103.56
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b4d72021-0099-4e2a-b362-c671e350592e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758379892796}
+b4d72021-0099-4e2a-b362-c671e350592e
+fetching trade data for :  b4d72021-0099-4e2a-b362-c671e350592e
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b4d72021-0099-4e2a-b362-c671e350592e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758379892795', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '193.12', 'execPrice': '193.12', 'markIv': '', 'orderQty': '103.56', 'orderPrice': '222.08', 'execValue': '19999.5072', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612541687691, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99972896', 'execId': 'daf85104-2855-4bf2-b5ba-06299649c195', 'marketUnit': '', 'execQty': '103.56', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     | B |  45.55
+1
+Last close price for IPUSDT: 10.8949
+Opening Buy for  IPUSDT
+TP: 11.003849
+SL: 10.677002
+TS: 0.108949
+Order Quantity: 1835.72
+Adjusted qty: 1835.7
+Final Adjusted qty: 1835.7
+2400.0
