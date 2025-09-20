@@ -63491,3 +63491,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 20.09.2025 07:26:09
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 07:31:16
+	WLDUSDT 	Signal: S
+WLDUSDT 	Latest Close: (1.4854) 	SMA(14) : 1.50 	Delta :  	Previous STC : 96.73 	STC : 75.59
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.23071) 	SMA(14) : 0.23 	Delta :  	Previous STC : 99.44 	STC : 90.52
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  90.52
+1
+Last close price for CROUSDT: 0.23072
+Opening Sell for  CROUSDT
+TP: 0.2284128
+SL: 0.2353344
+TS: 0.0023072
+Order Quantity: 86685.16
+Adjusted qty: 86685.0
+Final Adjusted qty: 86685.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ce40f13d-5cdc-4508-87e0-40bf4e591284', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758339097437}
+ce40f13d-5cdc-4508-87e0-40bf4e591284
+fetching trade data for :  ce40f13d-5cdc-4508-87e0-40bf4e591284
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ce40f13d-5cdc-4508-87e0-40bf4e591284', 'stopOrderType': 'UNKNOWN', 'execTime': '1758339097436', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23074', 'execPrice': '0.23072', 'markIv': '', 'orderQty': '79800', 'orderPrice': '0.20767', 'execValue': '18411.456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612540359572, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.1263008', 'execId': 'da0262c9-7ba0-40c0-bc15-f8ba70d7d8fe', 'marketUnit': '', 'execQty': '79800', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | S |  75.59
+1
+Last close price for WLDUSDT: 1.4846
+Opening Sell for  WLDUSDT
+TP: 1.469754
+SL: 1.514292
+TS: 0.014846
+Order Quantity: 13471.64
+Adjusted qty: 13471.6
+Final Adjusted qty: 13471.6
+34020.0
