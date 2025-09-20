@@ -65368,3 +65368,47 @@ Order Quantity: 58.51
 Adjusted qty: 58.51
 Final Adjusted qty: 58.51
 60.0
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 14:45:57
+	ONDOUSDT 	Signal: S
+ONDOUSDT 	Latest Close: (1.015) 	SMA(14) : 1.02 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	XLMUSDT 	Signal: S
+XLMUSDT 	Latest Close: (0.38922) 	SMA(14) : 0.39 	Delta :  	Previous STC : 97.27 	STC : 82.36
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2341) 	SMA(14) : 0.24 	Delta :  	Previous STC : 98.56 	STC : 78.45
+	ATOMUSDT 	Signal: S
+ATOMUSDT 	Latest Close: (4.449) 	SMA(14) : 4.46 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    | S |  82.36
+1
+Last close price for XLMUSDT: 0.38912
+Opening Sell for  XLMUSDT
+TP: 0.38522880000000004
+SL: 0.39690240000000004
+TS: 0.0038912
+Order Quantity: 51398.03
+Adjusted qty: 51398.0
+Final Adjusted qty: 51398.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5f6c8c52-e78f-417b-9744-246c9491f451', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758365175879}
+5f6c8c52-e78f-417b-9744-246c9491f451
+fetching trade data for :  5f6c8c52-e78f-417b-9744-246c9491f451
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5f6c8c52-e78f-417b-9744-246c9491f451', 'stopOrderType': 'UNKNOWN', 'execTime': '1758365175879', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.38922', 'execPrice': '0.38912', 'markIv': '', 'orderQty': '51398', 'orderPrice': '0.36976', 'execValue': '19999.98976', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612541201890, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999437', 'execId': '66b6a97c-131d-4c63-a80a-f60ad1c26912', 'marketUnit': '', 'execQty': '51398', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ALGOUSDT   | S |  78.45
+1
+Last close price for ALGOUSDT: 0.2341
+Opening Sell for  ALGOUSDT
+TP: 0.231759
+SL: 0.238782
+TS: 0.002341
+Order Quantity: 85433.58
+Adjusted qty: 85433.6
+Final Adjusted qty: 85433.5
+160000.0
