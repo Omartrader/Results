@@ -68508,3 +68508,31 @@ Order Quantity: 89565.61
 Adjusted qty: 89566.0
 Final Adjusted qty: 89565.0
 80000.0
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 03:35:44
+	WLFIUSDT 	Signal: S
+WLFIUSDT 	Latest Close: (0.2236) 	SMA(14) : 0.23 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | S |  66.67
+1
+Last close price for WLFIUSDT: 0.2236
+Opening Sell for  WLFIUSDT
+TP: 0.22136399999999998
+SL: 0.228072
+TS: 0.002236
+Order Quantity: 89445.44
+Adjusted qty: 89445.0
+Final Adjusted qty: 89445.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b07f7518-6217-43fa-aaf5-168dc3d07fd9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758411367119}
+b07f7518-6217-43fa-aaf5-168dc3d07fd9
+fetching trade data for :  b07f7518-6217-43fa-aaf5-168dc3d07fd9
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b07f7518-6217-43fa-aaf5-168dc3d07fd9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758411367118', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2237', 'execPrice': '0.2237', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.1902', 'execValue': '17896', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612542724120, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '9.8428', 'execId': '943cca2e-d193-4a91-90b2-03286418cd91', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 21.09.2025 03:36:16
