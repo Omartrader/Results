@@ -64097,3 +64097,43 @@ Order Quantity: 6408.2
 Adjusted qty: 6408.200000000001
 Final Adjusted qty: 6408.2
 66470.0
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 10:20:41
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.39112) 	SMA(14) : 0.39 	Delta :  	Previous STC : 21.30 	STC : 31.55
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (3.118) 	SMA(14) : 3.11 	Delta :  	Previous STC : 17.69 	STC : 45.12
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | B |  45.12
+1
+Last close price for NEARUSDT: 3.119
+Opening Buy for  NEARUSDT
+TP: 3.1501900000000003
+SL: 3.05662
+TS: 0.031190000000000002
+Order Quantity: 6412.31
+Adjusted qty: 6412.3
+Final Adjusted qty: 6412.3
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b56cc43f-bf62-4e18-a01d-824feadcdf25', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758349261149}
+b56cc43f-bf62-4e18-a01d-824feadcdf25
+fetching trade data for :  b56cc43f-bf62-4e18-a01d-824feadcdf25
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b56cc43f-bf62-4e18-a01d-824feadcdf25', 'stopOrderType': 'UNKNOWN', 'execTime': '1758349261149', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.119', 'execPrice': '3.119', 'markIv': '', 'orderQty': '6412.3', 'orderPrice': '3.274', 'execValue': '19999.9637', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612540680489, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998004', 'execId': '93908d6a-4def-4e26-ac6d-a19014dc64f9', 'marketUnit': '', 'execQty': '6412.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XLMUSDT    | B |  31.55
+1
+Last close price for XLMUSDT: 0.3913
+Opening Buy for  XLMUSDT
+TP: 0.395213
+SL: 0.383474
+TS: 0.003913
+Order Quantity: 51111.68
+Adjusted qty: 51112.0
+Final Adjusted qty: 51111.0
+1636400.0
