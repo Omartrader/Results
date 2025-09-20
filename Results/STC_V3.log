@@ -64963,3 +64963,43 @@ Order Quantity: 84.14
 Adjusted qty: 84.10000000000001
 Final Adjusted qty: 84.1
 11740.0
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 13:35:43
+	SOLUSDT 	Signal: S
+SOLUSDT 	Latest Close: (237.16) 	SMA(14) : 238.63 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (9.105) 	SMA(14) : 9.19 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  66.67
+1
+Last close price for SOLUSDT: 237.36
+Opening Sell for  SOLUSDT
+TP: 234.9864
+SL: 242.1072
+TS: 2.3736
+Order Quantity: 84.26
+Adjusted qty: 84.30000000000001
+Final Adjusted qty: 84.2
+11740.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '63f6ca0b-4f43-409c-9601-6fab25ab4934', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758360965599}
+63f6ca0b-4f43-409c-9601-6fab25ab4934
+fetching trade data for :  63f6ca0b-4f43-409c-9601-6fab25ab4934
+[{'symbol': 'SOLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '63f6ca0b-4f43-409c-9601-6fab25ab4934', 'stopOrderType': 'UNKNOWN', 'execTime': '1758360965598', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '237.354', 'execPrice': '237.35', 'markIv': '', 'orderQty': '84.2', 'orderPrice': '225.49', 'execValue': '19984.87', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612541063877, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9916785', 'execId': '2d71cb80-4f63-4ef3-9f89-0ccb7f31c2be', 'marketUnit': '', 'execQty': '84.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | S |  66.67
+1
+Last close price for UNIUSDT: 9.11
+Opening Sell for  UNIUSDT
+TP: 9.018899999999999
+SL: 9.2922
+TS: 0.0911
+Order Quantity: 2195.39
+Adjusted qty: 2195.4
+Final Adjusted qty: 2195.3
+17540.0
