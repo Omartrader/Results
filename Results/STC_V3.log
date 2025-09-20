@@ -64287,3 +64287,45 @@ Order Quantity: 283929.59
 Adjusted qty: 283930.0
 Final Adjusted qty: 283920.0
 310000.0
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 11:05:45
+	ENAUSDT 	Signal: B
+ENAUSDT 	Latest Close: (0.6707) 	SMA(14) : 0.67 	Delta :  	Previous STC : 16.02 	STC : 39.41
+	SEIUSDT 	Signal: B
+SEIUSDT 	Latest Close: (0.3202) 	SMA(14) : 0.32 	Delta :  	Previous STC : 20.39 	STC : 30.28
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.07014) 	SMA(14) : 0.07 	Delta :  	Previous STC : 100.00 	STC : 93.95
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  93.95
+1
+Last close price for SKYUSDT: 0.07023
+Opening Sell for  SKYUSDT
+TP: 0.0695277
+SL: 0.0716346
+TS: 0.0007023
+Order Quantity: 284778.58
+Adjusted qty: 284780.0
+Final Adjusted qty: 284770.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5efdf9b1-2568-4930-aa90-c68384850342', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758351962923}
+5efdf9b1-2568-4930-aa90-c68384850342
+fetching trade data for :  5efdf9b1-2568-4930-aa90-c68384850342
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5efdf9b1-2568-4930-aa90-c68384850342', 'stopOrderType': 'UNKNOWN', 'execTime': '1758351962922', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07023', 'execPrice': '0.07024', 'markIv': '', 'orderQty': '284770', 'orderPrice': '0.0597', 'execValue': '20002.2448', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612540765842, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00123464', 'execId': '9d4a0a64-ead8-494e-9fbd-5bdc43a03a21', 'marketUnit': '', 'execQty': '284770', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | B |  39.41
+1
+Last close price for ENAUSDT: 0.6705
+Opening Buy for  ENAUSDT
+TP: 0.677205
+SL: 0.65709
+TS: 0.006705
+Order Quantity: 29828.49
+Adjusted qty: 29828.0
+Final Adjusted qty: 29828.0
+100000.0
