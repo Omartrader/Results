@@ -64350,3 +64350,43 @@ Order Quantity: 29722.1
 Adjusted qty: 29722.0
 Final Adjusted qty: 29722.0
 100000.0
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 11:15:51
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.07105) 	SMA(14) : 0.07 	Delta :  	Previous STC : 98.45 	STC : 82.71
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.23261) 	SMA(14) : 0.23 	Delta :  	Previous STC : 11.88 	STC : 27.31
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  82.71
+1
+Last close price for SKYUSDT: 0.07105
+Opening Sell for  SKYUSDT
+TP: 0.0703395
+SL: 0.07247100000000001
+TS: 0.0007105
+Order Quantity: 281491.91
+Adjusted qty: 281490.0
+Final Adjusted qty: 281490.0
+310000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cd56346f-1bb2-4d8e-be78-520b5ed0720b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758352570129}
+cd56346f-1bb2-4d8e-be78-520b5ed0720b
+fetching trade data for :  cd56346f-1bb2-4d8e-be78-520b5ed0720b
+[{'symbol': 'SKYUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cd56346f-1bb2-4d8e-be78-520b5ed0720b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758352570129', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07106', 'execPrice': '0.07105', 'markIv': '', 'orderQty': '281490', 'orderPrice': '0.06041', 'execValue': '19999.8645', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612540785555, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99992548', 'execId': '9cec67cf-92f5-47e7-88fc-8e1bb1572207', 'marketUnit': '', 'execQty': '281490', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | B |  27.31
+1
+Last close price for CROUSDT: 0.23262
+Opening Buy for  CROUSDT
+TP: 0.2349462
+SL: 0.2279676
+TS: 0.0023262
+Order Quantity: 85977.13
+Adjusted qty: 85977.0
+Final Adjusted qty: 85977.0
+79800.0
