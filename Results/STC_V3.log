@@ -66816,3 +66816,31 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 20.09.2025 20:26:24
+***************************************************************
+Number of open positions: 3
+Function started at 20.09.2025 20:30:40
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (98.11) 	SMA(14) : 98.06 	Delta :  	Previous STC : 11.84 	STC : 41.22
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+QNTUSDT    | B |  41.22
+1
+Last close price for QNTUSDT: 98.11
+Opening Buy for  QNTUSDT
+TP: 99.0911
+SL: 96.1478
+TS: 0.9811
+Order Quantity: 203.85
+Adjusted qty: 203.85
+Final Adjusted qty: 203.85
+279.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '625bd4e1-023a-4548-9ee8-84e9448bc2bb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758385868713}
+625bd4e1-023a-4548-9ee8-84e9448bc2bb
+fetching trade data for :  625bd4e1-023a-4548-9ee8-84e9448bc2bb
+[{'symbol': 'QNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '625bd4e1-023a-4548-9ee8-84e9448bc2bb', 'stopOrderType': 'UNKNOWN', 'execTime': '1758385868713', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '98.11', 'execPrice': '98.11', 'markIv': '', 'orderQty': '203.85', 'orderPrice': '107.92', 'execValue': '19999.7235', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612541890457, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99984793', 'execId': '08555798-acd6-4d87-bccd-93bef2d33ae3', 'marketUnit': '', 'execQty': '203.85', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 20.09.2025 20:31:20
