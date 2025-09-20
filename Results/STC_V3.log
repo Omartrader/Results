@@ -68338,3 +68338,31 @@ Order Quantity: 37771.48
 Adjusted qty: 37771.0
 Final Adjusted qty: 37771.0
 79000.0
+***************************************************************
+Number of open positions: 2
+Function started at 21.09.2025 02:35:57
+	JUPUSDT 	Signal: B
+JUPUSDT 	Latest Close: (0.5288) 	SMA(14) : 0.53 	Delta :  	Previous STC : 17.82 	STC : 26.57
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+JUPUSDT    | B |  26.57
+1
+Last close price for JUPUSDT: 0.5288
+Opening Buy for  JUPUSDT
+TP: 0.534088
+SL: 0.518224
+TS: 0.005288
+Order Quantity: 37821.48
+Adjusted qty: 37821.0
+Final Adjusted qty: 37821.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5a72b669-ad3f-4a88-9257-3dfacb4118db', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758407780409}
+5a72b669-ad3f-4a88-9257-3dfacb4118db
+fetching trade data for :  5a72b669-ad3f-4a88-9257-3dfacb4118db
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5a72b669-ad3f-4a88-9257-3dfacb4118db', 'stopOrderType': 'UNKNOWN', 'execTime': '1758407780408', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5288', 'execPrice': '0.5288', 'markIv': '', 'orderQty': '37821', 'orderPrice': '0.5552', 'execValue': '19999.7448', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612542610081, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99985964', 'execId': '833cf452-642e-4b0d-9397-2a81181552b1', 'marketUnit': '', 'execQty': '37821', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 21.09.2025 02:36:29
