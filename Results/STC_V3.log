@@ -74019,3 +74019,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 22.09.2025 02:56:27
+***************************************************************
+Number of open positions: 3
+Function started at 22.09.2025 03:00:58
+	PENGUUSDT 	Signal: B
+PENGUUSDT 	Latest Close: (0.034284) 	SMA(14) : 0.03 	Delta :  	Previous STC : 5.37 	STC : 36.92
+	AAVEUSDT 	Signal: S
+AAVEUSDT 	Latest Close: (295.58) 	SMA(14) : 295.59 	Delta :  	Previous STC : 98.06 	STC : 94.95
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AAVEUSDT   | S |  94.95
+1
+Last close price for AAVEUSDT: 295.58
+Opening Sell for  AAVEUSDT
+TP: 292.6242
+SL: 301.4916
+TS: 2.9558
+Order Quantity: 67.66
+Adjusted qty: 67.66
+Final Adjusted qty: 67.66
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd388c7c8-e49b-4cc7-ad17-5b0d1e1efeec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758495677920}
+d388c7c8-e49b-4cc7-ad17-5b0d1e1efeec
+fetching trade data for :  d388c7c8-e49b-4cc7-ad17-5b0d1e1efeec
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd388c7c8-e49b-4cc7-ad17-5b0d1e1efeec', 'stopOrderType': 'UNKNOWN', 'execTime': '1758495677919', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '295.62', 'execPrice': '295.58', 'markIv': '', 'orderQty': '67.66', 'orderPrice': '280.84', 'execValue': '19998.9428', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612545503448, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99941854', 'execId': '3cd58dec-a6fc-40ac-91c4-bc82786d62b4', 'marketUnit': '', 'execQty': '67.66', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+PENGUUSDT  | B |  36.92
+1
+Last close price for PENGUUSDT: 0.034265
+Opening Buy for  PENGUUSDT
+TP: 0.03460765
+SL: 0.0335797
+TS: 0.00034264999999999995
+Order Quantity: 583685.98
+Adjusted qty: 583690.0
+Final Adjusted qty: 583680.0
+2500000.0
