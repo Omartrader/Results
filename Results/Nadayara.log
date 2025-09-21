@@ -76,3 +76,108 @@ Position already open.
 0
    Trade Result: 0
 [FAILED] Trade failed for WLFIUSDT
+***************************************************************
+Number of open positions: 4
+*******************************************
+Function started at 21.09.2025 21:16:54
+Scanning 500 symbols for trading signals...
+Current open positions: 4
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for WLFIUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+Last close price for WLFIUSDT: 0.2413
+Order Quantity before adjustment: 82884.38 and signal = 2
+Opening Buy for  WLFIUSDT
+TP: 0.258191
+SL: 0.23164799999999997
+TS: 0.009651999999999999
+Order Quantity: 82884.38
+Adjusted qty: 82884.0
+Final Adjusted qty: 82884.0
+80000.0
+Position already open.
+0
+   Trade Result: 0
+[FAILED] Trade failed for WLFIUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for MITOUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for MEUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758475126329}
+Last close price for MEUSDT: 0.7443
+Order Quantity before adjustment: 26870.89 and signal = 2
+Opening Buy for  MEUSDT
+TP: 0.796401
+SL: 0.7145279999999999
+TS: 0.029772
+Order Quantity: 26870.89
+Adjusted qty: 26871.0
+Final Adjusted qty: 26870.0
+30000.0
+Position already open.
+0
+   Trade Result: 0
+[FAILED] Trade failed for MEUSDT
+[PROGRESS] Progress: 250/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 2 signals found
+[SIGNAL] SIGNAL DETECTED for AGIUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758475153925}
+Last close price for AGIUSDT: 0.04617
+Order Quantity before adjustment: 433181.72 and signal = 1
+Opening Sell for  AGIUSDT
+TP: 0.04293810000000001
+SL: 0.048016800000000005
+TS: 0.0018468
+Order Quantity: 433181.72
+Adjusted qty: 433180.0
+Final Adjusted qty: 433180.0
+45000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '52703e82-54eb-41a1-a80d-d88e7639cd35', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758475155360}
+52703e82-54eb-41a1-a80d-d88e7639cd35
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for AGIUSDT
+[LIMIT] Position limit reached. Stopping scan.
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 302
+   Signals Found: 3
+   Successful Trades: 1
+   Final Positions: 5
+Function finished at 21.09.2025 21:19:18
+*******************************************
+***************************************************************
+Number of open positions: 5
+*******************************************
+Function started at 21.09.2025 21:20:27
+Scanning 500 symbols for trading signals...
+Current open positions: 5
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for WLFIUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+[WARNING] Position limit reached (5/5)
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 18
+   Signals Found: 1
+   Successful Trades: 0
+   Final Positions: 5
+Function finished at 21.09.2025 21:20:36
+*******************************************
