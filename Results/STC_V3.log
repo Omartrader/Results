@@ -69196,3 +69196,45 @@ Function started at 21.09.2025 07:10:45
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 21.09.2025 07:11:06
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 07:16:04
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (1.0162) 	SMA(14) : 1.01 	Delta :  	Previous STC : 10.22 	STC : 40.15
+	ICPUSDT 	Signal: B
+ICPUSDT 	Latest Close: (4.748) 	SMA(14) : 4.74 	Delta :  	Previous STC : 16.61 	STC : 44.41
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (296.27) 	SMA(14) : 297.01 	Delta :  	Previous STC : 99.39 	STC : 94.15
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XMRUSDT    | S |  94.15
+1
+Last close price for XMRUSDT: 296.27
+Opening Sell for  XMRUSDT
+TP: 293.3073
+SL: 302.1954
+TS: 2.9627
+Order Quantity: 67.51
+Adjusted qty: 67.51
+Final Adjusted qty: 67.51
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f049346c-6261-4e64-8639-96a16647b91a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758424583903}
+f049346c-6261-4e64-8639-96a16647b91a
+fetching trade data for :  f049346c-6261-4e64-8639-96a16647b91a
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f049346c-6261-4e64-8639-96a16647b91a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758424583902', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '296.26', 'execPrice': '296.27', 'markIv': '', 'orderQty': '67.51', 'orderPrice': '281.45', 'execValue': '20001.1877', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612543152005, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00065324', 'execId': 'd394e5a9-dff3-4066-81ae-9b3ecdc46d6b', 'marketUnit': '', 'execQty': '67.51', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    | B |  44.41
+1
+Last close price for ICPUSDT: 4.75
+Opening Buy for  ICPUSDT
+TP: 4.7975
+SL: 4.655
+TS: 0.0475
+Order Quantity: 4210.53
+Adjusted qty: 4210.5
+Final Adjusted qty: 4210.5
+25860.0
