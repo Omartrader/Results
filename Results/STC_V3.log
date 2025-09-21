@@ -69533,3 +69533,45 @@ Order Quantity: 85142.61
 Adjusted qty: 85143.0
 Final Adjusted qty: 85142.0
 80000.0
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 08:10:44
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.2348) 	SMA(14) : 0.23 	Delta :  	Previous STC : 21.65 	STC : 42.16
+	JUPUSDT 	Signal: B
+JUPUSDT 	Latest Close: (0.5335) 	SMA(14) : 0.53 	Delta :  	Previous STC : 24.44 	STC : 33.98
+	APTUSDT 	Signal: B
+APTUSDT 	Latest Close: (4.619) 	SMA(14) : 4.62 	Delta :  	Previous STC : 9.69 	STC : 39.79
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | B |  42.16
+1
+Last close price for WLFIUSDT: 0.2348
+Opening Buy for  WLFIUSDT
+TP: 0.237148
+SL: 0.230104
+TS: 0.0023480000000000003
+Order Quantity: 85178.88
+Adjusted qty: 85179.0
+Final Adjusted qty: 85178.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '014a2881-4fb3-498f-9641-03578ba7621b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758427867361}
+014a2881-4fb3-498f-9641-03578ba7621b
+fetching trade data for :  014a2881-4fb3-498f-9641-03578ba7621b
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '014a2881-4fb3-498f-9641-03578ba7621b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758427867361', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2348', 'execPrice': '0.2348', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.27', 'execValue': '18784', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612543258246, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.3312', 'execId': '61cf00a9-5ebe-404b-92ec-4b55aa20b583', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+APTUSDT    | B |  39.79
+1
+Last close price for APTUSDT: 4.617
+Opening Buy for  APTUSDT
+TP: 4.66317
+SL: 4.52466
+TS: 0.04617
+Order Quantity: 4331.82
+Adjusted qty: 4331.82
+Final Adjusted qty: 4331.82
+15408.0
