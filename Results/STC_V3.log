@@ -70182,3 +70182,43 @@ Order Quantity: 83.23
 Adjusted qty: 83.2
 Final Adjusted qty: 83.2
 11740.0
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 10:30:50
+	RENDERUSDT 	Signal: B
+RENDERUSDT 	Latest Close: (4.026) 	SMA(14) : 4.01 	Delta :  	Previous STC : 17.06 	STC : 44.71
+	OKBUSDT 	Signal: S
+OKBUSDT 	Latest Close: (199.92) 	SMA(14) : 201.68 	Delta :  	Previous STC : 100.00 	STC : 92.84
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OKBUSDT    | S |  92.84
+1
+Last close price for OKBUSDT: 199.92
+Opening Sell for  OKBUSDT
+TP: 197.92079999999999
+SL: 203.9184
+TS: 1.9991999999999999
+Order Quantity: 100.04
+Adjusted qty: 100.04
+Final Adjusted qty: 100.04
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4d742e07-e83c-4b08-bf56-6244fcaf8b2d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758436269346}
+4d742e07-e83c-4b08-bf56-6244fcaf8b2d
+fetching trade data for :  4d742e07-e83c-4b08-bf56-6244fcaf8b2d
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4d742e07-e83c-4b08-bf56-6244fcaf8b2d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758436269345', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '199.92', 'execPrice': '199.92', 'markIv': '', 'orderQty': '100.04', 'orderPrice': '169.94', 'execValue': '19999.9968', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612543532307, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999824', 'execId': 'a96d0d77-d80c-4ed4-aeea-894a16296470', 'marketUnit': '', 'execQty': '100.04', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  44.71
+1
+Last close price for RENDERUSDT: 4.024
+Opening Buy for  RENDERUSDT
+TP: 4.06424
+SL: 3.94352
+TS: 0.04024
+Order Quantity: 4970.18
+Adjusted qty: 4970.200000000001
+Final Adjusted qty: 4970.1
+10000.0
