@@ -69691,3 +69691,45 @@ Function started at 21.09.2025 08:55:44
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 21.09.2025 08:56:05
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 09:00:43
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (1.5006) 	SMA(14) : 1.50 	Delta :  	Previous STC : 4.92 	STC : 36.61
+	IPUSDT 	Signal: S
+IPUSDT 	Latest Close: (12.5906) 	SMA(14) : 12.65 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	FILUSDT 	Signal: B
+FILUSDT 	Latest Close: (2.451) 	SMA(14) : 2.44 	Delta :  	Previous STC : 24.38 	STC : 49.59
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IPUSDT     | S |  66.67
+1
+Last close price for IPUSDT: 12.6009
+Opening Sell for  IPUSDT
+TP: 12.474891
+SL: 12.852917999999999
+TS: 0.12600899999999998
+Order Quantity: 1587.19
+Adjusted qty: 1587.2
+Final Adjusted qty: 1587.1
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '4e0fa894-c4c4-4bbb-acd1-2051c3282b4f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758430866536}
+4e0fa894-c4c4-4bbb-acd1-2051c3282b4f
+fetching trade data for :  4e0fa894-c4c4-4bbb-acd1-2051c3282b4f
+[{'symbol': 'IPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '4e0fa894-c4c4-4bbb-acd1-2051c3282b4f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758430866535', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '12.5911', 'execPrice': '12.5911', 'markIv': '', 'orderQty': '1587.1', 'orderPrice': '11.332', 'execValue': '19983.33481', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612543355680, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99083415', 'execId': 'c9579fdb-9503-469d-931a-1c074cb1838a', 'marketUnit': '', 'execQty': '1587.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | B |  49.59
+1
+Last close price for FILUSDT: 2.451
+Opening Buy for  FILUSDT
+TP: 2.47551
+SL: 2.40198
+TS: 0.02451
+Order Quantity: 8159.93
+Adjusted qty: 8159.900000000001
+Final Adjusted qty: 8159.9
+60730.0
