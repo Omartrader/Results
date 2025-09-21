@@ -69400,3 +69400,47 @@ Order Quantity: 810701.26
 Adjusted qty: 810700.0
 Final Adjusted qty: 810700.0
 509000.0
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 07:50:39
+	FLRUSDT 	Signal: S
+FLRUSDT 	Latest Close: (0.02463) 	SMA(14) : 0.02 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	OPUSDT 	Signal: B
+OPUSDT 	Latest Close: (0.8149) 	SMA(14) : 0.81 	Delta :  	Previous STC : 17.67 	STC : 45.11
+	POLUSDT 	Signal: B
+POLUSDT 	Latest Close: (0.2506) 	SMA(14) : 0.25 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	ETCUSDT 	Signal: B
+ETCUSDT 	Latest Close: (20.222) 	SMA(14) : 20.21 	Delta :  	Previous STC : 20.06 	STC : 46.70
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | S |  66.67
+1
+Last close price for FLRUSDT: 0.02463
+Opening Sell for  FLRUSDT
+TP: 0.024383699999999998
+SL: 0.0251226
+TS: 0.00024629999999999997
+Order Quantity: 812017.86
+Adjusted qty: 812020.0
+Final Adjusted qty: 812010.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8613a1ec-111a-44f9-bdc8-5d42998115b0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758426658397}
+8613a1ec-111a-44f9-bdc8-5d42998115b0
+fetching trade data for :  8613a1ec-111a-44f9-bdc8-5d42998115b0
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8613a1ec-111a-44f9-bdc8-5d42998115b0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758426658397', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02463', 'execPrice': '0.02463', 'markIv': '', 'orderQty': '509000', 'orderPrice': '0.01971', 'execValue': '12536.67', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612543218343, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '6.8951685', 'execId': '17fbfc5a-dbcd-462b-a358-77ecb8ae15a7', 'marketUnit': '', 'execQty': '509000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  46.70
+1
+Last close price for ETCUSDT: 20.232
+Opening Buy for  ETCUSDT
+TP: 20.43432
+SL: 19.82736
+TS: 0.20232
+Order Quantity: 988.53
+Adjusted qty: 988.5
+Final Adjusted qty: 988.5
+10610.0
