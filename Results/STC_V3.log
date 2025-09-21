@@ -71322,3 +71322,45 @@ Order Quantity: 817661.49
 Adjusted qty: 817661.0
 Final Adjusted qty: 817661.0
 437000.0
+***************************************************************
+Number of open positions: 3
+Function started at 21.09.2025 14:20:41
+	VETUSDT 	Signal: S
+VETUSDT 	Latest Close: (0.02444) 	SMA(14) : 0.02 	Delta :  	Previous STC : 98.68 	STC : 92.82
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.0703) 	SMA(14) : 0.07 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (4.2989) 	SMA(14) : 4.34 	Delta :  	Previous STC : 96.67 	STC : 84.50
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+VETUSDT    | S |  92.82
+1
+Last close price for VETUSDT: 0.02445
+Opening Sell for  VETUSDT
+TP: 0.024205499999999998
+SL: 0.024939
+TS: 0.0002445
+Order Quantity: 817995.91
+Adjusted qty: 817996.0
+Final Adjusted qty: 817995.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9ae00d89-018e-472b-9661-dadc4bbd65dd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758450058503}
+9ae00d89-018e-472b-9661-dadc4bbd65dd
+fetching trade data for :  9ae00d89-018e-472b-9661-dadc4bbd65dd
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9ae00d89-018e-472b-9661-dadc4bbd65dd', 'stopOrderType': 'UNKNOWN', 'execTime': '1758450058503', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02445', 'execPrice': '0.02445', 'markIv': '', 'orderQty': '437000', 'orderPrice': '0.02323', 'execValue': '10684.65', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612543995891, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.8765575', 'execId': 'c335f4a5-cb6b-4746-a5e8-4f0fdc155d65', 'marketUnit': '', 'execQty': '437000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | S |  84.50
+1
+Last close price for DOTUSDT: 4.299
+Opening Sell for  DOTUSDT
+TP: 4.256010000000001
+SL: 4.3849800000000005
+TS: 0.04299
+Order Quantity: 4652.24
+Adjusted qty: 4652.2
+Final Adjusted qty: 4652.2
+32140.0
