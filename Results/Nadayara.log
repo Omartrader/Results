@@ -381,3 +381,43 @@ Final Adjusted qty: 2581311.0
    Final Positions: 5
 Function finished at 22.09.2025 05:02:01
 *******************************************
+***************************************************************
+Number of open positions: 4
+*******************************************
+Function started at 22.09.2025 06:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 4
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for ZENTUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758506506688}
+Last close price for ZENTUSDT: 0.009526
+Order Quantity before adjustment: 2099517.11 and signal = 1
+Opening Sell for  ZENTUSDT
+TP: 0.00885918
+SL: 0.00990704
+TS: 0.00038103999999999997
+Order Quantity: 2099517.11
+Adjusted qty: 2099520.0
+Final Adjusted qty: 2099510.0
+1000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '72dfbee3-84c9-4334-9030-a21e5dec428a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758506507875}
+72dfbee3-84c9-4334-9030-a21e5dec428a
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ZENTUSDT
+[LIMIT] Position limit reached. Stopping scan.
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 94
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 5
+Function finished at 22.09.2025 06:01:51
+*******************************************
