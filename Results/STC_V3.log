@@ -74719,3 +74719,65 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  1
 Function finished at 22.09.2025 04:46:37
+***************************************************************
+Number of open positions: 3
+Function started at 22.09.2025 04:50:57
+	ENAUSDT 	Signal: S
+ENAUSDT 	Latest Close: (0.6254) 	SMA(14) : 0.64 	Delta :  	Previous STC : 96.65 	STC : 85.39
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2257) 	SMA(14) : 0.23 	Delta :  	Previous STC : 98.09 	STC : 84.32
+	NEARUSDT 	Signal: S
+NEARUSDT 	Latest Close: (3.027) 	SMA(14) : 3.13 	Delta :  	Previous STC : 96.00 	STC : 64.00
+	AVAXUSDT 	Signal: S
+AVAXUSDT 	Latest Close: (31.864) 	SMA(14) : 32.94 	Delta :  	Previous STC : 99.81 	STC : 95.66
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (291.11) 	SMA(14) : 293.11 	Delta :  	Previous STC : 98.51 	STC : 92.68
+	OKBUSDT 	Signal: S
+OKBUSDT 	Latest Close: (191.84) 	SMA(14) : 196.68 	Delta :  	Previous STC : 96.76 	STC : 91.80
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AVAXUSDT   | S |  95.66
+1
+Last close price for AVAXUSDT: 31.976
+Opening Sell for  AVAXUSDT
+TP: 31.65624
+SL: 32.61552
+TS: 0.31976
+Order Quantity: 625.47
+Adjusted qty: 625.5
+Final Adjusted qty: 625.4
+10950.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fb2e9dc9-fe79-44f6-9191-3f799e943068', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758502277845}
+fb2e9dc9-fe79-44f6-9191-3f799e943068
+fetching trade data for :  fb2e9dc9-fe79-44f6-9191-3f799e943068
+[{'symbol': 'AVAXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fb2e9dc9-fe79-44f6-9191-3f799e943068', 'stopOrderType': 'UNKNOWN', 'execTime': '1758502277845', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '31.947', 'execPrice': '31.937', 'markIv': '', 'orderQty': '625.4', 'orderPrice': '31.309', 'execValue': '19973.3998', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612545731580, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.98536989', 'execId': '4f92e856-32ac-45f7-ab7e-aaab037cb3cf', 'marketUnit': '', 'execQty': '625.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XMRUSDT    | S |  92.68
+1
+Last close price for XMRUSDT: 290.96
+Opening Sell for  XMRUSDT
+TP: 288.05039999999997
+SL: 296.7792
+TS: 2.9095999999999997
+Order Quantity: 68.74
+Adjusted qty: 68.74
+Final Adjusted qty: 68.74
+205.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+OKBUSDT    | S |  91.80
+1
+Last close price for OKBUSDT: 191.84
+Opening Sell for  OKBUSDT
+TP: 189.9216
+SL: 195.67680000000001
+TS: 1.9184
+Order Quantity: 104.25
+Adjusted qty: 104.25
+Final Adjusted qty: 104.25
+128.0
