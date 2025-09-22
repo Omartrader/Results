@@ -421,3 +421,62 @@ Final Adjusted qty: 2099510.0
    Final Positions: 5
 Function finished at 22.09.2025 06:01:51
 *******************************************
+***************************************************************
+Number of open positions: 3
+*******************************************
+Function started at 22.09.2025 07:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 3
+Maximum positions allowed: 5
+*******************************************
+[SIGNAL] SIGNAL DETECTED for DOGSUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758510069283}
+Last close price for DOGSUSDT: 0.0001293
+Order Quantity before adjustment: 154679040.99 and signal = 1
+Opening Sell for  DOGSUSDT
+TP: 0.00012024900000000001
+SL: 0.000134472
+TS: 5.172e-06
+Order Quantity: 154679040.99
+Adjusted qty: 154679000.0
+Final Adjusted qty: 154679000.0
+160000000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8a5b599c-2587-4fbd-8aea-da5621696aec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758510070510}
+8a5b599c-2587-4fbd-8aea-da5621696aec
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for DOGSUSDT
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for DOGEUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+1
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758510079838}
+Last close price for DOGEUSDT: 0.24718
+Order Quantity before adjustment: 80912.7 and signal = 1
+Opening Sell for  DOGEUSDT
+TP: 0.2298774
+SL: 0.2570672
+TS: 0.0098872
+Order Quantity: 80912.7
+Adjusted qty: 80913.0
+Final Adjusted qty: 80912.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '454ec5ea-ca1b-4653-8287-3b67f0566200', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758510081497}
+454ec5ea-ca1b-4653-8287-3b67f0566200
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for DOGEUSDT
+[LIMIT] Position limit reached. Stopping scan.
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 11
+   Signals Found: 2
+   Successful Trades: 2
+   Final Positions: 5
+Function finished at 22.09.2025 07:01:25
+*******************************************
