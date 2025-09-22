@@ -74682,3 +74682,40 @@ Order Quantity: 42553.19
 Adjusted qty: 42553.200000000004
 Final Adjusted qty: 42553.1
 283360.0
+***************************************************************
+Number of open positions: 4
+Function started at 22.09.2025 04:46:07
+	ENAUSDT 	Signal: S
+ENAUSDT 	Latest Close: (0.6298) 	SMA(14) : 0.64 	Delta :  	Previous STC : 96.65 	STC : 85.39
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2276) 	SMA(14) : 0.23 	Delta :  	Previous STC : 98.09 	STC : 86.71
+	NEARUSDT 	Signal: S
+NEARUSDT 	Latest Close: (3.074) 	SMA(14) : 3.13 	Delta :  	Previous STC : 96.00 	STC : 68.10
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (291.5) 	SMA(14) : 293.14 	Delta :  	Previous STC : 98.51 	STC : 92.99
+	OKBUSDT 	Signal: S
+OKBUSDT 	Latest Close: (193.28) 	SMA(14) : 196.79 	Delta :  	Previous STC : 96.76 	STC : 92.58
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XMRUSDT    | S |  92.99
+1
+Last close price for XMRUSDT: 291.5
+Opening Sell for  XMRUSDT
+TP: 288.585
+SL: 297.33
+TS: 2.915
+Order Quantity: 68.61
+Adjusted qty: 68.61
+Final Adjusted qty: 68.61
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2341f72c-0a98-4d5b-a8a0-2a48ef9b0b8d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758501988205}
+2341f72c-0a98-4d5b-a8a0-2a48ef9b0b8d
+fetching trade data for :  2341f72c-0a98-4d5b-a8a0-2a48ef9b0b8d
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2341f72c-0a98-4d5b-a8a0-2a48ef9b0b8d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758501988204', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '291.47', 'execPrice': '291.47', 'markIv': '', 'orderQty': '68.61', 'orderPrice': '276.9', 'execValue': '19997.7567', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612545719920, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99876619', 'execId': 'ff7409aa-6cd3-4502-ade6-dadd1cc646a5', 'marketUnit': '', 'execQty': '68.61', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 22.09.2025 04:46:37
