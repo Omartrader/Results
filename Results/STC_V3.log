@@ -74490,3 +74490,47 @@ Order Quantity: 245428.89
 Adjusted qty: 245430.0
 Final Adjusted qty: 245420.0
 774000.0
+***************************************************************
+Number of open positions: 3
+Function started at 22.09.2025 04:30:54
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.8777) 	SMA(14) : 0.88 	Delta :  	Previous STC : 99.96 	STC : 92.36
+	XRPUSDT 	Signal: S
+XRPUSDT 	Latest Close: (2.9523) 	SMA(14) : 2.97 	Delta :  	Previous STC : 99.37 	STC : 93.45
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4764) 	SMA(14) : 0.48 	Delta :  	Previous STC : 98.99 	STC : 91.53
+	HYPEUSDT 	Signal: S
+HYPEUSDT 	Latest Close: (50.375) 	SMA(14) : 51.21 	Delta :  	Previous STC : 99.26 	STC : 95.09
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | S |  95.09
+1
+Last close price for HYPEUSDT: 50.371
+Opening Sell for  HYPEUSDT
+TP: 49.867290000000004
+SL: 51.378420000000006
+TS: 0.50371
+Order Quantity: 397.05
+Adjusted qty: 397.05
+Final Adjusted qty: 397.05
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5d3df360-ebac-4feb-895c-4c7892d68687', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758501076036}
+5d3df360-ebac-4feb-895c-4c7892d68687
+fetching trade data for :  5d3df360-ebac-4feb-895c-4c7892d68687
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5d3df360-ebac-4feb-895c-4c7892d68687', 'stopOrderType': 'UNKNOWN', 'execTime': '1758501076035', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '50.373', 'execPrice': '50.373', 'markIv': '', 'orderQty': '397.05', 'orderPrice': '35.262', 'execValue': '20000.59965', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612545683126, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00032981', 'execId': '7c58009e-5017-4c9a-82b3-48cba5fe9a82', 'marketUnit': '', 'execQty': '397.05', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XRPUSDT    | S |  93.45
+1
+Last close price for XRPUSDT: 2.9527
+Opening Sell for  XRPUSDT
+TP: 2.9231730000000002
+SL: 3.0117540000000003
+TS: 0.029527
+Order Quantity: 6773.46
+Adjusted qty: 6773.0
+Final Adjusted qty: 6773.0
+2467800.0
