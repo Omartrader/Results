@@ -340,3 +340,44 @@ Maximum positions allowed: 5
    Final Positions: 5
 Function finished at 22.09.2025 04:02:37
 *******************************************
+***************************************************************
+Number of open positions: 4
+*******************************************
+Function started at 22.09.2025 05:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 4
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for CELRUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758502916748}
+Last close price for CELRUSDT: 0.007748
+Order Quantity before adjustment: 2581311.31 and signal = 1
+Opening Sell for  CELRUSDT
+TP: 0.00720564
+SL: 0.00805792
+TS: 0.00030992
+Order Quantity: 2581311.31
+Adjusted qty: 2581311.0
+Final Adjusted qty: 2581311.0
+812500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '508ae50d-43eb-417e-8f7a-2cd4bc9ca22d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758502917919}
+508ae50d-43eb-417e-8f7a-2cd4bc9ca22d
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for CELRUSDT
+[LIMIT] Position limit reached. Stopping scan.
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 125
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 5
+Function finished at 22.09.2025 05:02:01
+*******************************************
