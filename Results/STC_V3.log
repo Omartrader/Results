@@ -74534,3 +74534,82 @@ Order Quantity: 6773.46
 Adjusted qty: 6773.0
 Final Adjusted qty: 6773.0
 2467800.0
+***************************************************************
+Number of open positions: 2
+Function started at 22.09.2025 04:37:12
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.8676) 	SMA(14) : 0.88 	Delta :  	Previous STC : 99.96 	STC : 82.16
+	XRPUSDT 	Signal: S
+XRPUSDT 	Latest Close: (2.9137) 	SMA(14) : 2.97 	Delta :  	Previous STC : 99.37 	STC : 89.09
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4696) 	SMA(14) : 0.48 	Delta :  	Previous STC : 98.99 	STC : 88.63
+	HYPEUSDT 	Signal: S
+HYPEUSDT 	Latest Close: (50.155) 	SMA(14) : 51.20 	Delta :  	Previous STC : 99.26 	STC : 94.82
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (8.255) 	SMA(14) : 8.36 	Delta :  	Previous STC : 99.90 	STC : 93.43
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+HYPEUSDT   | S |  94.82
+1
+Last close price for HYPEUSDT: 50.142
+Opening Sell for  HYPEUSDT
+TP: 49.64058
+SL: 51.14484
+TS: 0.50142
+Order Quantity: 398.87
+Adjusted qty: 398.87
+Final Adjusted qty: 398.87
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TRUMPUSDT  | S |  93.43
+1
+Last close price for TRUMPUSDT: 8.262
+Opening Sell for  TRUMPUSDT
+TP: 8.17938
+SL: 8.427240000000001
+TS: 0.08262
+Order Quantity: 2420.72
+Adjusted qty: 2420.7000000000003
+Final Adjusted qty: 2420.7
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '61cf479e-265e-4263-a53b-4af8cf0b7fa7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758501454518}
+61cf479e-265e-4263-a53b-4af8cf0b7fa7
+fetching trade data for :  61cf479e-265e-4263-a53b-4af8cf0b7fa7
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '61cf479e-265e-4263-a53b-4af8cf0b7fa7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758501454517', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '8.259', 'execPrice': '8.262', 'markIv': '', 'orderQty': '2420.7', 'orderPrice': '7.847', 'execValue': '19999.8234', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612545700634, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99990287', 'execId': '497d38b6-d7ff-409f-be0f-d3da9ab3149c', 'marketUnit': '', 'execQty': '2420.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XRPUSDT    | S |  89.09
+1
+Last close price for XRPUSDT: 2.9162
+Opening Sell for  XRPUSDT
+TP: 2.887038
+SL: 2.974524
+TS: 0.029162
+Order Quantity: 6858.24
+Adjusted qty: 6858.0
+Final Adjusted qty: 6858.0
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '64277394-b636-46b6-8497-d00a1d291207', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758501466849}
+64277394-b636-46b6-8497-d00a1d291207
+fetching trade data for :  64277394-b636-46b6-8497-d00a1d291207
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '64277394-b636-46b6-8497-d00a1d291207', 'stopOrderType': 'UNKNOWN', 'execTime': '1758501466849', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.9169', 'execPrice': '2.9169', 'markIv': '', 'orderQty': '6858', 'orderPrice': '2.7711', 'execValue': '20004.1002', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612545701076, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00225511', 'execId': 'ed60d6c4-e1ea-43a6-95ec-a62eca57b1eb', 'marketUnit': '', 'execQty': '6858', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ARBUSDT    | S |  88.63
+1
+Last close price for ARBUSDT: 0.4708
+Opening Sell for  ARBUSDT
+TP: 0.466092
+SL: 0.48021600000000003
+TS: 0.004708
+Order Quantity: 42480.88
+Adjusted qty: 42480.9
+Final Adjusted qty: 42480.8
+283360.0
