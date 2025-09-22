@@ -1325,3 +1325,119 @@ cba675af-8218-43b1-be0d-52e9baad7550
    Final Positions: 19
 Function finished at 22.09.2025 21:05:15
 *******************************************
+***************************************************************
+Number of open positions: 16
+*******************************************
+Function started at 22.09.2025 21:31:05
+Scanning 500 symbols for trading signals...
+Current open positions: 16
+Maximum positions allowed: 20
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for SWEATUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+Last close price for SWEATUSDT: 0.002431
+Order Quantity before adjustment: 8227067.05 and signal = 2
+Opening Buy for  SWEATUSDT
+TP: 0.0026011700000000003
+SL: 0.00233376
+TS: 9.724e-05
+Order Quantity: 8227067.05
+Adjusted qty: 8227070.0
+Final Adjusted qty: 8227060.0
+353000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9b576b28-b632-4741-84d6-3f451b946149', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758562278474}
+9b576b28-b632-4741-84d6-3f451b946149
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for SWEATUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for EPTUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+3
+Last close price for EPTUSDT: 0.004416
+Order Quantity before adjustment: 4528985.51 and signal = 1
+Opening Sell for  EPTUSDT
+TP: 0.00410688
+SL: 0.00459264
+TS: 0.00017664
+Order Quantity: 4528985.51
+Adjusted qty: 4528990.0
+Final Adjusted qty: 4528980.0
+440000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '71c53af0-34b7-4914-9326-5149282332ec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758562298408}
+71c53af0-34b7-4914-9326-5149282332ec
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for EPTUSDT
+[SIGNAL] SIGNAL DETECTED for ZENTUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+3
+Last close price for ZENTUSDT: 0.008622
+Order Quantity before adjustment: 2319647.41 and signal = 1
+Opening Sell for  ZENTUSDT
+TP: 0.00801846
+SL: 0.00896688
+TS: 0.00034488
+Order Quantity: 2319647.41
+Adjusted qty: 2319650.0
+Final Adjusted qty: 2319640.0
+1000000.0
+Position already open.
+0
+   Trade Result: 0
+[FAILED] Trade failed for ZENTUSDT
+[SIGNAL] SIGNAL DETECTED for TAUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758562319246}
+Last close price for TAUSDT: 0.07612
+Order Quantity before adjustment: 262743.04 and signal = 1
+Opening Sell for  TAUSDT
+TP: 0.0707916
+SL: 0.0791648
+TS: 0.0030448
+Order Quantity: 262743.04
+Adjusted qty: 262743.0
+Final Adjusted qty: 262743.0
+150000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c7712e57-a8c5-46d9-ba53-a117533540a1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758562320455}
+c7712e57-a8c5-46d9-ba53-a117533540a1
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for TAUSDT
+[PROGRESS] Progress: 100/500 symbols scanned, 4 signals found
+[SIGNAL] SIGNAL DETECTED for VINEUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+3
+Last close price for VINEUSDT: 0.05448
+Order Quantity before adjustment: 367107.2 and signal = 1
+Opening Sell for  VINEUSDT
+TP: 0.0506664
+SL: 0.0566592
+TS: 0.0021792
+Order Quantity: 367107.2
+Adjusted qty: 367107.0
+Final Adjusted qty: 367107.0
+330000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '813fa6dc-597f-4612-9c1b-1d012973f527', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758562337927}
+813fa6dc-597f-4612-9c1b-1d012973f527
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for VINEUSDT
+[LIMIT] Position limit reached. Stopping scan.
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 129
+   Signals Found: 5
+   Successful Trades: 4
+   Final Positions: 20
+Function finished at 22.09.2025 21:32:22
+*******************************************
