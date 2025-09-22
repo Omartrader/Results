@@ -78588,3 +78588,31 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 23.09.2025 00:56:11
+***************************************************************
+Number of open positions: 2
+Function started at 23.09.2025 01:00:55
+	ENAUSDT 	Signal: B
+ENAUSDT 	Latest Close: (0.5929) 	SMA(14) : 0.59 	Delta :  	Previous STC : 21.19 	STC : 33.89
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | B |  33.89
+1
+Last close price for ENAUSDT: 0.5928
+Opening Buy for  ENAUSDT
+TP: 0.598728
+SL: 0.580944
+TS: 0.005928
+Order Quantity: 33738.19
+Adjusted qty: 33738.0
+Final Adjusted qty: 33738.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2784245d-b6df-4ac4-84c3-e70542b808c6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758574874696}
+2784245d-b6df-4ac4-84c3-e70542b808c6
+fetching trade data for :  2784245d-b6df-4ac4-84c3-e70542b808c6
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2784245d-b6df-4ac4-84c3-e70542b808c6', 'stopOrderType': 'UNKNOWN', 'execTime': '1758574874696', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5929', 'execPrice': '0.5928', 'markIv': '', 'orderQty': '33738', 'orderPrice': '0.6521', 'execValue': '19999.8864', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548219324, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99993752', 'execId': '7b9d188b-e1e7-4fed-984f-8294003ab962', 'marketUnit': '', 'execQty': '33738', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 23.09.2025 01:01:23
