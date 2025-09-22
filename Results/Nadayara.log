@@ -2643,3 +2643,61 @@ Maximum positions allowed: 20
    Final Positions: 20
 Function finished at 23.09.2025 01:01:05
 *******************************************
+***************************************************************
+Number of open positions: 18
+*******************************************
+Function started at 23.09.2025 01:31:05
+Scanning 500 symbols for trading signals...
+Current open positions: 18
+Maximum positions allowed: 20
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for SWEATUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+Last close price for SWEATUSDT: 0.002438
+Order Quantity before adjustment: 8203445.45 and signal = 2
+Opening Buy for  SWEATUSDT
+TP: 0.00260866
+SL: 0.00234048
+TS: 9.752e-05
+Order Quantity: 8203445.45
+Adjusted qty: 8203450.0
+Final Adjusted qty: 8203440.0
+353000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e9fb45a3-d25e-4561-b149-70195ef0ef6c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758576679798}
+e9fb45a3-d25e-4561-b149-70195ef0ef6c
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for SWEATUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for EPTUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+3
+Last close price for EPTUSDT: 0.004532
+Order Quantity before adjustment: 4413062.67 and signal = 1
+Opening Sell for  EPTUSDT
+TP: 0.00421476
+SL: 0.004713279999999999
+TS: 0.00018127999999999997
+Order Quantity: 4413062.67
+Adjusted qty: 4413060.0
+Final Adjusted qty: 4413060.0
+440000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ea952058-284a-43d9-a192-6aa97a5e797b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758576700386}
+ea952058-284a-43d9-a192-6aa97a5e797b
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for EPTUSDT
+[LIMIT] Position limit reached. Stopping scan.
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 59
+   Signals Found: 2
+   Successful Trades: 2
+   Final Positions: 20
+Function finished at 23.09.2025 01:31:43
+*******************************************
