@@ -82124,3 +82124,64 @@ USD1USDT 	Latest Close: (1.0) 	SMA(14) : 1.00 	Delta :  	Previous STC : 98.29 	S
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 23.09.2025 15:11:01
+***************************************************************
+Number of open positions: 2
+Function started at 23.09.2025 15:16:22
+	DOGEUSDT 	Signal: S
+DOGEUSDT 	Latest Close: (0.23939) 	SMA(14) : 0.24 	Delta :  	Previous STC : 98.88 	STC : 91.31
+	SUIUSDT 	Signal: S
+SUIUSDT 	Latest Close: (3.3631) 	SMA(14) : 3.38 	Delta :  	Previous STC : 99.97 	STC : 91.22
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (106.02) 	SMA(14) : 106.15 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOGEUSDT   | S |  91.31
+1
+Last close price for DOGEUSDT: 0.23935
+Opening Sell for  DOGEUSDT
+TP: 0.23695650000000001
+SL: 0.24413700000000002
+TS: 0.0023935000000000002
+Order Quantity: 83559.64
+Adjusted qty: 83560.0
+Final Adjusted qty: 83559.0
+5991100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3a06621b-710f-478a-be6b-0a063fc836e7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758626204030}
+3a06621b-710f-478a-be6b-0a063fc836e7
+fetching trade data for :  3a06621b-710f-478a-be6b-0a063fc836e7
+[{'symbol': 'DOGEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3a06621b-710f-478a-be6b-0a063fc836e7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758626204029', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.23936', 'execPrice': '0.23937', 'markIv': '', 'orderQty': '83559', 'orderPrice': '0.2274', 'execValue': '20001.51783', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612549920698, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00083481', 'execId': '999c2634-7fb9-4544-8019-5cba124d3f3e', 'marketUnit': '', 'execQty': '83559', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | S |  91.22
+1
+Last close price for SUIUSDT: 3.3654
+Opening Sell for  SUIUSDT
+TP: 3.3317460000000003
+SL: 3.4327080000000003
+TS: 0.033654
+Order Quantity: 5942.83
+Adjusted qty: 5940.0
+Final Adjusted qty: 5940.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '220d4c97-7d2d-4697-bc52-70066770337e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758626216399}
+220d4c97-7d2d-4697-bc52-70066770337e
+fetching trade data for :  220d4c97-7d2d-4697-bc52-70066770337e
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '220d4c97-7d2d-4697-bc52-70066770337e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758626216398', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.3654', 'execPrice': '3.365', 'markIv': '', 'orderQty': '5940', 'orderPrice': '3.1972', 'execValue': '19988.1', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612549921097, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.993455', 'execId': '65154e91-93b7-41b6-8237-3236088499f8', 'marketUnit': '', 'execQty': '5940', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LTCUSDT    | S |  66.67
+1
+Last close price for LTCUSDT: 106.08
+Opening Sell for  LTCUSDT
+TP: 105.0192
+SL: 108.2016
+TS: 1.0608
+Order Quantity: 188.54
+Adjusted qty: 188.5
+Final Adjusted qty: 188.5
+6160.0
