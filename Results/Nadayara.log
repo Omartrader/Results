@@ -3941,3 +3941,53 @@ Position already open.
    Final Positions: 10
 Function finished at 23.09.2025 12:04:38
 *******************************************
+***************************************************************
+Number of open positions: 9
+*******************************************
+Function started at 23.09.2025 12:31:05
+Scanning 500 symbols for trading signals...
+Current open positions: 9
+Maximum positions allowed: 20
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for HUMAUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+Last close price for HUMAUSDT: 0.03299
+Order Quantity before adjustment: 606244.32 and signal = 2
+Opening Buy for  HUMAUSDT
+TP: 0.0352993
+SL: 0.031670399999999994
+TS: 0.0013196
+Order Quantity: 606244.32
+Adjusted qty: 606244.0
+Final Adjusted qty: 606244.0
+210000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ec5b4468-75e1-4550-aaf1-530b22fbff00', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758616281459}
+ec5b4468-75e1-4550-aaf1-530b22fbff00
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for HUMAUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for PTBUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for SOMIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for ARIAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 10
+Function finished at 23.09.2025 12:34:45
+*******************************************
