@@ -83546,3 +83546,35 @@ USD1USDT 	Latest Close: (0.9995) 	SMA(14) : 1.00 	Delta :  	Previous STC : 11.20
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 23.09.2025 20:36:12
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 20:41:10
+	KASUSDT 	Signal: S
+KASUSDT 	Latest Close: (0.07998) 	SMA(14) : 0.08 	Delta :  	Previous STC : 100.00 	STC : 91.45
+	USDCUSDT 	Signal: S
+USDCUSDT 	Latest Close: (0.9997) 	SMA(14) : 1.00 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	USD1USDT 	Signal: B
+USD1USDT 	Latest Close: (0.9995) 	SMA(14) : 1.00 	Delta :  	Previous STC : 11.20 	STC : 38.84
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KASUSDT    | S |  91.45
+1
+Last close price for KASUSDT: 0.07992
+Opening Sell for  KASUSDT
+TP: 0.0791208
+SL: 0.0815184
+TS: 0.0007992
+Order Quantity: 250250.25
+Adjusted qty: 250250.0
+Final Adjusted qty: 250250.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e3a32f74-6b0d-43dc-b90f-f6de390e62f1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758645693559}
+e3a32f74-6b0d-43dc-b90f-f6de390e62f1
+fetching trade data for :  e3a32f74-6b0d-43dc-b90f-f6de390e62f1
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e3a32f74-6b0d-43dc-b90f-f6de390e62f1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758645693558', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07997', 'execPrice': '0.07992', 'markIv': '', 'orderQty': '250250', 'orderPrice': '0.06798', 'execValue': '19999.98', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612550578657, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.999989', 'execId': '5ec37cef-e23c-4cd4-be79-04d4e32a7fb0', 'marketUnit': '', 'execQty': '250250', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 23.09.2025 20:41:42
