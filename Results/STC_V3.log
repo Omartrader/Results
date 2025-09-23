@@ -79584,3 +79584,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 23.09.2025 05:51:15
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 05:56:08
+	KASUSDT 	Signal: S
+KASUSDT 	Latest Close: (0.07733) 	SMA(14) : 0.08 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	WLDUSDT 	Signal: S
+WLDUSDT 	Latest Close: (1.3514) 	SMA(14) : 1.37 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+KASUSDT    | S |  66.67
+1
+Last close price for KASUSDT: 0.07731
+Opening Sell for  KASUSDT
+TP: 0.0765369
+SL: 0.0788562
+TS: 0.0007731000000000001
+Order Quantity: 258698.75
+Adjusted qty: 258700.0
+Final Adjusted qty: 258690.0
+774000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c35fa46c-a8e2-4c7d-b692-76446fac464c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758592587486}
+c35fa46c-a8e2-4c7d-b692-76446fac464c
+fetching trade data for :  c35fa46c-a8e2-4c7d-b692-76446fac464c
+[{'symbol': 'KASUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c35fa46c-a8e2-4c7d-b692-76446fac464c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758592587485', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.07731', 'execPrice': '0.07731', 'markIv': '', 'orderQty': '258690', 'orderPrice': '0.06572', 'execValue': '19999.3239', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548797284, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99962815', 'execId': 'ba294a6b-efbb-4da6-abc1-c7869dabb1d6', 'marketUnit': '', 'execQty': '258690', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | S |  66.67
+1
+Last close price for WLDUSDT: 1.3503
+Opening Sell for  WLDUSDT
+TP: 1.336797
+SL: 1.3773060000000001
+TS: 0.013503000000000001
+Order Quantity: 14811.52
+Adjusted qty: 14811.5
+Final Adjusted qty: 14811.5
+34020.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 23.09.2025 05:56:38
