@@ -83970,3 +83970,33 @@ Order Quantity: 59598.31
 Adjusted qty: 59598.0
 Final Adjusted qty: 59598.0
 1356000.0
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 22:01:06
+	USDEUSDT 	Signal: B
+USDEUSDT 	Latest Close: (1.0) 	SMA(14) : 1.00 	Delta :  	Previous STC : 24.46 	STC : 33.64
+	AAVEUSDT 	Signal: S
+AAVEUSDT 	Latest Close: (275.24) 	SMA(14) : 277.24 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+AAVEUSDT   | S |  66.67
+1
+Last close price for AAVEUSDT: 275.35
+Opening Sell for  AAVEUSDT
+TP: 272.5965
+SL: 280.857
+TS: 2.7535000000000003
+Order Quantity: 72.63
+Adjusted qty: 72.63
+Final Adjusted qty: 72.63
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '72ddf1ce-2178-4673-891e-351bda7f25f4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758650487815}
+72ddf1ce-2178-4673-891e-351bda7f25f4
+fetching trade data for :  72ddf1ce-2178-4673-891e-351bda7f25f4
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '72ddf1ce-2178-4673-891e-351bda7f25f4', 'stopOrderType': 'UNKNOWN', 'execTime': '1758650487815', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '275.33', 'execPrice': '275.33', 'markIv': '', 'orderQty': '72.63', 'orderPrice': '261.57', 'execValue': '19997.2179', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612550742558, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99846985', 'execId': '54ac63ca-9f8c-40b5-b5f3-1a22411aa973', 'marketUnit': '', 'execQty': '72.63', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 23.09.2025 22:01:38
