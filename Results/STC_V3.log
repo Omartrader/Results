@@ -80225,3 +80225,48 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  2
 Function finished at 23.09.2025 07:17:07
+***************************************************************
+Number of open positions: 4
+Function started at 23.09.2025 07:20:40
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.2865) 	SMA(14) : 0.29 	Delta :  	Previous STC : 98.72 	STC : 90.39
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (2.7675) 	SMA(14) : 2.78 	Delta :  	Previous STC : 97.97 	STC : 85.77
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SEIUSDT    | S |  90.39
+1
+Last close price for SEIUSDT: 0.2864
+Opening Sell for  SEIUSDT
+TP: 0.283536
+SL: 0.292128
+TS: 0.002864
+Order Quantity: 69832.4
+Adjusted qty: 69832.0
+Final Adjusted qty: 69832.0
+245500.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TONUSDT    | S |  85.77
+1
+Last close price for TONUSDT: 2.7671
+Opening Sell for  TONUSDT
+TP: 2.739429
+SL: 2.822442
+TS: 0.027671
+Order Quantity: 7227.78
+Adjusted qty: 7227.8
+Final Adjusted qty: 7227.7
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f8c37b2a-afa7-4c47-b414-f7095bc86aa8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758597652417}
+f8c37b2a-afa7-4c47-b414-f7095bc86aa8
+fetching trade data for :  f8c37b2a-afa7-4c47-b414-f7095bc86aa8
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f8c37b2a-afa7-4c47-b414-f7095bc86aa8', 'stopOrderType': 'UNKNOWN', 'execTime': '1758597652415', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.7674', 'execPrice': '2.7674', 'markIv': '', 'orderQty': '7227.7', 'orderPrice': '2.6291', 'execValue': '20001.93698', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548968271, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00106534', 'execId': '98c7645e-83d7-43e1-8141-79f1413ab040', 'marketUnit': '', 'execQty': '7227.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 23.09.2025 07:21:01
