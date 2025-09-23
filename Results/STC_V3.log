@@ -84747,3 +84747,43 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 24.09.2025 01:41:17
+***************************************************************
+Number of open positions: 3
+Function started at 24.09.2025 01:45:53
+	IPUSDT 	Signal: B
+IPUSDT 	Latest Close: (11.9978) 	SMA(14) : 11.61 	Delta :  	Previous STC : 10.72 	STC : 40.48
+	BCHUSDT 	Signal: B
+BCHUSDT 	Latest Close: (558.7) 	SMA(14) : 556.10 	Delta :  	Previous STC : 11.39 	STC : 40.93
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | B |  40.93
+1
+Last close price for BCHUSDT: 558.7
+Opening Buy for  BCHUSDT
+TP: 564.287
+SL: 547.5260000000001
+TS: 5.587000000000001
+Order Quantity: 35.8
+Adjusted qty: 35.800000000000004
+Final Adjusted qty: 35.8
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fb66c6ae-3fee-4a4a-b752-7c2cc54e551e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758663974493}
+fb66c6ae-3fee-4a4a-b752-7c2cc54e551e
+fetching trade data for :  fb66c6ae-3fee-4a4a-b752-7c2cc54e551e
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fb66c6ae-3fee-4a4a-b752-7c2cc54e551e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758663974493', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '558.7', 'execPrice': '558.7', 'markIv': '', 'orderQty': '35.8', 'orderPrice': '586.6', 'execValue': '20001.46', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551176456, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.000803', 'execId': 'b7da753f-bc74-44b2-90f9-af1c665c4d63', 'marketUnit': '', 'execQty': '35.8', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+IPUSDT     | B |  40.48
+1
+Last close price for IPUSDT: 12.0434
+Opening Buy for  IPUSDT
+TP: 12.163834
+SL: 11.802532
+TS: 0.120434
+Order Quantity: 1660.66
+Adjusted qty: 1660.7
+Final Adjusted qty: 1660.6
+2400.0
