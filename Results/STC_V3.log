@@ -80173,3 +80173,55 @@ Order Quantity: 609.55
 Adjusted qty: 609.5
 Final Adjusted qty: 609.5
 10950.0
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 07:16:26
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.2852) 	SMA(14) : 0.29 	Delta :  	Previous STC : 98.72 	STC : 89.13
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (2.7599) 	SMA(14) : 2.78 	Delta :  	Previous STC : 97.97 	STC : 84.61
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (559.7) 	SMA(14) : 563.60 	Delta :  	Previous STC : 99.97 	STC : 95.93
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | S |  95.93
+1
+Last close price for BCHUSDT: 559.8
+Opening Sell for  BCHUSDT
+TP: 554.202
+SL: 570.996
+TS: 5.598
+Order Quantity: 35.73
+Adjusted qty: 35.730000000000004
+Final Adjusted qty: 35.73
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a1275bc5-e9da-404d-b191-770a5a87bcca', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758597405888}
+a1275bc5-e9da-404d-b191-770a5a87bcca
+fetching trade data for :  a1275bc5-e9da-404d-b191-770a5a87bcca
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a1275bc5-e9da-404d-b191-770a5a87bcca', 'stopOrderType': 'UNKNOWN', 'execTime': '1758597405886', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '559.88', 'execPrice': '559.9', 'markIv': '', 'orderQty': '35.73', 'orderPrice': '531.9', 'execValue': '20005.227', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548959836, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00287485', 'execId': 'a23a262d-14ad-45c5-a999-9f7b6f9a0e4f', 'marketUnit': '', 'execQty': '35.73', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SEIUSDT    | S |  89.13
+1
+Last close price for SEIUSDT: 0.2854
+Opening Sell for  SEIUSDT
+TP: 0.28254599999999996
+SL: 0.291108
+TS: 0.0028539999999999998
+Order Quantity: 70077.08
+Adjusted qty: 70077.0
+Final Adjusted qty: 70077.0
+245500.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c832825e-ef8c-469a-8140-b81304ba11d1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758597417881}
+c832825e-ef8c-469a-8140-b81304ba11d1
+fetching trade data for :  c832825e-ef8c-469a-8140-b81304ba11d1
+[{'symbol': 'SEIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c832825e-ef8c-469a-8140-b81304ba11d1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758597417881', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2854', 'execPrice': '0.2854', 'markIv': '', 'orderQty': '70077', 'orderPrice': '0.2569', 'execValue': '19999.9758', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548960259, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998669', 'execId': '40bb4006-0a14-43af-ae40-b0fdb581ecfb', 'marketUnit': '', 'execQty': '70077', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 23.09.2025 07:17:07
