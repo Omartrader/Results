@@ -83775,3 +83775,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 23.09.2025 21:31:41
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 21:35:54
+	MUSDT 	Signal: S
+MUSDT 	Latest Close: (2.3941) 	SMA(14) : 2.43 	Delta :  	Previous STC : 96.86 	STC : 85.90
+	BNBUSDT 	Signal: S
+BNBUSDT 	Latest Close: (1017.8) 	SMA(14) : 1019.74 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | S |  85.90
+1
+Last close price for MUSDT: 2.3924
+Opening Sell for  MUSDT
+TP: 2.368476
+SL: 2.440248
+TS: 0.023923999999999997
+Order Quantity: 8359.81
+Adjusted qty: 8360.0
+Final Adjusted qty: 8359.0
+120000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+BNBUSDT    | S |  66.67
+1
+Last close price for BNBUSDT: 1017.7
+Opening Sell for  BNBUSDT
+TP: 1007.523
+SL: 1038.054
+TS: 10.177
+Order Quantity: 19.65
+Adjusted qty: 19.650000000000002
+Final Adjusted qty: 19.65
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '96cb055f-b109-4d61-87dd-1fa4ace6ba0e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758648978368}
+96cb055f-b109-4d61-87dd-1fa4ace6ba0e
+fetching trade data for :  96cb055f-b109-4d61-87dd-1fa4ace6ba0e
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '96cb055f-b109-4d61-87dd-1fa4ace6ba0e', 'stopOrderType': 'UNKNOWN', 'execTime': '1758648978368', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1017.72', 'execPrice': '1017.7', 'markIv': '', 'orderQty': '19.65', 'orderPrice': '966.9', 'execValue': '19997.805', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612550691820, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99879275', 'execId': 'a74a7b82-6a2f-46b0-b148-abae2339823f', 'marketUnit': '', 'execQty': '19.65', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 23.09.2025 21:36:29
