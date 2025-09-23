@@ -85189,3 +85189,45 @@ Order Quantity: 2154.85
 Adjusted qty: 2155.0
 Final Adjusted qty: 2154.0
 50000.0
+***************************************************************
+Number of open positions: 3
+Function started at 24.09.2025 03:16:09
+	CROUSDT 	Signal: B
+CROUSDT 	Latest Close: (0.20811) 	SMA(14) : 0.21 	Delta :  	Previous STC : 0.00 	STC : 29.80
+	DOTUSDT 	Signal: B
+DOTUSDT 	Latest Close: (3.9944) 	SMA(14) : 3.99 	Delta :  	Previous STC : 9.89 	STC : 39.93
+	FILUSDT 	Signal: B
+FILUSDT 	Latest Close: (2.25) 	SMA(14) : 2.25 	Delta :  	Previous STC : 3.62 	STC : 31.16
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+DOTUSDT    | B |  39.93
+1
+Last close price for DOTUSDT: 3.9916
+Opening Buy for  DOTUSDT
+TP: 4.031516
+SL: 3.911768
+TS: 0.039916
+Order Quantity: 5010.52
+Adjusted qty: 5010.5
+Final Adjusted qty: 5010.5
+32140.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fac8534f-b180-4f9f-8ac7-fa09eda150f1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758669391476}
+fac8534f-b180-4f9f-8ac7-fa09eda150f1
+fetching trade data for :  fac8534f-b180-4f9f-8ac7-fa09eda150f1
+[{'symbol': 'DOTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fac8534f-b180-4f9f-8ac7-fa09eda150f1', 'stopOrderType': 'UNKNOWN', 'execTime': '1758669391475', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.9922', 'execPrice': '3.9919', 'markIv': '', 'orderQty': '5010.5', 'orderPrice': '4.1918', 'execValue': '20001.41495', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551346783, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00077823', 'execId': '1b7d06fd-552b-4e96-93a4-34520d7034e4', 'marketUnit': '', 'execQty': '5010.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | B |  31.16
+1
+Last close price for FILUSDT: 2.249
+Opening Buy for  FILUSDT
+TP: 2.27149
+SL: 2.20402
+TS: 0.02249
+Order Quantity: 8892.84
+Adjusted qty: 8892.800000000001
+Final Adjusted qty: 8892.8
+60730.0
