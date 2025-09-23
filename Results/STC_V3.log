@@ -84562,3 +84562,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 24.09.2025 00:52:37
+***************************************************************
+Number of open positions: 2
+Function started at 24.09.2025 01:02:17
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.1967) 	SMA(14) : 0.20 	Delta :  	Previous STC : 0.81 	STC : 33.87
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.06846) 	SMA(14) : 0.07 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  66.67
+1
+Last close price for SKYUSDT: 0.06841
+Opening Sell for  SKYUSDT
+TP: 0.06772589999999999
+SL: 0.0697782
+TS: 0.0006841
+Order Quantity: 292354.92
+Adjusted qty: 292350.0
+Final Adjusted qty: 292350.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLFIUSDT   | B |  33.87
+1
+Last close price for WLFIUSDT: 0.1968
+Opening Buy for  WLFIUSDT
+TP: 0.198768
+SL: 0.192864
+TS: 0.001968
+Order Quantity: 101626.02
+Adjusted qty: 101626.0
+Final Adjusted qty: 101626.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cb1caf6c-1b30-4d4e-b0b6-75627c0a68f3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758661359741}
+cb1caf6c-1b30-4d4e-b0b6-75627c0a68f3
+fetching trade data for :  cb1caf6c-1b30-4d4e-b0b6-75627c0a68f3
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'cb1caf6c-1b30-4d4e-b0b6-75627c0a68f3', 'stopOrderType': 'UNKNOWN', 'execTime': '1758661359740', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1968', 'execPrice': '0.1968', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.2263', 'execValue': '15744', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551094338, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.6592', 'execId': '6d27a1bd-e850-4c6b-9a33-69e21de5cdbd', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 24.09.2025 01:02:49
