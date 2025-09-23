@@ -80925,3 +80925,31 @@ Order Quantity: 93589.14
 Adjusted qty: 93589.1
 Final Adjusted qty: 93589.1
 160000.0
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 10:06:15
+	ALGOUSDT 	Signal: B
+ALGOUSDT 	Latest Close: (0.2132) 	SMA(14) : 0.21 	Delta :  	Previous STC : 20.91 	STC : 29.02
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ALGOUSDT   | B |  29.02
+1
+Last close price for ALGOUSDT: 0.2132
+Opening Buy for  ALGOUSDT
+TP: 0.215332
+SL: 0.208936
+TS: 0.002132
+Order Quantity: 93808.63
+Adjusted qty: 93808.6
+Final Adjusted qty: 93808.6
+160000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1148d73a-f7f4-4230-b22e-16bd27a6fedd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758607599589}
+1148d73a-f7f4-4230-b22e-16bd27a6fedd
+fetching trade data for :  1148d73a-f7f4-4230-b22e-16bd27a6fedd
+[{'symbol': 'ALGOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1148d73a-f7f4-4230-b22e-16bd27a6fedd', 'stopOrderType': 'UNKNOWN', 'execTime': '1758607599588', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2132', 'execPrice': '0.2132', 'markIv': '', 'orderQty': '93808.6', 'orderPrice': '0.2238', 'execValue': '19999.99352', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612549303040, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999644', 'execId': '8620f8a8-3d0f-47a7-905e-74dd3cee7cf4', 'marketUnit': '', 'execQty': '93808.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 23.09.2025 10:06:48
