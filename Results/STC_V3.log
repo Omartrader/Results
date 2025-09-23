@@ -79852,3 +79852,49 @@ Order Quantity: 13254.69
 Adjusted qty: 13255.0
 Final Adjusted qty: 13254.0
 25000.0
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 06:45:58
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2239) 	SMA(14) : 0.23 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	JUPUSDT 	Signal: S
+JUPUSDT 	Latest Close: (0.461) 	SMA(14) : 0.47 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (3.9668) 	SMA(14) : 4.01 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	RENDERUSDT 	Signal: S
+RENDERUSDT 	Latest Close: (3.574) 	SMA(14) : 3.63 	Delta :  	Previous STC : 97.55 	STC : 65.03
+	AAVEUSDT 	Signal: S
+AAVEUSDT 	Latest Close: (264.27) 	SMA(14) : 267.49 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+POLUSDT    | S |  66.67
+1
+Last close price for POLUSDT: 0.224
+Opening Sell for  POLUSDT
+TP: 0.22176
+SL: 0.22848000000000002
+TS: 0.0022400000000000002
+Order Quantity: 89285.71
+Adjusted qty: 89286.0
+Final Adjusted qty: 89285.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3edeece3-3367-4719-8d80-8c2b26f0ba21', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758595579177}
+3edeece3-3367-4719-8d80-8c2b26f0ba21
+fetching trade data for :  3edeece3-3367-4719-8d80-8c2b26f0ba21
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3edeece3-3367-4719-8d80-8c2b26f0ba21', 'stopOrderType': 'UNKNOWN', 'execTime': '1758595579177', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2239', 'execPrice': '0.2239', 'markIv': '', 'orderQty': '89285', 'orderPrice': '0.2128', 'execValue': '19990.9115', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548896911, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99500133', 'execId': '9cbc3e1c-9a09-4f3e-85eb-4ce8a606b50a', 'marketUnit': '', 'execQty': '89285', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | S |  66.67
+1
+Last close price for DOTUSDT: 3.9651
+Opening Sell for  DOTUSDT
+TP: 3.925449
+SL: 4.044402
+TS: 0.039651
+Order Quantity: 5044.01
+Adjusted qty: 5044.0
+Final Adjusted qty: 5044.0
+32140.0
