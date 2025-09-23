@@ -4785,3 +4785,90 @@ Position already open.
    Final Positions: 2
 Function finished at 23.09.2025 23:34:36
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 24.09.2025 00:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for HUMAUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for HUMAUSDT: 0.03221
+Order Quantity before adjustment: 620925.18 and signal = 2
+Opening Buy for  HUMAUSDT
+TP: 0.0338205
+SL: 0.0309216
+TS: 0.0022547
+Order Quantity: 620925.18
+Adjusted qty: 620925.0
+Final Adjusted qty: 620925.0
+210000.0
+Position already open.
+0
+   Trade Result: 0
+[FAILED] Trade failed for HUMAUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for ATHUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+1
+Last close price for ATHUSDT: 0.0568
+Order Quantity before adjustment: 352112.68 and signal = 1
+Opening Sell for  ATHUSDT
+TP: 0.05396
+SL: 0.059072000000000006
+TS: 0.003976
+Order Quantity: 352112.68
+Adjusted qty: 352110.0
+Final Adjusted qty: 352110.0
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '90aef496-9491-41b2-adfb-6a97e01111c1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758657690149}
+90aef496-9491-41b2-adfb-6a97e01111c1
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ATHUSDT
+[SIGNAL] SIGNAL DETECTED for HUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+1
+Last close price for HUSDT: 0.04656
+Order Quantity before adjustment: 429553.26 and signal = 1
+Opening Sell for  HUSDT
+TP: 0.044231999999999994
+SL: 0.0484224
+TS: 0.0032592
+Order Quantity: 429553.26
+Adjusted qty: 429550.0
+Final Adjusted qty: 429550.0
+500000.0
+Position already open.
+0
+   Trade Result: 0
+[FAILED] Trade failed for HUSDT
+[ERROR] Error checking signal for PTBUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 3 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 3 signals found
+[ERROR] Error checking signal for SOMIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 3 signals found
+[ERROR] Error checking signal for ARIAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 3 signals found
+[ERROR] Error checking signal for NODEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 300/500 symbols scanned, 3 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 3 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 3 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 3 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 3 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 3
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 24.09.2025 00:04:48
+*******************************************
