@@ -83054,3 +83054,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 23.09.2025 18:21:03
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 18:25:55
+	JUPUSDT 	Signal: S
+JUPUSDT 	Latest Close: (0.4752) 	SMA(14) : 0.48 	Delta :  	Previous STC : 100.00 	STC : 89.07
+	XAUTUSDT 	Signal: S
+XAUTUSDT 	Latest Close: (3767.41) 	SMA(14) : 3781.61 	Delta :  	Previous STC : 99.41 	STC : 91.93
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XAUTUSDT   | S |  91.93
+1
+Last close price for XAUTUSDT: 3767.41
+Opening Sell for  XAUTUSDT
+TP: 3729.7358999999997
+SL: 3842.7581999999998
+TS: 37.674099999999996
+Order Quantity: 5.31
+Adjusted qty: 5.3100000000000005
+Final Adjusted qty: 5.31
+7.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+JUPUSDT    | S |  89.07
+1
+Last close price for JUPUSDT: 0.4752
+Opening Sell for  JUPUSDT
+TP: 0.47044800000000003
+SL: 0.484704
+TS: 0.004752
+Order Quantity: 42087.54
+Adjusted qty: 42088.0
+Final Adjusted qty: 42087.0
+79000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '02faeb78-bee0-4b7c-9b6e-3b82709672a6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758637577948}
+02faeb78-bee0-4b7c-9b6e-3b82709672a6
+fetching trade data for :  02faeb78-bee0-4b7c-9b6e-3b82709672a6
+[{'symbol': 'JUPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '02faeb78-bee0-4b7c-9b6e-3b82709672a6', 'stopOrderType': 'UNKNOWN', 'execTime': '1758637577947', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.4752', 'execPrice': '0.4752', 'markIv': '', 'orderQty': '42087', 'orderPrice': '0.4515', 'execValue': '19999.7424', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612550301811, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99985832', 'execId': 'ce46b279-a35d-48dc-a27e-4739bb265b45', 'marketUnit': '', 'execQty': '42087', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 23.09.2025 18:26:27
