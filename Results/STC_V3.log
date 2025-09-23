@@ -79252,3 +79252,45 @@ Order Quantity: 854700.85
 Adjusted qty: 854700.0
 Final Adjusted qty: 854700.0
 509000.0
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 04:10:40
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (2.8475) 	SMA(14) : 2.84 	Delta :  	Previous STC : 24.37 	STC : 42.14
+	FLRUSDT 	Signal: S
+FLRUSDT 	Latest Close: (0.02334) 	SMA(14) : 0.02 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	MUSDT 	Signal: S
+MUSDT 	Latest Close: (2.6206) 	SMA(14) : 2.70 	Delta :  	Previous STC : 96.13 	STC : 79.93
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MUSDT      | S |  79.93
+1
+Last close price for MUSDT: 2.6174
+Opening Sell for  MUSDT
+TP: 2.591226
+SL: 2.669748
+TS: 0.026174
+Order Quantity: 7641.17
+Adjusted qty: 7641.0
+Final Adjusted qty: 7641.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '24b45326-c71f-4671-bee1-d2292c1f18bb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758586251368}
+24b45326-c71f-4671-bee1-d2292c1f18bb
+fetching trade data for :  24b45326-c71f-4671-bee1-d2292c1f18bb
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '24b45326-c71f-4671-bee1-d2292c1f18bb', 'stopOrderType': 'UNKNOWN', 'execTime': '1758586251367', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.618', 'execPrice': '2.6174', 'markIv': '', 'orderQty': '7641', 'orderPrice': '2.2253', 'execValue': '19999.5534', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612548590130, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '21.99950874', 'execId': 'c92906a7-e1a6-4e79-b8c1-c2c2fd3c6bb3', 'marketUnit': '', 'execQty': '7641', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FLRUSDT    | S |  66.67
+1
+Last close price for FLRUSDT: 0.02336
+Opening Sell for  FLRUSDT
+TP: 0.0231264
+SL: 0.0238272
+TS: 0.00023359999999999999
+Order Quantity: 856164.38
+Adjusted qty: 856160.0
+Final Adjusted qty: 856160.0
+509000.0
