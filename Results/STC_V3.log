@@ -84273,3 +84273,34 @@ Order Quantity: 678656.26
 Adjusted qty: 678660.0
 Final Adjusted qty: 678650.0
 2500000.0
+***************************************************************
+Number of open positions: 4
+Function started at 23.09.2025 23:05:59
+	PENGUUSDT 	Signal: S
+PENGUUSDT 	Latest Close: (0.029632) 	SMA(14) : 0.03 	Delta :  	Previous STC : 96.33 	STC : 95.38
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.327) 	SMA(14) : 4.33 	Delta :  	Previous STC : 97.77 	STC : 93.04
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENGUUSDT  | S |  95.38
+1
+Last close price for PENGUUSDT: 0.02965
+Opening Sell for  PENGUUSDT
+TP: 0.029353499999999998
+SL: 0.030243
+TS: 0.0002965
+Order Quantity: 674536.26
+Adjusted qty: 674540.0
+Final Adjusted qty: 674530.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '31cc2e29-b1b0-4fbb-8d23-cf65fffd7d94', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758654380434}
+31cc2e29-b1b0-4fbb-8d23-cf65fffd7d94
+fetching trade data for :  31cc2e29-b1b0-4fbb-8d23-cf65fffd7d94
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '31cc2e29-b1b0-4fbb-8d23-cf65fffd7d94', 'stopOrderType': 'UNKNOWN', 'execTime': '1758654380433', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02965', 'execPrice': '0.029645', 'markIv': '', 'orderQty': '674530', 'orderPrice': '0.026685', 'execValue': '19996.44185', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612550871028, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99804302', 'execId': '367bce3f-d202-48d9-a9f2-c5a7340f5b78', 'marketUnit': '', 'execQty': '674530', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 23.09.2025 23:06:30
