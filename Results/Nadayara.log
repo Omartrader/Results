@@ -3822,3 +3822,73 @@ Position already open.
    Final Positions: 10
 Function finished at 23.09.2025 11:04:36
 *******************************************
+***************************************************************
+Number of open positions: 9
+*******************************************
+Function started at 23.09.2025 11:31:05
+Scanning 500 symbols for trading signals...
+Current open positions: 9
+Maximum positions allowed: 20
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for ZBCNUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758612676758}
+Last close price for ZBCNUSDT: 0.0047639
+Order Quantity before adjustment: 4198240.94 and signal = 2
+Opening Buy for  ZBCNUSDT
+TP: 0.005097373
+SL: 0.004573343999999999
+TS: 0.00019055599999999998
+Order Quantity: 4198240.94
+Adjusted qty: 4198200.0
+Final Adjusted qty: 4198200.0
+733000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a04228c1-8e7c-4189-9300-964aa727ff15', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758612678057}
+a04228c1-8e7c-4189-9300-964aa727ff15
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ZBCNUSDT
+[SIGNAL] SIGNAL DETECTED for HUMAUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+Last close price for HUMAUSDT: 0.03395
+Order Quantity before adjustment: 589101.62 and signal = 2
+Opening Buy for  HUMAUSDT
+TP: 0.036326500000000005
+SL: 0.032592
+TS: 0.001358
+Order Quantity: 589101.62
+Adjusted qty: 589102.0
+Final Adjusted qty: 589101.0
+210000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6edfa345-7da0-443a-bfc3-1b6488bacfb3', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758612691488}
+6edfa345-7da0-443a-bfc3-1b6488bacfb3
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for HUMAUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for PTBUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for SOMIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for ARIAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 2 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 2
+   Successful Trades: 2
+   Final Positions: 11
+Function finished at 23.09.2025 11:34:44
+*******************************************
