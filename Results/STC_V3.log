@@ -83205,3 +83205,43 @@ Order Quantity: 7100.76
 Adjusted qty: 7100.8
 Final Adjusted qty: 7100.7
 37810.0
+***************************************************************
+Number of open positions: 3
+Function started at 23.09.2025 19:11:00
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (2.8185) 	SMA(14) : 2.82 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	FILUSDT 	Signal: S
+FILUSDT 	Latest Close: (2.267) 	SMA(14) : 2.27 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  66.67
+1
+Last close price for TONUSDT: 2.819
+Opening Sell for  TONUSDT
+TP: 2.79081
+SL: 2.87538
+TS: 0.02819
+Order Quantity: 7094.71
+Adjusted qty: 7094.700000000001
+Final Adjusted qty: 7094.7
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6e3ff18c-4ec7-4ccd-9ce0-525acd436bb0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758640281739}
+6e3ff18c-4ec7-4ccd-9ce0-525acd436bb0
+fetching trade data for :  6e3ff18c-4ec7-4ccd-9ce0-525acd436bb0
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6e3ff18c-4ec7-4ccd-9ce0-525acd436bb0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758640281738', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.819', 'execPrice': '2.8191', 'markIv': '', 'orderQty': '7094.7', 'orderPrice': '2.6781', 'execValue': '20000.66877', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612550394119, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00036783', 'execId': '65cdf1c5-aff7-42b5-b51b-b78f05f409c3', 'marketUnit': '', 'execQty': '7094.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | S |  66.67
+1
+Last close price for FILUSDT: 2.268
+Opening Sell for  FILUSDT
+TP: 2.24532
+SL: 2.31336
+TS: 0.02268
+Order Quantity: 8818.34
+Adjusted qty: 8818.300000000001
+Final Adjusted qty: 8818.3
+60730.0
