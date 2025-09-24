@@ -86015,3 +86015,68 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 24.09.2025 07:41:18
+***************************************************************
+Number of open positions: 2
+Function started at 24.09.2025 07:46:43
+	SOLUSDT 	Signal: S
+SOLUSDT 	Latest Close: (208.59) 	SMA(14) : 213.26 	Delta :  	Previous STC : 96.09 	STC : 90.42
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (7.951) 	SMA(14) : 8.07 	Delta :  	Previous STC : 99.99 	STC : 94.62
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4140.48) 	SMA(14) : 4167.78 	Delta :  	Previous STC : 99.32 	STC : 90.65
+	BNBUSDT 	Signal: S
+BNBUSDT 	Latest Close: (1008.5) 	SMA(14) : 1017.89 	Delta :  	Previous STC : 98.23 	STC : 92.73
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (296.14) 	SMA(14) : 294.51 	Delta :  	Previous STC : 18.96 	STC : 28.99
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | S |  94.62
+1
+Last close price for UNIUSDT: 7.952
+Opening Sell for  UNIUSDT
+TP: 7.8724799999999995
+SL: 8.111040000000001
+TS: 0.07952
+Order Quantity: 2515.09
+Adjusted qty: 2515.1000000000004
+Final Adjusted qty: 2515.0
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8ab05c9f-9408-482a-9c9a-6532a4253526', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758685624243}
+8ab05c9f-9408-482a-9c9a-6532a4253526
+fetching trade data for :  8ab05c9f-9408-482a-9c9a-6532a4253526
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8ab05c9f-9408-482a-9c9a-6532a4253526', 'stopOrderType': 'UNKNOWN', 'execTime': '1758685624243', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.952', 'execPrice': '7.95', 'markIv': '', 'orderQty': '2515', 'orderPrice': '7.555', 'execValue': '19994.25', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551863782, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9968375', 'execId': '2cf41779-9b81-4a62-9e95-8a63cb80d9da', 'marketUnit': '', 'execQty': '2515', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BNBUSDT    | S |  92.73
+1
+Last close price for BNBUSDT: 1006.9
+Opening Sell for  BNBUSDT
+TP: 996.831
+SL: 1027.038
+TS: 10.068999999999999
+Order Quantity: 19.86
+Adjusted qty: 19.86
+Final Adjusted qty: 19.86
+1054.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd5bfab54-bd53-467c-93c0-833f433145c9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758685636111}
+d5bfab54-bd53-467c-93c0-833f433145c9
+fetching trade data for :  d5bfab54-bd53-467c-93c0-833f433145c9
+[{'symbol': 'BNBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd5bfab54-bd53-467c-93c0-833f433145c9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758685636111', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1007.29', 'execPrice': '1007.2', 'markIv': '', 'orderQty': '19.86', 'orderPrice': '957', 'execValue': '20002.992', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551864175, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0016456', 'execId': '240fef7e-3674-4bbf-be04-52de29d79191', 'marketUnit': '', 'execQty': '19.86', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHUSDT    | S |  90.65
+1
+Last close price for ETHUSDT: 4142.12
+Opening Sell for  ETHUSDT
+TP: 4100.6988
+SL: 4224.9624
+TS: 41.4212
+Order Quantity: 4.83
+Adjusted qty: 4.83
+Final Adjusted qty: 4.83
+724.0
