@@ -7291,3 +7291,72 @@ Position already open.
    Final Positions: 3
 Function finished at 24.09.2025 23:35:09
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 25.09.2025 00:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for INUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for INUSDT: 0.10236
+Order Quantity before adjustment: 195388.82 and signal = 2
+Opening Buy for  INUSDT
+TP: 0.10747800000000002
+SL: 0.09826560000000001
+TS: 0.0071652
+Order Quantity: 195388.82
+Adjusted qty: 195390.0
+Final Adjusted qty: 195380.0
+250000.0
+Position already open.
+0
+   Trade Result: 0
+[FAILED] Trade failed for INUSDT
+[SIGNAL] SIGNAL DETECTED for GIGAUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for GIGAUSDT: 0.0127
+Order Quantity before adjustment: 1574803.15 and signal = 2
+Opening Buy for  GIGAUSDT
+TP: 0.013335
+SL: 0.012192
+TS: 0.0008889999999999999
+Order Quantity: 1574803.15
+Adjusted qty: 1574800.0
+Final Adjusted qty: 1574800.0
+330000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7bdab47b-5e80-495f-821e-11474ea32734', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758744079642}
+7bdab47b-5e80-495f-821e-11474ea32734
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for GIGAUSDT
+[PROGRESS] Progress: 50/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for PTBUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 150/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for ARIAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for SOMIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for NODEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 400/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 2 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 2
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 25.09.2025 00:04:50
+*******************************************
