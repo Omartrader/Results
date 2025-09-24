@@ -86154,3 +86154,52 @@ Order Quantity: 4668.53
 Adjusted qty: 4668.5
 Final Adjusted qty: 4668.5
 25860.0
+***************************************************************
+Number of open positions: 2
+Function started at 24.09.2025 08:06:47
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.27) 	SMA(14) : 4.34 	Delta :  	Previous STC : 99.02 	STC : 91.01
+	OKBUSDT 	Signal: S
+OKBUSDT 	Latest Close: (177.02) 	SMA(14) : 180.65 	Delta :  	Previous STC : 99.95 	STC : 95.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OKBUSDT    | S |  95.33
+1
+Last close price for OKBUSDT: 177.02
+Opening Sell for  OKBUSDT
+TP: 175.24980000000002
+SL: 180.56040000000002
+TS: 1.7702
+Order Quantity: 112.98
+Adjusted qty: 112.98
+Final Adjusted qty: 112.98
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aea1767e-90a1-4a51-99a5-d9914c55a1e4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758686828970}
+aea1767e-90a1-4a51-99a5-d9914c55a1e4
+fetching trade data for :  aea1767e-90a1-4a51-99a5-d9914c55a1e4
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'aea1767e-90a1-4a51-99a5-d9914c55a1e4', 'stopOrderType': 'UNKNOWN', 'execTime': '1758686828970', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '177.27', 'execPrice': '177.02', 'markIv': '', 'orderQty': '112.98', 'orderPrice': '150.68', 'execValue': '19999.7196', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551904453, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99984578', 'execId': '5cd7c0c1-3974-4889-86eb-e4ff6cda3f48', 'marketUnit': '', 'execQty': '112.98', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    | S |  91.01
+1
+Last close price for ICPUSDT: 4.267
+Opening Sell for  ICPUSDT
+TP: 4.22433
+SL: 4.352340000000001
+TS: 0.04267000000000001
+Order Quantity: 4687.13
+Adjusted qty: 4687.1
+Final Adjusted qty: 4687.1
+25860.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7d6d3431-13ed-43dd-9f7a-99eb8021ba6c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758686840889}
+7d6d3431-13ed-43dd-9f7a-99eb8021ba6c
+fetching trade data for :  7d6d3431-13ed-43dd-9f7a-99eb8021ba6c
+[{'symbol': 'ICPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7d6d3431-13ed-43dd-9f7a-99eb8021ba6c', 'stopOrderType': 'UNKNOWN', 'execTime': '1758686840888', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.266', 'execPrice': '4.266', 'markIv': '', 'orderQty': '4687.1', 'orderPrice': '4.053', 'execValue': '19995.1686', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551904887, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99734273', 'execId': '836b4565-8ac7-4743-939a-c464db5bf742', 'marketUnit': '', 'execQty': '4687.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 24.09.2025 08:07:31
