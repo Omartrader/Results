@@ -90469,3 +90469,54 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 25.09.2025 02:06:00
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 02:10:42
+	TRXUSDT 	Signal: S
+TRXUSDT 	Latest Close: (0.33831) 	SMA(14) : 0.34 	Delta :  	Previous STC : 96.97 	STC : 65.69
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | S |  65.69
+1
+Last close price for TRXUSDT: 0.33831
+Opening Sell for  TRXUSDT
+TP: 0.33492689999999997
+SL: 0.3450762
+TS: 0.0033831
+Order Quantity: 59117.38
+Adjusted qty: 59117.0
+Final Adjusted qty: 59117.0
+1356000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 25.09.2025 02:11:02
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 02:15:41
+	OKBUSDT 	Signal: S
+OKBUSDT 	Latest Close: (181.91) 	SMA(14) : 182.18 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OKBUSDT    | S |  66.67
+1
+Last close price for OKBUSDT: 181.91
+Opening Sell for  OKBUSDT
+TP: 180.0909
+SL: 185.5482
+TS: 1.8191
+Order Quantity: 109.94
+Adjusted qty: 109.94
+Final Adjusted qty: 109.94
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c2544e2c-9674-4cdb-a69b-76915e0434fe', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758752160683}
+c2544e2c-9674-4cdb-a69b-76915e0434fe
+fetching trade data for :  c2544e2c-9674-4cdb-a69b-76915e0434fe
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c2544e2c-9674-4cdb-a69b-76915e0434fe', 'stopOrderType': 'UNKNOWN', 'execTime': '1758752160682', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '181.8', 'execPrice': '181.91', 'markIv': '', 'orderQty': '109.94', 'orderPrice': '154.53', 'execValue': '19999.1854', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612554017407, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99955197', 'execId': '85f197a5-a619-4812-9c52-c0d199756df9', 'marketUnit': '', 'execQty': '109.94', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 25.09.2025 02:16:11
