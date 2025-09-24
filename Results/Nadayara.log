@@ -5912,3 +5912,55 @@ Maximum positions allowed: 5
    Final Positions: 0
 Function finished at 24.09.2025 12:04:38
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 24.09.2025 12:31:04
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for LINEAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for PTBUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for INUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758702718911}
+Last close price for INUSDT: 0.09547
+Order Quantity before adjustment: 209489.89 and signal = 2
+Opening Buy for  INUSDT
+TP: 0.1002435
+SL: 0.0916512
+TS: 0.0066829
+Order Quantity: 209489.89
+Adjusted qty: 209490.0
+Final Adjusted qty: 209480.0
+250000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a98d3a43-c099-4777-8792-5dafcf446c68', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758702719957}
+a98d3a43-c099-4777-8792-5dafcf446c68
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for INUSDT
+[PROGRESS] Progress: 150/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for SOMIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for ARIAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for NODEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 1
+Function finished at 24.09.2025 12:34:45
+*******************************************
