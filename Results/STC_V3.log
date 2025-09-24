@@ -86242,3 +86242,68 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 24.09.2025 08:11:12
+***************************************************************
+Number of open positions: 2
+Function started at 24.09.2025 08:17:00
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4254) 	SMA(14) : 0.43 	Delta :  	Previous STC : 97.10 	STC : 86.23
+	SUIUSDT 	Signal: S
+SUIUSDT 	Latest Close: (3.2614) 	SMA(14) : 3.32 	Delta :  	Previous STC : 97.10 	STC : 90.35
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (3.9259) 	SMA(14) : 3.98 	Delta :  	Previous STC : 98.56 	STC : 90.33
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (4.236) 	SMA(14) : 4.29 	Delta :  	Previous STC : 97.25 	STC : 84.58
+	RENDERUSDT 	Signal: S
+RENDERUSDT 	Latest Close: (3.527) 	SMA(14) : 3.58 	Delta :  	Previous STC : 98.35 	STC : 91.09
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+RENDERUSDT | S |  91.09
+1
+Last close price for RENDERUSDT: 3.527
+Opening Sell for  RENDERUSDT
+TP: 3.49173
+SL: 3.5975400000000004
+TS: 0.03527
+Order Quantity: 5670.54
+Adjusted qty: 5670.5
+Final Adjusted qty: 5670.5
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0a8c0710-6ab6-45ea-a47b-b5b1130861d7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758687441560}
+0a8c0710-6ab6-45ea-a47b-b5b1130861d7
+fetching trade data for :  0a8c0710-6ab6-45ea-a47b-b5b1130861d7
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0a8c0710-6ab6-45ea-a47b-b5b1130861d7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758687441559', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.527', 'execPrice': '3.527', 'markIv': '', 'orderQty': '5670.5', 'orderPrice': '3.351', 'execValue': '19999.8535', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551925373, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991943', 'execId': '1aa0a926-885b-470f-996f-ae418e6f6cf4', 'marketUnit': '', 'execQty': '5670.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | S |  90.35
+1
+Last close price for SUIUSDT: 3.2587
+Opening Sell for  SUIUSDT
+TP: 3.2261130000000002
+SL: 3.323874
+TS: 0.032587000000000005
+Order Quantity: 6137.42
+Adjusted qty: 6140.0
+Final Adjusted qty: 6130.0
+40000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '44b91d2b-a2b8-479f-aa66-7079089da271', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758687453750}
+44b91d2b-a2b8-479f-aa66-7079089da271
+fetching trade data for :  44b91d2b-a2b8-479f-aa66-7079089da271
+[{'symbol': 'SUIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '44b91d2b-a2b8-479f-aa66-7079089da271', 'stopOrderType': 'UNKNOWN', 'execTime': '1758687453749', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.25901', 'execPrice': '3.2586', 'markIv': '', 'orderQty': '6130', 'orderPrice': '3.0961', 'execValue': '19975.218', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612551925787, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9863699', 'execId': '4656d42a-5808-4688-a5ac-14683c29a912', 'marketUnit': '', 'execQty': '6130', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+DOTUSDT    | S |  90.33
+1
+Last close price for DOTUSDT: 3.9221
+Opening Sell for  DOTUSDT
+TP: 3.882879
+SL: 4.000542
+TS: 0.039221
+Order Quantity: 5099.31
+Adjusted qty: 5099.3
+Final Adjusted qty: 5099.3
+32140.0
