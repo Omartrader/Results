@@ -87035,3 +87035,43 @@ Order Quantity: 54406.96
 Adjusted qty: 54407.0
 Final Adjusted qty: 54406.0
 1636400.0
+***************************************************************
+Number of open positions: 3
+Function started at 24.09.2025 10:51:02
+	XLMUSDT 	Signal: B
+XLMUSDT 	Latest Close: (0.36778) 	SMA(14) : 0.36 	Delta :  	Previous STC : 19.39 	STC : 46.26
+	ETCUSDT 	Signal: B
+ETCUSDT 	Latest Close: (19.023) 	SMA(14) : 18.81 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XLMUSDT    | B |  46.26
+1
+Last close price for XLMUSDT: 0.36772
+Opening Buy for  XLMUSDT
+TP: 0.3713972
+SL: 0.3603656
+TS: 0.0036772
+Order Quantity: 54389.21
+Adjusted qty: 54389.0
+Final Adjusted qty: 54389.0
+1636400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'caf42594-6c42-4a2a-857a-156569a60f0d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758696684213}
+caf42594-6c42-4a2a-857a-156569a60f0d
+fetching trade data for :  caf42594-6c42-4a2a-857a-156569a60f0d
+[{'symbol': 'XLMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'caf42594-6c42-4a2a-857a-156569a60f0d', 'stopOrderType': 'UNKNOWN', 'execTime': '1758696684212', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.36773', 'execPrice': '0.36773', 'markIv': '', 'orderQty': '54389', 'orderPrice': '0.38611', 'execValue': '20000.46697', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612552220736, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00025684', 'execId': '69950ed7-2348-40e0-bbc4-c4a6b92b793c', 'marketUnit': '', 'execQty': '54389', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  33.33
+1
+Last close price for ETCUSDT: 19.025
+Opening Buy for  ETCUSDT
+TP: 19.215249999999997
+SL: 18.644499999999997
+TS: 0.19024999999999997
+Order Quantity: 1051.25
+Adjusted qty: 1051.2
+Final Adjusted qty: 1051.2
+10610.0
