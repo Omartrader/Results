@@ -89161,3 +89161,45 @@ Order Quantity: 33456.01
 Adjusted qty: 33456.0
 Final Adjusted qty: 33456.0
 100000.0
+***************************************************************
+Number of open positions: 3
+Function started at 24.09.2025 20:20:41
+	ENAUSDT 	Signal: S
+ENAUSDT 	Latest Close: (0.599) 	SMA(14) : 0.60 	Delta :  	Previous STC : 99.32 	STC : 93.72
+	RENDERUSDT 	Signal: S
+RENDERUSDT 	Latest Close: (3.655) 	SMA(14) : 3.66 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (558.5) 	SMA(14) : 560.19 	Delta :  	Previous STC : 99.79 	STC : 95.71
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BCHUSDT    | S |  95.71
+1
+Last close price for BCHUSDT: 558.5
+Opening Sell for  BCHUSDT
+TP: 552.915
+SL: 569.67
+TS: 5.585
+Order Quantity: 35.81
+Adjusted qty: 35.81
+Final Adjusted qty: 35.81
+804.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '42fbff08-be8f-4f8a-bb4e-edca48b0f66a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758730861567}
+42fbff08-be8f-4f8a-bb4e-edca48b0f66a
+fetching trade data for :  42fbff08-be8f-4f8a-bb4e-edca48b0f66a
+[{'symbol': 'BCHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '42fbff08-be8f-4f8a-bb4e-edca48b0f66a', 'stopOrderType': 'UNKNOWN', 'execTime': '1758730861566', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '558.5', 'execPrice': '558.5', 'markIv': '', 'orderQty': '35.81', 'orderPrice': '530.6', 'execValue': '19999.885', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612553335032, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99993675', 'execId': '70421c41-5fbe-4e2c-8ba2-7d208866084c', 'marketUnit': '', 'execQty': '35.81', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ENAUSDT    | S |  93.72
+1
+Last close price for ENAUSDT: 0.5993
+Opening Sell for  ENAUSDT
+TP: 0.593307
+SL: 0.6112860000000001
+TS: 0.005993000000000001
+Order Quantity: 33372.27
+Adjusted qty: 33372.0
+Final Adjusted qty: 33372.0
+100000.0
