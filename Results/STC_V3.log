@@ -86832,3 +86832,43 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 24.09.2025 09:56:14
+***************************************************************
+Number of open positions: 3
+Function started at 24.09.2025 10:01:17
+	MNTUSDT 	Signal: B
+MNTUSDT 	Latest Close: (1.8109) 	SMA(14) : 1.76 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	LINKUSDT 	Signal: B
+LINKUSDT 	Latest Close: (21.683) 	SMA(14) : 21.44 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | B |  33.33
+1
+Last close price for MNTUSDT: 1.8076
+Opening Buy for  MNTUSDT
+TP: 1.825676
+SL: 1.7714480000000001
+TS: 0.018076000000000002
+Order Quantity: 11064.39
+Adjusted qty: 11064.0
+Final Adjusted qty: 11064.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f6ff4bac-44a9-4929-9558-308466e46490', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758693698008}
+f6ff4bac-44a9-4929-9558-308466e46490
+fetching trade data for :  f6ff4bac-44a9-4929-9558-308466e46490
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f6ff4bac-44a9-4929-9558-308466e46490', 'stopOrderType': 'UNKNOWN', 'execTime': '1758693698007', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.80762', 'execPrice': '1.8076', 'markIv': '', 'orderQty': '11064', 'orderPrice': '1.9883', 'execValue': '19999.2864', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612552125083, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99960752', 'execId': '670f217b-459e-49de-9706-e30a8c52b49d', 'marketUnit': '', 'execQty': '11064', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+LINKUSDT   | B |  33.33
+1
+Last close price for LINKUSDT: 21.691
+Opening Buy for  LINKUSDT
+TP: 21.907909999999998
+SL: 21.257179999999998
+TS: 0.21691
+Order Quantity: 922.04
+Adjusted qty: 922.0
+Final Adjusted qty: 922.0
+31450.0
