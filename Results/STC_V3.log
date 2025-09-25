@@ -90860,3 +90860,47 @@ USD1USDT 	Latest Close: (0.9992) 	SMA(14) : 1.00 	Delta :  	Previous STC : 97.09
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 25.09.2025 04:06:13
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 04:16:06
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.20033) 	SMA(14) : 0.20 	Delta :  	Previous STC : 98.13 	STC : 89.92
+	HYPEUSDT 	Signal: S
+HYPEUSDT 	Latest Close: (45.726) 	SMA(14) : 45.88 	Delta :  	Previous STC : 96.14 	STC : 85.85
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+CROUSDT    | S |  89.92
+1
+Last close price for CROUSDT: 0.20025
+Opening Sell for  CROUSDT
+TP: 0.19824750000000002
+SL: 0.20425500000000002
+TS: 0.0020025
+Order Quantity: 99875.16
+Adjusted qty: 99875.0
+Final Adjusted qty: 99875.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '02db7f29-ff0f-473d-a6a7-537e933cbfc0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758759387974}
+02db7f29-ff0f-473d-a6a7-537e933cbfc0
+fetching trade data for :  02db7f29-ff0f-473d-a6a7-537e933cbfc0
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '02db7f29-ff0f-473d-a6a7-537e933cbfc0', 'stopOrderType': 'UNKNOWN', 'execTime': '1758759387973', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2003', 'execPrice': '0.20025', 'markIv': '', 'orderQty': '79800', 'orderPrice': '0.18027', 'execValue': '15979.95', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612554248286, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.7889725', 'execId': 'e534755d-2f55-4446-b509-a169bfa74a00', 'marketUnit': '', 'execQty': '79800', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+HYPEUSDT   | S |  85.85
+1
+Last close price for HYPEUSDT: 45.707
+Opening Sell for  HYPEUSDT
+TP: 45.24993
+SL: 46.621140000000004
+TS: 0.45707000000000003
+Order Quantity: 437.57
+Adjusted qty: 437.57
+Final Adjusted qty: 437.57
+980.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 25.09.2025 04:16:39
