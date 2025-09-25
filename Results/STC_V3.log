@@ -93460,3 +93460,68 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 25.09.2025 16:41:16
+***************************************************************
+Number of open positions: 2
+Function started at 25.09.2025 16:45:55
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.7831) 	SMA(14) : 0.78 	Delta :  	Previous STC : 97.45 	STC : 92.82
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.18639) 	SMA(14) : 0.19 	Delta :  	Previous STC : 97.79 	STC : 90.84
+	XAUTUSDT 	Signal: S
+XAUTUSDT 	Latest Close: (3740.4) 	SMA(14) : 3752.38 	Delta :  	Previous STC : 98.15 	STC : 80.94
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ADAUSDT    | S |  92.82
+1
+Last close price for ADAUSDT: 0.7836
+Opening Sell for  ADAUSDT
+TP: 0.775764
+SL: 0.799272
+TS: 0.007836
+Order Quantity: 25523.23
+Adjusted qty: 25523.0
+Final Adjusted qty: 25523.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0e020f7b-698f-4a40-a291-c3eec37d7204', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758804378009}
+0e020f7b-698f-4a40-a291-c3eec37d7204
+fetching trade data for :  0e020f7b-698f-4a40-a291-c3eec37d7204
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0e020f7b-698f-4a40-a291-c3eec37d7204', 'stopOrderType': 'UNKNOWN', 'execTime': '1758804378008', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7836', 'execPrice': '0.7836', 'markIv': '', 'orderQty': '25523', 'orderPrice': '0.7445', 'execValue': '19999.8228', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555729374, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99990254', 'execId': '36797a2d-38f3-4155-83da-b8d6d9aedb62', 'marketUnit': '', 'execQty': '25523', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+CROUSDT    | S |  90.84
+1
+Last close price for CROUSDT: 0.18648
+Opening Sell for  CROUSDT
+TP: 0.1846152
+SL: 0.1902096
+TS: 0.0018648
+Order Quantity: 107250.11
+Adjusted qty: 107250.0
+Final Adjusted qty: 107250.0
+79800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1fbe7442-426c-4ef6-9185-028e4c58c1ec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758804389966}
+1fbe7442-426c-4ef6-9185-028e4c58c1ec
+fetching trade data for :  1fbe7442-426c-4ef6-9185-028e4c58c1ec
+[{'symbol': 'CROUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1fbe7442-426c-4ef6-9185-028e4c58c1ec', 'stopOrderType': 'UNKNOWN', 'execTime': '1758804389965', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.18648', 'execPrice': '0.18648', 'markIv': '', 'orderQty': '79800', 'orderPrice': '0.16784', 'execValue': '14881.104', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555729783, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.1846072', 'execId': '9a5c9c86-05e9-41b2-a1ac-685a0c2ef49f', 'marketUnit': '', 'execQty': '79800', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XAUTUSDT   | S |  80.94
+1
+Last close price for XAUTUSDT: 3739.34
+Opening Sell for  XAUTUSDT
+TP: 3701.9466
+SL: 3814.1268
+TS: 37.3934
+Order Quantity: 5.35
+Adjusted qty: 5.3500000000000005
+Final Adjusted qty: 5.35
+7.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 25.09.2025 16:46:39
