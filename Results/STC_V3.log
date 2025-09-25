@@ -92649,3 +92649,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 25.09.2025 13:01:33
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 13:05:44
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.1994) 	SMA(14) : 0.20 	Delta :  	Previous STC : 18.18 	STC : 28.14
+	ETHUSDT 	Signal: B
+ETHUSDT 	Latest Close: (4019.33) 	SMA(14) : 4011.37 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ETHUSDT    | B |  33.33
+1
+Last close price for ETHUSDT: 4020.46
+Opening Buy for  ETHUSDT
+TP: 4060.6646
+SL: 3940.0508
+TS: 40.2046
+Order Quantity: 4.97
+Adjusted qty: 4.97
+Final Adjusted qty: 4.97
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '962d6c0e-eba1-439f-b1ea-c52bce68379f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758791164979}
+962d6c0e-eba1-439f-b1ea-c52bce68379f
+fetching trade data for :  962d6c0e-eba1-439f-b1ea-c52bce68379f
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '962d6c0e-eba1-439f-b1ea-c52bce68379f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758791164978', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4020.88', 'execPrice': '4021.63', 'markIv': '', 'orderQty': '4.97', 'orderPrice': '4101.29', 'execValue': '19987.5011', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555281358, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99312561', 'execId': '6994cc22-b94a-4462-82aa-74d3d6e4f46c', 'marketUnit': '', 'execQty': '4.97', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLFIUSDT   | B |  28.14
+1
+Last close price for WLFIUSDT: 0.1996
+Opening Buy for  WLFIUSDT
+TP: 0.201596
+SL: 0.195608
+TS: 0.001996
+Order Quantity: 100200.4
+Adjusted qty: 100200.0
+Final Adjusted qty: 100200.0
+80000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 25.09.2025 13:06:15
