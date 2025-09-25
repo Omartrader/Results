@@ -91889,3 +91889,49 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 25.09.2025 10:11:03
+***************************************************************
+Number of open positions: 2
+Function started at 25.09.2025 10:15:43
+	SKYUSDT 	Signal: B
+SKYUSDT 	Latest Close: (0.0654) 	SMA(14) : 0.07 	Delta :  	Previous STC : 24.76 	STC : 49.84
+	USDCUSDT 	Signal: S
+USDCUSDT 	Latest Close: (0.9996) 	SMA(14) : 1.00 	Delta :  	Previous STC : 98.71 	STC : 86.54
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (289.37) 	SMA(14) : 292.17 	Delta :  	Previous STC : 100.00 	STC : 95.58
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XMRUSDT    | S |  95.58
+1
+Last close price for XMRUSDT: 289.37
+Opening Sell for  XMRUSDT
+TP: 286.4763
+SL: 295.1574
+TS: 2.8937
+Order Quantity: 69.12
+Adjusted qty: 69.12
+Final Adjusted qty: 69.12
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8c06744c-a9d8-4abb-96a6-14afbfad5913', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758780963782}
+8c06744c-a9d8-4abb-96a6-14afbfad5913
+fetching trade data for :  8c06744c-a9d8-4abb-96a6-14afbfad5913
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8c06744c-a9d8-4abb-96a6-14afbfad5913', 'stopOrderType': 'UNKNOWN', 'execTime': '1758780963782', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '289.37', 'execPrice': '289.38', 'markIv': '', 'orderQty': '69.12', 'orderPrice': '274.91', 'execValue': '20001.9456', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612554947144, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00107008', 'execId': 'f95c3361-99aa-4cbe-a498-ab1a2e5a152a', 'marketUnit': '', 'execQty': '69.12', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SKYUSDT    | B |  49.84
+1
+Last close price for SKYUSDT: 0.06549
+Opening Buy for  SKYUSDT
+TP: 0.0661449
+SL: 0.0641802
+TS: 0.0006549
+Order Quantity: 305390.14
+Adjusted qty: 305390.0
+Final Adjusted qty: 305390.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 25.09.2025 10:16:15
