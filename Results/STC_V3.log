@@ -92330,3 +92330,45 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 25.09.2025 11:56:06
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 12:01:17
+	ENAUSDT 	Signal: S
+ENAUSDT 	Latest Close: (0.5785) 	SMA(14) : 0.59 	Delta :  	Previous STC : 99.52 	STC : 95.88
+	TONUSDT 	Signal: B
+TONUSDT 	Latest Close: (2.7853) 	SMA(14) : 2.78 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	TRUMPUSDT 	Signal: B
+TRUMPUSDT 	Latest Close: (7.58) 	SMA(14) : 7.57 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ENAUSDT    | S |  95.88
+1
+Last close price for ENAUSDT: 0.5792
+Opening Sell for  ENAUSDT
+TP: 0.573408
+SL: 0.5907840000000001
+TS: 0.005792
+Order Quantity: 34530.39
+Adjusted qty: 34530.0
+Final Adjusted qty: 34530.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b898536b-e2de-4231-a318-eaa513b179e9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758787295925}
+b898536b-e2de-4231-a318-eaa513b179e9
+fetching trade data for :  b898536b-e2de-4231-a318-eaa513b179e9
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b898536b-e2de-4231-a318-eaa513b179e9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758787295923', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5792', 'execPrice': '0.5792', 'markIv': '', 'orderQty': '34530', 'orderPrice': '0.5213', 'execValue': '19999.776', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555152719, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9998768', 'execId': '198e255c-1ae5-4f6b-a9ea-5154a197c3f0', 'marketUnit': '', 'execQty': '34530', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    | B |  33.33
+1
+Last close price for TONUSDT: 2.7873
+Opening Buy for  TONUSDT
+TP: 2.815173
+SL: 2.731554
+TS: 0.027873000000000002
+Order Quantity: 7175.4
+Adjusted qty: 7175.400000000001
+Final Adjusted qty: 7175.4
+37810.0
