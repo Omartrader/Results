@@ -92071,3 +92071,47 @@ Function started at 25.09.2025 10:55:41
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 25.09.2025 10:55:58
+***************************************************************
+Number of open positions: 2
+Function started at 25.09.2025 11:00:53
+	WLFIUSDT 	Signal: S
+WLFIUSDT 	Latest Close: (0.1943) 	SMA(14) : 0.19 	Delta :  	Previous STC : 96.77 	STC : 87.63
+	XAUTUSDT 	Signal: B
+XAUTUSDT 	Latest Close: (3743.19) 	SMA(14) : 3740.00 	Delta :  	Previous STC : 18.61 	STC : 28.60
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | S |  87.63
+1
+Last close price for WLFIUSDT: 0.1941
+Opening Sell for  WLFIUSDT
+TP: 0.192159
+SL: 0.197982
+TS: 0.001941
+Order Quantity: 103039.67
+Adjusted qty: 103040.0
+Final Adjusted qty: 103039.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1079dec8-c585-4b42-b724-ce4aba47b0d7', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758783672566}
+1079dec8-c585-4b42-b724-ce4aba47b0d7
+fetching trade data for :  1079dec8-c585-4b42-b724-ce4aba47b0d7
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1079dec8-c585-4b42-b724-ce4aba47b0d7', 'stopOrderType': 'UNKNOWN', 'execTime': '1758783672564', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.1941', 'execPrice': '0.1941', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.165', 'execValue': '15528', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555033798, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.5404', 'execId': '03592024-e027-4fb9-a845-d5e6bcc18830', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XAUTUSDT   | B |  28.60
+1
+Last close price for XAUTUSDT: 3742.55
+Opening Buy for  XAUTUSDT
+TP: 3779.9755
+SL: 3667.699
+TS: 37.4255
+Order Quantity: 5.34
+Adjusted qty: 5.34
+Final Adjusted qty: 5.34
+7.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 25.09.2025 11:01:24
