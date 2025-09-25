@@ -94012,3 +94012,65 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 25.09.2025 17:51:31
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 17:55:57
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (0.7415) 	SMA(14) : 0.78 	Delta :  	Previous STC : 98.15 	STC : 90.17
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (7.651) 	SMA(14) : 7.68 	Delta :  	Previous STC : 98.83 	STC : 91.19
+	USD1USDT 	Signal: B
+USD1USDT 	Latest Close: (0.9995) 	SMA(14) : 1.00 	Delta :  	Previous STC : 11.54 	STC : 27.84
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (110900.3) 	SMA(14) : 111287.51 	Delta :  	Previous STC : 98.69 	STC : 92.24
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BTCUSDT    | S |  92.24
+1
+Last close price for BTCUSDT: 110887.4
+Opening Sell for  BTCUSDT
+TP: 109778.526
+SL: 113105.148
+TS: 1108.874
+Order Quantity: 0.18
+Adjusted qty: 0.18
+Final Adjusted qty: 0.18
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    | S |  91.19
+1
+Last close price for UNIUSDT: 7.653
+Opening Sell for  UNIUSDT
+TP: 7.57647
+SL: 7.8060599999999996
+TS: 0.07653
+Order Quantity: 2613.35
+Adjusted qty: 2613.3
+Final Adjusted qty: 2613.3
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XPLUSDT    | S |  90.17
+1
+Last close price for XPLUSDT: 0.7402
+Opening Sell for  XPLUSDT
+TP: 0.732798
+SL: 0.755004
+TS: 0.007402
+Order Quantity: 27019.72
+Adjusted qty: 27020.0
+Final Adjusted qty: 27019.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '48017eb3-26a0-45a2-a9ab-0f9ff3cb45e9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758808580265}
+48017eb3-26a0-45a2-a9ab-0f9ff3cb45e9
+fetching trade data for :  48017eb3-26a0-45a2-a9ab-0f9ff3cb45e9
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '48017eb3-26a0-45a2-a9ab-0f9ff3cb45e9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758808580264', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7398', 'execPrice': '0.74', 'markIv': '', 'orderQty': '27019', 'orderPrice': '0.6289', 'execValue': '19994.06', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555877240, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.996733', 'execId': 'b5db55a2-68a4-4086-9cdc-4a92e56d75bb', 'marketUnit': '', 'execQty': '27019', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 25.09.2025 17:56:28
