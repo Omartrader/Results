@@ -93028,3 +93028,50 @@ Order Quantity: 67.56
 Adjusted qty: 67.56
 Final Adjusted qty: 67.56
 205.0
+***************************************************************
+Number of open positions: 4
+Function started at 25.09.2025 13:55:57
+	MNTUSDT 	Signal: B
+MNTUSDT 	Latest Close: (1.64) 	SMA(14) : 1.63 	Delta :  	Previous STC : 4.89 	STC : 26.27
+	IMXUSDT 	Signal: S
+IMXUSDT 	Latest Close: (0.7228) 	SMA(14) : 0.74 	Delta :  	Previous STC : 98.13 	STC : 88.88
+	XMRUSDT 	Signal: B
+XMRUSDT 	Latest Close: (295.25) 	SMA(14) : 293.36 	Delta :  	Previous STC : 18.65 	STC : 34.86
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+IMXUSDT    | S |  88.88
+1
+Last close price for IMXUSDT: 0.7222
+Opening Sell for  IMXUSDT
+TP: 0.714978
+SL: 0.736644
+TS: 0.007221999999999999
+Order Quantity: 27693.16
+Adjusted qty: 27693.2
+Final Adjusted qty: 27693.1
+21190.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XMRUSDT    | B |  34.86
+1
+Last close price for XMRUSDT: 295.25
+Opening Buy for  XMRUSDT
+TP: 298.2025
+SL: 289.34499999999997
+TS: 2.9525
+Order Quantity: 67.74
+Adjusted qty: 67.74
+Final Adjusted qty: 67.74
+205.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5805d393-e929-4d9b-a1c3-d7ed7f40ed7b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758794179101}
+5805d393-e929-4d9b-a1c3-d7ed7f40ed7b
+fetching trade data for :  5805d393-e929-4d9b-a1c3-d7ed7f40ed7b
+[{'symbol': 'XMRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5805d393-e929-4d9b-a1c3-d7ed7f40ed7b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758794179100', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '295.24', 'execPrice': '295.15', 'markIv': '', 'orderQty': '67.74', 'orderPrice': '310', 'execValue': '19993.461', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555383578, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99640355', 'execId': 'b375be40-4d9a-4140-b7ab-f86512fd323b', 'marketUnit': '', 'execQty': '67.74', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 25.09.2025 13:56:28
