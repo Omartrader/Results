@@ -93950,3 +93950,65 @@ fetching trade data for :  7610ae6c-8f1f-4dd3-9270-9a5204143a14
 [{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7610ae6c-8f1f-4dd3-9270-9a5204143a14', 'stopOrderType': 'UNKNOWN', 'execTime': '1758808033939', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7608', 'execPrice': '0.7599', 'markIv': '', 'orderQty': '26253', 'orderPrice': '0.6467', 'execValue': '19949.6547', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555859293, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.97231009', 'execId': '90baef32-07c2-45a2-9b42-11f971dbee4d', 'marketUnit': '', 'execQty': '26253', 'extraFees': ''}]
 Trades inserted successfully.
 None
+***************************************************************
+Number of open positions: 3
+Function started at 25.09.2025 17:50:58
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (0.7465) 	SMA(14) : 0.79 	Delta :  	Previous STC : 98.15 	STC : 90.29
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (7.674) 	SMA(14) : 7.68 	Delta :  	Previous STC : 98.83 	STC : 91.84
+	USD1USDT 	Signal: B
+USD1USDT 	Latest Close: (0.9994) 	SMA(14) : 1.00 	Delta :  	Previous STC : 11.54 	STC : 27.84
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (110960.6) 	SMA(14) : 111291.82 	Delta :  	Previous STC : 98.69 	STC : 92.40
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+BTCUSDT    | S |  92.40
+1
+Last close price for BTCUSDT: 110968.7
+Opening Sell for  BTCUSDT
+TP: 109859.01299999999
+SL: 113188.074
+TS: 1109.687
+Order Quantity: 0.18
+Adjusted qty: 0.18
+Final Adjusted qty: 0.18
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+UNIUSDT    | S |  91.84
+1
+Last close price for UNIUSDT: 7.673
+Opening Sell for  UNIUSDT
+TP: 7.59627
+SL: 7.82646
+TS: 0.07673
+Order Quantity: 2606.54
+Adjusted qty: 2606.5
+Final Adjusted qty: 2606.5
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+XPLUSDT    | S |  90.29
+1
+Last close price for XPLUSDT: 0.7476
+Opening Sell for  XPLUSDT
+TP: 0.740124
+SL: 0.762552
+TS: 0.007476
+Order Quantity: 26752.27
+Adjusted qty: 26752.0
+Final Adjusted qty: 26752.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bd424735-76a4-4e48-ace3-7b95e25a4281', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758808282557}
+bd424735-76a4-4e48-ace3-7b95e25a4281
+fetching trade data for :  bd424735-76a4-4e48-ace3-7b95e25a4281
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bd424735-76a4-4e48-ace3-7b95e25a4281', 'stopOrderType': 'UNKNOWN', 'execTime': '1758808282556', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7474', 'execPrice': '0.7474', 'markIv': '', 'orderQty': '26752', 'orderPrice': '0.6353', 'execValue': '19994.4448', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612555867461, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99694464', 'execId': '605971a6-2490-4f13-95ae-708e73721e27', 'marketUnit': '', 'execQty': '26752', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 25.09.2025 17:51:31
