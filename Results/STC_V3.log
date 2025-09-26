@@ -94515,3 +94515,52 @@ fetching trade data for :  33ffdb3f-cb1b-4798-b2d6-8c3562dbd6e5
 [{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '33ffdb3f-cb1b-4798-b2d6-8c3562dbd6e5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758862864158', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3976', 'execPrice': '1.3988', 'markIv': '', 'orderQty': '14312', 'orderPrice': '1.6072', 'execValue': '20019.6256', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612557661174, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.01079408', 'execId': 'e120c764-eb21-40cb-8868-5de9810f2320', 'marketUnit': '', 'execQty': '14312', 'extraFees': ''}]
 Trades inserted successfully.
 None
+***************************************************************
+Number of open positions: 1
+Function started at 26.09.2025 10:00:33
+	XPLUSDT 	Signal: B
+XPLUSDT 	Latest Close: (1.1945) 	SMA(14) : 0.89 	Delta :  	Previous STC : 21.84 	STC : 30.41
+	MNTUSDT 	Signal: S
+MNTUSDT 	Latest Close: (1.685) 	SMA(14) : 1.69 	Delta :  	Previous STC : 98.82 	STC : 95.09
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | S |  95.09
+1
+Last close price for MNTUSDT: 1.6849
+Opening Sell for  MNTUSDT
+TP: 1.668051
+SL: 1.718598
+TS: 0.016849
+Order Quantity: 11870.14
+Adjusted qty: 11870.1
+Final Adjusted qty: 11870.1
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0eb35103-d9f3-429e-bb25-3743bfae478f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758866451863}
+0eb35103-d9f3-429e-bb25-3743bfae478f
+fetching trade data for :  0eb35103-d9f3-429e-bb25-3743bfae478f
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0eb35103-d9f3-429e-bb25-3743bfae478f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758866451862', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.68535', 'execPrice': '1.6849', 'markIv': '', 'orderQty': '11870.1', 'orderPrice': '1.5169', 'execValue': '19999.93149', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612557776694, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99996232', 'execId': '617cd26f-62cd-4abe-b15f-4aa4eeb4952b', 'marketUnit': '', 'execQty': '11870.1', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XPLUSDT    | B |  30.41
+1
+Last close price for XPLUSDT: 1.22
+Opening Buy for  XPLUSDT
+TP: 1.2322
+SL: 1.1956
+TS: 0.012199999999999999
+Order Quantity: 16393.44
+Adjusted qty: 16393.0
+Final Adjusted qty: 16393.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '574832f0-0b77-4488-9ca4-ce919189b317', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758866463827}
+574832f0-0b77-4488-9ca4-ce919189b317
+fetching trade data for :  574832f0-0b77-4488-9ca4-ce919189b317
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '574832f0-0b77-4488-9ca4-ce919189b317', 'stopOrderType': 'UNKNOWN', 'execTime': '1758866463826', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2183', 'execPrice': '1.2177', 'markIv': '', 'orderQty': '16393', 'orderPrice': '1.401', 'execValue': '19961.7561', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612557777077, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.97896586', 'execId': '50bda031-9163-4085-8332-32632c62579f', 'marketUnit': '', 'execQty': '16393', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 26.09.2025 10:01:13
