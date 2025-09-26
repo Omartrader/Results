@@ -94678,3 +94678,52 @@ Function started at 26.09.2025 15:00:49
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 26.09.2025 15:01:10
+***************************************************************
+Number of open positions: 1
+Function started at 26.09.2025 16:00:47
+	ASTERUSDT 	Signal: S
+ASTERUSDT 	Latest Close: (1.8277) 	SMA(14) : 2.03 	Delta :  	Previous STC : 100.00 	STC : 95.92
+	OKBUSDT 	Signal: B
+OKBUSDT 	Latest Close: (187.16) 	SMA(14) : 184.42 	Delta :  	Previous STC : 15.45 	STC : 43.63
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ASTERUSDT  | S |  95.92
+1
+Last close price for ASTERUSDT: 1.8262
+Opening Sell for  ASTERUSDT
+TP: 1.807938
+SL: 1.862724
+TS: 0.018262
+Order Quantity: 10951.7
+Adjusted qty: 10952.0
+Final Adjusted qty: 10951.0
+25000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c9bd9e98-2ab8-43ea-87bd-911c67fa80c5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758888068936}
+c9bd9e98-2ab8-43ea-87bd-911c67fa80c5
+fetching trade data for :  c9bd9e98-2ab8-43ea-87bd-911c67fa80c5
+[{'symbol': 'ASTERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c9bd9e98-2ab8-43ea-87bd-911c67fa80c5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758888068935', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.8265', 'execPrice': '1.8277', 'markIv': '', 'orderQty': '10951', 'orderPrice': '1.5526', 'execValue': '20015.1427', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612558425460, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00832849', 'execId': '46af1f07-e8b6-45cc-a50a-6a38ba0a94d4', 'marketUnit': '', 'execQty': '10951', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+OKBUSDT    | B |  43.63
+1
+Last close price for OKBUSDT: 186.89
+Opening Buy for  OKBUSDT
+TP: 188.75889999999998
+SL: 183.1522
+TS: 1.8688999999999998
+Order Quantity: 107.01
+Adjusted qty: 107.01
+Final Adjusted qty: 107.01
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ea541399-71fd-4a2f-bbb4-a62478b67ab2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758888080753}
+ea541399-71fd-4a2f-bbb4-a62478b67ab2
+fetching trade data for :  ea541399-71fd-4a2f-bbb4-a62478b67ab2
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ea541399-71fd-4a2f-bbb4-a62478b67ab2', 'stopOrderType': 'UNKNOWN', 'execTime': '1758888080752', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '186.89', 'execPrice': '186.89', 'markIv': '', 'orderQty': '107.01', 'orderPrice': '214.92', 'execValue': '19999.0989', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612558425887, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9995044', 'execId': '34fc6b3c-c6cb-4e6b-94a1-370f7a6af634', 'marketUnit': '', 'execQty': '107.01', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 26.09.2025 16:01:31
