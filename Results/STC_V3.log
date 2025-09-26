@@ -94780,3 +94780,31 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 26.09.2025 19:00:58
+***************************************************************
+Number of open positions: 1
+Function started at 26.09.2025 20:00:49
+	ASTERUSDT 	Signal: S
+ASTERUSDT 	Latest Close: (1.9327) 	SMA(14) : 2.02 	Delta :  	Previous STC : 98.43 	STC : 70.00
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ASTERUSDT  | S |  70.00
+1
+Last close price for ASTERUSDT: 1.9319
+Opening Sell for  ASTERUSDT
+TP: 1.9125809999999999
+SL: 1.970538
+TS: 0.019319
+Order Quantity: 10352.5
+Adjusted qty: 10352.0
+Final Adjusted qty: 10352.0
+25000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '56309248-af64-4e03-9120-376ba106ff1f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758902480635}
+56309248-af64-4e03-9120-376ba106ff1f
+fetching trade data for :  56309248-af64-4e03-9120-376ba106ff1f
+[{'symbol': 'ASTERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '56309248-af64-4e03-9120-376ba106ff1f', 'stopOrderType': 'UNKNOWN', 'execTime': '1758902480634', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9324', 'execPrice': '1.9332', 'markIv': '', 'orderQty': '10352', 'orderPrice': '1.6426', 'execValue': '20012.4864', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612558865463, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00686752', 'execId': 'c40bda42-9db1-44eb-993a-05ca5824f57f', 'marketUnit': '', 'execQty': '10352', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 26.09.2025 20:01:30
