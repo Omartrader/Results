@@ -95278,3 +95278,63 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 27.09.2025 13:01:37
+***************************************************************
+Number of open positions: 2
+Function started at 27.09.2025 14:00:36
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.2059) 	SMA(14) : 0.20 	Delta :  	Previous STC : 8.18 	STC : 35.70
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (1.2954) 	SMA(14) : 1.27 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.06517) 	SMA(14) : 0.07 	Delta :  	Previous STC : 96.26 	STC : 91.90
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  91.90
+1
+Last close price for SKYUSDT: 0.06517
+Opening Sell for  SKYUSDT
+TP: 0.0645183
+SL: 0.0664734
+TS: 0.0006517000000000001
+Order Quantity: 306889.67
+Adjusted qty: 306890.0
+Final Adjusted qty: 306880.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLFIUSDT   | B |  35.70
+1
+Last close price for WLFIUSDT: 0.2059
+Opening Buy for  WLFIUSDT
+TP: 0.207959
+SL: 0.201782
+TS: 0.002059
+Order Quantity: 97134.53
+Adjusted qty: 97135.0
+Final Adjusted qty: 97134.0
+80000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    | B |  33.33
+1
+Last close price for WLDUSDT: 1.2947
+Opening Buy for  WLDUSDT
+TP: 1.307647
+SL: 1.2688059999999999
+TS: 0.012947
+Order Quantity: 15447.59
+Adjusted qty: 15447.6
+Final Adjusted qty: 15447.5
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7b20521d-fb48-4013-9713-b36025206254', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758967251666}
+7b20521d-fb48-4013-9713-b36025206254
+fetching trade data for :  7b20521d-fb48-4013-9713-b36025206254
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7b20521d-fb48-4013-9713-b36025206254', 'stopOrderType': 'UNKNOWN', 'execTime': '1758967251666', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2951', 'execPrice': '1.2948', 'markIv': '', 'orderQty': '15447.5', 'orderPrice': '1.3598', 'execValue': '20001.423', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612560671634, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00078265', 'execId': 'f08ab6d2-d6fa-4609-9e34-fcc44dbae052', 'marketUnit': '', 'execQty': '15447.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 27.09.2025 14:01:00
