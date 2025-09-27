@@ -9321,3 +9321,92 @@ Maximum positions allowed: 5
    Final Positions: 0
 Function finished at 28.09.2025 00:04:40
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 28.09.2025 02:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for BLESSUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for GPSUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759010531929}
+Last close price for GPSUSDT: 0.01126
+Order Quantity before adjustment: 1776198.93 and signal = 2
+Opening Buy for  GPSUSDT
+TP: 0.0113726
+SL: 0.011034799999999999
+TS: 0.00022519999999999997
+Order Quantity: 1776198.93
+Adjusted qty: 1776199.0
+Final Adjusted qty: 1776198.0
+170000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6b03f500-9ddf-4d25-a14a-050c03d3aa1c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759010533076}
+6b03f500-9ddf-4d25-a14a-050c03d3aa1c
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for GPSUSDT
+[PROGRESS] Progress: 150/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for XTERUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759010629796}
+Last close price for XTERUSDT: 0.0862
+Order Quantity before adjustment: 232018.56 and signal = 2
+Opening Buy for  XTERUSDT
+TP: 0.087062
+SL: 0.084476
+TS: 0.001724
+Order Quantity: 232018.56
+Adjusted qty: 232019.0
+Final Adjusted qty: 232018.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e4b634ec-baf3-492c-b667-a7fd7893e394', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759010631088}
+e4b634ec-baf3-492c-b667-a7fd7893e394
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for XTERUSDT
+[PROGRESS] Progress: 400/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for FLUIDUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[SIGNAL] SIGNAL DETECTED for OGUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759010698694}
+Last close price for OGUSDT: 16.4655
+Order Quantity before adjustment: 1214.66 and signal = 1
+Opening Sell for  OGUSDT
+TP: 16.300845
+SL: 16.79481
+TS: 0.32931
+Order Quantity: 1214.66
+Adjusted qty: 1214.7
+Final Adjusted qty: 1214.6
+820.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '67b7173d-131d-4f6a-8d74-61647b93fb34', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759010700259}
+67b7173d-131d-4f6a-8d74-61647b93fb34
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for OGUSDT
+[PROGRESS] Progress: 500/500 symbols scanned, 3 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 3
+   Successful Trades: 3
+   Final Positions: 3
+Function finished at 28.09.2025 02:05:06
+*******************************************
