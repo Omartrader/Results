@@ -95571,3 +95571,91 @@ Order Quantity: 96339.11
 Adjusted qty: 96339.1
 Final Adjusted qty: 96339.1
 160000.0
+***************************************************************
+Number of open positions: 3
+Function started at 27.09.2025 18:00:33
+	TRXUSDT 	Signal: B
+TRXUSDT 	Latest Close: (0.33721) 	SMA(14) : 0.34 	Delta :  	Previous STC : 21.12 	STC : 47.41
+	ALGOUSDT 	Signal: B
+ALGOUSDT 	Latest Close: (0.2067) 	SMA(14) : 0.21 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	HYPEUSDT 	Signal: B
+HYPEUSDT 	Latest Close: (45.01) 	SMA(14) : 43.13 	Delta :  	Previous STC : 16.55 	STC : 44.37
+	ETCUSDT 	Signal: B
+ETCUSDT 	Latest Close: (18.237) 	SMA(14) : 18.16 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	LTCUSDT 	Signal: B
+LTCUSDT 	Latest Close: (104.27) 	SMA(14) : 103.45 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | B |  47.41
+1
+Last close price for TRXUSDT: 0.33721
+Opening Buy for  TRXUSDT
+TP: 0.3405821
+SL: 0.3304658
+TS: 0.0033721000000000003
+Order Quantity: 59310.22
+Adjusted qty: 59310.0
+Final Adjusted qty: 59310.0
+1356000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HYPEUSDT   | B |  44.37
+1
+Last close price for HYPEUSDT: 45.045
+Opening Buy for  HYPEUSDT
+TP: 45.495450000000005
+SL: 44.1441
+TS: 0.45045
+Order Quantity: 444.0
+Adjusted qty: 444.0
+Final Adjusted qty: 444.0
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5a3237be-7b7b-4f29-8ff4-939b49be2c24', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758981651909}
+5a3237be-7b7b-4f29-8ff4-939b49be2c24
+fetching trade data for :  5a3237be-7b7b-4f29-8ff4-939b49be2c24
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5a3237be-7b7b-4f29-8ff4-939b49be2c24', 'stopOrderType': 'UNKNOWN', 'execTime': '1758981651908', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '45.045', 'execPrice': '45.046', 'markIv': '', 'orderQty': '444', 'orderPrice': '58.558', 'execValue': '20000.424', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612561074064, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0002332', 'execId': '17527ae5-b3e4-43ba-87d5-fac852c5e380', 'marketUnit': '', 'execQty': '444', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  33.33
+1
+Last close price for ETCUSDT: 18.238
+Opening Buy for  ETCUSDT
+TP: 18.420379999999998
+SL: 17.87324
+TS: 0.18238
+Order Quantity: 1096.61
+Adjusted qty: 1096.6000000000001
+Final Adjusted qty: 1096.6
+10610.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LTCUSDT    | B |  33.33
+1
+Last close price for LTCUSDT: 104.3
+Opening Buy for  LTCUSDT
+TP: 105.343
+SL: 102.214
+TS: 1.043
+Order Quantity: 191.75
+Adjusted qty: 191.8
+Final Adjusted qty: 191.7
+6160.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ALGOUSDT   | B |  33.33
+1
+Last close price for ALGOUSDT: 0.2067
+Opening Buy for  ALGOUSDT
+TP: 0.208767
+SL: 0.202566
+TS: 0.002067
+Order Quantity: 96758.59
+Adjusted qty: 96758.6
+Final Adjusted qty: 96758.5
+160000.0
