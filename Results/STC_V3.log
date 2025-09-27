@@ -96049,3 +96049,65 @@ Order Quantity: 2642.71
 Adjusted qty: 2642.7000000000003
 Final Adjusted qty: 2642.7
 17540.0
+***************************************************************
+Number of open positions: 3
+Function started at 28.09.2025 02:00:41
+	DOGEUSDT 	Signal: B
+DOGEUSDT 	Latest Close: (0.23057) 	SMA(14) : 0.23 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	PENGUUSDT 	Signal: B
+PENGUUSDT 	Latest Close: (0.028036) 	SMA(14) : 0.03 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	SEIUSDT 	Signal: B
+SEIUSDT 	Latest Close: (0.2797) 	SMA(14) : 0.28 	Delta :  	Previous STC : 0.00 	STC : 30.40
+	VETUSDT 	Signal: B
+VETUSDT 	Latest Close: (0.02191) 	SMA(14) : 0.02 	Delta :  	Previous STC : 10.37 	STC : 40.25
+	ONDOUSDT 	Signal: B
+ONDOUSDT 	Latest Close: (0.8856) 	SMA(14) : 0.88 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	TONUSDT 	Signal: B
+TONUSDT 	Latest Close: (2.7172) 	SMA(14) : 2.70 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (7.613) 	SMA(14) : 7.53 	Delta :  	Previous STC : 15.22 	STC : 43.48
+	ETHUSDT 	Signal: B
+ETHUSDT 	Latest Close: (4014.08) 	SMA(14) : 3974.34 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+UNIUSDT    | B |  43.48
+1
+Last close price for UNIUSDT: 7.615
+Opening Buy for  UNIUSDT
+TP: 7.69115
+SL: 7.4627
+TS: 0.07615
+Order Quantity: 2626.4
+Adjusted qty: 2626.4
+Final Adjusted qty: 2626.4
+17540.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8b12071b-a4f4-4c8a-8e02-dd02dcbe991e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759010463192}
+8b12071b-a4f4-4c8a-8e02-dd02dcbe991e
+fetching trade data for :  8b12071b-a4f4-4c8a-8e02-dd02dcbe991e
+[{'symbol': 'UNIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8b12071b-a4f4-4c8a-8e02-dd02dcbe991e', 'stopOrderType': 'UNKNOWN', 'execTime': '1759010463191', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.615', 'execPrice': '7.615', 'markIv': '', 'orderQty': '2626.4', 'orderPrice': '7.995', 'execValue': '20000.036', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612561878312, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0000198', 'execId': '05f447c8-1cda-45a0-87ff-ddeb68cfc979', 'marketUnit': '', 'execQty': '2626.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+VETUSDT    | B |  40.25
+1
+Last close price for VETUSDT: 0.02191
+Opening Buy for  VETUSDT
+TP: 0.0221291
+SL: 0.0214718
+TS: 0.00021909999999999999
+Order Quantity: 912825.19
+Adjusted qty: 912825.0
+Final Adjusted qty: 912825.0
+437000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e5f5afdb-28d3-48a1-96b9-1568bb8528c5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759010475323}
+e5f5afdb-28d3-48a1-96b9-1568bb8528c5
+fetching trade data for :  e5f5afdb-28d3-48a1-96b9-1568bb8528c5
+[{'symbol': 'VETUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e5f5afdb-28d3-48a1-96b9-1568bb8528c5', 'stopOrderType': 'UNKNOWN', 'execTime': '1759010475322', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02191', 'execPrice': '0.02191', 'markIv': '', 'orderQty': '437000', 'orderPrice': '0.023', 'execValue': '9574.67', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612561878710, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '5.2660685', 'execId': '00c41201-1ce6-419a-90ff-7ccae8b85c5e', 'marketUnit': '', 'execQty': '437000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 28.09.2025 02:01:26
