@@ -95047,3 +95047,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 27.09.2025 09:00:36
+***************************************************************
+Number of open positions: 2
+Function started at 27.09.2025 10:00:40
+	ARBUSDT 	Signal: B
+ARBUSDT 	Latest Close: (0.4255) 	SMA(14) : 0.42 	Delta :  	Previous STC : 1.54 	STC : 34.36
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (1.3523) 	SMA(14) : 1.28 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ARBUSDT    | B |  34.36
+1
+Last close price for ARBUSDT: 0.4255
+Opening Buy for  ARBUSDT
+TP: 0.429755
+SL: 0.41698999999999997
+TS: 0.004255
+Order Quantity: 47003.53
+Adjusted qty: 47003.5
+Final Adjusted qty: 47003.5
+283360.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLDUSDT    | B |  33.33
+1
+Last close price for WLDUSDT: 1.3546
+Opening Buy for  WLDUSDT
+TP: 1.368146
+SL: 1.327508
+TS: 0.013546
+Order Quantity: 14764.51
+Adjusted qty: 14764.5
+Final Adjusted qty: 14764.5
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '80184313-2d92-4c16-9746-096db2918324', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758952864936}
+80184313-2d92-4c16-9746-096db2918324
+fetching trade data for :  80184313-2d92-4c16-9746-096db2918324
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '80184313-2d92-4c16-9746-096db2918324', 'stopOrderType': 'UNKNOWN', 'execTime': '1758952864935', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.3546', 'execPrice': '1.3546', 'markIv': '', 'orderQty': '14764.5', 'orderPrice': '1.4223', 'execValue': '19999.9917', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612560271384, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999544', 'execId': '296c9185-608a-46a7-a98a-b8b305ff8872', 'marketUnit': '', 'execQty': '14764.5', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 27.09.2025 10:01:15
