@@ -95932,3 +95932,66 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 27.09.2025 22:01:39
+***************************************************************
+Number of open positions: 4
+Function started at 27.09.2025 23:00:35
+	IMXUSDT 	Signal: B
+IMXUSDT 	Latest Close: (0.7692) 	SMA(14) : 0.72 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	LINKUSDT 	Signal: B
+LINKUSDT 	Latest Close: (20.778) 	SMA(14) : 20.70 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	FILUSDT 	Signal: B
+FILUSDT 	Latest Close: (2.177) 	SMA(14) : 2.16 	Delta :  	Previous STC : 17.50 	STC : 45.00
+	ICPUSDT 	Signal: B
+ICPUSDT 	Latest Close: (4.165) 	SMA(14) : 4.15 	Delta :  	Previous STC : 4.29 	STC : 36.20
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FILUSDT    | B |  45.00
+1
+Last close price for FILUSDT: 2.177
+Opening Buy for  FILUSDT
+TP: 2.19877
+SL: 2.13346
+TS: 0.02177
+Order Quantity: 9186.95
+Adjusted qty: 9187.0
+Final Adjusted qty: 9186.9
+60730.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ICPUSDT    | B |  36.20
+1
+Last close price for ICPUSDT: 4.165
+Opening Buy for  ICPUSDT
+TP: 4.20665
+SL: 4.0817
+TS: 0.04165
+Order Quantity: 4801.92
+Adjusted qty: 4801.900000000001
+Final Adjusted qty: 4801.9
+25860.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+IMXUSDT    | B |  33.33
+1
+Last close price for IMXUSDT: 0.769
+Opening Buy for  IMXUSDT
+TP: 0.77669
+SL: 0.75362
+TS: 0.00769
+Order Quantity: 26007.8
+Adjusted qty: 26007.800000000003
+Final Adjusted qty: 26007.8
+21190.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a0d4c90b-088c-446d-b354-f7c428bcc5b9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758999658146}
+a0d4c90b-088c-446d-b354-f7c428bcc5b9
+fetching trade data for :  a0d4c90b-088c-446d-b354-f7c428bcc5b9
+[{'symbol': 'IMXUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a0d4c90b-088c-446d-b354-f7c428bcc5b9', 'stopOrderType': 'UNKNOWN', 'execTime': '1758999658145', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7691', 'execPrice': '0.7691', 'markIv': '', 'orderQty': '21190', 'orderPrice': '0.8445', 'execValue': '16297.229', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612561581536, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.96347595', 'execId': '29b5890a-5873-48da-82ac-1312734c3c9d', 'marketUnit': '', 'execQty': '21190', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  1
+Function finished at 27.09.2025 23:01:07
