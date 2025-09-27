@@ -9053,3 +9053,51 @@ Maximum positions allowed: 5
    Final Positions: 0
 Function finished at 27.09.2025 12:03:42
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 27.09.2025 14:01:03
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for HEMIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for WOOUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758967341315}
+Last close price for WOOUSDT: 0.06319
+Order Quantity before adjustment: 316505.78 and signal = 2
+Opening Buy for  WOOUSDT
+TP: 0.0638219
+SL: 0.061926199999999994
+TS: 0.0012637999999999998
+Order Quantity: 316505.78
+Adjusted qty: 316505.80000000005
+Final Adjusted qty: 316505.7
+145830.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a1415ee2-a90f-4c15-9358-627c891fbe53', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758967342262}
+a1415ee2-a90f-4c15-9358-627c891fbe53
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for WOOUSDT
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 1
+Function finished at 27.09.2025 14:03:42
+*******************************************
