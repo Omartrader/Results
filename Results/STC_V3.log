@@ -95478,3 +95478,96 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 27.09.2025 16:01:47
+***************************************************************
+Number of open positions: 2
+Function started at 27.09.2025 17:00:33
+	TRXUSDT 	Signal: B
+TRXUSDT 	Latest Close: (0.33616) 	SMA(14) : 0.34 	Delta :  	Previous STC : 21.12 	STC : 47.41
+	ALGOUSDT 	Signal: B
+ALGOUSDT 	Latest Close: (0.2076) 	SMA(14) : 0.21 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	HYPEUSDT 	Signal: B
+HYPEUSDT 	Latest Close: (44.015) 	SMA(14) : 43.06 	Delta :  	Previous STC : 16.55 	STC : 44.37
+	ETCUSDT 	Signal: B
+ETCUSDT 	Latest Close: (18.294) 	SMA(14) : 18.17 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	LTCUSDT 	Signal: B
+LTCUSDT 	Latest Close: (104.33) 	SMA(14) : 103.45 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRXUSDT    | B |  47.41
+1
+Last close price for TRXUSDT: 0.33605
+Opening Buy for  TRXUSDT
+TP: 0.3394105
+SL: 0.329329
+TS: 0.0033605
+Order Quantity: 59514.95
+Adjusted qty: 59515.0
+Final Adjusted qty: 59514.0
+1356000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+HYPEUSDT   | B |  44.37
+1
+Last close price for HYPEUSDT: 43.972
+Opening Buy for  HYPEUSDT
+TP: 44.41172
+SL: 43.09256
+TS: 0.43972
+Order Quantity: 454.83
+Adjusted qty: 454.83
+Final Adjusted qty: 454.83
+980.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '517e8728-379f-4c23-9586-9e7eb84841ec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758978051337}
+517e8728-379f-4c23-9586-9e7eb84841ec
+fetching trade data for :  517e8728-379f-4c23-9586-9e7eb84841ec
+[{'symbol': 'HYPEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '517e8728-379f-4c23-9586-9e7eb84841ec', 'stopOrderType': 'UNKNOWN', 'execTime': '1758978051336', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '43.972', 'execPrice': '43.973', 'markIv': '', 'orderQty': '454.83', 'orderPrice': '57.163', 'execValue': '20000.23959', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612560973184, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00013178', 'execId': '0eda49f6-7741-4d7f-b4ae-a7179d2d4329', 'marketUnit': '', 'execQty': '454.83', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETCUSDT    | B |  33.33
+1
+Last close price for ETCUSDT: 18.288
+Opening Buy for  ETCUSDT
+TP: 18.47088
+SL: 17.92224
+TS: 0.18288000000000001
+Order Quantity: 1093.61
+Adjusted qty: 1093.6000000000001
+Final Adjusted qty: 1093.6
+10610.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+LTCUSDT    | B |  33.33
+1
+Last close price for LTCUSDT: 104.34
+Opening Buy for  LTCUSDT
+TP: 105.38340000000001
+SL: 102.2532
+TS: 1.0434
+Order Quantity: 191.68
+Adjusted qty: 191.70000000000002
+Final Adjusted qty: 191.6
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8725efec-5967-4acc-9f12-540918f8b89b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758978064255}
+8725efec-5967-4acc-9f12-540918f8b89b
+fetching trade data for :  8725efec-5967-4acc-9f12-540918f8b89b
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '8725efec-5967-4acc-9f12-540918f8b89b', 'stopOrderType': 'UNKNOWN', 'execTime': '1758978064254', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '104.34', 'execPrice': '104.34', 'markIv': '', 'orderQty': '191.6', 'orderPrice': '109.55', 'execValue': '19991.544', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612560973580, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9953492', 'execId': 'be670cf9-0c1e-4784-97c6-8183bd136cdc', 'marketUnit': '', 'execQty': '191.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ALGOUSDT   | B |  33.33
+1
+Last close price for ALGOUSDT: 0.2076
+Opening Buy for  ALGOUSDT
+TP: 0.209676
+SL: 0.203448
+TS: 0.002076
+Order Quantity: 96339.11
+Adjusted qty: 96339.1
+Final Adjusted qty: 96339.1
+160000.0
