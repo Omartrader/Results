@@ -9195,3 +9195,51 @@ Maximum positions allowed: 5
    Final Positions: 0
 Function finished at 27.09.2025 18:04:06
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 27.09.2025 20:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for BLESSUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for OLUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1758988998821}
+Last close price for OLUSDT: 0.03496
+Order Quantity before adjustment: 572082.38 and signal = 2
+Opening Buy for  OLUSDT
+TP: 0.0353096
+SL: 0.034260799999999994
+TS: 0.0006992
+Order Quantity: 572082.38
+Adjusted qty: 572082.0
+Final Adjusted qty: 572082.0
+140000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '426b597a-53c6-4f61-9a2c-765b5b5cd4fb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758989000104}
+426b597a-53c6-4f61-9a2c-765b5b5cd4fb
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for OLUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 1
+Function finished at 27.09.2025 20:04:27
+*******************************************
