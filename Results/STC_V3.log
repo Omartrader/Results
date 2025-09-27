@@ -95338,3 +95338,68 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 27.09.2025 14:01:00
+***************************************************************
+Number of open positions: 1
+Function started at 27.09.2025 15:00:34
+	WLFIUSDT 	Signal: B
+WLFIUSDT 	Latest Close: (0.2041) 	SMA(14) : 0.20 	Delta :  	Previous STC : 8.18 	STC : 35.20
+	WLDUSDT 	Signal: B
+WLDUSDT 	Latest Close: (1.3001) 	SMA(14) : 1.28 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	SKYUSDT 	Signal: S
+SKYUSDT 	Latest Close: (0.06508) 	SMA(14) : 0.07 	Delta :  	Previous STC : 96.26 	STC : 91.81
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SKYUSDT    | S |  91.81
+1
+Last close price for SKYUSDT: 0.06508
+Opening Sell for  SKYUSDT
+TP: 0.06442919999999999
+SL: 0.0663816
+TS: 0.0006508
+Order Quantity: 307314.07
+Adjusted qty: 307310.0
+Final Adjusted qty: 307310.0
+310000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+WLFIUSDT   | B |  35.20
+1
+Last close price for WLFIUSDT: 0.2039
+Opening Buy for  WLFIUSDT
+TP: 0.205939
+SL: 0.199822
+TS: 0.002039
+Order Quantity: 98087.3
+Adjusted qty: 98087.0
+Final Adjusted qty: 98087.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6b822f0d-3171-4ff7-9034-a5c32a8cde86', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758970856337}
+6b822f0d-3171-4ff7-9034-a5c32a8cde86
+fetching trade data for :  6b822f0d-3171-4ff7-9034-a5c32a8cde86
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6b822f0d-3171-4ff7-9034-a5c32a8cde86', 'stopOrderType': 'UNKNOWN', 'execTime': '1758970856337', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2039', 'execPrice': '0.2039', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.2344', 'execValue': '16312', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612560772772, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.9716', 'execId': 'efde53dc-8bfc-45fc-91e9-9764a00b8844', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | B |  33.33
+1
+Last close price for WLDUSDT: 1.2991
+Opening Buy for  WLDUSDT
+TP: 1.312091
+SL: 1.273118
+TS: 0.012990999999999999
+Order Quantity: 15395.27
+Adjusted qty: 15395.300000000001
+Final Adjusted qty: 15395.2
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '1b334d07-a623-499b-b4fb-ca5a5b31a2a5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758970868395}
+1b334d07-a623-499b-b4fb-ca5a5b31a2a5
+fetching trade data for :  1b334d07-a623-499b-b4fb-ca5a5b31a2a5
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '1b334d07-a623-499b-b4fb-ca5a5b31a2a5', 'stopOrderType': 'UNKNOWN', 'execTime': '1758970868395', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2994', 'execPrice': '1.2989', 'markIv': '', 'orderQty': '15395.2', 'orderPrice': '1.3643', 'execValue': '19996.82528', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612560773133, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99825391', 'execId': '1672e714-f9a0-4825-b44d-9fe4eead7a6a', 'marketUnit': '', 'execQty': '15395.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 27.09.2025 15:01:17
