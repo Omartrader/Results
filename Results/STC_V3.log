@@ -96400,3 +96400,43 @@ Order Quantity: 4837.93
 Adjusted qty: 4837.93
 Final Adjusted qty: 4837.93
 15408.0
+***************************************************************
+Number of open positions: 3
+Function started at 28.09.2025 11:00:25
+	APTUSDT 	Signal: B
+APTUSDT 	Latest Close: (4.109) 	SMA(14) : 4.08 	Delta :  	Previous STC : 14.02 	STC : 42.68
+	QNTUSDT 	Signal: B
+QNTUSDT 	Latest Close: (99.43) 	SMA(14) : 94.06 	Delta :  	Previous STC : 22.45 	STC : 32.72
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+APTUSDT    | B |  42.68
+1
+Last close price for APTUSDT: 4.109
+Opening Buy for  APTUSDT
+TP: 4.15009
+SL: 4.02682
+TS: 0.04109
+Order Quantity: 4867.36
+Adjusted qty: 4867.36
+Final Adjusted qty: 4867.36
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ab5b4f16-8fb0-443d-a238-d4b36d83835e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759042838294}
+ab5b4f16-8fb0-443d-a238-d4b36d83835e
+fetching trade data for :  ab5b4f16-8fb0-443d-a238-d4b36d83835e
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ab5b4f16-8fb0-443d-a238-d4b36d83835e', 'stopOrderType': 'UNKNOWN', 'execTime': '1759042838294', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.109', 'execPrice': '4.109', 'markIv': '', 'orderQty': '4867.36', 'orderPrice': '4.314', 'execValue': '19999.98224', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612562766512, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99999024', 'execId': '4a532455-c922-4bb2-99ec-18c41a9555fd', 'marketUnit': '', 'execQty': '4867.36', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+QNTUSDT    | B |  32.72
+1
+Last close price for QNTUSDT: 99.43
+Opening Buy for  QNTUSDT
+TP: 100.4243
+SL: 97.4414
+TS: 0.9943000000000001
+Order Quantity: 201.15
+Adjusted qty: 201.15
+Final Adjusted qty: 201.15
+279.0
