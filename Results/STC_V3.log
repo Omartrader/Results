@@ -96626,3 +96626,68 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 28.09.2025 21:01:02
+***************************************************************
+Number of open positions: 1
+Function started at 28.09.2025 22:00:47
+	MNTUSDT 	Signal: B
+MNTUSDT 	Latest Close: (1.7548) 	SMA(14) : 1.74 	Delta :  	Previous STC : 17.08 	STC : 44.72
+	RENDERUSDT 	Signal: B
+RENDERUSDT 	Latest Close: (3.391) 	SMA(14) : 3.38 	Delta :  	Previous STC : 0.00 	STC : 33.33
+	BTCUSDT 	Signal: B
+BTCUSDT 	Latest Close: (110166.3) 	SMA(14) : 109462.00 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+MNTUSDT    | B |  44.72
+1
+Last close price for MNTUSDT: 1.7553
+Opening Buy for  MNTUSDT
+TP: 1.772853
+SL: 1.720194
+TS: 0.017553
+Order Quantity: 11394.06
+Adjusted qty: 11394.1
+Final Adjusted qty: 11394.0
+71000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fe3bccf3-feea-46a0-9258-78ce6be6b52c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759082467604}
+fe3bccf3-feea-46a0-9258-78ce6be6b52c
+fetching trade data for :  fe3bccf3-feea-46a0-9258-78ce6be6b52c
+[{'symbol': 'MNTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'fe3bccf3-feea-46a0-9258-78ce6be6b52c', 'stopOrderType': 'UNKNOWN', 'execTime': '1759082467603', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.7558', 'execPrice': '1.7558', 'markIv': '', 'orderQty': '11394', 'orderPrice': '1.9313', 'execValue': '20005.5852', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612563941337, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00307186', 'execId': 'e7d0eb29-912a-42d4-9f0e-365e4bf6bf93', 'marketUnit': '', 'execQty': '11394', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+RENDERUSDT | B |  33.33
+1
+Last close price for RENDERUSDT: 3.392
+Opening Buy for  RENDERUSDT
+TP: 3.42592
+SL: 3.32416
+TS: 0.03392
+Order Quantity: 5896.23
+Adjusted qty: 5896.200000000001
+Final Adjusted qty: 5896.2
+10000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '42b28901-3dbb-4940-84b1-1bbe454876f0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759082479645}
+42b28901-3dbb-4940-84b1-1bbe454876f0
+fetching trade data for :  42b28901-3dbb-4940-84b1-1bbe454876f0
+[{'symbol': 'RENDERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '42b28901-3dbb-4940-84b1-1bbe454876f0', 'stopOrderType': 'UNKNOWN', 'execTime': '1759082479645', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3.392', 'execPrice': '3.392', 'markIv': '', 'orderQty': '5896.2', 'orderPrice': '3.561', 'execValue': '19999.9104', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612563941767, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99995072', 'execId': '5fa1f11d-7b47-45c3-8eb2-6041880959cc', 'marketUnit': '', 'execQty': '5896.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | B |  33.33
+1
+Last close price for BTCUSDT: 110183.8
+Opening Buy for  BTCUSDT
+TP: 111285.638
+SL: 107980.124
+TS: 1101.838
+Order Quantity: 0.18
+Adjusted qty: 0.18
+Final Adjusted qty: 0.18
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 28.09.2025 22:01:31
