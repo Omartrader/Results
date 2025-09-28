@@ -9488,3 +9488,51 @@ Final Adjusted qty: 67159.0
    Final Positions: 1
 Function finished at 28.09.2025 06:04:52
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 28.09.2025 08:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for BLESSUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for IPUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for IPUSDT: 8.9617
+Order Quantity before adjustment: 2231.72 and signal = 2
+Opening Buy for  IPUSDT
+TP: 9.051317000000001
+SL: 8.782466
+TS: 0.179234
+Order Quantity: 2231.72
+Adjusted qty: 2231.7000000000003
+Final Adjusted qty: 2231.7
+2400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5d26f59b-f814-4e64-9840-032a8b9c6adc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759032223375}
+5d26f59b-f814-4e64-9840-032a8b9c6adc
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for IPUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for FLUIDUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 1
+Function finished at 28.09.2025 08:04:59
+*******************************************
