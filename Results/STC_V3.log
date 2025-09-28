@@ -96531,3 +96531,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 28.09.2025 18:01:33
+***************************************************************
+Number of open positions: 2
+Function started at 28.09.2025 19:00:41
+	XRPUSDT 	Signal: B
+XRPUSDT 	Latest Close: (2.7938) 	SMA(14) : 2.78 	Delta :  	Previous STC : 9.82 	STC : 39.88
+	MUSDT 	Signal: B
+MUSDT 	Latest Close: (2.3564) 	SMA(14) : 2.33 	Delta :  	Previous STC : 0.00 	STC : 33.33
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XRPUSDT    | B |  39.88
+1
+Last close price for XRPUSDT: 2.793
+Opening Buy for  XRPUSDT
+TP: 2.82093
+SL: 2.73714
+TS: 0.02793
+Order Quantity: 7160.76
+Adjusted qty: 7160.8
+Final Adjusted qty: 7160.7
+2467800.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+MUSDT      | B |  33.33
+1
+Last close price for MUSDT: 2.3566
+Opening Buy for  MUSDT
+TP: 2.380166
+SL: 2.309468
+TS: 0.023565999999999997
+Order Quantity: 8486.8
+Adjusted qty: 8487.0
+Final Adjusted qty: 8486.0
+120000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9ebc9c71-a557-4758-a968-e2c1fa406ca9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759071666597}
+9ebc9c71-a557-4758-a968-e2c1fa406ca9
+fetching trade data for :  9ebc9c71-a557-4758-a968-e2c1fa406ca9
+[{'symbol': 'MUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9ebc9c71-a557-4758-a968-e2c1fa406ca9', 'stopOrderType': 'UNKNOWN', 'execTime': '1759071666596', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.0011', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.3566', 'execPrice': '2.3575', 'markIv': '', 'orderQty': '8486', 'orderPrice': '2.71', 'execValue': '20005.745', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612563629676, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '22.0063195', 'execId': 'f5e6c826-ab09-4752-81bd-77e4046495e8', 'marketUnit': '', 'execQty': '8486', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 28.09.2025 19:01:15
