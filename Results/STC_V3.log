@@ -97139,3 +97139,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 29.09.2025 21:00:52
+***************************************************************
+Number of open positions: 1
+Function started at 29.09.2025 22:00:13
+	FLRUSDT 	Signal: B
+FLRUSDT 	Latest Close: (0.02601) 	SMA(14) : 0.03 	Delta :  	Previous STC : 14.25 	STC : 39.13
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (2.761) 	SMA(14) : 2.73 	Delta :  	Previous STC : 0.01 	STC : 33.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | B |  39.13
+1
+Last close price for FLRUSDT: 0.02602
+Opening Buy for  FLRUSDT
+TP: 0.0262802
+SL: 0.0254996
+TS: 0.00026020000000000004
+Order Quantity: 768639.51
+Adjusted qty: 768640.0
+Final Adjusted qty: 768630.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f57d71cd-1fd9-439f-9849-18e9dbf52dc0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759168833415}
+f57d71cd-1fd9-439f-9849-18e9dbf52dc0
+fetching trade data for :  f57d71cd-1fd9-439f-9849-18e9dbf52dc0
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'f57d71cd-1fd9-439f-9849-18e9dbf52dc0', 'stopOrderType': 'UNKNOWN', 'execTime': '1759168833414', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02604', 'execPrice': '0.02602', 'markIv': '', 'orderQty': '509000', 'orderPrice': '0.03124', 'execValue': '13244.18', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566376363, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '7.284299', 'execId': 'fe0279e3-19b1-45ed-84f8-a66d93bbd443', 'marketUnit': '', 'execQty': '509000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+NEARUSDT   | B |  33.34
+1
+Last close price for NEARUSDT: 2.762
+Opening Buy for  NEARUSDT
+TP: 2.78962
+SL: 2.70676
+TS: 0.02762
+Order Quantity: 7241.13
+Adjusted qty: 7241.1
+Final Adjusted qty: 7241.1
+66470.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 29.09.2025 22:00:43
