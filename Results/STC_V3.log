@@ -97278,3 +97278,49 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 30.09.2025 00:00:56
+***************************************************************
+Number of open positions: 2
+Function started at 30.09.2025 01:00:11
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (1.2378) 	SMA(14) : 1.42 	Delta :  	Previous STC : 99.97 	STC : 92.15
+	USD1USDT 	Signal: B
+USD1USDT 	Latest Close: (0.9991) 	SMA(14) : 1.00 	Delta :  	Previous STC : 0.00 	STC : 26.62
+	XAUTUSDT 	Signal: B
+XAUTUSDT 	Latest Close: (3830.14) 	SMA(14) : 3786.47 	Delta :  	Previous STC : 10.22 	STC : 40.15
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XPLUSDT    | S |  92.15
+1
+Last close price for XPLUSDT: 1.236
+Opening Sell for  XPLUSDT
+TP: 1.22364
+SL: 1.26072
+TS: 0.01236
+Order Quantity: 16181.23
+Adjusted qty: 16181.0
+Final Adjusted qty: 16181.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '266c7c1c-3d8d-48a1-a62c-258d838e9276', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759179634818}
+266c7c1c-3d8d-48a1-a62c-258d838e9276
+fetching trade data for :  266c7c1c-3d8d-48a1-a62c-258d838e9276
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '266c7c1c-3d8d-48a1-a62c-258d838e9276', 'stopOrderType': 'UNKNOWN', 'execTime': '1759179634818', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2363', 'execPrice': '1.2365', 'markIv': '', 'orderQty': '16181', 'orderPrice': '1.0509', 'execValue': '20007.8065', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566678146, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00429358', 'execId': 'b4d5bb32-7419-41a6-b6f6-d5314d082201', 'marketUnit': '', 'execQty': '16181', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XAUTUSDT   | B |  40.15
+1
+Last close price for XAUTUSDT: 3830.14
+Opening Buy for  XAUTUSDT
+TP: 3868.4413999999997
+SL: 3753.5371999999998
+TS: 38.3014
+Order Quantity: 5.22
+Adjusted qty: 5.22
+Final Adjusted qty: 5.22
+7.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 30.09.2025 01:00:46
