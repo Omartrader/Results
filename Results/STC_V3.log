@@ -97183,3 +97183,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 29.09.2025 22:00:43
+***************************************************************
+Number of open positions: 1
+Function started at 29.09.2025 23:00:11
+	FLRUSDT 	Signal: B
+FLRUSDT 	Latest Close: (0.0259) 	SMA(14) : 0.03 	Delta :  	Previous STC : 14.25 	STC : 39.13
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (2.747) 	SMA(14) : 2.73 	Delta :  	Previous STC : 0.01 	STC : 33.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | B |  39.13
+1
+Last close price for FLRUSDT: 0.02589
+Opening Buy for  FLRUSDT
+TP: 0.0261489
+SL: 0.0253722
+TS: 0.0002589
+Order Quantity: 772499.03
+Adjusted qty: 772500.0
+Final Adjusted qty: 772490.0
+509000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+NEARUSDT   | B |  33.34
+1
+Last close price for NEARUSDT: 2.745
+Opening Buy for  NEARUSDT
+TP: 2.77245
+SL: 2.6901
+TS: 0.027450000000000002
+Order Quantity: 7285.97
+Adjusted qty: 7286.0
+Final Adjusted qty: 7285.9
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a8ed6698-938a-46be-8fd5-3b2806016cd4', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759172433274}
+a8ed6698-938a-46be-8fd5-3b2806016cd4
+fetching trade data for :  a8ed6698-938a-46be-8fd5-3b2806016cd4
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a8ed6698-938a-46be-8fd5-3b2806016cd4', 'stopOrderType': 'UNKNOWN', 'execTime': '1759172433273', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.746', 'execPrice': '2.745', 'markIv': '', 'orderQty': '7285.9', 'orderPrice': '2.883', 'execValue': '19999.7955', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566476344, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99988753', 'execId': '83bf529a-d5fe-4024-8f3d-e3d15a3f475c', 'marketUnit': '', 'execQty': '7285.9', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 29.09.2025 23:00:41
