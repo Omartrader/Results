@@ -97227,3 +97227,54 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 29.09.2025 23:00:41
+***************************************************************
+Number of open positions: 1
+Function started at 30.09.2025 00:00:13
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (1.2304) 	SMA(14) : 1.41 	Delta :  	Previous STC : 99.97 	STC : 92.04
+	USD1USDT 	Signal: B
+USD1USDT 	Latest Close: (0.9991) 	SMA(14) : 1.00 	Delta :  	Previous STC : 0.00 	STC : 26.62
+	XAUTUSDT 	Signal: B
+XAUTUSDT 	Latest Close: (3825.25) 	SMA(14) : 3786.12 	Delta :  	Previous STC : 10.22 	STC : 40.15
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XPLUSDT    | S |  92.04
+1
+Last close price for XPLUSDT: 1.2313
+Opening Sell for  XPLUSDT
+TP: 1.218987
+SL: 1.255926
+TS: 0.012313000000000001
+Order Quantity: 16243.0
+Adjusted qty: 16243.0
+Final Adjusted qty: 16243.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '5faa0900-c1c1-42d5-b836-1c890a04333d', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759176033546}
+5faa0900-c1c1-42d5-b836-1c890a04333d
+fetching trade data for :  5faa0900-c1c1-42d5-b836-1c890a04333d
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '5faa0900-c1c1-42d5-b836-1c890a04333d', 'stopOrderType': 'UNKNOWN', 'execTime': '1759176033546', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2313', 'execPrice': '1.2313', 'markIv': '', 'orderQty': '16243', 'orderPrice': '1.0467', 'execValue': '20000.0059', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566576830, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00000325', 'execId': '5d8becc1-709e-4569-9719-ca5af6d232b4', 'marketUnit': '', 'execQty': '16243', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+XAUTUSDT   | B |  40.15
+1
+Last close price for XAUTUSDT: 3825.25
+Opening Buy for  XAUTUSDT
+TP: 3863.5025
+SL: 3748.745
+TS: 38.2525
+Order Quantity: 5.23
+Adjusted qty: 5.23
+Final Adjusted qty: 5.23
+7.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'be28f4da-2af3-414e-9098-928413681493', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759176045512}
+be28f4da-2af3-414e-9098-928413681493
+fetching trade data for :  be28f4da-2af3-414e-9098-928413681493
+[{'symbol': 'XAUTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'be28f4da-2af3-414e-9098-928413681493', 'stopOrderType': 'UNKNOWN', 'execTime': '1759176045511', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '3825.25', 'execPrice': '3825.25', 'markIv': '', 'orderQty': '5.23', 'orderPrice': '4399.03', 'execValue': '20006.0575', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566577169, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00333163', 'execId': 'e172c863-a09f-4186-acd0-d9cf4d05b400', 'marketUnit': '', 'execQty': '5.23', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 30.09.2025 00:00:56
