@@ -97041,3 +97041,52 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 29.09.2025 19:01:05
+***************************************************************
+Number of open positions: 0
+Function started at 29.09.2025 20:00:17
+	FLRUSDT 	Signal: B
+FLRUSDT 	Latest Close: (0.02576) 	SMA(14) : 0.03 	Delta :  	Previous STC : 14.25 	STC : 38.97
+	NEARUSDT 	Signal: B
+NEARUSDT 	Latest Close: (2.79) 	SMA(14) : 2.74 	Delta :  	Previous STC : 0.01 	STC : 33.34
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+FLRUSDT    | B |  38.97
+1
+Last close price for FLRUSDT: 0.02576
+Opening Buy for  FLRUSDT
+TP: 0.026017600000000002
+SL: 0.0252448
+TS: 0.00025760000000000003
+Order Quantity: 776397.52
+Adjusted qty: 776400.0
+Final Adjusted qty: 776390.0
+509000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'bf6da4ce-8a39-4eb3-a67f-c2ab505ecdbd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759161639004}
+bf6da4ce-8a39-4eb3-a67f-c2ab505ecdbd
+fetching trade data for :  bf6da4ce-8a39-4eb3-a67f-c2ab505ecdbd
+[{'symbol': 'FLRUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'bf6da4ce-8a39-4eb3-a67f-c2ab505ecdbd', 'stopOrderType': 'UNKNOWN', 'execTime': '1759161639003', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.02576', 'execPrice': '0.02575', 'markIv': '', 'orderQty': '509000', 'orderPrice': '0.03091', 'execValue': '13106.75', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566169141, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '7.2087125', 'execId': '2b1b61f1-a10e-4078-8316-75898ee4c79d', 'marketUnit': '', 'execQty': '509000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+NEARUSDT   | B |  33.34
+1
+Last close price for NEARUSDT: 2.793
+Opening Buy for  NEARUSDT
+TP: 2.82093
+SL: 2.73714
+TS: 0.02793
+Order Quantity: 7160.76
+Adjusted qty: 7160.8
+Final Adjusted qty: 7160.7
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a5c8874d-f228-4474-baa0-afb4a33b5e5f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759161650980}
+a5c8874d-f228-4474-baa0-afb4a33b5e5f
+fetching trade data for :  a5c8874d-f228-4474-baa0-afb4a33b5e5f
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a5c8874d-f228-4474-baa0-afb4a33b5e5f', 'stopOrderType': 'UNKNOWN', 'execTime': '1759161650980', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.792', 'execPrice': '2.792', 'markIv': '', 'orderQty': '7160.7', 'orderPrice': '2.931', 'execValue': '19992.6744', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612566169545, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99597092', 'execId': '2dfb3860-9fb0-4111-9fdb-80a7fd933a70', 'marketUnit': '', 'execQty': '7160.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 29.09.2025 20:01:00
