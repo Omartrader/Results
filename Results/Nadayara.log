@@ -10459,3 +10459,71 @@ ea588e0a-4f81-4da8-962b-c17d7020c946
    Final Positions: 1
 Function finished at 30.09.2025 12:04:47
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 30.09.2025 14:01:09
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for AKEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for MIRAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for BSUUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759226577822}
+Last close price for BSUUSDT: 0.18472
+Order Quantity before adjustment: 108271.98 and signal = 1
+Opening Sell for  BSUUSDT
+TP: 0.1828728
+SL: 0.1884144
+TS: 0.0036944
+Order Quantity: 108271.98
+Adjusted qty: 108272.0
+Final Adjusted qty: 108271.0
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'adb3f43e-3377-4f9c-9e05-89cc86212fda', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759226579135}
+adb3f43e-3377-4f9c-9e05-89cc86212fda
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for BSUUSDT
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for USDCUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for USDCUSDT: 0.9998
+Order Quantity before adjustment: 20004.0 and signal = 2
+Opening Buy for  USDCUSDT
+TP: 1.009798
+SL: 0.979804
+TS: 0.019996
+Order Quantity: 20004.0
+Adjusted qty: 20004.0
+Final Adjusted qty: 20004.0
+540310.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '8f96f0ac-87be-4a30-bc1d-16f623320472', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759226650026}
+8f96f0ac-87be-4a30-bc1d-16f623320472
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for USDCUSDT
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 2 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 2
+   Successful Trades: 2
+   Final Positions: 2
+Function finished at 30.09.2025 14:04:51
+*******************************************
