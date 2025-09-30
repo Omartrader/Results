@@ -10410,3 +10410,52 @@ Final Adjusted qty: 127930.0
    Final Positions: 1
 Function finished at 30.09.2025 10:04:43
 *******************************************
+***************************************************************
+Number of open positions: 0
+*******************************************
+Function started at 30.09.2025 12:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 0
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for AKEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for MIRAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for AUDIOUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759219401853}
+Last close price for AUDIOUSDT: 0.0568
+Order Quantity before adjustment: 352112.68 and signal = 2
+Opening Buy for  AUDIOUSDT
+TP: 0.057368
+SL: 0.055664000000000005
+TS: 0.001136
+Order Quantity: 352112.68
+Adjusted qty: 352112.7
+Final Adjusted qty: 352112.6
+163470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ea588e0a-4f81-4da8-962b-c17d7020c946', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759219403130}
+ea588e0a-4f81-4da8-962b-c17d7020c946
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for AUDIOUSDT
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 1
+Function finished at 30.09.2025 12:04:47
+*******************************************
