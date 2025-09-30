@@ -10629,3 +10629,51 @@ Final Adjusted qty: 1776198.0
    Final Positions: 2
 Function finished at 30.09.2025 20:04:45
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 30.09.2025 22:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for LIGHTUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for BOBAUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759255472808}
+Last close price for BOBAUSDT: 0.08368
+Order Quantity before adjustment: 239005.74 and signal = 1
+Opening Sell for  BOBAUSDT
+TP: 0.0828432
+SL: 0.0853536
+TS: 0.0016736000000000001
+Order Quantity: 239005.74
+Adjusted qty: 239005.7
+Final Adjusted qty: 239005.7
+9150.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cec041fe-93f2-4fca-84a2-40d2fbb09b32', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759255473887}
+cec041fe-93f2-4fca-84a2-40d2fbb09b32
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for BOBAUSDT
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 30.09.2025 22:04:48
+*******************************************
