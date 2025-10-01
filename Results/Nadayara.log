@@ -10892,3 +10892,51 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 01.10.2025 12:04:35
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 01.10.2025 14:01:09
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for LIGHTUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for BANUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759313020227}
+Last close price for BANUSDT: 0.0705
+Order Quantity before adjustment: 283687.94 and signal = 1
+Opening Sell for  BANUSDT
+TP: 0.069795
+SL: 0.07190999999999999
+TS: 0.0014099999999999998
+Order Quantity: 283687.94
+Adjusted qty: 283688.0
+Final Adjusted qty: 283687.0
+145000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7a383b5c-0f00-4d45-84ee-b4529b6859c6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759313021413}
+7a383b5c-0f00-4d45-84ee-b4529b6859c6
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for BANUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 01.10.2025 14:04:53
+*******************************************
