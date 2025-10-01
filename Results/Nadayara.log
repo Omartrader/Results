@@ -10940,3 +10940,51 @@ Final Adjusted qty: 283687.0
    Final Positions: 2
 Function finished at 01.10.2025 14:04:53
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 01.10.2025 16:01:09
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for LIGHTUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for MELANIAUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759320221768}
+Last close price for MELANIAUSDT: 0.1743
+Order Quantity before adjustment: 114744.69 and signal = 2
+Opening Buy for  MELANIAUSDT
+TP: 0.176043
+SL: 0.170814
+TS: 0.0034860000000000004
+Order Quantity: 114744.69
+Adjusted qty: 114744.70000000001
+Final Adjusted qty: 114744.6
+20000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7724fd81-6088-47d5-a55f-a4b47ee5876f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759320223007}
+7724fd81-6088-47d5-a55f-a4b47ee5876f
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for MELANIAUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 01.10.2025 16:04:58
+*******************************************
