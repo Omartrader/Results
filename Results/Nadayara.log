@@ -11204,3 +11204,51 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 02.10.2025 06:08:08
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 02.10.2025 08:01:07
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for APEXUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for CUDISUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759377835222}
+Last close price for CUDISUSDT: 0.05694
+Order Quantity before adjustment: 351246.93 and signal = 2
+Opening Buy for  CUDISUSDT
+TP: 0.057509399999999995
+SL: 0.055801199999999995
+TS: 0.0011388
+Order Quantity: 351246.93
+Adjusted qty: 351250.0
+Final Adjusted qty: 351240.0
+250000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e5fedfc7-eda1-4438-b14c-57f11e74086b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759377840166}
+e5fedfc7-eda1-4438-b14c-57f11e74086b
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for CUDISUSDT
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 02.10.2025 08:08:05
+*******************************************
