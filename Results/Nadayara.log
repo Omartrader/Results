@@ -11252,3 +11252,50 @@ e5fedfc7-eda1-4438-b14c-57f11e74086b
    Final Positions: 2
 Function finished at 02.10.2025 08:08:05
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 02.10.2025 10:01:06
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for APEXUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for FORMUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for FORMUSDT: 1.1338
+Order Quantity before adjustment: 17639.8 and signal = 2
+Opening Buy for  FORMUSDT
+TP: 1.145138
+SL: 1.111124
+TS: 0.022675999999999998
+Order Quantity: 17639.8
+Adjusted qty: 17640.0
+Final Adjusted qty: 17639.0
+2850.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fd5fa237-b34c-4a5c-9ccb-a978c249c51f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759385235026}
+fd5fa237-b34c-4a5c-9ccb-a978c249c51f
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for FORMUSDT
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 02.10.2025 10:08:13
+*******************************************
