@@ -11128,3 +11128,51 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 02.10.2025 02:08:30
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 02.10.2025 04:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for APEXUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for NILUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+3
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759363480328}
+Last close price for NILUSDT: 0.3152
+Order Quantity before adjustment: 63451.78 and signal = 2
+Opening Buy for  NILUSDT
+TP: 0.31835199999999997
+SL: 0.30889599999999995
+TS: 0.006304
+Order Quantity: 63451.78
+Adjusted qty: 63452.0
+Final Adjusted qty: 63451.0
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3522c562-abcf-4440-ab6d-4a2a596b832b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759363481584}
+3522c562-abcf-4440-ab6d-4a2a596b832b
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for NILUSDT
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 02.10.2025 04:05:08
+*******************************************
