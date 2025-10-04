@@ -12183,3 +12183,51 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 04.10.2025 16:04:45
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 04.10.2025 18:01:08
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for NOMUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for ASPUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759586839361}
+Last close price for ASPUSDT: 0.123
+Order Quantity before adjustment: 162601.63 and signal = 2
+Opening Buy for  ASPUSDT
+TP: 0.12423
+SL: 0.12054
+TS: 0.00246
+Order Quantity: 162601.63
+Adjusted qty: 162602.0
+Final Adjusted qty: 162601.0
+60000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b8466783-b0b2-469a-890a-8270c5ecad1f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759586843142}
+b8466783-b0b2-469a-890a-8270c5ecad1f
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ASPUSDT
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 04.10.2025 18:08:28
+*******************************************
