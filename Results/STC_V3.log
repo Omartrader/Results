@@ -98861,3 +98861,59 @@ None
 resultOK: 1 <class 'int'>
 Stopping loop:  3
 Function finished at 05.10.2025 20:02:02
+***************************************************************
+Number of open positions: 3
+Function started at 05.10.2025 21:01:20
+	XRPUSDT 	Signal: S
+XRPUSDT 	Latest Close: (3.0072) 	SMA(14) : 3.01 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ADAUSDT 	Signal: S
+ADAUSDT 	Latest Close: (0.8544) 	SMA(14) : 0.86 	Delta :  	Previous STC : 100.00 	STC : 75.48
+	WLFIUSDT 	Signal: S
+WLFIUSDT 	Latest Close: (0.2008) 	SMA(14) : 0.20 	Delta :  	Previous STC : 97.35 	STC : 90.37
+	CROUSDT 	Signal: S
+CROUSDT 	Latest Close: (0.2097) 	SMA(14) : 0.21 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	XMRUSDT 	Signal: S
+XMRUSDT 	Latest Close: (321.75) 	SMA(14) : 327.40 	Delta :  	Previous STC : 96.88 	STC : 74.04
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+WLFIUSDT   | S |  90.37
+1
+Last close price for WLFIUSDT: 0.2007
+Opening Sell for  WLFIUSDT
+TP: 0.19869299999999998
+SL: 0.20471399999999998
+TS: 0.002007
+Order Quantity: 99651.22
+Adjusted qty: 99651.0
+Final Adjusted qty: 99651.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a6c9d117-e2e3-4a53-8bf6-c6f4cdace8b2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759683740168}
+a6c9d117-e2e3-4a53-8bf6-c6f4cdace8b2
+fetching trade data for :  a6c9d117-e2e3-4a53-8bf6-c6f4cdace8b2
+[{'symbol': 'WLFIUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a6c9d117-e2e3-4a53-8bf6-c6f4cdace8b2', 'stopOrderType': 'UNKNOWN', 'execTime': '1759683740168', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2006', 'execPrice': '0.2007', 'markIv': '', 'orderQty': '80000', 'orderPrice': '0.1706', 'execValue': '16056', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612581170891, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.8308', 'execId': '4915f42f-51f4-4dd3-9ba5-5459602f1bb1', 'marketUnit': '', 'execQty': '80000', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ADAUSDT    | S |  75.48
+1
+Last close price for ADAUSDT: 0.8539
+Opening Sell for  ADAUSDT
+TP: 0.845361
+SL: 0.870978
+TS: 0.008539
+Order Quantity: 23421.95
+Adjusted qty: 23422.0
+Final Adjusted qty: 23421.0
+1109600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '65f4cdf2-5071-43ca-a453-0f8d1ffb22dc', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759683755755}
+65f4cdf2-5071-43ca-a453-0f8d1ffb22dc
+fetching trade data for :  65f4cdf2-5071-43ca-a453-0f8d1ffb22dc
+[{'symbol': 'ADAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '65f4cdf2-5071-43ca-a453-0f8d1ffb22dc', 'stopOrderType': 'UNKNOWN', 'execTime': '1759683755755', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.854', 'execPrice': '0.8538', 'markIv': '', 'orderQty': '23421', 'orderPrice': '0.8113', 'execValue': '19996.8498', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612581171408, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99826739', 'execId': 'a99638a6-ff0d-4e0b-927f-2e0251411b08', 'marketUnit': '', 'execQty': '23421', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Stopping loop:  2
+Function finished at 05.10.2025 21:02:47
