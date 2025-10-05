@@ -12500,3 +12500,52 @@ ee7251b2-8c2f-42db-84d1-42ea97924fa2
    Final Positions: 3
 Function finished at 05.10.2025 10:04:22
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 05.10.2025 12:01:07
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for TRUTHUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for NOMUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for ETHBTCUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1759651374622}
+Last close price for ETHBTCUSDT: 0.037009
+Order Quantity before adjustment: 540409.09 and signal = 2
+Opening Buy for  ETHBTCUSDT
+TP: 0.037379090000000004
+SL: 0.03626882
+TS: 0.00074018
+Order Quantity: 540409.09
+Adjusted qty: 540410.0
+Final Adjusted qty: 540400.0
+400000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'de3a42a5-9d46-4b2f-93e2-2a3c39fe8483', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759651376998}
+de3a42a5-9d46-4b2f-93e2-2a3c39fe8483
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ETHBTCUSDT
+[PROGRESS] Progress: 150/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 05.10.2025 12:07:45
+*******************************************
