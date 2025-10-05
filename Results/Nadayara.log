@@ -12452,3 +12452,51 @@ Final Adjusted qty: 9140760.0
    Final Positions: 2
 Function finished at 05.10.2025 08:04:27
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 05.10.2025 10:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for TRUTHUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for NOMUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for HUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for HUSDT: 0.071985
+Order Quantity before adjustment: 277835.66 and signal = 2
+Opening Buy for  HUSDT
+TP: 0.07270484999999999
+SL: 0.07054529999999999
+TS: 0.0014397
+Order Quantity: 277835.66
+Adjusted qty: 277840.0
+Final Adjusted qty: 277830.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ee7251b2-8c2f-42db-84d1-42ea97924fa2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759644102230}
+ee7251b2-8c2f-42db-84d1-42ea97924fa2
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for HUSDT
+[PROGRESS] Progress: 100/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 05.10.2025 10:04:22
+*******************************************
