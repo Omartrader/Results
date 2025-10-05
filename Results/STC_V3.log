@@ -98438,3 +98438,54 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 05.10.2025 07:31:57
+***************************************************************
+Number of open positions: 2
+Function started at 05.10.2025 08:01:31
+	WLDUSDT 	Signal: S
+WLDUSDT 	Latest Close: (1.2784) 	SMA(14) : 1.31 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ATOMUSDT 	Signal: S
+ATOMUSDT 	Latest Close: (4.168) 	SMA(14) : 4.20 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	USD1USDT 	Signal: B
+USD1USDT 	Latest Close: (0.999) 	SMA(14) : 1.00 	Delta :  	Previous STC : 15.78 	STC : 40.53
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ATOMUSDT   | S |  66.67
+1
+Last close price for ATOMUSDT: 4.168
+Opening Sell for  ATOMUSDT
+TP: 4.12632
+SL: 4.25136
+TS: 0.04168
+Order Quantity: 4798.46
+Adjusted qty: 4798.5
+Final Adjusted qty: 4798.4
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '59c7a716-76ec-4ab4-93a0-af064252147e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759636942611}
+59c7a716-76ec-4ab4-93a0-af064252147e
+fetching trade data for :  59c7a716-76ec-4ab4-93a0-af064252147e
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '59c7a716-76ec-4ab4-93a0-af064252147e', 'stopOrderType': 'UNKNOWN', 'execTime': '1759636942611', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.168', 'execPrice': '4.168', 'markIv': '', 'orderQty': '4798.4', 'orderPrice': '3.96', 'execValue': '19999.7312', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612579803656, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99985216', 'execId': '14c1f87f-5bda-454e-b2f1-6c0206811ffb', 'marketUnit': '', 'execQty': '4798.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+WLDUSDT    | S |  66.67
+1
+Last close price for WLDUSDT: 1.2789
+Opening Sell for  WLDUSDT
+TP: 1.266111
+SL: 1.304478
+TS: 0.012789
+Order Quantity: 15638.44
+Adjusted qty: 15638.400000000001
+Final Adjusted qty: 15638.4
+34020.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a799e23e-d84b-4f8b-8a0b-e151eb08304a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759636957015}
+a799e23e-d84b-4f8b-8a0b-e151eb08304a
+fetching trade data for :  a799e23e-d84b-4f8b-8a0b-e151eb08304a
+[{'symbol': 'WLDUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a799e23e-d84b-4f8b-8a0b-e151eb08304a', 'stopOrderType': 'UNKNOWN', 'execTime': '1759636957014', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.2793', 'execPrice': '1.2793', 'markIv': '', 'orderQty': '15638.4', 'orderPrice': '1.2154', 'execValue': '20006.20512', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612579804064, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00341282', 'execId': '340c9262-5c9d-4882-afa6-846fa67d14d2', 'marketUnit': '', 'execQty': '15638.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.10.2025 08:02:48
