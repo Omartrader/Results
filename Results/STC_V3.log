@@ -98737,3 +98737,52 @@ Function started at 05.10.2025 18:00:40
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 05.10.2025 18:00:59
+***************************************************************
+Number of open positions: 0
+Function started at 05.10.2025 19:01:12
+	XRPUSDT 	Signal: S
+XRPUSDT 	Latest Close: (2.9952) 	SMA(14) : 3.01 	Delta :  	Previous STC : 100.00 	STC : 95.99
+	ATOMUSDT 	Signal: S
+ATOMUSDT 	Latest Close: (4.201) 	SMA(14) : 4.21 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XRPUSDT    | S |  95.99
+1
+Last close price for XRPUSDT: 2.9961
+Opening Sell for  XRPUSDT
+TP: 2.966139
+SL: 3.0560220000000005
+TS: 0.029961
+Order Quantity: 6675.34
+Adjusted qty: 6675.3
+Final Adjusted qty: 6675.3
+2467800.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '36e531f6-d6d1-4cce-bb18-7ed317f54600', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759676502391}
+36e531f6-d6d1-4cce-bb18-7ed317f54600
+fetching trade data for :  36e531f6-d6d1-4cce-bb18-7ed317f54600
+[{'symbol': 'XRPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '36e531f6-d6d1-4cce-bb18-7ed317f54600', 'stopOrderType': 'UNKNOWN', 'execTime': '1759676502390', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.9957', 'execPrice': '2.9962', 'markIv': '', 'orderQty': '6675.3', 'orderPrice': '2.846', 'execValue': '20000.53386', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612580961341, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00029363', 'execId': 'e807180f-feea-4c70-8a46-0a493960bed9', 'marketUnit': '', 'execQty': '6675.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ATOMUSDT   | S |  66.67
+1
+Last close price for ATOMUSDT: 4.201
+Opening Sell for  ATOMUSDT
+TP: 4.158989999999999
+SL: 4.285019999999999
+TS: 0.04201
+Order Quantity: 4760.77
+Adjusted qty: 4760.8
+Final Adjusted qty: 4760.7
+22100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd5c0a339-cd5b-4f6a-a238-a4b38f63e086', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759676515787}
+d5c0a339-cd5b-4f6a-a238-a4b38f63e086
+fetching trade data for :  d5c0a339-cd5b-4f6a-a238-a4b38f63e086
+[{'symbol': 'ATOMUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd5c0a339-cd5b-4f6a-a238-a4b38f63e086', 'stopOrderType': 'UNKNOWN', 'execTime': '1759676515787', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4.201', 'execPrice': '4.201', 'markIv': '', 'orderQty': '4760.7', 'orderPrice': '3.991', 'execValue': '19999.7007', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612580961745, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99983539', 'execId': 'b07f2f4e-6895-4f50-b7c9-2d28b72deb45', 'marketUnit': '', 'execQty': '4760.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 05.10.2025 19:02:06
