@@ -99121,3 +99121,97 @@ Order Quantity: 34228.99
 Adjusted qty: 34229.0
 Final Adjusted qty: 34228.0
 100000.0
+***************************************************************
+Number of open positions: 3
+Function started at 06.10.2025 01:02:47
+	DOGEUSDT 	Signal: S
+DOGEUSDT 	Latest Close: (0.25204) 	SMA(14) : 0.25 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ENAUSDT 	Signal: S
+ENAUSDT 	Latest Close: (0.5853) 	SMA(14) : 0.60 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	SEIUSDT 	Signal: S
+SEIUSDT 	Latest Close: (0.2882) 	SMA(14) : 0.29 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ARBUSDT 	Signal: S
+ARBUSDT 	Latest Close: (0.4329) 	SMA(14) : 0.44 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	VETUSDT 	Signal: S
+VETUSDT 	Latest Close: (0.02287) 	SMA(14) : 0.02 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	SUIUSDT 	Signal: S
+SUIUSDT 	Latest Close: (3.5363) 	SMA(14) : 3.57 	Delta :  	Previous STC : 100.00 	STC : 85.38
+	ALGOUSDT 	Signal: S
+ALGOUSDT 	Latest Close: (0.2188) 	SMA(14) : 0.22 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	POLUSDT 	Signal: S
+POLUSDT 	Latest Close: (0.2369) 	SMA(14) : 0.24 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	DOTUSDT 	Signal: S
+DOTUSDT 	Latest Close: (4.1154) 	SMA(14) : 4.23 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	SOLUSDT 	Signal: S
+SOLUSDT 	Latest Close: (227.96) 	SMA(14) : 229.81 	Delta :  	Previous STC : 100.00 	STC : 89.36
+	UNIUSDT 	Signal: S
+UNIUSDT 	Latest Close: (8.026) 	SMA(14) : 8.11 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	AVAXUSDT 	Signal: S
+AVAXUSDT 	Latest Close: (29.816) 	SMA(14) : 30.46 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ETCUSDT 	Signal: S
+ETCUSDT 	Latest Close: (19.381) 	SMA(14) : 19.65 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	AAVEUSDT 	Signal: S
+AAVEUSDT 	Latest Close: (284.74) 	SMA(14) : 286.56 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	BCHUSDT 	Signal: S
+BCHUSDT 	Latest Close: (594.4) 	SMA(14) : 595.99 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+SOLUSDT    | S |  89.36
+1
+Last close price for SOLUSDT: 228.11
+Opening Sell for  SOLUSDT
+TP: 225.8289
+SL: 232.67220000000003
+TS: 2.2811000000000003
+Order Quantity: 87.68
+Adjusted qty: 87.7
+Final Adjusted qty: 87.6
+11740.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+SUIUSDT    | S |  85.38
+1
+Last close price for SUIUSDT: 3.5364
+Opening Sell for  SUIUSDT
+TP: 3.501036
+SL: 3.607128
+TS: 0.035364
+Order Quantity: 5655.47
+Adjusted qty: 5660.0
+Final Adjusted qty: 5650.0
+40000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ENAUSDT    | S |  66.67
+1
+Last close price for ENAUSDT: 0.5853
+Opening Sell for  ENAUSDT
+TP: 0.579447
+SL: 0.597006
+TS: 0.0058530000000000006
+Order Quantity: 34170.51
+Adjusted qty: 34171.0
+Final Adjusted qty: 34170.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3e822b8e-1e23-4a14-ad2c-8f16b4253d4a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759698192283}
+3e822b8e-1e23-4a14-ad2c-8f16b4253d4a
+fetching trade data for :  3e822b8e-1e23-4a14-ad2c-8f16b4253d4a
+[{'symbol': 'ENAUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '3e822b8e-1e23-4a14-ad2c-8f16b4253d4a', 'stopOrderType': 'UNKNOWN', 'execTime': '1759698192283', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.5854', 'execPrice': '0.5854', 'markIv': '', 'orderQty': '34170', 'orderPrice': '0.5269', 'execValue': '20003.118', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612581586554, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0017149', 'execId': 'd6e39764-585d-4902-88cc-c114e25b7a94', 'marketUnit': '', 'execQty': '34170', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+POLUSDT    | S |  66.67
+1
+Last close price for POLUSDT: 0.2368
+Opening Sell for  POLUSDT
+TP: 0.234432
+SL: 0.24153600000000003
+TS: 0.0023680000000000003
+Order Quantity: 84459.46
+Adjusted qty: 84459.0
+Final Adjusted qty: 84459.0
+500000.0
