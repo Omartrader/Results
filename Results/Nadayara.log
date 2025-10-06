@@ -12933,3 +12933,51 @@ Final Adjusted qty: 12861.7
    Final Positions: 3
 Function finished at 06.10.2025 10:04:14
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 06.10.2025 12:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for COAIUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for 2ZUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for AIOUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for AIOUSDT: 0.14982
+Order Quantity before adjustment: 133493.53 and signal = 2
+Opening Buy for  AIOUSDT
+TP: 0.1513182
+SL: 0.1468236
+TS: 0.0029964
+Order Quantity: 133493.53
+Adjusted qty: 133490.0
+Final Adjusted qty: 133490.0
+250000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '29fd88df-b617-47ed-b895-cd64cf32babd', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759737813328}
+29fd88df-b617-47ed-b895-cd64cf32babd
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for AIOUSDT
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 06.10.2025 12:04:14
+*******************************************
