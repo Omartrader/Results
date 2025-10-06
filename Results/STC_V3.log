@@ -99338,3 +99338,64 @@ Order Quantity: 2482.01
 Adjusted qty: 2482.0
 Final Adjusted qty: 2482.0
 17540.0
+***************************************************************
+Number of open positions: 2
+Function started at 06.10.2025 04:01:49
+	SUIUSDT 	Signal: S
+SUIUSDT 	Latest Close: (3.557) 	SMA(14) : 3.57 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	FILUSDT 	Signal: S
+FILUSDT 	Latest Close: (2.328) 	SMA(14) : 2.34 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (118.7) 	SMA(14) : 119.53 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  66.67
+1
+Last close price for LTCUSDT: 118.7
+Opening Sell for  LTCUSDT
+TP: 117.513
+SL: 121.074
+TS: 1.187
+Order Quantity: 168.49
+Adjusted qty: 168.5
+Final Adjusted qty: 168.4
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b3116d97-5eda-4eca-af8b-ec6b84ece4a9', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759708961616}
+b3116d97-5eda-4eca-af8b-ec6b84ece4a9
+fetching trade data for :  b3116d97-5eda-4eca-af8b-ec6b84ece4a9
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b3116d97-5eda-4eca-af8b-ec6b84ece4a9', 'stopOrderType': 'UNKNOWN', 'execTime': '1759708961616', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '118.7', 'execPrice': '118.7', 'markIv': '', 'orderQty': '168.4', 'orderPrice': '112.77', 'execValue': '19989.08', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612581889127, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.993994', 'execId': '25632771-dd18-4c85-8ed9-0212cde8760c', 'marketUnit': '', 'execQty': '168.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | S |  66.67
+1
+Last close price for FILUSDT: 2.326
+Opening Sell for  FILUSDT
+TP: 2.30274
+SL: 2.37252
+TS: 0.02326
+Order Quantity: 8598.45
+Adjusted qty: 8598.4
+Final Adjusted qty: 8598.4
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '10d31cc2-5e77-454f-9928-541b617bb4eb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759708976779}
+10d31cc2-5e77-454f-9928-541b617bb4eb
+fetching trade data for :  10d31cc2-5e77-454f-9928-541b617bb4eb
+[{'symbol': 'FILUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '10d31cc2-5e77-454f-9928-541b617bb4eb', 'stopOrderType': 'UNKNOWN', 'execTime': '1759708976779', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.326', 'execPrice': '2.326', 'markIv': '', 'orderQty': '8598.4', 'orderPrice': '2.21', 'execValue': '19999.8784', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612581889576, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99993312', 'execId': 'e1665593-28d4-415d-b170-dae197b53606', 'marketUnit': '', 'execQty': '8598.4', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+SUIUSDT    | S |  66.67
+1
+Last close price for SUIUSDT: 3.5546
+Opening Sell for  SUIUSDT
+TP: 3.519054
+SL: 3.6256920000000004
+TS: 0.035546
+Order Quantity: 5626.51
+Adjusted qty: 5630.0
+Final Adjusted qty: 5620.0
+40000.0
