@@ -99565,3 +99565,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 06.10.2025 08:02:09
+***************************************************************
+Number of open positions: 2
+Function started at 06.10.2025 09:04:10
+	PENGUUSDT 	Signal: S
+PENGUUSDT 	Latest Close: (0.030724) 	SMA(14) : 0.03 	Delta :  	Previous STC : 100.00 	STC : 79.50
+	ICPUSDT 	Signal: S
+ICPUSDT 	Latest Close: (4.504) 	SMA(14) : 4.54 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENGUUSDT  | S |  79.50
+1
+Last close price for PENGUUSDT: 0.03073
+Opening Sell for  PENGUUSDT
+TP: 0.0304227
+SL: 0.0313446
+TS: 0.0003073
+Order Quantity: 650829.81
+Adjusted qty: 650830.0
+Final Adjusted qty: 650820.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'b19a1684-fccf-4c82-b6fe-bd673d7e84b6', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759727071692}
+b19a1684-fccf-4c82-b6fe-bd673d7e84b6
+fetching trade data for :  b19a1684-fccf-4c82-b6fe-bd673d7e84b6
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'b19a1684-fccf-4c82-b6fe-bd673d7e84b6', 'stopOrderType': 'UNKNOWN', 'execTime': '1759727071692', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.030731', 'execPrice': '0.03073', 'markIv': '', 'orderQty': '650820', 'orderPrice': '0.027658', 'execValue': '19999.6986', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612582414101, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99983423', 'execId': 'f005b3a0-1ad5-4332-b94f-42d8a8d4c25d', 'marketUnit': '', 'execQty': '650820', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ICPUSDT    | S |  66.67
+1
+Last close price for ICPUSDT: 4.506
+Opening Sell for  ICPUSDT
+TP: 4.46094
+SL: 4.59612
+TS: 0.04506
+Order Quantity: 4438.53
+Adjusted qty: 4438.5
+Final Adjusted qty: 4438.5
+25860.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 06.10.2025 09:04:41
