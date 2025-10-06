@@ -99481,3 +99481,52 @@ Order Quantity: 5652.27
 Adjusted qty: 5650.0
 Final Adjusted qty: 5650.0
 40000.0
+***************************************************************
+Number of open positions: 1
+Function started at 06.10.2025 06:02:45
+	FILUSDT 	Signal: S
+FILUSDT 	Latest Close: (2.338) 	SMA(14) : 2.34 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	LTCUSDT 	Signal: S
+LTCUSDT 	Latest Close: (119.21) 	SMA(14) : 119.57 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+LTCUSDT    | S |  66.67
+1
+Last close price for LTCUSDT: 119.26
+Opening Sell for  LTCUSDT
+TP: 118.0674
+SL: 121.6452
+TS: 1.1926
+Order Quantity: 167.7
+Adjusted qty: 167.70000000000002
+Final Adjusted qty: 167.7
+6160.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '45fcf8f6-b3d1-4dd2-a1f8-eea571c62c89', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759716223466}
+45fcf8f6-b3d1-4dd2-a1f8-eea571c62c89
+fetching trade data for :  45fcf8f6-b3d1-4dd2-a1f8-eea571c62c89
+[{'symbol': 'LTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '45fcf8f6-b3d1-4dd2-a1f8-eea571c62c89', 'stopOrderType': 'UNKNOWN', 'execTime': '1759716223466', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '119.26', 'execPrice': '119.26', 'markIv': '', 'orderQty': '167.7', 'orderPrice': '113.3', 'execValue': '19999.902', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612582102276, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9999461', 'execId': '4d6889ec-59b8-4444-93c1-09d94b2ae713', 'marketUnit': '', 'execQty': '167.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+FILUSDT    | S |  66.67
+1
+Last close price for FILUSDT: 2.338
+Opening Sell for  FILUSDT
+TP: 2.31462
+SL: 2.38476
+TS: 0.02338
+Order Quantity: 8554.32
+Adjusted qty: 8554.300000000001
+Final Adjusted qty: 8554.3
+60730.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6beb4a4b-91ea-42df-a456-4b106a40657c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759716239016}
+6beb4a4b-91ea-42df-a456-4b106a40657c
+fetching trade data for :  6beb4a4b-91ea-42df-a456-4b106a40657c
+[{'symbol': 'FILUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '6beb4a4b-91ea-42df-a456-4b106a40657c', 'stopOrderType': 'UNKNOWN', 'execTime': '1759716239015', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.338', 'execPrice': '2.338', 'markIv': '', 'orderQty': '8554.3', 'orderPrice': '2.222', 'execValue': '19999.9534', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612582102725, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99997437', 'execId': '5e6e491e-2ae3-4282-99a9-1715e1be4344', 'marketUnit': '', 'execQty': '8554.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 06.10.2025 06:04:11
