@@ -99748,3 +99748,52 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 06.10.2025 13:01:10
+***************************************************************
+Number of open positions: 0
+Function started at 06.10.2025 14:01:15
+	PENGUUSDT 	Signal: S
+PENGUUSDT 	Latest Close: (0.03118) 	SMA(14) : 0.03 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (5.279) 	SMA(14) : 5.36 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENGUUSDT  | S |  66.67
+1
+Last close price for PENGUUSDT: 0.031133
+Opening Sell for  PENGUUSDT
+TP: 0.030821670000000002
+SL: 0.03175566
+TS: 0.00031133
+Order Quantity: 642405.16
+Adjusted qty: 642410.0
+Final Adjusted qty: 642400.0
+2500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '70966456-05d5-4aa7-a3a3-7c86089a7232', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759744892761}
+70966456-05d5-4aa7-a3a3-7c86089a7232
+fetching trade data for :  70966456-05d5-4aa7-a3a3-7c86089a7232
+[{'symbol': 'PENGUUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '70966456-05d5-4aa7-a3a3-7c86089a7232', 'stopOrderType': 'UNKNOWN', 'execTime': '1759744892761', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.031135', 'execPrice': '0.031133', 'markIv': '', 'orderQty': '642400', 'orderPrice': '0.028022', 'execValue': '19999.8392', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612582949560, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99991156', 'execId': '945abe18-6cca-4313-8d19-67e46d8d0c33', 'marketUnit': '', 'execQty': '642400', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+APTUSDT    | S |  66.67
+1
+Last close price for APTUSDT: 5.285
+Opening Sell for  APTUSDT
+TP: 5.23215
+SL: 5.3907
+TS: 0.05285
+Order Quantity: 3784.3
+Adjusted qty: 3784.3
+Final Adjusted qty: 3784.3
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '971344a6-9153-4881-b622-425a1f510999', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759744904562}
+971344a6-9153-4881-b622-425a1f510999
+fetching trade data for :  971344a6-9153-4881-b622-425a1f510999
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '971344a6-9153-4881-b622-425a1f510999', 'stopOrderType': 'UNKNOWN', 'execTime': '1759744904562', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '5.287', 'execPrice': '5.287', 'markIv': '', 'orderQty': '3784.3', 'orderPrice': '5.023', 'execValue': '20007.5941', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612582949928, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00417676', 'execId': '4d6f9672-6ca5-4e9a-9c7b-a17c66703589', 'marketUnit': '', 'execQty': '3784.3', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 06.10.2025 14:01:54
