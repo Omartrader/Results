@@ -99797,3 +99797,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 06.10.2025 14:01:54
+***************************************************************
+Number of open positions: 1
+Function started at 06.10.2025 15:01:07
+	PENGUUSDT 	Signal: S
+PENGUUSDT 	Latest Close: (0.03099) 	SMA(14) : 0.03 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	APTUSDT 	Signal: S
+APTUSDT 	Latest Close: (5.297) 	SMA(14) : 5.36 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+PENGUUSDT  | S |  66.67
+1
+Last close price for PENGUUSDT: 0.030974
+Opening Sell for  PENGUUSDT
+TP: 0.030664260000000002
+SL: 0.03159348
+TS: 0.00030974
+Order Quantity: 645702.85
+Adjusted qty: 645700.0
+Final Adjusted qty: 645700.0
+2500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+APTUSDT    | S |  66.67
+1
+Last close price for APTUSDT: 5.296
+Opening Sell for  APTUSDT
+TP: 5.243040000000001
+SL: 5.4019200000000005
+TS: 0.05296
+Order Quantity: 3776.44
+Adjusted qty: 3776.44
+Final Adjusted qty: 3776.44
+15408.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2ab1162f-fab5-4a0a-b5b2-7f68764225ea', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759748487453}
+2ab1162f-fab5-4a0a-b5b2-7f68764225ea
+fetching trade data for :  2ab1162f-fab5-4a0a-b5b2-7f68764225ea
+[{'symbol': 'APTUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '2ab1162f-fab5-4a0a-b5b2-7f68764225ea', 'stopOrderType': 'UNKNOWN', 'execTime': '1759748487453', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '5.296', 'execPrice': '5.296', 'markIv': '', 'orderQty': '3776.44', 'orderPrice': '5.032', 'execValue': '20000.02624', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612583055641, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00001444', 'execId': 'e02547f0-0cb1-428b-b30d-f33ccf583d34', 'marketUnit': '', 'execQty': '3776.44', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 06.10.2025 15:01:37
