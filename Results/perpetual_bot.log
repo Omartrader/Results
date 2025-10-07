@@ -1966,3 +1966,176 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-07 19:04:44 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-07 19:04:44 | INFO | 🎉 SESSION COMPLETED in 189.9s
 2025-10-07 19:04:44 | INFO | ============================================================
+2025-10-07 19:17:18 | INFO | ================================================================================
+2025-10-07 19:17:18 | INFO | NEW PERPETUAL SESSION: 2025-10-07 19:17:18
+2025-10-07 19:17:18 | INFO | ================================================================================
+2025-10-07 19:17:18 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-07 19:17:19 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-07 19:17:19 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED
+2025-10-07 19:17:19 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 19:17:20 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 19:17:20 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 19:17:21 | INFO | 🎯 OPPORTUNITY: 1000000CHEEMSUSDT - SELL (50.0%)
+2025-10-07 19:17:23 | INFO | 🎯 OPPORTUNITY: 10000QUBICUSDT - SELL (50.0%)
+2025-10-07 19:17:34 | INFO | 🎯 OPPORTUNITY: AIAUSDT - BUY (45.0%)
+2025-10-07 19:17:35 | INFO | 🎯 OPPORTUNITY: AIUSDT - SELL (50.0%)
+2025-10-07 19:17:36 | INFO | 🎯 OPPORTUNITY: AKEUSDT - BUY (69.5%)
+2025-10-07 19:17:37 | INFO | 🎯 OPPORTUNITY: ALCHUSDT - BUY (46.6%)
+2025-10-07 19:17:45 | INFO | 🎯 OPPORTUNITY: ASTERUSDT - SELL (50.0%)
+2025-10-07 19:17:48 | INFO | 🎯 OPPORTUNITY: AVAILUSDT - SELL (56.8%)
+2025-10-07 19:17:49 | INFO | 🎯 OPPORTUNITY: AVLUSDT - SELL (58.1%)
+2025-10-07 19:18:07 | INFO | 🎯 OPPORTUNITY: CAKEUSDT - SELL (49.3%)
+2025-10-07 19:18:17 | INFO | 🎯 OPPORTUNITY: CRVUSDT - SELL (45.0%)
+2025-10-07 19:18:25 | INFO | 🎯 OPPORTUNITY: DOODUSDT - SELL (50.0%)
+2025-10-07 19:18:43 | INFO | 🎯 OPPORTUNITY: FUELUSDT - SELL (45.0%)
+2025-10-07 19:18:56 | INFO | 🎯 OPPORTUNITY: HUSDT - BUY (72.5%)
+2025-10-07 19:19:03 | INFO | 🎯 OPPORTUNITY: JELLYJELLYUSDT - BUY (45.0%)
+2025-10-07 19:19:18 | INFO | 🎯 OPPORTUNITY: MERLUSDT - BUY (60.5%)
+2025-10-07 19:20:03 | INFO | Setting leverage for HUSDT to 1x
+2025-10-07 19:20:03 | INFO | ✅ Leverage set to 1x for HUSDT
+2025-10-07 19:20:03 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '74800', 'timeInForce': 'IOC'}
+2025-10-07 19:20:04 | INFO | ✅ Perpetual order placed: 5cea2e26-8afa-426c-8d12-cdcb19c958ab
+2025-10-07 19:20:04 | INFO | Setting stop loss via trading stop: HUSDT @ 0.0651064
+2025-10-07 19:20:04 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:04 | INFO | Setting take profit via trading stop: HUSDT @ 0.070476
+2025-10-07 19:20:04 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:06 | INFO | Setting trailing stop: HUSDT @ 1.0% = $0.000671 from $0.067123
+2025-10-07 19:20:06 | INFO | ✅ Trailing stop set: 1.0% ($0.000671)
+2025-10-07 19:20:08 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-07 19:20:08 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:08).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:08 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3063600', 'timeInForce': 'IOC'}
+2025-10-07 19:20:08 | INFO | ✅ Perpetual order placed: b1f13482-8be1-4005-a7c2-77d13c080c20
+2025-10-07 19:20:09 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.00151029
+2025-10-07 19:20:09 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:09 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00163485
+2025-10-07 19:20:09 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:11 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001543
+2025-10-07 19:20:11 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-07 19:20:13 | INFO | Setting leverage for MERLUSDT to 1x
+2025-10-07 19:20:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MERLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MERLUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '12371.8', 'timeInForce': 'IOC'}
+2025-10-07 19:20:14 | INFO | ✅ Perpetual order placed: afae502e-f5c2-40be-85fc-d104cfbbc3b8
+2025-10-07 19:20:14 | INFO | Setting stop loss via trading stop: MERLUSDT @ 0.355311
+2025-10-07 19:20:14 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:14 | INFO | Setting take profit via trading stop: MERLUSDT @ 0.38461500000000004
+2025-10-07 19:20:14 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:16 | INFO | Setting trailing stop: MERLUSDT @ 1.0% = $0.003645 from $0.36448
+2025-10-07 19:20:16 | INFO | ✅ Trailing stop set: 1.0% ($0.003645)
+2025-10-07 19:20:18 | INFO | Setting leverage for AVLUSDT to 1x
+2025-10-07 19:20:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '16924', 'timeInForce': 'IOC'}
+2025-10-07 19:20:19 | INFO | ✅ Perpetual order placed: 64614691-7816-4d1f-84f3-0ecddbd2ed0c
+2025-10-07 19:20:19 | INFO | Setting stop loss via trading stop: AVLUSDT @ 0.26203200000000004
+2025-10-07 19:20:19 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:19 | INFO | Setting take profit via trading stop: AVLUSDT @ 0.24168
+2025-10-07 19:20:19 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:21 | INFO | Setting trailing stop: AVLUSDT @ 1.0% = $0.002538 from $0.2538
+2025-10-07 19:20:21 | INFO | ✅ Trailing stop set: 1.0% ($0.002538)
+2025-10-07 19:20:23 | INFO | Setting leverage for AVAILUSDT to 1x
+2025-10-07 19:20:23 | INFO | ✅ Leverage set to 1x for AVAILUSDT
+2025-10-07 19:20:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVAILUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '309641', 'timeInForce': 'IOC'}
+2025-10-07 19:20:24 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:30964100000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 15:20:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AVAILUSDT", "side": "Sell", "orderType": "Market", "qty": "309641", "timeInForce": "IOC"}.
+2025-10-07 19:20:25 | INFO | Setting leverage for 1000000CHEEMSUSDT to 1x
+2025-10-07 19:20:25 | INFO | ✅ Leverage set to 1x for 1000000CHEEMSUSDT
+2025-10-07 19:20:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000CHEEMSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3364', 'timeInForce': 'IOC'}
+2025-10-07 19:20:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:336400000000 > max_qty:274000000000 (ErrCode: 10001) (ErrTime: 15:20:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "side": "Sell", "orderType": "Market", "qty": "3364", "timeInForce": "IOC"}.
+2025-10-07 19:20:28 | INFO | Setting leverage for 10000QUBICUSDT to 1x
+2025-10-07 19:20:28 | INFO | ✅ Leverage set to 1x for 10000QUBICUSDT
+2025-10-07 19:20:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000QUBICUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '218650', 'timeInForce': 'IOC'}
+2025-10-07 19:20:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:21865000000000 > max_qty:15600000000000 (ErrCode: 10001) (ErrTime: 15:20:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000QUBICUSDT", "side": "Sell", "orderType": "Market", "qty": "218650", "timeInForce": "IOC"}.
+2025-10-07 19:20:30 | INFO | Setting leverage for AIUSDT to 1x
+2025-10-07 19:20:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '31806.9', 'timeInForce': 'IOC'}
+2025-10-07 19:20:30 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3180690000000 > max_qty:2976000000000 (ErrCode: 10001) (ErrTime: 15:20:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AIUSDT", "side": "Sell", "orderType": "Market", "qty": "31806.9", "timeInForce": "IOC"}.
+2025-10-07 19:20:32 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-07 19:20:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1954', 'timeInForce': 'IOC'}
+2025-10-07 19:20:33 | INFO | ✅ Perpetual order placed: 624ab2d8-444d-4c33-b3a2-e2c072d9d0d0
+2025-10-07 19:20:33 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 2.156305
+2025-10-07 19:20:33 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:33 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.988825
+2025-10-07 19:20:33 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:35 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.020796 from $2.0796
+2025-10-07 19:20:35 | INFO | ✅ Trailing stop set: 1.0% ($0.020796)
+2025-10-07 19:20:37 | INFO | Setting leverage for DOODUSDT to 1x
+2025-10-07 19:20:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOODUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOODUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '319260', 'timeInForce': 'IOC'}
+2025-10-07 19:20:37 | INFO | ✅ Perpetual order placed: 7f15ce6b-e646-464f-8e52-206c11eae7f0
+2025-10-07 19:20:38 | INFO | Setting stop loss via trading stop: DOODUSDT @ 0.01253716
+2025-10-07 19:20:38 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:38 | INFO | Setting take profit via trading stop: DOODUSDT @ 0.0115634
+2025-10-07 19:20:38 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:40 | INFO | Setting trailing stop: DOODUSDT @ 1.0% = $0.000121 from $0.012128
+2025-10-07 19:20:40 | INFO | ✅ Trailing stop set: 1.0% ($0.000121)
+2025-10-07 19:20:42 | INFO | Setting leverage for CAKEUSDT to 1x
+2025-10-07 19:20:42 | INFO | ✅ Leverage set to 1x for CAKEUSDT
+2025-10-07 19:20:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CAKEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '888.6', 'timeInForce': 'IOC'}
+2025-10-07 19:20:42 | INFO | ✅ Perpetual order placed: bcf3f471-3cf0-4888-99ab-9f86d45b9817
+2025-10-07 19:20:43 | INFO | Setting stop loss via trading stop: CAKEUSDT @ 4.27965
+2025-10-07 19:20:43 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:43 | INFO | Setting take profit via trading stop: CAKEUSDT @ 3.94725
+2025-10-07 19:20:43 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:45 | INFO | Setting trailing stop: CAKEUSDT @ 1.0% = $0.041810 from $4.181
+2025-10-07 19:20:45 | INFO | ✅ Trailing stop set: 1.0% ($0.041810)
+2025-10-07 19:20:46 | INFO | Setting leverage for ALCHUSDT to 1x
+2025-10-07 19:20:46 | INFO | ✅ Leverage set to 1x for ALCHUSDT
+2025-10-07 19:20:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '49221', 'timeInForce': 'IOC'}
+2025-10-07 19:20:47 | INFO | ✅ Perpetual order placed: 0187e8b6-80e5-4823-ad88-3c046e317923
+2025-10-07 19:20:47 | INFO | Setting stop loss via trading stop: ALCHUSDT @ 0.06912220000000001
+2025-10-07 19:20:47 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:48 | INFO | Setting take profit via trading stop: ALCHUSDT @ 0.074823
+2025-10-07 19:20:48 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:49 | INFO | Setting trailing stop: ALCHUSDT @ 1.0% = $0.000713 from $0.07133
+2025-10-07 19:20:50 | INFO | ✅ Trailing stop set: 1.0% ($0.000713)
+2025-10-07 19:20:51 | INFO | Setting leverage for AIAUSDT to 1x
+2025-10-07 19:20:52 | INFO | ✅ Leverage set to 1x for AIAUSDT
+2025-10-07 19:20:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1354', 'timeInForce': 'IOC'}
+2025-10-07 19:20:52 | INFO | ✅ Perpetual order placed: 0d098251-6786-4dde-a03c-c8baf98eefe4
+2025-10-07 19:20:52 | INFO | Setting stop loss via trading stop: AIAUSDT @ 2.386685
+2025-10-07 19:20:52 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:53 | INFO | Setting take profit via trading stop: AIAUSDT @ 2.5835250000000003
+2025-10-07 19:20:53 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:54 | INFO | Setting trailing stop: AIAUSDT @ 1.0% = $0.024534 from $2.4534
+2025-10-07 19:20:54 | INFO | ✅ Trailing stop set: 1.0% ($0.024534)
+2025-10-07 19:20:56 | INFO | Setting leverage for CRVUSDT to 1x
+2025-10-07 19:20:56 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:20:56).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CRVUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:20:56 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CRVUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4094.0', 'timeInForce': 'IOC'}
+2025-10-07 19:20:57 | INFO | ✅ Perpetual order placed: e15a9e51-5ad3-4755-a709-ecad6d48d390
+2025-10-07 19:20:57 | INFO | Setting stop loss via trading stop: CRVUSDT @ 0.796499
+2025-10-07 19:20:57 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:20:57 | INFO | Setting take profit via trading stop: CRVUSDT @ 0.7346349999999999
+2025-10-07 19:20:57 | INFO | ✅ Take profit set via position management
+2025-10-07 19:20:59 | INFO | Setting trailing stop: CRVUSDT @ 1.0% = $0.007731 from $0.7731
+2025-10-07 19:20:59 | INFO | ✅ Trailing stop set: 1.0% ($0.007731)
+2025-10-07 19:21:01 | INFO | Setting leverage for FUELUSDT to 1x
+2025-10-07 19:21:01 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:21:01).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FUELUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 19:21:01 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FUELUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '608120', 'timeInForce': 'IOC'}
+2025-10-07 19:21:01 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:60812000000000 > max_qty:29000000000000 (ErrCode: 10001) (ErrTime: 15:21:01).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FUELUSDT", "side": "Sell", "orderType": "Market", "qty": "608120", "timeInForce": "IOC"}.
+2025-10-07 19:21:03 | INFO | Setting leverage for JELLYJELLYUSDT to 1x
+2025-10-07 19:21:03 | INFO | ✅ Leverage set to 1x for JELLYJELLYUSDT
+2025-10-07 19:21:03 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JELLYJELLYUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '38425', 'timeInForce': 'IOC'}
+2025-10-07 19:21:04 | INFO | ✅ Perpetual order placed: 2059517d-a54e-439e-a1da-ce4e8fb2fd37
+2025-10-07 19:21:04 | INFO | Setting stop loss via trading stop: JELLYJELLYUSDT @ 0.07592869
+2025-10-07 19:21:04 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:21:04 | INFO | Setting take profit via trading stop: JELLYJELLYUSDT @ 0.08219085000000001
+2025-10-07 19:21:04 | INFO | ✅ Take profit set via position management
+2025-10-07 19:21:06 | INFO | Setting trailing stop: JELLYJELLYUSDT @ 1.0% = $0.000782 from $0.078175
+2025-10-07 19:21:06 | INFO | ✅ Trailing stop set: 1.0% ($0.000782)
+2025-10-07 19:21:07 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 19:21:07 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 19:21:07 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 19:21:07 | INFO | 🎉 SESSION COMPLETED in 228.4s
+2025-10-07 19:21:07 | INFO | ============================================================
