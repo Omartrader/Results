@@ -101111,3 +101111,63 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.10.2025 06:46:26
+***************************************************************
+Number of open positions: 2
+Function started at 07.10.2025 07:01:05
+	POLUSDT 	Signal: B
+POLUSDT 	Latest Close: (0.2486) 	SMA(14) : 0.24 	Delta :  	Previous STC : 20.82 	STC : 28.91
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (8.338) 	SMA(14) : 8.22 	Delta :  	Previous STC : 21.80 	STC : 29.66
+	ZECUSDT 	Signal: S
+ZECUSDT 	Latest Close: (152.03) 	SMA(14) : 159.02 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ZECUSDT    | S |  66.67
+1
+Last close price for ZECUSDT: 152.03
+Opening Sell for  ZECUSDT
+TP: 150.5097
+SL: 155.0706
+TS: 1.5203
+Order Quantity: 131.55
+Adjusted qty: 131.55
+Final Adjusted qty: 131.55
+100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '7d9ded5e-7819-4eed-baff-ac429d1e7355', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759806085065}
+7d9ded5e-7819-4eed-baff-ac429d1e7355
+fetching trade data for :  7d9ded5e-7819-4eed-baff-ac429d1e7355
+[{'symbol': 'ZECUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '7d9ded5e-7819-4eed-baff-ac429d1e7355', 'stopOrderType': 'UNKNOWN', 'execTime': '1759806085064', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '152.03', 'execPrice': '152.02', 'markIv': '', 'orderQty': '100', 'orderPrice': '136.83', 'execValue': '15202', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612584764409, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.3611', 'execId': 'e482c870-7d64-4fc8-8db7-2ae51ff89d60', 'marketUnit': '', 'execQty': '100', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | B |  29.66
+1
+Last close price for UNIUSDT: 8.342
+Opening Buy for  UNIUSDT
+TP: 8.42542
+SL: 8.17516
+TS: 0.08342000000000001
+Order Quantity: 2397.51
+Adjusted qty: 2397.5
+Final Adjusted qty: 2397.5
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    | B |  28.91
+1
+Last close price for POLUSDT: 0.2486
+Opening Buy for  POLUSDT
+TP: 0.251086
+SL: 0.24362799999999998
+TS: 0.002486
+Order Quantity: 80450.52
+Adjusted qty: 80451.0
+Final Adjusted qty: 80450.0
+500000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 07.10.2025 07:01:37
