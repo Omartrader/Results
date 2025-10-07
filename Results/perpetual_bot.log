@@ -1857,3 +1857,112 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-07 18:49:44 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-07 18:49:44 | INFO | 🎉 SESSION COMPLETED in 195.8s
 2025-10-07 18:49:44 | INFO | ============================================================
+2025-10-07 19:01:34 | INFO | ================================================================================
+2025-10-07 19:01:34 | INFO | NEW PERPETUAL SESSION: 2025-10-07 19:01:34
+2025-10-07 19:01:34 | INFO | ================================================================================
+2025-10-07 19:01:34 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-07 19:01:34 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-07 19:01:34 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED
+2025-10-07 19:01:34 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 19:01:35 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 19:01:35 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 19:01:49 | INFO | 🎯 OPPORTUNITY: AIUSDT - SELL (52.9%)
+2025-10-07 19:01:50 | INFO | 🎯 OPPORTUNITY: AKEUSDT - BUY (45.0%)
+2025-10-07 19:01:58 | INFO | 🎯 OPPORTUNITY: ASTERUSDT - SELL (50.0%)
+2025-10-07 19:02:02 | INFO | 🎯 OPPORTUNITY: AVLUSDT - SELL (45.0%)
+2025-10-07 19:02:27 | INFO | 🎯 OPPORTUNITY: CRVUSDT - SELL (50.0%)
+2025-10-07 19:02:35 | INFO | 🎯 OPPORTUNITY: DOODUSDT - SELL (47.5%)
+2025-10-07 19:02:41 | INFO | 🎯 OPPORTUNITY: EPTUSDT - BUY (66.1%)
+2025-10-07 19:02:52 | INFO | 🎯 OPPORTUNITY: FUELUSDT - SELL (50.0%)
+2025-10-07 19:03:27 | INFO | 🎯 OPPORTUNITY: MERLUSDT - BUY (51.9%)
+2025-10-07 19:03:53 | INFO | 🎯 OPPORTUNITY: PUMPFUNUSDT - SELL (50.0%)
+2025-10-07 19:04:09 | INFO | Setting leverage for EPTUSDT to 1x
+2025-10-07 19:04:10 | INFO | ✅ Leverage set to 1x for EPTUSDT
+2025-10-07 19:04:10 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EPTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '752730', 'timeInForce': 'IOC'}
+2025-10-07 19:04:10 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:75273000000000 > max_qty:44000000000000 (ErrCode: 10001) (ErrTime: 15:04:10).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EPTUSDT", "side": "Buy", "orderType": "Market", "qty": "752730", "timeInForce": "IOC"}.
+2025-10-07 19:04:11 | INFO | Setting leverage for AIUSDT to 1x
+2025-10-07 19:04:12 | INFO | ✅ Leverage set to 1x for AIUSDT
+2025-10-07 19:04:12 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '39416.3', 'timeInForce': 'IOC'}
+2025-10-07 19:04:12 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3941630000000 > max_qty:2976000000000 (ErrCode: 10001) (ErrTime: 15:04:12).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AIUSDT", "side": "Sell", "orderType": "Market", "qty": "39416.3", "timeInForce": "IOC"}.
+2025-10-07 19:04:13 | INFO | Setting leverage for MERLUSDT to 1x
+2025-10-07 19:04:13 | INFO | ✅ Leverage set to 1x for MERLUSDT
+2025-10-07 19:04:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MERLUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '13776.9', 'timeInForce': 'IOC'}
+2025-10-07 19:04:14 | INFO | ✅ Perpetual order placed: ebb7b3aa-f38e-49f8-a3e9-822d962772a3
+2025-10-07 19:04:14 | INFO | Setting stop loss via trading stop: MERLUSDT @ 0.3532837
+2025-10-07 19:04:14 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:14 | INFO | Setting take profit via trading stop: MERLUSDT @ 0.3824205
+2025-10-07 19:04:14 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:16 | INFO | Setting trailing stop: MERLUSDT @ 1.0% = $0.003650 from $0.36501
+2025-10-07 19:04:16 | INFO | ✅ Trailing stop set: 1.0% ($0.003650)
+2025-10-07 19:04:18 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-07 19:04:18 | INFO | ✅ Leverage set to 1x for ASTERUSDT
+2025-10-07 19:04:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '2294', 'timeInForce': 'IOC'}
+2025-10-07 19:04:18 | INFO | ✅ Perpetual order placed: fce93f9a-9387-411b-a17b-03d2e5a7d97e
+2025-10-07 19:04:18 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 2.140031
+2025-10-07 19:04:18 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:19 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.973815
+2025-10-07 19:04:19 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:20 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.020748 from $2.0748
+2025-10-07 19:04:20 | INFO | ✅ Trailing stop set: 1.0% ($0.020748)
+2025-10-07 19:04:22 | INFO | Setting leverage for CRVUSDT to 1x
+2025-10-07 19:04:22 | INFO | ✅ Leverage set to 1x for CRVUSDT
+2025-10-07 19:04:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CRVUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5839.3', 'timeInForce': 'IOC'}
+2025-10-07 19:04:22 | INFO | ✅ Perpetual order placed: c554bb8a-8429-41b6-8014-980e80bb2331
+2025-10-07 19:04:22 | INFO | Setting stop loss via trading stop: CRVUSDT @ 0.798868
+2025-10-07 19:04:22 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:23 | INFO | Setting take profit via trading stop: CRVUSDT @ 0.7368199999999999
+2025-10-07 19:04:23 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:24 | INFO | Setting trailing stop: CRVUSDT @ 1.0% = $0.007746 from $0.7746
+2025-10-07 19:04:25 | INFO | ✅ Trailing stop set: 1.0% ($0.007746)
+2025-10-07 19:04:26 | INFO | Setting leverage for FUELUSDT to 1x
+2025-10-07 19:04:26 | INFO | ✅ Leverage set to 1x for FUELUSDT
+2025-10-07 19:04:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FUELUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '865400', 'timeInForce': 'IOC'}
+2025-10-07 19:04:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:86540000000000 > max_qty:29000000000000 (ErrCode: 10001) (ErrTime: 15:04:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FUELUSDT", "side": "Sell", "orderType": "Market", "qty": "865400", "timeInForce": "IOC"}.
+2025-10-07 19:04:28 | INFO | Setting leverage for PUMPFUNUSDT to 1x
+2025-10-07 19:04:28 | INFO | ✅ Leverage set to 1x for PUMPFUNUSDT
+2025-10-07 19:04:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PUMPFUNUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '679800', 'timeInForce': 'IOC'}
+2025-10-07 19:04:28 | INFO | ✅ Perpetual order placed: a7333baa-c3a8-4f99-a817-2be03c13f6b2
+2025-10-07 19:04:29 | INFO | Setting stop loss via trading stop: PUMPFUNUSDT @ 0.00651887
+2025-10-07 19:04:29 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:29 | INFO | Setting take profit via trading stop: PUMPFUNUSDT @ 0.00601255
+2025-10-07 19:04:29 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:30 | INFO | Setting trailing stop: PUMPFUNUSDT @ 1.0% = $0.000063 from $0.006322
+2025-10-07 19:04:31 | INFO | ✅ Trailing stop set: 1.0% ($0.000063)
+2025-10-07 19:04:32 | INFO | Setting leverage for DOODUSDT to 1x
+2025-10-07 19:04:32 | INFO | ✅ Leverage set to 1x for DOODUSDT
+2025-10-07 19:04:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOODUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '338430', 'timeInForce': 'IOC'}
+2025-10-07 19:04:32 | INFO | ✅ Perpetual order placed: b522d452-c13c-494e-aeb6-56a99a0faa23
+2025-10-07 19:04:33 | INFO | Setting stop loss via trading stop: DOODUSDT @ 0.01244137
+2025-10-07 19:04:33 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:33 | INFO | Setting take profit via trading stop: DOODUSDT @ 0.011475049999999999
+2025-10-07 19:04:33 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:34 | INFO | Setting trailing stop: DOODUSDT @ 1.0% = $0.000121 from $0.012084
+2025-10-07 19:04:35 | INFO | ✅ Trailing stop set: 1.0% ($0.000121)
+2025-10-07 19:04:36 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-07 19:04:36 | INFO | ✅ Leverage set to 1x for AKEUSDT
+2025-10-07 19:04:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2538300', 'timeInForce': 'IOC'}
+2025-10-07 19:04:37 | INFO | ✅ Perpetual order placed: 28955a26-1a6a-4cf7-a9c9-d055d656e875
+2025-10-07 19:04:37 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.0014841
+2025-10-07 19:04:37 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:37 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.0016064999999999999
+2025-10-07 19:04:37 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:39 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001526
+2025-10-07 19:04:39 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-07 19:04:40 | INFO | Setting leverage for AVLUSDT to 1x
+2025-10-07 19:04:40 | INFO | ✅ Leverage set to 1x for AVLUSDT
+2025-10-07 19:04:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '14340', 'timeInForce': 'IOC'}
+2025-10-07 19:04:41 | INFO | ✅ Perpetual order placed: 5b1c8361-05ca-4fc3-837f-57683409ab87
+2025-10-07 19:04:41 | INFO | Setting stop loss via trading stop: AVLUSDT @ 0.265019
+2025-10-07 19:04:41 | INFO | ✅ Stop loss set via position management
+2025-10-07 19:04:41 | INFO | Setting take profit via trading stop: AVLUSDT @ 0.24443499999999996
+2025-10-07 19:04:41 | INFO | ✅ Take profit set via position management
+2025-10-07 19:04:43 | INFO | Setting trailing stop: AVLUSDT @ 1.0% = $0.002559 from $0.2559
+2025-10-07 19:04:43 | INFO | ✅ Trailing stop set: 1.0% ($0.002559)
+2025-10-07 19:04:44 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 19:04:44 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 19:04:44 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 19:04:44 | INFO | 🎉 SESSION COMPLETED in 189.9s
+2025-10-07 19:04:44 | INFO | ============================================================
