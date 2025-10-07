@@ -102026,3 +102026,33 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.10.2025 19:01:33
+***************************************************************
+Number of open positions: 0
+Function started at 07.10.2025 19:16:46
+	NEARUSDT 	Signal: S
+NEARUSDT 	Latest Close: (2.955) 	SMA(14) : 3.00 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta :  	Previous STC : 97.88 	STC : 88.60
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+NEARUSDT   | S |  66.67
+1
+Last close price for NEARUSDT: 2.957
+Opening Sell for  NEARUSDT
+TP: 2.9274299999999998
+SL: 3.01614
+TS: 0.02957
+Order Quantity: 6763.61
+Adjusted qty: 6763.6
+Final Adjusted qty: 6763.6
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'decdf21d-69d0-4e12-ab2f-b3fbd860cf7e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759850228847}
+decdf21d-69d0-4e12-ab2f-b3fbd860cf7e
+fetching trade data for :  decdf21d-69d0-4e12-ab2f-b3fbd860cf7e
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'decdf21d-69d0-4e12-ab2f-b3fbd860cf7e', 'stopOrderType': 'UNKNOWN', 'execTime': '1759850228845', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.957', 'execPrice': '2.958', 'markIv': '', 'orderQty': '6763.6', 'orderPrice': '2.81', 'execValue': '20006.7288', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612586059269, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00370084', 'execId': '7980ace9-eb6b-4b76-96b6-3fb9db24e5fd', 'marketUnit': '', 'execQty': '6763.6', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 07.10.2025 19:17:18
