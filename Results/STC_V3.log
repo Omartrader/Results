@@ -102411,3 +102411,63 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.10.2025 21:46:07
+***************************************************************
+Number of open positions: 2
+Function started at 07.10.2025 22:01:00
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (2.7774) 	SMA(14) : 2.82 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (7.542) 	SMA(14) : 7.82 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4471.72) 	SMA(14) : 4592.34 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | S |  66.67
+1
+Last close price for TRUMPUSDT: 7.54
+Opening Sell for  TRUMPUSDT
+TP: 7.4646
+SL: 7.6908
+TS: 0.0754
+Order Quantity: 2652.52
+Adjusted qty: 2652.5
+Final Adjusted qty: 2652.5
+8000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TONUSDT    | S |  66.67
+1
+Last close price for TONUSDT: 2.7775
+Opening Sell for  TONUSDT
+TP: 2.7497249999999998
+SL: 2.83305
+TS: 0.027774999999999998
+Order Quantity: 7200.72
+Adjusted qty: 7200.700000000001
+Final Adjusted qty: 7200.7
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+ETHUSDT    | S |  66.67
+1
+Last close price for ETHUSDT: 4470.13
+Opening Sell for  ETHUSDT
+TP: 4425.4287
+SL: 4559.5326000000005
+TS: 44.7013
+Order Quantity: 4.47
+Adjusted qty: 4.47
+Final Adjusted qty: 4.47
+724.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0d050aec-41b3-449c-aeb2-1662eba416cb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759860082953}
+0d050aec-41b3-449c-aeb2-1662eba416cb
+fetching trade data for :  0d050aec-41b3-449c-aeb2-1662eba416cb
+[{'symbol': 'ETHUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '0d050aec-41b3-449c-aeb2-1662eba416cb', 'stopOrderType': 'UNKNOWN', 'execTime': '1759860082952', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '4470.45', 'execPrice': '4469.56', 'markIv': '', 'orderQty': '4.47', 'orderPrice': '4381.05', 'execValue': '19978.9332', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612586362644, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.98841326', 'execId': 'cf122143-f48c-4c5b-99e5-7e3f4010a73b', 'marketUnit': '', 'execQty': '4.47', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 07.10.2025 22:01:31
