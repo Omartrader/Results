@@ -101468,3 +101468,94 @@ Function started at 07.10.2025 11:45:33
 SYMBOL     |   ΔRSI |    STC
 ----------------------------
 Function finished at 07.10.2025 11:45:44
+***************************************************************
+Number of open positions: 0
+Function started at 07.10.2025 12:01:22
+	ASTERUSDT 	Signal: S
+ASTERUSDT 	Latest Close: (1.9857) 	SMA(14) : 1.99 	Delta :  	Previous STC : 98.02 	STC : 87.90
+	AAVEUSDT 	Signal: B
+AAVEUSDT 	Latest Close: (291.6) 	SMA(14) : 291.53 	Delta :  	Previous STC : 18.44 	STC : 27.62
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (347.06) 	SMA(14) : 331.40 	Delta :  	Previous STC : 22.60 	STC : 32.06
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (123517.2) 	SMA(14) : 123885.24 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ASTERUSDT  | S |  87.90
+1
+Last close price for ASTERUSDT: 1.9827
+Opening Sell for  ASTERUSDT
+TP: 1.9628729999999999
+SL: 2.022354
+TS: 0.019826999999999997
+Order Quantity: 10087.25
+Adjusted qty: 10087.0
+Final Adjusted qty: 10087.0
+25000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '78b22132-ae10-4843-9245-5e5fd60c6382', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759824102109}
+78b22132-ae10-4843-9245-5e5fd60c6382
+fetching trade data for :  78b22132-ae10-4843-9245-5e5fd60c6382
+[{'symbol': 'ASTERUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '78b22132-ae10-4843-9245-5e5fd60c6382', 'stopOrderType': 'UNKNOWN', 'execTime': '1759824102109', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '1.9828', 'execPrice': '1.9825', 'markIv': '', 'orderQty': '10087', 'orderPrice': '1.6854', 'execValue': '19997.4775', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612585281126, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99861263', 'execId': '52d542cc-d00e-4e2f-8e32-c0b78df5b4b6', 'marketUnit': '', 'execQty': '10087', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+BTCUSDT    | S |  66.67
+1
+Last close price for BTCUSDT: 123520.0
+Opening Sell for  BTCUSDT
+TP: 122284.8
+SL: 125990.40000000001
+TS: 1235.2
+Order Quantity: 0.16
+Adjusted qty: 0.16
+Final Adjusted qty: 0.16
+119.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '58cbdc55-08e1-4070-90ad-a53f551251d8', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759824113597}
+58cbdc55-08e1-4070-90ad-a53f551251d8
+fetching trade data for :  58cbdc55-08e1-4070-90ad-a53f551251d8
+[{'symbol': 'BTCUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '58cbdc55-08e1-4070-90ad-a53f551251d8', 'stopOrderType': 'UNKNOWN', 'execTime': '1759824113597', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '123520', 'execPrice': '123520.1', 'markIv': '', 'orderQty': '0.16', 'orderPrice': '122284.8', 'execValue': '19763.216', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612585281470, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.8697688', 'execId': '82ffa7b2-7e4f-4396-a975-5c851798b196', 'marketUnit': '', 'execQty': '0.16', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TAOUSDT    | B |  32.06
+1
+Last close price for TAOUSDT: 347.36
+Opening Buy for  TAOUSDT
+TP: 350.8336
+SL: 340.4128
+TS: 3.4736000000000002
+Order Quantity: 57.58
+Adjusted qty: 57.58
+Final Adjusted qty: 57.58
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '67fd7fa8-f409-4712-a621-cfc1a9ae0213', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759824125058}
+67fd7fa8-f409-4712-a621-cfc1a9ae0213
+fetching trade data for :  67fd7fa8-f409-4712-a621-cfc1a9ae0213
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '67fd7fa8-f409-4712-a621-cfc1a9ae0213', 'stopOrderType': 'UNKNOWN', 'execTime': '1759824125058', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '347.39', 'execPrice': '347.36', 'markIv': '', 'orderQty': '57.58', 'orderPrice': '399.49', 'execValue': '20000.9888', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612585281797, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00054384', 'execId': '1038cfc9-75cc-4805-be3f-8b022833ece7', 'marketUnit': '', 'execQty': '57.58', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+AAVEUSDT   | B |  27.62
+1
+Last close price for AAVEUSDT: 291.51
+Opening Buy for  AAVEUSDT
+TP: 294.4251
+SL: 285.6798
+TS: 2.9151
+Order Quantity: 68.61
+Adjusted qty: 68.61
+Final Adjusted qty: 68.61
+2514.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '38364e42-99f4-4c17-8225-57ad383b09ef', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759824137099}
+38364e42-99f4-4c17-8225-57ad383b09ef
+fetching trade data for :  38364e42-99f4-4c17-8225-57ad383b09ef
+[{'symbol': 'AAVEUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '38364e42-99f4-4c17-8225-57ad383b09ef', 'stopOrderType': 'UNKNOWN', 'execTime': '1759824137099', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '291.55', 'execPrice': '291.51', 'markIv': '', 'orderQty': '68.61', 'orderPrice': '306.12', 'execValue': '20000.5011', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612585282161, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00027561', 'execId': '6d01df65-8642-4cbb-bd5d-0a7ef522b7d0', 'marketUnit': '', 'execQty': '68.61', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 07.10.2025 12:02:26
