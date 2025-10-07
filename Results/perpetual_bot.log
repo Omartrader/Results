@@ -3121,3 +3121,195 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-07 20:50:30 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-07 20:50:30 | INFO | 🎉 SESSION COMPLETED in 213.1s
 2025-10-07 20:50:30 | INFO | ============================================================
+2025-10-07 21:01:49 | INFO | ================================================================================
+2025-10-07 21:01:49 | INFO | NEW PERPETUAL SESSION: 2025-10-07 21:01:49
+2025-10-07 21:01:49 | INFO | ================================================================================
+2025-10-07 21:01:49 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-07 21:01:49 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-07 21:01:49 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED
+2025-10-07 21:01:49 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 21:01:51 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 21:01:51 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 21:01:51 | INFO | 🎯 OPPORTUNITY: 0GUSDT - BUY (52.5%)
+2025-10-07 21:01:55 | INFO | 🎯 OPPORTUNITY: 1000CATUSDT - BUY (50.0%)
+2025-10-07 21:02:05 | INFO | 🎯 OPPORTUNITY: AINUSDT - BUY (50.0%)
+2025-10-07 21:02:07 | INFO | 🎯 OPPORTUNITY: AKTUSDT - BUY (50.0%)
+2025-10-07 21:02:09 | INFO | 🎯 OPPORTUNITY: ALUUSDT - BUY (45.8%)
+2025-10-07 21:02:15 | INFO | 🎯 OPPORTUNITY: ASTRUSDT - SELL (46.6%)
+2025-10-07 21:02:21 | INFO | 🎯 OPPORTUNITY: BABYUSDT - BUY (50.0%)
+2025-10-07 21:02:23 | INFO | 🎯 OPPORTUNITY: BANUSDT - BUY (45.0%)
+2025-10-07 21:02:31 | INFO | 🎯 OPPORTUNITY: BSUUSDT - BUY (50.0%)
+2025-10-07 21:02:48 | INFO | 🎯 OPPORTUNITY: DAMUSDT - BUY (50.0%)
+2025-10-07 21:02:48 | INFO | 🎯 OPPORTUNITY: DASHUSDT - BUY (50.0%)
+2025-10-07 21:02:51 | INFO | 🎯 OPPORTUNITY: DMCUSDT - BUY (50.0%)
+2025-10-07 21:02:55 | INFO | 🎯 OPPORTUNITY: EDUUSDT - BUY (50.0%)
+2025-10-07 21:02:58 | INFO | 🎯 OPPORTUNITY: EPICUSDT - BUY (50.0%)
+2025-10-07 21:03:01 | INFO | 🎯 OPPORTUNITY: ETHFIUSDT - BUY (50.0%)
+2025-10-07 21:03:09 | INFO | 🎯 OPPORTUNITY: FORMUSDT - BUY (62.7%)
+2025-10-07 21:03:11 | INFO | 🎯 OPPORTUNITY: FWOGUSDT - BUY (50.0%)
+2025-10-07 21:03:14 | INFO | 🎯 OPPORTUNITY: GMXUSDT - BUY (50.0%)
+2025-10-07 21:03:19 | INFO | 🎯 OPPORTUNITY: HIFIUSDT - BUY (50.0%)
+2025-10-07 21:03:24 | INFO | 🎯 OPPORTUNITY: HYPEUSDT - BUY (45.0%)
+2025-10-07 21:03:30 | INFO | 🎯 OPPORTUNITY: JELLYJELLYUSDT - SELL (53.2%)
+2025-10-07 21:03:32 | INFO | 🎯 OPPORTUNITY: KAITOUSDT - BUY (50.0%)
+2025-10-07 21:03:32 | INFO | 🎯 OPPORTUNITY: KASUSDT - BUY (50.0%)
+2025-10-07 21:03:34 | INFO | 🎯 OPPORTUNITY: KMNOUSDT - BUY (50.0%)
+2025-10-07 21:03:37 | INFO | 🎯 OPPORTUNITY: LIGHTUSDT - BUY (50.2%)
+2025-10-07 21:03:44 | INFO | 🎯 OPPORTUNITY: MBOXUSDT - BUY (50.0%)
+2025-10-07 21:03:54 | INFO | 🎯 OPPORTUNITY: NILUSDT - BUY (50.0%)
+2025-10-07 21:03:57 | INFO | 🎯 OPPORTUNITY: NXPCUSDT - BUY (50.0%)
+2025-10-07 21:04:02 | INFO | 🎯 OPPORTUNITY: OPENUSDT - BUY (50.0%)
+2025-10-07 21:04:05 | INFO | 🎯 OPPORTUNITY: PAXGUSDT - BUY (45.0%)
+2025-10-07 21:04:06 | INFO | 🎯 OPPORTUNITY: PERPUSDT - BUY (50.0%)
+2025-10-07 21:04:08 | INFO | 🎯 OPPORTUNITY: PLUMEUSDT - BUY (50.2%)
+2025-10-07 21:04:11 | INFO | 🎯 OPPORTUNITY: PROMUSDT - SELL (50.0%)
+2025-10-07 21:04:11 | INFO | 🎯 OPPORTUNITY: PTBUSDT - BUY (45.0%)
+2025-10-07 21:04:14 | INFO | 🎯 OPPORTUNITY: QNTUSDT - BUY (50.0%)
+2025-10-07 21:04:17 | INFO | 🎯 OPPORTUNITY: REQUSDT - BUY (50.0%)
+2025-10-07 21:04:24 | INFO | 🎯 OPPORTUNITY: SAROSUSDT - BUY (45.0%)
+2025-10-07 21:04:28 | INFO | Setting leverage for FORMUSDT to 1x
+2025-10-07 21:04:28 | INFO | ✅ Leverage set to 1x for FORMUSDT
+2025-10-07 21:04:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FORMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3991', 'timeInForce': 'IOC'}
+2025-10-07 21:04:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:399100000000 > max_qty:285000000000 (ErrCode: 10001) (ErrTime: 17:04:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FORMUSDT", "side": "Buy", "orderType": "Market", "qty": "3991", "timeInForce": "IOC"}.
+2025-10-07 21:04:30 | INFO | Setting leverage for JELLYJELLYUSDT to 1x
+2025-10-07 21:04:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:04:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "JELLYJELLYUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 21:04:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JELLYJELLYUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '64917', 'timeInForce': 'IOC'}
+2025-10-07 21:04:31 | INFO | ✅ Perpetual order placed: a4ea6ac0-3794-4318-90c4-4028d8633972
+2025-10-07 21:04:31 | INFO | Setting stop loss via trading stop: JELLYJELLYUSDT @ 0.07932133
+2025-10-07 21:04:31 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:04:31 | INFO | Setting take profit via trading stop: JELLYJELLYUSDT @ 0.07624088999999999
+2025-10-07 21:04:31 | INFO | ✅ Take profit set via position management
+2025-10-07 21:04:33 | INFO | Setting trailing stop: JELLYJELLYUSDT @ 1.0% = $0.000767 from $0.076672
+2025-10-07 21:04:33 | INFO | ✅ Trailing stop set: 1.0% ($0.000767)
+2025-10-07 21:04:34 | INFO | Setting leverage for 0GUSDT to 1x
+2025-10-07 21:04:35 | INFO | ✅ Leverage set to 1x for 0GUSDT
+2025-10-07 21:04:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '0GUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1613.8', 'timeInForce': 'IOC'}
+2025-10-07 21:04:35 | INFO | ✅ Perpetual order placed: 32911447-b7a9-4588-83c9-38aca2b4c7f3
+2025-10-07 21:04:35 | INFO | Setting stop loss via trading stop: 0GUSDT @ 2.854904
+2025-10-07 21:04:35 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:04:35 | INFO | Setting take profit via trading stop: 0GUSDT @ 2.972632
+2025-10-07 21:04:35 | INFO | ✅ Take profit set via position management
+2025-10-07 21:04:37 | INFO | Setting trailing stop: 0GUSDT @ 1.0% = $0.029327 from $2.9327
+2025-10-07 21:04:37 | INFO | ✅ Trailing stop set: 1.0% ($0.029327)
+2025-10-07 21:04:39 | INFO | Setting leverage for LIGHTUSDT to 1x
+2025-10-07 21:04:39 | INFO | ✅ Leverage set to 1x for LIGHTUSDT
+2025-10-07 21:04:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LIGHTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5280', 'timeInForce': 'IOC'}
+2025-10-07 21:04:39 | INFO | ✅ Perpetual order placed: baee028c-b42c-4550-b3a3-37a4753ae0af
+2025-10-07 21:04:40 | INFO | Setting stop loss via trading stop: LIGHTUSDT @ 0.828962
+2025-10-07 21:04:40 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:04:40 | INFO | Setting take profit via trading stop: LIGHTUSDT @ 0.8631460000000001
+2025-10-07 21:04:40 | INFO | ✅ Take profit set via position management
+2025-10-07 21:04:42 | INFO | Setting trailing stop: LIGHTUSDT @ 1.0% = $0.008545 from $0.8545
+2025-10-07 21:04:42 | INFO | ✅ Trailing stop set: 1.0% ($0.008545)
+2025-10-07 21:04:43 | INFO | Setting leverage for PLUMEUSDT to 1x
+2025-10-07 21:04:43 | INFO | ✅ Leverage set to 1x for PLUMEUSDT
+2025-10-07 21:04:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PLUMEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '39824', 'timeInForce': 'IOC'}
+2025-10-07 21:04:44 | INFO | ✅ Perpetual order placed: e921e392-b3c8-41ec-9d09-23011562625b
+2025-10-07 21:04:44 | INFO | Setting stop loss via trading stop: PLUMEUSDT @ 0.1044205
+2025-10-07 21:04:44 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:04:44 | INFO | Setting take profit via trading stop: PLUMEUSDT @ 0.10872649999999999
+2025-10-07 21:04:44 | INFO | ✅ Take profit set via position management
+2025-10-07 21:04:46 | INFO | Setting trailing stop: PLUMEUSDT @ 1.0% = $0.001075 from $0.10753
+2025-10-07 21:04:46 | INFO | ✅ Trailing stop set: 1.0% ($0.001075)
+2025-10-07 21:04:47 | INFO | Setting leverage for 1000CATUSDT to 1x
+2025-10-07 21:04:48 | INFO | ✅ Leverage set to 1x for 1000CATUSDT
+2025-10-07 21:04:48 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000CATUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '479951', 'timeInForce': 'IOC'}
+2025-10-07 21:04:48 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:47995100000000 > max_qty:39000000000000 (ErrCode: 10001) (ErrTime: 17:04:48).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000CATUSDT", "side": "Buy", "orderType": "Market", "qty": "479951", "timeInForce": "IOC"}.
+2025-10-07 21:04:49 | INFO | Setting leverage for AINUSDT to 1x
+2025-10-07 21:04:49 | INFO | ✅ Leverage set to 1x for AINUSDT
+2025-10-07 21:04:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '26200', 'timeInForce': 'IOC'}
+2025-10-07 21:04:50 | INFO | ✅ Perpetual order placed: f2f3685f-8b6f-478e-980d-f2727ccd4efb
+2025-10-07 21:04:50 | INFO | Setting stop loss via trading stop: AINUSDT @ 0.1507865
+2025-10-07 21:04:50 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:04:51 | INFO | Setting take profit via trading stop: AINUSDT @ 0.15700450000000002
+2025-10-07 21:04:51 | INFO | ✅ Take profit set via position management
+2025-10-07 21:04:52 | INFO | Setting trailing stop: AINUSDT @ 1.0% = $0.001551 from $0.1551
+2025-10-07 21:04:52 | INFO | ✅ Trailing stop set: 1.0% ($0.001551)
+2025-10-07 21:04:54 | INFO | Setting leverage for AKTUSDT to 1x
+2025-10-07 21:04:54 | INFO | ✅ Leverage set to 1x for AKTUSDT
+2025-10-07 21:04:54 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3717.0', 'timeInForce': 'IOC'}
+2025-10-07 21:04:54 | INFO | ✅ Perpetual order placed: 073c16cb-7cdf-4b4d-b307-5280fe761095
+2025-10-07 21:04:55 | INFO | Setting stop loss via trading stop: AKTUSDT @ 1.0097699999999998
+2025-10-07 21:04:55 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:04:55 | INFO | Setting take profit via trading stop: AKTUSDT @ 1.05141
+2025-10-07 21:04:55 | INFO | ✅ Take profit set via position management
+2025-10-07 21:04:57 | INFO | Setting trailing stop: AKTUSDT @ 1.0% = $0.010390 from $1.039
+2025-10-07 21:04:57 | INFO | ✅ Trailing stop set: 1.0% ($0.010390)
+2025-10-07 21:04:59 | INFO | Setting leverage for BABYUSDT to 1x
+2025-10-07 21:04:59 | INFO | ✅ Leverage set to 1x for BABYUSDT
+2025-10-07 21:04:59 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BABYUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '72050', 'timeInForce': 'IOC'}
+2025-10-07 21:04:59 | INFO | ✅ Perpetual order placed: ecc20d4a-c78c-4f23-83ce-b84ac1baa7ba
+2025-10-07 21:04:59 | INFO | Setting stop loss via trading stop: BABYUSDT @ 0.0494894
+2025-10-07 21:04:59 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:00 | INFO | Setting take profit via trading stop: BABYUSDT @ 0.051530200000000005
+2025-10-07 21:05:00 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:01 | INFO | Setting trailing stop: BABYUSDT @ 1.0% = $0.000511 from $0.05107
+2025-10-07 21:05:02 | INFO | ✅ Trailing stop set: 1.0% ($0.000511)
+2025-10-07 21:05:03 | INFO | Setting leverage for BSUUSDT to 1x
+2025-10-07 21:05:03 | INFO | ✅ Leverage set to 1x for BSUUSDT
+2025-10-07 21:05:03 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BSUUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '13388', 'timeInForce': 'IOC'}
+2025-10-07 21:05:03 | INFO | ✅ Perpetual order placed: af26ec88-d749-456f-a5a3-363d1e7eec47
+2025-10-07 21:05:04 | INFO | Setting stop loss via trading stop: BSUUSDT @ 0.2530536
+2025-10-07 21:05:04 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:04 | INFO | Setting take profit via trading stop: BSUUSDT @ 0.2634888
+2025-10-07 21:05:04 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:05 | INFO | Setting trailing stop: BSUUSDT @ 1.0% = $0.002608 from $0.26082
+2025-10-07 21:05:06 | INFO | ✅ Trailing stop set: 1.0% ($0.002608)
+2025-10-07 21:05:07 | INFO | Setting leverage for DAMUSDT to 1x
+2025-10-07 21:05:07 | INFO | ✅ Leverage set to 1x for DAMUSDT
+2025-10-07 21:05:07 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DAMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '48425', 'timeInForce': 'IOC'}
+2025-10-07 21:05:08 | INFO | ✅ Perpetual order placed: b2536d8f-b6ee-4418-ab6f-60d7b8f2f8f5
+2025-10-07 21:05:08 | INFO | Setting stop loss via trading stop: DAMUSDT @ 0.06646439999999999
+2025-10-07 21:05:08 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:08 | INFO | Setting take profit via trading stop: DAMUSDT @ 0.0692052
+2025-10-07 21:05:08 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:10 | INFO | Setting trailing stop: DAMUSDT @ 1.0% = $0.000683 from $0.06831
+2025-10-07 21:05:10 | INFO | ✅ Trailing stop set: 1.0% ($0.000683)
+2025-10-07 21:05:11 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-07 21:05:11 | INFO | ✅ Leverage set to 1x for DASHUSDT
+2025-10-07 21:05:11 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '98.82', 'timeInForce': 'IOC'}
+2025-10-07 21:05:12 | INFO | ✅ Perpetual order placed: 005f5762-9519-4180-8d88-85f6704721f7
+2025-10-07 21:05:12 | INFO | Setting stop loss via trading stop: DASHUSDT @ 30.942999999999998
+2025-10-07 21:05:12 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:12 | INFO | Setting take profit via trading stop: DASHUSDT @ 32.219
+2025-10-07 21:05:12 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:14 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.319000 from $31.9
+2025-10-07 21:05:14 | INFO | ✅ Trailing stop set: 1.0% ($0.319000)
+2025-10-07 21:05:16 | INFO | Setting leverage for DMCUSDT to 1x
+2025-10-07 21:05:16 | INFO | ✅ Leverage set to 1x for DMCUSDT
+2025-10-07 21:05:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DMCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '888800', 'timeInForce': 'IOC'}
+2025-10-07 21:05:16 | INFO | ✅ Perpetual order placed: 59d7d727-3c5f-4fea-a354-81bb9bee8e58
+2025-10-07 21:05:16 | INFO | Setting stop loss via trading stop: DMCUSDT @ 0.003268415
+2025-10-07 21:05:16 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:17 | INFO | Setting take profit via trading stop: DMCUSDT @ 0.003403195
+2025-10-07 21:05:17 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:18 | INFO | Setting trailing stop: DMCUSDT @ 1.0% = $0.000034 from $0.0033691
+2025-10-07 21:05:18 | INFO | ✅ Trailing stop set: 1.0% ($0.000034)
+2025-10-07 21:05:20 | INFO | Setting leverage for EDUUSDT to 1x
+2025-10-07 21:05:20 | INFO | ✅ Leverage set to 1x for EDUUSDT
+2025-10-07 21:05:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EDUUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '18880.5', 'timeInForce': 'IOC'}
+2025-10-07 21:05:20 | INFO | ✅ Perpetual order placed: 710f4368-0f32-485b-92a0-1a6c114b3ee7
+2025-10-07 21:05:20 | INFO | Setting stop loss via trading stop: EDUUSDT @ 0.146179
+2025-10-07 21:05:20 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:21 | INFO | Setting take profit via trading stop: EDUUSDT @ 0.152207
+2025-10-07 21:05:21 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:22 | INFO | Setting trailing stop: EDUUSDT @ 1.0% = $0.001500 from $0.15
+2025-10-07 21:05:23 | INFO | ✅ Trailing stop set: 1.0% ($0.001500)
+2025-10-07 21:05:24 | INFO | Setting leverage for EPICUSDT to 1x
+2025-10-07 21:05:24 | INFO | ✅ Leverage set to 1x for EPICUSDT
+2025-10-07 21:05:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EPICUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1556', 'timeInForce': 'IOC'}
+2025-10-07 21:05:24 | INFO | ✅ Perpetual order placed: 2d907105-17ca-4a04-8d3c-52dc3845e527
+2025-10-07 21:05:25 | INFO | Setting stop loss via trading stop: EPICUSDT @ 1.6856659999999999
+2025-10-07 21:05:25 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:05:25 | INFO | Setting take profit via trading stop: EPICUSDT @ 1.7551780000000001
+2025-10-07 21:05:25 | INFO | ✅ Take profit set via position management
+2025-10-07 21:05:27 | INFO | Setting trailing stop: EPICUSDT @ 1.0% = $0.017295 from $1.7295
+2025-10-07 21:05:27 | INFO | ✅ Trailing stop set: 1.0% ($0.017295)
+2025-10-07 21:05:27 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 21:05:28 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 21:05:28 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 21:05:28 | INFO | 🎉 SESSION COMPLETED in 218.0s
+2025-10-07 21:05:28 | INFO | ============================================================
