@@ -101231,3 +101231,68 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.10.2025 07:16:30
+***************************************************************
+Number of open positions: 1
+Function started at 07.10.2025 07:31:07
+	POLUSDT 	Signal: B
+POLUSDT 	Latest Close: (0.2474) 	SMA(14) : 0.24 	Delta :  	Previous STC : 20.82 	STC : 28.91
+	UNIUSDT 	Signal: B
+UNIUSDT 	Latest Close: (8.318) 	SMA(14) : 8.22 	Delta :  	Previous STC : 21.80 	STC : 29.66
+	ZECUSDT 	Signal: S
+ZECUSDT 	Latest Close: (148.95) 	SMA(14) : 158.80 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ZECUSDT    | S |  66.67
+1
+Last close price for ZECUSDT: 149.07
+Opening Sell for  ZECUSDT
+TP: 147.5793
+SL: 152.0514
+TS: 1.4907
+Order Quantity: 134.17
+Adjusted qty: 134.17000000000002
+Final Adjusted qty: 134.17
+100.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '68e07286-b732-4917-bec9-c603063eb093', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759807886081}
+68e07286-b732-4917-bec9-c603063eb093
+fetching trade data for :  68e07286-b732-4917-bec9-c603063eb093
+[{'symbol': 'ZECUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '68e07286-b732-4917-bec9-c603063eb093', 'stopOrderType': 'UNKNOWN', 'execTime': '1759807886080', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '148.99', 'execPrice': '148.91', 'markIv': '', 'orderQty': '100', 'orderPrice': '134.1', 'execValue': '14891', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612584815601, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '8.19005', 'execId': '1bb8b22a-b228-462d-832b-d31b814bdf43', 'marketUnit': '', 'execQty': '100', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+UNIUSDT    | B |  29.66
+1
+Last close price for UNIUSDT: 8.318
+Opening Buy for  UNIUSDT
+TP: 8.40118
+SL: 8.151639999999999
+TS: 0.08317999999999999
+Order Quantity: 2404.42
+Adjusted qty: 2404.4
+Final Adjusted qty: 2404.4
+17540.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+POLUSDT    | B |  28.91
+1
+Last close price for POLUSDT: 0.2474
+Opening Buy for  POLUSDT
+TP: 0.249874
+SL: 0.242452
+TS: 0.002474
+Order Quantity: 80840.74
+Adjusted qty: 80841.0
+Final Adjusted qty: 80840.0
+500000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '252fdecb-9ceb-450b-9a35-6d5072d18fcb', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759807899179}
+252fdecb-9ceb-450b-9a35-6d5072d18fcb
+fetching trade data for :  252fdecb-9ceb-450b-9a35-6d5072d18fcb
+[{'symbol': 'POLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '252fdecb-9ceb-450b-9a35-6d5072d18fcb', 'stopOrderType': 'UNKNOWN', 'execTime': '1759807899178', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.2475', 'execPrice': '0.2474', 'markIv': '', 'orderQty': '80840', 'orderPrice': '0.2598', 'execValue': '19999.816', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612584815979, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.9998988', 'execId': '9854c027-e16d-4d9f-adf9-fd4349b5a910', 'marketUnit': '', 'execQty': '80840', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 07.10.2025 07:31:49
