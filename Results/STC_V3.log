@@ -101559,3 +101559,63 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 07.10.2025 12:02:26
+***************************************************************
+Number of open positions: 3
+Function started at 07.10.2025 12:16:03
+	ASTERUSDT 	Signal: S
+ASTERUSDT 	Latest Close: (1.979) 	SMA(14) : 1.99 	Delta :  	Previous STC : 98.02 	STC : 87.79
+	TAOUSDT 	Signal: B
+TAOUSDT 	Latest Close: (343.44) 	SMA(14) : 331.14 	Delta :  	Previous STC : 22.60 	STC : 32.06
+	BTCUSDT 	Signal: S
+BTCUSDT 	Latest Close: (123541.8) 	SMA(14) : 123886.99 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+ASTERUSDT  | S |  87.79
+1
+Last close price for ASTERUSDT: 1.9798
+Opening Sell for  ASTERUSDT
+TP: 1.960002
+SL: 2.019396
+TS: 0.019798
+Order Quantity: 10102.03
+Adjusted qty: 10102.0
+Final Adjusted qty: 10102.0
+25000.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+BTCUSDT    | S |  66.67
+1
+Last close price for BTCUSDT: 123541.8
+Opening Sell for  BTCUSDT
+TP: 122306.382
+SL: 126012.636
+TS: 1235.4180000000001
+Order Quantity: 0.16
+Adjusted qty: 0.16
+Final Adjusted qty: 0.16
+119.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+TAOUSDT    | B |  32.06
+1
+Last close price for TAOUSDT: 343.44
+Opening Buy for  TAOUSDT
+TP: 346.8744
+SL: 336.5712
+TS: 3.4344
+Order Quantity: 58.23
+Adjusted qty: 58.230000000000004
+Final Adjusted qty: 58.23
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ba9cf14c-ed94-4b56-b646-f9ba88fab8a5', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759824977239}
+ba9cf14c-ed94-4b56-b646-f9ba88fab8a5
+fetching trade data for :  ba9cf14c-ed94-4b56-b646-f9ba88fab8a5
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'ba9cf14c-ed94-4b56-b646-f9ba88fab8a5', 'stopOrderType': 'UNKNOWN', 'execTime': '1759824977239', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '343.44', 'execPrice': '343.44', 'markIv': '', 'orderQty': '58.23', 'orderPrice': '394.95', 'execValue': '19998.5112', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612585306846, 'side': 'Buy', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99918116', 'execId': '951a553d-7f9d-4ef0-b589-1b050d0e1284', 'marketUnit': '', 'execQty': '58.23', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 07.10.2025 12:16:25
