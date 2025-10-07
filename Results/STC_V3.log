@@ -103206,3 +103206,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 08.10.2025 02:01:16
+***************************************************************
+Number of open positions: 1
+Function started at 08.10.2025 02:15:46
+	ETHUSDT 	Signal: S
+ETHUSDT 	Latest Close: (4496.87) 	SMA(14) : 4590.43 	Delta :  	Previous STC : 97.55 	STC : 65.03
+	OKBUSDT 	Signal: S
+OKBUSDT 	Latest Close: (221.03) 	SMA(14) : 224.90 	Delta :  	Previous STC : 99.29 	STC : 88.56
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+OKBUSDT    | S |  88.56
+1
+Last close price for OKBUSDT: 221.05
+Opening Sell for  OKBUSDT
+TP: 218.83950000000002
+SL: 225.471
+TS: 2.2105
+Order Quantity: 90.48
+Adjusted qty: 90.48
+Final Adjusted qty: 90.48
+128.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd6b6f470-87bf-40c3-8ba9-95f111be5e62', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759875367384}
+d6b6f470-87bf-40c3-8ba9-95f111be5e62
+fetching trade data for :  d6b6f470-87bf-40c3-8ba9-95f111be5e62
+[{'symbol': 'OKBUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd6b6f470-87bf-40c3-8ba9-95f111be5e62', 'stopOrderType': 'UNKNOWN', 'execTime': '1759875367383', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '221.05', 'execPrice': '221.05', 'markIv': '', 'orderQty': '90.48', 'orderPrice': '187.9', 'execValue': '20000.604', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612586811109, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.0003322', 'execId': 'e8679c34-aaf4-4c5b-98ea-59bbf08bbfa6', 'marketUnit': '', 'execQty': '90.48', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+ETHUSDT    | S |  65.03
+1
+Last close price for ETHUSDT: 4497.32
+Opening Sell for  ETHUSDT
+TP: 4452.346799999999
+SL: 4587.2663999999995
+TS: 44.9732
+Order Quantity: 4.45
+Adjusted qty: 4.45
+Final Adjusted qty: 4.45
+724.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 08.10.2025 02:16:18
