@@ -2803,3 +2803,129 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-07 20:20:04 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-07 20:20:04 | INFO | 🎉 SESSION COMPLETED in 211.7s
 2025-10-07 20:20:04 | INFO | ============================================================
+2025-10-07 20:31:09 | INFO | ================================================================================
+2025-10-07 20:31:09 | INFO | NEW PERPETUAL SESSION: 2025-10-07 20:31:09
+2025-10-07 20:31:09 | INFO | ================================================================================
+2025-10-07 20:31:09 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-07 20:31:09 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-07 20:31:09 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED
+2025-10-07 20:31:09 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 20:31:10 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 20:31:10 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 20:31:12 | INFO | 🎯 OPPORTUNITY: 1000000PEIPEIUSDT - SELL (50.0%)
+2025-10-07 20:31:24 | INFO | 🎯 OPPORTUNITY: AIOUSDT - BUY (49.9%)
+2025-10-07 20:31:27 | INFO | 🎯 OPPORTUNITY: ALPHAUSDT - BUY (95.0%)
+2025-10-07 20:31:33 | INFO | 🎯 OPPORTUNITY: ASRUSDT - BUY (50.0%)
+2025-10-07 20:31:33 | INFO | 🎯 OPPORTUNITY: ASTRUSDT - BUY (50.0%)
+2025-10-07 20:31:37 | INFO | 🎯 OPPORTUNITY: AWEUSDT - BUY (50.0%)
+2025-10-07 20:31:58 | INFO | 🎯 OPPORTUNITY: CLOUDUSDT - SELL (50.0%)
+2025-10-07 20:32:35 | INFO | 🎯 OPPORTUNITY: HIFIUSDT - BUY (66.3%)
+2025-10-07 20:32:39 | INFO | 🎯 OPPORTUNITY: HUSDT - BUY (56.4%)
+2025-10-07 20:32:44 | INFO | 🎯 OPPORTUNITY: IOTXUSDT - BUY (50.0%)
+2025-10-07 20:32:51 | INFO | 🎯 OPPORTUNITY: LAUNCHCOINUSDT - BUY (50.0%)
+2025-10-07 20:32:56 | INFO | 🎯 OPPORTUNITY: LYNUSDT - BUY (50.0%)
+2025-10-07 20:33:07 | INFO | 🎯 OPPORTUNITY: MYXUSDT - BUY (50.0%)
+2025-10-07 20:33:13 | INFO | 🎯 OPPORTUNITY: OGUSDT - SELL (50.0%)
+2025-10-07 20:33:18 | INFO | 🎯 OPPORTUNITY: PAXGUSDT - SELL (45.0%)
+2025-10-07 20:33:28 | INFO | 🎯 OPPORTUNITY: QUSDT - SELL (50.0%)
+2025-10-07 20:33:32 | INFO | 🎯 OPPORTUNITY: RHEAUSDT - BUY (50.0%)
+2025-10-07 20:33:33 | INFO | 🎯 OPPORTUNITY: RLUSDUSDT - BUY (45.0%)
+2025-10-07 20:33:42 | INFO | Setting leverage for ALPHAUSDT to 1x
+2025-10-07 20:33:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:33:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALPHAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:33:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALPHAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '311797', 'timeInForce': 'IOC'}
+2025-10-07 20:33:42 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:31179700000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 16:33:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Buy", "orderType": "Market", "qty": "311797", "timeInForce": "IOC"}.
+2025-10-07 20:33:44 | INFO | Setting leverage for HIFIUSDT to 1x
+2025-10-07 20:33:44 | INFO | ✅ Leverage set to 1x for HIFIUSDT
+2025-10-07 20:33:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HIFIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '55495', 'timeInForce': 'IOC'}
+2025-10-07 20:33:44 | INFO | ✅ Perpetual order placed: 222b179e-aa9d-4645-8b10-d8d068ac04bf
+2025-10-07 20:33:45 | INFO | Setting stop loss via trading stop: HIFIUSDT @ 0.0874164
+2025-10-07 20:33:45 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:33:45 | INFO | Setting take profit via trading stop: HIFIUSDT @ 0.09102120000000001
+2025-10-07 20:33:45 | INFO | ✅ Take profit set via position management
+2025-10-07 20:33:46 | INFO | Setting trailing stop: HIFIUSDT @ 1.0% = $0.000901 from $0.09008
+2025-10-07 20:33:47 | INFO | ✅ Trailing stop set: 1.0% ($0.000901)
+2025-10-07 20:33:48 | INFO | Setting leverage for HUSDT to 1x
+2025-10-07 20:33:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:33:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:33:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '70360', 'timeInForce': 'IOC'}
+2025-10-07 20:33:49 | INFO | ✅ Perpetual order placed: ccbb3bf4-c2df-442a-ab95-5320eb356e1c
+2025-10-07 20:33:49 | INFO | Setting stop loss via trading stop: HUSDT @ 0.06550410000000001
+2025-10-07 20:33:49 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:33:50 | INFO | Setting take profit via trading stop: HUSDT @ 0.06820530000000001
+2025-10-07 20:33:50 | INFO | ✅ Take profit set via position management
+2025-10-07 20:33:51 | INFO | Setting trailing stop: HUSDT @ 1.0% = $0.000670 from $0.067029
+2025-10-07 20:33:51 | INFO | ✅ Trailing stop set: 1.0% ($0.000670)
+2025-10-07 20:33:53 | INFO | Setting leverage for 1000000PEIPEIUSDT to 1x
+2025-10-07 20:33:53 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:33:53).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:33:53 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000PEIPEIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '137081', 'timeInForce': 'IOC'}
+2025-10-07 20:33:54 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:13708100000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 16:33:54).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Sell", "orderType": "Market", "qty": "137081", "timeInForce": "IOC"}.
+2025-10-07 20:33:56 | INFO | Setting leverage for ASTRUSDT to 1x
+2025-10-07 20:33:56 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:33:56).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:33:56 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '166203', 'timeInForce': 'IOC'}
+2025-10-07 20:33:56 | INFO | ✅ Perpetual order placed: 44ddfccf-a2ce-4a43-bd57-763d01553dd7
+2025-10-07 20:33:56 | INFO | Setting stop loss via trading stop: ASTRUSDT @ 0.0263452
+2025-10-07 20:33:56 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:33:57 | INFO | Setting take profit via trading stop: ASTRUSDT @ 0.0274316
+2025-10-07 20:33:57 | INFO | ✅ Take profit set via position management
+2025-10-07 20:33:58 | INFO | Setting trailing stop: ASTRUSDT @ 1.0% = $0.000271 from $0.02715
+2025-10-07 20:33:58 | INFO | ✅ Trailing stop set: 1.0% ($0.000271)
+2025-10-07 20:34:00 | INFO | Setting leverage for LYNUSDT to 1x
+2025-10-07 20:34:00 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:34:00).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LYNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:34:00 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LYNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '14860', 'timeInForce': 'IOC'}
+2025-10-07 20:34:01 | INFO | ✅ Perpetual order placed: c4e0c8ca-930a-4e18-a9c6-7fe83c9d3afd
+2025-10-07 20:34:01 | INFO | Setting stop loss via trading stop: LYNUSDT @ 0.279942
+2025-10-07 20:34:01 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:34:01 | INFO | Setting take profit via trading stop: LYNUSDT @ 0.291486
+2025-10-07 20:34:01 | INFO | ✅ Take profit set via position management
+2025-10-07 20:34:03 | INFO | Setting trailing stop: LYNUSDT @ 1.0% = $0.002873 from $0.2873
+2025-10-07 20:34:03 | INFO | ✅ Trailing stop set: 1.0% ($0.002873)
+2025-10-07 20:34:04 | INFO | Setting leverage for MYXUSDT to 1x
+2025-10-07 20:34:04 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:34:04).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MYXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:34:04 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MYXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '733', 'timeInForce': 'IOC'}
+2025-10-07 20:34:05 | INFO | ✅ Perpetual order placed: a15d9d07-d766-42ac-af43-79330856d360
+2025-10-07 20:34:05 | INFO | Setting stop loss via trading stop: MYXUSDT @ 5.39029
+2025-10-07 20:34:05 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:34:05 | INFO | Setting take profit via trading stop: MYXUSDT @ 5.612570000000001
+2025-10-07 20:34:05 | INFO | ✅ Take profit set via position management
+2025-10-07 20:34:07 | INFO | Setting trailing stop: MYXUSDT @ 1.0% = $0.055864 from $5.5864
+2025-10-07 20:34:07 | INFO | ✅ Trailing stop set: 1.0% ($0.055864)
+2025-10-07 20:34:08 | INFO | Setting leverage for QUSDT to 1x
+2025-10-07 20:34:09 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:34:09).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "QUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:34:09 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'QUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '75550', 'timeInForce': 'IOC'}
+2025-10-07 20:34:09 | INFO | ✅ Perpetual order placed: f1b25e21-abd9-49d0-b542-e80de0d90ca0
+2025-10-07 20:34:09 | INFO | Setting stop loss via trading stop: QUSDT @ 0.05277514
+2025-10-07 20:34:09 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:34:09 | INFO | Setting take profit via trading stop: QUSDT @ 0.05072562
+2025-10-07 20:34:09 | INFO | ✅ Take profit set via position management
+2025-10-07 20:34:11 | INFO | Setting trailing stop: QUSDT @ 1.0% = $0.000508 from $0.050767
+2025-10-07 20:34:11 | INFO | ✅ Trailing stop set: 1.0% ($0.000508)
+2025-10-07 20:34:13 | INFO | Setting leverage for RHEAUSDT to 1x
+2025-10-07 20:34:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:34:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RHEAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:34:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RHEAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '125170', 'timeInForce': 'IOC'}
+2025-10-07 20:34:13 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:12517000000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 16:34:13).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RHEAUSDT", "side": "Buy", "orderType": "Market", "qty": "125170", "timeInForce": "IOC"}.
+2025-10-07 20:34:15 | INFO | Setting leverage for AIOUSDT to 1x
+2025-10-07 20:34:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:34:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:34:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '24640', 'timeInForce': 'IOC'}
+2025-10-07 20:34:15 | INFO | ✅ Perpetual order placed: 6b0f5483-54b6-4133-9637-95a89d412204
+2025-10-07 20:34:15 | INFO | Setting stop loss via trading stop: AIOUSDT @ 0.1448016
+2025-10-07 20:34:15 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:34:16 | INFO | Setting take profit via trading stop: AIOUSDT @ 0.15077279999999998
+2025-10-07 20:34:16 | INFO | ✅ Take profit set via position management
+2025-10-07 20:34:17 | INFO | Setting trailing stop: AIOUSDT @ 1.0% = $0.001491 from $0.14907
+2025-10-07 20:34:18 | INFO | ✅ Trailing stop set: 1.0% ($0.001491)
+2025-10-07 20:34:18 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 20:34:18 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 20:34:18 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 20:34:18 | INFO | 🎉 SESSION COMPLETED in 189.2s
+2025-10-07 20:34:18 | INFO | ============================================================
