@@ -102081,3 +102081,54 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.10.2025 19:31:09
+***************************************************************
+Number of open positions: 0
+Function started at 07.10.2025 19:46:51
+	NEARUSDT 	Signal: S
+NEARUSDT 	Latest Close: (2.917) 	SMA(14) : 3.00 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (2.7748) 	SMA(14) : 2.83 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	USD1USDT 	Signal: S
+USD1USDT 	Latest Close: (0.9984) 	SMA(14) : 1.00 	Delta :  	Previous STC : 97.88 	STC : 88.60
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TONUSDT    | S |  66.67
+1
+Last close price for TONUSDT: 2.7746
+Opening Sell for  TONUSDT
+TP: 2.746854
+SL: 2.830092
+TS: 0.027746
+Order Quantity: 7208.25
+Adjusted qty: 7208.200000000001
+Final Adjusted qty: 7208.2
+37810.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a4310af5-2296-4cf0-b60e-eaf21cb20e1f', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759852032454}
+a4310af5-2296-4cf0-b60e-eaf21cb20e1f
+fetching trade data for :  a4310af5-2296-4cf0-b60e-eaf21cb20e1f
+[{'symbol': 'TONUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'a4310af5-2296-4cf0-b60e-eaf21cb20e1f', 'stopOrderType': 'UNKNOWN', 'execTime': '1759852032453', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.7752', 'execPrice': '2.7744', 'markIv': '', 'orderQty': '7208.2', 'orderPrice': '2.6365', 'execValue': '19998.43008', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612586115289, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99913655', 'execId': 'ae729085-36f8-4c7f-a5dc-b4749f63c1f9', 'marketUnit': '', 'execQty': '7208.2', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+NEARUSDT   | S |  66.67
+1
+Last close price for NEARUSDT: 2.916
+Opening Sell for  NEARUSDT
+TP: 2.88684
+SL: 2.97432
+TS: 0.02916
+Order Quantity: 6858.71
+Adjusted qty: 6858.700000000001
+Final Adjusted qty: 6858.7
+66470.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'c54a360d-1861-43c3-9378-200d014bcc08', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759852044273}
+c54a360d-1861-43c3-9378-200d014bcc08
+fetching trade data for :  c54a360d-1861-43c3-9378-200d014bcc08
+[{'symbol': 'NEARUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'c54a360d-1861-43c3-9378-200d014bcc08', 'stopOrderType': 'UNKNOWN', 'execTime': '1759852044272', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '2.916', 'execPrice': '2.916', 'markIv': '', 'orderQty': '6858.7', 'orderPrice': '2.771', 'execValue': '19999.9692', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612586115637, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99998306', 'execId': 'ea191e14-b721-467f-b947-588ef63a7790', 'marketUnit': '', 'execQty': '6858.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 07.10.2025 19:47:33
