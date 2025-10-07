@@ -2476,3 +2476,50 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-07 19:51:11 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-07 19:51:11 | INFO | 🎉 SESSION COMPLETED in 217.4s
 2025-10-07 19:51:11 | INFO | ============================================================
+2025-10-07 20:01:25 | INFO | ================================================================================
+2025-10-07 20:01:25 | INFO | NEW PERPETUAL SESSION: 2025-10-07 20:01:25
+2025-10-07 20:01:25 | INFO | ================================================================================
+2025-10-07 20:01:25 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-07 20:01:25 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-07 20:01:25 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED
+2025-10-07 20:01:25 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 20:01:26 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 20:01:26 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 20:01:28 | INFO | 🎯 OPPORTUNITY: 1000000PEIPEIUSDT - SELL (50.0%)
+2025-10-07 20:01:40 | INFO | 🎯 OPPORTUNITY: AIOUSDT - BUY (50.0%)
+2025-10-07 20:01:41 | INFO | 🎯 OPPORTUNITY: AIUSDT - BUY (45.0%)
+2025-10-07 20:01:50 | INFO | 🎯 OPPORTUNITY: ASRUSDT - BUY (50.0%)
+2025-10-07 20:01:51 | INFO | 🎯 OPPORTUNITY: ASTRUSDT - BUY (51.5%)
+2025-10-07 20:01:55 | INFO | 🎯 OPPORTUNITY: AWEUSDT - BUY (50.0%)
+2025-10-07 20:02:56 | INFO | 🎯 OPPORTUNITY: HUSDT - BUY (50.0%)
+2025-10-07 20:03:01 | INFO | 🎯 OPPORTUNITY: IOTXUSDT - BUY (50.0%)
+2025-10-07 20:03:09 | INFO | 🎯 OPPORTUNITY: LAUNCHCOINUSDT - BUY (50.0%)
+2025-10-07 20:03:13 | INFO | 🎯 OPPORTUNITY: LYNUSDT - BUY (50.0%)
+2025-10-07 20:03:24 | INFO | 🎯 OPPORTUNITY: MYXUSDT - BUY (50.0%)
+2025-10-07 20:03:36 | INFO | 🎯 OPPORTUNITY: PAXGUSDT - SELL (45.0%)
+2025-10-07 20:03:46 | INFO | 🎯 OPPORTUNITY: QUSDT - SELL (50.0%)
+2025-10-07 20:03:50 | INFO | 🎯 OPPORTUNITY: RHEAUSDT - BUY (50.0%)
+2025-10-07 20:04:00 | INFO | Setting leverage for ASTRUSDT to 1x
+2025-10-07 20:04:01 | INFO | ✅ Leverage set to 1x for ASTRUSDT
+2025-10-07 20:04:01 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '181826', 'timeInForce': 'IOC'}
+2025-10-07 20:04:01 | INFO | ✅ Perpetual order placed: ad7cd5cc-0b0c-4360-b33c-4e608aab87fb
+2025-10-07 20:04:01 | INFO | Setting stop loss via trading stop: ASTRUSDT @ 0.0267138
+2025-10-07 20:04:01 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:04:02 | INFO | Setting take profit via trading stop: ASTRUSDT @ 0.028916999999999998
+2025-10-07 20:04:02 | INFO | ✅ Take profit set via position management
+2025-10-07 20:04:03 | INFO | Setting trailing stop: ASTRUSDT @ 1.0% = $0.000276 from $0.02765
+2025-10-07 20:04:04 | INFO | ✅ Trailing stop set: 1.0% ($0.000276)
+2025-10-07 20:04:05 | INFO | Setting leverage for 1000000PEIPEIUSDT to 1x
+2025-10-07 20:04:06 | INFO | ✅ Leverage set to 1x for 1000000PEIPEIUSDT
+2025-10-07 20:04:06 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000PEIPEIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '140792', 'timeInForce': 'IOC'}
+2025-10-07 20:04:06 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:14079200000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 16:04:06).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Sell", "orderType": "Market", "qty": "140792", "timeInForce": "IOC"}.
+2025-10-07 20:04:07 | INFO | Setting leverage for AIOUSDT to 1x
+2025-10-07 20:04:08 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:04:08).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 20:04:08 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '32220', 'timeInForce': 'IOC'}
+2025-10-07 20:04:08 | INFO | ✅ Perpetual order placed: f7d4a946-e468-417d-93f2-6388e1318917
+2025-10-07 20:04:08 | INFO | Setting stop loss via trading stop: AIOUSDT @ 0.1432011
+2025-10-07 20:04:08 | INFO | ✅ Stop loss set via position management
+2025-10-07 20:04:09 | INFO | Setting take profit via trading stop: AIOUSDT @ 0.15501150000000002
+2025-10-07 20:04:09 | INFO | ✅ Take profit set via position management
