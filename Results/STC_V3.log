@@ -102155,3 +102155,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 07.10.2025 20:01:24
+***************************************************************
+Number of open positions: 2
+Function started at 07.10.2025 20:15:58
+	TONUSDT 	Signal: S
+TONUSDT 	Latest Close: (2.754) 	SMA(14) : 2.82 	Delta :  	Previous STC : 100.00 	STC : 66.67
+	TRUMPUSDT 	Signal: S
+TRUMPUSDT 	Latest Close: (7.545) 	SMA(14) : 7.82 	Delta :  	Previous STC : 100.00 	STC : 66.67
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+TRUMPUSDT  | S |  66.67
+1
+Last close price for TRUMPUSDT: 7.545
+Opening Sell for  TRUMPUSDT
+TP: 7.46955
+SL: 7.6959
+TS: 0.07545
+Order Quantity: 2650.76
+Adjusted qty: 2650.8
+Final Adjusted qty: 2650.7
+8000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '04798d46-f83d-49fe-9f49-934d35d9327b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1759853780493}
+04798d46-f83d-49fe-9f49-934d35d9327b
+fetching trade data for :  04798d46-f83d-49fe-9f49-934d35d9327b
+[{'symbol': 'TRUMPUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '04798d46-f83d-49fe-9f49-934d35d9327b', 'stopOrderType': 'UNKNOWN', 'execTime': '1759853780492', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '7.543', 'execPrice': '7.544', 'markIv': '', 'orderQty': '2650.7', 'orderPrice': '7.166', 'execValue': '19996.8808', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612586170876, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99828444', 'execId': 'c43626c9-fe65-4fb0-aceb-15c305ed020f', 'marketUnit': '', 'execQty': '2650.7', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TONUSDT    | S |  66.67
+1
+Last close price for TONUSDT: 2.7547
+Opening Sell for  TONUSDT
+TP: 2.727153
+SL: 2.809794
+TS: 0.027547000000000002
+Order Quantity: 7260.32
+Adjusted qty: 7260.3
+Final Adjusted qty: 7260.3
+37810.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 07.10.2025 20:16:31
