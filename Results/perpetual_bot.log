@@ -3628,3 +3628,131 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-07 21:35:04 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-07 21:35:04 | INFO | 🎉 SESSION COMPLETED in 212.6s
 2025-10-07 21:35:04 | INFO | ============================================================
+2025-10-07 21:46:07 | INFO | ================================================================================
+2025-10-07 21:46:07 | INFO | NEW PERPETUAL SESSION: 2025-10-07 21:46:07
+2025-10-07 21:46:07 | INFO | ================================================================================
+2025-10-07 21:46:07 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-07 21:46:07 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-07 21:46:07 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED
+2025-10-07 21:46:07 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 21:46:08 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 21:46:08 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 21:46:09 | INFO | 🎯 OPPORTUNITY: 0GUSDT - BUY (50.9%)
+2025-10-07 21:46:13 | INFO | 🎯 OPPORTUNITY: 1000CATUSDT - BUY (50.0%)
+2025-10-07 21:46:22 | INFO | 🎯 OPPORTUNITY: AINUSDT - BUY (50.0%)
+2025-10-07 21:46:24 | INFO | 🎯 OPPORTUNITY: AKTUSDT - BUY (50.0%)
+2025-10-07 21:46:25 | INFO | 🎯 OPPORTUNITY: ALICEUSDT - BUY (50.0%)
+2025-10-07 21:46:27 | INFO | 🎯 OPPORTUNITY: ALUUSDT - BUY (45.0%)
+2025-10-07 21:46:39 | INFO | 🎯 OPPORTUNITY: BABYUSDT - BUY (50.0%)
+2025-10-07 21:46:41 | INFO | 🎯 OPPORTUNITY: BANUSDT - BUY (95.0%)
+2025-10-07 21:46:49 | INFO | 🎯 OPPORTUNITY: BSUUSDT - BUY (50.0%)
+2025-10-07 21:46:59 | INFO | 🎯 OPPORTUNITY: COAIUSDT - SELL (50.0%)
+2025-10-07 21:47:07 | INFO | 🎯 OPPORTUNITY: DAMUSDT - BUY (50.0%)
+2025-10-07 21:47:09 | INFO | 🎯 OPPORTUNITY: DEXEUSDT - SELL (45.5%)
+2025-10-07 21:47:13 | INFO | 🎯 OPPORTUNITY: DUCKUSDT - BUY (50.0%)
+2025-10-07 21:47:14 | INFO | 🎯 OPPORTUNITY: EDUUSDT - BUY (50.0%)
+2025-10-07 21:47:27 | INFO | 🎯 OPPORTUNITY: FORMUSDT - BUY (95.0%)
+2025-10-07 21:47:29 | INFO | 🎯 OPPORTUNITY: FWOGUSDT - BUY (50.0%)
+2025-10-07 21:47:31 | INFO | 🎯 OPPORTUNITY: GMXUSDT - BUY (50.0%)
+2025-10-07 21:47:33 | INFO | 🎯 OPPORTUNITY: GRASSUSDT - BUY (50.0%)
+2025-10-07 21:47:41 | INFO | 🎯 OPPORTUNITY: HYPEUSDT - BUY (50.0%)
+2025-10-07 21:47:47 | INFO | 🎯 OPPORTUNITY: JELLYJELLYUSDT - SELL (59.9%)
+2025-10-07 21:47:50 | INFO | 🎯 OPPORTUNITY: KASUSDT - BUY (50.0%)
+2025-10-07 21:47:52 | INFO | 🎯 OPPORTUNITY: KMNOUSDT - BUY (50.0%)
+2025-10-07 21:47:54 | INFO | 🎯 OPPORTUNITY: LIGHTUSDT - BUY (62.3%)
+2025-10-07 21:48:02 | INFO | 🎯 OPPORTUNITY: MBOXUSDT - BUY (50.0%)
+2025-10-07 21:48:11 | INFO | 🎯 OPPORTUNITY: NILUSDT - BUY (56.1%)
+2025-10-07 21:48:14 | INFO | 🎯 OPPORTUNITY: NXPCUSDT - BUY (50.0%)
+2025-10-07 21:48:18 | INFO | 🎯 OPPORTUNITY: OPENUSDT - BUY (50.0%)
+2025-10-07 21:48:22 | INFO | 🎯 OPPORTUNITY: PAXGUSDT - BUY (45.0%)
+2025-10-07 21:48:23 | INFO | 🎯 OPPORTUNITY: PERPUSDT - BUY (50.0%)
+2025-10-07 21:48:25 | INFO | 🎯 OPPORTUNITY: PLUMEUSDT - BUY (50.0%)
+2025-10-07 21:48:28 | INFO | 🎯 OPPORTUNITY: PROMUSDT - SELL (50.0%)
+2025-10-07 21:48:29 | INFO | 🎯 OPPORTUNITY: PTBUSDT - BUY (50.0%)
+2025-10-07 21:48:31 | INFO | 🎯 OPPORTUNITY: QNTUSDT - BUY (50.0%)
+2025-10-07 21:48:42 | INFO | 🎯 OPPORTUNITY: SAROSUSDT - BUY (45.0%)
+2025-10-07 21:48:45 | INFO | Setting leverage for BANUSDT to 1x
+2025-10-07 21:48:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:48:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 21:48:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '70853', 'timeInForce': 'IOC'}
+2025-10-07 21:48:46 | INFO | ✅ Perpetual order placed: 44a014df-4675-4dc3-8b99-10a47804032c
+2025-10-07 21:48:46 | INFO | Setting stop loss via trading stop: BANUSDT @ 0.06820069999999999
+2025-10-07 21:48:46 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:48:46 | INFO | Setting take profit via trading stop: BANUSDT @ 0.0710131
+2025-10-07 21:48:46 | INFO | ✅ Take profit set via position management
+2025-10-07 21:48:48 | INFO | Setting trailing stop: BANUSDT @ 1.0% = $0.000699 from $0.0699
+2025-10-07 21:48:48 | INFO | ✅ Trailing stop set: 1.0% ($0.000699)
+2025-10-07 21:48:50 | INFO | Setting leverage for FORMUSDT to 1x
+2025-10-07 21:48:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:48:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FORMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 21:48:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FORMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3634', 'timeInForce': 'IOC'}
+2025-10-07 21:48:50 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:363400000000 > max_qty:285000000000 (ErrCode: 10001) (ErrTime: 17:48:50).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FORMUSDT", "side": "Buy", "orderType": "Market", "qty": "3634", "timeInForce": "IOC"}.
+2025-10-07 21:48:52 | INFO | Setting leverage for NILUSDT to 1x
+2025-10-07 21:48:52 | INFO | ✅ Leverage set to 1x for NILUSDT
+2025-10-07 21:48:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NILUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '13573', 'timeInForce': 'IOC'}
+2025-10-07 21:48:52 | INFO | ✅ Perpetual order placed: 8bf12818-3539-4bde-a38f-313e7d86186d
+2025-10-07 21:48:53 | INFO | Setting stop loss via trading stop: NILUSDT @ 0.338239
+2025-10-07 21:48:53 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:48:53 | INFO | Setting take profit via trading stop: NILUSDT @ 0.35218700000000003
+2025-10-07 21:48:53 | INFO | ✅ Take profit set via position management
+2025-10-07 21:48:55 | INFO | Setting trailing stop: NILUSDT @ 1.0% = $0.003478 from $0.3478
+2025-10-07 21:48:55 | INFO | ✅ Trailing stop set: 1.0% ($0.003478)
+2025-10-07 21:48:57 | INFO | Setting leverage for 1000CATUSDT to 1x
+2025-10-07 21:48:57 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:48:57).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000CATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 21:48:57 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000CATUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '525895', 'timeInForce': 'IOC'}
+2025-10-07 21:48:57 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:52589500000000 > max_qty:39000000000000 (ErrCode: 10001) (ErrTime: 17:48:57).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000CATUSDT", "side": "Buy", "orderType": "Market", "qty": "525895", "timeInForce": "IOC"}.
+2025-10-07 21:48:59 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-07 21:48:59 | INFO | ✅ Leverage set to 1x for ALICEUSDT
+2025-10-07 21:48:59 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '13070.9', 'timeInForce': 'IOC'}
+2025-10-07 21:48:59 | INFO | ✅ Perpetual order placed: c5e2c329-c9a9-4a6a-b1e3-1f80ecd9a9a4
+2025-10-07 21:49:00 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.33368
+2025-10-07 21:49:00 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:49:00 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.34743999999999997
+2025-10-07 21:49:00 | INFO | ✅ Take profit set via position management
+2025-10-07 21:49:02 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.003430 from $0.343
+2025-10-07 21:49:02 | INFO | ✅ Trailing stop set: 1.0% ($0.003430)
+2025-10-07 21:49:03 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-07 21:49:03 | INFO | ✅ Leverage set to 1x for COAIUSDT
+2025-10-07 21:49:03 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1450', 'timeInForce': 'IOC'}
+2025-10-07 21:49:04 | INFO | ✅ Perpetual order placed: 79ea81ec-0bde-4092-945c-914db58cf3bf
+2025-10-07 21:49:04 | INFO | Setting stop loss via trading stop: COAIUSDT @ 3.033453
+2025-10-07 21:49:04 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:49:04 | ERROR | ❌ Take profit exception: TakeProfit:291560000 set for Sell position should be lower than base_price:290800000??LastPrice (ErrCode: 10001) (ErrTime: 17:49:04).
+Request → POST https://api-demo.bybit.com/v5/position/trading-stop: {"category": "linear", "symbol": "COAIUSDT", "positionIdx": 0, "takeProfit": "2.915649", "tpslMode": "Full"}.
+2025-10-07 21:49:06 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.029058 from $2.9058
+2025-10-07 21:49:06 | INFO | ✅ Trailing stop set: 1.0% ($0.029058)
+2025-10-07 21:49:08 | INFO | Setting leverage for DAMUSDT to 1x
+2025-10-07 21:49:08 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:49:08).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DAMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 21:49:08 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DAMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '60774', 'timeInForce': 'IOC'}
+2025-10-07 21:49:08 | INFO | ✅ Perpetual order placed: a1206931-d2d6-4e00-90a7-85f54b591b63
+2025-10-07 21:49:08 | INFO | Setting stop loss via trading stop: DAMUSDT @ 0.0647766
+2025-10-07 21:49:08 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:49:09 | INFO | Setting take profit via trading stop: DAMUSDT @ 0.0674478
+2025-10-07 21:49:09 | INFO | ✅ Take profit set via position management
+2025-10-07 21:49:10 | INFO | Setting trailing stop: DAMUSDT @ 1.0% = $0.000667 from $0.06671
+2025-10-07 21:49:11 | INFO | ✅ Trailing stop set: 1.0% ($0.000667)
+2025-10-07 21:49:12 | INFO | Setting leverage for DUCKUSDT to 1x
+2025-10-07 21:49:12 | INFO | ✅ Leverage set to 1x for DUCKUSDT
+2025-10-07 21:49:12 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DUCKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1651300', 'timeInForce': 'IOC'}
+2025-10-07 21:49:12 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:165130000000000 > max_qty:130000000000000 (ErrCode: 10001) (ErrTime: 17:49:12).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUCKUSDT", "side": "Buy", "orderType": "Market", "qty": "1651300", "timeInForce": "IOC"}.
+2025-10-07 21:49:14 | INFO | Setting leverage for EDUUSDT to 1x
+2025-10-07 21:49:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:49:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EDUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-07 21:49:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EDUUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '25808.4', 'timeInForce': 'IOC'}
+2025-10-07 21:49:14 | INFO | ✅ Perpetual order placed: 683e3132-75c7-4310-ada1-84c17b6945b5
+2025-10-07 21:49:15 | INFO | Setting stop loss via trading stop: EDUUSDT @ 0.144918
+2025-10-07 21:49:15 | INFO | ✅ Stop loss set via position management
+2025-10-07 21:49:15 | INFO | Setting take profit via trading stop: EDUUSDT @ 0.150894
+2025-10-07 21:49:15 | INFO | ✅ Take profit set via position management
+2025-10-07 21:49:16 | INFO | Setting trailing stop: EDUUSDT @ 1.0% = $0.001494 from $0.1494
+2025-10-07 21:49:17 | INFO | ✅ Trailing stop set: 1.0% ($0.001494)
+2025-10-07 21:49:17 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-07 21:49:17 | INFO | ✅ Found 457 perpetual pairs
+2025-10-07 21:49:17 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-07 21:49:17 | INFO | 🎉 SESSION COMPLETED in 190.0s
+2025-10-07 21:49:17 | INFO | ============================================================
