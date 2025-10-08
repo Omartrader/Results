@@ -339,3 +339,46 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-08 21:46:45 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 21:46:45 | INFO | 🎉 SESSION COMPLETED in 31.9s
 2025-10-08 21:46:45 | INFO | ============================================================
+2025-10-08 22:01:12 | INFO | ================================================================================
+2025-10-08 22:01:12 | INFO | NEW PERPETUAL SESSION: 2025-10-08 22:01:12
+2025-10-08 22:01:12 | INFO | ================================================================================
+2025-10-08 22:01:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 22:01:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 22:01:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 22:01:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 22:01:13 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 22:01:13 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 22:01:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 22:01:24 | INFO |  1. BADGERUSDT   | BUY  | Price: $  1.0115 | Confidence:  67.9% | Momentum: +1.79%
+2025-10-08 22:01:24 | INFO |  2. IPUSDT       | BUY  | Price: $  9.2707 | Confidence:  66.9% | Momentum: +1.69%
+2025-10-08 22:01:25 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-08 22:01:25 | INFO | 1. BADGERUSDT - BUY (67.9%) @ $1.0115
+2025-10-08 22:01:25 | INFO | Setting leverage for BADGERUSDT to 1x
+2025-10-08 22:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BADGERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 22:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BADGERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9381.8', 'timeInForce': 'IOC'}
+2025-10-08 22:01:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:938180000000 > max_qty:684000000000 (ErrCode: 10001) (ErrTime: 18:01:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BADGERUSDT", "side": "Buy", "orderType": "Market", "qty": "9381.8", "timeInForce": "IOC"}.
+2025-10-08 22:01:26 | ERROR | ❌ FAILED: BADGERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:938180000000 > max_qty:684000000000 (ErrCode: 10001) (ErrTime: 18:01:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BADGERUSDT", "side": "Buy", "orderType": "Market", "qty": "9381.8", "timeInForce": "IOC"}.
+2025-10-08 22:01:26 | INFO | 2. IPUSDT - BUY (66.9%) @ $9.2707
+2025-10-08 22:01:27 | INFO | Setting leverage for IPUSDT to 1x
+2025-10-08 22:01:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "IPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 22:01:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'IPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1023.6', 'timeInForce': 'IOC'}
+2025-10-08 22:01:28 | INFO | ✅ Perpetual order placed: e3c79659-4bd8-40ac-905b-a94e4eed6ed8
+2025-10-08 22:01:28 | INFO | Setting stop loss via trading stop: IPUSDT @ 8.992579
+2025-10-08 22:01:28 | INFO | ✅ Stop loss set via position management
+2025-10-08 22:01:28 | INFO | Setting take profit via trading stop: IPUSDT @ 9.363407
+2025-10-08 22:01:28 | INFO | ✅ Take profit set via position management
+2025-10-08 22:01:30 | INFO | Setting trailing stop: IPUSDT @ 1.0% = $0.092667 from $9.2667
+2025-10-08 22:01:30 | INFO | ✅ Trailing stop set: 1.0% ($0.092667)
+2025-10-08 22:01:30 | INFO | ✅ EXECUTED: IPUSDT BUY 1023.600000 @ $9.2707 (Conf: 66.9%)
+2025-10-08 22:01:30 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 1 failed
+2025-10-08 22:01:30 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 22:01:30 | INFO |    • IPUSDT: LONG 1023.600000 @ $9.2707 - SL: $8.9926 TP: $9.3634
+2025-10-08 22:01:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 22:01:31 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 22:01:31 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 22:01:31 | INFO | 🎉 SESSION COMPLETED in 18.8s
+2025-10-08 22:01:31 | INFO | ============================================================
