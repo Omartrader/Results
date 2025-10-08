@@ -1591,3 +1591,47 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-09 02:01:39 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 02:01:39 | INFO | 🎉 SESSION COMPLETED in 37.7s
 2025-10-09 02:01:39 | INFO | ============================================================
+2025-10-09 02:16:01 | INFO | ================================================================================
+2025-10-09 02:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 02:16:01
+2025-10-09 02:16:01 | INFO | ================================================================================
+2025-10-09 02:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 02:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 02:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 02:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 02:16:02 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 02:16:02 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 02:16:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 02:16:11 | INFO |  1. ACTUSDT      | BUY  | Price: $  0.0344 | Confidence:  95.0% | Momentum: +5.07%
+2025-10-09 02:16:11 | INFO |  2. APEUSDT      | BUY  | Price: $  0.5850 | Confidence:  95.0% | Momentum: +5.20%
+2025-10-09 02:16:11 | INFO |  3. B2USDT       | BUY  | Price: $  1.2346 | Confidence:  95.0% | Momentum: +5.13%
+2025-10-09 02:16:11 | INFO |  4. BANANAS31USDT | BUY  | Price: $  0.0059 | Confidence:  95.0% | Momentum: +5.61%
+2025-10-09 02:16:11 | INFO |  5. BANANAUSDT   | BUY  | Price: $ 19.0690 | Confidence:  95.0% | Momentum: +5.82%
+2025-10-09 02:16:11 | INFO |  6. BMTUSDT      | BUY  | Price: $  0.0705 | Confidence:  95.0% | Momentum: +9.26%
+2025-10-09 02:16:11 | INFO |  7. BOMEUSDT     | BUY  | Price: $  0.0017 | Confidence:  95.0% | Momentum: +5.52%
+2025-10-09 02:16:11 | INFO |  8. BRETTUSDT    | BUY  | Price: $  0.0459 | Confidence:  95.0% | Momentum: +4.79%
+2025-10-09 02:16:11 | INFO |  9. CHILLGUYUSDT | BUY  | Price: $  0.0444 | Confidence:  95.0% | Momentum: +6.49%
+2025-10-09 02:16:11 | INFO | 10. CFXUSDT      | BUY  | Price: $  0.1501 | Confidence:  95.0% | Momentum: +5.82%
+2025-10-09 02:16:12 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 02:16:12 | INFO | 1. ACTUSDT - BUY (95.0%) @ $0.03443
+2025-10-09 02:16:13 | INFO | Setting leverage for ACTUSDT to 1x
+2025-10-09 02:16:13 | INFO | ✅ Leverage set to 1x for ACTUSDT
+2025-10-09 02:16:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '275636', 'timeInForce': 'IOC'}
+2025-10-09 02:16:13 | INFO | ✅ Perpetual order placed: c21c3391-439f-47d9-8580-32f01585a158
+2025-10-09 02:16:14 | INFO | Setting stop loss via trading stop: ACTUSDT @ 0.0333971
+2025-10-09 02:16:14 | INFO | ✅ Stop loss set via position management
+2025-10-09 02:16:14 | INFO | Setting take profit via trading stop: ACTUSDT @ 0.0347743
+2025-10-09 02:16:14 | INFO | ✅ Take profit set via position management
+2025-10-09 02:16:16 | INFO | Setting trailing stop: ACTUSDT @ 1.0% = $0.000344 from $0.03443
+2025-10-09 02:16:16 | INFO | ✅ Trailing stop set: 1.0% ($0.000344)
+2025-10-09 02:16:16 | INFO | ✅ EXECUTED: ACTUSDT BUY 275636.000000 @ $0.03443 (Conf: 95.0%)
+2025-10-09 02:16:16 | INFO | 2. APEUSDT - BUY (95.0%) @ $0.585
+2025-10-09 02:16:16 | INFO | 3. B2USDT - BUY (95.0%) @ $1.2346
+2025-10-09 02:16:16 | INFO | 4. BANANAS31USDT - BUY (95.0%) @ $0.005869
+2025-10-09 02:16:16 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-09 02:16:16 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 02:16:16 | INFO |    • ACTUSDT: LONG 275636.000000 @ $0.03443 - SL: $0.0334 TP: $0.0348
+2025-10-09 02:16:16 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 02:16:17 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 02:16:17 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 02:16:17 | INFO | 🎉 SESSION COMPLETED in 15.6s
+2025-10-09 02:16:17 | INFO | ============================================================
