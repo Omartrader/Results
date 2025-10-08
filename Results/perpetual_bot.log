@@ -1368,3 +1368,114 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-09 01:31:27 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 01:31:27 | INFO | 🎉 SESSION COMPLETED in 26.4s
 2025-10-09 01:31:27 | INFO | ============================================================
+2025-10-09 01:46:01 | INFO | ================================================================================
+2025-10-09 01:46:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 01:46:01
+2025-10-09 01:46:01 | INFO | ================================================================================
+2025-10-09 01:46:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 01:46:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 01:46:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 01:46:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 01:46:02 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 01:46:02 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 01:46:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 01:46:16 | INFO |  1. ARCUSDT      | BUY  | Price: $  0.0226 | Confidence:  95.0% | Momentum: +9.67%
+2025-10-09 01:46:16 | INFO |  2. COAIUSDT     | BUY  | Price: $  5.7075 | Confidence:  95.0% | Momentum: +38.03%
+2025-10-09 01:46:16 | INFO |  3. LYNUSDT      | SELL | Price: $  0.2897 | Confidence:  95.0% | Momentum: -10.00%
+2025-10-09 01:46:16 | INFO |  4. MYXUSDT      | SELL | Price: $  5.4589 | Confidence:  95.0% | Momentum: -9.22%
+2025-10-09 01:46:16 | INFO |  5. MYROUSDT     | BUY  | Price: $  0.0191 | Confidence:  89.2% | Momentum: +3.92%
+2025-10-09 01:46:16 | INFO |  6. ELXUSDT      | BUY  | Price: $  0.1327 | Confidence:  85.9% | Momentum: +3.59%
+2025-10-09 01:46:16 | INFO |  7. DOLOUSDT     | BUY  | Price: $  0.1107 | Confidence:  77.5% | Momentum: +2.75%
+2025-10-09 01:46:16 | INFO |  8. FISUSDT      | BUY  | Price: $  0.0846 | Confidence:  67.4% | Momentum: +1.74%
+2025-10-09 01:46:16 | INFO |  9. PROMUSDT     | SELL | Price: $ 10.0360 | Confidence:  67.4% | Momentum: -1.74%
+2025-10-09 01:46:16 | INFO | 🎯 PROCESSING TOP 9 OPPORTUNITIES:
+2025-10-09 01:46:16 | INFO | 1. ARCUSDT - BUY (95.0%) @ $0.02256
+2025-10-09 01:46:17 | INFO | Setting leverage for ARCUSDT to 1x
+2025-10-09 01:46:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:46:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ARCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 01:46:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ARCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '419757', 'timeInForce': 'IOC'}
+2025-10-09 01:46:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:41975700000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 21:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ARCUSDT", "side": "Buy", "orderType": "Market", "qty": "419757", "timeInForce": "IOC"}.
+2025-10-09 01:46:17 | ERROR | ❌ FAILED: ARCUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:41975700000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 21:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ARCUSDT", "side": "Buy", "orderType": "Market", "qty": "419757", "timeInForce": "IOC"}.
+2025-10-09 01:46:18 | INFO | 2. COAIUSDT - BUY (95.0%) @ $5.7075
+2025-10-09 01:46:19 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-09 01:46:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:46:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 01:46:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1659', 'timeInForce': 'IOC'}
+2025-10-09 01:46:19 | INFO | ✅ Perpetual order placed: 1af99ca0-f0bc-4c55-933d-389182bb68a6
+2025-10-09 01:46:20 | INFO | Setting stop loss via trading stop: COAIUSDT @ 5.536275
+2025-10-09 01:46:20 | INFO | ✅ Stop loss set via position management
+2025-10-09 01:46:20 | INFO | Setting take profit via trading stop: COAIUSDT @ 5.764575
+2025-10-09 01:46:20 | INFO | ✅ Take profit set via position management
+2025-10-09 01:46:22 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.057047 from $5.7047
+2025-10-09 01:46:22 | INFO | ✅ Trailing stop set: 1.0% ($0.057047)
+2025-10-09 01:46:22 | INFO | ✅ EXECUTED: COAIUSDT BUY 1659.000000 @ $5.7075 (Conf: 95.0%)
+2025-10-09 01:46:22 | INFO | 3. LYNUSDT - SELL (95.0%) @ $0.2897
+2025-10-09 01:46:22 | INFO | 4. MYXUSDT - SELL (95.0%) @ $5.4589
+2025-10-09 01:46:23 | INFO | Setting leverage for MYXUSDT to 1x
+2025-10-09 01:46:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:46:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MYXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 01:46:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MYXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1570', 'timeInForce': 'IOC'}
+2025-10-09 01:46:24 | INFO | ✅ Perpetual order placed: 1358a37c-04eb-474b-bf42-226cfdb4894a
+2025-10-09 01:46:24 | INFO | Setting stop loss via trading stop: MYXUSDT @ 5.622667
+2025-10-09 01:46:24 | INFO | ✅ Stop loss set via position management
+2025-10-09 01:46:24 | INFO | Setting take profit via trading stop: MYXUSDT @ 5.404311
+2025-10-09 01:46:24 | INFO | ✅ Take profit set via position management
+2025-10-09 01:46:26 | INFO | Setting trailing stop: MYXUSDT @ 1.0% = $0.054528 from $5.4528
+2025-10-09 01:46:26 | INFO | ✅ Trailing stop set: 1.0% ($0.054528)
+2025-10-09 01:46:26 | INFO | ✅ EXECUTED: MYXUSDT SELL 1570.000000 @ $5.4589 (Conf: 95.0%)
+2025-10-09 01:46:26 | INFO | 5. MYROUSDT - BUY (89.2%) @ $0.0191
+2025-10-09 01:46:28 | INFO | Setting leverage for MYROUSDT to 1x
+2025-10-09 01:46:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:46:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MYROUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 01:46:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MYROUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '406162', 'timeInForce': 'IOC'}
+2025-10-09 01:46:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:40616200000000 > max_qty:21440000000000 (ErrCode: 10001) (ErrTime: 21:46:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MYROUSDT", "side": "Buy", "orderType": "Market", "qty": "406162", "timeInForce": "IOC"}.
+2025-10-09 01:46:28 | ERROR | ❌ FAILED: MYROUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:40616200000000 > max_qty:21440000000000 (ErrCode: 10001) (ErrTime: 21:46:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MYROUSDT", "side": "Buy", "orderType": "Market", "qty": "406162", "timeInForce": "IOC"}.
+2025-10-09 01:46:29 | INFO | 6. ELXUSDT - BUY (85.9%) @ $0.1327
+2025-10-09 01:46:30 | INFO | Setting leverage for ELXUSDT to 1x
+2025-10-09 01:46:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:46:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ELXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 01:46:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ELXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '58460', 'timeInForce': 'IOC'}
+2025-10-09 01:46:30 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5846000000000 > max_qty:3900000000000 (ErrCode: 10001) (ErrTime: 21:46:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ELXUSDT", "side": "Buy", "orderType": "Market", "qty": "58460", "timeInForce": "IOC"}.
+2025-10-09 01:46:30 | ERROR | ❌ FAILED: ELXUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:5846000000000 > max_qty:3900000000000 (ErrCode: 10001) (ErrTime: 21:46:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ELXUSDT", "side": "Buy", "orderType": "Market", "qty": "58460", "timeInForce": "IOC"}.
+2025-10-09 01:46:31 | INFO | 7. DOLOUSDT - BUY (77.5%) @ $0.11073
+2025-10-09 01:46:31 | INFO | Setting leverage for DOLOUSDT to 1x
+2025-10-09 01:46:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:46:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOLOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 01:46:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOLOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '70060', 'timeInForce': 'IOC'}
+2025-10-09 01:46:32 | INFO | ✅ Perpetual order placed: dc7c1f11-e81e-43f4-995b-b91b7d3947f5
+2025-10-09 01:46:32 | INFO | Setting stop loss via trading stop: DOLOUSDT @ 0.10740809999999999
+2025-10-09 01:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-09 01:46:32 | INFO | Setting take profit via trading stop: DOLOUSDT @ 0.1118373
+2025-10-09 01:46:32 | INFO | ✅ Take profit set via position management
+2025-10-09 01:46:34 | INFO | Setting trailing stop: DOLOUSDT @ 1.0% = $0.001109 from $0.11086
+2025-10-09 01:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.001109)
+2025-10-09 01:46:34 | INFO | ✅ EXECUTED: DOLOUSDT BUY 70060.000000 @ $0.11073 (Conf: 77.5%)
+2025-10-09 01:46:35 | INFO | 8. FISUSDT - BUY (67.4%) @ $0.0846
+2025-10-09 01:46:35 | INFO | Setting leverage for FISUSDT to 1x
+2025-10-09 01:46:36 | INFO | ✅ Leverage set to 1x for FISUSDT
+2025-10-09 01:46:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FISUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '82996', 'timeInForce': 'IOC'}
+2025-10-09 01:46:36 | INFO | ✅ Perpetual order placed: 36d51d0b-bf52-4bf8-a9e2-68ba5944a4c4
+2025-10-09 01:46:36 | INFO | Setting stop loss via trading stop: FISUSDT @ 0.082062
+2025-10-09 01:46:36 | INFO | ✅ Stop loss set via position management
+2025-10-09 01:46:36 | INFO | Setting take profit via trading stop: FISUSDT @ 0.085446
+2025-10-09 01:46:36 | INFO | ✅ Take profit set via position management
+2025-10-09 01:46:38 | INFO | Setting trailing stop: FISUSDT @ 1.0% = $0.000846 from $0.0846
+2025-10-09 01:46:38 | INFO | ✅ Trailing stop set: 1.0% ($0.000846)
+2025-10-09 01:46:38 | INFO | ✅ EXECUTED: FISUSDT BUY 82996.000000 @ $0.0846 (Conf: 67.4%)
+2025-10-09 01:46:39 | INFO | 9. PROMUSDT - SELL (67.4%) @ $10.036
+2025-10-09 01:46:39 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 3 failed
+2025-10-09 01:46:39 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 01:46:39 | INFO |    • COAIUSDT: LONG 1659.000000 @ $5.7075 - SL: $5.5363 TP: $5.7646
+2025-10-09 01:46:39 | INFO |    • MYXUSDT: SHORT 1570.000000 @ $5.4589 - SL: $5.6227 TP: $5.4043
+2025-10-09 01:46:39 | INFO |    • DOLOUSDT: LONG 70060.000000 @ $0.11073 - SL: $0.1074 TP: $0.1118
+2025-10-09 01:46:39 | INFO |    • FISUSDT: LONG 82996.000000 @ $0.0846 - SL: $0.0821 TP: $0.0854
+2025-10-09 01:46:39 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 01:46:39 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 01:46:39 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 01:46:39 | INFO | 🎉 SESSION COMPLETED in 38.1s
+2025-10-09 01:46:39 | INFO | ============================================================
