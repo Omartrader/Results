@@ -577,3 +577,50 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-08 23:16:42 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 23:16:42 | INFO | 🎉 SESSION COMPLETED in 23.4s
 2025-10-08 23:16:42 | INFO | ============================================================
+2025-10-08 23:31:12 | INFO | ================================================================================
+2025-10-08 23:31:12 | INFO | NEW PERPETUAL SESSION: 2025-10-08 23:31:12
+2025-10-08 23:31:12 | INFO | ================================================================================
+2025-10-08 23:31:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 23:31:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 23:31:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 23:31:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 23:31:14 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 23:31:14 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 23:31:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 23:31:25 | INFO |  1. AIAUSDT      | SELL | Price: $  2.6859 | Confidence:  95.0% | Momentum: -8.43%
+2025-10-08 23:31:25 | INFO |  2. RFCUSDT      | SELL | Price: $  0.0069 | Confidence:  95.0% | Momentum: -7.40%
+2025-10-08 23:31:25 | INFO |  3. CROUSDT      | SELL | Price: $  0.1987 | Confidence:  69.2% | Momentum: -1.92%
+2025-10-08 23:31:25 | INFO |  4. AVLUSDT      | SELL | Price: $  0.2366 | Confidence:  68.3% | Momentum: -1.83%
+2025-10-08 23:31:25 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-08 23:31:25 | INFO | 1. AIAUSDT - SELL (95.0%) @ $2.6859
+2025-10-08 23:31:26 | INFO | Setting leverage for AIAUSDT to 1x
+2025-10-08 23:31:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:31:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 23:31:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3532', 'timeInForce': 'IOC'}
+2025-10-08 23:31:27 | INFO | ✅ Perpetual order placed: 0e59cb55-6725-4115-a37d-c951aa683e4c
+2025-10-08 23:31:27 | INFO | Setting stop loss via trading stop: AIAUSDT @ 2.766477
+2025-10-08 23:31:27 | INFO | ✅ Stop loss set via position management
+2025-10-08 23:31:27 | INFO | Setting take profit via trading stop: AIAUSDT @ 2.659041
+2025-10-08 23:31:27 | INFO | ✅ Take profit set via position management
+2025-10-08 23:31:29 | INFO | Setting trailing stop: AIAUSDT @ 1.0% = $0.026751 from $2.6751
+2025-10-08 23:31:29 | INFO | ✅ Trailing stop set: 1.0% ($0.026751)
+2025-10-08 23:31:29 | INFO | ✅ EXECUTED: AIAUSDT SELL 3532.000000 @ $2.6859 (Conf: 95.0%)
+2025-10-08 23:31:30 | INFO | 2. RFCUSDT - SELL (95.0%) @ $0.006916
+2025-10-08 23:31:30 | INFO | Setting leverage for RFCUSDT to 1x
+2025-10-08 23:31:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:31:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RFCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 23:31:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RFCUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '900000', 'timeInForce': 'IOC'}
+2025-10-08 23:31:31 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:90000000000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 19:31:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Sell", "orderType": "Market", "qty": "900000", "timeInForce": "IOC"}.
+2025-10-08 23:31:31 | ERROR | ❌ FAILED: RFCUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:90000000000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 19:31:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Sell", "orderType": "Market", "qty": "900000", "timeInForce": "IOC"}.
+2025-10-08 23:31:32 | INFO | 3. CROUSDT - SELL (69.2%) @ $0.19868
+2025-10-08 23:31:32 | INFO | 4. AVLUSDT - SELL (68.3%) @ $0.2366
+2025-10-08 23:31:32 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 1 failed
+2025-10-08 23:31:32 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 23:31:32 | INFO |    • AIAUSDT: SHORT 3532.000000 @ $2.6859 - SL: $2.7665 TP: $2.6590
+2025-10-08 23:31:32 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 23:31:32 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 23:31:32 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 23:31:32 | INFO | 🎉 SESSION COMPLETED in 19.3s
+2025-10-08 23:31:32 | INFO | ============================================================
