@@ -456,3 +456,40 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-08 22:31:44 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 22:31:44 | INFO | 🎉 SESSION COMPLETED in 20.5s
 2025-10-08 22:31:44 | INFO | ============================================================
+2025-10-08 22:46:02 | INFO | ================================================================================
+2025-10-08 22:46:02 | INFO | NEW PERPETUAL SESSION: 2025-10-08 22:46:02
+2025-10-08 22:46:02 | INFO | ================================================================================
+2025-10-08 22:46:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 22:46:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 22:46:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 22:46:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 22:46:04 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 22:46:04 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 22:46:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 22:46:14 | INFO |  1. IPUSDT       | BUY  | Price: $  9.2857 | Confidence:  68.5% | Momentum: +1.85%
+2025-10-08 22:46:14 | INFO |  2. 1000RATSUSDT | SELL | Price: $  0.0265 | Confidence:  68.5% | Momentum: -1.85%
+2025-10-08 22:46:14 | INFO |  3. DBRUSDT      | BUY  | Price: $  0.0342 | Confidence:  65.1% | Momentum: +1.51%
+2025-10-08 22:46:14 | INFO | 🎯 PROCESSING TOP 3 OPPORTUNITIES:
+2025-10-08 22:46:14 | INFO | 1. IPUSDT - BUY (68.5%) @ $9.2857
+2025-10-08 22:46:14 | INFO | 2. 1000RATSUSDT - SELL (68.5%) @ $0.02646
+2025-10-08 22:46:15 | INFO | Setting leverage for 1000RATSUSDT to 1x
+2025-10-08 22:46:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:46:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000RATSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 22:46:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000RATSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '358360', 'timeInForce': 'IOC'}
+2025-10-08 22:46:16 | INFO | ✅ Perpetual order placed: 6409d08d-3a75-4121-ae69-5f745a63282f
+2025-10-08 22:46:16 | INFO | Setting stop loss via trading stop: 1000RATSUSDT @ 0.0272538
+2025-10-08 22:46:16 | INFO | ✅ Stop loss set via position management
+2025-10-08 22:46:16 | INFO | Setting take profit via trading stop: 1000RATSUSDT @ 0.0261954
+2025-10-08 22:46:16 | INFO | ✅ Take profit set via position management
+2025-10-08 22:46:18 | INFO | Setting trailing stop: 1000RATSUSDT @ 1.0% = $0.000265 from $0.02645
+2025-10-08 22:46:18 | INFO | ✅ Trailing stop set: 1.0% ($0.000265)
+2025-10-08 22:46:18 | INFO | ✅ EXECUTED: 1000RATSUSDT SELL 358360.000000 @ $0.02646 (Conf: 68.5%)
+2025-10-08 22:46:19 | INFO | 3. DBRUSDT - BUY (65.1%) @ $0.03424
+2025-10-08 22:46:19 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-08 22:46:19 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 22:46:19 | INFO |    • 1000RATSUSDT: SHORT 358360.000000 @ $0.02646 - SL: $0.0273 TP: $0.0262
+2025-10-08 22:46:19 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 22:46:19 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 22:46:19 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 22:46:19 | INFO | 🎉 SESSION COMPLETED in 16.8s
+2025-10-08 22:46:19 | INFO | ============================================================
