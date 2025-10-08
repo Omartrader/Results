@@ -1758,3 +1758,60 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 02:46:13 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 02:46:13 | INFO | 🎉 SESSION COMPLETED in 12.3s
 2025-10-09 02:46:13 | INFO | ============================================================
+2025-10-09 03:01:01 | INFO | ================================================================================
+2025-10-09 03:01:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 03:01:01
+2025-10-09 03:01:01 | INFO | ================================================================================
+2025-10-09 03:01:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 03:01:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 03:01:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 03:01:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 03:01:02 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 03:01:02 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 03:01:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 03:01:13 | INFO |  1. 2ZUSDT       | BUY  | Price: $  0.4073 | Confidence:  95.0% | Momentum: +5.03%
+2025-10-09 03:01:13 | INFO |  2. AI16ZUSDT    | BUY  | Price: $  0.0989 | Confidence:  95.0% | Momentum: +6.34%
+2025-10-09 03:01:13 | INFO |  3. ARCUSDT      | BUY  | Price: $  0.0223 | Confidence:  95.0% | Momentum: +5.48%
+2025-10-09 03:01:13 | INFO |  4. LISTAUSDT    | SELL | Price: $  0.5082 | Confidence:  95.0% | Momentum: -7.18%
+2025-10-09 03:01:13 | INFO |  5. PARTIUSDT    | BUY  | Price: $  0.1419 | Confidence:  95.0% | Momentum: +10.69%
+2025-10-09 03:01:13 | INFO |  6. PEOPLEUSDT   | BUY  | Price: $  0.0178 | Confidence:  95.0% | Momentum: +4.64%
+2025-10-09 03:01:13 | INFO |  7. POPCATUSDT   | BUY  | Price: $  0.2416 | Confidence:  95.0% | Momentum: +5.23%
+2025-10-09 03:01:13 | INFO |  8. PTBUSDT      | SELL | Price: $  0.0516 | Confidence:  95.0% | Momentum: -8.54%
+2025-10-09 03:01:13 | INFO |  9. BOMEUSDT     | BUY  | Price: $  0.0017 | Confidence:  94.7% | Momentum: +4.47%
+2025-10-09 03:01:13 | INFO | 10. ILVUSDT      | BUY  | Price: $ 14.9600 | Confidence:  90.3% | Momentum: +4.03%
+2025-10-09 03:01:14 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 03:01:14 | INFO | 1. 2ZUSDT - BUY (95.0%) @ $0.4073
+2025-10-09 03:01:15 | INFO | Setting leverage for 2ZUSDT to 1x
+2025-10-09 03:01:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:01:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "2ZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 03:01:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '2ZUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23204', 'timeInForce': 'IOC'}
+2025-10-09 03:01:15 | INFO | ✅ Perpetual order placed: 579fe8e0-2b80-4778-93fd-9089029aa48f
+2025-10-09 03:01:16 | INFO | Setting stop loss via trading stop: 2ZUSDT @ 0.39508099999999996
+2025-10-09 03:01:16 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:01:16 | INFO | Setting take profit via trading stop: 2ZUSDT @ 0.411373
+2025-10-09 03:01:16 | INFO | ✅ Take profit set via position management
+2025-10-09 03:01:17 | INFO | Setting trailing stop: 2ZUSDT @ 1.0% = $0.004076 from $0.4076
+2025-10-09 03:01:18 | INFO | ✅ Trailing stop set: 1.0% ($0.004076)
+2025-10-09 03:01:18 | INFO | ✅ EXECUTED: 2ZUSDT BUY 23204.000000 @ $0.4073 (Conf: 95.0%)
+2025-10-09 03:01:18 | INFO | 2. AI16ZUSDT - BUY (95.0%) @ $0.0989
+2025-10-09 03:01:19 | INFO | Setting leverage for AI16ZUSDT to 1x
+2025-10-09 03:01:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:01:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AI16ZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 03:01:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AI16ZUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '86492', 'timeInForce': 'IOC'}
+2025-10-09 03:01:19 | INFO | ✅ Perpetual order placed: 4d2e00a5-236a-4224-924f-7d335e3660ac
+2025-10-09 03:01:20 | INFO | Setting stop loss via trading stop: AI16ZUSDT @ 0.095933
+2025-10-09 03:01:20 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:01:20 | INFO | Setting take profit via trading stop: AI16ZUSDT @ 0.099889
+2025-10-09 03:01:20 | INFO | ✅ Take profit set via position management
+2025-10-09 03:01:22 | INFO | Setting trailing stop: AI16ZUSDT @ 1.0% = $0.000989 from $0.0989
+2025-10-09 03:01:22 | INFO | ✅ Trailing stop set: 1.0% ($0.000989)
+2025-10-09 03:01:22 | INFO | ✅ EXECUTED: AI16ZUSDT BUY 86492.000000 @ $0.0989 (Conf: 95.0%)
+2025-10-09 03:01:22 | INFO | 3. ARCUSDT - BUY (95.0%) @ $0.02234
+2025-10-09 03:01:22 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-09 03:01:22 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 03:01:22 | INFO |    • 2ZUSDT: LONG 23204.000000 @ $0.4073 - SL: $0.3951 TP: $0.4114
+2025-10-09 03:01:22 | INFO |    • AI16ZUSDT: LONG 86492.000000 @ $0.0989 - SL: $0.0959 TP: $0.0999
+2025-10-09 03:01:22 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 03:01:23 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 03:01:23 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 03:01:23 | INFO | 🎉 SESSION COMPLETED in 21.4s
+2025-10-09 03:01:23 | INFO | ============================================================
