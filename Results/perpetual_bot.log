@@ -10207,3 +10207,217 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-08 05:19:06 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 05:19:06 | INFO | 🎉 SESSION COMPLETED in 188.3s
 2025-10-08 05:19:06 | INFO | ============================================================
+2025-10-08 05:26:15 | INFO | ================================================================================
+2025-10-08 05:26:15 | INFO | NEW PERPETUAL SESSION: 2025-10-08 05:26:15
+2025-10-08 05:26:15 | INFO | ================================================================================
+2025-10-08 05:26:15 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 05:26:15 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 05:26:15 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 05:26:15 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 05:26:16 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 05:26:16 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 05:26:34 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 05:26:34 | INFO |  1. 1000000PEIPEIUSDT | BUY  | Price: $  0.0346 | Confidence:  88.1% | Momentum: +3.81%
+2025-10-08 05:26:34 | INFO |  2. ALPHAUSDT    | SELL | Price: $  0.0150 | Confidence:  75.9% | Momentum: -2.59%
+2025-10-08 05:26:34 | INFO |  3. LAUNCHCOINUSDT | SELL | Price: $  0.1094 | Confidence:  75.1% | Momentum: -2.51%
+2025-10-08 05:26:34 | INFO |  4. 1000TOSHIUSDT | BUY  | Price: $  0.8985 | Confidence:  75.1% | Momentum: +2.51%
+2025-10-08 05:26:34 | INFO |  5. BNBUSDT      | BUY  | Price: $1315.2000 | Confidence:  72.4% | Momentum: +2.24%
+2025-10-08 05:26:34 | INFO |  6. COOKIEUSDT   | BUY  | Price: $  0.1221 | Confidence:  68.3% | Momentum: +1.83%
+2025-10-08 05:26:34 | INFO |  7. BEAMUSDT     | BUY  | Price: $  0.0095 | Confidence:  67.0% | Momentum: +1.70%
+2025-10-08 05:26:34 | INFO |  8. GRASSUSDT    | BUY  | Price: $  0.8534 | Confidence:  65.2% | Momentum: +1.52%
+2025-10-08 05:26:34 | INFO |  9. HOTUSDT      | BUY  | Price: $  0.0009 | Confidence:  65.0% | Momentum: +1.50%
+2025-10-08 05:26:35 | INFO | 🎯 PROCESSING TOP 9 OPPORTUNITIES:
+2025-10-08 05:26:35 | INFO | 1. 1000000PEIPEIUSDT - BUY (88.1%) @ $0.03456
+2025-10-08 05:26:35 | INFO | Setting leverage for 1000000PEIPEIUSDT to 1x
+2025-10-08 05:26:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000PEIPEIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '250000', 'timeInForce': 'IOC'}
+2025-10-08 05:26:36 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 01:26:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-08 05:26:36 | ERROR | ❌ FAILED: 1000000PEIPEIUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 01:26:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-08 05:26:37 | INFO | 2. ALPHAUSDT - SELL (75.9%) @ $0.01505
+2025-10-08 05:26:37 | INFO | Setting leverage for ALPHAUSDT to 1x
+2025-10-08 05:26:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALPHAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALPHAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '630599', 'timeInForce': 'IOC'}
+2025-10-08 05:26:38 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:63059900000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 01:26:38).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Sell", "orderType": "Market", "qty": "630599", "timeInForce": "IOC"}.
+2025-10-08 05:26:38 | ERROR | ❌ FAILED: ALPHAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:63059900000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 01:26:38).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Sell", "orderType": "Market", "qty": "630599", "timeInForce": "IOC"}.
+2025-10-08 05:26:38 | INFO | 3. LAUNCHCOINUSDT - SELL (75.1%) @ $0.10941
+2025-10-08 05:26:39 | INFO | Setting leverage for LAUNCHCOINUSDT to 1x
+2025-10-08 05:26:39 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:39).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUNCHCOINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUNCHCOINUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '86743', 'timeInForce': 'IOC'}
+2025-10-08 05:26:40 | INFO | ✅ Perpetual order placed: e2582f3a-3ff9-406e-a1c1-98a48e046fb2
+2025-10-08 05:26:40 | INFO | Setting stop loss via trading stop: LAUNCHCOINUSDT @ 0.1126923
+2025-10-08 05:26:40 | INFO | ✅ Stop loss set via position management
+2025-10-08 05:26:40 | INFO | Setting take profit via trading stop: LAUNCHCOINUSDT @ 0.10831589999999999
+2025-10-08 05:26:40 | INFO | ✅ Take profit set via position management
+2025-10-08 05:26:42 | INFO | Setting trailing stop: LAUNCHCOINUSDT @ 1.0% = $0.001093 from $0.10926
+2025-10-08 05:26:42 | INFO | ✅ Trailing stop set: 1.0% ($0.001093)
+2025-10-08 05:26:42 | INFO | ✅ EXECUTED: LAUNCHCOINUSDT SELL 86743.000000 @ $0.10941 (Conf: 75.1%)
+2025-10-08 05:26:42 | INFO | 4. 1000TOSHIUSDT - BUY (75.1%) @ $0.8985
+2025-10-08 05:26:43 | INFO | Setting leverage for 1000TOSHIUSDT to 1x
+2025-10-08 05:26:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000TOSHIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000TOSHIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9560', 'timeInForce': 'IOC'}
+2025-10-08 05:26:44 | INFO | ✅ Perpetual order placed: 328647eb-4fb6-46ac-abe1-36a68e498050
+2025-10-08 05:26:44 | INFO | Setting stop loss via trading stop: 1000TOSHIUSDT @ 0.8715449999999999
+2025-10-08 05:26:44 | INFO | ✅ Stop loss set via position management
+2025-10-08 05:26:44 | INFO | Setting take profit via trading stop: 1000TOSHIUSDT @ 0.907485
+2025-10-08 05:26:44 | INFO | ✅ Take profit set via position management
+2025-10-08 05:26:46 | INFO | Setting trailing stop: 1000TOSHIUSDT @ 1.0% = $0.008986 from $0.8986
+2025-10-08 05:26:46 | INFO | ✅ Trailing stop set: 1.0% ($0.008986)
+2025-10-08 05:26:46 | INFO | ✅ EXECUTED: 1000TOSHIUSDT BUY 9560.000000 @ $0.8985 (Conf: 75.1%)
+2025-10-08 05:26:47 | INFO | 5. BNBUSDT - BUY (72.4%) @ $1315.2
+2025-10-08 05:26:47 | INFO | Setting leverage for BNBUSDT to 1x
+2025-10-08 05:26:48 | INFO | ✅ Leverage set to 1x for BNBUSDT
+2025-10-08 05:26:48 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BNBUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5.91', 'timeInForce': 'IOC'}
+2025-10-08 05:26:48 | INFO | ✅ Perpetual order placed: f06c7f5e-8615-4d54-a20e-499494cb710d
+2025-10-08 05:26:48 | INFO | Setting stop loss via trading stop: BNBUSDT @ 1275.744
+2025-10-08 05:26:48 | INFO | ✅ Stop loss set via position management
+2025-10-08 05:26:48 | INFO | Setting take profit via trading stop: BNBUSDT @ 1328.352
+2025-10-08 05:26:48 | INFO | ✅ Take profit set via position management
+2025-10-08 05:26:50 | INFO | Setting trailing stop: BNBUSDT @ 1.0% = $13.157000 from $1315.7
+2025-10-08 05:26:50 | INFO | ✅ Trailing stop set: 1.0% ($13.157000)
+2025-10-08 05:26:50 | INFO | ✅ EXECUTED: BNBUSDT BUY 5.910000 @ $1315.2 (Conf: 72.4%)
+2025-10-08 05:26:51 | INFO | 6. COOKIEUSDT - BUY (68.3%) @ $0.1221
+2025-10-08 05:26:52 | INFO | Setting leverage for COOKIEUSDT to 1x
+2025-10-08 05:26:52 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:52).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COOKIEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COOKIEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '57633', 'timeInForce': 'IOC'}
+2025-10-08 05:26:52 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5763300000000 > max_qty:3200000000000 (ErrCode: 10001) (ErrTime: 01:26:52).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKIEUSDT", "side": "Buy", "orderType": "Market", "qty": "57633", "timeInForce": "IOC"}.
+2025-10-08 05:26:52 | ERROR | ❌ FAILED: COOKIEUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:5763300000000 > max_qty:3200000000000 (ErrCode: 10001) (ErrTime: 01:26:52).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKIEUSDT", "side": "Buy", "orderType": "Market", "qty": "57633", "timeInForce": "IOC"}.
+2025-10-08 05:26:53 | INFO | 7. BEAMUSDT - BUY (67.0%) @ $0.00945
+2025-10-08 05:26:53 | INFO | Setting leverage for BEAMUSDT to 1x
+2025-10-08 05:26:54 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:54).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BEAMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:54 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BEAMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '744600', 'timeInForce': 'IOC'}
+2025-10-08 05:26:54 | INFO | ✅ Perpetual order placed: a368cf2b-f628-4742-88b1-a48aed3129a3
+2025-10-08 05:26:54 | INFO | Setting stop loss via trading stop: BEAMUSDT @ 0.0091665
+2025-10-08 05:26:54 | INFO | ✅ Stop loss set via position management
+2025-10-08 05:26:55 | INFO | Setting take profit via trading stop: BEAMUSDT @ 0.009544500000000001
+2025-10-08 05:26:55 | INFO | ✅ Take profit set via position management
+2025-10-08 05:26:56 | INFO | Setting trailing stop: BEAMUSDT @ 1.0% = $0.000095 from $0.009453
+2025-10-08 05:26:56 | INFO | ✅ Trailing stop set: 1.0% ($0.000095)
+2025-10-08 05:26:56 | INFO | ✅ EXECUTED: BEAMUSDT BUY 744600.000000 @ $0.00945 (Conf: 67.0%)
+2025-10-08 05:26:57 | INFO | 8. GRASSUSDT - BUY (65.2%) @ $0.8534
+2025-10-08 05:26:58 | INFO | Setting leverage for GRASSUSDT to 1x
+2025-10-08 05:26:58 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:26:58).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GRASSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:26:58 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GRASSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '7463', 'timeInForce': 'IOC'}
+2025-10-08 05:26:59 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:746300000000 > max_qty:600000000000 (ErrCode: 10001) (ErrTime: 01:26:59).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GRASSUSDT", "side": "Buy", "orderType": "Market", "qty": "7463", "timeInForce": "IOC"}.
+2025-10-08 05:26:59 | ERROR | ❌ FAILED: GRASSUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:746300000000 > max_qty:600000000000 (ErrCode: 10001) (ErrTime: 01:26:59).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GRASSUSDT", "side": "Buy", "orderType": "Market", "qty": "7463", "timeInForce": "IOC"}.
+2025-10-08 05:26:59 | INFO | 9. HOTUSDT - BUY (65.0%) @ $0.0008773
+2025-10-08 05:27:00 | INFO | Setting leverage for HOTUSDT to 1x
+2025-10-08 05:27:00 | INFO | ✅ Leverage set to 1x for HOTUSDT
+2025-10-08 05:27:00 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HOTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '7259900', 'timeInForce': 'IOC'}
+2025-10-08 05:27:01 | INFO | ✅ Perpetual order placed: 5d7e07a2-f65c-4f72-8092-2f1dd1dbe922
+2025-10-08 05:27:01 | INFO | Setting stop loss via trading stop: HOTUSDT @ 0.000850981
+2025-10-08 05:27:01 | INFO | ✅ Stop loss set via position management
+2025-10-08 05:27:01 | INFO | Setting take profit via trading stop: HOTUSDT @ 0.000886073
+2025-10-08 05:27:01 | INFO | ✅ Take profit set via position management
+2025-10-08 05:27:03 | INFO | Setting trailing stop: HOTUSDT @ 1.0% = $0.000009 from $0.0008784
+2025-10-08 05:27:03 | INFO | ✅ Trailing stop set: 1.0% ($0.000009)
+2025-10-08 05:27:03 | INFO | ✅ EXECUTED: HOTUSDT BUY 7259900.000000 @ $0.0008773 (Conf: 65.0%)
+2025-10-08 05:27:03 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 4 failed
+2025-10-08 05:27:03 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 05:27:03 | INFO |    • LAUNCHCOINUSDT: SHORT 86743.000000 @ $0.10941 - SL: $0.1127 TP: $0.1083
+2025-10-08 05:27:03 | INFO |    • 1000TOSHIUSDT: LONG 9560.000000 @ $0.8985 - SL: $0.8715 TP: $0.9075
+2025-10-08 05:27:03 | INFO |    • BNBUSDT: LONG 5.910000 @ $1315.2 - SL: $1275.7440 TP: $1328.3520
+2025-10-08 05:27:03 | INFO |    • BEAMUSDT: LONG 744600.000000 @ $0.00945 - SL: $0.0092 TP: $0.0095
+2025-10-08 05:27:03 | INFO |    • HOTUSDT: LONG 7259900.000000 @ $0.0008773 - SL: $0.0009 TP: $0.0009
+2025-10-08 05:27:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 05:27:04 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 05:27:04 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 05:27:04 | INFO | 🎉 SESSION COMPLETED in 48.6s
+2025-10-08 05:27:04 | INFO | ============================================================
+2025-10-08 05:31:08 | INFO | ================================================================================
+2025-10-08 05:31:08 | INFO | NEW PERPETUAL SESSION: 2025-10-08 05:31:08
+2025-10-08 05:31:08 | INFO | ================================================================================
+2025-10-08 05:31:08 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 05:31:08 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 05:31:08 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 05:31:08 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 05:31:10 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 05:31:10 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 05:31:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 05:31:25 | INFO |  1. 1000000PEIPEIUSDT | BUY  | Price: $  0.0346 | Confidence:  88.8% | Momentum: +3.88%
+2025-10-08 05:31:25 | INFO |  2. ALPHAUSDT    | SELL | Price: $  0.0150 | Confidence:  76.5% | Momentum: -2.65%
+2025-10-08 05:31:25 | INFO |  3. LAUNCHCOINUSDT | SELL | Price: $  0.1094 | Confidence:  75.7% | Momentum: -2.57%
+2025-10-08 05:31:25 | INFO |  4. 1000TOSHIUSDT | BUY  | Price: $  0.8978 | Confidence:  74.3% | Momentum: +2.43%
+2025-10-08 05:31:25 | INFO |  5. BEAMUSDT     | BUY  | Price: $  0.0095 | Confidence:  69.8% | Momentum: +1.98%
+2025-10-08 05:31:25 | INFO |  6. COOKIEUSDT   | BUY  | Price: $  0.1220 | Confidence:  67.5% | Momentum: +1.75%
+2025-10-08 05:31:25 | INFO |  7. KERNELUSDT   | BUY  | Price: $  0.2292 | Confidence:  66.9% | Momentum: +1.69%
+2025-10-08 05:31:25 | INFO |  8. CELRUSDT     | BUY  | Price: $  0.0075 | Confidence:  66.5% | Momentum: +1.65%
+2025-10-08 05:31:25 | INFO |  9. HOTUSDT      | BUY  | Price: $  0.0009 | Confidence:  65.5% | Momentum: +1.55%
+2025-10-08 05:31:25 | INFO | 10. BNBUSDT      | BUY  | Price: $1306.2000 | Confidence:  65.4% | Momentum: +1.54%
+2025-10-08 05:31:25 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-08 05:31:25 | INFO | 1. 1000000PEIPEIUSDT - BUY (88.8%) @ $0.03458
+2025-10-08 05:31:26 | INFO | Setting leverage for 1000000PEIPEIUSDT to 1x
+2025-10-08 05:31:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:31:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:31:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000PEIPEIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '250000', 'timeInForce': 'IOC'}
+2025-10-08 05:31:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 01:31:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-08 05:31:27 | ERROR | ❌ FAILED: 1000000PEIPEIUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 01:31:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-08 05:31:27 | INFO | 2. ALPHAUSDT - SELL (76.5%) @ $0.01504
+2025-10-08 05:31:28 | INFO | Setting leverage for ALPHAUSDT to 1x
+2025-10-08 05:31:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:31:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALPHAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:31:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALPHAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '630849', 'timeInForce': 'IOC'}
+2025-10-08 05:31:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:63084900000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 01:31:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Sell", "orderType": "Market", "qty": "630849", "timeInForce": "IOC"}.
+2025-10-08 05:31:29 | ERROR | ❌ FAILED: ALPHAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:63084900000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 01:31:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Sell", "orderType": "Market", "qty": "630849", "timeInForce": "IOC"}.
+2025-10-08 05:31:29 | INFO | 3. LAUNCHCOINUSDT - SELL (75.7%) @ $0.10935
+2025-10-08 05:31:29 | INFO | 4. 1000TOSHIUSDT - BUY (74.3%) @ $0.8978
+2025-10-08 05:31:29 | INFO | 5. BEAMUSDT - BUY (69.8%) @ $0.009476
+2025-10-08 05:31:29 | INFO | 6. COOKIEUSDT - BUY (67.5%) @ $0.122
+2025-10-08 05:31:30 | INFO | Setting leverage for COOKIEUSDT to 1x
+2025-10-08 05:31:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:31:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COOKIEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:31:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COOKIEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '77770', 'timeInForce': 'IOC'}
+2025-10-08 05:31:31 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:7777000000000 > max_qty:3200000000000 (ErrCode: 10001) (ErrTime: 01:31:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKIEUSDT", "side": "Buy", "orderType": "Market", "qty": "77770", "timeInForce": "IOC"}.
+2025-10-08 05:31:31 | ERROR | ❌ FAILED: COOKIEUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:7777000000000 > max_qty:3200000000000 (ErrCode: 10001) (ErrTime: 01:31:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKIEUSDT", "side": "Buy", "orderType": "Market", "qty": "77770", "timeInForce": "IOC"}.
+2025-10-08 05:31:31 | INFO | 7. KERNELUSDT - BUY (66.9%) @ $0.2292
+2025-10-08 05:31:32 | INFO | Setting leverage for KERNELUSDT to 1x
+2025-10-08 05:31:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:31:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KERNELUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:31:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KERNELUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '41396', 'timeInForce': 'IOC'}
+2025-10-08 05:31:33 | INFO | ✅ Perpetual order placed: 771d5634-6fa6-48fa-a98a-cf0c0d241b9a
+2025-10-08 05:31:33 | INFO | Setting stop loss via trading stop: KERNELUSDT @ 0.222324
+2025-10-08 05:31:33 | INFO | ✅ Stop loss set via position management
+2025-10-08 05:31:33 | INFO | Setting take profit via trading stop: KERNELUSDT @ 0.23149199999999998
+2025-10-08 05:31:33 | INFO | ✅ Take profit set via position management
+2025-10-08 05:31:35 | INFO | Setting trailing stop: KERNELUSDT @ 1.0% = $0.002290 from $0.229
+2025-10-08 05:31:35 | INFO | ✅ Trailing stop set: 1.0% ($0.002290)
+2025-10-08 05:31:35 | INFO | ✅ EXECUTED: KERNELUSDT BUY 41396.000000 @ $0.2292 (Conf: 66.9%)
+2025-10-08 05:31:35 | INFO | 8. CELRUSDT - BUY (66.5%) @ $0.007537
+2025-10-08 05:31:36 | INFO | Setting leverage for CELRUSDT to 1x
+2025-10-08 05:31:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:31:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CELRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 05:31:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CELRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1139381', 'timeInForce': 'IOC'}
+2025-10-08 05:31:37 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:113938100000000 > max_qty:81250000000000 (ErrCode: 10001) (ErrTime: 01:31:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CELRUSDT", "side": "Buy", "orderType": "Market", "qty": "1139381", "timeInForce": "IOC"}.
+2025-10-08 05:31:37 | ERROR | ❌ FAILED: CELRUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:113938100000000 > max_qty:81250000000000 (ErrCode: 10001) (ErrTime: 01:31:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CELRUSDT", "side": "Buy", "orderType": "Market", "qty": "1139381", "timeInForce": "IOC"}.
+2025-10-08 05:31:37 | INFO | 9. HOTUSDT - BUY (65.5%) @ $0.0008777
+2025-10-08 05:31:37 | INFO | 10. BNBUSDT - BUY (65.4%) @ $1306.2
+2025-10-08 05:31:37 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 4 failed
+2025-10-08 05:31:37 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 05:31:37 | INFO |    • KERNELUSDT: LONG 41396.000000 @ $0.2292 - SL: $0.2223 TP: $0.2315
+2025-10-08 05:31:37 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 05:31:38 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 05:31:38 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 05:31:38 | INFO | 🎉 SESSION COMPLETED in 28.8s
+2025-10-08 05:31:38 | INFO | ============================================================
