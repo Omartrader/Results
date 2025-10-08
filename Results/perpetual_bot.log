@@ -401,3 +401,58 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-08 22:16:24 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 22:16:24 | INFO | 🎉 SESSION COMPLETED in 11.5s
 2025-10-08 22:16:24 | INFO | ============================================================
+2025-10-08 22:31:23 | INFO | ================================================================================
+2025-10-08 22:31:23 | INFO | NEW PERPETUAL SESSION: 2025-10-08 22:31:23
+2025-10-08 22:31:23 | INFO | ================================================================================
+2025-10-08 22:31:23 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 22:31:23 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 22:31:23 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 22:31:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 22:31:24 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 22:31:24 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 22:31:34 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 22:31:34 | INFO |  1. IPUSDT       | BUY  | Price: $  9.3127 | Confidence:  71.5% | Momentum: +2.15%
+2025-10-08 22:31:34 | INFO |  2. ALEOUSDT     | BUY  | Price: $  0.3153 | Confidence:  67.8% | Momentum: +1.78%
+2025-10-08 22:31:34 | INFO |  3. DBRUSDT      | BUY  | Price: $  0.0343 | Confidence:  66.6% | Momentum: +1.66%
+2025-10-08 22:31:34 | INFO |  4. BADGERUSDT   | BUY  | Price: $  1.0090 | Confidence:  65.4% | Momentum: +1.54%
+2025-10-08 22:31:35 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-08 22:31:35 | INFO | 1. IPUSDT - BUY (71.5%) @ $9.3127
+2025-10-08 22:31:35 | INFO | 2. ALEOUSDT - BUY (67.8%) @ $0.3153
+2025-10-08 22:31:36 | INFO | Setting leverage for ALEOUSDT to 1x
+2025-10-08 22:31:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALEOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 22:31:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALEOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '29000', 'timeInForce': 'IOC'}
+2025-10-08 22:31:36 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2900000000000 > max_qty:580000000000 (ErrCode: 10001) (ErrTime: 18:31:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALEOUSDT", "side": "Buy", "orderType": "Market", "qty": "29000", "timeInForce": "IOC"}.
+2025-10-08 22:31:36 | ERROR | ❌ FAILED: ALEOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2900000000000 > max_qty:580000000000 (ErrCode: 10001) (ErrTime: 18:31:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALEOUSDT", "side": "Buy", "orderType": "Market", "qty": "29000", "timeInForce": "IOC"}.
+2025-10-08 22:31:37 | INFO | 3. DBRUSDT - BUY (66.6%) @ $0.03429
+2025-10-08 22:31:38 | INFO | Setting leverage for DBRUSDT to 1x
+2025-10-08 22:31:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DBRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 22:31:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DBRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '276660', 'timeInForce': 'IOC'}
+2025-10-08 22:31:38 | INFO | ✅ Perpetual order placed: c59139da-3c10-4d03-b395-11a180974d43
+2025-10-08 22:31:39 | INFO | Setting stop loss via trading stop: DBRUSDT @ 0.0332613
+2025-10-08 22:31:39 | INFO | ✅ Stop loss set via position management
+2025-10-08 22:31:39 | INFO | Setting take profit via trading stop: DBRUSDT @ 0.0346329
+2025-10-08 22:31:39 | INFO | ✅ Take profit set via position management
+2025-10-08 22:31:41 | INFO | Setting trailing stop: DBRUSDT @ 1.0% = $0.000344 from $0.03437
+2025-10-08 22:31:41 | INFO | ✅ Trailing stop set: 1.0% ($0.000344)
+2025-10-08 22:31:41 | INFO | ✅ EXECUTED: DBRUSDT BUY 276660.000000 @ $0.03429 (Conf: 66.6%)
+2025-10-08 22:31:41 | INFO | 4. BADGERUSDT - BUY (65.4%) @ $1.009
+2025-10-08 22:31:42 | INFO | Setting leverage for BADGERUSDT to 1x
+2025-10-08 22:31:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BADGERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 22:31:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BADGERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '8509.8', 'timeInForce': 'IOC'}
+2025-10-08 22:31:43 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:850980000000 > max_qty:684000000000 (ErrCode: 10001) (ErrTime: 18:31:43).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BADGERUSDT", "side": "Buy", "orderType": "Market", "qty": "8509.8", "timeInForce": "IOC"}.
+2025-10-08 22:31:43 | ERROR | ❌ FAILED: BADGERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:850980000000 > max_qty:684000000000 (ErrCode: 10001) (ErrTime: 18:31:43).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BADGERUSDT", "side": "Buy", "orderType": "Market", "qty": "8509.8", "timeInForce": "IOC"}.
+2025-10-08 22:31:43 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 2 failed
+2025-10-08 22:31:43 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 22:31:43 | INFO |    • DBRUSDT: LONG 276660.000000 @ $0.03429 - SL: $0.0333 TP: $0.0346
+2025-10-08 22:31:43 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 22:31:44 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 22:31:44 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 22:31:44 | INFO | 🎉 SESSION COMPLETED in 20.5s
+2025-10-08 22:31:44 | INFO | ============================================================
