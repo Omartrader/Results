@@ -1815,3 +1815,124 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 03:01:23 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 03:01:23 | INFO | 🎉 SESSION COMPLETED in 21.4s
 2025-10-09 03:01:23 | INFO | ============================================================
+2025-10-09 03:16:01 | INFO | ================================================================================
+2025-10-09 03:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 03:16:01
+2025-10-09 03:16:01 | INFO | ================================================================================
+2025-10-09 03:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 03:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 03:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 03:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 03:16:02 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 03:16:02 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 03:16:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 03:16:14 | INFO |  1. 2ZUSDT       | BUY  | Price: $  0.4088 | Confidence:  95.0% | Momentum: +5.42%
+2025-10-09 03:16:14 | INFO |  2. AI16ZUSDT    | BUY  | Price: $  0.0989 | Confidence:  95.0% | Momentum: +6.34%
+2025-10-09 03:16:14 | INFO |  3. ARCUSDT      | BUY  | Price: $  0.0224 | Confidence:  95.0% | Momentum: +5.85%
+2025-10-09 03:16:14 | INFO |  4. B2USDT       | BUY  | Price: $  1.2329 | Confidence:  95.0% | Momentum: +4.91%
+2025-10-09 03:16:14 | INFO |  5. LISTAUSDT    | SELL | Price: $  0.5103 | Confidence:  95.0% | Momentum: -6.79%
+2025-10-09 03:16:14 | INFO |  6. PARTIUSDT    | BUY  | Price: $  0.1407 | Confidence:  95.0% | Momentum: +9.75%
+2025-10-09 03:16:14 | INFO |  7. POPCATUSDT   | BUY  | Price: $  0.2416 | Confidence:  95.0% | Momentum: +5.23%
+2025-10-09 03:16:14 | INFO |  8. PTBUSDT      | SELL | Price: $  0.0515 | Confidence:  95.0% | Momentum: -8.75%
+2025-10-09 03:16:14 | INFO |  9. PEOPLEUSDT   | BUY  | Price: $  0.0178 | Confidence:  94.7% | Momentum: +4.47%
+2025-10-09 03:16:14 | INFO | 10. BOMEUSDT     | BUY  | Price: $  0.0017 | Confidence:  92.9% | Momentum: +4.29%
+2025-10-09 03:16:14 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 03:16:14 | INFO | 1. 2ZUSDT - BUY (95.0%) @ $0.4088
+2025-10-09 03:16:14 | INFO | 2. AI16ZUSDT - BUY (95.0%) @ $0.0989
+2025-10-09 03:16:14 | INFO | 3. ARCUSDT - BUY (95.0%) @ $0.02242
+2025-10-09 03:16:15 | INFO | Setting leverage for ARCUSDT to 1x
+2025-10-09 03:16:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:16:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ARCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 03:16:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ARCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '419861', 'timeInForce': 'IOC'}
+2025-10-09 03:16:16 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:41986100000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 23:16:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ARCUSDT", "side": "Buy", "orderType": "Market", "qty": "419861", "timeInForce": "IOC"}.
+2025-10-09 03:16:16 | ERROR | ❌ FAILED: ARCUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:41986100000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 23:16:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ARCUSDT", "side": "Buy", "orderType": "Market", "qty": "419861", "timeInForce": "IOC"}.
+2025-10-09 03:16:16 | INFO | 4. B2USDT - BUY (95.0%) @ $1.2329
+2025-10-09 03:16:17 | INFO | Setting leverage for B2USDT to 1x
+2025-10-09 03:16:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:16:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 03:16:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '7635', 'timeInForce': 'IOC'}
+2025-10-09 03:16:18 | INFO | ✅ Perpetual order placed: 0fd5f892-03a3-42bf-8f90-cdcc1ab3a8a5
+2025-10-09 03:16:18 | INFO | Setting stop loss via trading stop: B2USDT @ 1.195913
+2025-10-09 03:16:18 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:16:19 | INFO | Setting take profit via trading stop: B2USDT @ 1.2452290000000001
+2025-10-09 03:16:19 | INFO | ✅ Take profit set via position management
+2025-10-09 03:16:20 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.012332 from $1.2332
+2025-10-09 03:16:20 | INFO | ✅ Trailing stop set: 1.0% ($0.012332)
+2025-10-09 03:16:20 | INFO | ✅ EXECUTED: B2USDT BUY 7635.000000 @ $1.2329 (Conf: 95.0%)
+2025-10-09 03:16:21 | INFO | 5. LISTAUSDT - SELL (95.0%) @ $0.5103
+2025-10-09 03:16:22 | INFO | Setting leverage for LISTAUSDT to 1x
+2025-10-09 03:16:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:16:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LISTAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 03:16:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LISTAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '16696', 'timeInForce': 'IOC'}
+2025-10-09 03:16:22 | INFO | ✅ Perpetual order placed: a98a35a9-80c2-4670-89f9-14c033d76433
+2025-10-09 03:16:23 | INFO | Setting stop loss via trading stop: LISTAUSDT @ 0.525609
+2025-10-09 03:16:23 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:16:23 | INFO | Setting take profit via trading stop: LISTAUSDT @ 0.505197
+2025-10-09 03:16:23 | INFO | ✅ Take profit set via position management
+2025-10-09 03:16:25 | INFO | Setting trailing stop: LISTAUSDT @ 1.0% = $0.005123 from $0.5123
+2025-10-09 03:16:25 | INFO | ✅ Trailing stop set: 1.0% ($0.005123)
+2025-10-09 03:16:25 | INFO | ✅ EXECUTED: LISTAUSDT SELL 16696.000000 @ $0.5103 (Conf: 95.0%)
+2025-10-09 03:16:25 | INFO | 6. PARTIUSDT - BUY (95.0%) @ $0.1407
+2025-10-09 03:16:27 | INFO | Setting leverage for PARTIUSDT to 1x
+2025-10-09 03:16:27 | INFO | ✅ Leverage set to 1x for PARTIUSDT
+2025-10-09 03:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PARTIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '54807', 'timeInForce': 'IOC'}
+2025-10-09 03:16:27 | INFO | ✅ Perpetual order placed: a2fa100e-6040-4f64-b28a-6054552a964f
+2025-10-09 03:16:27 | INFO | Setting stop loss via trading stop: PARTIUSDT @ 0.136479
+2025-10-09 03:16:27 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:16:28 | INFO | Setting take profit via trading stop: PARTIUSDT @ 0.14210699999999998
+2025-10-09 03:16:28 | INFO | ✅ Take profit set via position management
+2025-10-09 03:16:29 | INFO | Setting trailing stop: PARTIUSDT @ 1.0% = $0.001407 from $0.1407
+2025-10-09 03:16:29 | INFO | ✅ Trailing stop set: 1.0% ($0.001407)
+2025-10-09 03:16:29 | INFO | ✅ EXECUTED: PARTIUSDT BUY 54807.000000 @ $0.1407 (Conf: 95.0%)
+2025-10-09 03:16:30 | INFO | 7. POPCATUSDT - BUY (95.0%) @ $0.2416
+2025-10-09 03:16:31 | INFO | Setting leverage for POPCATUSDT to 1x
+2025-10-09 03:16:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:16:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "POPCATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 03:16:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'POPCATUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '28889', 'timeInForce': 'IOC'}
+2025-10-09 03:16:31 | INFO | ✅ Perpetual order placed: 81129655-8821-4f7c-b944-c77317a7c7d8
+2025-10-09 03:16:32 | INFO | Setting stop loss via trading stop: POPCATUSDT @ 0.234352
+2025-10-09 03:16:32 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:16:32 | INFO | Setting take profit via trading stop: POPCATUSDT @ 0.244016
+2025-10-09 03:16:32 | INFO | ✅ Take profit set via position management
+2025-10-09 03:16:34 | INFO | Setting trailing stop: POPCATUSDT @ 1.0% = $0.002417 from $0.2417
+2025-10-09 03:16:34 | INFO | ✅ Trailing stop set: 1.0% ($0.002417)
+2025-10-09 03:16:34 | INFO | ✅ EXECUTED: POPCATUSDT BUY 28889.000000 @ $0.2416 (Conf: 95.0%)
+2025-10-09 03:16:34 | INFO | 8. PTBUSDT - SELL (95.0%) @ $0.05151
+2025-10-09 03:16:35 | INFO | Setting leverage for PTBUSDT to 1x
+2025-10-09 03:16:35 | INFO | ✅ Leverage set to 1x for PTBUSDT
+2025-10-09 03:16:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PTBUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '122640', 'timeInForce': 'IOC'}
+2025-10-09 03:16:36 | INFO | ✅ Perpetual order placed: 0248c180-4384-4fc3-b846-8d603440da05
+2025-10-09 03:16:36 | INFO | Setting stop loss via trading stop: PTBUSDT @ 0.0530553
+2025-10-09 03:16:36 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:16:36 | INFO | Setting take profit via trading stop: PTBUSDT @ 0.0509949
+2025-10-09 03:16:36 | INFO | ✅ Take profit set via position management
+2025-10-09 03:16:38 | INFO | Setting trailing stop: PTBUSDT @ 1.0% = $0.000515 from $0.0515
+2025-10-09 03:16:38 | INFO | ✅ Trailing stop set: 1.0% ($0.000515)
+2025-10-09 03:16:38 | INFO | ✅ EXECUTED: PTBUSDT SELL 122640.000000 @ $0.05151 (Conf: 95.0%)
+2025-10-09 03:16:39 | INFO | 9. PEOPLEUSDT - BUY (94.7%) @ $0.01777
+2025-10-09 03:16:39 | INFO | Setting leverage for PEOPLEUSDT to 1x
+2025-10-09 03:16:40 | INFO | ✅ Leverage set to 1x for PEOPLEUSDT
+2025-10-09 03:16:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PEOPLEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '321754', 'timeInForce': 'IOC'}
+2025-10-09 03:16:40 | INFO | ✅ Perpetual order placed: 02a33f83-3cf0-419c-9210-ec9a7c3aae81
+2025-10-09 03:16:40 | INFO | Setting stop loss via trading stop: PEOPLEUSDT @ 0.0172369
+2025-10-09 03:16:40 | INFO | ✅ Stop loss set via position management
+2025-10-09 03:16:41 | INFO | Setting take profit via trading stop: PEOPLEUSDT @ 0.0179477
+2025-10-09 03:16:41 | INFO | ✅ Take profit set via position management
+2025-10-09 03:16:42 | INFO | Setting trailing stop: PEOPLEUSDT @ 1.0% = $0.000178 from $0.01778
+2025-10-09 03:16:43 | INFO | ✅ Trailing stop set: 1.0% ($0.000178)
+2025-10-09 03:16:43 | INFO | ✅ EXECUTED: PEOPLEUSDT BUY 321754.000000 @ $0.01777 (Conf: 94.7%)
+2025-10-09 03:16:43 | INFO | 10. BOMEUSDT - BUY (92.9%) @ $0.001726
+2025-10-09 03:16:43 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 1 failed
+2025-10-09 03:16:43 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 03:16:43 | INFO |    • B2USDT: LONG 7635.000000 @ $1.2329 - SL: $1.1959 TP: $1.2452
+2025-10-09 03:16:43 | INFO |    • LISTAUSDT: SHORT 16696.000000 @ $0.5103 - SL: $0.5256 TP: $0.5052
+2025-10-09 03:16:43 | INFO |    • PARTIUSDT: LONG 54807.000000 @ $0.1407 - SL: $0.1365 TP: $0.1421
+2025-10-09 03:16:43 | INFO |    • POPCATUSDT: LONG 28889.000000 @ $0.2416 - SL: $0.2344 TP: $0.2440
+2025-10-09 03:16:43 | INFO |    • PTBUSDT: SHORT 122640.000000 @ $0.05151 - SL: $0.0531 TP: $0.0510
+2025-10-09 03:16:43 | INFO |    • PEOPLEUSDT: LONG 321754.000000 @ $0.01777 - SL: $0.0172 TP: $0.0179
+2025-10-09 03:16:43 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 03:16:43 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 03:16:43 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 03:16:43 | INFO | 🎉 SESSION COMPLETED in 42.1s
+2025-10-09 03:16:43 | INFO | ============================================================
