@@ -493,3 +493,30 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-08 22:46:19 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 22:46:19 | INFO | 🎉 SESSION COMPLETED in 16.8s
 2025-10-08 22:46:19 | INFO | ============================================================
+2025-10-08 23:01:13 | INFO | ================================================================================
+2025-10-08 23:01:13 | INFO | NEW PERPETUAL SESSION: 2025-10-08 23:01:13
+2025-10-08 23:01:13 | INFO | ================================================================================
+2025-10-08 23:01:13 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 23:01:13 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 23:01:13 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 23:01:13 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 23:01:14 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 23:01:14 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 23:01:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 23:01:25 | INFO |  1. RFCUSDT      | SELL | Price: $  0.0070 | Confidence:  95.0% | Momentum: -6.24%
+2025-10-08 23:01:26 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-08 23:01:26 | INFO | 1. RFCUSDT - SELL (95.0%) @ $0.007003
+2025-10-08 23:01:27 | INFO | Setting leverage for RFCUSDT to 1x
+2025-10-08 23:01:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:01:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RFCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 23:01:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RFCUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '900000', 'timeInForce': 'IOC'}
+2025-10-08 23:01:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:90000000000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 19:01:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Sell", "orderType": "Market", "qty": "900000", "timeInForce": "IOC"}.
+2025-10-08 23:01:28 | ERROR | ❌ FAILED: RFCUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:90000000000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 19:01:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Sell", "orderType": "Market", "qty": "900000", "timeInForce": "IOC"}.
+2025-10-08 23:01:28 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 1 failed
+2025-10-08 23:01:28 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 23:01:29 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 23:01:29 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 23:01:29 | INFO | 🎉 SESSION COMPLETED in 15.6s
+2025-10-08 23:01:29 | INFO | ============================================================
