@@ -153,3 +153,113 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-08 21:17:27 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 21:17:27 | INFO | 🎉 SESSION COMPLETED in 52.0s
 2025-10-08 21:17:27 | INFO | ============================================================
+2025-10-08 21:31:12 | INFO | ================================================================================
+2025-10-08 21:31:12 | INFO | NEW PERPETUAL SESSION: 2025-10-08 21:31:12
+2025-10-08 21:31:12 | INFO | ================================================================================
+2025-10-08 21:31:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-08 21:31:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-08 21:31:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-08 21:31:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 21:31:13 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 21:31:13 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 21:31:23 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-08 21:31:23 | INFO |  1. BATUSDT      | BUY  | Price: $  0.1530 | Confidence:  95.0% | Momentum: +6.69%
+2025-10-08 21:31:23 | INFO |  2. CELOUSDT     | BUY  | Price: $  0.3984 | Confidence:  87.0% | Momentum: +3.70%
+2025-10-08 21:31:23 | INFO |  3. IPUSDT       | BUY  | Price: $  9.3830 | Confidence:  78.8% | Momentum: +2.88%
+2025-10-08 21:31:23 | INFO |  4. DOGUSDT      | BUY  | Price: $  0.0024 | Confidence:  78.4% | Momentum: +2.84%
+2025-10-08 21:31:23 | INFO |  5. AVAXUSDT     | BUY  | Price: $ 29.0780 | Confidence:  76.7% | Momentum: +2.67%
+2025-10-08 21:31:23 | INFO |  6. A8USDT       | BUY  | Price: $  0.0870 | Confidence:  74.5% | Momentum: +2.45%
+2025-10-08 21:31:23 | INFO |  7. AAVEUSDT     | BUY  | Price: $284.9000 | Confidence:  74.2% | Momentum: +2.42%
+2025-10-08 21:31:23 | INFO |  8. ALUUSDT      | BUY  | Price: $  0.0233 | Confidence:  73.6% | Momentum: +2.36%
+2025-10-08 21:31:23 | INFO |  9. AEROUSDT     | BUY  | Price: $  1.1045 | Confidence:  72.9% | Momentum: +2.29%
+2025-10-08 21:31:23 | INFO | 10. ESUSDT       | BUY  | Price: $  0.1272 | Confidence:  72.5% | Momentum: +2.25%
+2025-10-08 21:31:23 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-08 21:31:23 | INFO | 1. BATUSDT - BUY (95.0%) @ $0.153
+2025-10-08 21:31:24 | INFO | Setting leverage for BATUSDT to 1x
+2025-10-08 21:31:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:31:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 21:31:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BATUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '62118.8', 'timeInForce': 'IOC'}
+2025-10-08 21:31:25 | INFO | ✅ Perpetual order placed: 2e89c5cf-5102-4257-b5b5-3721eeb63198
+2025-10-08 21:31:25 | INFO | Setting stop loss via trading stop: BATUSDT @ 0.14841
+2025-10-08 21:31:25 | INFO | ✅ Stop loss set via position management
+2025-10-08 21:31:25 | INFO | Setting take profit via trading stop: BATUSDT @ 0.15453
+2025-10-08 21:31:25 | INFO | ✅ Take profit set via position management
+2025-10-08 21:31:27 | INFO | Setting trailing stop: BATUSDT @ 1.0% = $0.001530 from $0.153
+2025-10-08 21:31:27 | INFO | ✅ Trailing stop set: 1.0% ($0.001530)
+2025-10-08 21:31:27 | INFO | ✅ EXECUTED: BATUSDT BUY 62118.800000 @ $0.153 (Conf: 95.0%)
+2025-10-08 21:31:28 | INFO | 2. CELOUSDT - BUY (87.0%) @ $0.3984
+2025-10-08 21:31:28 | INFO | 3. IPUSDT - BUY (78.8%) @ $9.383
+2025-10-08 21:31:28 | INFO | Setting leverage for IPUSDT to 1x
+2025-10-08 21:31:29 | INFO | ✅ Leverage set to 1x for IPUSDT
+2025-10-08 21:31:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'IPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '916.8', 'timeInForce': 'IOC'}
+2025-10-08 21:31:29 | INFO | ✅ Perpetual order placed: dc2ed722-8bbe-4291-a4f6-228ba15ca5ff
+2025-10-08 21:31:29 | INFO | Setting stop loss via trading stop: IPUSDT @ 9.10151
+2025-10-08 21:31:29 | INFO | ✅ Stop loss set via position management
+2025-10-08 21:31:29 | INFO | Setting take profit via trading stop: IPUSDT @ 9.47683
+2025-10-08 21:31:29 | INFO | ✅ Take profit set via position management
+2025-10-08 21:31:31 | INFO | Setting trailing stop: IPUSDT @ 1.0% = $0.093735 from $9.3735
+2025-10-08 21:31:31 | INFO | ✅ Trailing stop set: 1.0% ($0.093735)
+2025-10-08 21:31:31 | INFO | ✅ EXECUTED: IPUSDT BUY 916.800000 @ $9.383 (Conf: 78.8%)
+2025-10-08 21:31:32 | INFO | 4. DOGUSDT - BUY (78.4%) @ $0.002356
+2025-10-08 21:31:32 | INFO | Setting leverage for DOGUSDT to 1x
+2025-10-08 21:31:33 | INFO | ✅ Leverage set to 1x for DOGUSDT
+2025-10-08 21:31:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOGUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3304700', 'timeInForce': 'IOC'}
+2025-10-08 21:31:33 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:330470000000000 > max_qty:200000000000000 (ErrCode: 10001) (ErrTime: 17:31:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DOGUSDT", "side": "Buy", "orderType": "Market", "qty": "3304700", "timeInForce": "IOC"}.
+2025-10-08 21:31:33 | ERROR | ❌ FAILED: DOGUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:330470000000000 > max_qty:200000000000000 (ErrCode: 10001) (ErrTime: 17:31:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DOGUSDT", "side": "Buy", "orderType": "Market", "qty": "3304700", "timeInForce": "IOC"}.
+2025-10-08 21:31:34 | INFO | 5. AVAXUSDT - BUY (76.7%) @ $29.078
+2025-10-08 21:31:34 | INFO | 6. A8USDT - BUY (74.5%) @ $0.08699
+2025-10-08 21:31:35 | INFO | Setting leverage for A8USDT to 1x
+2025-10-08 21:31:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:31:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "A8USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 21:31:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'A8USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '80000', 'timeInForce': 'IOC'}
+2025-10-08 21:31:35 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8000000000000 > max_qty:1600000000000 (ErrCode: 10001) (ErrTime: 17:31:35).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "A8USDT", "side": "Buy", "orderType": "Market", "qty": "80000", "timeInForce": "IOC"}.
+2025-10-08 21:31:35 | ERROR | ❌ FAILED: A8USDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8000000000000 > max_qty:1600000000000 (ErrCode: 10001) (ErrTime: 17:31:35).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "A8USDT", "side": "Buy", "orderType": "Market", "qty": "80000", "timeInForce": "IOC"}.
+2025-10-08 21:31:36 | INFO | 7. AAVEUSDT - BUY (74.2%) @ $284.9
+2025-10-08 21:31:37 | INFO | Setting leverage for AAVEUSDT to 1x
+2025-10-08 21:31:37 | INFO | ✅ Leverage set to 1x for AAVEUSDT
+2025-10-08 21:31:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AAVEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '27.33', 'timeInForce': 'IOC'}
+2025-10-08 21:31:37 | INFO | ✅ Perpetual order placed: 3bee2441-5f7b-4ff3-8666-89e0966a0ba1
+2025-10-08 21:31:38 | INFO | Setting stop loss via trading stop: AAVEUSDT @ 276.35299999999995
+2025-10-08 21:31:38 | INFO | ✅ Stop loss set via position management
+2025-10-08 21:31:38 | INFO | Setting take profit via trading stop: AAVEUSDT @ 287.74899999999997
+2025-10-08 21:31:38 | INFO | ✅ Take profit set via position management
+2025-10-08 21:31:40 | INFO | Setting trailing stop: AAVEUSDT @ 1.0% = $2.848600 from $284.86
+2025-10-08 21:31:40 | INFO | ✅ Trailing stop set: 1.0% ($2.848600)
+2025-10-08 21:31:40 | INFO | ✅ EXECUTED: AAVEUSDT BUY 27.330000 @ $284.9 (Conf: 74.2%)
+2025-10-08 21:31:40 | INFO | 8. ALUUSDT - BUY (73.6%) @ $0.023257
+2025-10-08 21:31:41 | INFO | Setting leverage for ALUUSDT to 1x
+2025-10-08 21:31:41 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:31:41).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-08 21:31:41 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALUUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '302998', 'timeInForce': 'IOC'}
+2025-10-08 21:31:42 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:30299800000000 > max_qty:15000000000000 (ErrCode: 10001) (ErrTime: 17:31:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALUUSDT", "side": "Buy", "orderType": "Market", "qty": "302998", "timeInForce": "IOC"}.
+2025-10-08 21:31:42 | ERROR | ❌ FAILED: ALUUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:30299800000000 > max_qty:15000000000000 (ErrCode: 10001) (ErrTime: 17:31:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALUUSDT", "side": "Buy", "orderType": "Market", "qty": "302998", "timeInForce": "IOC"}.
+2025-10-08 21:31:42 | INFO | 9. AEROUSDT - BUY (72.9%) @ $1.1045
+2025-10-08 21:31:43 | INFO | Setting leverage for AEROUSDT to 1x
+2025-10-08 21:31:43 | INFO | ✅ Leverage set to 1x for AEROUSDT
+2025-10-08 21:31:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AEROUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6380', 'timeInForce': 'IOC'}
+2025-10-08 21:31:44 | INFO | ✅ Perpetual order placed: 71ec6c4e-ee05-4337-a682-f3b4a77ceda3
+2025-10-08 21:31:44 | INFO | Setting stop loss via trading stop: AEROUSDT @ 1.071365
+2025-10-08 21:31:44 | INFO | ✅ Stop loss set via position management
+2025-10-08 21:31:44 | INFO | Setting take profit via trading stop: AEROUSDT @ 1.115545
+2025-10-08 21:31:44 | INFO | ✅ Take profit set via position management
+2025-10-08 21:31:46 | INFO | Setting trailing stop: AEROUSDT @ 1.0% = $0.011045 from $1.1045
+2025-10-08 21:31:46 | INFO | ✅ Trailing stop set: 1.0% ($0.011045)
+2025-10-08 21:31:46 | INFO | ✅ EXECUTED: AEROUSDT BUY 6380.000000 @ $1.1045 (Conf: 72.9%)
+2025-10-08 21:31:47 | INFO | 10. ESUSDT - BUY (72.5%) @ $0.1272
+2025-10-08 21:31:47 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 3 failed
+2025-10-08 21:31:47 | INFO | 🎉 EXECUTED TRADES:
+2025-10-08 21:31:47 | INFO |    • BATUSDT: LONG 62118.800000 @ $0.153 - SL: $0.1484 TP: $0.1545
+2025-10-08 21:31:47 | INFO |    • IPUSDT: LONG 916.800000 @ $9.383 - SL: $9.1015 TP: $9.4768
+2025-10-08 21:31:47 | INFO |    • AAVEUSDT: LONG 27.330000 @ $284.9 - SL: $276.3530 TP: $287.7490
+2025-10-08 21:31:47 | INFO |    • AEROUSDT: LONG 6380.000000 @ $1.1045 - SL: $1.0714 TP: $1.1155
+2025-10-08 21:31:47 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-08 21:31:47 | INFO | ✅ Found 457 perpetual pairs
+2025-10-08 21:31:47 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-08 21:31:47 | INFO | 🎉 SESSION COMPLETED in 34.6s
+2025-10-08 21:31:47 | INFO | ============================================================
