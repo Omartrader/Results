@@ -740,3 +740,83 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-08 23:46:53 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-08 23:46:53 | INFO | 🎉 SESSION COMPLETED in 38.3s
 2025-10-08 23:46:53 | INFO | ============================================================
+2025-10-09 00:01:02 | INFO | ================================================================================
+2025-10-09 00:01:02 | INFO | NEW PERPETUAL SESSION: 2025-10-09 00:01:02
+2025-10-09 00:01:02 | INFO | ================================================================================
+2025-10-09 00:01:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 00:01:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 00:01:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 00:01:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 00:01:03 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 00:01:03 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 00:01:18 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 00:01:18 | INFO |  1. BROCCOLIUSDT | SELL | Price: $  0.0459 | Confidence:  95.0% | Momentum: -11.07%
+2025-10-09 00:01:18 | INFO |  2. QUSDT        | SELL | Price: $  0.0276 | Confidence:  95.0% | Momentum: -12.48%
+2025-10-09 00:01:18 | INFO |  3. BSUUSDT      | SELL | Price: $  0.2391 | Confidence:  90.9% | Momentum: -4.09%
+2025-10-09 00:01:18 | INFO |  4. NILUSDT      | BUY  | Price: $  0.3445 | Confidence:  77.4% | Momentum: +2.74%
+2025-10-09 00:01:18 | INFO |  5. AIOUSDT      | SELL | Price: $  0.1439 | Confidence:  76.3% | Momentum: -2.63%
+2025-10-09 00:01:18 | INFO |  6. AGTUSDT      | SELL | Price: $  0.0061 | Confidence:  74.5% | Momentum: -2.45%
+2025-10-09 00:01:19 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-09 00:01:19 | INFO | 1. BROCCOLIUSDT - SELL (95.0%) @ $0.04586
+2025-10-09 00:01:20 | INFO | Setting leverage for BROCCOLIUSDT to 1x
+2025-10-09 00:01:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BROCCOLIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 00:01:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BROCCOLIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '206900', 'timeInForce': 'IOC'}
+2025-10-09 00:01:20 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:20690000000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 20:01:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BROCCOLIUSDT", "side": "Sell", "orderType": "Market", "qty": "206900", "timeInForce": "IOC"}.
+2025-10-09 00:01:20 | ERROR | ❌ FAILED: BROCCOLIUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:20690000000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 20:01:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BROCCOLIUSDT", "side": "Sell", "orderType": "Market", "qty": "206900", "timeInForce": "IOC"}.
+2025-10-09 00:01:21 | INFO | 2. QUSDT - SELL (95.0%) @ $0.027592
+2025-10-09 00:01:22 | INFO | Setting leverage for QUSDT to 1x
+2025-10-09 00:01:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "QUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 00:01:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'QUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '343880', 'timeInForce': 'IOC'}
+2025-10-09 00:01:22 | INFO | ✅ Perpetual order placed: 01312a6e-8901-4e60-bcfc-9166f54ed7ce
+2025-10-09 00:01:23 | INFO | Setting stop loss via trading stop: QUSDT @ 0.02841976
+2025-10-09 00:01:23 | INFO | ✅ Stop loss set via position management
+2025-10-09 00:01:23 | INFO | Setting take profit via trading stop: QUSDT @ 0.02731608
+2025-10-09 00:01:23 | INFO | ✅ Take profit set via position management
+2025-10-09 00:01:24 | INFO | Setting trailing stop: QUSDT @ 1.0% = $0.000276 from $0.027636
+2025-10-09 00:01:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000276)
+2025-10-09 00:01:25 | INFO | ✅ EXECUTED: QUSDT SELL 343880.000000 @ $0.027592 (Conf: 95.0%)
+2025-10-09 00:01:25 | INFO | 3. BSUUSDT - SELL (90.9%) @ $0.23908
+2025-10-09 00:01:26 | INFO | Setting leverage for BSUUSDT to 1x
+2025-10-09 00:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BSUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 00:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BSUUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '35921', 'timeInForce': 'IOC'}
+2025-10-09 00:01:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3592100000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 20:01:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BSUUSDT", "side": "Sell", "orderType": "Market", "qty": "35921", "timeInForce": "IOC"}.
+2025-10-09 00:01:26 | ERROR | ❌ FAILED: BSUUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:3592100000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 20:01:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BSUUSDT", "side": "Sell", "orderType": "Market", "qty": "35921", "timeInForce": "IOC"}.
+2025-10-09 00:01:27 | INFO | 4. NILUSDT - BUY (77.4%) @ $0.3445
+2025-10-09 00:01:28 | INFO | Setting leverage for NILUSDT to 1x
+2025-10-09 00:01:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NILUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 00:01:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NILUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '24929', 'timeInForce': 'IOC'}
+2025-10-09 00:01:28 | INFO | ✅ Perpetual order placed: 722b2647-c133-4a0d-b307-77b520d53c1d
+2025-10-09 00:01:29 | INFO | Setting stop loss via trading stop: NILUSDT @ 0.334165
+2025-10-09 00:01:29 | INFO | ✅ Stop loss set via position management
+2025-10-09 00:01:29 | INFO | Setting take profit via trading stop: NILUSDT @ 0.34794499999999995
+2025-10-09 00:01:29 | INFO | ✅ Take profit set via position management
+2025-10-09 00:01:30 | INFO | Setting trailing stop: NILUSDT @ 1.0% = $0.003445 from $0.3445
+2025-10-09 00:01:31 | INFO | ✅ Trailing stop set: 1.0% ($0.003445)
+2025-10-09 00:01:31 | INFO | ✅ EXECUTED: NILUSDT BUY 24929.000000 @ $0.3445 (Conf: 77.4%)
+2025-10-09 00:01:31 | INFO | 5. AIOUSDT - SELL (76.3%) @ $0.14388
+2025-10-09 00:01:31 | INFO | 6. AGTUSDT - SELL (74.5%) @ $0.006085
+2025-10-09 00:01:32 | INFO | Setting leverage for AGTUSDT to 1x
+2025-10-09 00:01:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AGTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 00:01:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AGTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1277390', 'timeInForce': 'IOC'}
+2025-10-09 00:01:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:127739000000000 > max_qty:70000000000000 (ErrCode: 10001) (ErrTime: 20:01:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AGTUSDT", "side": "Sell", "orderType": "Market", "qty": "1277390", "timeInForce": "IOC"}.
+2025-10-09 00:01:32 | ERROR | ❌ FAILED: AGTUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:127739000000000 > max_qty:70000000000000 (ErrCode: 10001) (ErrTime: 20:01:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AGTUSDT", "side": "Sell", "orderType": "Market", "qty": "1277390", "timeInForce": "IOC"}.
+2025-10-09 00:01:33 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 3 failed
+2025-10-09 00:01:33 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 00:01:33 | INFO |    • QUSDT: SHORT 343880.000000 @ $0.027592 - SL: $0.0284 TP: $0.0273
+2025-10-09 00:01:33 | INFO |    • NILUSDT: LONG 24929.000000 @ $0.3445 - SL: $0.3342 TP: $0.3479
+2025-10-09 00:01:33 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 00:01:33 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 00:01:33 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 00:01:33 | INFO | 🎉 SESSION COMPLETED in 30.9s
+2025-10-09 00:01:33 | INFO | ============================================================
