@@ -6173,3 +6173,40 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-09 14:46:53 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 14:46:53 | INFO | 🎉 SESSION COMPLETED in 28.1s
 2025-10-09 14:46:53 | INFO | ============================================================
+2025-10-09 15:01:00 | INFO | ================================================================================
+2025-10-09 15:01:00 | INFO | NEW PERPETUAL SESSION: 2025-10-09 15:01:00
+2025-10-09 15:01:00 | INFO | ================================================================================
+2025-10-09 15:01:00 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 15:01:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 15:01:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 15:01:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 15:01:02 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 15:01:02 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 15:01:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 15:01:12 | INFO |  1. HNTUSDT      | BUY  | Price: $  2.7440 | Confidence:  94.5% | Momentum: +4.45%
+2025-10-09 15:01:12 | INFO |  2. LYNUSDT      | SELL | Price: $  0.2758 | Confidence:  75.4% | Momentum: -2.54%
+2025-10-09 15:01:13 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-09 15:01:13 | INFO | 1. HNTUSDT - BUY (94.5%) @ $2.744
+2025-10-09 15:01:14 | INFO | Setting leverage for HNTUSDT to 1x
+2025-10-09 15:01:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 15:01:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3348.05', 'timeInForce': 'IOC'}
+2025-10-09 15:01:14 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:334805000000 > max_qty:132200000000 (ErrCode: 10001) (ErrTime: 11:01:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HNTUSDT", "side": "Buy", "orderType": "Market", "qty": "3348.05", "timeInForce": "IOC"}.
+2025-10-09 15:01:14 | ERROR | ❌ FAILED: HNTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:334805000000 > max_qty:132200000000 (ErrCode: 10001) (ErrTime: 11:01:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HNTUSDT", "side": "Buy", "orderType": "Market", "qty": "3348.05", "timeInForce": "IOC"}.
+2025-10-09 15:01:15 | INFO | 2. LYNUSDT - SELL (75.4%) @ $0.2758
+2025-10-09 15:01:16 | INFO | Setting leverage for LYNUSDT to 1x
+2025-10-09 15:01:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LYNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 15:01:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LYNUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '33311', 'timeInForce': 'IOC'}
+2025-10-09 15:01:16 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3331100000000 > max_qty:3120000000000 (ErrCode: 10001) (ErrTime: 11:01:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LYNUSDT", "side": "Sell", "orderType": "Market", "qty": "33311", "timeInForce": "IOC"}.
+2025-10-09 15:01:16 | ERROR | ❌ FAILED: LYNUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:3331100000000 > max_qty:3120000000000 (ErrCode: 10001) (ErrTime: 11:01:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LYNUSDT", "side": "Sell", "orderType": "Market", "qty": "33311", "timeInForce": "IOC"}.
+2025-10-09 15:01:17 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 2 failed
+2025-10-09 15:01:17 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 15:01:17 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 15:01:17 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 15:01:17 | INFO | 🎉 SESSION COMPLETED in 16.2s
+2025-10-09 15:01:17 | INFO | ============================================================
