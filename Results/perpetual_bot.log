@@ -8623,3 +8623,56 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 20:31:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 20:31:59 | INFO | 🎉 SESSION COMPLETED in 31.7s
 2025-10-09 20:31:59 | INFO | ============================================================
+2025-10-09 20:46:16 | INFO | ================================================================================
+2025-10-09 20:46:16 | INFO | NEW PERPETUAL SESSION: 2025-10-09 20:46:16
+2025-10-09 20:46:16 | INFO | ================================================================================
+2025-10-09 20:46:16 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 20:46:16 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 20:46:16 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 20:46:16 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 20:46:17 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 20:46:17 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 20:46:28 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 20:46:28 | INFO |  1. ATHUSDT      | BUY  | Price: $  0.0523 | Confidence:  95.0% | Momentum: +5.15%
+2025-10-09 20:46:28 | INFO |  2. MERLUSDT     | SELL | Price: $  0.3258 | Confidence:  86.4% | Momentum: -3.64%
+2025-10-09 20:46:28 | INFO |  3. APTUSDT      | SELL | Price: $  4.8800 | Confidence:  81.6% | Momentum: -3.16%
+2025-10-09 20:46:28 | INFO |  4. SCAUSDT      | SELL | Price: $  0.0948 | Confidence:  79.8% | Momentum: -2.98%
+2025-10-09 20:46:28 | INFO |  5. ETHBTCUSDT   | SELL | Price: $  0.0356 | Confidence:  69.7% | Momentum: -1.97%
+2025-10-09 20:46:28 | INFO |  6. PROVEUSDT    | BUY  | Price: $  0.7860 | Confidence:  67.9% | Momentum: +1.79%
+2025-10-09 20:46:28 | INFO |  7. HUSDT        | SELL | Price: $  0.0699 | Confidence:  67.8% | Momentum: -1.78%
+2025-10-09 20:46:28 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-09 20:46:28 | INFO | 1. ATHUSDT - BUY (95.0%) @ $0.0523
+2025-10-09 20:46:28 | INFO | 2. MERLUSDT - SELL (86.4%) @ $0.3258
+2025-10-09 20:46:29 | INFO | Setting leverage for MERLUSDT to 1x
+2025-10-09 20:46:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:46:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MERLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:46:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MERLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '28251.9', 'timeInForce': 'IOC'}
+2025-10-09 20:46:30 | INFO | ✅ Perpetual order placed: 5e0c2157-b134-4f24-8bf8-5e8cd59e31c8
+2025-10-09 20:46:30 | INFO | Setting stop loss via trading stop: MERLUSDT @ 0.335574
+2025-10-09 20:46:30 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:46:30 | INFO | Setting take profit via trading stop: MERLUSDT @ 0.322542
+2025-10-09 20:46:30 | INFO | ✅ Take profit set via position management
+2025-10-09 20:46:32 | INFO | Setting trailing stop: MERLUSDT @ 1.0% = $0.003261 from $0.32613
+2025-10-09 20:46:32 | INFO | ✅ Trailing stop set: 1.0% ($0.003261)
+2025-10-09 20:46:32 | INFO | ✅ EXECUTED: MERLUSDT SELL 28251.900000 @ $0.3258 (Conf: 86.4%)
+2025-10-09 20:46:33 | INFO | 3. APTUSDT - SELL (81.6%) @ $4.88
+2025-10-09 20:46:33 | INFO | 4. SCAUSDT - SELL (79.8%) @ $0.09475
+2025-10-09 20:46:34 | INFO | Setting leverage for SCAUSDT to 1x
+2025-10-09 20:46:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:46:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SCAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:46:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SCAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '87925.2', 'timeInForce': 'IOC'}
+2025-10-09 20:46:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8792520000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:46:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCAUSDT", "side": "Sell", "orderType": "Market", "qty": "87925.2", "timeInForce": "IOC"}.
+2025-10-09 20:46:34 | ERROR | ❌ FAILED: SCAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:8792520000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:46:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCAUSDT", "side": "Sell", "orderType": "Market", "qty": "87925.2", "timeInForce": "IOC"}.
+2025-10-09 20:46:35 | INFO | 5. ETHBTCUSDT - SELL (69.7%) @ $0.035601
+2025-10-09 20:46:35 | INFO | 6. PROVEUSDT - BUY (67.9%) @ $0.786
+2025-10-09 20:46:35 | INFO | 7. HUSDT - SELL (67.8%) @ $0.069915
+2025-10-09 20:46:35 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 1 failed
+2025-10-09 20:46:35 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 20:46:35 | INFO |    • MERLUSDT: SHORT 28251.900000 @ $0.3258 - SL: $0.3356 TP: $0.3225
+2025-10-09 20:46:35 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 20:46:35 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 20:46:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 20:46:35 | INFO | 🎉 SESSION COMPLETED in 18.5s
+2025-10-09 20:46:35 | INFO | ============================================================
