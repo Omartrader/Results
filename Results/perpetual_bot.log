@@ -4973,3 +4973,47 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 11:01:20 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 11:01:20 | INFO | 🎉 SESSION COMPLETED in 17.8s
 2025-10-09 11:01:20 | INFO | ============================================================
+2025-10-09 11:16:04 | INFO | ================================================================================
+2025-10-09 11:16:04 | INFO | NEW PERPETUAL SESSION: 2025-10-09 11:16:04
+2025-10-09 11:16:04 | INFO | ================================================================================
+2025-10-09 11:16:04 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 11:16:04 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 11:16:04 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 11:16:04 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 11:16:05 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 11:16:05 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 11:16:18 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 11:16:18 | INFO |  1. 4USDT        | SELL | Price: $  0.1870 | Confidence:  95.0% | Momentum: -17.58%
+2025-10-09 11:16:18 | INFO |  2. BROCCOLIUSDT | SELL | Price: $  0.0413 | Confidence:  95.0% | Momentum: -10.38%
+2025-10-09 11:16:18 | INFO |  3. FFUSDT       | SELL | Price: $  0.1510 | Confidence:  95.0% | Momentum: -6.09%
+2025-10-09 11:16:18 | INFO |  4. GRASSUSDT    | SELL | Price: $  0.8085 | Confidence:  95.0% | Momentum: -4.86%
+2025-10-09 11:16:18 | INFO |  5. PUMPFUNUSDT  | SELL | Price: $  0.0058 | Confidence:  95.0% | Momentum: -5.91%
+2025-10-09 11:16:18 | INFO |  6. DRIFTUSDT    | SELL | Price: $  0.8038 | Confidence:  93.9% | Momentum: -4.39%
+2025-10-09 11:16:18 | INFO |  7. ILVUSDT      | SELL | Price: $ 14.3400 | Confidence:  92.7% | Momentum: -4.27%
+2025-10-09 11:16:18 | INFO |  8. LINEAUSDT    | SELL | Price: $  0.0254 | Confidence:  90.4% | Momentum: -4.04%
+2025-10-09 11:16:18 | INFO |  9. ASTRUSDT     | SELL | Price: $  0.0265 | Confidence:  90.2% | Momentum: -4.02%
+2025-10-09 11:16:18 | INFO | 10. AKEUSDT      | SELL | Price: $  0.0014 | Confidence:  89.8% | Momentum: -3.98%
+2025-10-09 11:16:19 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 11:16:19 | INFO | 1. 4USDT - SELL (95.0%) @ $0.187
+2025-10-09 11:16:20 | INFO | Setting leverage for 4USDT to 1x
+2025-10-09 11:16:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:16:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 11:16:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '48746', 'timeInForce': 'IOC'}
+2025-10-09 11:16:20 | INFO | ✅ Perpetual order placed: 62877adf-31bc-4c9a-8cca-23f0ebe5c8eb
+2025-10-09 11:16:21 | INFO | Setting stop loss via trading stop: 4USDT @ 0.19261
+2025-10-09 11:16:21 | INFO | ✅ Stop loss set via position management
+2025-10-09 11:16:21 | INFO | Setting take profit via trading stop: 4USDT @ 0.18513
+2025-10-09 11:16:21 | INFO | ✅ Take profit set via position management
+2025-10-09 11:16:22 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.001846 from $0.1846
+2025-10-09 11:16:23 | ERROR | ❌ Trailing stop exception: can not set tp/sl/ts for zero position (ErrCode: 10001) (ErrTime: 07:16:23).
+Request → POST https://api-demo.bybit.com/v5/position/trading-stop: {"category": "linear", "symbol": "4USDT", "positionIdx": 0, "trailingStop": "0.001846", "tpslMode": "Full"}.
+2025-10-09 11:16:23 | INFO | ✅ EXECUTED: 4USDT SELL 48746.000000 @ $0.187 (Conf: 95.0%)
+2025-10-09 11:16:23 | INFO | 2. BROCCOLIUSDT - SELL (95.0%) @ $0.04125
+2025-10-09 11:16:23 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-09 11:16:23 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 11:16:23 | INFO |    • 4USDT: SHORT 48746.000000 @ $0.187 - SL: $0.1926 TP: $0.1851
+2025-10-09 11:16:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 11:16:24 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 11:16:24 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 11:16:24 | INFO | 🎉 SESSION COMPLETED in 19.3s
+2025-10-09 11:16:24 | INFO | ============================================================
