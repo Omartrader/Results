@@ -9201,3 +9201,130 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 21:46:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 21:46:53 | INFO | 🎉 SESSION COMPLETED in 51.7s
 2025-10-09 21:46:53 | INFO | ============================================================
+2025-10-09 22:01:12 | INFO | ================================================================================
+2025-10-09 22:01:12 | INFO | NEW PERPETUAL SESSION: 2025-10-09 22:01:12
+2025-10-09 22:01:12 | INFO | ================================================================================
+2025-10-09 22:01:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 22:01:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 22:01:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 22:01:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 22:01:14 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 22:01:14 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 22:01:31 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 22:01:31 | INFO |  1. BLESSUSDT    | BUY  | Price: $  0.0449 | Confidence:  95.0% | Momentum: +10.42%
+2025-10-09 22:01:31 | INFO |  2. COAIUSDT     | BUY  | Price: $  5.9597 | Confidence:  95.0% | Momentum: +10.44%
+2025-10-09 22:01:31 | INFO |  3. DOLOUSDT     | BUY  | Price: $  0.1071 | Confidence:  95.0% | Momentum: +4.57%
+2025-10-09 22:01:31 | INFO |  4. DASHUSDT     | BUY  | Price: $ 31.8400 | Confidence:  79.1% | Momentum: +2.91%
+2025-10-09 22:01:31 | INFO |  5. JUSDT        | SELL | Price: $  0.0949 | Confidence:  77.6% | Momentum: -2.76%
+2025-10-09 22:01:31 | INFO |  6. CRVUSDT      | BUY  | Price: $  0.7263 | Confidence:  74.8% | Momentum: +2.48%
+2025-10-09 22:01:31 | INFO |  7. LAUNCHCOINUSDT | BUY  | Price: $  0.1111 | Confidence:  69.5% | Momentum: +1.95%
+2025-10-09 22:01:31 | INFO |  8. ACHUSDT      | BUY  | Price: $  0.0188 | Confidence:  67.9% | Momentum: +1.79%
+2025-10-09 22:01:31 | INFO | 🎯 PROCESSING TOP 8 OPPORTUNITIES:
+2025-10-09 22:01:31 | INFO | 1. BLESSUSDT - BUY (95.0%) @ $0.04495
+2025-10-09 22:01:32 | INFO | Setting leverage for BLESSUSDT to 1x
+2025-10-09 22:01:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BLESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BLESSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '205070', 'timeInForce': 'IOC'}
+2025-10-09 22:01:33 | INFO | ✅ Perpetual order placed: a89416e4-944b-49ee-af7f-f8df9f1aa8a6
+2025-10-09 22:01:33 | INFO | Setting stop loss via trading stop: BLESSUSDT @ 0.043601499999999994
+2025-10-09 22:01:33 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:01:33 | INFO | Setting take profit via trading stop: BLESSUSDT @ 0.045399499999999995
+2025-10-09 22:01:33 | INFO | ✅ Take profit set via position management
+2025-10-09 22:01:35 | INFO | Setting trailing stop: BLESSUSDT @ 1.0% = $0.000450 from $0.045
+2025-10-09 22:01:35 | INFO | ✅ Trailing stop set: 1.0% ($0.000450)
+2025-10-09 22:01:35 | INFO | ✅ EXECUTED: BLESSUSDT BUY 205070.000000 @ $0.04495 (Conf: 95.0%)
+2025-10-09 22:01:36 | INFO | 2. COAIUSDT - BUY (95.0%) @ $5.9597
+2025-10-09 22:01:36 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-09 22:01:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1400', 'timeInForce': 'IOC'}
+2025-10-09 22:01:37 | INFO | ✅ Perpetual order placed: 50f58e17-60e9-4bd6-9c03-2c691515dff9
+2025-10-09 22:01:37 | INFO | Setting stop loss via trading stop: COAIUSDT @ 5.780908999999999
+2025-10-09 22:01:37 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:01:38 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.019297
+2025-10-09 22:01:38 | INFO | ✅ Take profit set via position management
+2025-10-09 22:01:39 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.058885 from $5.8885
+2025-10-09 22:01:39 | INFO | ✅ Trailing stop set: 1.0% ($0.058885)
+2025-10-09 22:01:39 | INFO | ✅ EXECUTED: COAIUSDT BUY 1400.000000 @ $5.9597 (Conf: 95.0%)
+2025-10-09 22:01:40 | INFO | 3. DOLOUSDT - BUY (95.0%) @ $0.10706
+2025-10-09 22:01:41 | INFO | Setting leverage for DOLOUSDT to 1x
+2025-10-09 22:01:41 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:41).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOLOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:41 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOLOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '70534', 'timeInForce': 'IOC'}
+2025-10-09 22:01:41 | INFO | ✅ Perpetual order placed: 82c0e65e-9920-4a94-ac05-e7c03acd58ab
+2025-10-09 22:01:42 | INFO | Setting stop loss via trading stop: DOLOUSDT @ 0.1038482
+2025-10-09 22:01:42 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:01:42 | INFO | Setting take profit via trading stop: DOLOUSDT @ 0.10813060000000001
+2025-10-09 22:01:42 | INFO | ✅ Take profit set via position management
+2025-10-09 22:01:43 | INFO | Setting trailing stop: DOLOUSDT @ 1.0% = $0.001069 from $0.10688
+2025-10-09 22:01:44 | INFO | ✅ Trailing stop set: 1.0% ($0.001069)
+2025-10-09 22:01:44 | INFO | ✅ EXECUTED: DOLOUSDT BUY 70534.000000 @ $0.10706 (Conf: 95.0%)
+2025-10-09 22:01:44 | INFO | 4. DASHUSDT - BUY (79.1%) @ $31.84
+2025-10-09 22:01:45 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-09 22:01:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '214.66', 'timeInForce': 'IOC'}
+2025-10-09 22:01:46 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:21466000000 > max_qty:20800000000 (ErrCode: 10001) (ErrTime: 18:01:46).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DASHUSDT", "side": "Buy", "orderType": "Market", "qty": "214.66", "timeInForce": "IOC"}.
+2025-10-09 22:01:46 | ERROR | ❌ FAILED: DASHUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:21466000000 > max_qty:20800000000 (ErrCode: 10001) (ErrTime: 18:01:46).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DASHUSDT", "side": "Buy", "orderType": "Market", "qty": "214.66", "timeInForce": "IOC"}.
+2025-10-09 22:01:46 | INFO | 5. JUSDT - SELL (77.6%) @ $0.09487
+2025-10-09 22:01:47 | INFO | Setting leverage for JUSDT to 1x
+2025-10-09 22:01:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "JUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '72043.4', 'timeInForce': 'IOC'}
+2025-10-09 22:01:47 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:7204340000000 > max_qty:1900000000000 (ErrCode: 10001) (ErrTime: 18:01:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "JUSDT", "side": "Sell", "orderType": "Market", "qty": "72043.4", "timeInForce": "IOC"}.
+2025-10-09 22:01:47 | ERROR | ❌ FAILED: JUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:7204340000000 > max_qty:1900000000000 (ErrCode: 10001) (ErrTime: 18:01:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "JUSDT", "side": "Sell", "orderType": "Market", "qty": "72043.4", "timeInForce": "IOC"}.
+2025-10-09 22:01:48 | INFO | 6. CRVUSDT - BUY (74.8%) @ $0.7263
+2025-10-09 22:01:49 | INFO | Setting leverage for CRVUSDT to 1x
+2025-10-09 22:01:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CRVUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CRVUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9410.4', 'timeInForce': 'IOC'}
+2025-10-09 22:01:49 | INFO | ✅ Perpetual order placed: 5dc20f9b-e581-432c-8d81-93dbfdf5db84
+2025-10-09 22:01:50 | INFO | Setting stop loss via trading stop: CRVUSDT @ 0.7045109999999999
+2025-10-09 22:01:50 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:01:50 | INFO | Setting take profit via trading stop: CRVUSDT @ 0.733563
+2025-10-09 22:01:50 | INFO | ✅ Take profit set via position management
+2025-10-09 22:01:51 | INFO | Setting trailing stop: CRVUSDT @ 1.0% = $0.007239 from $0.7239
+2025-10-09 22:01:52 | INFO | ✅ Trailing stop set: 1.0% ($0.007239)
+2025-10-09 22:01:52 | INFO | ✅ EXECUTED: CRVUSDT BUY 9410.400000 @ $0.7263 (Conf: 74.8%)
+2025-10-09 22:01:52 | INFO | 7. LAUNCHCOINUSDT - BUY (69.5%) @ $0.11111
+2025-10-09 22:01:53 | INFO | Setting leverage for LAUNCHCOINUSDT to 1x
+2025-10-09 22:01:53 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:53).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUNCHCOINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:01:53 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUNCHCOINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '55675', 'timeInForce': 'IOC'}
+2025-10-09 22:01:54 | INFO | ✅ Perpetual order placed: 53775b9a-ecc4-4677-bcc2-8ff58c891487
+2025-10-09 22:01:54 | INFO | Setting stop loss via trading stop: LAUNCHCOINUSDT @ 0.1077767
+2025-10-09 22:01:54 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:01:54 | INFO | Setting take profit via trading stop: LAUNCHCOINUSDT @ 0.1122211
+2025-10-09 22:01:54 | INFO | ✅ Take profit set via position management
+2025-10-09 22:01:56 | INFO | Setting trailing stop: LAUNCHCOINUSDT @ 1.0% = $0.001105 from $0.11052
+2025-10-09 22:01:56 | INFO | ✅ Trailing stop set: 1.0% ($0.001105)
+2025-10-09 22:01:56 | INFO | ✅ EXECUTED: LAUNCHCOINUSDT BUY 55675.000000 @ $0.11111 (Conf: 69.5%)
+2025-10-09 22:01:57 | INFO | 8. ACHUSDT - BUY (67.9%) @ $0.018772
+2025-10-09 22:01:58 | INFO | Setting leverage for ACHUSDT to 1x
+2025-10-09 22:01:58 | INFO | ✅ Leverage set to 1x for ACHUSDT
+2025-10-09 22:01:58 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '298260', 'timeInForce': 'IOC'}
+2025-10-09 22:01:58 | INFO | ✅ Perpetual order placed: f973292a-c3ce-4153-99df-aada0e2081c9
+2025-10-09 22:01:58 | INFO | Setting stop loss via trading stop: ACHUSDT @ 0.01820884
+2025-10-09 22:01:58 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:01:59 | INFO | Setting take profit via trading stop: ACHUSDT @ 0.01895972
+2025-10-09 22:01:59 | INFO | ✅ Take profit set via position management
+2025-10-09 22:02:00 | INFO | Setting trailing stop: ACHUSDT @ 1.0% = $0.000187 from $0.018737
+2025-10-09 22:02:01 | INFO | ✅ Trailing stop set: 1.0% ($0.000187)
+2025-10-09 22:02:01 | INFO | ✅ EXECUTED: ACHUSDT BUY 298260.000000 @ $0.018772 (Conf: 67.9%)
+2025-10-09 22:02:01 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 2 failed
+2025-10-09 22:02:01 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 22:02:01 | INFO |    • BLESSUSDT: LONG 205070.000000 @ $0.04495 - SL: $0.0436 TP: $0.0454
+2025-10-09 22:02:01 | INFO |    • COAIUSDT: LONG 1400.000000 @ $5.9597 - SL: $5.7809 TP: $6.0193
+2025-10-09 22:02:01 | INFO |    • DOLOUSDT: LONG 70534.000000 @ $0.10706 - SL: $0.1038 TP: $0.1081
+2025-10-09 22:02:01 | INFO |    • CRVUSDT: LONG 9410.400000 @ $0.7263 - SL: $0.7045 TP: $0.7336
+2025-10-09 22:02:01 | INFO |    • LAUNCHCOINUSDT: LONG 55675.000000 @ $0.11111 - SL: $0.1078 TP: $0.1122
+2025-10-09 22:02:01 | INFO |    • ACHUSDT: LONG 298260.000000 @ $0.018772 - SL: $0.0182 TP: $0.0190
+2025-10-09 22:02:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 22:02:01 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 22:02:01 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 22:02:01 | INFO | 🎉 SESSION COMPLETED in 49.1s
+2025-10-09 22:02:01 | INFO | ============================================================
