@@ -104503,3 +104503,47 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.10.2025 19:16:05
+***************************************************************
+Number of open positions: 1
+Function started at 09.10.2025 19:30:57
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (0.7642) 	SMA(14) : 0.87 	Delta :  	Previous STC : 99.25 	STC : 94.40
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (323.49) 	SMA(14) : 332.74 	Delta :  	Previous STC : 97.97 	STC : 89.74
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XPLUSDT    | S |  94.40
+1
+Last close price for XPLUSDT: 0.7641
+Opening Sell for  XPLUSDT
+TP: 0.756459
+SL: 0.779382
+TS: 0.007641
+Order Quantity: 26174.58
+Adjusted qty: 26175.0
+Final Adjusted qty: 26174.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9aabf28f-11fc-45a4-8445-daba04912d3c', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760023880221}
+9aabf28f-11fc-45a4-8445-daba04912d3c
+fetching trade data for :  9aabf28f-11fc-45a4-8445-daba04912d3c
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': '9aabf28f-11fc-45a4-8445-daba04912d3c', 'stopOrderType': 'UNKNOWN', 'execTime': '1760023880220', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7643', 'execPrice': '0.7645', 'markIv': '', 'orderQty': '26174', 'orderPrice': '0.6497', 'execValue': '20010.023', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612591112195, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00551265', 'execId': '0729f0cf-feab-4952-8b2e-ec4c8bbc0dfb', 'marketUnit': '', 'execQty': '26174', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TAOUSDT    | S |  89.74
+1
+Last close price for TAOUSDT: 323.21
+Opening Sell for  TAOUSDT
+TP: 319.9779
+SL: 329.6742
+TS: 3.2321
+Order Quantity: 61.88
+Adjusted qty: 61.88
+Final Adjusted qty: 61.88
+60.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 09.10.2025 19:31:30
