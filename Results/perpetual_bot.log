@@ -10181,3 +10181,73 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 00:16:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 00:16:35 | INFO | 🎉 SESSION COMPLETED in 35.4s
 2025-10-10 00:16:35 | INFO | ============================================================
+2025-10-10 00:30:59 | INFO | ================================================================================
+2025-10-10 00:30:59 | INFO | NEW PERPETUAL SESSION: 2025-10-10 00:30:59
+2025-10-10 00:30:59 | INFO | ================================================================================
+2025-10-10 00:30:59 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 00:30:59 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 00:30:59 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 00:30:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 00:31:01 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 00:31:01 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 00:31:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 00:31:11 | INFO |  1. AIAUSDT      | SELL | Price: $  1.3820 | Confidence:  95.0% | Momentum: -11.12%
+2025-10-10 00:31:11 | INFO |  2. ASPUSDT      | SELL | Price: $  0.1229 | Confidence:  95.0% | Momentum: -5.61%
+2025-10-10 00:31:11 | INFO |  3. EPICUSDT     | SELL | Price: $  1.5088 | Confidence:  95.0% | Momentum: -6.91%
+2025-10-10 00:31:11 | INFO |  4. CELOUSDT     | SELL | Price: $  0.3612 | Confidence:  89.1% | Momentum: -3.91%
+2025-10-10 00:31:11 | INFO |  5. COTIUSDT     | SELL | Price: $  0.0493 | Confidence:  83.9% | Momentum: -3.39%
+2025-10-10 00:31:11 | INFO |  6. HUSDT        | SELL | Price: $  0.0693 | Confidence:  74.9% | Momentum: -2.49%
+2025-10-10 00:31:11 | INFO |  7. MUSDT        | SELL | Price: $  2.0515 | Confidence:  72.8% | Momentum: -2.28%
+2025-10-10 00:31:11 | INFO |  8. FUELUSDT     | SELL | Price: $  0.0046 | Confidence:  72.0% | Momentum: -2.20%
+2025-10-10 00:31:11 | INFO |  9. ESPORTSUSDT  | SELL | Price: $  0.1873 | Confidence:  68.4% | Momentum: -1.84%
+2025-10-10 00:31:11 | INFO | 10. BNTUSDT      | SELL | Price: $  0.6731 | Confidence:  66.5% | Momentum: -1.65%
+2025-10-10 00:31:12 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 00:31:12 | INFO | 1. AIAUSDT - SELL (95.0%) @ $1.382
+2025-10-10 00:31:13 | INFO | Setting leverage for AIAUSDT to 1x
+2025-10-10 00:31:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:31:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 00:31:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '6657', 'timeInForce': 'IOC'}
+2025-10-10 00:31:14 | INFO | ✅ Perpetual order placed: b2c6c9ef-99a6-40a1-b358-f0a9b37fa015
+2025-10-10 00:31:14 | INFO | Setting stop loss via trading stop: AIAUSDT @ 1.42346
+2025-10-10 00:31:14 | INFO | ✅ Stop loss set via position management
+2025-10-10 00:31:15 | INFO | Setting take profit via trading stop: AIAUSDT @ 1.36818
+2025-10-10 00:31:15 | INFO | ✅ Take profit set via position management
+2025-10-10 00:31:16 | INFO | Setting trailing stop: AIAUSDT @ 1.0% = $0.013752 from $1.3752
+2025-10-10 00:31:16 | INFO | ✅ Trailing stop set: 1.0% ($0.013752)
+2025-10-10 00:31:16 | INFO | ✅ EXECUTED: AIAUSDT SELL 6657.000000 @ $1.382 (Conf: 95.0%)
+2025-10-10 00:31:17 | INFO | 2. ASPUSDT - SELL (95.0%) @ $0.1229
+2025-10-10 00:31:18 | INFO | Setting leverage for ASPUSDT to 1x
+2025-10-10 00:31:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:31:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 00:31:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASPUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '67749', 'timeInForce': 'IOC'}
+2025-10-10 00:31:18 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6774900000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 20:31:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Sell", "orderType": "Market", "qty": "67749", "timeInForce": "IOC"}.
+2025-10-10 00:31:18 | ERROR | ❌ FAILED: ASPUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:6774900000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 20:31:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Sell", "orderType": "Market", "qty": "67749", "timeInForce": "IOC"}.
+2025-10-10 00:31:19 | INFO | 3. EPICUSDT - SELL (95.0%) @ $1.5088
+2025-10-10 00:31:19 | INFO | 4. CELOUSDT - SELL (89.1%) @ $0.3612
+2025-10-10 00:31:19 | INFO | 5. COTIUSDT - SELL (83.9%) @ $0.04928
+2025-10-10 00:31:19 | INFO | 6. HUSDT - SELL (74.9%) @ $0.069341
+2025-10-10 00:31:19 | INFO | 7. MUSDT - SELL (72.8%) @ $2.0515
+2025-10-10 00:31:19 | INFO | Setting leverage for MUSDT to 1x
+2025-10-10 00:31:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:31:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 00:31:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4059', 'timeInForce': 'IOC'}
+2025-10-10 00:31:20 | INFO | ✅ Perpetual order placed: 91d28cc5-be51-4efe-8d76-0d736b5454e9
+2025-10-10 00:31:20 | INFO | Setting stop loss via trading stop: MUSDT @ 2.113045
+2025-10-10 00:31:20 | INFO | ✅ Stop loss set via position management
+2025-10-10 00:31:21 | INFO | Setting take profit via trading stop: MUSDT @ 2.030985
+2025-10-10 00:31:21 | INFO | ✅ Take profit set via position management
+2025-10-10 00:31:22 | INFO | Setting trailing stop: MUSDT @ 1.0% = $0.020514 from $2.0514
+2025-10-10 00:31:23 | INFO | ✅ Trailing stop set: 1.0% ($0.020514)
+2025-10-10 00:31:23 | INFO | ✅ EXECUTED: MUSDT SELL 4059.000000 @ $2.0515 (Conf: 72.8%)
+2025-10-10 00:31:23 | INFO | 8. FUELUSDT - SELL (72.0%) @ $0.004586
+2025-10-10 00:31:23 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 1 failed
+2025-10-10 00:31:23 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 00:31:23 | INFO |    • AIAUSDT: SHORT 6657.000000 @ $1.382 - SL: $1.4235 TP: $1.3682
+2025-10-10 00:31:23 | INFO |    • MUSDT: SHORT 4059.000000 @ $2.0515 - SL: $2.1130 TP: $2.0310
+2025-10-10 00:31:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 00:31:23 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 00:31:23 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 00:31:23 | INFO | 🎉 SESSION COMPLETED in 23.9s
+2025-10-10 00:31:23 | INFO | ============================================================
