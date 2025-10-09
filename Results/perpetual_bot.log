@@ -9047,3 +9047,157 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 21:31:58 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 21:31:58 | INFO | 🎉 SESSION COMPLETED in 37.9s
 2025-10-09 21:31:58 | INFO | ============================================================
+2025-10-09 21:46:01 | INFO | ================================================================================
+2025-10-09 21:46:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 21:46:01
+2025-10-09 21:46:01 | INFO | ================================================================================
+2025-10-09 21:46:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 21:46:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 21:46:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 21:46:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 21:46:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 21:46:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 21:46:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 21:46:12 | INFO |  1. A2ZUSDT      | BUY  | Price: $  0.0059 | Confidence:  95.0% | Momentum: +8.82%
+2025-10-09 21:46:12 | INFO |  2. ACEUSDT      | BUY  | Price: $  0.4780 | Confidence:  95.0% | Momentum: +13.49%
+2025-10-09 21:46:12 | INFO |  3. ATHUSDT      | BUY  | Price: $  0.0527 | Confidence:  95.0% | Momentum: +6.87%
+2025-10-09 21:46:12 | INFO |  4. BATUSDT      | BUY  | Price: $  0.1584 | Confidence:  95.0% | Momentum: +5.18%
+2025-10-09 21:46:12 | INFO |  5. BLESSUSDT    | SELL | Price: $  0.0440 | Confidence:  95.0% | Momentum: -6.44%
+2025-10-09 21:46:12 | INFO |  6. KGENUSDT     | SELL | Price: $  0.1556 | Confidence:  95.0% | Momentum: -23.05%
+2025-10-09 21:46:12 | INFO |  7. HIFIUSDT     | BUY  | Price: $  0.0805 | Confidence:  89.4% | Momentum: +3.94%
+2025-10-09 21:46:12 | INFO |  8. ILVUSDT      | BUY  | Price: $ 14.3300 | Confidence:  89.2% | Momentum: +3.92%
+2025-10-09 21:46:12 | INFO |  9. KAVAUSDT     | BUY  | Price: $  0.3340 | Confidence:  85.3% | Momentum: +3.53%
+2025-10-09 21:46:12 | INFO | 10. PIXELUSDT    | BUY  | Price: $  0.0268 | Confidence:  85.1% | Momentum: +3.51%
+2025-10-09 21:46:13 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 21:46:13 | INFO | 1. A2ZUSDT - BUY (95.0%) @ $0.005935
+2025-10-09 21:46:14 | INFO | Setting leverage for A2ZUSDT to 1x
+2025-10-09 21:46:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "A2ZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'A2ZUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1550500', 'timeInForce': 'IOC'}
+2025-10-09 21:46:14 | INFO | ✅ Perpetual order placed: 4bf34ace-bdc8-47a2-9f26-a7472eaedc1c
+2025-10-09 21:46:15 | INFO | Setting stop loss via trading stop: A2ZUSDT @ 0.00575695
+2025-10-09 21:46:15 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:15 | INFO | Setting take profit via trading stop: A2ZUSDT @ 0.00599435
+2025-10-09 21:46:15 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:16 | INFO | Setting trailing stop: A2ZUSDT @ 1.0% = $0.000060 from $0.00596
+2025-10-09 21:46:17 | INFO | ✅ Trailing stop set: 1.0% ($0.000060)
+2025-10-09 21:46:17 | INFO | ✅ EXECUTED: A2ZUSDT BUY 1550500.000000 @ $0.005935 (Conf: 95.0%)
+2025-10-09 21:46:17 | INFO | 2. ACEUSDT - BUY (95.0%) @ $0.478
+2025-10-09 21:46:18 | INFO | Setting leverage for ACEUSDT to 1x
+2025-10-09 21:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ACEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '17424.7', 'timeInForce': 'IOC'}
+2025-10-09 21:46:19 | INFO | ✅ Perpetual order placed: af306584-2acb-4f32-94aa-148f051d1196
+2025-10-09 21:46:19 | INFO | Setting stop loss via trading stop: ACEUSDT @ 0.46365999999999996
+2025-10-09 21:46:19 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:19 | INFO | Setting take profit via trading stop: ACEUSDT @ 0.48278
+2025-10-09 21:46:19 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:21 | INFO | Setting trailing stop: ACEUSDT @ 1.0% = $0.004815 from $0.4815
+2025-10-09 21:46:21 | INFO | ✅ Trailing stop set: 1.0% ($0.004815)
+2025-10-09 21:46:21 | INFO | ✅ EXECUTED: ACEUSDT BUY 17424.700000 @ $0.478 (Conf: 95.0%)
+2025-10-09 21:46:22 | INFO | 3. ATHUSDT - BUY (95.0%) @ $0.05275
+2025-10-09 21:46:22 | INFO | 4. BATUSDT - BUY (95.0%) @ $0.1584
+2025-10-09 21:46:22 | INFO | Setting leverage for BATUSDT to 1x
+2025-10-09 21:46:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BATUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '47591.8', 'timeInForce': 'IOC'}
+2025-10-09 21:46:23 | INFO | ✅ Perpetual order placed: 132b956d-7a06-4f5e-afc4-a7a25157e0c9
+2025-10-09 21:46:23 | INFO | Setting stop loss via trading stop: BATUSDT @ 0.153648
+2025-10-09 21:46:23 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:24 | INFO | Setting take profit via trading stop: BATUSDT @ 0.15998400000000002
+2025-10-09 21:46:24 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:25 | INFO | Setting trailing stop: BATUSDT @ 1.0% = $0.001587 from $0.1587
+2025-10-09 21:46:25 | INFO | ✅ Trailing stop set: 1.0% ($0.001587)
+2025-10-09 21:46:25 | INFO | ✅ EXECUTED: BATUSDT BUY 47591.800000 @ $0.1584 (Conf: 95.0%)
+2025-10-09 21:46:26 | INFO | 5. BLESSUSDT - SELL (95.0%) @ $0.04402
+2025-10-09 21:46:27 | INFO | Setting leverage for BLESSUSDT to 1x
+2025-10-09 21:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BLESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BLESSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '155000', 'timeInForce': 'IOC'}
+2025-10-09 21:46:27 | INFO | ✅ Perpetual order placed: 7753a42d-800c-41e5-8511-1ee60b33ed59
+2025-10-09 21:46:27 | INFO | Setting stop loss via trading stop: BLESSUSDT @ 0.045340599999999995
+2025-10-09 21:46:27 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:28 | INFO | Setting take profit via trading stop: BLESSUSDT @ 0.043579799999999995
+2025-10-09 21:46:28 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:29 | INFO | Setting trailing stop: BLESSUSDT @ 1.0% = $0.000441 from $0.04409
+2025-10-09 21:46:29 | INFO | ✅ Trailing stop set: 1.0% ($0.000441)
+2025-10-09 21:46:29 | INFO | ✅ EXECUTED: BLESSUSDT SELL 155000.000000 @ $0.04402 (Conf: 95.0%)
+2025-10-09 21:46:30 | INFO | 6. KGENUSDT - SELL (95.0%) @ $0.1556
+2025-10-09 21:46:31 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-09 21:46:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '39689', 'timeInForce': 'IOC'}
+2025-10-09 21:46:32 | INFO | ✅ Perpetual order placed: 115b42ab-1b92-4fe6-9240-6ca006909562
+2025-10-09 21:46:32 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.160268
+2025-10-09 21:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:32 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.154044
+2025-10-09 21:46:32 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:34 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.001557 from $0.1557
+2025-10-09 21:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.001557)
+2025-10-09 21:46:34 | INFO | ✅ EXECUTED: KGENUSDT SELL 39689.000000 @ $0.1556 (Conf: 95.0%)
+2025-10-09 21:46:34 | INFO | 7. HIFIUSDT - BUY (89.4%) @ $0.08047
+2025-10-09 21:46:35 | INFO | Setting leverage for HIFIUSDT to 1x
+2025-10-09 21:46:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HIFIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HIFIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '69460', 'timeInForce': 'IOC'}
+2025-10-09 21:46:36 | INFO | ✅ Perpetual order placed: e94ffd09-72f0-4410-a9d6-4d96d52889cc
+2025-10-09 21:46:36 | INFO | Setting stop loss via trading stop: HIFIUSDT @ 0.0780559
+2025-10-09 21:46:36 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:36 | INFO | Setting take profit via trading stop: HIFIUSDT @ 0.0812747
+2025-10-09 21:46:36 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:38 | INFO | Setting trailing stop: HIFIUSDT @ 1.0% = $0.000805 from $0.08047
+2025-10-09 21:46:38 | INFO | ✅ Trailing stop set: 1.0% ($0.000805)
+2025-10-09 21:46:38 | INFO | ✅ EXECUTED: HIFIUSDT BUY 69460.000000 @ $0.08047 (Conf: 89.4%)
+2025-10-09 21:46:39 | INFO | 8. ILVUSDT - BUY (89.2%) @ $14.33
+2025-10-09 21:46:40 | INFO | Setting leverage for ILVUSDT to 1x
+2025-10-09 21:46:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ILVUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ILVUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '353.03', 'timeInForce': 'IOC'}
+2025-10-09 21:46:40 | INFO | ✅ Perpetual order placed: 0791cdd7-1818-4951-8540-8e6b8cb0736a
+2025-10-09 21:46:41 | INFO | Setting stop loss via trading stop: ILVUSDT @ 13.9001
+2025-10-09 21:46:41 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:41 | INFO | Setting take profit via trading stop: ILVUSDT @ 14.4733
+2025-10-09 21:46:41 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:43 | INFO | Setting trailing stop: ILVUSDT @ 1.0% = $0.143400 from $14.34
+2025-10-09 21:46:43 | INFO | ✅ Trailing stop set: 1.0% ($0.143400)
+2025-10-09 21:46:43 | INFO | ✅ EXECUTED: ILVUSDT BUY 353.030000 @ $14.33 (Conf: 89.2%)
+2025-10-09 21:46:43 | INFO | 9. KAVAUSDT - BUY (85.3%) @ $0.334
+2025-10-09 21:46:44 | INFO | Setting leverage for KAVAUSDT to 1x
+2025-10-09 21:46:45 | INFO | ✅ Leverage set to 1x for KAVAUSDT
+2025-10-09 21:46:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KAVAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '13709.2', 'timeInForce': 'IOC'}
+2025-10-09 21:46:45 | INFO | ✅ Perpetual order placed: 5e15a5ff-eeff-40e3-a855-79fc1804cf99
+2025-10-09 21:46:45 | INFO | Setting stop loss via trading stop: KAVAUSDT @ 0.32398
+2025-10-09 21:46:45 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:45 | INFO | Setting take profit via trading stop: KAVAUSDT @ 0.33734000000000003
+2025-10-09 21:46:45 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:47 | INFO | Setting trailing stop: KAVAUSDT @ 1.0% = $0.003348 from $0.3348
+2025-10-09 21:46:47 | INFO | ✅ Trailing stop set: 1.0% ($0.003348)
+2025-10-09 21:46:47 | INFO | ✅ EXECUTED: KAVAUSDT BUY 13709.200000 @ $0.334 (Conf: 85.3%)
+2025-10-09 21:46:48 | INFO | 10. PIXELUSDT - BUY (85.1%) @ $0.0268
+2025-10-09 21:46:49 | INFO | Setting leverage for PIXELUSDT to 1x
+2025-10-09 21:46:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PIXELUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 21:46:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PIXELUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '154639', 'timeInForce': 'IOC'}
+2025-10-09 21:46:49 | INFO | ✅ Perpetual order placed: e2f1a339-d7d1-4266-ac5b-47f39db9dc03
+2025-10-09 21:46:50 | INFO | Setting stop loss via trading stop: PIXELUSDT @ 0.025996000000000002
+2025-10-09 21:46:50 | INFO | ✅ Stop loss set via position management
+2025-10-09 21:46:50 | INFO | Setting take profit via trading stop: PIXELUSDT @ 0.027068000000000002
+2025-10-09 21:46:50 | INFO | ✅ Take profit set via position management
+2025-10-09 21:46:52 | INFO | Setting trailing stop: PIXELUSDT @ 1.0% = $0.000269 from $0.02687
+2025-10-09 21:46:53 | INFO | ✅ Trailing stop set: 1.0% ($0.000269)
+2025-10-09 21:46:53 | INFO | ✅ EXECUTED: PIXELUSDT BUY 154639.000000 @ $0.0268 (Conf: 85.1%)
+2025-10-09 21:46:53 | INFO | 📊 EXECUTION SUMMARY: 9 successful, 0 failed
+2025-10-09 21:46:53 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 21:46:53 | INFO |    • A2ZUSDT: LONG 1550500.000000 @ $0.005935 - SL: $0.0058 TP: $0.0060
+2025-10-09 21:46:53 | INFO |    • ACEUSDT: LONG 17424.700000 @ $0.478 - SL: $0.4637 TP: $0.4828
+2025-10-09 21:46:53 | INFO |    • BATUSDT: LONG 47591.800000 @ $0.1584 - SL: $0.1536 TP: $0.1600
+2025-10-09 21:46:53 | INFO |    • BLESSUSDT: SHORT 155000.000000 @ $0.04402 - SL: $0.0453 TP: $0.0436
+2025-10-09 21:46:53 | INFO |    • KGENUSDT: SHORT 39689.000000 @ $0.1556 - SL: $0.1603 TP: $0.1540
+2025-10-09 21:46:53 | INFO |    • HIFIUSDT: LONG 69460.000000 @ $0.08047 - SL: $0.0781 TP: $0.0813
+2025-10-09 21:46:53 | INFO |    • ILVUSDT: LONG 353.030000 @ $14.33 - SL: $13.9001 TP: $14.4733
+2025-10-09 21:46:53 | INFO |    • KAVAUSDT: LONG 13709.200000 @ $0.334 - SL: $0.3240 TP: $0.3373
+2025-10-09 21:46:53 | INFO |    • PIXELUSDT: LONG 154639.000000 @ $0.0268 - SL: $0.0260 TP: $0.0271
+2025-10-09 21:46:53 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 21:46:53 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 21:46:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 21:46:53 | INFO | 🎉 SESSION COMPLETED in 51.7s
+2025-10-09 21:46:53 | INFO | ============================================================
