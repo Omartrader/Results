@@ -7506,3 +7506,148 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 18:02:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 18:02:05 | INFO | 🎉 SESSION COMPLETED in 50.5s
 2025-10-09 18:02:05 | INFO | ============================================================
+2025-10-09 18:16:23 | INFO | ================================================================================
+2025-10-09 18:16:23 | INFO | NEW PERPETUAL SESSION: 2025-10-09 18:16:23
+2025-10-09 18:16:23 | INFO | ================================================================================
+2025-10-09 18:16:23 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 18:16:23 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 18:16:23 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 18:16:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 18:16:24 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 18:16:24 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 18:16:34 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 18:16:34 | INFO |  1. 1000FLOKIUSDT | SELL | Price: $  0.0930 | Confidence:  95.0% | Momentum: -4.74%
+2025-10-09 18:16:34 | INFO |  2. 1000NEIROCTOUSDT | SELL | Price: $  0.2669 | Confidence:  95.0% | Momentum: -5.32%
+2025-10-09 18:16:34 | INFO |  3. APEXUSDT     | SELL | Price: $  1.7236 | Confidence:  95.0% | Momentum: -9.93%
+2025-10-09 18:16:34 | INFO |  4. ASPUSDT      | SELL | Price: $  0.1302 | Confidence:  95.0% | Momentum: -16.70%
+2025-10-09 18:16:34 | INFO |  5. AVAAIUSDT    | SELL | Price: $  0.0182 | Confidence:  95.0% | Momentum: -4.70%
+2025-10-09 18:16:34 | INFO |  6. ASTERUSDT    | SELL | Price: $  1.7807 | Confidence:  95.0% | Momentum: -5.09%
+2025-10-09 18:16:34 | INFO |  7. AVNTUSDT     | SELL | Price: $  0.8298 | Confidence:  95.0% | Momentum: -5.59%
+2025-10-09 18:16:34 | INFO |  8. BERAUSDT     | SELL | Price: $  2.6790 | Confidence:  95.0% | Momentum: -4.76%
+2025-10-09 18:16:34 | INFO |  9. CHILLGUYUSDT | SELL | Price: $  0.0407 | Confidence:  95.0% | Momentum: -5.26%
+2025-10-09 18:16:34 | INFO | 10. EPTUSDT      | SELL | Price: $  0.0051 | Confidence:  95.0% | Momentum: -7.11%
+2025-10-09 18:16:35 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 18:16:35 | INFO | 1. 1000FLOKIUSDT - SELL (95.0%) @ $0.09302
+2025-10-09 18:16:35 | INFO | 2. 1000NEIROCTOUSDT - SELL (95.0%) @ $0.2669
+2025-10-09 18:16:36 | INFO | Setting leverage for 1000NEIROCTOUSDT to 1x
+2025-10-09 18:16:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000NEIROCTOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:16:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000NEIROCTOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '34236', 'timeInForce': 'IOC'}
+2025-10-09 18:16:37 | INFO | ✅ Perpetual order placed: 3ab57817-76da-4270-98de-8fdd0d0071e1
+2025-10-09 18:16:37 | INFO | Setting stop loss via trading stop: 1000NEIROCTOUSDT @ 0.274907
+2025-10-09 18:16:37 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:16:37 | INFO | Setting take profit via trading stop: 1000NEIROCTOUSDT @ 0.26423100000000005
+2025-10-09 18:16:37 | INFO | ✅ Take profit set via position management
+2025-10-09 18:16:39 | INFO | Setting trailing stop: 1000NEIROCTOUSDT @ 1.0% = $0.002669 from $0.2669
+2025-10-09 18:16:39 | INFO | ✅ Trailing stop set: 1.0% ($0.002669)
+2025-10-09 18:16:39 | INFO | ✅ EXECUTED: 1000NEIROCTOUSDT SELL 34236.000000 @ $0.2669 (Conf: 95.0%)
+2025-10-09 18:16:40 | INFO | 3. APEXUSDT - SELL (95.0%) @ $1.7236
+2025-10-09 18:16:41 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-09 18:16:41 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:41).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:16:41 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4798.3', 'timeInForce': 'IOC'}
+2025-10-09 18:16:41 | INFO | ✅ Perpetual order placed: bd1cba20-5f28-4447-bbe0-9bc33484b7c7
+2025-10-09 18:16:42 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.775308
+2025-10-09 18:16:42 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:16:42 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.706364
+2025-10-09 18:16:42 | INFO | ✅ Take profit set via position management
+2025-10-09 18:16:44 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.017234 from $1.7234
+2025-10-09 18:16:44 | INFO | ✅ Trailing stop set: 1.0% ($0.017234)
+2025-10-09 18:16:44 | INFO | ✅ EXECUTED: APEXUSDT SELL 4798.300000 @ $1.7236 (Conf: 95.0%)
+2025-10-09 18:16:44 | INFO | 4. ASPUSDT - SELL (95.0%) @ $0.1302
+2025-10-09 18:16:45 | INFO | Setting leverage for ASPUSDT to 1x
+2025-10-09 18:16:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:16:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASPUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '57492', 'timeInForce': 'IOC'}
+2025-10-09 18:16:46 | INFO | ✅ Perpetual order placed: 7fef5006-97e3-4e19-8bf9-7b7ce551c429
+2025-10-09 18:16:46 | INFO | Setting stop loss via trading stop: ASPUSDT @ 0.134106
+2025-10-09 18:16:46 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:16:47 | INFO | Setting take profit via trading stop: ASPUSDT @ 0.128898
+2025-10-09 18:16:47 | INFO | ✅ Take profit set via position management
+2025-10-09 18:16:48 | INFO | Setting trailing stop: ASPUSDT @ 1.0% = $0.001302 from $0.1302
+2025-10-09 18:16:48 | INFO | ✅ Trailing stop set: 1.0% ($0.001302)
+2025-10-09 18:16:48 | INFO | ✅ EXECUTED: ASPUSDT SELL 57492.000000 @ $0.1302 (Conf: 95.0%)
+2025-10-09 18:16:49 | INFO | 5. AVAAIUSDT - SELL (95.0%) @ $0.01824
+2025-10-09 18:16:50 | INFO | Setting leverage for AVAAIUSDT to 1x
+2025-10-09 18:16:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVAAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:16:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVAAIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '371437', 'timeInForce': 'IOC'}
+2025-10-09 18:16:50 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:37143700000000 > max_qty:8900000000000 (ErrCode: 10001) (ErrTime: 14:16:50).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AVAAIUSDT", "side": "Sell", "orderType": "Market", "qty": "371437", "timeInForce": "IOC"}.
+2025-10-09 18:16:50 | ERROR | ❌ FAILED: AVAAIUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:37143700000000 > max_qty:8900000000000 (ErrCode: 10001) (ErrTime: 14:16:50).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AVAAIUSDT", "side": "Sell", "orderType": "Market", "qty": "371437", "timeInForce": "IOC"}.
+2025-10-09 18:16:51 | INFO | 6. ASTERUSDT - SELL (95.0%) @ $1.7807
+2025-10-09 18:16:52 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-09 18:16:52 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:52).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:16:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3805', 'timeInForce': 'IOC'}
+2025-10-09 18:16:53 | INFO | ✅ Perpetual order placed: cb4e6f6a-dc4f-45a2-bf38-57781b81ae59
+2025-10-09 18:16:53 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.834121
+2025-10-09 18:16:53 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:16:53 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.762893
+2025-10-09 18:16:53 | INFO | ✅ Take profit set via position management
+2025-10-09 18:16:55 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.017844 from $1.7844
+2025-10-09 18:16:55 | INFO | ✅ Trailing stop set: 1.0% ($0.017844)
+2025-10-09 18:16:55 | INFO | ✅ EXECUTED: ASTERUSDT SELL 3805.000000 @ $1.7807 (Conf: 95.0%)
+2025-10-09 18:16:56 | INFO | 7. AVNTUSDT - SELL (95.0%) @ $0.8298
+2025-10-09 18:16:57 | INFO | Setting leverage for AVNTUSDT to 1x
+2025-10-09 18:16:57 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:57).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:16:57 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVNTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '7390', 'timeInForce': 'IOC'}
+2025-10-09 18:16:58 | INFO | ✅ Perpetual order placed: ce0b123c-a10a-4901-8619-733454caa6c4
+2025-10-09 18:16:58 | INFO | Setting stop loss via trading stop: AVNTUSDT @ 0.854694
+2025-10-09 18:16:58 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:16:58 | INFO | Setting take profit via trading stop: AVNTUSDT @ 0.821502
+2025-10-09 18:16:58 | INFO | ✅ Take profit set via position management
+2025-10-09 18:17:00 | INFO | Setting trailing stop: AVNTUSDT @ 1.0% = $0.008289 from $0.8289
+2025-10-09 18:17:00 | INFO | ✅ Trailing stop set: 1.0% ($0.008289)
+2025-10-09 18:17:00 | INFO | ✅ EXECUTED: AVNTUSDT SELL 7390.000000 @ $0.8298 (Conf: 95.0%)
+2025-10-09 18:17:00 | INFO | 8. BERAUSDT - SELL (95.0%) @ $2.679
+2025-10-09 18:17:01 | INFO | Setting leverage for BERAUSDT to 1x
+2025-10-09 18:17:02 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:17:02).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BERAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:17:02 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BERAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '2072', 'timeInForce': 'IOC'}
+2025-10-09 18:17:02 | INFO | ✅ Perpetual order placed: a6a9e21c-955e-435d-890a-b724090008ac
+2025-10-09 18:17:02 | INFO | Setting stop loss via trading stop: BERAUSDT @ 2.75937
+2025-10-09 18:17:02 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:17:03 | INFO | Setting take profit via trading stop: BERAUSDT @ 2.6522099999999997
+2025-10-09 18:17:03 | INFO | ✅ Take profit set via position management
+2025-10-09 18:17:04 | INFO | Setting trailing stop: BERAUSDT @ 1.0% = $0.026790 from $2.679
+2025-10-09 18:17:05 | INFO | ✅ Trailing stop set: 1.0% ($0.026790)
+2025-10-09 18:17:05 | INFO | ✅ EXECUTED: BERAUSDT SELL 2072.000000 @ $2.679 (Conf: 95.0%)
+2025-10-09 18:17:05 | INFO | 9. CHILLGUYUSDT - SELL (95.0%) @ $0.040695
+2025-10-09 18:17:06 | INFO | Setting leverage for CHILLGUYUSDT to 1x
+2025-10-09 18:17:06 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:17:06).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CHILLGUYUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:17:06 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CHILLGUYUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '123435', 'timeInForce': 'IOC'}
+2025-10-09 18:17:06 | INFO | ✅ Perpetual order placed: 35433f5e-fa96-4e6a-ad23-083cfc3d616a
+2025-10-09 18:17:07 | INFO | Setting stop loss via trading stop: CHILLGUYUSDT @ 0.041915850000000004
+2025-10-09 18:17:07 | INFO | ✅ Stop loss set via position management
+2025-10-09 18:17:07 | INFO | Setting take profit via trading stop: CHILLGUYUSDT @ 0.04028805
+2025-10-09 18:17:07 | INFO | ✅ Take profit set via position management
+2025-10-09 18:17:08 | INFO | Setting trailing stop: CHILLGUYUSDT @ 1.0% = $0.000407 from $0.040678
+2025-10-09 18:17:09 | INFO | ✅ Trailing stop set: 1.0% ($0.000407)
+2025-10-09 18:17:09 | INFO | ✅ EXECUTED: CHILLGUYUSDT SELL 123435.000000 @ $0.040695 (Conf: 95.0%)
+2025-10-09 18:17:09 | INFO | 10. EPTUSDT - SELL (95.0%) @ $0.005066
+2025-10-09 18:17:10 | INFO | Setting leverage for EPTUSDT to 1x
+2025-10-09 18:17:10 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:17:10).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EPTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 18:17:10 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EPTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '897450', 'timeInForce': 'IOC'}
+2025-10-09 18:17:10 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:89745000000000 > max_qty:44000000000000 (ErrCode: 10001) (ErrTime: 14:17:10).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EPTUSDT", "side": "Sell", "orderType": "Market", "qty": "897450", "timeInForce": "IOC"}.
+2025-10-09 18:17:10 | ERROR | ❌ FAILED: EPTUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:89745000000000 > max_qty:44000000000000 (ErrCode: 10001) (ErrTime: 14:17:10).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EPTUSDT", "side": "Sell", "orderType": "Market", "qty": "897450", "timeInForce": "IOC"}.
+2025-10-09 18:17:11 | INFO | 📊 EXECUTION SUMMARY: 7 successful, 2 failed
+2025-10-09 18:17:11 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 18:17:11 | INFO |    • 1000NEIROCTOUSDT: SHORT 34236.000000 @ $0.2669 - SL: $0.2749 TP: $0.2642
+2025-10-09 18:17:11 | INFO |    • APEXUSDT: SHORT 4798.300000 @ $1.7236 - SL: $1.7753 TP: $1.7064
+2025-10-09 18:17:11 | INFO |    • ASPUSDT: SHORT 57492.000000 @ $0.1302 - SL: $0.1341 TP: $0.1289
+2025-10-09 18:17:11 | INFO |    • ASTERUSDT: SHORT 3805.000000 @ $1.7807 - SL: $1.8341 TP: $1.7629
+2025-10-09 18:17:11 | INFO |    • AVNTUSDT: SHORT 7390.000000 @ $0.8298 - SL: $0.8547 TP: $0.8215
+2025-10-09 18:17:11 | INFO |    • BERAUSDT: SHORT 2072.000000 @ $2.679 - SL: $2.7594 TP: $2.6522
+2025-10-09 18:17:11 | INFO |    • CHILLGUYUSDT: SHORT 123435.000000 @ $0.040695 - SL: $0.0419 TP: $0.0403
+2025-10-09 18:17:11 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 18:17:11 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 18:17:11 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 18:17:11 | INFO | 🎉 SESSION COMPLETED in 48.2s
+2025-10-09 18:17:11 | INFO | ============================================================
