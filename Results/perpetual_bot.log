@@ -10949,3 +10949,129 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 02:16:47 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 02:16:47 | INFO | 🎉 SESSION COMPLETED in 36.0s
 2025-10-10 02:16:47 | INFO | ============================================================
+2025-10-10 02:31:01 | INFO | ================================================================================
+2025-10-10 02:31:01 | INFO | NEW PERPETUAL SESSION: 2025-10-10 02:31:01
+2025-10-10 02:31:01 | INFO | ================================================================================
+2025-10-10 02:31:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 02:31:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 02:31:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 02:31:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 02:31:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 02:31:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 02:31:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 02:31:11 | INFO |  1. ALICEUSDT    | BUY  | Price: $  0.4872 | Confidence:  95.0% | Momentum: +26.58%
+2025-10-10 02:31:11 | INFO |  2. BANKUSDT     | BUY  | Price: $  0.1331 | Confidence:  95.0% | Momentum: +4.64%
+2025-10-10 02:31:11 | INFO |  3. CHRUSDT      | BUY  | Price: $  0.0869 | Confidence:  95.0% | Momentum: +4.89%
+2025-10-10 02:31:11 | INFO |  4. COOKUSDT     | SELL | Price: $  0.0129 | Confidence:  95.0% | Momentum: -6.56%
+2025-10-10 02:31:11 | INFO |  5. PIXELUSDT    | BUY  | Price: $  0.0268 | Confidence:  89.2% | Momentum: +3.92%
+2025-10-10 02:31:11 | INFO |  6. KAVAUSDT     | BUY  | Price: $  0.3347 | Confidence:  88.2% | Momentum: +3.82%
+2025-10-10 02:31:11 | INFO |  7. BDXNUSDT     | BUY  | Price: $  0.0381 | Confidence:  87.0% | Momentum: +3.70%
+2025-10-10 02:31:11 | INFO |  8. PHBUSDT      | BUY  | Price: $  0.5747 | Confidence:  81.0% | Momentum: +3.10%
+2025-10-10 02:31:11 | INFO |  9. FIOUSDT      | BUY  | Price: $  0.0161 | Confidence:  77.4% | Momentum: +2.74%
+2025-10-10 02:31:11 | INFO | 10. 4USDT        | SELL | Price: $  0.1665 | Confidence:  76.9% | Momentum: -2.69%
+2025-10-10 02:31:11 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 02:31:11 | INFO | 1. ALICEUSDT - BUY (95.0%) @ $0.4872
+2025-10-10 02:31:13 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-10 02:31:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALICEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '18699.2', 'timeInForce': 'IOC'}
+2025-10-10 02:31:13 | INFO | ✅ Perpetual order placed: d312369f-b07c-416e-b09b-cdf00e2bdbe8
+2025-10-10 02:31:13 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.472584
+2025-10-10 02:31:13 | INFO | ✅ Stop loss set via position management
+2025-10-10 02:31:14 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.492072
+2025-10-10 02:31:14 | INFO | ✅ Take profit set via position management
+2025-10-10 02:31:15 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.004860 from $0.486
+2025-10-10 02:31:15 | INFO | ✅ Trailing stop set: 1.0% ($0.004860)
+2025-10-10 02:31:15 | INFO | ✅ EXECUTED: ALICEUSDT BUY 18699.200000 @ $0.4872 (Conf: 95.0%)
+2025-10-10 02:31:16 | INFO | 2. BANKUSDT - BUY (95.0%) @ $0.13305
+2025-10-10 02:31:17 | INFO | Setting leverage for BANKUSDT to 1x
+2025-10-10 02:31:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '61970', 'timeInForce': 'IOC'}
+2025-10-10 02:31:18 | INFO | ✅ Perpetual order placed: 5e01ed14-efb8-4c98-bfd1-016980b29ae2
+2025-10-10 02:31:18 | INFO | Setting stop loss via trading stop: BANKUSDT @ 0.1290585
+2025-10-10 02:31:18 | INFO | ✅ Stop loss set via position management
+2025-10-10 02:31:18 | INFO | Setting take profit via trading stop: BANKUSDT @ 0.1343805
+2025-10-10 02:31:18 | INFO | ✅ Take profit set via position management
+2025-10-10 02:31:20 | INFO | Setting trailing stop: BANKUSDT @ 1.0% = $0.001330 from $0.13303
+2025-10-10 02:31:20 | INFO | ✅ Trailing stop set: 1.0% ($0.001330)
+2025-10-10 02:31:20 | INFO | ✅ EXECUTED: BANKUSDT BUY 61970.000000 @ $0.13305 (Conf: 95.0%)
+2025-10-10 02:31:21 | INFO | 3. CHRUSDT - BUY (95.0%) @ $0.08692
+2025-10-10 02:31:22 | INFO | Setting leverage for CHRUSDT to 1x
+2025-10-10 02:31:22 | INFO | ✅ Leverage set to 1x for CHRUSDT
+2025-10-10 02:31:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CHRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '85862.3', 'timeInForce': 'IOC'}
+2025-10-10 02:31:22 | INFO | ✅ Perpetual order placed: de30cc35-b891-4973-b608-3bb2deb08b87
+2025-10-10 02:31:22 | INFO | Setting stop loss via trading stop: CHRUSDT @ 0.0843124
+2025-10-10 02:31:22 | INFO | ✅ Stop loss set via position management
+2025-10-10 02:31:23 | INFO | Setting take profit via trading stop: CHRUSDT @ 0.0877892
+2025-10-10 02:31:23 | INFO | ✅ Take profit set via position management
+2025-10-10 02:31:24 | INFO | Setting trailing stop: CHRUSDT @ 1.0% = $0.000869 from $0.08692
+2025-10-10 02:31:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000869)
+2025-10-10 02:31:25 | INFO | ✅ EXECUTED: CHRUSDT BUY 85862.300000 @ $0.08692 (Conf: 95.0%)
+2025-10-10 02:31:25 | INFO | 4. COOKUSDT - SELL (95.0%) @ $0.012923
+2025-10-10 02:31:26 | INFO | Setting leverage for COOKUSDT to 1x
+2025-10-10 02:31:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COOKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COOKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '522700', 'timeInForce': 'IOC'}
+2025-10-10 02:31:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:52270000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 22:31:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "522700", "timeInForce": "IOC"}.
+2025-10-10 02:31:27 | ERROR | ❌ FAILED: COOKUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:52270000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 22:31:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "522700", "timeInForce": "IOC"}.
+2025-10-10 02:31:27 | INFO | 5. PIXELUSDT - BUY (89.2%) @ $0.02679
+2025-10-10 02:31:28 | INFO | Setting leverage for PIXELUSDT to 1x
+2025-10-10 02:31:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PIXELUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PIXELUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '252141', 'timeInForce': 'IOC'}
+2025-10-10 02:31:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25214100000000 > max_qty:17110000000000 (ErrCode: 10001) (ErrTime: 22:31:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PIXELUSDT", "side": "Buy", "orderType": "Market", "qty": "252141", "timeInForce": "IOC"}.
+2025-10-10 02:31:28 | ERROR | ❌ FAILED: PIXELUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25214100000000 > max_qty:17110000000000 (ErrCode: 10001) (ErrTime: 22:31:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PIXELUSDT", "side": "Buy", "orderType": "Market", "qty": "252141", "timeInForce": "IOC"}.
+2025-10-10 02:31:29 | INFO | 6. KAVAUSDT - BUY (88.2%) @ $0.3347
+2025-10-10 02:31:29 | INFO | 7. BDXNUSDT - BUY (87.0%) @ $0.0381
+2025-10-10 02:31:30 | INFO | Setting leverage for BDXNUSDT to 1x
+2025-10-10 02:31:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BDXNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BDXNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '177293', 'timeInForce': 'IOC'}
+2025-10-10 02:31:31 | INFO | ✅ Perpetual order placed: 92179bee-7bb7-45ae-b162-f86eff113913
+2025-10-10 02:31:31 | INFO | Setting stop loss via trading stop: BDXNUSDT @ 0.036957000000000004
+2025-10-10 02:31:31 | INFO | ✅ Stop loss set via position management
+2025-10-10 02:31:31 | INFO | Setting take profit via trading stop: BDXNUSDT @ 0.038481
+2025-10-10 02:31:31 | INFO | ✅ Take profit set via position management
+2025-10-10 02:31:33 | INFO | Setting trailing stop: BDXNUSDT @ 1.0% = $0.000381 from $0.0381
+2025-10-10 02:31:33 | INFO | ✅ Trailing stop set: 1.0% ($0.000381)
+2025-10-10 02:31:33 | INFO | ✅ EXECUTED: BDXNUSDT BUY 177293.000000 @ $0.0381 (Conf: 87.0%)
+2025-10-10 02:31:34 | INFO | 8. PHBUSDT - BUY (81.0%) @ $0.5747
+2025-10-10 02:31:34 | INFO | 9. FIOUSDT - BUY (77.4%) @ $0.01612
+2025-10-10 02:31:34 | INFO | Setting leverage for FIOUSDT to 1x
+2025-10-10 02:31:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FIOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FIOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '379270', 'timeInForce': 'IOC'}
+2025-10-10 02:31:35 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:37927000000000 > max_qty:34500000000000 (ErrCode: 10001) (ErrTime: 22:31:35).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FIOUSDT", "side": "Buy", "orderType": "Market", "qty": "379270", "timeInForce": "IOC"}.
+2025-10-10 02:31:35 | ERROR | ❌ FAILED: FIOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:37927000000000 > max_qty:34500000000000 (ErrCode: 10001) (ErrTime: 22:31:35).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FIOUSDT", "side": "Buy", "orderType": "Market", "qty": "379270", "timeInForce": "IOC"}.
+2025-10-10 02:31:35 | INFO | 10. 4USDT - SELL (76.9%) @ $0.1665
+2025-10-10 02:31:36 | INFO | Setting leverage for 4USDT to 1x
+2025-10-10 02:31:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:31:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 02:31:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '36719', 'timeInForce': 'IOC'}
+2025-10-10 02:31:37 | INFO | ✅ Perpetual order placed: 7d5f5aee-68f1-4f8e-8c69-ac9884c63b10
+2025-10-10 02:31:37 | INFO | Setting stop loss via trading stop: 4USDT @ 0.171495
+2025-10-10 02:31:37 | INFO | ✅ Stop loss set via position management
+2025-10-10 02:31:37 | INFO | Setting take profit via trading stop: 4USDT @ 0.164835
+2025-10-10 02:31:37 | INFO | ✅ Take profit set via position management
+2025-10-10 02:31:39 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.001656 from $0.1656
+2025-10-10 02:31:39 | INFO | ✅ Trailing stop set: 1.0% ($0.001656)
+2025-10-10 02:31:39 | INFO | ✅ EXECUTED: 4USDT SELL 36719.000000 @ $0.1665 (Conf: 76.9%)
+2025-10-10 02:31:39 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 3 failed
+2025-10-10 02:31:39 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 02:31:39 | INFO |    • ALICEUSDT: LONG 18699.200000 @ $0.4872 - SL: $0.4726 TP: $0.4921
+2025-10-10 02:31:39 | INFO |    • BANKUSDT: LONG 61970.000000 @ $0.13305 - SL: $0.1291 TP: $0.1344
+2025-10-10 02:31:39 | INFO |    • CHRUSDT: LONG 85862.300000 @ $0.08692 - SL: $0.0843 TP: $0.0878
+2025-10-10 02:31:39 | INFO |    • BDXNUSDT: LONG 177293.000000 @ $0.0381 - SL: $0.0370 TP: $0.0385
+2025-10-10 02:31:39 | INFO |    • 4USDT: SHORT 36719.000000 @ $0.1665 - SL: $0.1715 TP: $0.1648
+2025-10-10 02:31:39 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 02:31:40 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 02:31:40 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 02:31:40 | INFO | 🎉 SESSION COMPLETED in 38.7s
+2025-10-10 02:31:40 | INFO | ============================================================
