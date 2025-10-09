@@ -4428,3 +4428,36 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 08:46:40 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 08:46:40 | INFO | 🎉 SESSION COMPLETED in 38.4s
 2025-10-09 08:46:40 | INFO | ============================================================
+2025-10-09 09:01:00 | INFO | ================================================================================
+2025-10-09 09:01:00 | INFO | NEW PERPETUAL SESSION: 2025-10-09 09:01:00
+2025-10-09 09:01:00 | INFO | ================================================================================
+2025-10-09 09:01:00 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 09:01:00 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 09:01:00 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 09:01:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 09:01:02 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 09:01:02 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 09:01:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 09:01:11 | INFO |  1. LQTYUSDT     | BUY  | Price: $  0.7443 | Confidence:  69.0% | Momentum: +1.90%
+2025-10-09 09:01:12 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-09 09:01:12 | INFO | 1. LQTYUSDT - BUY (69.0%) @ $0.7443
+2025-10-09 09:01:13 | INFO | Setting leverage for LQTYUSDT to 1x
+2025-10-09 09:01:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LQTYUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 09:01:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LQTYUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '12300.9', 'timeInForce': 'IOC'}
+2025-10-09 09:01:14 | INFO | ✅ Perpetual order placed: d8751d9c-314a-4e4a-93f9-a6385fa37462
+2025-10-09 09:01:14 | INFO | Setting stop loss via trading stop: LQTYUSDT @ 0.7219709999999999
+2025-10-09 09:01:14 | INFO | ✅ Stop loss set via position management
+2025-10-09 09:01:14 | INFO | Setting take profit via trading stop: LQTYUSDT @ 0.7517429999999999
+2025-10-09 09:01:14 | INFO | ✅ Take profit set via position management
+2025-10-09 09:01:16 | INFO | Setting trailing stop: LQTYUSDT @ 1.0% = $0.007440 from $0.744
+2025-10-09 09:01:16 | INFO | ✅ Trailing stop set: 1.0% ($0.007440)
+2025-10-09 09:01:16 | INFO | ✅ EXECUTED: LQTYUSDT BUY 12300.900000 @ $0.7443 (Conf: 69.0%)
+2025-10-09 09:01:17 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-09 09:01:17 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 09:01:17 | INFO |    • LQTYUSDT: LONG 12300.900000 @ $0.7443 - SL: $0.7220 TP: $0.7517
+2025-10-09 09:01:17 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 09:01:17 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 09:01:17 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 09:01:17 | INFO | 🎉 SESSION COMPLETED in 16.4s
+2025-10-09 09:01:17 | INFO | ============================================================
