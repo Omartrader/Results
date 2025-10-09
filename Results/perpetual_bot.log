@@ -2065,3 +2065,96 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 03:46:18 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 03:46:18 | INFO | 🎉 SESSION COMPLETED in 18.9s
 2025-10-09 03:46:18 | INFO | ============================================================
+2025-10-09 04:00:59 | INFO | ================================================================================
+2025-10-09 04:00:59 | INFO | NEW PERPETUAL SESSION: 2025-10-09 04:00:59
+2025-10-09 04:00:59 | INFO | ================================================================================
+2025-10-09 04:00:59 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 04:00:59 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 04:00:59 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 04:00:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 04:01:01 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 04:01:01 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 04:01:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 04:01:12 | INFO |  1. ASPUSDT      | BUY  | Price: $  0.1402 | Confidence:  95.0% | Momentum: +6.86%
+2025-10-09 04:01:12 | INFO |  2. BLESSUSDT    | SELL | Price: $  0.0568 | Confidence:  95.0% | Momentum: -7.51%
+2025-10-09 04:01:12 | INFO |  3. HEMIUSDT     | BUY  | Price: $  0.1052 | Confidence:  95.0% | Momentum: +4.65%
+2025-10-09 04:01:12 | INFO |  4. MIRAUSDT     | BUY  | Price: $  0.5303 | Confidence:  95.0% | Momentum: +4.60%
+2025-10-09 04:01:12 | INFO |  5. MNTUSDT      | BUY  | Price: $  2.6940 | Confidence:  95.0% | Momentum: +7.43%
+2025-10-09 04:01:12 | INFO |  6. PUMPFUNUSDT  | BUY  | Price: $  0.0062 | Confidence:  83.6% | Momentum: +3.36%
+2025-10-09 04:01:12 | INFO |  7. GTCUSDT      | BUY  | Price: $  0.2837 | Confidence:  82.4% | Momentum: +3.24%
+2025-10-09 04:01:12 | INFO |  8. HNTUSDT      | BUY  | Price: $  2.5070 | Confidence:  82.1% | Momentum: +3.21%
+2025-10-09 04:01:12 | INFO |  9. MEWUSDT      | BUY  | Price: $  0.0028 | Confidence:  81.1% | Momentum: +3.11%
+2025-10-09 04:01:12 | INFO | 10. ORCAUSDT     | BUY  | Price: $  2.0240 | Confidence:  81.1% | Momentum: +3.11%
+2025-10-09 04:01:12 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 04:01:12 | INFO | 1. ASPUSDT - BUY (95.0%) @ $0.1402
+2025-10-09 04:01:13 | INFO | Setting leverage for ASPUSDT to 1x
+2025-10-09 04:01:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:01:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 04:01:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '67012', 'timeInForce': 'IOC'}
+2025-10-09 04:01:14 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6701200000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 00:01:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Buy", "orderType": "Market", "qty": "67012", "timeInForce": "IOC"}.
+2025-10-09 04:01:14 | ERROR | ❌ FAILED: ASPUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:6701200000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 00:01:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Buy", "orderType": "Market", "qty": "67012", "timeInForce": "IOC"}.
+2025-10-09 04:01:14 | INFO | 2. BLESSUSDT - SELL (95.0%) @ $0.05676
+2025-10-09 04:01:15 | INFO | Setting leverage for BLESSUSDT to 1x
+2025-10-09 04:01:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:01:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BLESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 04:01:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BLESSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '165520', 'timeInForce': 'IOC'}
+2025-10-09 04:01:16 | INFO | ✅ Perpetual order placed: aa4a2f6f-fcf7-4889-86ec-47c184e95893
+2025-10-09 04:01:16 | INFO | Setting stop loss via trading stop: BLESSUSDT @ 0.0584628
+2025-10-09 04:01:16 | INFO | ✅ Stop loss set via position management
+2025-10-09 04:01:16 | INFO | Setting take profit via trading stop: BLESSUSDT @ 0.056192399999999997
+2025-10-09 04:01:16 | INFO | ✅ Take profit set via position management
+2025-10-09 04:01:18 | INFO | Setting trailing stop: BLESSUSDT @ 1.0% = $0.000567 from $0.05674
+2025-10-09 04:01:18 | INFO | ✅ Trailing stop set: 1.0% ($0.000567)
+2025-10-09 04:01:18 | INFO | ✅ EXECUTED: BLESSUSDT SELL 165520.000000 @ $0.05676 (Conf: 95.0%)
+2025-10-09 04:01:18 | INFO | 3. HEMIUSDT - BUY (95.0%) @ $0.10524
+2025-10-09 04:01:19 | INFO | Setting leverage for HEMIUSDT to 1x
+2025-10-09 04:01:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:01:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HEMIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 04:01:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HEMIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '80801', 'timeInForce': 'IOC'}
+2025-10-09 04:01:20 | INFO | ✅ Perpetual order placed: d9a11aaa-9f18-4037-907c-6b67f9836f96
+2025-10-09 04:01:20 | INFO | Setting stop loss via trading stop: HEMIUSDT @ 0.1020828
+2025-10-09 04:01:20 | INFO | ✅ Stop loss set via position management
+2025-10-09 04:01:20 | INFO | Setting take profit via trading stop: HEMIUSDT @ 0.1062924
+2025-10-09 04:01:20 | INFO | ✅ Take profit set via position management
+2025-10-09 04:01:22 | INFO | Setting trailing stop: HEMIUSDT @ 1.0% = $0.001054 from $0.10536
+2025-10-09 04:01:22 | INFO | ✅ Trailing stop set: 1.0% ($0.001054)
+2025-10-09 04:01:22 | INFO | ✅ EXECUTED: HEMIUSDT BUY 80801.000000 @ $0.10524 (Conf: 95.0%)
+2025-10-09 04:01:23 | INFO | 4. MIRAUSDT - BUY (95.0%) @ $0.5303
+2025-10-09 04:01:24 | INFO | Setting leverage for MIRAUSDT to 1x
+2025-10-09 04:01:24 | INFO | ✅ Leverage set to 1x for MIRAUSDT
+2025-10-09 04:01:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MIRAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '14513.4', 'timeInForce': 'IOC'}
+2025-10-09 04:01:24 | INFO | ✅ Perpetual order placed: 6d572e20-fc92-44b6-8ca7-5870c606581a
+2025-10-09 04:01:24 | INFO | Setting stop loss via trading stop: MIRAUSDT @ 0.5143909999999999
+2025-10-09 04:01:24 | INFO | ✅ Stop loss set via position management
+2025-10-09 04:01:25 | INFO | Setting take profit via trading stop: MIRAUSDT @ 0.535603
+2025-10-09 04:01:25 | INFO | ✅ Take profit set via position management
+2025-10-09 04:01:26 | INFO | Setting trailing stop: MIRAUSDT @ 1.0% = $0.005302 from $0.5302
+2025-10-09 04:01:26 | INFO | ✅ Trailing stop set: 1.0% ($0.005302)
+2025-10-09 04:01:26 | INFO | ✅ EXECUTED: MIRAUSDT BUY 14513.400000 @ $0.5303 (Conf: 95.0%)
+2025-10-09 04:01:27 | INFO | 5. MNTUSDT - BUY (95.0%) @ $2.694
+2025-10-09 04:01:28 | INFO | Setting leverage for MNTUSDT to 1x
+2025-10-09 04:01:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:01:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 04:01:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2585.8', 'timeInForce': 'IOC'}
+2025-10-09 04:01:28 | INFO | ✅ Perpetual order placed: 29dd5310-8eab-40cb-8da5-0ac3b1eec4bf
+2025-10-09 04:01:28 | INFO | Setting stop loss via trading stop: MNTUSDT @ 2.61318
+2025-10-09 04:01:28 | INFO | ✅ Stop loss set via position management
+2025-10-09 04:01:29 | INFO | Setting take profit via trading stop: MNTUSDT @ 2.72094
+2025-10-09 04:01:29 | INFO | ✅ Take profit set via position management
+2025-10-09 04:01:30 | INFO | Setting trailing stop: MNTUSDT @ 1.0% = $0.026940 from $2.694
+2025-10-09 04:01:31 | INFO | ✅ Trailing stop set: 1.0% ($0.026940)
+2025-10-09 04:01:31 | INFO | ✅ EXECUTED: MNTUSDT BUY 2585.800000 @ $2.694 (Conf: 95.0%)
+2025-10-09 04:01:31 | INFO | 6. PUMPFUNUSDT - BUY (83.6%) @ $0.006159
+2025-10-09 04:01:31 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 1 failed
+2025-10-09 04:01:31 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 04:01:31 | INFO |    • BLESSUSDT: SHORT 165520.000000 @ $0.05676 - SL: $0.0585 TP: $0.0562
+2025-10-09 04:01:31 | INFO |    • HEMIUSDT: LONG 80801.000000 @ $0.10524 - SL: $0.1021 TP: $0.1063
+2025-10-09 04:01:31 | INFO |    • MIRAUSDT: LONG 14513.400000 @ $0.5303 - SL: $0.5144 TP: $0.5356
+2025-10-09 04:01:31 | INFO |    • MNTUSDT: LONG 2585.800000 @ $2.694 - SL: $2.6132 TP: $2.7209
+2025-10-09 04:01:31 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 04:01:31 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 04:01:31 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 04:01:31 | INFO | 🎉 SESSION COMPLETED in 31.5s
+2025-10-09 04:01:31 | INFO | ============================================================
