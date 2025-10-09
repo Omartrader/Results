@@ -104371,3 +104371,47 @@ None
 1
 resultOK: 1 <class 'int'>
 Function finished at 09.10.2025 18:31:25
+***************************************************************
+Number of open positions: 1
+Function started at 09.10.2025 18:45:54
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (0.7523) 	SMA(14) : 0.86 	Delta :  	Previous STC : 99.25 	STC : 94.33
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (322.5) 	SMA(14) : 332.67 	Delta :  	Previous STC : 97.97 	STC : 89.63
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XPLUSDT    | S |  94.33
+1
+Last close price for XPLUSDT: 0.7543
+Opening Sell for  XPLUSDT
+TP: 0.746757
+SL: 0.769386
+TS: 0.007542999999999999
+Order Quantity: 26514.65
+Adjusted qty: 26515.0
+Final Adjusted qty: 26514.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'eb1861ac-c935-4332-909d-48841e0b5373', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760021176858}
+eb1861ac-c935-4332-909d-48841e0b5373
+fetching trade data for :  eb1861ac-c935-4332-909d-48841e0b5373
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'eb1861ac-c935-4332-909d-48841e0b5373', 'stopOrderType': 'UNKNOWN', 'execTime': '1760021176857', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.754', 'execPrice': '0.7543', 'markIv': '', 'orderQty': '26514', 'orderPrice': '0.6409', 'execValue': '19999.5102', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612591032223, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.99973061', 'execId': '7942a5ff-407c-4ac6-9ae5-91dbd51ff481', 'marketUnit': '', 'execQty': '26514', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TAOUSDT    | S |  89.63
+1
+Last close price for TAOUSDT: 322.97
+Opening Sell for  TAOUSDT
+TP: 319.74030000000005
+SL: 329.42940000000004
+TS: 3.2297000000000002
+Order Quantity: 61.93
+Adjusted qty: 61.93
+Final Adjusted qty: 61.93
+60.0
+Position already open.
+0
+resultOK: 0 <class 'int'>
+Function finished at 09.10.2025 18:46:26
