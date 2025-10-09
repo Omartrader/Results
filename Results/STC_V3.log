@@ -104415,3 +104415,52 @@ Position already open.
 0
 resultOK: 0 <class 'int'>
 Function finished at 09.10.2025 18:46:26
+***************************************************************
+Number of open positions: 0
+Function started at 09.10.2025 19:00:53
+	XPLUSDT 	Signal: S
+XPLUSDT 	Latest Close: (0.7665) 	SMA(14) : 0.87 	Delta :  	Previous STC : 99.25 	STC : 94.42
+	TAOUSDT 	Signal: S
+TAOUSDT 	Latest Close: (325.11) 	SMA(14) : 332.86 	Delta :  	Previous STC : 97.97 	STC : 89.94
+
+SYMBOL     |   ΔRSI |    STC
+----------------------------
+XPLUSDT    | S |  94.42
+1
+Last close price for XPLUSDT: 0.7663
+Opening Sell for  XPLUSDT
+TP: 0.758637
+SL: 0.781626
+TS: 0.007663
+Order Quantity: 26099.44
+Adjusted qty: 26099.0
+Final Adjusted qty: 26099.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'd0ed02b7-9772-45ef-b468-d89a916b5d2b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760022075146}
+d0ed02b7-9772-45ef-b468-d89a916b5d2b
+fetching trade data for :  d0ed02b7-9772-45ef-b468-d89a916b5d2b
+[{'symbol': 'XPLUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'd0ed02b7-9772-45ef-b468-d89a916b5d2b', 'stopOrderType': 'UNKNOWN', 'execTime': '1760022075145', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '0.7662', 'execPrice': '0.7664', 'markIv': '', 'orderQty': '26099', 'orderPrice': '0.6513', 'execValue': '20002.2736', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612591060095, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '11.00125048', 'execId': '79937040-0677-4e1c-8fe7-7b6918c588e0', 'marketUnit': '', 'execQty': '26099', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+TAOUSDT    | S |  89.94
+1
+Last close price for TAOUSDT: 325.27
+Opening Sell for  TAOUSDT
+TP: 322.0173
+SL: 331.7754
+TS: 3.2527
+Order Quantity: 61.49
+Adjusted qty: 61.49
+Final Adjusted qty: 61.49
+60.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'e60d01c3-21d0-4c39-8e54-984f150f7f5e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760022087167}
+e60d01c3-21d0-4c39-8e54-984f150f7f5e
+fetching trade data for :  e60d01c3-21d0-4c39-8e54-984f150f7f5e
+[{'symbol': 'TAOUSDT', 'orderType': 'Market', 'underlyingPrice': '', 'orderLinkId': '', 'orderId': 'e60d01c3-21d0-4c39-8e54-984f150f7f5e', 'stopOrderType': 'UNKNOWN', 'execTime': '1760022087166', 'feeCurrency': '', 'createType': 'CreateByUser', 'execFeeV2': '', 'feeRate': '0.00055', 'tradeIv': '', 'blockTradeId': '', 'markPrice': '325.33', 'execPrice': '325.45', 'markIv': '', 'orderQty': '60', 'orderPrice': '276.54', 'execValue': '19527', 'closedSize': '0', 'execType': 'Trade', 'seq': 140612591060576, 'side': 'Sell', 'indexPrice': '', 'leavesQty': '0', 'isMaker': False, 'execFee': '10.73985', 'execId': 'b7c9edbd-60ba-4902-97ae-66ec2b44062a', 'marketUnit': '', 'execQty': '60', 'extraFees': ''}]
+Trades inserted successfully.
+None
+1
+resultOK: 1 <class 'int'>
+Function finished at 09.10.2025 19:01:36
