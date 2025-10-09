@@ -8533,3 +8533,93 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 20:16:33 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 20:16:33 | INFO | 🎉 SESSION COMPLETED in 27.6s
 2025-10-09 20:16:33 | INFO | ============================================================
+2025-10-09 20:31:26 | INFO | ================================================================================
+2025-10-09 20:31:26 | INFO | NEW PERPETUAL SESSION: 2025-10-09 20:31:26
+2025-10-09 20:31:26 | INFO | ================================================================================
+2025-10-09 20:31:26 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 20:31:26 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 20:31:26 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 20:31:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 20:31:28 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 20:31:28 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 20:31:38 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 20:31:38 | INFO |  1. ATHUSDT      | BUY  | Price: $  0.0523 | Confidence:  95.0% | Momentum: +5.11%
+2025-10-09 20:31:38 | INFO |  2. SCAUSDT      | SELL | Price: $  0.0941 | Confidence:  86.2% | Momentum: -3.62%
+2025-10-09 20:31:38 | INFO |  3. APTUSDT      | SELL | Price: $  4.8750 | Confidence:  82.5% | Momentum: -3.25%
+2025-10-09 20:31:38 | INFO |  4. ETHBTCUSDT   | SELL | Price: $  0.0355 | Confidence:  72.3% | Momentum: -2.23%
+2025-10-09 20:31:38 | INFO |  5. PROVEUSDT    | BUY  | Price: $  0.7864 | Confidence:  68.4% | Momentum: +1.84%
+2025-10-09 20:31:38 | INFO |  6. HUSDT        | SELL | Price: $  0.0700 | Confidence:  66.2% | Momentum: -1.62%
+2025-10-09 20:31:38 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-09 20:31:38 | INFO | 1. ATHUSDT - BUY (95.0%) @ $0.05228
+2025-10-09 20:31:39 | INFO | Setting leverage for ATHUSDT to 1x
+2025-10-09 20:31:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ATHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:31:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ATHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '176090', 'timeInForce': 'IOC'}
+2025-10-09 20:31:40 | INFO | ✅ Perpetual order placed: 1041c75f-d4d0-4e8d-a67f-8977fdda2cb9
+2025-10-09 20:31:40 | INFO | Setting stop loss via trading stop: ATHUSDT @ 0.050711599999999996
+2025-10-09 20:31:40 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:31:41 | INFO | Setting take profit via trading stop: ATHUSDT @ 0.052802800000000004
+2025-10-09 20:31:41 | INFO | ✅ Take profit set via position management
+2025-10-09 20:31:42 | INFO | Setting trailing stop: ATHUSDT @ 1.0% = $0.000523 from $0.05227
+2025-10-09 20:31:42 | INFO | ✅ Trailing stop set: 1.0% ($0.000523)
+2025-10-09 20:31:42 | INFO | ✅ EXECUTED: ATHUSDT BUY 176090.000000 @ $0.05228 (Conf: 95.0%)
+2025-10-09 20:31:43 | INFO | 2. SCAUSDT - SELL (86.2%) @ $0.09412
+2025-10-09 20:31:44 | INFO | Setting leverage for SCAUSDT to 1x
+2025-10-09 20:31:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SCAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:31:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SCAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '88529.9', 'timeInForce': 'IOC'}
+2025-10-09 20:31:44 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8852990000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:31:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCAUSDT", "side": "Sell", "orderType": "Market", "qty": "88529.9", "timeInForce": "IOC"}.
+2025-10-09 20:31:44 | ERROR | ❌ FAILED: SCAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:8852990000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:31:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCAUSDT", "side": "Sell", "orderType": "Market", "qty": "88529.9", "timeInForce": "IOC"}.
+2025-10-09 20:31:45 | INFO | 3. APTUSDT - SELL (82.5%) @ $4.875
+2025-10-09 20:31:46 | INFO | Setting leverage for APTUSDT to 1x
+2025-10-09 20:31:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:31:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1709.22', 'timeInForce': 'IOC'}
+2025-10-09 20:31:46 | INFO | ✅ Perpetual order placed: 277420e8-0c04-46e7-8703-4f9ef661963f
+2025-10-09 20:31:47 | INFO | Setting stop loss via trading stop: APTUSDT @ 5.02125
+2025-10-09 20:31:47 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:31:47 | INFO | Setting take profit via trading stop: APTUSDT @ 4.82625
+2025-10-09 20:31:47 | INFO | ✅ Take profit set via position management
+2025-10-09 20:31:48 | INFO | Setting trailing stop: APTUSDT @ 1.0% = $0.048750 from $4.875
+2025-10-09 20:31:49 | INFO | ✅ Trailing stop set: 1.0% ($0.048750)
+2025-10-09 20:31:49 | INFO | ✅ EXECUTED: APTUSDT SELL 1709.220000 @ $4.875 (Conf: 82.5%)
+2025-10-09 20:31:49 | INFO | 4. ETHBTCUSDT - SELL (72.3%) @ $0.035507
+2025-10-09 20:31:49 | INFO | 5. PROVEUSDT - BUY (68.4%) @ $0.7864
+2025-10-09 20:31:50 | INFO | Setting leverage for PROVEUSDT to 1x
+2025-10-09 20:31:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PROVEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:31:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PROVEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9590', 'timeInForce': 'IOC'}
+2025-10-09 20:31:51 | INFO | ✅ Perpetual order placed: 8c139b77-5330-4611-8f59-bcc4e640e978
+2025-10-09 20:31:51 | INFO | Setting stop loss via trading stop: PROVEUSDT @ 0.7628079999999999
+2025-10-09 20:31:51 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:31:51 | INFO | Setting take profit via trading stop: PROVEUSDT @ 0.794264
+2025-10-09 20:31:51 | INFO | ✅ Take profit set via position management
+2025-10-09 20:31:53 | INFO | Setting trailing stop: PROVEUSDT @ 1.0% = $0.007852 from $0.7852
+2025-10-09 20:31:53 | INFO | ✅ Trailing stop set: 1.0% ($0.007852)
+2025-10-09 20:31:53 | INFO | ✅ EXECUTED: PROVEUSDT BUY 9590.000000 @ $0.7864 (Conf: 68.4%)
+2025-10-09 20:31:53 | INFO | 6. HUSDT - SELL (66.2%) @ $0.070026
+2025-10-09 20:31:55 | INFO | Setting leverage for HUSDT to 1x
+2025-10-09 20:31:55 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:55).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:31:55 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '97480', 'timeInForce': 'IOC'}
+2025-10-09 20:31:55 | INFO | ✅ Perpetual order placed: fa072c74-c1b0-41a9-baf6-cd7514279637
+2025-10-09 20:31:55 | INFO | Setting stop loss via trading stop: HUSDT @ 0.07212678
+2025-10-09 20:31:55 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:31:56 | INFO | Setting take profit via trading stop: HUSDT @ 0.06932574000000001
+2025-10-09 20:31:56 | INFO | ✅ Take profit set via position management
+2025-10-09 20:31:57 | INFO | Setting trailing stop: HUSDT @ 1.0% = $0.000699 from $0.069945
+2025-10-09 20:31:57 | INFO | ✅ Trailing stop set: 1.0% ($0.000699)
+2025-10-09 20:31:57 | INFO | ✅ EXECUTED: HUSDT SELL 97480.000000 @ $0.070026 (Conf: 66.2%)
+2025-10-09 20:31:58 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 1 failed
+2025-10-09 20:31:58 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 20:31:58 | INFO |    • ATHUSDT: LONG 176090.000000 @ $0.05228 - SL: $0.0507 TP: $0.0528
+2025-10-09 20:31:58 | INFO |    • APTUSDT: SHORT 1709.220000 @ $4.875 - SL: $5.0213 TP: $4.8262
+2025-10-09 20:31:58 | INFO |    • PROVEUSDT: LONG 9590.000000 @ $0.7864 - SL: $0.7628 TP: $0.7943
+2025-10-09 20:31:58 | INFO |    • HUSDT: SHORT 97480.000000 @ $0.070026 - SL: $0.0721 TP: $0.0693
+2025-10-09 20:31:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 20:31:59 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 20:31:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 20:31:59 | INFO | 🎉 SESSION COMPLETED in 31.7s
+2025-10-09 20:31:59 | INFO | ============================================================
