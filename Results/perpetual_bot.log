@@ -3011,3 +3011,109 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 05:46:44 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 05:46:44 | INFO | 🎉 SESSION COMPLETED in 41.6s
 2025-10-09 05:46:44 | INFO | ============================================================
+2025-10-09 06:01:02 | INFO | ================================================================================
+2025-10-09 06:01:02 | INFO | NEW PERPETUAL SESSION: 2025-10-09 06:01:02
+2025-10-09 06:01:02 | INFO | ================================================================================
+2025-10-09 06:01:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 06:01:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 06:01:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 06:01:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 06:01:03 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 06:01:03 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 06:01:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 06:01:14 | INFO |  1. 10000WENUSDT | BUY  | Price: $  0.4000 | Confidence:  95.0% | Momentum: +11.33%
+2025-10-09 06:01:14 | INFO |  2. BLESSUSDT    | BUY  | Price: $  0.0608 | Confidence:  95.0% | Momentum: +12.81%
+2025-10-09 06:01:14 | INFO |  3. BROCCOLIUSDT | SELL | Price: $  0.0457 | Confidence:  91.3% | Momentum: -4.13%
+2025-10-09 06:01:14 | INFO |  4. BUSDT        | BUY  | Price: $  0.2492 | Confidence:  83.3% | Momentum: +3.33%
+2025-10-09 06:01:14 | INFO |  5. MUSDT        | BUY  | Price: $  2.1436 | Confidence:  82.6% | Momentum: +3.26%
+2025-10-09 06:01:14 | INFO |  6. MUBARAKUSDT  | SELL | Price: $  0.0399 | Confidence:  75.4% | Momentum: -2.54%
+2025-10-09 06:01:14 | INFO |  7. 1000CATUSDT  | SELL | Price: $  0.0088 | Confidence:  74.4% | Momentum: -2.44%
+2025-10-09 06:01:15 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-09 06:01:15 | INFO | 1. 10000WENUSDT - BUY (95.0%) @ $0.4
+2025-10-09 06:01:16 | INFO | Setting leverage for 10000WENUSDT to 1x
+2025-10-09 06:01:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:01:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000WENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 06:01:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000WENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23006', 'timeInForce': 'IOC'}
+2025-10-09 06:01:16 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2300600000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 02:01:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23006", "timeInForce": "IOC"}.
+2025-10-09 06:01:16 | ERROR | ❌ FAILED: 10000WENUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2300600000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 02:01:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23006", "timeInForce": "IOC"}.
+2025-10-09 06:01:17 | INFO | 2. BLESSUSDT - BUY (95.0%) @ $0.06084
+2025-10-09 06:01:18 | INFO | Setting leverage for BLESSUSDT to 1x
+2025-10-09 06:01:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:01:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BLESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 06:01:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BLESSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '151260', 'timeInForce': 'IOC'}
+2025-10-09 06:01:18 | INFO | ✅ Perpetual order placed: 84052c73-b40d-4f21-8741-f96c9284f197
+2025-10-09 06:01:19 | INFO | Setting stop loss via trading stop: BLESSUSDT @ 0.0590148
+2025-10-09 06:01:19 | INFO | ✅ Stop loss set via position management
+2025-10-09 06:01:19 | INFO | Setting take profit via trading stop: BLESSUSDT @ 0.0614484
+2025-10-09 06:01:19 | INFO | ✅ Take profit set via position management
+2025-10-09 06:01:20 | INFO | Setting trailing stop: BLESSUSDT @ 1.0% = $0.000608 from $0.06077
+2025-10-09 06:01:21 | INFO | ✅ Trailing stop set: 1.0% ($0.000608)
+2025-10-09 06:01:21 | INFO | ✅ EXECUTED: BLESSUSDT BUY 151260.000000 @ $0.06084 (Conf: 95.0%)
+2025-10-09 06:01:21 | INFO | 3. BROCCOLIUSDT - SELL (91.3%) @ $0.0457
+2025-10-09 06:01:22 | INFO | Setting leverage for BROCCOLIUSDT to 1x
+2025-10-09 06:01:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:01:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BROCCOLIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 06:01:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BROCCOLIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '182255', 'timeInForce': 'IOC'}
+2025-10-09 06:01:22 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:18225500000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 02:01:22).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BROCCOLIUSDT", "side": "Sell", "orderType": "Market", "qty": "182255", "timeInForce": "IOC"}.
+2025-10-09 06:01:22 | ERROR | ❌ FAILED: BROCCOLIUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:18225500000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 02:01:22).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BROCCOLIUSDT", "side": "Sell", "orderType": "Market", "qty": "182255", "timeInForce": "IOC"}.
+2025-10-09 06:01:23 | INFO | 4. BUSDT - BUY (83.3%) @ $0.24916
+2025-10-09 06:01:24 | INFO | Setting leverage for BUSDT to 1x
+2025-10-09 06:01:24 | INFO | ✅ Leverage set to 1x for BUSDT
+2025-10-09 06:01:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '33429', 'timeInForce': 'IOC'}
+2025-10-09 06:01:24 | INFO | ✅ Perpetual order placed: a0db5b10-ec6c-4bf0-b4e6-967ef743fdd4
+2025-10-09 06:01:25 | INFO | Setting stop loss via trading stop: BUSDT @ 0.2416852
+2025-10-09 06:01:25 | INFO | ✅ Stop loss set via position management
+2025-10-09 06:01:25 | INFO | Setting take profit via trading stop: BUSDT @ 0.2516516
+2025-10-09 06:01:25 | INFO | ✅ Take profit set via position management
+2025-10-09 06:01:27 | INFO | Setting trailing stop: BUSDT @ 1.0% = $0.002492 from $0.24916
+2025-10-09 06:01:27 | INFO | ✅ Trailing stop set: 1.0% ($0.002492)
+2025-10-09 06:01:27 | INFO | ✅ EXECUTED: BUSDT BUY 33429.000000 @ $0.24916 (Conf: 83.3%)
+2025-10-09 06:01:27 | INFO | 5. MUSDT - BUY (82.6%) @ $2.1436
+2025-10-09 06:01:28 | INFO | Setting leverage for MUSDT to 1x
+2025-10-09 06:01:28 | INFO | ✅ Leverage set to 1x for MUSDT
+2025-10-09 06:01:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3517', 'timeInForce': 'IOC'}
+2025-10-09 06:01:29 | INFO | ✅ Perpetual order placed: f0524a89-acad-48d8-a904-d4c42e69d940
+2025-10-09 06:01:29 | INFO | Setting stop loss via trading stop: MUSDT @ 2.079292
+2025-10-09 06:01:29 | INFO | ✅ Stop loss set via position management
+2025-10-09 06:01:29 | INFO | Setting take profit via trading stop: MUSDT @ 2.165036
+2025-10-09 06:01:29 | INFO | ✅ Take profit set via position management
+2025-10-09 06:01:31 | INFO | Setting trailing stop: MUSDT @ 1.0% = $0.021449 from $2.1449
+2025-10-09 06:01:31 | INFO | ✅ Trailing stop set: 1.0% ($0.021449)
+2025-10-09 06:01:31 | INFO | ✅ EXECUTED: MUSDT BUY 3517.000000 @ $2.1436 (Conf: 82.6%)
+2025-10-09 06:01:31 | INFO | 6. MUBARAKUSDT - SELL (75.4%) @ $0.03993
+2025-10-09 06:01:32 | INFO | Setting leverage for MUBARAKUSDT to 1x
+2025-10-09 06:01:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:01:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUBARAKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 06:01:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUBARAKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '170876', 'timeInForce': 'IOC'}
+2025-10-09 06:01:33 | INFO | ✅ Perpetual order placed: dbca896c-2fe4-4027-b087-5e0c39537ff4
+2025-10-09 06:01:33 | INFO | Setting stop loss via trading stop: MUBARAKUSDT @ 0.0411279
+2025-10-09 06:01:33 | INFO | ✅ Stop loss set via position management
+2025-10-09 06:01:33 | INFO | Setting take profit via trading stop: MUBARAKUSDT @ 0.0395307
+2025-10-09 06:01:33 | INFO | ✅ Take profit set via position management
+2025-10-09 06:01:35 | INFO | Setting trailing stop: MUBARAKUSDT @ 1.0% = $0.000399 from $0.03994
+2025-10-09 06:01:35 | INFO | ✅ Trailing stop set: 1.0% ($0.000399)
+2025-10-09 06:01:35 | INFO | ✅ EXECUTED: MUBARAKUSDT SELL 170876.000000 @ $0.03993 (Conf: 75.4%)
+2025-10-09 06:01:36 | INFO | 7. 1000CATUSDT - SELL (74.4%) @ $0.008752
+2025-10-09 06:01:36 | INFO | Setting leverage for 1000CATUSDT to 1x
+2025-10-09 06:01:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:01:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000CATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 06:01:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000CATUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '705614', 'timeInForce': 'IOC'}
+2025-10-09 06:01:37 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:70561400000000 > max_qty:39000000000000 (ErrCode: 10001) (ErrTime: 02:01:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000CATUSDT", "side": "Sell", "orderType": "Market", "qty": "705614", "timeInForce": "IOC"}.
+2025-10-09 06:01:37 | ERROR | ❌ FAILED: 1000CATUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:70561400000000 > max_qty:39000000000000 (ErrCode: 10001) (ErrTime: 02:01:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000CATUSDT", "side": "Sell", "orderType": "Market", "qty": "705614", "timeInForce": "IOC"}.
+2025-10-09 06:01:37 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 3 failed
+2025-10-09 06:01:37 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 06:01:37 | INFO |    • BLESSUSDT: LONG 151260.000000 @ $0.06084 - SL: $0.0590 TP: $0.0614
+2025-10-09 06:01:37 | INFO |    • BUSDT: LONG 33429.000000 @ $0.24916 - SL: $0.2417 TP: $0.2517
+2025-10-09 06:01:37 | INFO |    • MUSDT: LONG 3517.000000 @ $2.1436 - SL: $2.0793 TP: $2.1650
+2025-10-09 06:01:37 | INFO |    • MUBARAKUSDT: SHORT 170876.000000 @ $0.03993 - SL: $0.0411 TP: $0.0395
+2025-10-09 06:01:37 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 06:01:38 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 06:01:38 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 06:01:38 | INFO | 🎉 SESSION COMPLETED in 35.5s
+2025-10-09 06:01:38 | INFO | ============================================================
