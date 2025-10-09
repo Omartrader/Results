@@ -4930,3 +4930,46 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 10:46:27 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 10:46:27 | INFO | 🎉 SESSION COMPLETED in 22.8s
 2025-10-09 10:46:27 | INFO | ============================================================
+2025-10-09 11:01:02 | INFO | ================================================================================
+2025-10-09 11:01:02 | INFO | NEW PERPETUAL SESSION: 2025-10-09 11:01:02
+2025-10-09 11:01:02 | INFO | ================================================================================
+2025-10-09 11:01:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 11:01:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 11:01:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 11:01:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 11:01:04 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 11:01:04 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 11:01:15 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 11:01:15 | INFO |  1. 4USDT        | SELL | Price: $  0.2002 | Confidence:  95.0% | Momentum: -11.77%
+2025-10-09 11:01:15 | INFO |  2. BROCCOLIUSDT | SELL | Price: $  0.0417 | Confidence:  95.0% | Momentum: -9.34%
+2025-10-09 11:01:15 | INFO |  3. DRIFTUSDT    | SELL | Price: $  0.8012 | Confidence:  95.0% | Momentum: -4.70%
+2025-10-09 11:01:15 | INFO |  4. FFUSDT       | SELL | Price: $  0.1503 | Confidence:  95.0% | Momentum: -6.53%
+2025-10-09 11:01:15 | INFO |  5. GRASSUSDT    | SELL | Price: $  0.8075 | Confidence:  95.0% | Momentum: -4.98%
+2025-10-09 11:01:15 | INFO |  6. ILVUSDT      | SELL | Price: $ 14.2900 | Confidence:  95.0% | Momentum: -4.61%
+2025-10-09 11:01:15 | INFO |  7. MYXUSDT      | SELL | Price: $  5.1361 | Confidence:  95.0% | Momentum: -4.66%
+2025-10-09 11:01:15 | INFO |  8. PUMPFUNUSDT  | SELL | Price: $  0.0058 | Confidence:  95.0% | Momentum: -5.62%
+2025-10-09 11:01:15 | INFO |  9. AVNTUSDT     | SELL | Price: $  0.8696 | Confidence:  93.2% | Momentum: -4.32%
+2025-10-09 11:01:15 | INFO | 10. LINEAUSDT    | SELL | Price: $  0.0254 | Confidence:  90.8% | Momentum: -4.08%
+2025-10-09 11:01:15 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 11:01:15 | INFO | 1. 4USDT - SELL (95.0%) @ $0.2002
+2025-10-09 11:01:16 | INFO | Setting leverage for 4USDT to 1x
+2025-10-09 11:01:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:01:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 11:01:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '45567', 'timeInForce': 'IOC'}
+2025-10-09 11:01:17 | INFO | ✅ Perpetual order placed: bb775ca7-8e00-4e95-88d4-0f521e2e3ad5
+2025-10-09 11:01:17 | INFO | Setting stop loss via trading stop: 4USDT @ 0.206206
+2025-10-09 11:01:17 | INFO | ✅ Stop loss set via position management
+2025-10-09 11:01:17 | INFO | Setting take profit via trading stop: 4USDT @ 0.19819799999999999
+2025-10-09 11:01:17 | INFO | ✅ Take profit set via position management
+2025-10-09 11:01:19 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.002014 from $0.2014
+2025-10-09 11:01:19 | INFO | ✅ Trailing stop set: 1.0% ($0.002014)
+2025-10-09 11:01:19 | INFO | ✅ EXECUTED: 4USDT SELL 45567.000000 @ $0.2002 (Conf: 95.0%)
+2025-10-09 11:01:20 | INFO | 2. BROCCOLIUSDT - SELL (95.0%) @ $0.04173
+2025-10-09 11:01:20 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-09 11:01:20 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 11:01:20 | INFO |    • 4USDT: SHORT 45567.000000 @ $0.2002 - SL: $0.2062 TP: $0.1982
+2025-10-09 11:01:20 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 11:01:20 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 11:01:20 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 11:01:20 | INFO | 🎉 SESSION COMPLETED in 17.8s
+2025-10-09 11:01:20 | INFO | ============================================================
