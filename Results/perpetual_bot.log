@@ -5017,3 +5017,74 @@ Request → POST https://api-demo.bybit.com/v5/position/trading-stop: {"category
 2025-10-09 11:16:24 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 11:16:24 | INFO | 🎉 SESSION COMPLETED in 19.3s
 2025-10-09 11:16:24 | INFO | ============================================================
+2025-10-09 11:31:04 | INFO | ================================================================================
+2025-10-09 11:31:04 | INFO | NEW PERPETUAL SESSION: 2025-10-09 11:31:04
+2025-10-09 11:31:04 | INFO | ================================================================================
+2025-10-09 11:31:04 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 11:31:04 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 11:31:04 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 11:31:04 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 11:31:05 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 11:31:05 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 11:31:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 11:31:16 | INFO |  1. 4USDT        | SELL | Price: $  0.1733 | Confidence:  95.0% | Momentum: -23.62%
+2025-10-09 11:31:16 | INFO |  2. APEXUSDT     | SELL | Price: $  1.8544 | Confidence:  95.0% | Momentum: -7.61%
+2025-10-09 11:31:16 | INFO |  3. ASTERUSDT    | SELL | Price: $  1.8250 | Confidence:  95.0% | Momentum: -4.97%
+2025-10-09 11:31:16 | INFO |  4. BROCCOLIUSDT | SELL | Price: $  0.0411 | Confidence:  95.0% | Momentum: -10.75%
+2025-10-09 11:31:16 | INFO |  5. DRIFTUSDT    | SELL | Price: $  0.8010 | Confidence:  95.0% | Momentum: -4.72%
+2025-10-09 11:31:16 | INFO |  6. FFUSDT       | SELL | Price: $  0.1500 | Confidence:  95.0% | Momentum: -6.72%
+2025-10-09 11:31:16 | INFO |  7. GRASSUSDT    | SELL | Price: $  0.8085 | Confidence:  95.0% | Momentum: -4.86%
+2025-10-09 11:31:16 | INFO |  8. ILVUSDT      | SELL | Price: $ 14.2700 | Confidence:  95.0% | Momentum: -4.74%
+2025-10-09 11:31:16 | INFO |  9. PUMPFUNUSDT  | SELL | Price: $  0.0057 | Confidence:  95.0% | Momentum: -7.09%
+2025-10-09 11:31:16 | INFO | 10. ASTRUSDT     | SELL | Price: $  0.0263 | Confidence:  94.6% | Momentum: -4.46%
+2025-10-09 11:31:17 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 11:31:17 | INFO | 1. 4USDT - SELL (95.0%) @ $0.1733
+2025-10-09 11:31:18 | INFO | Setting leverage for 4USDT to 1x
+2025-10-09 11:31:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:31:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 11:31:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '52623', 'timeInForce': 'IOC'}
+2025-10-09 11:31:18 | INFO | ✅ Perpetual order placed: 17f650ed-172c-4e38-a69d-1b833d57030f
+2025-10-09 11:31:19 | INFO | Setting stop loss via trading stop: 4USDT @ 0.17849900000000002
+2025-10-09 11:31:19 | INFO | ✅ Stop loss set via position management
+2025-10-09 11:31:19 | ERROR | ❌ Take profit exception: TakeProfit:17150000 set for Sell position should be lower than base_price:17120000??LastPrice (ErrCode: 10001) (ErrTime: 07:31:19).
+Request → POST https://api-demo.bybit.com/v5/position/trading-stop: {"category": "linear", "symbol": "4USDT", "positionIdx": 0, "takeProfit": "0.171567", "tpslMode": "Full"}.
+2025-10-09 11:31:21 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.001709 from $0.1709
+2025-10-09 11:31:21 | INFO | ✅ Trailing stop set: 1.0% ($0.001709)
+2025-10-09 11:31:21 | INFO | ✅ EXECUTED: 4USDT SELL 52623.000000 @ $0.1733 (Conf: 95.0%)
+2025-10-09 11:31:22 | INFO | 2. APEXUSDT - SELL (95.0%) @ $1.8544
+2025-10-09 11:31:23 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-09 11:31:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:31:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 11:31:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4451.1', 'timeInForce': 'IOC'}
+2025-10-09 11:31:23 | INFO | ✅ Perpetual order placed: e637fa00-d79f-4a79-9456-868ebcf28243
+2025-10-09 11:31:24 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.9100320000000002
+2025-10-09 11:31:24 | INFO | ✅ Stop loss set via position management
+2025-10-09 11:31:24 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.835856
+2025-10-09 11:31:24 | INFO | ✅ Take profit set via position management
+2025-10-09 11:31:25 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.018618 from $1.8618
+2025-10-09 11:31:26 | INFO | ✅ Trailing stop set: 1.0% ($0.018618)
+2025-10-09 11:31:26 | INFO | ✅ EXECUTED: APEXUSDT SELL 4451.100000 @ $1.8544 (Conf: 95.0%)
+2025-10-09 11:31:26 | INFO | 3. ASTERUSDT - SELL (95.0%) @ $1.825
+2025-10-09 11:31:28 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-09 11:31:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:31:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 11:31:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4094', 'timeInForce': 'IOC'}
+2025-10-09 11:31:28 | INFO | ✅ Perpetual order placed: a17374b6-6938-4048-8ce6-1e14794bc59f
+2025-10-09 11:31:28 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.87975
+2025-10-09 11:31:28 | INFO | ✅ Stop loss set via position management
+2025-10-09 11:31:29 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.8067499999999999
+2025-10-09 11:31:29 | INFO | ✅ Take profit set via position management
+2025-10-09 11:31:30 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.018258 from $1.8258
+2025-10-09 11:31:31 | INFO | ✅ Trailing stop set: 1.0% ($0.018258)
+2025-10-09 11:31:31 | INFO | ✅ EXECUTED: ASTERUSDT SELL 4094.000000 @ $1.825 (Conf: 95.0%)
+2025-10-09 11:31:31 | INFO | 4. BROCCOLIUSDT - SELL (95.0%) @ $0.04108
+2025-10-09 11:31:31 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 0 failed
+2025-10-09 11:31:31 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 11:31:31 | INFO |    • 4USDT: SHORT 52623.000000 @ $0.1733 - SL: $0.1785 TP: $0.1716
+2025-10-09 11:31:31 | INFO |    • APEXUSDT: SHORT 4451.100000 @ $1.8544 - SL: $1.9100 TP: $1.8359
+2025-10-09 11:31:31 | INFO |    • ASTERUSDT: SHORT 4094.000000 @ $1.825 - SL: $1.8798 TP: $1.8067
+2025-10-09 11:31:31 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 11:31:32 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 11:31:32 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 11:31:32 | INFO | 🎉 SESSION COMPLETED in 27.5s
+2025-10-09 11:31:32 | INFO | ============================================================
