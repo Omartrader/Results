@@ -5990,3 +5990,55 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 14:01:34 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 14:01:34 | INFO | 🎉 SESSION COMPLETED in 28.4s
 2025-10-09 14:01:34 | INFO | ============================================================
+2025-10-09 14:16:06 | INFO | ================================================================================
+2025-10-09 14:16:06 | INFO | NEW PERPETUAL SESSION: 2025-10-09 14:16:06
+2025-10-09 14:16:06 | INFO | ================================================================================
+2025-10-09 14:16:06 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 14:16:06 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 14:16:06 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 14:16:06 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 14:16:08 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 14:16:08 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 14:16:27 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 14:16:27 | INFO |  1. NAORISUSDT   | SELL | Price: $  0.0833 | Confidence:  95.0% | Momentum: -4.98%
+2025-10-09 14:16:27 | INFO |  2. MERLUSDT     | BUY  | Price: $  0.3383 | Confidence:  93.8% | Momentum: +4.38%
+2025-10-09 14:16:27 | INFO |  3. HUSDT        | SELL | Price: $  0.0668 | Confidence:  86.7% | Momentum: -3.67%
+2025-10-09 14:16:27 | INFO |  4. BATUSDT      | BUY  | Price: $  0.1533 | Confidence:  77.5% | Momentum: +2.75%
+2025-10-09 14:16:27 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-09 14:16:27 | INFO | 1. NAORISUSDT - SELL (95.0%) @ $0.08327
+2025-10-09 14:16:28 | INFO | Setting leverage for NAORISUSDT to 1x
+2025-10-09 14:16:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NAORISUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 14:16:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NAORISUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '110220', 'timeInForce': 'IOC'}
+2025-10-09 14:16:29 | INFO | ✅ Perpetual order placed: cbf216a4-eae5-4cb9-8081-38f72fe8addd
+2025-10-09 14:16:29 | INFO | Setting stop loss via trading stop: NAORISUSDT @ 0.0857681
+2025-10-09 14:16:29 | INFO | ✅ Stop loss set via position management
+2025-10-09 14:16:29 | INFO | Setting take profit via trading stop: NAORISUSDT @ 0.08243729999999999
+2025-10-09 14:16:29 | INFO | ✅ Take profit set via position management
+2025-10-09 14:16:31 | INFO | Setting trailing stop: NAORISUSDT @ 1.0% = $0.000833 from $0.08332
+2025-10-09 14:16:31 | INFO | ✅ Trailing stop set: 1.0% ($0.000833)
+2025-10-09 14:16:31 | INFO | ✅ EXECUTED: NAORISUSDT SELL 110220.000000 @ $0.08327 (Conf: 95.0%)
+2025-10-09 14:16:32 | INFO | 2. MERLUSDT - BUY (93.8%) @ $0.33826
+2025-10-09 14:16:32 | INFO | 3. HUSDT - SELL (86.7%) @ $0.06675
+2025-10-09 14:16:33 | INFO | Setting leverage for HUSDT to 1x
+2025-10-09 14:16:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 14:16:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '124450', 'timeInForce': 'IOC'}
+2025-10-09 14:16:33 | INFO | ✅ Perpetual order placed: b93f8ee3-eebc-4971-920b-76cf37296aa0
+2025-10-09 14:16:34 | INFO | Setting stop loss via trading stop: HUSDT @ 0.06875250000000001
+2025-10-09 14:16:34 | INFO | ✅ Stop loss set via position management
+2025-10-09 14:16:34 | INFO | Setting take profit via trading stop: HUSDT @ 0.0660825
+2025-10-09 14:16:34 | INFO | ✅ Take profit set via position management
+2025-10-09 14:16:36 | INFO | Setting trailing stop: HUSDT @ 1.0% = $0.000667 from $0.06673
+2025-10-09 14:16:36 | INFO | ✅ Trailing stop set: 1.0% ($0.000667)
+2025-10-09 14:16:36 | INFO | ✅ EXECUTED: HUSDT SELL 124450.000000 @ $0.06675 (Conf: 86.7%)
+2025-10-09 14:16:36 | INFO | 4. BATUSDT - BUY (77.5%) @ $0.1533
+2025-10-09 14:16:36 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-09 14:16:36 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 14:16:36 | INFO |    • NAORISUSDT: SHORT 110220.000000 @ $0.08327 - SL: $0.0858 TP: $0.0824
+2025-10-09 14:16:36 | INFO |    • HUSDT: SHORT 124450.000000 @ $0.06675 - SL: $0.0688 TP: $0.0661
+2025-10-09 14:16:36 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 14:16:37 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 14:16:37 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 14:16:37 | INFO | 🎉 SESSION COMPLETED in 30.4s
+2025-10-09 14:16:37 | INFO | ============================================================
