@@ -9481,3 +9481,44 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-09 22:31:43 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 22:31:43 | INFO | 🎉 SESSION COMPLETED in 30.9s
 2025-10-09 22:31:43 | INFO | ============================================================
+2025-10-09 22:46:02 | INFO | ================================================================================
+2025-10-09 22:46:02 | INFO | NEW PERPETUAL SESSION: 2025-10-09 22:46:02
+2025-10-09 22:46:02 | INFO | ================================================================================
+2025-10-09 22:46:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 22:46:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 22:46:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 22:46:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 22:46:04 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 22:46:04 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 22:46:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 22:46:13 | INFO |  1. COAIUSDT     | BUY  | Price: $  5.9555 | Confidence:  95.0% | Momentum: +10.36%
+2025-10-09 22:46:13 | INFO |  2. DASHUSDT     | BUY  | Price: $ 32.2400 | Confidence:  92.0% | Momentum: +4.20%
+2025-10-09 22:46:13 | INFO |  3. CRVUSDT      | BUY  | Price: $  0.7282 | Confidence:  77.5% | Momentum: +2.75%
+2025-10-09 22:46:13 | INFO |  4. CLANKERUSDT  | BUY  | Price: $ 29.6900 | Confidence:  72.4% | Momentum: +2.24%
+2025-10-09 22:46:14 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-09 22:46:14 | INFO | 1. COAIUSDT - BUY (95.0%) @ $5.9555
+2025-10-09 22:46:14 | INFO | 2. DASHUSDT - BUY (92.0%) @ $32.24
+2025-10-09 22:46:15 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-09 22:46:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:46:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:46:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '285.94', 'timeInForce': 'IOC'}
+2025-10-09 22:46:15 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:28594000000 > max_qty:20800000000 (ErrCode: 10001) (ErrTime: 18:46:15).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DASHUSDT", "side": "Buy", "orderType": "Market", "qty": "285.94", "timeInForce": "IOC"}.
+2025-10-09 22:46:15 | ERROR | ❌ FAILED: DASHUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:28594000000 > max_qty:20800000000 (ErrCode: 10001) (ErrTime: 18:46:15).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DASHUSDT", "side": "Buy", "orderType": "Market", "qty": "285.94", "timeInForce": "IOC"}.
+2025-10-09 22:46:16 | INFO | 3. CRVUSDT - BUY (77.5%) @ $0.7282
+2025-10-09 22:46:16 | INFO | 4. CLANKERUSDT - BUY (72.4%) @ $29.69
+2025-10-09 22:46:17 | INFO | Setting leverage for CLANKERUSDT to 1x
+2025-10-09 22:46:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:46:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLANKERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:46:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLANKERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '310.5', 'timeInForce': 'IOC'}
+2025-10-09 22:46:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:31050000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 18:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Buy", "orderType": "Market", "qty": "310.5", "timeInForce": "IOC"}.
+2025-10-09 22:46:17 | ERROR | ❌ FAILED: CLANKERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:31050000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 18:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Buy", "orderType": "Market", "qty": "310.5", "timeInForce": "IOC"}.
+2025-10-09 22:46:18 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 2 failed
+2025-10-09 22:46:18 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 22:46:18 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 22:46:18 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 22:46:18 | INFO | 🎉 SESSION COMPLETED in 15.5s
+2025-10-09 22:46:18 | INFO | ============================================================
