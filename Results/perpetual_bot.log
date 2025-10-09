@@ -9328,3 +9328,88 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 22:02:01 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 22:02:01 | INFO | 🎉 SESSION COMPLETED in 49.1s
 2025-10-09 22:02:01 | INFO | ============================================================
+2025-10-09 22:16:01 | INFO | ================================================================================
+2025-10-09 22:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 22:16:01
+2025-10-09 22:16:01 | INFO | ================================================================================
+2025-10-09 22:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 22:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 22:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 22:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 22:16:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 22:16:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 22:16:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 22:16:13 | INFO |  1. COAIUSDT     | BUY  | Price: $  5.9470 | Confidence:  95.0% | Momentum: +10.21%
+2025-10-09 22:16:13 | INFO |  2. DASHUSDT     | BUY  | Price: $ 32.4000 | Confidence:  95.0% | Momentum: +4.72%
+2025-10-09 22:16:13 | INFO |  3. DOLOUSDT     | BUY  | Price: $  0.1071 | Confidence:  95.0% | Momentum: +4.66%
+2025-10-09 22:16:13 | INFO |  4. CLANKERUSDT  | BUY  | Price: $ 29.8900 | Confidence:  79.3% | Momentum: +2.93%
+2025-10-09 22:16:13 | INFO |  5. CRVUSDT      | BUY  | Price: $  0.7292 | Confidence:  78.9% | Momentum: +2.89%
+2025-10-09 22:16:13 | INFO |  6. JUSDT        | SELL | Price: $  0.0948 | Confidence:  78.0% | Momentum: -2.80%
+2025-10-09 22:16:13 | INFO |  7. LAUNCHCOINUSDT | BUY  | Price: $  0.1117 | Confidence:  75.2% | Momentum: +2.52%
+2025-10-09 22:16:13 | INFO |  8. ACHUSDT      | BUY  | Price: $  0.0187 | Confidence:  66.2% | Momentum: +1.62%
+2025-10-09 22:16:13 | INFO |  9. LTCUSDT      | BUY  | Price: $118.0400 | Confidence:  65.7% | Momentum: +1.57%
+2025-10-09 22:16:14 | INFO | 🎯 PROCESSING TOP 9 OPPORTUNITIES:
+2025-10-09 22:16:14 | INFO | 1. COAIUSDT - BUY (95.0%) @ $5.947
+2025-10-09 22:16:15 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-09 22:16:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:16:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:16:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1551', 'timeInForce': 'IOC'}
+2025-10-09 22:16:15 | INFO | ✅ Perpetual order placed: 2c9383e8-0c89-4c05-85c2-782afa7fb217
+2025-10-09 22:16:16 | INFO | Setting stop loss via trading stop: COAIUSDT @ 5.76859
+2025-10-09 22:16:16 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:16:16 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.00647
+2025-10-09 22:16:16 | INFO | ✅ Take profit set via position management
+2025-10-09 22:16:18 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.059387 from $5.9387
+2025-10-09 22:16:18 | INFO | ✅ Trailing stop set: 1.0% ($0.059387)
+2025-10-09 22:16:18 | INFO | ✅ EXECUTED: COAIUSDT BUY 1551.000000 @ $5.947 (Conf: 95.0%)
+2025-10-09 22:16:18 | INFO | 2. DASHUSDT - BUY (95.0%) @ $32.4
+2025-10-09 22:16:19 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-09 22:16:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:16:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:16:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '257.62', 'timeInForce': 'IOC'}
+2025-10-09 22:16:20 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25762000000 > max_qty:20800000000 (ErrCode: 10001) (ErrTime: 18:16:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DASHUSDT", "side": "Buy", "orderType": "Market", "qty": "257.62", "timeInForce": "IOC"}.
+2025-10-09 22:16:20 | ERROR | ❌ FAILED: DASHUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25762000000 > max_qty:20800000000 (ErrCode: 10001) (ErrTime: 18:16:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DASHUSDT", "side": "Buy", "orderType": "Market", "qty": "257.62", "timeInForce": "IOC"}.
+2025-10-09 22:16:20 | INFO | 3. DOLOUSDT - BUY (95.0%) @ $0.10715
+2025-10-09 22:16:20 | INFO | 4. CLANKERUSDT - BUY (79.3%) @ $29.89
+2025-10-09 22:16:21 | INFO | Setting leverage for CLANKERUSDT to 1x
+2025-10-09 22:16:21 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:16:21).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLANKERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:16:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLANKERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '279.25', 'timeInForce': 'IOC'}
+2025-10-09 22:16:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:27925000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 18:16:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Buy", "orderType": "Market", "qty": "279.25", "timeInForce": "IOC"}.
+2025-10-09 22:16:21 | ERROR | ❌ FAILED: CLANKERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:27925000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 18:16:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Buy", "orderType": "Market", "qty": "279.25", "timeInForce": "IOC"}.
+2025-10-09 22:16:22 | INFO | 5. CRVUSDT - BUY (78.9%) @ $0.7292
+2025-10-09 22:16:22 | INFO | 6. JUSDT - SELL (78.0%) @ $0.09483
+2025-10-09 22:16:23 | INFO | Setting leverage for JUSDT to 1x
+2025-10-09 22:16:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:16:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "JUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 22:16:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '88018.6', 'timeInForce': 'IOC'}
+2025-10-09 22:16:23 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8801860000000 > max_qty:1900000000000 (ErrCode: 10001) (ErrTime: 18:16:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "JUSDT", "side": "Sell", "orderType": "Market", "qty": "88018.6", "timeInForce": "IOC"}.
+2025-10-09 22:16:23 | ERROR | ❌ FAILED: JUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:8801860000000 > max_qty:1900000000000 (ErrCode: 10001) (ErrTime: 18:16:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "JUSDT", "side": "Sell", "orderType": "Market", "qty": "88018.6", "timeInForce": "IOC"}.
+2025-10-09 22:16:24 | INFO | 7. LAUNCHCOINUSDT - BUY (75.2%) @ $0.11174
+2025-10-09 22:16:24 | INFO | 8. ACHUSDT - BUY (66.2%) @ $0.01874
+2025-10-09 22:16:24 | INFO | 9. LTCUSDT - BUY (65.7%) @ $118.04
+2025-10-09 22:16:25 | INFO | Setting leverage for LTCUSDT to 1x
+2025-10-09 22:16:25 | INFO | ✅ Leverage set to 1x for LTCUSDT
+2025-10-09 22:16:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LTCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '70.7', 'timeInForce': 'IOC'}
+2025-10-09 22:16:25 | INFO | ✅ Perpetual order placed: 85cad08a-ca1c-4f2b-9455-7dd643f19f94
+2025-10-09 22:16:26 | INFO | Setting stop loss via trading stop: LTCUSDT @ 114.4988
+2025-10-09 22:16:26 | INFO | ✅ Stop loss set via position management
+2025-10-09 22:16:26 | INFO | Setting take profit via trading stop: LTCUSDT @ 119.22040000000001
+2025-10-09 22:16:26 | INFO | ✅ Take profit set via position management
+2025-10-09 22:16:27 | INFO | Setting trailing stop: LTCUSDT @ 1.0% = $1.179700 from $117.97
+2025-10-09 22:16:28 | INFO | ✅ Trailing stop set: 1.0% ($1.179700)
+2025-10-09 22:16:28 | INFO | ✅ EXECUTED: LTCUSDT BUY 70.700000 @ $118.04 (Conf: 65.7%)
+2025-10-09 22:16:28 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 3 failed
+2025-10-09 22:16:28 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 22:16:28 | INFO |    • COAIUSDT: LONG 1551.000000 @ $5.947 - SL: $5.7686 TP: $6.0065
+2025-10-09 22:16:28 | INFO |    • LTCUSDT: LONG 70.700000 @ $118.04 - SL: $114.4988 TP: $119.2204
+2025-10-09 22:16:28 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 22:16:29 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 22:16:29 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 22:16:29 | INFO | 🎉 SESSION COMPLETED in 27.1s
+2025-10-09 22:16:29 | INFO | ============================================================
