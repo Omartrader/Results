@@ -5666,3 +5666,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 12:46:35 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 12:46:35 | INFO | 🎉 SESSION COMPLETED in 31.5s
 2025-10-09 12:46:35 | INFO | ============================================================
+2025-10-09 13:01:15 | INFO | ================================================================================
+2025-10-09 13:01:15 | INFO | NEW PERPETUAL SESSION: 2025-10-09 13:01:15
+2025-10-09 13:01:15 | INFO | ================================================================================
+2025-10-09 13:01:15 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 13:01:15 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 13:01:15 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 13:01:15 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 13:01:16 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 13:01:16 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 13:01:29 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 13:01:29 | INFO |  1. BNBUSDT      | SELL | Price: $1283.2000 | Confidence:  70.0% | Momentum: -2.00%
+2025-10-09 13:01:29 | INFO |  2. MYXUSDT      | SELL | Price: $  5.1135 | Confidence:  65.8% | Momentum: -1.58%
+2025-10-09 13:01:29 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-09 13:01:29 | INFO | 1. BNBUSDT - SELL (70.0%) @ $1283.2
+2025-10-09 13:01:30 | INFO | Setting leverage for BNBUSDT to 1x
+2025-10-09 13:01:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:01:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BNBUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:01:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BNBUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '7.2', 'timeInForce': 'IOC'}
+2025-10-09 13:01:31 | INFO | ✅ Perpetual order placed: 4a97092a-2956-43a7-8fb9-fca967818fe9
+2025-10-09 13:01:31 | INFO | Setting stop loss via trading stop: BNBUSDT @ 1321.6960000000001
+2025-10-09 13:01:31 | INFO | ✅ Stop loss set via position management
+2025-10-09 13:01:31 | INFO | Setting take profit via trading stop: BNBUSDT @ 1270.368
+2025-10-09 13:01:31 | INFO | ✅ Take profit set via position management
+2025-10-09 13:01:33 | INFO | Setting trailing stop: BNBUSDT @ 1.0% = $12.827000 from $1282.7
+2025-10-09 13:01:33 | INFO | ✅ Trailing stop set: 1.0% ($12.827000)
+2025-10-09 13:01:33 | INFO | ✅ EXECUTED: BNBUSDT SELL 7.200000 @ $1283.2 (Conf: 70.0%)
+2025-10-09 13:01:34 | INFO | 2. MYXUSDT - SELL (65.8%) @ $5.1135
+2025-10-09 13:01:35 | INFO | Setting leverage for MYXUSDT to 1x
+2025-10-09 13:01:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:01:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MYXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:01:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MYXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1634', 'timeInForce': 'IOC'}
+2025-10-09 13:01:35 | INFO | ✅ Perpetual order placed: 6504d146-8eff-4c63-a113-cae8c5682df2
+2025-10-09 13:01:36 | INFO | Setting stop loss via trading stop: MYXUSDT @ 5.266905
+2025-10-09 13:01:36 | INFO | ✅ Stop loss set via position management
+2025-10-09 13:01:36 | INFO | Setting take profit via trading stop: MYXUSDT @ 5.062365
+2025-10-09 13:01:36 | INFO | ✅ Take profit set via position management
+2025-10-09 13:01:37 | INFO | Setting trailing stop: MYXUSDT @ 1.0% = $0.051057 from $5.1057
+2025-10-09 13:01:38 | INFO | ✅ Trailing stop set: 1.0% ($0.051057)
+2025-10-09 13:01:38 | INFO | ✅ EXECUTED: MYXUSDT SELL 1634.000000 @ $5.1135 (Conf: 65.8%)
+2025-10-09 13:01:38 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-09 13:01:38 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 13:01:38 | INFO |    • BNBUSDT: SHORT 7.200000 @ $1283.2 - SL: $1321.6960 TP: $1270.3680
+2025-10-09 13:01:38 | INFO |    • MYXUSDT: SHORT 1634.000000 @ $5.1135 - SL: $5.2669 TP: $5.0624
+2025-10-09 13:01:38 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 13:01:39 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 13:01:39 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 13:01:39 | INFO | 🎉 SESSION COMPLETED in 23.4s
+2025-10-09 13:01:39 | INFO | ============================================================
