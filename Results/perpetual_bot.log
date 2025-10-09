@@ -5942,3 +5942,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 13:46:57 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 13:46:57 | INFO | 🎉 SESSION COMPLETED in 33.6s
 2025-10-09 13:46:57 | INFO | ============================================================
+2025-10-09 14:01:05 | INFO | ================================================================================
+2025-10-09 14:01:05 | INFO | NEW PERPETUAL SESSION: 2025-10-09 14:01:05
+2025-10-09 14:01:05 | INFO | ================================================================================
+2025-10-09 14:01:05 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 14:01:05 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 14:01:05 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 14:01:05 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 14:01:07 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 14:01:07 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 14:01:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 14:01:24 | INFO |  1. MERLUSDT     | BUY  | Price: $  0.3394 | Confidence:  95.0% | Momentum: +4.73%
+2025-10-09 14:01:24 | INFO |  2. BATUSDT      | BUY  | Price: $  0.1531 | Confidence:  76.1% | Momentum: +2.61%
+2025-10-09 14:01:25 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-09 14:01:25 | INFO | 1. MERLUSDT - BUY (95.0%) @ $0.33938
+2025-10-09 14:01:26 | INFO | Setting leverage for MERLUSDT to 1x
+2025-10-09 14:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MERLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 14:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MERLUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '27045.9', 'timeInForce': 'IOC'}
+2025-10-09 14:01:26 | INFO | ✅ Perpetual order placed: f4f19cce-fcd9-4109-9e4f-fe17726823d4
+2025-10-09 14:01:27 | INFO | Setting stop loss via trading stop: MERLUSDT @ 0.3291986
+2025-10-09 14:01:27 | INFO | ✅ Stop loss set via position management
+2025-10-09 14:01:27 | INFO | Setting take profit via trading stop: MERLUSDT @ 0.3427738
+2025-10-09 14:01:27 | INFO | ✅ Take profit set via position management
+2025-10-09 14:01:28 | INFO | Setting trailing stop: MERLUSDT @ 1.0% = $0.003394 from $0.33941
+2025-10-09 14:01:29 | INFO | ✅ Trailing stop set: 1.0% ($0.003394)
+2025-10-09 14:01:29 | INFO | ✅ EXECUTED: MERLUSDT BUY 27045.900000 @ $0.33938 (Conf: 95.0%)
+2025-10-09 14:01:29 | INFO | 2. BATUSDT - BUY (76.1%) @ $0.1531
+2025-10-09 14:01:30 | INFO | Setting leverage for BATUSDT to 1x
+2025-10-09 14:01:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:01:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 14:01:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BATUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '54263.3', 'timeInForce': 'IOC'}
+2025-10-09 14:01:31 | INFO | ✅ Perpetual order placed: aca9b53f-8a34-4afe-b05e-fbbb4a58c0b5
+2025-10-09 14:01:31 | INFO | Setting stop loss via trading stop: BATUSDT @ 0.148507
+2025-10-09 14:01:31 | INFO | ✅ Stop loss set via position management
+2025-10-09 14:01:31 | INFO | Setting take profit via trading stop: BATUSDT @ 0.15463100000000002
+2025-10-09 14:01:31 | INFO | ✅ Take profit set via position management
+2025-10-09 14:01:33 | INFO | Setting trailing stop: BATUSDT @ 1.0% = $0.001530 from $0.153
+2025-10-09 14:01:33 | INFO | ✅ Trailing stop set: 1.0% ($0.001530)
+2025-10-09 14:01:33 | INFO | ✅ EXECUTED: BATUSDT BUY 54263.300000 @ $0.1531 (Conf: 76.1%)
+2025-10-09 14:01:34 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-09 14:01:34 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 14:01:34 | INFO |    • MERLUSDT: LONG 27045.900000 @ $0.33938 - SL: $0.3292 TP: $0.3428
+2025-10-09 14:01:34 | INFO |    • BATUSDT: LONG 54263.300000 @ $0.1531 - SL: $0.1485 TP: $0.1546
+2025-10-09 14:01:34 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 14:01:34 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 14:01:34 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 14:01:34 | INFO | 🎉 SESSION COMPLETED in 28.4s
+2025-10-09 14:01:34 | INFO | ============================================================
