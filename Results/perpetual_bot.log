@@ -5852,3 +5852,93 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 13:31:32 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 13:31:32 | INFO | 🎉 SESSION COMPLETED in 29.0s
 2025-10-09 13:31:32 | INFO | ============================================================
+2025-10-09 13:46:23 | INFO | ================================================================================
+2025-10-09 13:46:23 | INFO | NEW PERPETUAL SESSION: 2025-10-09 13:46:23
+2025-10-09 13:46:23 | INFO | ================================================================================
+2025-10-09 13:46:23 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 13:46:23 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 13:46:23 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 13:46:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 13:46:24 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 13:46:24 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 13:46:35 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 13:46:35 | INFO |  1. DOGSUSDT     | BUY  | Price: $  0.0001 | Confidence:  83.9% | Momentum: +3.39%
+2025-10-09 13:46:35 | INFO |  2. 1000000CHEEMSUSDT | SELL | Price: $  1.6675 | Confidence:  80.5% | Momentum: -3.05%
+2025-10-09 13:46:35 | INFO |  3. ARIAUSDT     | BUY  | Price: $  0.1498 | Confidence:  78.7% | Momentum: +2.87%
+2025-10-09 13:46:35 | INFO |  4. DEXEUSDT     | SELL | Price: $ 11.0720 | Confidence:  78.5% | Momentum: -2.85%
+2025-10-09 13:46:35 | INFO |  5. BNBUSDT      | SELL | Price: $1277.9000 | Confidence:  74.1% | Momentum: -2.41%
+2025-10-09 13:46:35 | INFO |  6. BUSDT        | BUY  | Price: $  0.2518 | Confidence:  73.5% | Momentum: +2.35%
+2025-10-09 13:46:36 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-09 13:46:36 | INFO | 1. DOGSUSDT - BUY (83.9%) @ $0.0001251
+2025-10-09 13:46:37 | INFO | Setting leverage for DOGSUSDT to 1x
+2025-10-09 13:46:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOGSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:46:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOGSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '73511700', 'timeInForce': 'IOC'}
+2025-10-09 13:46:38 | INFO | ✅ Perpetual order placed: 70623822-f6f1-41dd-a33f-8b4e909444ed
+2025-10-09 13:46:38 | INFO | Setting stop loss via trading stop: DOGSUSDT @ 0.000121347
+2025-10-09 13:46:38 | INFO | ✅ Stop loss set via position management
+2025-10-09 13:46:38 | INFO | Setting take profit via trading stop: DOGSUSDT @ 0.000126351
+2025-10-09 13:46:38 | INFO | ✅ Take profit set via position management
+2025-10-09 13:46:40 | INFO | Setting trailing stop: DOGSUSDT @ 1.0% = $0.000001 from $0.000125
+2025-10-09 13:46:40 | INFO | ✅ Trailing stop set: 1.0% ($0.000001)
+2025-10-09 13:46:40 | INFO | ✅ EXECUTED: DOGSUSDT BUY 73511700.000000 @ $0.0001251 (Conf: 83.9%)
+2025-10-09 13:46:41 | INFO | 2. 1000000CHEEMSUSDT - SELL (80.5%) @ $1.6675
+2025-10-09 13:46:42 | INFO | Setting leverage for 1000000CHEEMSUSDT to 1x
+2025-10-09 13:46:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:46:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000CHEEMSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4992', 'timeInForce': 'IOC'}
+2025-10-09 13:46:42 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:499200000000 > max_qty:274000000000 (ErrCode: 10001) (ErrTime: 09:46:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "side": "Sell", "orderType": "Market", "qty": "4992", "timeInForce": "IOC"}.
+2025-10-09 13:46:42 | ERROR | ❌ FAILED: 1000000CHEEMSUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:499200000000 > max_qty:274000000000 (ErrCode: 10001) (ErrTime: 09:46:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "side": "Sell", "orderType": "Market", "qty": "4992", "timeInForce": "IOC"}.
+2025-10-09 13:46:43 | INFO | 3. ARIAUSDT - BUY (78.7%) @ $0.14983
+2025-10-09 13:46:44 | INFO | Setting leverage for ARIAUSDT to 1x
+2025-10-09 13:46:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ARIAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:46:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ARIAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '55553', 'timeInForce': 'IOC'}
+2025-10-09 13:46:45 | INFO | ✅ Perpetual order placed: ff4a0167-dd64-4e74-b9a8-a78529f54515
+2025-10-09 13:46:45 | INFO | Setting stop loss via trading stop: ARIAUSDT @ 0.1453351
+2025-10-09 13:46:45 | INFO | ✅ Stop loss set via position management
+2025-10-09 13:46:45 | INFO | Setting take profit via trading stop: ARIAUSDT @ 0.1513283
+2025-10-09 13:46:45 | INFO | ✅ Take profit set via position management
+2025-10-09 13:46:47 | INFO | Setting trailing stop: ARIAUSDT @ 1.0% = $0.001499 from $0.14985
+2025-10-09 13:46:47 | INFO | ✅ Trailing stop set: 1.0% ($0.001499)
+2025-10-09 13:46:47 | INFO | ✅ EXECUTED: ARIAUSDT BUY 55553.000000 @ $0.14983 (Conf: 78.7%)
+2025-10-09 13:46:48 | INFO | 4. DEXEUSDT - SELL (78.5%) @ $11.072
+2025-10-09 13:46:49 | INFO | Setting leverage for DEXEUSDT to 1x
+2025-10-09 13:46:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DEXEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:46:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DEXEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '680.4', 'timeInForce': 'IOC'}
+2025-10-09 13:46:49 | INFO | ✅ Perpetual order placed: f8da8d67-9af2-4d26-804d-52e22fa55f69
+2025-10-09 13:46:49 | INFO | Setting stop loss via trading stop: DEXEUSDT @ 11.40416
+2025-10-09 13:46:49 | INFO | ✅ Stop loss set via position management
+2025-10-09 13:46:50 | INFO | Setting take profit via trading stop: DEXEUSDT @ 10.961279999999999
+2025-10-09 13:46:50 | INFO | ✅ Take profit set via position management
+2025-10-09 13:46:51 | INFO | Setting trailing stop: DEXEUSDT @ 1.0% = $0.110720 from $11.072
+2025-10-09 13:46:52 | INFO | ✅ Trailing stop set: 1.0% ($0.110720)
+2025-10-09 13:46:52 | INFO | ✅ EXECUTED: DEXEUSDT SELL 680.400000 @ $11.072 (Conf: 78.5%)
+2025-10-09 13:46:52 | INFO | 5. BNBUSDT - SELL (74.1%) @ $1277.9
+2025-10-09 13:46:52 | INFO | 6. BUSDT - BUY (73.5%) @ $0.25182
+2025-10-09 13:46:53 | INFO | Setting leverage for BUSDT to 1x
+2025-10-09 13:46:53 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:53).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 13:46:53 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '27077', 'timeInForce': 'IOC'}
+2025-10-09 13:46:53 | INFO | ✅ Perpetual order placed: 7c20f284-aba3-432d-a007-7cc7417b2ba4
+2025-10-09 13:46:54 | INFO | Setting stop loss via trading stop: BUSDT @ 0.2442654
+2025-10-09 13:46:54 | INFO | ✅ Stop loss set via position management
+2025-10-09 13:46:54 | INFO | Setting take profit via trading stop: BUSDT @ 0.2543382
+2025-10-09 13:46:54 | INFO | ✅ Take profit set via position management
+2025-10-09 13:46:56 | INFO | Setting trailing stop: BUSDT @ 1.0% = $0.002526 from $0.25258
+2025-10-09 13:46:56 | INFO | ✅ Trailing stop set: 1.0% ($0.002526)
+2025-10-09 13:46:56 | INFO | ✅ EXECUTED: BUSDT BUY 27077.000000 @ $0.25182 (Conf: 73.5%)
+2025-10-09 13:46:56 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 1 failed
+2025-10-09 13:46:56 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 13:46:56 | INFO |    • DOGSUSDT: LONG 73511700.000000 @ $0.0001251 - SL: $0.0001 TP: $0.0001
+2025-10-09 13:46:56 | INFO |    • ARIAUSDT: LONG 55553.000000 @ $0.14983 - SL: $0.1453 TP: $0.1513
+2025-10-09 13:46:56 | INFO |    • DEXEUSDT: SHORT 680.400000 @ $11.072 - SL: $11.4042 TP: $10.9613
+2025-10-09 13:46:56 | INFO |    • BUSDT: LONG 27077.000000 @ $0.25182 - SL: $0.2443 TP: $0.2543
+2025-10-09 13:46:56 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 13:46:57 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 13:46:57 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 13:46:57 | INFO | 🎉 SESSION COMPLETED in 33.6s
+2025-10-09 13:46:57 | INFO | ============================================================
