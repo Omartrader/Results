@@ -11420,3 +11420,115 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 03:16:32 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 03:16:32 | INFO | 🎉 SESSION COMPLETED in 31.0s
 2025-10-10 03:16:32 | INFO | ============================================================
+2025-10-10 03:31:01 | INFO | ================================================================================
+2025-10-10 03:31:01 | INFO | NEW PERPETUAL SESSION: 2025-10-10 03:31:01
+2025-10-10 03:31:01 | INFO | ================================================================================
+2025-10-10 03:31:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 03:31:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 03:31:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 03:31:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 03:31:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 03:31:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 03:31:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 03:31:12 | INFO |  1. KGENUSDT     | BUY  | Price: $  0.1588 | Confidence:  95.0% | Momentum: +6.22%
+2025-10-10 03:31:12 | INFO |  2. MBOXUSDT     | BUY  | Price: $  0.0665 | Confidence:  95.0% | Momentum: +16.61%
+2025-10-10 03:31:12 | INFO |  3. NILUSDT      | BUY  | Price: $  0.3646 | Confidence:  95.0% | Momentum: +8.32%
+2025-10-10 03:31:12 | INFO |  4. REXUSDT      | SELL | Price: $  0.0021 | Confidence:  95.0% | Momentum: -6.60%
+2025-10-10 03:31:12 | INFO |  5. PROVEUSDT    | BUY  | Price: $  0.7956 | Confidence:  92.7% | Momentum: +4.27%
+2025-10-10 03:31:12 | INFO |  6. PYRUSDT      | BUY  | Price: $  0.9486 | Confidence:  79.1% | Momentum: +2.91%
+2025-10-10 03:31:12 | INFO |  7. CHESSUSDT    | BUY  | Price: $  0.0605 | Confidence:  77.5% | Momentum: +2.75%
+2025-10-10 03:31:12 | INFO |  8. MAJORUSDT    | BUY  | Price: $  0.1189 | Confidence:  67.1% | Momentum: +1.71%
+2025-10-10 03:31:12 | INFO |  9. COAIUSDT     | SELL | Price: $  5.7478 | Confidence:  67.1% | Momentum: -1.71%
+2025-10-10 03:31:12 | INFO | 10. LAUSDT       | BUY  | Price: $  0.3766 | Confidence:  65.9% | Momentum: +1.59%
+2025-10-10 03:31:13 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 03:31:13 | INFO | 1. KGENUSDT - BUY (95.0%) @ $0.1588
+2025-10-10 03:31:14 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-10 03:31:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '57284', 'timeInForce': 'IOC'}
+2025-10-10 03:31:14 | INFO | ✅ Perpetual order placed: 7ed1c733-6a68-413e-bd35-bc0644c61045
+2025-10-10 03:31:15 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.154036
+2025-10-10 03:31:15 | INFO | ✅ Stop loss set via position management
+2025-10-10 03:31:15 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.160388
+2025-10-10 03:31:15 | INFO | ✅ Take profit set via position management
+2025-10-10 03:31:17 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.001588 from $0.1588
+2025-10-10 03:31:17 | INFO | ✅ Trailing stop set: 1.0% ($0.001588)
+2025-10-10 03:31:17 | INFO | ✅ EXECUTED: KGENUSDT BUY 57284.000000 @ $0.1588 (Conf: 95.0%)
+2025-10-10 03:31:17 | INFO | 2. MBOXUSDT - BUY (95.0%) @ $0.0665
+2025-10-10 03:31:18 | INFO | Setting leverage for MBOXUSDT to 1x
+2025-10-10 03:31:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MBOXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MBOXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '123809', 'timeInForce': 'IOC'}
+2025-10-10 03:31:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:12380900000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 23:31:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MBOXUSDT", "side": "Buy", "orderType": "Market", "qty": "123809", "timeInForce": "IOC"}.
+2025-10-10 03:31:19 | ERROR | ❌ FAILED: MBOXUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:12380900000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 23:31:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MBOXUSDT", "side": "Buy", "orderType": "Market", "qty": "123809", "timeInForce": "IOC"}.
+2025-10-10 03:31:19 | INFO | 3. NILUSDT - BUY (95.0%) @ $0.3646
+2025-10-10 03:31:19 | INFO | 4. REXUSDT - SELL (95.0%) @ $0.002067
+2025-10-10 03:31:20 | INFO | Setting leverage for REXUSDT to 1x
+2025-10-10 03:31:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "REXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'REXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '625000', 'timeInForce': 'IOC'}
+2025-10-10 03:31:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:62500000000000 > max_qty:12500000000000 (ErrCode: 10001) (ErrTime: 23:31:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REXUSDT", "side": "Sell", "orderType": "Market", "qty": "625000", "timeInForce": "IOC"}.
+2025-10-10 03:31:21 | ERROR | ❌ FAILED: REXUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:62500000000000 > max_qty:12500000000000 (ErrCode: 10001) (ErrTime: 23:31:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REXUSDT", "side": "Sell", "orderType": "Market", "qty": "625000", "timeInForce": "IOC"}.
+2025-10-10 03:31:21 | INFO | 5. PROVEUSDT - BUY (92.7%) @ $0.7956
+2025-10-10 03:31:21 | INFO | 6. PYRUSDT - BUY (79.1%) @ $0.9486
+2025-10-10 03:31:22 | INFO | Setting leverage for PYRUSDT to 1x
+2025-10-10 03:31:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PYRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PYRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '8679', 'timeInForce': 'IOC'}
+2025-10-10 03:31:23 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:867900000000 > max_qty:230000000000 (ErrCode: 10001) (ErrTime: 23:31:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PYRUSDT", "side": "Buy", "orderType": "Market", "qty": "8679", "timeInForce": "IOC"}.
+2025-10-10 03:31:23 | ERROR | ❌ FAILED: PYRUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:867900000000 > max_qty:230000000000 (ErrCode: 10001) (ErrTime: 23:31:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PYRUSDT", "side": "Buy", "orderType": "Market", "qty": "8679", "timeInForce": "IOC"}.
+2025-10-10 03:31:23 | INFO | 7. CHESSUSDT - BUY (77.5%) @ $0.06048
+2025-10-10 03:31:24 | INFO | Setting leverage for CHESSUSDT to 1x
+2025-10-10 03:31:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CHESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CHESSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '136133', 'timeInForce': 'IOC'}
+2025-10-10 03:31:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:13613300000000 > max_qty:4500000000000 (ErrCode: 10001) (ErrTime: 23:31:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CHESSUSDT", "side": "Buy", "orderType": "Market", "qty": "136133", "timeInForce": "IOC"}.
+2025-10-10 03:31:25 | ERROR | ❌ FAILED: CHESSUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:13613300000000 > max_qty:4500000000000 (ErrCode: 10001) (ErrTime: 23:31:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CHESSUSDT", "side": "Buy", "orderType": "Market", "qty": "136133", "timeInForce": "IOC"}.
+2025-10-10 03:31:25 | INFO | 8. MAJORUSDT - BUY (67.1%) @ $0.1189
+2025-10-10 03:31:26 | INFO | Setting leverage for MAJORUSDT to 1x
+2025-10-10 03:31:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MAJORUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MAJORUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '69245.6', 'timeInForce': 'IOC'}
+2025-10-10 03:31:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6924560000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 23:31:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MAJORUSDT", "side": "Buy", "orderType": "Market", "qty": "69245.6", "timeInForce": "IOC"}.
+2025-10-10 03:31:26 | ERROR | ❌ FAILED: MAJORUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:6924560000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 23:31:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MAJORUSDT", "side": "Buy", "orderType": "Market", "qty": "69245.6", "timeInForce": "IOC"}.
+2025-10-10 03:31:27 | INFO | 9. COAIUSDT - SELL (67.1%) @ $5.7478
+2025-10-10 03:31:28 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-10 03:31:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1432', 'timeInForce': 'IOC'}
+2025-10-10 03:31:28 | INFO | ✅ Perpetual order placed: cd316d20-0478-4ad2-ba07-ba330a23c460
+2025-10-10 03:31:29 | INFO | Setting stop loss via trading stop: COAIUSDT @ 5.920234
+2025-10-10 03:31:29 | INFO | ✅ Stop loss set via position management
+2025-10-10 03:31:29 | INFO | Setting take profit via trading stop: COAIUSDT @ 5.690322
+2025-10-10 03:31:29 | INFO | ✅ Take profit set via position management
+2025-10-10 03:31:30 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.057352 from $5.7352
+2025-10-10 03:31:31 | INFO | ✅ Trailing stop set: 1.0% ($0.057352)
+2025-10-10 03:31:31 | INFO | ✅ EXECUTED: COAIUSDT SELL 1432.000000 @ $5.7478 (Conf: 67.1%)
+2025-10-10 03:31:31 | INFO | 10. LAUSDT - BUY (65.9%) @ $0.3766
+2025-10-10 03:31:32 | INFO | Setting leverage for LAUSDT to 1x
+2025-10-10 03:31:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 03:31:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '19788.0', 'timeInForce': 'IOC'}
+2025-10-10 03:31:33 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:1978800000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 23:31:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Buy", "orderType": "Market", "qty": "19788.0", "timeInForce": "IOC"}.
+2025-10-10 03:31:33 | ERROR | ❌ FAILED: LAUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:1978800000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 23:31:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Buy", "orderType": "Market", "qty": "19788.0", "timeInForce": "IOC"}.
+2025-10-10 03:31:33 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 6 failed
+2025-10-10 03:31:33 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 03:31:33 | INFO |    • KGENUSDT: LONG 57284.000000 @ $0.1588 - SL: $0.1540 TP: $0.1604
+2025-10-10 03:31:33 | INFO |    • COAIUSDT: SHORT 1432.000000 @ $5.7478 - SL: $5.9202 TP: $5.6903
+2025-10-10 03:31:33 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 03:31:34 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 03:31:34 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 03:31:34 | INFO | 🎉 SESSION COMPLETED in 31.7s
+2025-10-10 03:31:34 | INFO | ============================================================
