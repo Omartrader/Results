@@ -8408,3 +8408,68 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 19:47:18 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 19:47:18 | INFO | 🎉 SESSION COMPLETED in 40.6s
 2025-10-09 19:47:18 | INFO | ============================================================
+2025-10-09 20:01:37 | INFO | ================================================================================
+2025-10-09 20:01:37 | INFO | NEW PERPETUAL SESSION: 2025-10-09 20:01:37
+2025-10-09 20:01:37 | INFO | ================================================================================
+2025-10-09 20:01:37 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 20:01:37 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 20:01:37 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 20:01:37 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 20:01:39 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 20:01:39 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 20:01:48 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 20:01:48 | INFO |  1. ATHUSDT      | BUY  | Price: $  0.0519 | Confidence:  93.8% | Momentum: +4.38%
+2025-10-09 20:01:48 | INFO |  2. SCAUSDT      | SELL | Price: $  0.0945 | Confidence:  82.5% | Momentum: -3.25%
+2025-10-09 20:01:48 | INFO |  3. ETHBTCUSDT   | SELL | Price: $  0.0356 | Confidence:  69.7% | Momentum: -1.97%
+2025-10-09 20:01:48 | INFO |  4. SAROSUSDT    | SELL | Price: $  0.2728 | Confidence:  65.7% | Momentum: -1.57%
+2025-10-09 20:01:49 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-09 20:01:49 | INFO | 1. ATHUSDT - BUY (93.8%) @ $0.05192
+2025-10-09 20:01:50 | INFO | Setting leverage for ATHUSDT to 1x
+2025-10-09 20:01:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:01:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ATHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 20:01:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ATHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '177360', 'timeInForce': 'IOC'}
+2025-10-09 20:01:50 | INFO | ✅ Perpetual order placed: aa49d24d-58e1-4394-ab11-e8bc237dab74
+2025-10-09 20:01:50 | INFO | Setting stop loss via trading stop: ATHUSDT @ 0.0503624
+2025-10-09 20:01:50 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:01:51 | INFO | Setting take profit via trading stop: ATHUSDT @ 0.0524392
+2025-10-09 20:01:51 | INFO | ✅ Take profit set via position management
+2025-10-09 20:01:52 | INFO | Setting trailing stop: ATHUSDT @ 1.0% = $0.000519 from $0.05189
+2025-10-09 20:01:52 | INFO | ✅ Trailing stop set: 1.0% ($0.000519)
+2025-10-09 20:01:52 | INFO | ✅ EXECUTED: ATHUSDT BUY 177360.000000 @ $0.05192 (Conf: 93.8%)
+2025-10-09 20:01:53 | INFO | 2. SCAUSDT - SELL (82.5%) @ $0.09449
+2025-10-09 20:01:54 | INFO | Setting leverage for SCAUSDT to 1x
+2025-10-09 20:01:54 | INFO | ✅ Leverage set to 1x for SCAUSDT
+2025-10-09 20:01:54 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SCAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '88207.3', 'timeInForce': 'IOC'}
+2025-10-09 20:01:54 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8820730000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:01:54).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCAUSDT", "side": "Sell", "orderType": "Market", "qty": "88207.3", "timeInForce": "IOC"}.
+2025-10-09 20:01:54 | ERROR | ❌ FAILED: SCAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:8820730000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:01:54).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCAUSDT", "side": "Sell", "orderType": "Market", "qty": "88207.3", "timeInForce": "IOC"}.
+2025-10-09 20:01:55 | INFO | 3. ETHBTCUSDT - SELL (69.7%) @ $0.035601
+2025-10-09 20:01:56 | INFO | Setting leverage for ETHBTCUSDT to 1x
+2025-10-09 20:01:57 | INFO | ✅ Leverage set to 1x for ETHBTCUSDT
+2025-10-09 20:01:57 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ETHBTCUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '234110', 'timeInForce': 'IOC'}
+2025-10-09 20:01:57 | INFO | ✅ Perpetual order placed: 44418c6b-8ee3-48bd-87a1-9e2bac42c9f3
+2025-10-09 20:01:57 | INFO | Setting stop loss via trading stop: ETHBTCUSDT @ 0.03666903
+2025-10-09 20:01:57 | INFO | ✅ Stop loss set via position management
+2025-10-09 20:01:58 | INFO | Setting take profit via trading stop: ETHBTCUSDT @ 0.035244990000000004
+2025-10-09 20:01:58 | INFO | ✅ Take profit set via position management
+2025-10-09 20:01:59 | INFO | Setting trailing stop: ETHBTCUSDT @ 1.0% = $0.000356 from $0.035607
+2025-10-09 20:01:59 | INFO | ✅ Trailing stop set: 1.0% ($0.000356)
+2025-10-09 20:01:59 | INFO | ✅ EXECUTED: ETHBTCUSDT SELL 234110.000000 @ $0.035601 (Conf: 69.7%)
+2025-10-09 20:02:00 | INFO | 4. SAROSUSDT - SELL (65.7%) @ $0.27279
+2025-10-09 20:02:01 | INFO | Setting leverage for SAROSUSDT to 1x
+2025-10-09 20:02:01 | INFO | ✅ Leverage set to 1x for SAROSUSDT
+2025-10-09 20:02:01 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SAROSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '27654', 'timeInForce': 'IOC'}
+2025-10-09 20:02:01 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2765400000000 > max_qty:2700000000000 (ErrCode: 10001) (ErrTime: 16:02:01).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SAROSUSDT", "side": "Sell", "orderType": "Market", "qty": "27654", "timeInForce": "IOC"}.
+2025-10-09 20:02:01 | ERROR | ❌ FAILED: SAROSUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2765400000000 > max_qty:2700000000000 (ErrCode: 10001) (ErrTime: 16:02:01).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SAROSUSDT", "side": "Sell", "orderType": "Market", "qty": "27654", "timeInForce": "IOC"}.
+2025-10-09 20:02:02 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 2 failed
+2025-10-09 20:02:02 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 20:02:02 | INFO |    • ATHUSDT: LONG 177360.000000 @ $0.05192 - SL: $0.0504 TP: $0.0524
+2025-10-09 20:02:02 | INFO |    • ETHBTCUSDT: SHORT 234110.000000 @ $0.035601 - SL: $0.0367 TP: $0.0352
+2025-10-09 20:02:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 20:02:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 20:02:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 20:02:02 | INFO | 🎉 SESSION COMPLETED in 24.5s
+2025-10-09 20:02:02 | INFO | ============================================================
