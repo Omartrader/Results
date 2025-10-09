@@ -8172,3 +8172,121 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 19:16:36 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-09 19:16:36 | INFO | 🎉 SESSION COMPLETED in 29.9s
 2025-10-09 19:16:36 | INFO | ============================================================
+2025-10-09 19:31:30 | INFO | ================================================================================
+2025-10-09 19:31:30 | INFO | NEW PERPETUAL SESSION: 2025-10-09 19:31:30
+2025-10-09 19:31:30 | INFO | ================================================================================
+2025-10-09 19:31:30 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 19:31:30 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 19:31:30 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 19:31:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 19:31:32 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 19:31:32 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 19:31:43 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 19:31:43 | INFO |  1. 1000RATSUSDT | SELL | Price: $  0.0250 | Confidence:  95.0% | Momentum: -4.66%
+2025-10-09 19:31:43 | INFO |  2. B2USDT       | SELL | Price: $  1.1773 | Confidence:  95.0% | Momentum: -5.96%
+2025-10-09 19:31:43 | INFO |  3. HIPPOUSDT    | BUY  | Price: $  0.0034 | Confidence:  95.0% | Momentum: +4.92%
+2025-10-09 19:31:43 | INFO |  4. KGENUSDT     | SELL | Price: $  0.1554 | Confidence:  95.0% | Momentum: -29.72%
+2025-10-09 19:31:43 | INFO |  5. BUSDT        | BUY  | Price: $  0.2565 | Confidence:  91.5% | Momentum: +4.15%
+2025-10-09 19:31:43 | INFO |  6. IPUSDT       | SELL | Price: $  8.9643 | Confidence:  79.6% | Momentum: -2.96%
+2025-10-09 19:31:43 | INFO |  7. COOKUSDT     | SELL | Price: $  0.0138 | Confidence:  77.7% | Momentum: -2.77%
+2025-10-09 19:31:43 | INFO |  8. NOMUSDT      | BUY  | Price: $  0.0296 | Confidence:  73.8% | Momentum: +2.38%
+2025-10-09 19:31:43 | INFO |  9. FLRUSDT      | SELL | Price: $  0.0221 | Confidence:  70.9% | Momentum: -2.09%
+2025-10-09 19:31:43 | INFO | 10. OGUSDT       | BUY  | Price: $ 16.5388 | Confidence:  70.4% | Momentum: +2.04%
+2025-10-09 19:31:43 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-09 19:31:43 | INFO | 1. 1000RATSUSDT - SELL (95.0%) @ $0.02496
+2025-10-09 19:31:44 | INFO | Setting leverage for 1000RATSUSDT to 1x
+2025-10-09 19:31:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000RATSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 19:31:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000RATSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '368670', 'timeInForce': 'IOC'}
+2025-10-09 19:31:45 | INFO | ✅ Perpetual order placed: cd067cd2-577e-4b48-b5f0-5e6552ce960c
+2025-10-09 19:31:45 | INFO | Setting stop loss via trading stop: 1000RATSUSDT @ 0.0257088
+2025-10-09 19:31:45 | INFO | ✅ Stop loss set via position management
+2025-10-09 19:31:46 | INFO | Setting take profit via trading stop: 1000RATSUSDT @ 0.0247104
+2025-10-09 19:31:46 | INFO | ✅ Take profit set via position management
+2025-10-09 19:31:47 | INFO | Setting trailing stop: 1000RATSUSDT @ 1.0% = $0.000250 from $0.02498
+2025-10-09 19:31:48 | INFO | ✅ Trailing stop set: 1.0% ($0.000250)
+2025-10-09 19:31:48 | INFO | ✅ EXECUTED: 1000RATSUSDT SELL 368670.000000 @ $0.02496 (Conf: 95.0%)
+2025-10-09 19:31:48 | INFO | 2. B2USDT - SELL (95.0%) @ $1.1773
+2025-10-09 19:31:50 | INFO | Setting leverage for B2USDT to 1x
+2025-10-09 19:31:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 19:31:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '7074', 'timeInForce': 'IOC'}
+2025-10-09 19:31:50 | INFO | ✅ Perpetual order placed: 8ab61a03-2153-4422-a43e-c0eca416fc7b
+2025-10-09 19:31:50 | INFO | Setting stop loss via trading stop: B2USDT @ 1.2126190000000001
+2025-10-09 19:31:50 | INFO | ✅ Stop loss set via position management
+2025-10-09 19:31:51 | INFO | Setting take profit via trading stop: B2USDT @ 1.165527
+2025-10-09 19:31:51 | INFO | ✅ Take profit set via position management
+2025-10-09 19:31:52 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.011773 from $1.1773
+2025-10-09 19:31:53 | INFO | ✅ Trailing stop set: 1.0% ($0.011773)
+2025-10-09 19:31:53 | INFO | ✅ EXECUTED: B2USDT SELL 7074.000000 @ $1.1773 (Conf: 95.0%)
+2025-10-09 19:31:53 | INFO | 3. HIPPOUSDT - BUY (95.0%) @ $0.003434
+2025-10-09 19:31:54 | INFO | Setting leverage for HIPPOUSDT to 1x
+2025-10-09 19:31:55 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:55).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HIPPOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 19:31:55 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HIPPOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2195190', 'timeInForce': 'IOC'}
+2025-10-09 19:31:55 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:219519000000000 > max_qty:114000000000000 (ErrCode: 10001) (ErrTime: 15:31:55).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HIPPOUSDT", "side": "Buy", "orderType": "Market", "qty": "2195190", "timeInForce": "IOC"}.
+2025-10-09 19:31:55 | ERROR | ❌ FAILED: HIPPOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:219519000000000 > max_qty:114000000000000 (ErrCode: 10001) (ErrTime: 15:31:55).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HIPPOUSDT", "side": "Buy", "orderType": "Market", "qty": "2195190", "timeInForce": "IOC"}.
+2025-10-09 19:31:56 | INFO | 4. KGENUSDT - SELL (95.0%) @ $0.1554
+2025-10-09 19:31:56 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-09 19:31:57 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:57).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 19:31:57 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '48509', 'timeInForce': 'IOC'}
+2025-10-09 19:31:57 | INFO | ✅ Perpetual order placed: 48da3e22-c8c8-437b-8bf6-80bf6b041656
+2025-10-09 19:31:58 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.160062
+2025-10-09 19:31:58 | INFO | ✅ Stop loss set via position management
+2025-10-09 19:31:58 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.153846
+2025-10-09 19:31:58 | INFO | ✅ Take profit set via position management
+2025-10-09 19:31:59 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.001551 from $0.1551
+2025-10-09 19:32:00 | INFO | ✅ Trailing stop set: 1.0% ($0.001551)
+2025-10-09 19:32:00 | INFO | ✅ EXECUTED: KGENUSDT SELL 48509.000000 @ $0.1554 (Conf: 95.0%)
+2025-10-09 19:32:00 | INFO | 5. BUSDT - BUY (91.5%) @ $0.25646
+2025-10-09 19:32:00 | INFO | 6. IPUSDT - SELL (79.6%) @ $8.9643
+2025-10-09 19:32:00 | INFO | 7. COOKUSDT - SELL (77.7%) @ $0.013757
+2025-10-09 19:32:01 | INFO | Setting leverage for COOKUSDT to 1x
+2025-10-09 19:32:01 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:32:01).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COOKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 19:32:01 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COOKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '495950', 'timeInForce': 'IOC'}
+2025-10-09 19:32:01 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:49595000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 15:32:01).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "495950", "timeInForce": "IOC"}.
+2025-10-09 19:32:01 | ERROR | ❌ FAILED: COOKUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:49595000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 15:32:01).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "495950", "timeInForce": "IOC"}.
+2025-10-09 19:32:02 | INFO | 8. NOMUSDT - BUY (73.8%) @ $0.02964
+2025-10-09 19:32:03 | INFO | Setting leverage for NOMUSDT to 1x
+2025-10-09 19:32:03 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:32:03).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NOMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 19:32:03 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NOMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '230190', 'timeInForce': 'IOC'}
+2025-10-09 19:32:03 | INFO | ✅ Perpetual order placed: 1c7d7d07-332c-4892-b432-241cc82f52f9
+2025-10-09 19:32:04 | INFO | Setting stop loss via trading stop: NOMUSDT @ 0.0287508
+2025-10-09 19:32:04 | INFO | ✅ Stop loss set via position management
+2025-10-09 19:32:04 | INFO | Setting take profit via trading stop: NOMUSDT @ 0.0299364
+2025-10-09 19:32:04 | INFO | ✅ Take profit set via position management
+2025-10-09 19:32:06 | INFO | Setting trailing stop: NOMUSDT @ 1.0% = $0.000297 from $0.02969
+2025-10-09 19:32:06 | INFO | ✅ Trailing stop set: 1.0% ($0.000297)
+2025-10-09 19:32:06 | INFO | ✅ EXECUTED: NOMUSDT BUY 230190.000000 @ $0.02964 (Conf: 73.8%)
+2025-10-09 19:32:06 | INFO | 9. FLRUSDT - SELL (70.9%) @ $0.02206
+2025-10-09 19:32:07 | INFO | Setting leverage for FLRUSDT to 1x
+2025-10-09 19:32:07 | INFO | ✅ Leverage set to 1x for FLRUSDT
+2025-10-09 19:32:07 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FLRUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '279930', 'timeInForce': 'IOC'}
+2025-10-09 19:32:08 | INFO | ✅ Perpetual order placed: 73a242ef-c74d-4b2b-a5a7-02ea98440b03
+2025-10-09 19:32:08 | INFO | Setting stop loss via trading stop: FLRUSDT @ 0.0227218
+2025-10-09 19:32:08 | INFO | ✅ Stop loss set via position management
+2025-10-09 19:32:08 | INFO | Setting take profit via trading stop: FLRUSDT @ 0.0218394
+2025-10-09 19:32:08 | INFO | ✅ Take profit set via position management
+2025-10-09 19:32:10 | INFO | Setting trailing stop: FLRUSDT @ 1.0% = $0.000221 from $0.02207
+2025-10-09 19:32:10 | INFO | ✅ Trailing stop set: 1.0% ($0.000221)
+2025-10-09 19:32:10 | INFO | ✅ EXECUTED: FLRUSDT SELL 279930.000000 @ $0.02206 (Conf: 70.9%)
+2025-10-09 19:32:11 | INFO | 10. OGUSDT - BUY (70.4%) @ $16.5388
+2025-10-09 19:32:11 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 2 failed
+2025-10-09 19:32:11 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 19:32:11 | INFO |    • 1000RATSUSDT: SHORT 368670.000000 @ $0.02496 - SL: $0.0257 TP: $0.0247
+2025-10-09 19:32:11 | INFO |    • B2USDT: SHORT 7074.000000 @ $1.1773 - SL: $1.2126 TP: $1.1655
+2025-10-09 19:32:11 | INFO |    • KGENUSDT: SHORT 48509.000000 @ $0.1554 - SL: $0.1601 TP: $0.1538
+2025-10-09 19:32:11 | INFO |    • NOMUSDT: LONG 230190.000000 @ $0.02964 - SL: $0.0288 TP: $0.0299
+2025-10-09 19:32:11 | INFO |    • FLRUSDT: SHORT 279930.000000 @ $0.02206 - SL: $0.0227 TP: $0.0218
+2025-10-09 19:32:11 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 19:32:11 | INFO | ✅ Found 458 perpetual pairs
+2025-10-09 19:32:11 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-09 19:32:11 | INFO | 🎉 SESSION COMPLETED in 40.3s
+2025-10-09 19:32:11 | INFO | ============================================================
