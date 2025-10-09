@@ -6424,3 +6424,86 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 15:46:43 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 15:46:43 | INFO | 🎉 SESSION COMPLETED in 27.9s
 2025-10-09 15:46:43 | INFO | ============================================================
+2025-10-09 16:01:25 | INFO | ================================================================================
+2025-10-09 16:01:25 | INFO | NEW PERPETUAL SESSION: 2025-10-09 16:01:25
+2025-10-09 16:01:25 | INFO | ================================================================================
+2025-10-09 16:01:25 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 16:01:25 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 16:01:25 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 16:01:25 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 16:01:26 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 16:01:26 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 16:01:35 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 16:01:35 | INFO |  1. QUSDT        | BUY  | Price: $  0.0278 | Confidence:  95.0% | Momentum: +26.30%
+2025-10-09 16:01:35 | INFO |  2. HUSDT        | BUY  | Price: $  0.0714 | Confidence:  88.9% | Momentum: +3.89%
+2025-10-09 16:01:35 | INFO |  3. MUSDT        | SELL | Price: $  2.1019 | Confidence:  79.1% | Momentum: -2.91%
+2025-10-09 16:01:35 | INFO |  4. JUSDT        | SELL | Price: $  0.0951 | Confidence:  72.6% | Momentum: -2.26%
+2025-10-09 16:01:35 | INFO |  5. FRAGUSDT     | SELL | Price: $  0.0309 | Confidence:  71.9% | Momentum: -2.19%
+2025-10-09 16:01:36 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-09 16:01:36 | INFO | 1. QUSDT - BUY (95.0%) @ $0.027803
+2025-10-09 16:01:37 | INFO | Setting leverage for QUSDT to 1x
+2025-10-09 16:01:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:01:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "QUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 16:01:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'QUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '329730', 'timeInForce': 'IOC'}
+2025-10-09 16:01:38 | INFO | ✅ Perpetual order placed: ac8584f1-87f1-4251-a3fe-0976a5368280
+2025-10-09 16:01:38 | INFO | Setting stop loss via trading stop: QUSDT @ 0.026968910000000002
+2025-10-09 16:01:38 | INFO | ✅ Stop loss set via position management
+2025-10-09 16:01:38 | INFO | Setting take profit via trading stop: QUSDT @ 0.02808103
+2025-10-09 16:01:38 | INFO | ✅ Take profit set via position management
+2025-10-09 16:01:40 | INFO | Setting trailing stop: QUSDT @ 1.0% = $0.000278 from $0.0278
+2025-10-09 16:01:40 | INFO | ✅ Trailing stop set: 1.0% ($0.000278)
+2025-10-09 16:01:40 | INFO | ✅ EXECUTED: QUSDT BUY 329730.000000 @ $0.027803 (Conf: 95.0%)
+2025-10-09 16:01:41 | INFO | 2. HUSDT - BUY (88.9%) @ $0.071436
+2025-10-09 16:01:42 | INFO | Setting leverage for HUSDT to 1x
+2025-10-09 16:01:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:01:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 16:01:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '116150', 'timeInForce': 'IOC'}
+2025-10-09 16:01:42 | INFO | ✅ Perpetual order placed: 0272d76f-de48-4ec8-a3a3-e6b7df9818ff
+2025-10-09 16:01:43 | INFO | Setting stop loss via trading stop: HUSDT @ 0.06929292
+2025-10-09 16:01:43 | INFO | ✅ Stop loss set via position management
+2025-10-09 16:01:43 | INFO | Setting take profit via trading stop: HUSDT @ 0.07215036
+2025-10-09 16:01:43 | INFO | ✅ Take profit set via position management
+2025-10-09 16:01:44 | INFO | Setting trailing stop: HUSDT @ 1.0% = $0.000716 from $0.071574
+2025-10-09 16:01:45 | INFO | ✅ Trailing stop set: 1.0% ($0.000716)
+2025-10-09 16:01:45 | INFO | ✅ EXECUTED: HUSDT BUY 116150.000000 @ $0.071436 (Conf: 88.9%)
+2025-10-09 16:01:45 | INFO | 3. MUSDT - SELL (79.1%) @ $2.1019
+2025-10-09 16:01:46 | INFO | Setting leverage for MUSDT to 1x
+2025-10-09 16:01:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:01:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 16:01:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3573', 'timeInForce': 'IOC'}
+2025-10-09 16:01:47 | INFO | ✅ Perpetual order placed: 6127627e-7a02-4bf9-a5b5-21bbdde6eb7c
+2025-10-09 16:01:47 | INFO | Setting stop loss via trading stop: MUSDT @ 2.1649570000000002
+2025-10-09 16:01:47 | INFO | ✅ Stop loss set via position management
+2025-10-09 16:01:47 | INFO | Setting take profit via trading stop: MUSDT @ 2.080881
+2025-10-09 16:01:47 | INFO | ✅ Take profit set via position management
+2025-10-09 16:01:49 | INFO | Setting trailing stop: MUSDT @ 1.0% = $0.021011 from $2.1011
+2025-10-09 16:01:49 | INFO | ✅ Trailing stop set: 1.0% ($0.021011)
+2025-10-09 16:01:49 | INFO | ✅ EXECUTED: MUSDT SELL 3573.000000 @ $2.1019 (Conf: 79.1%)
+2025-10-09 16:01:50 | INFO | 4. JUSDT - SELL (72.6%) @ $0.0951
+2025-10-09 16:01:51 | INFO | Setting leverage for JUSDT to 1x
+2025-10-09 16:01:51 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:01:51).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "JUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 16:01:51 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '71473.7', 'timeInForce': 'IOC'}
+2025-10-09 16:01:51 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:7147370000000 > max_qty:1900000000000 (ErrCode: 10001) (ErrTime: 12:01:51).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "JUSDT", "side": "Sell", "orderType": "Market", "qty": "71473.7", "timeInForce": "IOC"}.
+2025-10-09 16:01:51 | ERROR | ❌ FAILED: JUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:7147370000000 > max_qty:1900000000000 (ErrCode: 10001) (ErrTime: 12:01:51).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "JUSDT", "side": "Sell", "orderType": "Market", "qty": "71473.7", "timeInForce": "IOC"}.
+2025-10-09 16:01:52 | INFO | 5. FRAGUSDT - SELL (71.9%) @ $0.03086
+2025-10-09 16:01:53 | INFO | Setting leverage for FRAGUSDT to 1x
+2025-10-09 16:01:53 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:01:53).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FRAGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 16:01:53 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FRAGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '220258', 'timeInForce': 'IOC'}
+2025-10-09 16:01:53 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:22025800000000 > max_qty:16600000000000 (ErrCode: 10001) (ErrTime: 12:01:53).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FRAGUSDT", "side": "Sell", "orderType": "Market", "qty": "220258", "timeInForce": "IOC"}.
+2025-10-09 16:01:53 | ERROR | ❌ FAILED: FRAGUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:22025800000000 > max_qty:16600000000000 (ErrCode: 10001) (ErrTime: 12:01:53).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FRAGUSDT", "side": "Sell", "orderType": "Market", "qty": "220258", "timeInForce": "IOC"}.
+2025-10-09 16:01:54 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 2 failed
+2025-10-09 16:01:54 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 16:01:54 | INFO |    • QUSDT: LONG 329730.000000 @ $0.027803 - SL: $0.0270 TP: $0.0281
+2025-10-09 16:01:54 | INFO |    • HUSDT: LONG 116150.000000 @ $0.071436 - SL: $0.0693 TP: $0.0722
+2025-10-09 16:01:54 | INFO |    • MUSDT: SHORT 3573.000000 @ $2.1019 - SL: $2.1650 TP: $2.0809
+2025-10-09 16:01:54 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 16:01:54 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 16:01:54 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 16:01:54 | INFO | 🎉 SESSION COMPLETED in 28.7s
+2025-10-09 16:01:54 | INFO | ============================================================
