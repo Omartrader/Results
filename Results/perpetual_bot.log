@@ -4461,3 +4461,38 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-09 09:01:17 | INFO | 📊 Using ALL 457 USDT perpetual pairs
 2025-10-09 09:01:17 | INFO | 🎉 SESSION COMPLETED in 16.4s
 2025-10-09 09:01:17 | INFO | ============================================================
+2025-10-09 09:16:01 | INFO | ================================================================================
+2025-10-09 09:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-09 09:16:01
+2025-10-09 09:16:01 | INFO | ================================================================================
+2025-10-09 09:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-09 09:16:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-09 09:16:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-09 09:16:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 09:16:03 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 09:16:03 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 09:16:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-09 09:16:24 | INFO |  1. MNTUSDT      | BUY  | Price: $  2.7597 | Confidence:  82.6% | Momentum: +3.26%
+2025-10-09 09:16:24 | INFO |  2. LQTYUSDT     | BUY  | Price: $  0.7445 | Confidence:  69.3% | Momentum: +1.93%
+2025-10-09 09:16:25 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-09 09:16:25 | INFO | 1. MNTUSDT - BUY (82.6%) @ $2.7597
+2025-10-09 09:16:25 | INFO | Setting leverage for MNTUSDT to 1x
+2025-10-09 09:16:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:16:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-09 09:16:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3317.4', 'timeInForce': 'IOC'}
+2025-10-09 09:16:26 | INFO | ✅ Perpetual order placed: 9e3cf959-bcdd-4fc9-806d-98a8b34ad32e
+2025-10-09 09:16:26 | INFO | Setting stop loss via trading stop: MNTUSDT @ 2.6769089999999998
+2025-10-09 09:16:26 | INFO | ✅ Stop loss set via position management
+2025-10-09 09:16:26 | INFO | Setting take profit via trading stop: MNTUSDT @ 2.787297
+2025-10-09 09:16:26 | INFO | ✅ Take profit set via position management
+2025-10-09 09:16:28 | INFO | Setting trailing stop: MNTUSDT @ 1.0% = $0.027625 from $2.7625
+2025-10-09 09:16:28 | INFO | ✅ Trailing stop set: 1.0% ($0.027625)
+2025-10-09 09:16:28 | INFO | ✅ EXECUTED: MNTUSDT BUY 3317.400000 @ $2.7597 (Conf: 82.6%)
+2025-10-09 09:16:29 | INFO | 2. LQTYUSDT - BUY (69.3%) @ $0.7445
+2025-10-09 09:16:29 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-09 09:16:29 | INFO | 🎉 EXECUTED TRADES:
+2025-10-09 09:16:29 | INFO |    • MNTUSDT: LONG 3317.400000 @ $2.7597 - SL: $2.6769 TP: $2.7873
+2025-10-09 09:16:29 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-09 09:16:29 | INFO | ✅ Found 457 perpetual pairs
+2025-10-09 09:16:29 | INFO | 📊 Using ALL 457 USDT perpetual pairs
+2025-10-09 09:16:29 | INFO | 🎉 SESSION COMPLETED in 27.3s
+2025-10-09 09:16:29 | INFO | ============================================================
