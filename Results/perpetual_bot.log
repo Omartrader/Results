@@ -15738,3 +15738,79 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 13:46:51 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 13:46:51 | INFO | 🎉 SESSION COMPLETED in 27.0s
 2025-10-10 13:46:51 | INFO | ============================================================
+2025-10-10 14:01:25 | INFO | ================================================================================
+2025-10-10 14:01:25 | INFO | NEW PERPETUAL SESSION: 2025-10-10 14:01:25
+2025-10-10 14:01:25 | INFO | ================================================================================
+2025-10-10 14:01:25 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 14:01:25 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 14:01:25 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 14:01:25 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:01:27 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:01:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:01:45 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 14:01:45 | INFO |  1. ASTERUSDT    | SELL | Price: $  1.5904 | Confidence:  95.0% | Momentum: -5.46%
+2025-10-10 14:01:45 | INFO |  2. RPLUSDT      | BUY  | Price: $  5.0700 | Confidence:  77.6% | Momentum: +2.76%
+2025-10-10 14:01:45 | INFO |  3. AINUSDT      | BUY  | Price: $  0.1529 | Confidence:  66.0% | Momentum: +1.60%
+2025-10-10 14:01:45 | INFO |  4. OGNUSDT      | BUY  | Price: $  0.0592 | Confidence:  65.1% | Momentum: +1.51%
+2025-10-10 14:01:46 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-10 14:01:46 | INFO | 1. ASTERUSDT - SELL (95.0%) @ $1.5904
+2025-10-10 14:01:47 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-10 14:01:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:01:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 14:01:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5471', 'timeInForce': 'IOC'}
+2025-10-10 14:01:47 | INFO | ✅ Perpetual order placed: 225db709-ae4e-40e7-8e7e-708a561c5bf5
+2025-10-10 14:01:48 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.638112
+2025-10-10 14:01:48 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:01:48 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.5744960000000001
+2025-10-10 14:01:48 | INFO | ✅ Take profit set via position management
+2025-10-10 14:01:49 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.015960 from $1.596
+2025-10-10 14:01:50 | INFO | ✅ Trailing stop set: 1.0% ($0.015960)
+2025-10-10 14:01:50 | INFO | ✅ EXECUTED: ASTERUSDT SELL 5471.000000 @ $1.5904 (Conf: 95.0%)
+2025-10-10 14:01:50 | INFO | 2. RPLUSDT - BUY (77.6%) @ $5.07
+2025-10-10 14:01:51 | INFO | Setting leverage for RPLUSDT to 1x
+2025-10-10 14:01:51 | INFO | ✅ Leverage set to 1x for RPLUSDT
+2025-10-10 14:01:51 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RPLUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1553.25', 'timeInForce': 'IOC'}
+2025-10-10 14:01:52 | INFO | ✅ Perpetual order placed: 85598a4b-bec5-4b5c-8196-c5ac5724edc8
+2025-10-10 14:01:52 | INFO | Setting stop loss via trading stop: RPLUSDT @ 4.9179
+2025-10-10 14:01:52 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:01:52 | INFO | Setting take profit via trading stop: RPLUSDT @ 5.1207
+2025-10-10 14:01:52 | INFO | ✅ Take profit set via position management
+2025-10-10 14:01:54 | INFO | Setting trailing stop: RPLUSDT @ 1.0% = $0.050700 from $5.07
+2025-10-10 14:01:54 | INFO | ✅ Trailing stop set: 1.0% ($0.050700)
+2025-10-10 14:01:54 | INFO | ✅ EXECUTED: RPLUSDT BUY 1553.250000 @ $5.07 (Conf: 77.6%)
+2025-10-10 14:01:54 | INFO | 3. AINUSDT - BUY (66.0%) @ $0.15292
+2025-10-10 14:01:56 | INFO | Setting leverage for AINUSDT to 1x
+2025-10-10 14:01:56 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:01:56).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 14:01:56 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '46610', 'timeInForce': 'IOC'}
+2025-10-10 14:01:56 | INFO | ✅ Perpetual order placed: 2ad9dcca-34c1-4f23-a56d-cce0c0eda98f
+2025-10-10 14:01:56 | INFO | Setting stop loss via trading stop: AINUSDT @ 0.1483324
+2025-10-10 14:01:56 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:01:57 | INFO | Setting take profit via trading stop: AINUSDT @ 0.1544492
+2025-10-10 14:01:57 | INFO | ✅ Take profit set via position management
+2025-10-10 14:01:58 | INFO | Setting trailing stop: AINUSDT @ 1.0% = $0.001531 from $0.15312
+2025-10-10 14:01:58 | INFO | ✅ Trailing stop set: 1.0% ($0.001531)
+2025-10-10 14:01:58 | INFO | ✅ EXECUTED: AINUSDT BUY 46610.000000 @ $0.15292 (Conf: 66.0%)
+2025-10-10 14:01:59 | INFO | 4. OGNUSDT - BUY (65.1%) @ $0.05919
+2025-10-10 14:02:00 | INFO | Setting leverage for OGNUSDT to 1x
+2025-10-10 14:02:00 | INFO | ✅ Leverage set to 1x for OGNUSDT
+2025-10-10 14:02:00 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OGNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '108991', 'timeInForce': 'IOC'}
+2025-10-10 14:02:00 | INFO | ✅ Perpetual order placed: c515f8c2-c427-4d40-8022-7315e92cf26c
+2025-10-10 14:02:00 | INFO | Setting stop loss via trading stop: OGNUSDT @ 0.0574143
+2025-10-10 14:02:00 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:02:01 | INFO | Setting take profit via trading stop: OGNUSDT @ 0.0597819
+2025-10-10 14:02:01 | INFO | ✅ Take profit set via position management
+2025-10-10 14:02:02 | INFO | Setting trailing stop: OGNUSDT @ 1.0% = $0.000592 from $0.05919
+2025-10-10 14:02:03 | INFO | ✅ Trailing stop set: 1.0% ($0.000592)
+2025-10-10 14:02:03 | INFO | ✅ EXECUTED: OGNUSDT BUY 108991.000000 @ $0.05919 (Conf: 65.1%)
+2025-10-10 14:02:03 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 0 failed
+2025-10-10 14:02:03 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 14:02:03 | INFO |    • ASTERUSDT: SHORT 5471.000000 @ $1.5904 - SL: $1.6381 TP: $1.5745
+2025-10-10 14:02:03 | INFO |    • RPLUSDT: LONG 1553.250000 @ $5.07 - SL: $4.9179 TP: $5.1207
+2025-10-10 14:02:03 | INFO |    • AINUSDT: LONG 46610.000000 @ $0.15292 - SL: $0.1483 TP: $0.1544
+2025-10-10 14:02:03 | INFO |    • OGNUSDT: LONG 108991.000000 @ $0.05919 - SL: $0.0574 TP: $0.0598
+2025-10-10 14:02:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:02:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:02:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:02:03 | INFO | 🎉 SESSION COMPLETED in 37.9s
+2025-10-10 14:02:03 | INFO | ============================================================
