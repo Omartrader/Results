@@ -19106,3 +19106,96 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 23:46:45 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 23:46:45 | INFO | 🎉 SESSION COMPLETED in 30.8s
 2025-10-10 23:46:45 | INFO | ============================================================
+2025-10-11 00:00:58 | INFO | ================================================================================
+2025-10-11 00:00:58 | INFO | NEW PERPETUAL SESSION: 2025-10-11 00:00:58
+2025-10-11 00:00:58 | INFO | ================================================================================
+2025-10-11 00:00:58 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 00:00:58 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 00:00:58 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 00:00:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 00:01:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 00:01:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 00:01:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 00:01:11 | INFO |  1. APEXUSDT     | SELL | Price: $  1.5317 | Confidence:  95.0% | Momentum: -6.88%
+2025-10-11 00:01:11 | INFO |  2. COOKUSDT     | SELL | Price: $  0.0114 | Confidence:  95.0% | Momentum: -8.25%
+2025-10-11 00:01:11 | INFO |  3. DASHUSDT     | SELL | Price: $ 43.7300 | Confidence:  95.0% | Momentum: -6.22%
+2025-10-11 00:01:11 | INFO |  4. INUSDT       | SELL | Price: $  0.2237 | Confidence:  95.0% | Momentum: -16.23%
+2025-10-11 00:01:11 | INFO |  5. MASAUSDT     | SELL | Price: $  0.0113 | Confidence:  95.0% | Momentum: -5.97%
+2025-10-11 00:01:11 | INFO |  6. LAUSDT       | SELL | Price: $  0.3600 | Confidence:  93.1% | Momentum: -4.31%
+2025-10-11 00:01:11 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-11 00:01:11 | INFO | 1. APEXUSDT - SELL (95.0%) @ $1.5317
+2025-10-11 00:01:12 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-11 00:01:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 00:01:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5546.6', 'timeInForce': 'IOC'}
+2025-10-11 00:01:13 | INFO | ✅ Perpetual order placed: deb0b5a3-96d2-408d-a9a7-24c6b69a18b5
+2025-10-11 00:01:13 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.5776510000000001
+2025-10-11 00:01:13 | INFO | ✅ Stop loss set via position management
+2025-10-11 00:01:14 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.516383
+2025-10-11 00:01:14 | INFO | ✅ Take profit set via position management
+2025-10-11 00:01:15 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.015332 from $1.5332
+2025-10-11 00:01:15 | INFO | ✅ Trailing stop set: 1.0% ($0.015332)
+2025-10-11 00:01:15 | INFO | ✅ EXECUTED: APEXUSDT SELL 5546.600000 @ $1.5317 (Conf: 95.0%)
+2025-10-11 00:01:16 | INFO | 2. COOKUSDT - SELL (95.0%) @ $0.011395
+2025-10-11 00:01:17 | INFO | Setting leverage for COOKUSDT to 1x
+2025-10-11 00:01:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COOKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 00:01:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COOKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '674800', 'timeInForce': 'IOC'}
+2025-10-11 00:01:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:67480000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 20:01:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "674800", "timeInForce": "IOC"}.
+2025-10-11 00:01:17 | ERROR | ❌ FAILED: COOKUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:67480000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 20:01:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "674800", "timeInForce": "IOC"}.
+2025-10-11 00:01:18 | INFO | 3. DASHUSDT - SELL (95.0%) @ $43.73
+2025-10-11 00:01:18 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-11 00:01:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 00:01:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '175.84', 'timeInForce': 'IOC'}
+2025-10-11 00:01:19 | INFO | ✅ Perpetual order placed: 4da76394-2cf7-4686-817c-a18190738654
+2025-10-11 00:01:19 | INFO | Setting stop loss via trading stop: DASHUSDT @ 45.0419
+2025-10-11 00:01:19 | INFO | ✅ Stop loss set via position management
+2025-10-11 00:01:19 | INFO | Setting take profit via trading stop: DASHUSDT @ 43.292699999999996
+2025-10-11 00:01:19 | INFO | ✅ Take profit set via position management
+2025-10-11 00:01:21 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.438800 from $43.88
+2025-10-11 00:01:21 | INFO | ✅ Trailing stop set: 1.0% ($0.438800)
+2025-10-11 00:01:21 | INFO | ✅ EXECUTED: DASHUSDT SELL 175.840000 @ $43.73 (Conf: 95.0%)
+2025-10-11 00:01:22 | INFO | 4. INUSDT - SELL (95.0%) @ $0.22374
+2025-10-11 00:01:23 | INFO | Setting leverage for INUSDT to 1x
+2025-10-11 00:01:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "INUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 00:01:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'INUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '31110', 'timeInForce': 'IOC'}
+2025-10-11 00:01:23 | INFO | ✅ Perpetual order placed: d2996833-377c-4cd4-9142-0f85ea90fba7
+2025-10-11 00:01:23 | INFO | Setting stop loss via trading stop: INUSDT @ 0.2304522
+2025-10-11 00:01:23 | INFO | ✅ Stop loss set via position management
+2025-10-11 00:01:24 | INFO | Setting take profit via trading stop: INUSDT @ 0.2215026
+2025-10-11 00:01:24 | INFO | ✅ Take profit set via position management
+2025-10-11 00:01:25 | INFO | Setting trailing stop: INUSDT @ 1.0% = $0.002233 from $0.22334
+2025-10-11 00:01:26 | INFO | ✅ Trailing stop set: 1.0% ($0.002233)
+2025-10-11 00:01:26 | INFO | ✅ EXECUTED: INUSDT SELL 31110.000000 @ $0.22374 (Conf: 95.0%)
+2025-10-11 00:01:26 | INFO | 5. MASAUSDT - SELL (95.0%) @ $0.01134
+2025-10-11 00:01:27 | INFO | Setting leverage for MASAUSDT to 1x
+2025-10-11 00:01:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MASAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 00:01:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MASAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '555469', 'timeInForce': 'IOC'}
+2025-10-11 00:01:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:55546900000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 20:01:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Sell", "orderType": "Market", "qty": "555469", "timeInForce": "IOC"}.
+2025-10-11 00:01:27 | ERROR | ❌ FAILED: MASAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:55546900000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 20:01:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Sell", "orderType": "Market", "qty": "555469", "timeInForce": "IOC"}.
+2025-10-11 00:01:28 | INFO | 6. LAUSDT - SELL (93.1%) @ $0.36
+2025-10-11 00:01:29 | INFO | Setting leverage for LAUSDT to 1x
+2025-10-11 00:01:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 20:01:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 00:01:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '17497.3', 'timeInForce': 'IOC'}
+2025-10-11 00:01:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:1749730000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 20:01:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Sell", "orderType": "Market", "qty": "17497.3", "timeInForce": "IOC"}.
+2025-10-11 00:01:29 | ERROR | ❌ FAILED: LAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:1749730000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 20:01:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Sell", "orderType": "Market", "qty": "17497.3", "timeInForce": "IOC"}.
+2025-10-11 00:01:30 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 3 failed
+2025-10-11 00:01:30 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 00:01:30 | INFO |    • APEXUSDT: SHORT 5546.600000 @ $1.5317 - SL: $1.5777 TP: $1.5164
+2025-10-11 00:01:30 | INFO |    • DASHUSDT: SHORT 175.840000 @ $43.73 - SL: $45.0419 TP: $43.2927
+2025-10-11 00:01:30 | INFO |    • INUSDT: SHORT 31110.000000 @ $0.22374 - SL: $0.2305 TP: $0.2215
+2025-10-11 00:01:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 00:01:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 00:01:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 00:01:30 | INFO | 🎉 SESSION COMPLETED in 31.5s
+2025-10-11 00:01:30 | INFO | ============================================================
