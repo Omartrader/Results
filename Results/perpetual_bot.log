@@ -17843,3 +17843,163 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 19:17:21 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 19:17:21 | INFO | 🎉 SESSION COMPLETED in 45.9s
 2025-10-10 19:17:21 | INFO | ============================================================
+2025-10-10 19:31:23 | INFO | ================================================================================
+2025-10-10 19:31:23 | INFO | NEW PERPETUAL SESSION: 2025-10-10 19:31:23
+2025-10-10 19:31:23 | INFO | ================================================================================
+2025-10-10 19:31:23 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 19:31:23 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 19:31:23 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 19:31:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 19:31:25 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 19:31:25 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 19:31:36 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 19:31:36 | INFO |  1. AEROUSDT     | SELL | Price: $  1.0095 | Confidence:  95.0% | Momentum: -4.51%
+2025-10-10 19:31:36 | INFO |  2. AI16ZUSDT    | SELL | Price: $  0.0821 | Confidence:  95.0% | Momentum: -5.30%
+2025-10-10 19:31:36 | INFO |  3. ALICEUSDT    | SELL | Price: $  0.4254 | Confidence:  95.0% | Momentum: -7.32%
+2025-10-10 19:31:36 | INFO |  4. AVLUSDT      | SELL | Price: $  0.1824 | Confidence:  95.0% | Momentum: -5.39%
+2025-10-10 19:31:36 | INFO |  5. BIOUSDT      | SELL | Price: $  0.1085 | Confidence:  95.0% | Momentum: -4.98%
+2025-10-10 19:31:36 | INFO |  6. COOKUSDT     | SELL | Price: $  0.0120 | Confidence:  95.0% | Momentum: -6.02%
+2025-10-10 19:31:36 | INFO |  7. CUDISUSDT    | BUY  | Price: $  0.0638 | Confidence:  95.0% | Momentum: +5.78%
+2025-10-10 19:31:36 | INFO |  8. DEGENUSDT    | SELL | Price: $  0.0026 | Confidence:  95.0% | Momentum: -4.79%
+2025-10-10 19:31:36 | INFO |  9. ENAUSDT      | SELL | Price: $  0.5265 | Confidence:  95.0% | Momentum: -4.84%
+2025-10-10 19:31:36 | INFO | 10. ETHUSDT-28NOV25 | SELL | Price: $4176.9800 | Confidence:  95.0% | Momentum: -4.90%
+2025-10-10 19:31:37 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 19:31:37 | INFO | 1. AEROUSDT - SELL (95.0%) @ $1.0095
+2025-10-10 19:31:37 | INFO | Setting leverage for AEROUSDT to 1x
+2025-10-10 19:31:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AEROUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:31:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AEROUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '8534', 'timeInForce': 'IOC'}
+2025-10-10 19:31:38 | INFO | ✅ Perpetual order placed: 7c4d2f9a-f025-4eb2-a396-743b9ca0ae05
+2025-10-10 19:31:38 | INFO | Setting stop loss via trading stop: AEROUSDT @ 1.0397850000000002
+2025-10-10 19:31:38 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:31:39 | INFO | Setting take profit via trading stop: AEROUSDT @ 0.9994050000000001
+2025-10-10 19:31:39 | INFO | ✅ Take profit set via position management
+2025-10-10 19:31:40 | INFO | Setting trailing stop: AEROUSDT @ 1.0% = $0.010098 from $1.0098
+2025-10-10 19:31:40 | INFO | ✅ Trailing stop set: 1.0% ($0.010098)
+2025-10-10 19:31:40 | INFO | ✅ EXECUTED: AEROUSDT SELL 8534.000000 @ $1.0095 (Conf: 95.0%)
+2025-10-10 19:31:41 | INFO | 2. AI16ZUSDT - SELL (95.0%) @ $0.08208
+2025-10-10 19:31:42 | INFO | Setting leverage for AI16ZUSDT to 1x
+2025-10-10 19:31:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AI16ZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:31:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AI16ZUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '94999', 'timeInForce': 'IOC'}
+2025-10-10 19:31:42 | INFO | ✅ Perpetual order placed: da6f43d9-1096-49f9-8ccd-061521727d96
+2025-10-10 19:31:42 | INFO | Setting stop loss via trading stop: AI16ZUSDT @ 0.0845424
+2025-10-10 19:31:42 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:31:43 | INFO | Setting take profit via trading stop: AI16ZUSDT @ 0.0812592
+2025-10-10 19:31:43 | INFO | ✅ Take profit set via position management
+2025-10-10 19:31:44 | INFO | Setting trailing stop: AI16ZUSDT @ 1.0% = $0.000818 from $0.08177
+2025-10-10 19:31:45 | INFO | ✅ Trailing stop set: 1.0% ($0.000818)
+2025-10-10 19:31:45 | INFO | ✅ EXECUTED: AI16ZUSDT SELL 94999.000000 @ $0.08208 (Conf: 95.0%)
+2025-10-10 19:31:45 | INFO | 3. ALICEUSDT - SELL (95.0%) @ $0.4254
+2025-10-10 19:31:46 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-10 19:31:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALICEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:31:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '16590.3', 'timeInForce': 'IOC'}
+2025-10-10 19:31:47 | INFO | ✅ Perpetual order placed: 1209955a-93b7-4959-8ef9-15877b91eff3
+2025-10-10 19:31:47 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.438162
+2025-10-10 19:31:47 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:31:47 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.421146
+2025-10-10 19:31:47 | INFO | ✅ Take profit set via position management
+2025-10-10 19:31:49 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.004246 from $0.4246
+2025-10-10 19:31:49 | INFO | ✅ Trailing stop set: 1.0% ($0.004246)
+2025-10-10 19:31:49 | INFO | ✅ EXECUTED: ALICEUSDT SELL 16590.300000 @ $0.4254 (Conf: 95.0%)
+2025-10-10 19:31:50 | INFO | 4. AVLUSDT - SELL (95.0%) @ $0.1824
+2025-10-10 19:31:50 | INFO | Setting leverage for AVLUSDT to 1x
+2025-10-10 19:31:51 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:51).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:31:51 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '35020', 'timeInForce': 'IOC'}
+2025-10-10 19:31:51 | INFO | ✅ Perpetual order placed: 503bef00-ab18-41a9-84c0-ed82be0bea55
+2025-10-10 19:31:51 | INFO | Setting stop loss via trading stop: AVLUSDT @ 0.187872
+2025-10-10 19:31:51 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:31:51 | INFO | Setting take profit via trading stop: AVLUSDT @ 0.18057600000000001
+2025-10-10 19:31:51 | INFO | ✅ Take profit set via position management
+2025-10-10 19:31:53 | INFO | Setting trailing stop: AVLUSDT @ 1.0% = $0.001821 from $0.1821
+2025-10-10 19:31:53 | INFO | ✅ Trailing stop set: 1.0% ($0.001821)
+2025-10-10 19:31:53 | INFO | ✅ EXECUTED: AVLUSDT SELL 35020.000000 @ $0.1824 (Conf: 95.0%)
+2025-10-10 19:31:54 | INFO | 5. BIOUSDT - SELL (95.0%) @ $0.10846
+2025-10-10 19:31:55 | INFO | Setting leverage for BIOUSDT to 1x
+2025-10-10 19:31:55 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:31:55).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BIOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:31:55 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BIOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '53306', 'timeInForce': 'IOC'}
+2025-10-10 19:31:56 | INFO | ✅ Perpetual order placed: 5da5c5bf-094f-4c4f-838b-c9032a8b2afd
+2025-10-10 19:31:56 | INFO | Setting stop loss via trading stop: BIOUSDT @ 0.1117138
+2025-10-10 19:31:56 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:31:56 | INFO | Setting take profit via trading stop: BIOUSDT @ 0.1073754
+2025-10-10 19:31:56 | INFO | ✅ Take profit set via position management
+2025-10-10 19:31:58 | INFO | Setting trailing stop: BIOUSDT @ 1.0% = $0.001087 from $0.10869
+2025-10-10 19:31:58 | INFO | ✅ Trailing stop set: 1.0% ($0.001087)
+2025-10-10 19:31:58 | INFO | ✅ EXECUTED: BIOUSDT SELL 53306.000000 @ $0.10846 (Conf: 95.0%)
+2025-10-10 19:31:58 | INFO | 6. COOKUSDT - SELL (95.0%) @ $0.012045
+2025-10-10 19:32:00 | INFO | Setting leverage for COOKUSDT to 1x
+2025-10-10 19:32:00 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:32:00).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COOKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:32:00 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COOKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '434440', 'timeInForce': 'IOC'}
+2025-10-10 19:32:00 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:43444000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 15:32:00).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "434440", "timeInForce": "IOC"}.
+2025-10-10 19:32:00 | ERROR | ❌ FAILED: COOKUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:43444000000000 > max_qty:25000000000000 (ErrCode: 10001) (ErrTime: 15:32:00).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "COOKUSDT", "side": "Sell", "orderType": "Market", "qty": "434440", "timeInForce": "IOC"}.
+2025-10-10 19:32:01 | INFO | 7. CUDISUSDT - BUY (95.0%) @ $0.06382
+2025-10-10 19:32:02 | INFO | Setting leverage for CUDISUSDT to 1x
+2025-10-10 19:32:02 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:32:02).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CUDISUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 19:32:02 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CUDISUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '81990', 'timeInForce': 'IOC'}
+2025-10-10 19:32:02 | INFO | ✅ Perpetual order placed: af8393d9-50fd-436f-ad1c-b448b3b777a9
+2025-10-10 19:32:03 | INFO | Setting stop loss via trading stop: CUDISUSDT @ 0.0619054
+2025-10-10 19:32:03 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:32:03 | ERROR | ❌ Take profit exception: TakeProfit:6445000 set for Buy position should be higher than base_price:6446000??LastPrice (ErrCode: 10001) (ErrTime: 15:32:03).
+Request → POST https://api-demo.bybit.com/v5/position/trading-stop: {"category": "linear", "symbol": "CUDISUSDT", "positionIdx": 0, "takeProfit": "0.06445820000000001", "tpslMode": "Full"}.
+2025-10-10 19:32:04 | INFO | Setting trailing stop: CUDISUSDT @ 1.0% = $0.000644 from $0.0644
+2025-10-10 19:32:05 | INFO | ✅ Trailing stop set: 1.0% ($0.000644)
+2025-10-10 19:32:05 | INFO | ✅ EXECUTED: CUDISUSDT BUY 81990.000000 @ $0.06382 (Conf: 95.0%)
+2025-10-10 19:32:05 | INFO | 8. DEGENUSDT - SELL (95.0%) @ $0.002605
+2025-10-10 19:32:06 | INFO | Setting leverage for DEGENUSDT to 1x
+2025-10-10 19:32:06 | INFO | ✅ Leverage set to 1x for DEGENUSDT
+2025-10-10 19:32:06 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DEGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1818130', 'timeInForce': 'IOC'}
+2025-10-10 19:32:07 | INFO | ✅ Perpetual order placed: 93ccb7ba-fbb5-4235-82b4-0f22de4be24b
+2025-10-10 19:32:07 | INFO | Setting stop loss via trading stop: DEGENUSDT @ 0.00268315
+2025-10-10 19:32:07 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:32:07 | INFO | Setting take profit via trading stop: DEGENUSDT @ 0.00257895
+2025-10-10 19:32:07 | INFO | ✅ Take profit set via position management
+2025-10-10 19:32:09 | INFO | Setting trailing stop: DEGENUSDT @ 1.0% = $0.000026 from $0.002616
+2025-10-10 19:32:09 | INFO | ✅ Trailing stop set: 1.0% ($0.000026)
+2025-10-10 19:32:09 | INFO | ✅ EXECUTED: DEGENUSDT SELL 1818130.000000 @ $0.002605 (Conf: 95.0%)
+2025-10-10 19:32:10 | INFO | 9. ENAUSDT - SELL (95.0%) @ $0.5265
+2025-10-10 19:32:11 | INFO | Setting leverage for ENAUSDT to 1x
+2025-10-10 19:32:11 | INFO | ✅ Leverage set to 1x for ENAUSDT
+2025-10-10 19:32:11 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ENAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '8142', 'timeInForce': 'IOC'}
+2025-10-10 19:32:11 | INFO | ✅ Perpetual order placed: 1a426cee-7a6f-402b-ba67-6c594055a453
+2025-10-10 19:32:12 | INFO | Setting stop loss via trading stop: ENAUSDT @ 0.542295
+2025-10-10 19:32:12 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:32:12 | INFO | Setting take profit via trading stop: ENAUSDT @ 0.521235
+2025-10-10 19:32:12 | INFO | ✅ Take profit set via position management
+2025-10-10 19:32:13 | INFO | Setting trailing stop: ENAUSDT @ 1.0% = $0.005291 from $0.5291
+2025-10-10 19:32:14 | INFO | ✅ Trailing stop set: 1.0% ($0.005291)
+2025-10-10 19:32:14 | INFO | ✅ EXECUTED: ENAUSDT SELL 8142.000000 @ $0.5265 (Conf: 95.0%)
+2025-10-10 19:32:14 | INFO | 10. ETHUSDT-28NOV25 - SELL (95.0%) @ $4176.98
+2025-10-10 19:32:15 | INFO | Setting leverage for ETHUSDT-28NOV25 to 1x
+2025-10-10 19:32:15 | INFO | ✅ Leverage set to 1x for ETHUSDT-28NOV25
+2025-10-10 19:32:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ETHUSDT-28NOV25', 'side': 'Sell', 'orderType': 'Market', 'qty': '0.93', 'timeInForce': 'IOC'}
+2025-10-10 19:32:16 | INFO | ✅ Perpetual order placed: 6753323c-c49d-4ddc-b41a-e78bd2f497f0
+2025-10-10 19:32:16 | INFO | Setting stop loss via trading stop: ETHUSDT-28NOV25 @ 4302.2894
+2025-10-10 19:32:16 | INFO | ✅ Stop loss set via position management
+2025-10-10 19:32:16 | ERROR | ❌ Take profit exception: TakeProfit:413521000000 set for Sell position should be lower than base_price:412917000000??LastPrice (ErrCode: 10001) (ErrTime: 15:32:16).
+Request → POST https://api-demo.bybit.com/v5/position/trading-stop: {"category": "linear", "symbol": "ETHUSDT-28NOV25", "positionIdx": 0, "takeProfit": "4135.2101999999995", "tpslMode": "Full"}.
+2025-10-10 19:32:18 | INFO | Setting trailing stop: ETHUSDT-28NOV25 @ 1.0% = $41.291700 from $4129.17
+2025-10-10 19:32:18 | INFO | ✅ Trailing stop set: 1.0% ($41.291700)
+2025-10-10 19:32:18 | INFO | ✅ EXECUTED: ETHUSDT-28NOV25 SELL 0.930000 @ $4176.98 (Conf: 95.0%)
+2025-10-10 19:32:18 | INFO | 📊 EXECUTION SUMMARY: 9 successful, 1 failed
+2025-10-10 19:32:18 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 19:32:18 | INFO |    • AEROUSDT: SHORT 8534.000000 @ $1.0095 - SL: $1.0398 TP: $0.9994
+2025-10-10 19:32:18 | INFO |    • AI16ZUSDT: SHORT 94999.000000 @ $0.08208 - SL: $0.0845 TP: $0.0813
+2025-10-10 19:32:18 | INFO |    • ALICEUSDT: SHORT 16590.300000 @ $0.4254 - SL: $0.4382 TP: $0.4211
+2025-10-10 19:32:18 | INFO |    • AVLUSDT: SHORT 35020.000000 @ $0.1824 - SL: $0.1879 TP: $0.1806
+2025-10-10 19:32:18 | INFO |    • BIOUSDT: SHORT 53306.000000 @ $0.10846 - SL: $0.1117 TP: $0.1074
+2025-10-10 19:32:18 | INFO |    • CUDISUSDT: LONG 81990.000000 @ $0.06382 - SL: $0.0619 TP: $0.0645
+2025-10-10 19:32:18 | INFO |    • DEGENUSDT: SHORT 1818130.000000 @ $0.002605 - SL: $0.0027 TP: $0.0026
+2025-10-10 19:32:18 | INFO |    • ENAUSDT: SHORT 8142.000000 @ $0.5265 - SL: $0.5423 TP: $0.5212
+2025-10-10 19:32:18 | INFO |    • ETHUSDT-28NOV25: SHORT 0.930000 @ $4176.98 - SL: $4302.2894 TP: $4135.2102
+2025-10-10 19:32:18 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 19:32:19 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 19:32:19 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 19:32:19 | INFO | 🎉 SESSION COMPLETED in 55.0s
+2025-10-10 19:32:19 | INFO | ============================================================
