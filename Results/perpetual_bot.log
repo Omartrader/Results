@@ -16220,3 +16220,69 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 15:31:57 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 15:31:57 | INFO | 🎉 SESSION COMPLETED in 32.7s
 2025-10-10 15:31:57 | INFO | ============================================================
+2025-10-10 15:46:23 | INFO | ================================================================================
+2025-10-10 15:46:23 | INFO | NEW PERPETUAL SESSION: 2025-10-10 15:46:23
+2025-10-10 15:46:23 | INFO | ================================================================================
+2025-10-10 15:46:23 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 15:46:24 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 15:46:24 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 15:46:24 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 15:46:25 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 15:46:25 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 15:46:35 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 15:46:35 | INFO |  1. DUSKUSDT     | BUY  | Price: $  0.0742 | Confidence:  95.0% | Momentum: +10.51%
+2025-10-10 15:46:35 | INFO |  2. DOODUSDT     | SELL | Price: $  0.0105 | Confidence:  77.7% | Momentum: -2.77%
+2025-10-10 15:46:35 | INFO |  3. LIGHTUSDT    | SELL | Price: $  0.8933 | Confidence:  77.3% | Momentum: -2.73%
+2025-10-10 15:46:35 | INFO |  4. ASPUSDT      | BUY  | Price: $  0.1320 | Confidence:  77.2% | Momentum: +2.72%
+2025-10-10 15:46:35 | INFO |  5. BROCCOLIUSDT | BUY  | Price: $  0.0382 | Confidence:  75.5% | Momentum: +2.55%
+2025-10-10 15:46:35 | INFO |  6. BATUSDT      | BUY  | Price: $  0.1698 | Confidence:  72.3% | Momentum: +2.23%
+2025-10-10 15:46:35 | INFO |  7. ALICEUSDT    | BUY  | Price: $  0.4630 | Confidence:  69.2% | Momentum: +1.92%
+2025-10-10 15:46:35 | INFO |  8. AIOUSDT      | BUY  | Price: $  0.1355 | Confidence:  68.2% | Momentum: +1.82%
+2025-10-10 15:46:35 | INFO |  9. CTKUSDT      | BUY  | Price: $  0.3562 | Confidence:  67.7% | Momentum: +1.77%
+2025-10-10 15:46:35 | INFO | 10. CAKEUSDT     | BUY  | Price: $  3.7190 | Confidence:  67.0% | Momentum: +1.70%
+2025-10-10 15:46:35 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 15:46:35 | INFO | 1. DUSKUSDT - BUY (95.0%) @ $0.07425
+2025-10-10 15:46:37 | INFO | Setting leverage for DUSKUSDT to 1x
+2025-10-10 15:46:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DUSKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:46:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DUSKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '116640', 'timeInForce': 'IOC'}
+2025-10-10 15:46:37 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:11664000000000 > max_qty:2920000000000 (ErrCode: 10001) (ErrTime: 11:46:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUSKUSDT", "side": "Buy", "orderType": "Market", "qty": "116640", "timeInForce": "IOC"}.
+2025-10-10 15:46:37 | ERROR | ❌ FAILED: DUSKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:11664000000000 > max_qty:2920000000000 (ErrCode: 10001) (ErrTime: 11:46:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUSKUSDT", "side": "Buy", "orderType": "Market", "qty": "116640", "timeInForce": "IOC"}.
+2025-10-10 15:46:38 | INFO | 2. DOODUSDT - SELL (77.7%) @ $0.010546
+2025-10-10 15:46:38 | INFO | Setting leverage for DOODUSDT to 1x
+2025-10-10 15:46:39 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:39).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOODUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:46:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOODUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '821210', 'timeInForce': 'IOC'}
+2025-10-10 15:46:39 | INFO | ✅ Perpetual order placed: 77946f4f-35f0-43d1-a382-3e810fbf251c
+2025-10-10 15:46:39 | INFO | Setting stop loss via trading stop: DOODUSDT @ 0.01086238
+2025-10-10 15:46:39 | INFO | ✅ Stop loss set via position management
+2025-10-10 15:46:40 | INFO | Setting take profit via trading stop: DOODUSDT @ 0.01044054
+2025-10-10 15:46:40 | INFO | ✅ Take profit set via position management
+2025-10-10 15:46:41 | INFO | Setting trailing stop: DOODUSDT @ 1.0% = $0.000106 from $0.010603
+2025-10-10 15:46:41 | INFO | ✅ Trailing stop set: 1.0% ($0.000106)
+2025-10-10 15:46:41 | INFO | ✅ EXECUTED: DOODUSDT SELL 821210.000000 @ $0.010546 (Conf: 77.7%)
+2025-10-10 15:46:42 | INFO | 3. LIGHTUSDT - SELL (77.3%) @ $0.8933
+2025-10-10 15:46:43 | INFO | Setting leverage for LIGHTUSDT to 1x
+2025-10-10 15:46:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LIGHTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:46:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LIGHTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '8775', 'timeInForce': 'IOC'}
+2025-10-10 15:46:43 | INFO | ✅ Perpetual order placed: d20b4e68-f6b9-4c9f-a170-3c944c410858
+2025-10-10 15:46:43 | INFO | Setting stop loss via trading stop: LIGHTUSDT @ 0.920099
+2025-10-10 15:46:43 | INFO | ✅ Stop loss set via position management
+2025-10-10 15:46:44 | INFO | Setting take profit via trading stop: LIGHTUSDT @ 0.884367
+2025-10-10 15:46:44 | INFO | ✅ Take profit set via position management
+2025-10-10 15:46:45 | INFO | Setting trailing stop: LIGHTUSDT @ 1.0% = $0.008933 from $0.8933
+2025-10-10 15:46:46 | INFO | ✅ Trailing stop set: 1.0% ($0.008933)
+2025-10-10 15:46:46 | INFO | ✅ EXECUTED: LIGHTUSDT SELL 8775.000000 @ $0.8933 (Conf: 77.3%)
+2025-10-10 15:46:46 | INFO | 4. ASPUSDT - BUY (77.2%) @ $0.132
+2025-10-10 15:46:46 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 1 failed
+2025-10-10 15:46:46 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 15:46:46 | INFO |    • DOODUSDT: SHORT 821210.000000 @ $0.010546 - SL: $0.0109 TP: $0.0104
+2025-10-10 15:46:46 | INFO |    • LIGHTUSDT: SHORT 8775.000000 @ $0.8933 - SL: $0.9201 TP: $0.8844
+2025-10-10 15:46:46 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 15:46:46 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 15:46:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 15:46:46 | INFO | 🎉 SESSION COMPLETED in 22.5s
+2025-10-10 15:46:46 | INFO | ============================================================
