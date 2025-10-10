@@ -13258,3 +13258,97 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 07:31:44 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 07:31:44 | INFO | 🎉 SESSION COMPLETED in 44.3s
 2025-10-10 07:31:44 | INFO | ============================================================
+2025-10-10 07:46:00 | INFO | ================================================================================
+2025-10-10 07:46:00 | INFO | NEW PERPETUAL SESSION: 2025-10-10 07:46:00
+2025-10-10 07:46:00 | INFO | ================================================================================
+2025-10-10 07:46:00 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 07:46:00 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 07:46:00 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 07:46:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 07:46:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 07:46:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 07:46:10 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 07:46:10 | INFO |  1. APEXUSDT     | BUY  | Price: $  1.7386 | Confidence:  95.0% | Momentum: +6.01%
+2025-10-10 07:46:10 | INFO |  2. DODOUSDT     | BUY  | Price: $  0.0492 | Confidence:  95.0% | Momentum: +7.76%
+2025-10-10 07:46:10 | INFO |  3. GOATUSDT     | BUY  | Price: $  0.0838 | Confidence:  95.0% | Momentum: +4.57%
+2025-10-10 07:46:10 | INFO |  4. REZUSDT      | BUY  | Price: $  0.0157 | Confidence:  95.0% | Momentum: +5.81%
+2025-10-10 07:46:10 | INFO |  5. ENSUSDT      | BUY  | Price: $ 21.2230 | Confidence:  88.5% | Momentum: +3.85%
+2025-10-10 07:46:10 | INFO |  6. PHAUSDT      | BUY  | Price: $  0.0993 | Confidence:  87.7% | Momentum: +3.77%
+2025-10-10 07:46:10 | INFO |  7. HFTUSDT      | BUY  | Price: $  0.0740 | Confidence:  87.7% | Momentum: +3.77%
+2025-10-10 07:46:10 | INFO |  8. MOODENGUSDT  | BUY  | Price: $  0.1545 | Confidence:  87.4% | Momentum: +3.74%
+2025-10-10 07:46:10 | INFO |  9. BRETTUSDT    | BUY  | Price: $  0.0435 | Confidence:  87.2% | Momentum: +3.72%
+2025-10-10 07:46:10 | INFO | 10. AGTUSDT      | BUY  | Price: $  0.0056 | Confidence:  86.5% | Momentum: +3.65%
+2025-10-10 07:46:11 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 07:46:11 | INFO | 1. APEXUSDT - BUY (95.0%) @ $1.7386
+2025-10-10 07:46:12 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-10 07:46:12 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:46:12).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 07:46:12 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5125.7', 'timeInForce': 'IOC'}
+2025-10-10 07:46:13 | INFO | ✅ Perpetual order placed: 25515f75-824e-4a13-93c1-af2b2d18f015
+2025-10-10 07:46:13 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.6864419999999998
+2025-10-10 07:46:13 | INFO | ✅ Stop loss set via position management
+2025-10-10 07:46:13 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.755986
+2025-10-10 07:46:13 | INFO | ✅ Take profit set via position management
+2025-10-10 07:46:15 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.017371 from $1.7371
+2025-10-10 07:46:15 | INFO | ✅ Trailing stop set: 1.0% ($0.017371)
+2025-10-10 07:46:15 | INFO | ✅ EXECUTED: APEXUSDT BUY 5125.700000 @ $1.7386 (Conf: 95.0%)
+2025-10-10 07:46:16 | INFO | 2. DODOUSDT - BUY (95.0%) @ $0.04917
+2025-10-10 07:46:16 | INFO | Setting leverage for DODOUSDT to 1x
+2025-10-10 07:46:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:46:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DODOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 07:46:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DODOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '164039', 'timeInForce': 'IOC'}
+2025-10-10 07:46:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:16403900000000 > max_qty:5130000000000 (ErrCode: 10001) (ErrTime: 03:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DODOUSDT", "side": "Buy", "orderType": "Market", "qty": "164039", "timeInForce": "IOC"}.
+2025-10-10 07:46:17 | ERROR | ❌ FAILED: DODOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:16403900000000 > max_qty:5130000000000 (ErrCode: 10001) (ErrTime: 03:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DODOUSDT", "side": "Buy", "orderType": "Market", "qty": "164039", "timeInForce": "IOC"}.
+2025-10-10 07:46:17 | INFO | 3. GOATUSDT - BUY (95.0%) @ $0.0838
+2025-10-10 07:46:17 | INFO | 4. REZUSDT - BUY (95.0%) @ $0.01565
+2025-10-10 07:46:18 | INFO | Setting leverage for REZUSDT to 1x
+2025-10-10 07:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "REZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 07:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'REZUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '515385', 'timeInForce': 'IOC'}
+2025-10-10 07:46:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:51538500000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 03:46:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REZUSDT", "side": "Buy", "orderType": "Market", "qty": "515385", "timeInForce": "IOC"}.
+2025-10-10 07:46:19 | ERROR | ❌ FAILED: REZUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:51538500000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 03:46:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REZUSDT", "side": "Buy", "orderType": "Market", "qty": "515385", "timeInForce": "IOC"}.
+2025-10-10 07:46:19 | INFO | 5. ENSUSDT - BUY (88.5%) @ $21.223
+2025-10-10 07:46:19 | INFO | 6. PHAUSDT - BUY (87.7%) @ $0.09929
+2025-10-10 07:46:19 | INFO | 7. HFTUSDT - BUY (87.7%) @ $0.07401
+2025-10-10 07:46:20 | INFO | Setting leverage for HFTUSDT to 1x
+2025-10-10 07:46:21 | INFO | ✅ Leverage set to 1x for HFTUSDT
+2025-10-10 07:46:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HFTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '108982', 'timeInForce': 'IOC'}
+2025-10-10 07:46:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:10898200000000 > max_qty:7060000000000 (ErrCode: 10001) (ErrTime: 03:46:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HFTUSDT", "side": "Buy", "orderType": "Market", "qty": "108982", "timeInForce": "IOC"}.
+2025-10-10 07:46:21 | ERROR | ❌ FAILED: HFTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:10898200000000 > max_qty:7060000000000 (ErrCode: 10001) (ErrTime: 03:46:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HFTUSDT", "side": "Buy", "orderType": "Market", "qty": "108982", "timeInForce": "IOC"}.
+2025-10-10 07:46:22 | INFO | 8. MOODENGUSDT - BUY (87.4%) @ $0.15454
+2025-10-10 07:46:22 | INFO | 9. BRETTUSDT - BUY (87.2%) @ $0.0435
+2025-10-10 07:46:22 | INFO | Setting leverage for BRETTUSDT to 1x
+2025-10-10 07:46:23 | INFO | ✅ Leverage set to 1x for BRETTUSDT
+2025-10-10 07:46:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BRETTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '185420', 'timeInForce': 'IOC'}
+2025-10-10 07:46:23 | INFO | ✅ Perpetual order placed: 7aebb569-8350-4e3c-a523-9772c32cbd7d
+2025-10-10 07:46:23 | INFO | Setting stop loss via trading stop: BRETTUSDT @ 0.042194999999999996
+2025-10-10 07:46:23 | INFO | ✅ Stop loss set via position management
+2025-10-10 07:46:23 | INFO | Setting take profit via trading stop: BRETTUSDT @ 0.043934999999999995
+2025-10-10 07:46:23 | INFO | ✅ Take profit set via position management
+2025-10-10 07:46:25 | INFO | Setting trailing stop: BRETTUSDT @ 1.0% = $0.000434 from $0.04344
+2025-10-10 07:46:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000434)
+2025-10-10 07:46:25 | INFO | ✅ EXECUTED: BRETTUSDT BUY 185420.000000 @ $0.0435 (Conf: 87.2%)
+2025-10-10 07:46:26 | INFO | 10. AGTUSDT - BUY (86.5%) @ $0.005565
+2025-10-10 07:46:27 | INFO | Setting leverage for AGTUSDT to 1x
+2025-10-10 07:46:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:46:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AGTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 07:46:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AGTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1311820', 'timeInForce': 'IOC'}
+2025-10-10 07:46:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:131182000000000 > max_qty:70000000000000 (ErrCode: 10001) (ErrTime: 03:46:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AGTUSDT", "side": "Buy", "orderType": "Market", "qty": "1311820", "timeInForce": "IOC"}.
+2025-10-10 07:46:28 | ERROR | ❌ FAILED: AGTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:131182000000000 > max_qty:70000000000000 (ErrCode: 10001) (ErrTime: 03:46:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AGTUSDT", "side": "Buy", "orderType": "Market", "qty": "1311820", "timeInForce": "IOC"}.
+2025-10-10 07:46:28 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 4 failed
+2025-10-10 07:46:28 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 07:46:28 | INFO |    • APEXUSDT: LONG 5125.700000 @ $1.7386 - SL: $1.6864 TP: $1.7560
+2025-10-10 07:46:28 | INFO |    • BRETTUSDT: LONG 185420.000000 @ $0.0435 - SL: $0.0422 TP: $0.0439
+2025-10-10 07:46:28 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 07:46:29 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 07:46:29 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 07:46:29 | INFO | 🎉 SESSION COMPLETED in 28.2s
+2025-10-10 07:46:29 | INFO | ============================================================
