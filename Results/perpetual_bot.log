@@ -19938,3 +19938,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 01:46:48 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 01:46:48 | INFO | 🎉 SESSION COMPLETED in 47.5s
 2025-10-11 01:46:48 | INFO | ============================================================
+2025-10-11 02:01:04 | INFO | ================================================================================
+2025-10-11 02:01:04 | INFO | NEW PERPETUAL SESSION: 2025-10-11 02:01:04
+2025-10-11 02:01:04 | INFO | ================================================================================
+2025-10-11 02:01:04 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 02:01:04 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 02:01:04 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 02:01:04 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 02:01:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 02:01:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 02:01:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 02:01:16 | INFO |  1. B2USDT       | BUY  | Price: $  1.3031 | Confidence:  95.0% | Momentum: +4.68%
+2025-10-11 02:01:16 | INFO |  2. GIGGLEUSDT   | SELL | Price: $107.6300 | Confidence:  95.0% | Momentum: -9.14%
+2025-10-11 02:01:17 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-11 02:01:17 | INFO | 1. B2USDT - BUY (95.0%) @ $1.3031
+2025-10-11 02:01:18 | INFO | Setting leverage for B2USDT to 1x
+2025-10-11 02:01:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 02:01:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6477', 'timeInForce': 'IOC'}
+2025-10-11 02:01:18 | INFO | ✅ Perpetual order placed: 3ed013e9-a4d4-4055-aba7-c83d43fd3a11
+2025-10-11 02:01:19 | INFO | Setting stop loss via trading stop: B2USDT @ 1.2640069999999999
+2025-10-11 02:01:19 | INFO | ✅ Stop loss set via position management
+2025-10-11 02:01:19 | INFO | Setting take profit via trading stop: B2USDT @ 1.316131
+2025-10-11 02:01:19 | INFO | ✅ Take profit set via position management
+2025-10-11 02:01:21 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.012943 from $1.2943
+2025-10-11 02:01:21 | INFO | ✅ Trailing stop set: 1.0% ($0.012943)
+2025-10-11 02:01:21 | INFO | ✅ EXECUTED: B2USDT BUY 6477.000000 @ $1.3031 (Conf: 95.0%)
+2025-10-11 02:01:21 | INFO | 2. GIGGLEUSDT - SELL (95.0%) @ $107.63
+2025-10-11 02:01:22 | INFO | Setting leverage for GIGGLEUSDT to 1x
+2025-10-11 02:01:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGGLEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 02:01:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGGLEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '70.97', 'timeInForce': 'IOC'}
+2025-10-11 02:01:23 | INFO | ✅ Perpetual order placed: 8b347b0d-7092-459f-94e4-fc1a50ef686d
+2025-10-11 02:01:23 | INFO | Setting stop loss via trading stop: GIGGLEUSDT @ 110.85889999999999
+2025-10-11 02:01:23 | INFO | ✅ Stop loss set via position management
+2025-10-11 02:01:23 | INFO | Setting take profit via trading stop: GIGGLEUSDT @ 106.55369999999999
+2025-10-11 02:01:23 | INFO | ✅ Take profit set via position management
+2025-10-11 02:01:25 | INFO | Setting trailing stop: GIGGLEUSDT @ 1.0% = $1.072900 from $107.29
+2025-10-11 02:01:25 | INFO | ✅ Trailing stop set: 1.0% ($1.072900)
+2025-10-11 02:01:25 | INFO | ✅ EXECUTED: GIGGLEUSDT SELL 70.970000 @ $107.63 (Conf: 95.0%)
+2025-10-11 02:01:26 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-11 02:01:26 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 02:01:26 | INFO |    • B2USDT: LONG 6477.000000 @ $1.3031 - SL: $1.2640 TP: $1.3161
+2025-10-11 02:01:26 | INFO |    • GIGGLEUSDT: SHORT 70.970000 @ $107.63 - SL: $110.8589 TP: $106.5537
+2025-10-11 02:01:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 02:01:26 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 02:01:26 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 02:01:26 | INFO | 🎉 SESSION COMPLETED in 21.8s
+2025-10-11 02:01:26 | INFO | ============================================================
