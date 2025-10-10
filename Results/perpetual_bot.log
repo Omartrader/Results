@@ -14534,3 +14534,115 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 10:46:33 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 10:46:33 | INFO | 🎉 SESSION COMPLETED in 29.3s
 2025-10-10 10:46:33 | INFO | ============================================================
+2025-10-10 11:01:12 | INFO | ================================================================================
+2025-10-10 11:01:12 | INFO | NEW PERPETUAL SESSION: 2025-10-10 11:01:12
+2025-10-10 11:01:12 | INFO | ================================================================================
+2025-10-10 11:01:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 11:01:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 11:01:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 11:01:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 11:01:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 11:01:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 11:01:23 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 11:01:23 | INFO |  1. ALICEUSDT    | SELL | Price: $  0.4583 | Confidence:  95.0% | Momentum: -5.07%
+2025-10-10 11:01:23 | INFO |  2. OPENUSDT     | SELL | Price: $  0.5032 | Confidence:  95.0% | Momentum: -10.26%
+2025-10-10 11:01:23 | INFO |  3. EDENUSDT     | SELL | Price: $  0.2347 | Confidence:  76.1% | Momentum: -2.61%
+2025-10-10 11:01:23 | INFO |  4. CAMPUSDT     | SELL | Price: $  0.0328 | Confidence:  70.6% | Momentum: -2.06%
+2025-10-10 11:01:23 | INFO |  5. FARTCOINUSDT | SELL | Price: $  0.6318 | Confidence:  69.1% | Momentum: -1.91%
+2025-10-10 11:01:23 | INFO |  6. ORCAUSDT     | SELL | Price: $  2.0060 | Confidence:  69.1% | Momentum: -1.91%
+2025-10-10 11:01:23 | INFO |  7. CELRUSDT     | SELL | Price: $  0.0081 | Confidence:  68.0% | Momentum: -1.80%
+2025-10-10 11:01:23 | INFO |  8. 10000QUBICUSDT | SELL | Price: $  0.0159 | Confidence:  67.9% | Momentum: -1.79%
+2025-10-10 11:01:23 | INFO |  9. NXPCUSDT     | SELL | Price: $  0.4893 | Confidence:  66.1% | Momentum: -1.61%
+2025-10-10 11:01:23 | INFO | 10. CVXUSDT      | SELL | Price: $  3.1980 | Confidence:  65.4% | Momentum: -1.54%
+2025-10-10 11:01:24 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 11:01:24 | INFO | 1. ALICEUSDT - SELL (95.0%) @ $0.4583
+2025-10-10 11:01:25 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-10 11:01:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:01:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALICEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:01:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '18945.5', 'timeInForce': 'IOC'}
+2025-10-10 11:01:25 | INFO | ✅ Perpetual order placed: b40303b9-80dd-42e5-8140-e20eef24f052
+2025-10-10 11:01:26 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.472049
+2025-10-10 11:01:26 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:01:26 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.453717
+2025-10-10 11:01:26 | INFO | ✅ Take profit set via position management
+2025-10-10 11:01:27 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.004595 from $0.4595
+2025-10-10 11:01:28 | INFO | ✅ Trailing stop set: 1.0% ($0.004595)
+2025-10-10 11:01:28 | INFO | ✅ EXECUTED: ALICEUSDT SELL 18945.500000 @ $0.4583 (Conf: 95.0%)
+2025-10-10 11:01:28 | INFO | 2. OPENUSDT - SELL (95.0%) @ $0.5032
+2025-10-10 11:01:29 | INFO | Setting leverage for OPENUSDT to 1x
+2025-10-10 11:01:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:01:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OPENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:01:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OPENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '15617', 'timeInForce': 'IOC'}
+2025-10-10 11:01:29 | INFO | ✅ Perpetual order placed: 1da12f21-16fc-427b-82a6-fc03d0e9a46a
+2025-10-10 11:01:30 | INFO | Setting stop loss via trading stop: OPENUSDT @ 0.518296
+2025-10-10 11:01:30 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:01:30 | INFO | Setting take profit via trading stop: OPENUSDT @ 0.498168
+2025-10-10 11:01:30 | INFO | ✅ Take profit set via position management
+2025-10-10 11:01:31 | INFO | Setting trailing stop: OPENUSDT @ 1.0% = $0.005032 from $0.5032
+2025-10-10 11:01:32 | INFO | ✅ Trailing stop set: 1.0% ($0.005032)
+2025-10-10 11:01:32 | INFO | ✅ EXECUTED: OPENUSDT SELL 15617.000000 @ $0.5032 (Conf: 95.0%)
+2025-10-10 11:01:32 | INFO | 3. EDENUSDT - SELL (76.1%) @ $0.2347
+2025-10-10 11:01:33 | INFO | Setting leverage for EDENUSDT to 1x
+2025-10-10 11:01:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:01:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EDENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:01:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EDENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '30306', 'timeInForce': 'IOC'}
+2025-10-10 11:01:33 | INFO | ✅ Perpetual order placed: 28afc0ca-4e07-44cc-b868-a96633ef2819
+2025-10-10 11:01:34 | INFO | Setting stop loss via trading stop: EDENUSDT @ 0.241741
+2025-10-10 11:01:34 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:01:34 | INFO | Setting take profit via trading stop: EDENUSDT @ 0.23235299999999998
+2025-10-10 11:01:34 | INFO | ✅ Take profit set via position management
+2025-10-10 11:01:36 | INFO | Setting trailing stop: EDENUSDT @ 1.0% = $0.002348 from $0.2348
+2025-10-10 11:01:36 | INFO | ✅ Trailing stop set: 1.0% ($0.002348)
+2025-10-10 11:01:36 | INFO | ✅ EXECUTED: EDENUSDT SELL 30306.000000 @ $0.2347 (Conf: 76.1%)
+2025-10-10 11:01:36 | INFO | 4. CAMPUSDT - SELL (70.6%) @ $0.0328
+2025-10-10 11:01:37 | INFO | Setting leverage for CAMPUSDT to 1x
+2025-10-10 11:01:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:01:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CAMPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:01:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CAMPUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '196276', 'timeInForce': 'IOC'}
+2025-10-10 11:01:38 | INFO | ✅ Perpetual order placed: 002587c5-555b-49ed-8e61-f785e18436e8
+2025-10-10 11:01:38 | INFO | Setting stop loss via trading stop: CAMPUSDT @ 0.033784
+2025-10-10 11:01:38 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:01:38 | INFO | Setting take profit via trading stop: CAMPUSDT @ 0.032472
+2025-10-10 11:01:38 | INFO | ✅ Take profit set via position management
+2025-10-10 11:01:40 | INFO | Setting trailing stop: CAMPUSDT @ 1.0% = $0.000328 from $0.03281
+2025-10-10 11:01:40 | INFO | ✅ Trailing stop set: 1.0% ($0.000328)
+2025-10-10 11:01:40 | INFO | ✅ EXECUTED: CAMPUSDT SELL 196276.000000 @ $0.0328 (Conf: 70.6%)
+2025-10-10 11:01:41 | INFO | 5. FARTCOINUSDT - SELL (69.1%) @ $0.6318
+2025-10-10 11:01:42 | INFO | Setting leverage for FARTCOINUSDT to 1x
+2025-10-10 11:01:42 | INFO | ✅ Leverage set to 1x for FARTCOINUSDT
+2025-10-10 11:01:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FARTCOINUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '9223', 'timeInForce': 'IOC'}
+2025-10-10 11:01:42 | INFO | ✅ Perpetual order placed: feef8b76-cbb5-4111-9c7d-fc3aec55c29d
+2025-10-10 11:01:43 | INFO | Setting stop loss via trading stop: FARTCOINUSDT @ 0.650754
+2025-10-10 11:01:43 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:01:43 | INFO | Setting take profit via trading stop: FARTCOINUSDT @ 0.625482
+2025-10-10 11:01:43 | INFO | ✅ Take profit set via position management
+2025-10-10 11:01:45 | INFO | Setting trailing stop: FARTCOINUSDT @ 1.0% = $0.006311 from $0.6311
+2025-10-10 11:01:45 | INFO | ✅ Trailing stop set: 1.0% ($0.006311)
+2025-10-10 11:01:45 | INFO | ✅ EXECUTED: FARTCOINUSDT SELL 9223.000000 @ $0.6318 (Conf: 69.1%)
+2025-10-10 11:01:45 | INFO | 6. ORCAUSDT - SELL (69.1%) @ $2.006
+2025-10-10 11:01:46 | INFO | Setting leverage for ORCAUSDT to 1x
+2025-10-10 11:01:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:01:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ORCAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:01:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ORCAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '2629.0', 'timeInForce': 'IOC'}
+2025-10-10 11:01:47 | INFO | ✅ Perpetual order placed: fc4a07b6-4ca0-460b-88ab-f097d1a10bbb
+2025-10-10 11:01:47 | INFO | Setting stop loss via trading stop: ORCAUSDT @ 2.0661799999999997
+2025-10-10 11:01:47 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:01:48 | INFO | Setting take profit via trading stop: ORCAUSDT @ 1.9859399999999998
+2025-10-10 11:01:48 | INFO | ✅ Take profit set via position management
+2025-10-10 11:01:49 | INFO | Setting trailing stop: ORCAUSDT @ 1.0% = $0.020050 from $2.005
+2025-10-10 11:01:49 | INFO | ✅ Trailing stop set: 1.0% ($0.020050)
+2025-10-10 11:01:49 | INFO | ✅ EXECUTED: ORCAUSDT SELL 2629.000000 @ $2.006 (Conf: 69.1%)
+2025-10-10 11:01:50 | INFO | 7. CELRUSDT - SELL (68.0%) @ $0.008092
+2025-10-10 11:01:50 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 0 failed
+2025-10-10 11:01:50 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 11:01:50 | INFO |    • ALICEUSDT: SHORT 18945.500000 @ $0.4583 - SL: $0.4720 TP: $0.4537
+2025-10-10 11:01:50 | INFO |    • OPENUSDT: SHORT 15617.000000 @ $0.5032 - SL: $0.5183 TP: $0.4982
+2025-10-10 11:01:50 | INFO |    • EDENUSDT: SHORT 30306.000000 @ $0.2347 - SL: $0.2417 TP: $0.2324
+2025-10-10 11:01:50 | INFO |    • CAMPUSDT: SHORT 196276.000000 @ $0.0328 - SL: $0.0338 TP: $0.0325
+2025-10-10 11:01:50 | INFO |    • FARTCOINUSDT: SHORT 9223.000000 @ $0.6318 - SL: $0.6508 TP: $0.6255
+2025-10-10 11:01:50 | INFO |    • ORCAUSDT: SHORT 2629.000000 @ $2.006 - SL: $2.0662 TP: $1.9859
+2025-10-10 11:01:50 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 11:01:50 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 11:01:50 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 11:01:50 | INFO | 🎉 SESSION COMPLETED in 38.4s
+2025-10-10 11:01:50 | INFO | ============================================================
