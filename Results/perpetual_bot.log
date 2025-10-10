@@ -15897,3 +15897,46 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 14:17:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 14:17:02 | INFO | 🎉 SESSION COMPLETED in 31.7s
 2025-10-10 14:17:02 | INFO | ============================================================
+2025-10-10 14:31:26 | INFO | ================================================================================
+2025-10-10 14:31:26 | INFO | NEW PERPETUAL SESSION: 2025-10-10 14:31:26
+2025-10-10 14:31:26 | INFO | ================================================================================
+2025-10-10 14:31:26 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 14:31:26 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 14:31:26 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 14:31:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:31:27 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:31:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:31:47 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 14:31:47 | INFO |  1. DASHUSDT     | BUY  | Price: $ 46.3500 | Confidence:  95.0% | Momentum: +4.60%
+2025-10-10 14:31:47 | INFO |  2. GIGGLEUSDT   | BUY  | Price: $ 92.7600 | Confidence:  85.5% | Momentum: +3.55%
+2025-10-10 14:31:47 | INFO |  3. RLCUSDT      | BUY  | Price: $  1.1166 | Confidence:  81.4% | Momentum: +3.14%
+2025-10-10 14:31:47 | INFO |  4. RPLUSDT      | BUY  | Price: $  5.0740 | Confidence:  78.4% | Momentum: +2.84%
+2025-10-10 14:31:47 | INFO |  5. KDAUSDT      | BUY  | Price: $  0.3696 | Confidence:  75.8% | Momentum: +2.58%
+2025-10-10 14:31:47 | INFO |  6. AIOZUSDT     | SELL | Price: $  0.2649 | Confidence:  75.4% | Momentum: -2.54%
+2025-10-10 14:31:47 | INFO |  7. OXTUSDT      | BUY  | Price: $  0.0499 | Confidence:  67.9% | Momentum: +1.79%
+2025-10-10 14:31:47 | INFO |  8. SCRUSDT      | BUY  | Price: $  0.2675 | Confidence:  67.9% | Momentum: +1.79%
+2025-10-10 14:31:47 | INFO |  9. FLMUSDT      | BUY  | Price: $  0.0251 | Confidence:  67.5% | Momentum: +1.75%
+2025-10-10 14:31:47 | INFO | 10. BRETTUSDT    | BUY  | Price: $  0.0432 | Confidence:  67.2% | Momentum: +1.72%
+2025-10-10 14:31:47 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 14:31:47 | INFO | 1. DASHUSDT - BUY (95.0%) @ $46.35
+2025-10-10 14:31:49 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-10 14:31:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:31:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 14:31:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '187.47', 'timeInForce': 'IOC'}
+2025-10-10 14:31:49 | INFO | ✅ Perpetual order placed: 4ea5cbcd-97de-4af2-836d-4bd64726b607
+2025-10-10 14:31:50 | INFO | Setting stop loss via trading stop: DASHUSDT @ 44.9595
+2025-10-10 14:31:50 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:31:50 | INFO | Setting take profit via trading stop: DASHUSDT @ 46.813500000000005
+2025-10-10 14:31:50 | INFO | ✅ Take profit set via position management
+2025-10-10 14:31:52 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.463200 from $46.32
+2025-10-10 14:31:52 | INFO | ✅ Trailing stop set: 1.0% ($0.463200)
+2025-10-10 14:31:52 | INFO | ✅ EXECUTED: DASHUSDT BUY 187.470000 @ $46.35 (Conf: 95.0%)
+2025-10-10 14:31:52 | INFO | 2. GIGGLEUSDT - BUY (85.5%) @ $92.76
+2025-10-10 14:31:52 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-10 14:31:52 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 14:31:52 | INFO |    • DASHUSDT: LONG 187.470000 @ $46.35 - SL: $44.9595 TP: $46.8135
+2025-10-10 14:31:52 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:31:53 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:31:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:31:53 | INFO | 🎉 SESSION COMPLETED in 26.5s
+2025-10-10 14:31:53 | INFO | ============================================================
