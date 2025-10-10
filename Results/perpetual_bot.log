@@ -15369,3 +15369,150 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 12:46:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 12:46:46 | INFO | 🎉 SESSION COMPLETED in 25.7s
 2025-10-10 12:46:46 | INFO | ============================================================
+2025-10-10 13:01:24 | INFO | ================================================================================
+2025-10-10 13:01:24 | INFO | NEW PERPETUAL SESSION: 2025-10-10 13:01:24
+2025-10-10 13:01:24 | INFO | ================================================================================
+2025-10-10 13:01:24 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 13:01:25 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 13:01:25 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 13:01:25 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 13:01:26 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 13:01:26 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 13:01:37 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 13:01:37 | INFO |  1. ROSEUSDT     | BUY  | Price: $  0.0271 | Confidence:  95.0% | Momentum: +7.66%
+2025-10-10 13:01:37 | INFO |  2. CHRUSDT      | BUY  | Price: $  0.0904 | Confidence:  84.7% | Momentum: +3.47%
+2025-10-10 13:01:37 | INFO |  3. BSUUSDT      | BUY  | Price: $  0.2246 | Confidence:  81.3% | Momentum: +3.13%
+2025-10-10 13:01:37 | INFO |  4. FILUSDT      | BUY  | Price: $  2.3710 | Confidence:  78.6% | Momentum: +2.86%
+2025-10-10 13:01:37 | INFO |  5. HFTUSDT      | BUY  | Price: $  0.0740 | Confidence:  76.1% | Momentum: +2.61%
+2025-10-10 13:01:37 | INFO |  6. ARUSDT       | BUY  | Price: $  5.8380 | Confidence:  74.2% | Momentum: +2.42%
+2025-10-10 13:01:37 | INFO |  7. GUNUSDT      | BUY  | Price: $  0.0276 | Confidence:  73.7% | Momentum: +2.37%
+2025-10-10 13:01:37 | INFO |  8. PYTHUSDT     | BUY  | Price: $  0.1560 | Confidence:  68.3% | Momentum: +1.83%
+2025-10-10 13:01:37 | INFO |  9. JELLYJELLYUSDT | SELL | Price: $  0.0740 | Confidence:  66.8% | Momentum: -1.68%
+2025-10-10 13:01:37 | INFO | 10. IOUSDT       | BUY  | Price: $  0.5251 | Confidence:  66.5% | Momentum: +1.65%
+2025-10-10 13:01:37 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 13:01:37 | INFO | 1. ROSEUSDT - BUY (95.0%) @ $0.02711
+2025-10-10 13:01:38 | INFO | Setting leverage for ROSEUSDT to 1x
+2025-10-10 13:01:39 | INFO | ✅ Leverage set to 1x for ROSEUSDT
+2025-10-10 13:01:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ROSEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '320945', 'timeInForce': 'IOC'}
+2025-10-10 13:01:39 | INFO | ✅ Perpetual order placed: 1506ee3f-0870-4889-840d-d596972c6ff3
+2025-10-10 13:01:39 | INFO | Setting stop loss via trading stop: ROSEUSDT @ 0.0262967
+2025-10-10 13:01:39 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:01:39 | INFO | Setting take profit via trading stop: ROSEUSDT @ 0.0273811
+2025-10-10 13:01:39 | INFO | ✅ Take profit set via position management
+2025-10-10 13:01:41 | INFO | Setting trailing stop: ROSEUSDT @ 1.0% = $0.000271 from $0.02714
+2025-10-10 13:01:41 | INFO | ✅ Trailing stop set: 1.0% ($0.000271)
+2025-10-10 13:01:41 | INFO | ✅ EXECUTED: ROSEUSDT BUY 320945.000000 @ $0.02711 (Conf: 95.0%)
+2025-10-10 13:01:42 | INFO | 2. CHRUSDT - BUY (84.7%) @ $0.09039
+2025-10-10 13:01:43 | INFO | Setting leverage for CHRUSDT to 1x
+2025-10-10 13:01:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:01:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CHRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:01:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CHRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '87123.3', 'timeInForce': 'IOC'}
+2025-10-10 13:01:43 | INFO | ✅ Perpetual order placed: 191a7aa5-c8db-4e1c-a67a-c01f62a94d15
+2025-10-10 13:01:43 | INFO | Setting stop loss via trading stop: CHRUSDT @ 0.0876783
+2025-10-10 13:01:43 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:01:44 | INFO | Setting take profit via trading stop: CHRUSDT @ 0.0912939
+2025-10-10 13:01:44 | INFO | ✅ Take profit set via position management
+2025-10-10 13:01:45 | INFO | Setting trailing stop: CHRUSDT @ 1.0% = $0.000906 from $0.09061
+2025-10-10 13:01:45 | INFO | ✅ Trailing stop set: 1.0% ($0.000906)
+2025-10-10 13:01:45 | INFO | ✅ EXECUTED: CHRUSDT BUY 87123.300000 @ $0.09039 (Conf: 84.7%)
+2025-10-10 13:01:46 | INFO | 3. BSUUSDT - BUY (81.3%) @ $0.22458
+2025-10-10 13:01:47 | INFO | Setting leverage for BSUUSDT to 1x
+2025-10-10 13:01:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:01:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BSUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:01:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BSUUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '31738', 'timeInForce': 'IOC'}
+2025-10-10 13:01:47 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3173800000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 09:01:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BSUUSDT", "side": "Buy", "orderType": "Market", "qty": "31738", "timeInForce": "IOC"}.
+2025-10-10 13:01:47 | ERROR | ❌ FAILED: BSUUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:3173800000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 09:01:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BSUUSDT", "side": "Buy", "orderType": "Market", "qty": "31738", "timeInForce": "IOC"}.
+2025-10-10 13:01:48 | INFO | 4. FILUSDT - BUY (78.6%) @ $2.371
+2025-10-10 13:01:49 | INFO | Setting leverage for FILUSDT to 1x
+2025-10-10 13:01:49 | INFO | ✅ Leverage set to 1x for FILUSDT
+2025-10-10 13:01:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FILUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3006.2', 'timeInForce': 'IOC'}
+2025-10-10 13:01:49 | INFO | ✅ Perpetual order placed: 5f702ea3-9d16-4c01-9c64-00e6a59a8620
+2025-10-10 13:01:49 | INFO | Setting stop loss via trading stop: FILUSDT @ 2.29987
+2025-10-10 13:01:49 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:01:50 | INFO | Setting take profit via trading stop: FILUSDT @ 2.39471
+2025-10-10 13:01:50 | INFO | ✅ Take profit set via position management
+2025-10-10 13:01:51 | INFO | Setting trailing stop: FILUSDT @ 1.0% = $0.023740 from $2.374
+2025-10-10 13:01:51 | INFO | ✅ Trailing stop set: 1.0% ($0.023740)
+2025-10-10 13:01:51 | INFO | ✅ EXECUTED: FILUSDT BUY 3006.200000 @ $2.371 (Conf: 78.6%)
+2025-10-10 13:01:52 | INFO | 5. HFTUSDT - BUY (76.1%) @ $0.07395
+2025-10-10 13:01:53 | INFO | Setting leverage for HFTUSDT to 1x
+2025-10-10 13:01:53 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:01:53).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HFTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:01:53 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HFTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '87238', 'timeInForce': 'IOC'}
+2025-10-10 13:01:53 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8723800000000 > max_qty:7060000000000 (ErrCode: 10001) (ErrTime: 09:01:53).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HFTUSDT", "side": "Buy", "orderType": "Market", "qty": "87238", "timeInForce": "IOC"}.
+2025-10-10 13:01:53 | ERROR | ❌ FAILED: HFTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8723800000000 > max_qty:7060000000000 (ErrCode: 10001) (ErrTime: 09:01:53).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HFTUSDT", "side": "Buy", "orderType": "Market", "qty": "87238", "timeInForce": "IOC"}.
+2025-10-10 13:01:54 | INFO | 6. ARUSDT - BUY (74.2%) @ $5.838
+2025-10-10 13:01:54 | INFO | Setting leverage for ARUSDT to 1x
+2025-10-10 13:01:55 | INFO | ✅ Leverage set to 1x for ARUSDT
+2025-10-10 13:01:55 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ARUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1105.0', 'timeInForce': 'IOC'}
+2025-10-10 13:01:55 | INFO | ✅ Perpetual order placed: 09c81f6b-7079-47b8-911a-c43896278315
+2025-10-10 13:01:55 | INFO | Setting stop loss via trading stop: ARUSDT @ 5.66286
+2025-10-10 13:01:55 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:01:56 | INFO | Setting take profit via trading stop: ARUSDT @ 5.89638
+2025-10-10 13:01:56 | INFO | ✅ Take profit set via position management
+2025-10-10 13:01:57 | INFO | Setting trailing stop: ARUSDT @ 1.0% = $0.058370 from $5.837
+2025-10-10 13:01:57 | INFO | ✅ Trailing stop set: 1.0% ($0.058370)
+2025-10-10 13:01:57 | INFO | ✅ EXECUTED: ARUSDT BUY 1105.000000 @ $5.838 (Conf: 74.2%)
+2025-10-10 13:01:58 | INFO | 7. GUNUSDT - BUY (73.7%) @ $0.02764
+2025-10-10 13:01:59 | INFO | Setting leverage for GUNUSDT to 1x
+2025-10-10 13:01:59 | INFO | ✅ Leverage set to 1x for GUNUSDT
+2025-10-10 13:01:59 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GUNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '211252', 'timeInForce': 'IOC'}
+2025-10-10 13:01:59 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:21125200000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 09:01:59).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GUNUSDT", "side": "Buy", "orderType": "Market", "qty": "211252", "timeInForce": "IOC"}.
+2025-10-10 13:01:59 | ERROR | ❌ FAILED: GUNUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:21125200000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 09:01:59).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GUNUSDT", "side": "Buy", "orderType": "Market", "qty": "211252", "timeInForce": "IOC"}.
+2025-10-10 13:02:00 | INFO | 8. PYTHUSDT - BUY (68.3%) @ $0.156
+2025-10-10 13:02:01 | INFO | Setting leverage for PYTHUSDT to 1x
+2025-10-10 13:02:01 | INFO | ✅ Leverage set to 1x for PYTHUSDT
+2025-10-10 13:02:01 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PYTHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '37430', 'timeInForce': 'IOC'}
+2025-10-10 13:02:01 | INFO | ✅ Perpetual order placed: 959554f0-e9db-4607-93bb-598572b7f8aa
+2025-10-10 13:02:02 | INFO | Setting stop loss via trading stop: PYTHUSDT @ 0.15131999999999998
+2025-10-10 13:02:02 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:02:02 | INFO | Setting take profit via trading stop: PYTHUSDT @ 0.15756
+2025-10-10 13:02:02 | INFO | ✅ Take profit set via position management
+2025-10-10 13:02:03 | INFO | Setting trailing stop: PYTHUSDT @ 1.0% = $0.001561 from $0.1561
+2025-10-10 13:02:04 | INFO | ✅ Trailing stop set: 1.0% ($0.001561)
+2025-10-10 13:02:04 | INFO | ✅ EXECUTED: PYTHUSDT BUY 37430.000000 @ $0.156 (Conf: 68.3%)
+2025-10-10 13:02:04 | INFO | 9. JELLYJELLYUSDT - SELL (66.8%) @ $0.074018
+2025-10-10 13:02:05 | INFO | Setting leverage for JELLYJELLYUSDT to 1x
+2025-10-10 13:02:05 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:02:05).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "JELLYJELLYUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:02:05 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JELLYJELLYUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '71399', 'timeInForce': 'IOC'}
+2025-10-10 13:02:05 | INFO | ✅ Perpetual order placed: 79a411c2-a45f-46ff-9462-92307a1175f6
+2025-10-10 13:02:06 | INFO | Setting stop loss via trading stop: JELLYJELLYUSDT @ 0.07623854000000001
+2025-10-10 13:02:06 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:02:06 | INFO | Setting take profit via trading stop: JELLYJELLYUSDT @ 0.07327782
+2025-10-10 13:02:06 | INFO | ✅ Take profit set via position management
+2025-10-10 13:02:07 | INFO | Setting trailing stop: JELLYJELLYUSDT @ 1.0% = $0.000741 from $0.074065
+2025-10-10 13:02:08 | INFO | ✅ Trailing stop set: 1.0% ($0.000741)
+2025-10-10 13:02:08 | INFO | ✅ EXECUTED: JELLYJELLYUSDT SELL 71399.000000 @ $0.074018 (Conf: 66.8%)
+2025-10-10 13:02:08 | INFO | 10. IOUSDT - BUY (66.5%) @ $0.5251
+2025-10-10 13:02:09 | INFO | Setting leverage for IOUSDT to 1x
+2025-10-10 13:02:09 | INFO | ✅ Leverage set to 1x for IOUSDT
+2025-10-10 13:02:09 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'IOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9109.3', 'timeInForce': 'IOC'}
+2025-10-10 13:02:09 | INFO | ✅ Perpetual order placed: a861d752-cf58-4708-9d63-77057d2b0f6c
+2025-10-10 13:02:10 | INFO | Setting stop loss via trading stop: IOUSDT @ 0.509347
+2025-10-10 13:02:10 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:02:10 | INFO | Setting take profit via trading stop: IOUSDT @ 0.530351
+2025-10-10 13:02:10 | INFO | ✅ Take profit set via position management
+2025-10-10 13:02:11 | INFO | Setting trailing stop: IOUSDT @ 1.0% = $0.005254 from $0.5254
+2025-10-10 13:02:12 | INFO | ✅ Trailing stop set: 1.0% ($0.005254)
+2025-10-10 13:02:12 | INFO | ✅ EXECUTED: IOUSDT BUY 9109.300000 @ $0.5251 (Conf: 66.5%)
+2025-10-10 13:02:12 | INFO | 📊 EXECUTION SUMMARY: 7 successful, 3 failed
+2025-10-10 13:02:12 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 13:02:12 | INFO |    • ROSEUSDT: LONG 320945.000000 @ $0.02711 - SL: $0.0263 TP: $0.0274
+2025-10-10 13:02:12 | INFO |    • CHRUSDT: LONG 87123.300000 @ $0.09039 - SL: $0.0877 TP: $0.0913
+2025-10-10 13:02:12 | INFO |    • FILUSDT: LONG 3006.200000 @ $2.371 - SL: $2.2999 TP: $2.3947
+2025-10-10 13:02:12 | INFO |    • ARUSDT: LONG 1105.000000 @ $5.838 - SL: $5.6629 TP: $5.8964
+2025-10-10 13:02:12 | INFO |    • PYTHUSDT: LONG 37430.000000 @ $0.156 - SL: $0.1513 TP: $0.1576
+2025-10-10 13:02:12 | INFO |    • JELLYJELLYUSDT: SHORT 71399.000000 @ $0.074018 - SL: $0.0762 TP: $0.0733
+2025-10-10 13:02:12 | INFO |    • IOUSDT: LONG 9109.300000 @ $0.5251 - SL: $0.5093 TP: $0.5304
+2025-10-10 13:02:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 13:02:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 13:02:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 13:02:13 | INFO | 🎉 SESSION COMPLETED in 47.7s
+2025-10-10 13:02:13 | INFO | ============================================================
