@@ -15658,3 +15658,83 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 13:31:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 13:31:41 | INFO | 🎉 SESSION COMPLETED in 20.4s
 2025-10-10 13:31:41 | INFO | ============================================================
+2025-10-10 13:46:24 | INFO | ================================================================================
+2025-10-10 13:46:24 | INFO | NEW PERPETUAL SESSION: 2025-10-10 13:46:24
+2025-10-10 13:46:24 | INFO | ================================================================================
+2025-10-10 13:46:24 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 13:46:24 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 13:46:24 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 13:46:24 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 13:46:25 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 13:46:25 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 13:46:35 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 13:46:35 | INFO |  1. MLNUSDT      | BUY  | Price: $  8.1950 | Confidence:  95.0% | Momentum: +5.35%
+2025-10-10 13:46:35 | INFO |  2. NEARUSDT     | BUY  | Price: $  3.0620 | Confidence:  95.0% | Momentum: +6.28%
+2025-10-10 13:46:35 | INFO |  3. ROSEUSDT     | BUY  | Price: $  0.0272 | Confidence:  95.0% | Momentum: +8.06%
+2025-10-10 13:46:35 | INFO |  4. CHRUSDT      | BUY  | Price: $  0.0909 | Confidence:  90.6% | Momentum: +4.06%
+2025-10-10 13:46:35 | INFO |  5. REZUSDT      | BUY  | Price: $  0.0157 | Confidence:  87.0% | Momentum: +3.70%
+2025-10-10 13:46:35 | INFO |  6. BSUUSDT      | BUY  | Price: $  0.2247 | Confidence:  81.6% | Momentum: +3.16%
+2025-10-10 13:46:35 | INFO |  7. BSVUSDT      | BUY  | Price: $ 25.6400 | Confidence:  79.3% | Momentum: +2.93%
+2025-10-10 13:46:35 | INFO |  8. AINUSDT      | BUY  | Price: $  0.1529 | Confidence:  78.5% | Momentum: +2.85%
+2025-10-10 13:46:35 | INFO |  9. FILUSDT      | BUY  | Price: $  2.3700 | Confidence:  78.2% | Momentum: +2.82%
+2025-10-10 13:46:35 | INFO | 10. CHILLGUYUSDT | BUY  | Price: $  0.0415 | Confidence:  75.6% | Momentum: +2.56%
+2025-10-10 13:46:35 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 13:46:35 | INFO | 1. MLNUSDT - BUY (95.0%) @ $8.195
+2025-10-10 13:46:36 | INFO | Setting leverage for MLNUSDT to 1x
+2025-10-10 13:46:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MLNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:46:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MLNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1063.5', 'timeInForce': 'IOC'}
+2025-10-10 13:46:37 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:106350000000 > max_qty:30000000000 (ErrCode: 10001) (ErrTime: 09:46:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MLNUSDT", "side": "Buy", "orderType": "Market", "qty": "1063.5", "timeInForce": "IOC"}.
+2025-10-10 13:46:37 | ERROR | ❌ FAILED: MLNUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:106350000000 > max_qty:30000000000 (ErrCode: 10001) (ErrTime: 09:46:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MLNUSDT", "side": "Buy", "orderType": "Market", "qty": "1063.5", "timeInForce": "IOC"}.
+2025-10-10 13:46:38 | INFO | 2. NEARUSDT - BUY (95.0%) @ $3.062
+2025-10-10 13:46:39 | INFO | Setting leverage for NEARUSDT to 1x
+2025-10-10 13:46:39 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:39).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NEARUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:46:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NEARUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2846.4', 'timeInForce': 'IOC'}
+2025-10-10 13:46:39 | INFO | ✅ Perpetual order placed: 6a1ae486-f95f-4bcb-ad11-ee3ce0d563ef
+2025-10-10 13:46:39 | INFO | Setting stop loss via trading stop: NEARUSDT @ 2.97014
+2025-10-10 13:46:39 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:46:40 | INFO | Setting take profit via trading stop: NEARUSDT @ 3.0926199999999997
+2025-10-10 13:46:40 | INFO | ✅ Take profit set via position management
+2025-10-10 13:46:41 | INFO | Setting trailing stop: NEARUSDT @ 1.0% = $0.030630 from $3.063
+2025-10-10 13:46:41 | INFO | ✅ Trailing stop set: 1.0% ($0.030630)
+2025-10-10 13:46:41 | INFO | ✅ EXECUTED: NEARUSDT BUY 2846.400000 @ $3.062 (Conf: 95.0%)
+2025-10-10 13:46:42 | INFO | 3. ROSEUSDT - BUY (95.0%) @ $0.02721
+2025-10-10 13:46:43 | INFO | Setting leverage for ROSEUSDT to 1x
+2025-10-10 13:46:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ROSEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:46:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ROSEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '289908', 'timeInForce': 'IOC'}
+2025-10-10 13:46:43 | INFO | ✅ Perpetual order placed: 589f9d77-eca1-4c2b-80ea-ccde9c475a5b
+2025-10-10 13:46:43 | INFO | Setting stop loss via trading stop: ROSEUSDT @ 0.0263937
+2025-10-10 13:46:43 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:46:44 | INFO | Setting take profit via trading stop: ROSEUSDT @ 0.027482100000000002
+2025-10-10 13:46:44 | INFO | ✅ Take profit set via position management
+2025-10-10 13:46:45 | INFO | Setting trailing stop: ROSEUSDT @ 1.0% = $0.000272 from $0.02721
+2025-10-10 13:46:46 | INFO | ✅ Trailing stop set: 1.0% ($0.000272)
+2025-10-10 13:46:46 | INFO | ✅ EXECUTED: ROSEUSDT BUY 289908.000000 @ $0.02721 (Conf: 95.0%)
+2025-10-10 13:46:46 | INFO | 4. CHRUSDT - BUY (90.6%) @ $0.09091
+2025-10-10 13:46:47 | INFO | Setting leverage for CHRUSDT to 1x
+2025-10-10 13:46:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CHRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:46:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CHRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '78536.4', 'timeInForce': 'IOC'}
+2025-10-10 13:46:48 | INFO | ✅ Perpetual order placed: 1e1696b5-8593-4fb8-80ae-104f0013e856
+2025-10-10 13:46:48 | INFO | Setting stop loss via trading stop: CHRUSDT @ 0.0881827
+2025-10-10 13:46:48 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:46:48 | INFO | Setting take profit via trading stop: CHRUSDT @ 0.0918191
+2025-10-10 13:46:48 | INFO | ✅ Take profit set via position management
+2025-10-10 13:46:50 | INFO | Setting trailing stop: CHRUSDT @ 1.0% = $0.000908 from $0.0908
+2025-10-10 13:46:50 | INFO | ✅ Trailing stop set: 1.0% ($0.000908)
+2025-10-10 13:46:50 | INFO | ✅ EXECUTED: CHRUSDT BUY 78536.400000 @ $0.09091 (Conf: 90.6%)
+2025-10-10 13:46:51 | INFO | 5. REZUSDT - BUY (87.0%) @ $0.0157
+2025-10-10 13:46:51 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 1 failed
+2025-10-10 13:46:51 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 13:46:51 | INFO |    • NEARUSDT: LONG 2846.400000 @ $3.062 - SL: $2.9701 TP: $3.0926
+2025-10-10 13:46:51 | INFO |    • ROSEUSDT: LONG 289908.000000 @ $0.02721 - SL: $0.0264 TP: $0.0275
+2025-10-10 13:46:51 | INFO |    • CHRUSDT: LONG 78536.400000 @ $0.09091 - SL: $0.0882 TP: $0.0918
+2025-10-10 13:46:51 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 13:46:51 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 13:46:51 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 13:46:51 | INFO | 🎉 SESSION COMPLETED in 27.0s
+2025-10-10 13:46:51 | INFO | ============================================================
