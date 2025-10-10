@@ -18474,3 +18474,91 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 21:31:43 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 21:31:43 | INFO | 🎉 SESSION COMPLETED in 28.0s
 2025-10-10 21:31:43 | INFO | ============================================================
+2025-10-10 21:46:11 | INFO | ================================================================================
+2025-10-10 21:46:11 | INFO | NEW PERPETUAL SESSION: 2025-10-10 21:46:11
+2025-10-10 21:46:11 | INFO | ================================================================================
+2025-10-10 21:46:11 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 21:46:11 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 21:46:11 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 21:46:11 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 21:46:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 21:46:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 21:46:31 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 21:46:31 | INFO |  1. CLOUDUSDT    | BUY  | Price: $  0.1681 | Confidence:  95.0% | Momentum: +12.60%
+2025-10-10 21:46:31 | INFO |  2. GIGGLEUSDT   | BUY  | Price: $111.5100 | Confidence:  95.0% | Momentum: +25.38%
+2025-10-10 21:46:31 | INFO |  3. KGENUSDT     | BUY  | Price: $  0.2253 | Confidence:  95.0% | Momentum: +32.84%
+2025-10-10 21:46:31 | INFO |  4. DASHUSDT     | BUY  | Price: $ 45.2800 | Confidence:  82.1% | Momentum: +3.21%
+2025-10-10 21:46:31 | INFO |  5. ASPUSDT      | BUY  | Price: $  0.1243 | Confidence:  75.6% | Momentum: +2.56%
+2025-10-10 21:46:32 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-10 21:46:32 | INFO | 1. CLOUDUSDT - BUY (95.0%) @ $0.16814
+2025-10-10 21:46:33 | INFO | Setting leverage for CLOUDUSDT to 1x
+2025-10-10 21:46:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLOUDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:46:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLOUDUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '50968', 'timeInForce': 'IOC'}
+2025-10-10 21:46:33 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5096800000000 > max_qty:4000000000000 (ErrCode: 10001) (ErrTime: 17:46:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLOUDUSDT", "side": "Buy", "orderType": "Market", "qty": "50968", "timeInForce": "IOC"}.
+2025-10-10 21:46:33 | ERROR | ❌ FAILED: CLOUDUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:5096800000000 > max_qty:4000000000000 (ErrCode: 10001) (ErrTime: 17:46:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLOUDUSDT", "side": "Buy", "orderType": "Market", "qty": "50968", "timeInForce": "IOC"}.
+2025-10-10 21:46:34 | INFO | 2. GIGGLEUSDT - BUY (95.0%) @ $111.51
+2025-10-10 21:46:35 | INFO | Setting leverage for GIGGLEUSDT to 1x
+2025-10-10 21:46:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGGLEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:46:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGGLEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '76.852', 'timeInForce': 'IOC'}
+2025-10-10 21:46:35 | INFO | ✅ Perpetual order placed: c29c4214-f85a-482f-af72-468d0da26d29
+2025-10-10 21:46:35 | INFO | Setting stop loss via trading stop: GIGGLEUSDT @ 108.1647
+2025-10-10 21:46:35 | INFO | ✅ Stop loss set via position management
+2025-10-10 21:46:36 | INFO | Setting take profit via trading stop: GIGGLEUSDT @ 112.6251
+2025-10-10 21:46:36 | INFO | ✅ Take profit set via position management
+2025-10-10 21:46:37 | INFO | Setting trailing stop: GIGGLEUSDT @ 1.0% = $1.117600 from $111.76
+2025-10-10 21:46:38 | INFO | ✅ Trailing stop set: 1.0% ($1.117600)
+2025-10-10 21:46:38 | INFO | ✅ EXECUTED: GIGGLEUSDT BUY 76.852000 @ $111.51 (Conf: 95.0%)
+2025-10-10 21:46:38 | INFO | 3. KGENUSDT - BUY (95.0%) @ $0.2253
+2025-10-10 21:46:39 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-10 21:46:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:46:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '34427', 'timeInForce': 'IOC'}
+2025-10-10 21:46:40 | INFO | ✅ Perpetual order placed: b0b50b9c-d682-4cd9-be13-ea18dfe9d74d
+2025-10-10 21:46:40 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.21854099999999999
+2025-10-10 21:46:40 | INFO | ✅ Stop loss set via position management
+2025-10-10 21:46:40 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.227553
+2025-10-10 21:46:40 | INFO | ✅ Take profit set via position management
+2025-10-10 21:46:42 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.002243 from $0.2243
+2025-10-10 21:46:42 | INFO | ✅ Trailing stop set: 1.0% ($0.002243)
+2025-10-10 21:46:42 | INFO | ✅ EXECUTED: KGENUSDT BUY 34427.000000 @ $0.2253 (Conf: 95.0%)
+2025-10-10 21:46:43 | INFO | 4. DASHUSDT - BUY (82.1%) @ $45.28
+2025-10-10 21:46:44 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-10 21:46:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:46:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '155.04', 'timeInForce': 'IOC'}
+2025-10-10 21:46:44 | INFO | ✅ Perpetual order placed: d0878670-6dfc-45a0-b9ac-b945e18f3188
+2025-10-10 21:46:45 | INFO | Setting stop loss via trading stop: DASHUSDT @ 43.9216
+2025-10-10 21:46:45 | INFO | ✅ Stop loss set via position management
+2025-10-10 21:46:45 | INFO | Setting take profit via trading stop: DASHUSDT @ 45.732800000000005
+2025-10-10 21:46:45 | INFO | ✅ Take profit set via position management
+2025-10-10 21:46:46 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.451700 from $45.17
+2025-10-10 21:46:47 | INFO | ✅ Trailing stop set: 1.0% ($0.451700)
+2025-10-10 21:46:47 | INFO | ✅ EXECUTED: DASHUSDT BUY 155.040000 @ $45.28 (Conf: 82.1%)
+2025-10-10 21:46:47 | INFO | 5. ASPUSDT - BUY (75.6%) @ $0.1243
+2025-10-10 21:46:49 | INFO | Setting leverage for ASPUSDT to 1x
+2025-10-10 21:46:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:46:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:46:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '51119', 'timeInForce': 'IOC'}
+2025-10-10 21:46:49 | INFO | ✅ Perpetual order placed: 7114ceab-3be1-4acc-a617-23b8b33a5a02
+2025-10-10 21:46:50 | INFO | Setting stop loss via trading stop: ASPUSDT @ 0.120571
+2025-10-10 21:46:50 | INFO | ✅ Stop loss set via position management
+2025-10-10 21:46:50 | INFO | Setting take profit via trading stop: ASPUSDT @ 0.125543
+2025-10-10 21:46:50 | INFO | ✅ Take profit set via position management
+2025-10-10 21:46:52 | INFO | Setting trailing stop: ASPUSDT @ 1.0% = $0.001245 from $0.1245
+2025-10-10 21:46:52 | INFO | ✅ Trailing stop set: 1.0% ($0.001245)
+2025-10-10 21:46:52 | INFO | ✅ EXECUTED: ASPUSDT BUY 51119.000000 @ $0.1243 (Conf: 75.6%)
+2025-10-10 21:46:52 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 1 failed
+2025-10-10 21:46:52 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 21:46:52 | INFO |    • GIGGLEUSDT: LONG 76.852000 @ $111.51 - SL: $108.1647 TP: $112.6251
+2025-10-10 21:46:52 | INFO |    • KGENUSDT: LONG 34427.000000 @ $0.2253 - SL: $0.2185 TP: $0.2276
+2025-10-10 21:46:52 | INFO |    • DASHUSDT: LONG 155.040000 @ $45.28 - SL: $43.9216 TP: $45.7328
+2025-10-10 21:46:52 | INFO |    • ASPUSDT: LONG 51119.000000 @ $0.1243 - SL: $0.1206 TP: $0.1255
+2025-10-10 21:46:52 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 21:46:53 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 21:46:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 21:46:53 | INFO | 🎉 SESSION COMPLETED in 41.6s
+2025-10-10 21:46:53 | INFO | ============================================================
