@@ -15997,3 +15997,85 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 14:46:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 14:46:46 | INFO | 🎉 SESSION COMPLETED in 20.2s
 2025-10-10 14:46:46 | INFO | ============================================================
+2025-10-10 15:01:27 | INFO | ================================================================================
+2025-10-10 15:01:27 | INFO | NEW PERPETUAL SESSION: 2025-10-10 15:01:27
+2025-10-10 15:01:27 | INFO | ================================================================================
+2025-10-10 15:01:27 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 15:01:27 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 15:01:27 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 15:01:27 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 15:01:29 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 15:01:29 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 15:01:40 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 15:01:40 | INFO |  1. DUSKUSDT     | BUY  | Price: $  0.0720 | Confidence:  95.0% | Momentum: +7.08%
+2025-10-10 15:01:40 | INFO |  2. DOODUSDT     | SELL | Price: $  0.0104 | Confidence:  88.2% | Momentum: -3.82%
+2025-10-10 15:01:40 | INFO |  3. CTKUSDT      | BUY  | Price: $  0.3565 | Confidence:  68.6% | Momentum: +1.86%
+2025-10-10 15:01:40 | INFO |  4. LIGHTUSDT    | SELL | Price: $  0.9015 | Confidence:  68.4% | Momentum: -1.84%
+2025-10-10 15:01:40 | INFO |  5. ETCUSDT      | BUY  | Price: $ 19.9520 | Confidence:  66.9% | Momentum: +1.69%
+2025-10-10 15:01:40 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-10 15:01:40 | INFO | 1. DUSKUSDT - BUY (95.0%) @ $0.07195
+2025-10-10 15:01:42 | INFO | Setting leverage for DUSKUSDT to 1x
+2025-10-10 15:01:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DUSKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:01:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DUSKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '120789', 'timeInForce': 'IOC'}
+2025-10-10 15:01:42 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:12078900000000 > max_qty:2920000000000 (ErrCode: 10001) (ErrTime: 11:01:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUSKUSDT", "side": "Buy", "orderType": "Market", "qty": "120789", "timeInForce": "IOC"}.
+2025-10-10 15:01:42 | ERROR | ❌ FAILED: DUSKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:12078900000000 > max_qty:2920000000000 (ErrCode: 10001) (ErrTime: 11:01:42).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUSKUSDT", "side": "Buy", "orderType": "Market", "qty": "120789", "timeInForce": "IOC"}.
+2025-10-10 15:01:43 | INFO | 2. DOODUSDT - SELL (88.2%) @ $0.010433
+2025-10-10 15:01:44 | INFO | Setting leverage for DOODUSDT to 1x
+2025-10-10 15:01:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOODUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:01:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOODUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '833010', 'timeInForce': 'IOC'}
+2025-10-10 15:01:45 | INFO | ✅ Perpetual order placed: e4fdd055-b666-4a16-aad1-dce286899cd7
+2025-10-10 15:01:45 | INFO | Setting stop loss via trading stop: DOODUSDT @ 0.01074599
+2025-10-10 15:01:45 | INFO | ✅ Stop loss set via position management
+2025-10-10 15:01:45 | INFO | Setting take profit via trading stop: DOODUSDT @ 0.01032867
+2025-10-10 15:01:45 | INFO | ✅ Take profit set via position management
+2025-10-10 15:01:47 | INFO | Setting trailing stop: DOODUSDT @ 1.0% = $0.000104 from $0.01043
+2025-10-10 15:01:47 | INFO | ✅ Trailing stop set: 1.0% ($0.000104)
+2025-10-10 15:01:47 | INFO | ✅ EXECUTED: DOODUSDT SELL 833010.000000 @ $0.010433 (Conf: 88.2%)
+2025-10-10 15:01:48 | INFO | 3. CTKUSDT - BUY (68.6%) @ $0.3565
+2025-10-10 15:01:49 | INFO | Setting leverage for CTKUSDT to 1x
+2025-10-10 15:01:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CTKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:01:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CTKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '22064.5', 'timeInForce': 'IOC'}
+2025-10-10 15:01:50 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2206450000000 > max_qty:2130000000000 (ErrCode: 10001) (ErrTime: 11:01:50).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CTKUSDT", "side": "Buy", "orderType": "Market", "qty": "22064.5", "timeInForce": "IOC"}.
+2025-10-10 15:01:50 | ERROR | ❌ FAILED: CTKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2206450000000 > max_qty:2130000000000 (ErrCode: 10001) (ErrTime: 11:01:50).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CTKUSDT", "side": "Buy", "orderType": "Market", "qty": "22064.5", "timeInForce": "IOC"}.
+2025-10-10 15:01:50 | INFO | 4. LIGHTUSDT - SELL (68.4%) @ $0.9015
+2025-10-10 15:01:51 | INFO | Setting leverage for LIGHTUSDT to 1x
+2025-10-10 15:01:52 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:52).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LIGHTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:01:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LIGHTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '8725', 'timeInForce': 'IOC'}
+2025-10-10 15:01:52 | INFO | ✅ Perpetual order placed: c193ce32-6810-417d-8ea2-4441f7e11edf
+2025-10-10 15:01:52 | INFO | Setting stop loss via trading stop: LIGHTUSDT @ 0.928545
+2025-10-10 15:01:52 | INFO | ✅ Stop loss set via position management
+2025-10-10 15:01:53 | INFO | Setting take profit via trading stop: LIGHTUSDT @ 0.892485
+2025-10-10 15:01:53 | INFO | ✅ Take profit set via position management
+2025-10-10 15:01:54 | INFO | Setting trailing stop: LIGHTUSDT @ 1.0% = $0.009012 from $0.9012
+2025-10-10 15:01:55 | INFO | ✅ Trailing stop set: 1.0% ($0.009012)
+2025-10-10 15:01:55 | INFO | ✅ EXECUTED: LIGHTUSDT SELL 8725.000000 @ $0.9015 (Conf: 68.4%)
+2025-10-10 15:01:55 | INFO | 5. ETCUSDT - BUY (66.9%) @ $19.952
+2025-10-10 15:01:56 | INFO | Setting leverage for ETCUSDT to 1x
+2025-10-10 15:01:56 | INFO | ✅ Leverage set to 1x for ETCUSDT
+2025-10-10 15:01:56 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ETCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '356.8', 'timeInForce': 'IOC'}
+2025-10-10 15:01:57 | INFO | ✅ Perpetual order placed: c416d201-1611-4ca4-9041-087276c6f58a
+2025-10-10 15:01:57 | INFO | Setting stop loss via trading stop: ETCUSDT @ 19.353440000000003
+2025-10-10 15:01:57 | INFO | ✅ Stop loss set via position management
+2025-10-10 15:01:57 | INFO | Setting take profit via trading stop: ETCUSDT @ 20.15152
+2025-10-10 15:01:57 | INFO | ✅ Take profit set via position management
+2025-10-10 15:01:59 | INFO | Setting trailing stop: ETCUSDT @ 1.0% = $0.199360 from $19.936
+2025-10-10 15:01:59 | INFO | ✅ Trailing stop set: 1.0% ($0.199360)
+2025-10-10 15:01:59 | INFO | ✅ EXECUTED: ETCUSDT BUY 356.800000 @ $19.952 (Conf: 66.9%)
+2025-10-10 15:02:00 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 2 failed
+2025-10-10 15:02:00 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 15:02:00 | INFO |    • DOODUSDT: SHORT 833010.000000 @ $0.010433 - SL: $0.0107 TP: $0.0103
+2025-10-10 15:02:00 | INFO |    • LIGHTUSDT: SHORT 8725.000000 @ $0.9015 - SL: $0.9285 TP: $0.8925
+2025-10-10 15:02:00 | INFO |    • ETCUSDT: LONG 356.800000 @ $19.952 - SL: $19.3534 TP: $20.1515
+2025-10-10 15:02:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 15:02:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 15:02:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 15:02:00 | INFO | 🎉 SESSION COMPLETED in 32.4s
+2025-10-10 15:02:00 | INFO | ============================================================
