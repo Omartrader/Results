@@ -20181,3 +20181,64 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 03:16:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 03:16:27 | INFO | 🎉 SESSION COMPLETED in 25.8s
 2025-10-11 03:16:27 | INFO | ============================================================
+2025-10-11 03:31:04 | INFO | ================================================================================
+2025-10-11 03:31:04 | INFO | NEW PERPETUAL SESSION: 2025-10-11 03:31:04
+2025-10-11 03:31:04 | INFO | ================================================================================
+2025-10-11 03:31:04 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 03:31:04 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 03:31:04 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 03:31:04 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 03:31:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 03:31:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 03:31:17 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 03:31:17 | INFO |  1. COAIUSDT     | SELL | Price: $  6.2830 | Confidence:  95.0% | Momentum: -12.62%
+2025-10-11 03:31:17 | INFO |  2. MUSDT        | BUY  | Price: $  2.0900 | Confidence:  95.0% | Momentum: +6.91%
+2025-10-11 03:31:17 | INFO |  3. PTBUSDT      | BUY  | Price: $  0.0519 | Confidence:  77.1% | Momentum: +2.71%
+2025-10-11 03:31:17 | INFO | 🎯 PROCESSING TOP 3 OPPORTUNITIES:
+2025-10-11 03:31:17 | INFO | 1. COAIUSDT - SELL (95.0%) @ $6.283
+2025-10-11 03:31:18 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-11 03:31:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 03:31:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1335', 'timeInForce': 'IOC'}
+2025-10-11 03:31:19 | INFO | ✅ Perpetual order placed: cb2e96e6-75ef-42a9-bde5-c738e26ed8e3
+2025-10-11 03:31:19 | INFO | Setting stop loss via trading stop: COAIUSDT @ 6.47149
+2025-10-11 03:31:19 | INFO | ✅ Stop loss set via position management
+2025-10-11 03:31:20 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.22017
+2025-10-11 03:31:20 | INFO | ✅ Take profit set via position management
+2025-10-11 03:31:21 | INFO | ✅ EXECUTED: COAIUSDT SELL 1335.000000 @ $6.283 (Conf: 95.0%)
+2025-10-11 03:31:21 | INFO | 2. MUSDT - BUY (95.0%) @ $2.09
+2025-10-11 03:31:22 | INFO | Setting leverage for MUSDT to 1x
+2025-10-11 03:31:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 03:31:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3633', 'timeInForce': 'IOC'}
+2025-10-11 03:31:23 | INFO | ✅ Perpetual order placed: 23a09625-61c8-4360-89c2-3e589879837f
+2025-10-11 03:31:23 | INFO | Setting stop loss via trading stop: MUSDT @ 2.0273
+2025-10-11 03:31:23 | INFO | ✅ Stop loss set via position management
+2025-10-11 03:31:24 | INFO | Setting take profit via trading stop: MUSDT @ 2.1109
+2025-10-11 03:31:24 | INFO | ✅ Take profit set via position management
+2025-10-11 03:31:25 | INFO | Setting trailing stop: MUSDT @ 1.0% = $0.020899 from $2.0899
+2025-10-11 03:31:25 | INFO | ✅ Trailing stop set: 1.0% ($0.020899)
+2025-10-11 03:31:25 | INFO | ✅ EXECUTED: MUSDT BUY 3633.000000 @ $2.09 (Conf: 95.0%)
+2025-10-11 03:31:26 | INFO | 3. PTBUSDT - BUY (77.1%) @ $0.0519
+2025-10-11 03:31:27 | INFO | Setting leverage for PTBUSDT to 1x
+2025-10-11 03:31:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PTBUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 03:31:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PTBUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '132440', 'timeInForce': 'IOC'}
+2025-10-11 03:31:27 | INFO | ✅ Perpetual order placed: 956bfbde-5519-4c05-a294-5a0fb1d07bfd
+2025-10-11 03:31:27 | INFO | Setting stop loss via trading stop: PTBUSDT @ 0.050343
+2025-10-11 03:31:27 | INFO | ✅ Stop loss set via position management
+2025-10-11 03:31:28 | INFO | Setting take profit via trading stop: PTBUSDT @ 0.052419
+2025-10-11 03:31:28 | INFO | ✅ Take profit set via position management
+2025-10-11 03:31:29 | INFO | Setting trailing stop: PTBUSDT @ 1.0% = $0.000518 from $0.05182
+2025-10-11 03:31:29 | INFO | ✅ Trailing stop set: 1.0% ($0.000518)
+2025-10-11 03:31:29 | INFO | ✅ EXECUTED: PTBUSDT BUY 132440.000000 @ $0.0519 (Conf: 77.1%)
+2025-10-11 03:31:30 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 0 failed
+2025-10-11 03:31:30 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 03:31:30 | INFO |    • COAIUSDT: SHORT 1335.000000 @ $6.283 - SL: $6.4715 TP: $6.2202
+2025-10-11 03:31:30 | INFO |    • MUSDT: LONG 3633.000000 @ $2.09 - SL: $2.0273 TP: $2.1109
+2025-10-11 03:31:30 | INFO |    • PTBUSDT: LONG 132440.000000 @ $0.0519 - SL: $0.0503 TP: $0.0524
+2025-10-11 03:31:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 03:31:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 03:31:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 03:31:30 | INFO | 🎉 SESSION COMPLETED in 25.8s
+2025-10-11 03:31:30 | INFO | ============================================================
