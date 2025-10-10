@@ -14507,3 +14507,71 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 10.10.2025 04:04:33
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 10.10.2025 06:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for LYNUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for JELLYJELLYUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760061735376}
+Last close price for JELLYJELLYUSDT: 0.072374
+Order Quantity before adjustment: 276342.33 and signal = 1
+Opening Sell for  JELLYJELLYUSDT
+TP: 0.07165026
+SL: 0.07382148
+TS: 0.00144748
+Order Quantity: 276342.33
+Adjusted qty: 276342.0
+Final Adjusted qty: 276342.0
+470000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ce6ff49c-2733-4c2f-b85f-cc5fbedae52b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760061736664}
+ce6ff49c-2733-4c2f-b85f-cc5fbedae52b
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for JELLYJELLYUSDT
+[SIGNAL] SIGNAL DETECTED for ROSEUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760061747735}
+Last close price for ROSEUSDT: 0.02605
+Order Quantity before adjustment: 767754.32 and signal = 2
+Opening Buy for  ROSEUSDT
+TP: 0.0263105
+SL: 0.025529
+TS: 0.000521
+Order Quantity: 767754.32
+Adjusted qty: 767754.0
+Final Adjusted qty: 767754.0
+334300.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '41ca95fa-3c0f-4981-a36c-3dedda891405', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760061749190}
+41ca95fa-3c0f-4981-a36c-3dedda891405
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ROSEUSDT
+[PROGRESS] Progress: 200/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 2 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 2
+   Successful Trades: 2
+   Final Positions: 3
+Function finished at 10.10.2025 06:04:52
+*******************************************
