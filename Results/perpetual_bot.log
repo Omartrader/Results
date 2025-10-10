@@ -12991,3 +12991,65 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 06:46:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 06:46:46 | INFO | 🎉 SESSION COMPLETED in 48.0s
 2025-10-10 06:46:46 | INFO | ============================================================
+2025-10-10 07:00:54 | INFO | ================================================================================
+2025-10-10 07:00:54 | INFO | NEW PERPETUAL SESSION: 2025-10-10 07:00:54
+2025-10-10 07:00:54 | INFO | ================================================================================
+2025-10-10 07:00:54 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 07:00:54 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 07:00:54 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 07:00:54 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 07:00:55 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 07:00:55 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 07:01:06 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 07:01:06 | INFO |  1. 4USDT        | SELL | Price: $  0.1594 | Confidence:  93.8% | Momentum: -4.38%
+2025-10-10 07:01:06 | INFO |  2. DEEPUSDT     | BUY  | Price: $  0.1329 | Confidence:  68.1% | Momentum: +1.81%
+2025-10-10 07:01:06 | INFO |  3. 0GUSDT       | BUY  | Price: $  2.5776 | Confidence:  66.7% | Momentum: +1.67%
+2025-10-10 07:01:06 | INFO | 🎯 PROCESSING TOP 3 OPPORTUNITIES:
+2025-10-10 07:01:06 | INFO | 1. 4USDT - SELL (93.8%) @ $0.1594
+2025-10-10 07:01:08 | INFO | Setting leverage for 4USDT to 1x
+2025-10-10 07:01:08 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:08).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 07:01:08 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '56020', 'timeInForce': 'IOC'}
+2025-10-10 07:01:08 | INFO | ✅ Perpetual order placed: 0a978893-13b8-4e64-b65f-badeeda0594a
+2025-10-10 07:01:08 | INFO | Setting stop loss via trading stop: 4USDT @ 0.164182
+2025-10-10 07:01:08 | INFO | ✅ Stop loss set via position management
+2025-10-10 07:01:09 | INFO | Setting take profit via trading stop: 4USDT @ 0.15780599999999997
+2025-10-10 07:01:09 | INFO | ✅ Take profit set via position management
+2025-10-10 07:01:10 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.001587 from $0.1587
+2025-10-10 07:01:10 | INFO | ✅ Trailing stop set: 1.0% ($0.001587)
+2025-10-10 07:01:10 | INFO | ✅ EXECUTED: 4USDT SELL 56020.000000 @ $0.1594 (Conf: 93.8%)
+2025-10-10 07:01:11 | INFO | 2. DEEPUSDT - BUY (68.1%) @ $0.1329
+2025-10-10 07:01:12 | INFO | Setting leverage for DEEPUSDT to 1x
+2025-10-10 07:01:12 | INFO | ✅ Leverage set to 1x for DEEPUSDT
+2025-10-10 07:01:12 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DEEPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '60810', 'timeInForce': 'IOC'}
+2025-10-10 07:01:12 | INFO | ✅ Perpetual order placed: 44692867-8562-4fa6-8a7f-ff02766f370f
+2025-10-10 07:01:13 | INFO | Setting stop loss via trading stop: DEEPUSDT @ 0.128913
+2025-10-10 07:01:13 | INFO | ✅ Stop loss set via position management
+2025-10-10 07:01:13 | INFO | Setting take profit via trading stop: DEEPUSDT @ 0.134229
+2025-10-10 07:01:13 | INFO | ✅ Take profit set via position management
+2025-10-10 07:01:14 | INFO | Setting trailing stop: DEEPUSDT @ 1.0% = $0.001328 from $0.13283
+2025-10-10 07:01:15 | INFO | ✅ Trailing stop set: 1.0% ($0.001328)
+2025-10-10 07:01:15 | INFO | ✅ EXECUTED: DEEPUSDT BUY 60810.000000 @ $0.1329 (Conf: 68.1%)
+2025-10-10 07:01:15 | INFO | 3. 0GUSDT - BUY (66.7%) @ $2.5776
+2025-10-10 07:01:16 | INFO | Setting leverage for 0GUSDT to 1x
+2025-10-10 07:01:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "0GUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 07:01:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '0GUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2838.0', 'timeInForce': 'IOC'}
+2025-10-10 07:01:16 | INFO | ✅ Perpetual order placed: 15e32a48-70e8-4853-be57-aacce9fefbdb
+2025-10-10 07:01:17 | INFO | Setting stop loss via trading stop: 0GUSDT @ 2.500272
+2025-10-10 07:01:17 | INFO | ✅ Stop loss set via position management
+2025-10-10 07:01:17 | INFO | Setting take profit via trading stop: 0GUSDT @ 2.603376
+2025-10-10 07:01:17 | INFO | ✅ Take profit set via position management
+2025-10-10 07:01:18 | INFO | Setting trailing stop: 0GUSDT @ 1.0% = $0.025738 from $2.5738
+2025-10-10 07:01:19 | INFO | ✅ Trailing stop set: 1.0% ($0.025738)
+2025-10-10 07:01:19 | INFO | ✅ EXECUTED: 0GUSDT BUY 2838.000000 @ $2.5776 (Conf: 66.7%)
+2025-10-10 07:01:19 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 0 failed
+2025-10-10 07:01:19 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 07:01:19 | INFO |    • 4USDT: SHORT 56020.000000 @ $0.1594 - SL: $0.1642 TP: $0.1578
+2025-10-10 07:01:19 | INFO |    • DEEPUSDT: LONG 60810.000000 @ $0.1329 - SL: $0.1289 TP: $0.1342
+2025-10-10 07:01:19 | INFO |    • 0GUSDT: LONG 2838.000000 @ $2.5776 - SL: $2.5003 TP: $2.6034
+2025-10-10 07:01:19 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 07:01:19 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 07:01:19 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 07:01:19 | INFO | 🎉 SESSION COMPLETED in 25.3s
+2025-10-10 07:01:19 | INFO | ============================================================
