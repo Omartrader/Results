@@ -14870,3 +14870,112 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 11:31:45 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 11:31:45 | INFO | 🎉 SESSION COMPLETED in 36.6s
 2025-10-10 11:31:45 | INFO | ============================================================
+2025-10-10 11:45:59 | INFO | ================================================================================
+2025-10-10 11:45:59 | INFO | NEW PERPETUAL SESSION: 2025-10-10 11:45:59
+2025-10-10 11:45:59 | INFO | ================================================================================
+2025-10-10 11:45:59 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 11:45:59 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 11:45:59 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 11:45:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 11:46:01 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 11:46:01 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 11:46:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 11:46:12 | INFO |  1. ALICEUSDT    | SELL | Price: $  0.4466 | Confidence:  95.0% | Momentum: -7.50%
+2025-10-10 11:46:12 | INFO |  2. ALUUSDT      | SELL | Price: $  0.0214 | Confidence:  95.0% | Momentum: -4.66%
+2025-10-10 11:46:12 | INFO |  3. BLESSUSDT    | BUY  | Price: $  0.0458 | Confidence:  95.0% | Momentum: +7.67%
+2025-10-10 11:46:12 | INFO |  4. MNTUSDT      | SELL | Price: $  2.2309 | Confidence:  95.0% | Momentum: -6.75%
+2025-10-10 11:46:12 | INFO |  5. OPENUSDT     | SELL | Price: $  0.4979 | Confidence:  95.0% | Momentum: -11.20%
+2025-10-10 11:46:12 | INFO |  6. PUFFERUSDT   | SELL | Price: $  0.1435 | Confidence:  95.0% | Momentum: -4.59%
+2025-10-10 11:46:12 | INFO |  7. EDENUSDT     | SELL | Price: $  0.2313 | Confidence:  90.2% | Momentum: -4.02%
+2025-10-10 11:46:12 | INFO |  8. APEXUSDT     | SELL | Price: $  1.6023 | Confidence:  85.3% | Momentum: -3.53%
+2025-10-10 11:46:12 | INFO |  9. CAMPUSDT     | SELL | Price: $  0.0325 | Confidence:  78.7% | Momentum: -2.87%
+2025-10-10 11:46:12 | INFO | 10. DRIFTUSDT    | SELL | Price: $  0.7530 | Confidence:  78.4% | Momentum: -2.84%
+2025-10-10 11:46:12 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 11:46:12 | INFO | 1. ALICEUSDT - SELL (95.0%) @ $0.4466
+2025-10-10 11:46:13 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-10 11:46:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:46:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALICEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:46:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '19456.6', 'timeInForce': 'IOC'}
+2025-10-10 11:46:14 | INFO | ✅ Perpetual order placed: bb4911f1-cef8-412c-98a8-183cbf0aa2b0
+2025-10-10 11:46:14 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.459998
+2025-10-10 11:46:14 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:46:14 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.44213399999999997
+2025-10-10 11:46:14 | INFO | ✅ Take profit set via position management
+2025-10-10 11:46:16 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.004463 from $0.4463
+2025-10-10 11:46:16 | INFO | ✅ Trailing stop set: 1.0% ($0.004463)
+2025-10-10 11:46:16 | INFO | ✅ EXECUTED: ALICEUSDT SELL 19456.600000 @ $0.4466 (Conf: 95.0%)
+2025-10-10 11:46:17 | INFO | 2. ALUUSDT - SELL (95.0%) @ $0.02136
+2025-10-10 11:46:17 | INFO | Setting leverage for ALUUSDT to 1x
+2025-10-10 11:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALUUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '368196', 'timeInForce': 'IOC'}
+2025-10-10 11:46:18 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:36819600000000 > max_qty:15000000000000 (ErrCode: 10001) (ErrTime: 07:46:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALUUSDT", "side": "Sell", "orderType": "Market", "qty": "368196", "timeInForce": "IOC"}.
+2025-10-10 11:46:18 | ERROR | ❌ FAILED: ALUUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:36819600000000 > max_qty:15000000000000 (ErrCode: 10001) (ErrTime: 07:46:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALUUSDT", "side": "Sell", "orderType": "Market", "qty": "368196", "timeInForce": "IOC"}.
+2025-10-10 11:46:18 | INFO | 3. BLESSUSDT - BUY (95.0%) @ $0.04578
+2025-10-10 11:46:19 | INFO | Setting leverage for BLESSUSDT to 1x
+2025-10-10 11:46:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:46:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BLESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:46:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BLESSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '171790', 'timeInForce': 'IOC'}
+2025-10-10 11:46:20 | INFO | ✅ Perpetual order placed: b46bc285-9e98-4349-b24e-59fbd4df4035
+2025-10-10 11:46:20 | INFO | Setting stop loss via trading stop: BLESSUSDT @ 0.0444066
+2025-10-10 11:46:20 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:46:20 | INFO | Setting take profit via trading stop: BLESSUSDT @ 0.0462378
+2025-10-10 11:46:20 | INFO | ✅ Take profit set via position management
+2025-10-10 11:46:22 | INFO | Setting trailing stop: BLESSUSDT @ 1.0% = $0.000455 from $0.04553
+2025-10-10 11:46:22 | INFO | ✅ Trailing stop set: 1.0% ($0.000455)
+2025-10-10 11:46:22 | INFO | ✅ EXECUTED: BLESSUSDT BUY 171790.000000 @ $0.04578 (Conf: 95.0%)
+2025-10-10 11:46:23 | INFO | 4. MNTUSDT - SELL (95.0%) @ $2.2309
+2025-10-10 11:46:23 | INFO | Setting leverage for MNTUSDT to 1x
+2025-10-10 11:46:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:46:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:46:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MNTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3190.8', 'timeInForce': 'IOC'}
+2025-10-10 11:46:24 | INFO | ✅ Perpetual order placed: 57f141f9-6158-49df-940a-7064d450b0e7
+2025-10-10 11:46:24 | INFO | Setting stop loss via trading stop: MNTUSDT @ 2.2978270000000003
+2025-10-10 11:46:24 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:46:25 | INFO | Setting take profit via trading stop: MNTUSDT @ 2.208591
+2025-10-10 11:46:25 | INFO | ✅ Take profit set via position management
+2025-10-10 11:46:26 | INFO | Setting trailing stop: MNTUSDT @ 1.0% = $0.022326 from $2.2326
+2025-10-10 11:46:26 | INFO | ✅ Trailing stop set: 1.0% ($0.022326)
+2025-10-10 11:46:26 | INFO | ✅ EXECUTED: MNTUSDT SELL 3190.800000 @ $2.2309 (Conf: 95.0%)
+2025-10-10 11:46:27 | INFO | 5. OPENUSDT - SELL (95.0%) @ $0.4979
+2025-10-10 11:46:28 | INFO | Setting leverage for OPENUSDT to 1x
+2025-10-10 11:46:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:46:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OPENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:46:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OPENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '12940', 'timeInForce': 'IOC'}
+2025-10-10 11:46:28 | INFO | ✅ Perpetual order placed: 1104109c-b5b8-4c12-a2e9-e13b270b504f
+2025-10-10 11:46:28 | INFO | Setting stop loss via trading stop: OPENUSDT @ 0.512837
+2025-10-10 11:46:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:46:29 | INFO | Setting take profit via trading stop: OPENUSDT @ 0.492921
+2025-10-10 11:46:29 | INFO | ✅ Take profit set via position management
+2025-10-10 11:46:30 | INFO | Setting trailing stop: OPENUSDT @ 1.0% = $0.004972 from $0.4972
+2025-10-10 11:46:30 | INFO | ✅ Trailing stop set: 1.0% ($0.004972)
+2025-10-10 11:46:30 | INFO | ✅ EXECUTED: OPENUSDT SELL 12940.000000 @ $0.4979 (Conf: 95.0%)
+2025-10-10 11:46:31 | INFO | 6. PUFFERUSDT - SELL (95.0%) @ $0.1435
+2025-10-10 11:46:31 | INFO | 7. EDENUSDT - SELL (90.2%) @ $0.2313
+2025-10-10 11:46:32 | INFO | Setting leverage for EDENUSDT to 1x
+2025-10-10 11:46:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:46:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EDENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:46:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EDENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '25211', 'timeInForce': 'IOC'}
+2025-10-10 11:46:32 | INFO | ✅ Perpetual order placed: 79077b50-d8b4-4719-8bd9-f22dcda0e8ab
+2025-10-10 11:46:32 | INFO | Setting stop loss via trading stop: EDENUSDT @ 0.238239
+2025-10-10 11:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:46:33 | INFO | Setting take profit via trading stop: EDENUSDT @ 0.228987
+2025-10-10 11:46:33 | INFO | ✅ Take profit set via position management
+2025-10-10 11:46:34 | INFO | Setting trailing stop: EDENUSDT @ 1.0% = $0.002309 from $0.2309
+2025-10-10 11:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.002309)
+2025-10-10 11:46:34 | INFO | ✅ EXECUTED: EDENUSDT SELL 25211.000000 @ $0.2313 (Conf: 90.2%)
+2025-10-10 11:46:35 | INFO | 8. APEXUSDT - SELL (85.3%) @ $1.6023
+2025-10-10 11:46:35 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 1 failed
+2025-10-10 11:46:35 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 11:46:35 | INFO |    • ALICEUSDT: SHORT 19456.600000 @ $0.4466 - SL: $0.4600 TP: $0.4421
+2025-10-10 11:46:35 | INFO |    • BLESSUSDT: LONG 171790.000000 @ $0.04578 - SL: $0.0444 TP: $0.0462
+2025-10-10 11:46:35 | INFO |    • MNTUSDT: SHORT 3190.800000 @ $2.2309 - SL: $2.2978 TP: $2.2086
+2025-10-10 11:46:35 | INFO |    • OPENUSDT: SHORT 12940.000000 @ $0.4979 - SL: $0.5128 TP: $0.4929
+2025-10-10 11:46:35 | INFO |    • EDENUSDT: SHORT 25211.000000 @ $0.2313 - SL: $0.2382 TP: $0.2290
+2025-10-10 11:46:35 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 11:46:36 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 11:46:36 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 11:46:36 | INFO | 🎉 SESSION COMPLETED in 36.0s
+2025-10-10 11:46:36 | INFO | ============================================================
