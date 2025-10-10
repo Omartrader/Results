@@ -20242,3 +20242,36 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 03:31:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 03:31:30 | INFO | 🎉 SESSION COMPLETED in 25.8s
 2025-10-11 03:31:30 | INFO | ============================================================
+2025-10-11 03:46:01 | INFO | ================================================================================
+2025-10-11 03:46:01 | INFO | NEW PERPETUAL SESSION: 2025-10-11 03:46:01
+2025-10-11 03:46:01 | INFO | ================================================================================
+2025-10-11 03:46:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 03:46:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 03:46:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 03:46:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 03:46:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 03:46:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 03:46:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 03:46:13 | INFO |  1. COAIUSDT     | SELL | Price: $  6.6791 | Confidence:  95.0% | Momentum: -7.11%
+2025-10-11 03:46:14 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-11 03:46:14 | INFO | 1. COAIUSDT - SELL (95.0%) @ $6.6791
+2025-10-11 03:46:15 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-11 03:46:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:46:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 03:46:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1254', 'timeInForce': 'IOC'}
+2025-10-11 03:46:15 | INFO | ✅ Perpetual order placed: cda7b19a-8b4f-4199-a00d-ca352bd1a8e4
+2025-10-11 03:46:16 | INFO | Setting stop loss via trading stop: COAIUSDT @ 6.879473
+2025-10-11 03:46:16 | INFO | ✅ Stop loss set via position management
+2025-10-11 03:46:16 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.612309
+2025-10-11 03:46:16 | INFO | ✅ Take profit set via position management
+2025-10-11 03:46:18 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.066678 from $6.6678
+2025-10-11 03:46:18 | INFO | ✅ Trailing stop set: 1.0% ($0.066678)
+2025-10-11 03:46:18 | INFO | ✅ EXECUTED: COAIUSDT SELL 1254.000000 @ $6.6791 (Conf: 95.0%)
+2025-10-11 03:46:18 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-11 03:46:18 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 03:46:18 | INFO |    • COAIUSDT: SHORT 1254.000000 @ $6.6791 - SL: $6.8795 TP: $6.6123
+2025-10-11 03:46:18 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 03:46:19 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 03:46:19 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 03:46:19 | INFO | 🎉 SESSION COMPLETED in 17.0s
+2025-10-11 03:46:19 | INFO | ============================================================
