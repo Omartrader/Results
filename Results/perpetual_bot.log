@@ -14442,3 +14442,95 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 10:31:43 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 10:31:43 | INFO | 🎉 SESSION COMPLETED in 30.8s
 2025-10-10 10:31:43 | INFO | ============================================================
+2025-10-10 10:46:03 | INFO | ================================================================================
+2025-10-10 10:46:03 | INFO | NEW PERPETUAL SESSION: 2025-10-10 10:46:03
+2025-10-10 10:46:03 | INFO | ================================================================================
+2025-10-10 10:46:03 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 10:46:03 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 10:46:03 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 10:46:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 10:46:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 10:46:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 10:46:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 10:46:16 | INFO |  1. ALEOUSDT     | BUY  | Price: $  0.3677 | Confidence:  95.0% | Momentum: +9.60%
+2025-10-10 10:46:16 | INFO |  2. HOLOUSDT     | SELL | Price: $  0.1890 | Confidence:  88.2% | Momentum: -3.82%
+2025-10-10 10:46:16 | INFO |  3. AVNTUSDT     | BUY  | Price: $  0.8420 | Confidence:  88.0% | Momentum: +3.80%
+2025-10-10 10:46:16 | INFO |  4. EPTUSDT      | BUY  | Price: $  0.0051 | Confidence:  86.4% | Momentum: +3.64%
+2025-10-10 10:46:16 | INFO |  5. FLRUSDT      | BUY  | Price: $  0.0226 | Confidence:  78.7% | Momentum: +2.87%
+2025-10-10 10:46:16 | INFO |  6. NILUSDT      | SELL | Price: $  0.3517 | Confidence:  76.0% | Momentum: -2.60%
+2025-10-10 10:46:16 | INFO |  7. MILKUSDT     | BUY  | Price: $  0.0420 | Confidence:  72.1% | Momentum: +2.21%
+2025-10-10 10:46:16 | INFO |  8. FWOGUSDT     | SELL | Price: $  0.0319 | Confidence:  69.6% | Momentum: -1.96%
+2025-10-10 10:46:16 | INFO | 🎯 PROCESSING TOP 8 OPPORTUNITIES:
+2025-10-10 10:46:16 | INFO | 1. ALEOUSDT - BUY (95.0%) @ $0.3677
+2025-10-10 10:46:17 | INFO | Setting leverage for ALEOUSDT to 1x
+2025-10-10 10:46:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:46:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALEOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 10:46:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALEOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23671', 'timeInForce': 'IOC'}
+2025-10-10 10:46:18 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2367100000000 > max_qty:580000000000 (ErrCode: 10001) (ErrTime: 06:46:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALEOUSDT", "side": "Buy", "orderType": "Market", "qty": "23671", "timeInForce": "IOC"}.
+2025-10-10 10:46:18 | ERROR | ❌ FAILED: ALEOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2367100000000 > max_qty:580000000000 (ErrCode: 10001) (ErrTime: 06:46:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALEOUSDT", "side": "Buy", "orderType": "Market", "qty": "23671", "timeInForce": "IOC"}.
+2025-10-10 10:46:18 | INFO | 2. HOLOUSDT - SELL (88.2%) @ $0.189
+2025-10-10 10:46:19 | INFO | Setting leverage for HOLOUSDT to 1x
+2025-10-10 10:46:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:46:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HOLOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 10:46:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HOLOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '46052', 'timeInForce': 'IOC'}
+2025-10-10 10:46:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:4605200000000 > max_qty:3570000000000 (ErrCode: 10001) (ErrTime: 06:46:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HOLOUSDT", "side": "Sell", "orderType": "Market", "qty": "46052", "timeInForce": "IOC"}.
+2025-10-10 10:46:19 | ERROR | ❌ FAILED: HOLOUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:4605200000000 > max_qty:3570000000000 (ErrCode: 10001) (ErrTime: 06:46:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HOLOUSDT", "side": "Sell", "orderType": "Market", "qty": "46052", "timeInForce": "IOC"}.
+2025-10-10 10:46:20 | INFO | 3. AVNTUSDT - BUY (88.0%) @ $0.842
+2025-10-10 10:46:20 | INFO | 4. EPTUSDT - BUY (86.4%) @ $0.005148
+2025-10-10 10:46:21 | INFO | Setting leverage for EPTUSDT to 1x
+2025-10-10 10:46:21 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:46:21).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EPTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 10:46:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EPTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1690730', 'timeInForce': 'IOC'}
+2025-10-10 10:46:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:169073000000000 > max_qty:44000000000000 (ErrCode: 10001) (ErrTime: 06:46:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EPTUSDT", "side": "Buy", "orderType": "Market", "qty": "1690730", "timeInForce": "IOC"}.
+2025-10-10 10:46:21 | ERROR | ❌ FAILED: EPTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:169073000000000 > max_qty:44000000000000 (ErrCode: 10001) (ErrTime: 06:46:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EPTUSDT", "side": "Buy", "orderType": "Market", "qty": "1690730", "timeInForce": "IOC"}.
+2025-10-10 10:46:22 | INFO | 5. FLRUSDT - BUY (78.7%) @ $0.02259
+2025-10-10 10:46:22 | INFO | 6. NILUSDT - SELL (76.0%) @ $0.3517
+2025-10-10 10:46:22 | INFO | Setting leverage for NILUSDT to 1x
+2025-10-10 10:46:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:46:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NILUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 10:46:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NILUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '24748', 'timeInForce': 'IOC'}
+2025-10-10 10:46:23 | INFO | ✅ Perpetual order placed: 3fe7527a-1692-4292-9675-14fbfd258a27
+2025-10-10 10:46:23 | INFO | Setting stop loss via trading stop: NILUSDT @ 0.36225100000000005
+2025-10-10 10:46:23 | INFO | ✅ Stop loss set via position management
+2025-10-10 10:46:24 | INFO | Setting take profit via trading stop: NILUSDT @ 0.348183
+2025-10-10 10:46:24 | INFO | ✅ Take profit set via position management
+2025-10-10 10:46:25 | INFO | Setting trailing stop: NILUSDT @ 1.0% = $0.003519 from $0.3519
+2025-10-10 10:46:25 | INFO | ✅ Trailing stop set: 1.0% ($0.003519)
+2025-10-10 10:46:25 | INFO | ✅ EXECUTED: NILUSDT SELL 24748.000000 @ $0.3517 (Conf: 76.0%)
+2025-10-10 10:46:26 | INFO | 7. MILKUSDT - BUY (72.1%) @ $0.04202
+2025-10-10 10:46:27 | INFO | Setting leverage for MILKUSDT to 1x
+2025-10-10 10:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MILKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 10:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MILKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '187479', 'timeInForce': 'IOC'}
+2025-10-10 10:46:27 | INFO | ✅ Perpetual order placed: a2b332ba-5082-4c40-bf33-abe681601d34
+2025-10-10 10:46:28 | INFO | Setting stop loss via trading stop: MILKUSDT @ 0.0407594
+2025-10-10 10:46:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 10:46:28 | INFO | Setting take profit via trading stop: MILKUSDT @ 0.042440200000000004
+2025-10-10 10:46:28 | INFO | ✅ Take profit set via position management
+2025-10-10 10:46:29 | INFO | Setting trailing stop: MILKUSDT @ 1.0% = $0.000420 from $0.04202
+2025-10-10 10:46:30 | INFO | ✅ Trailing stop set: 1.0% ($0.000420)
+2025-10-10 10:46:30 | INFO | ✅ EXECUTED: MILKUSDT BUY 187479.000000 @ $0.04202 (Conf: 72.1%)
+2025-10-10 10:46:30 | INFO | 8. FWOGUSDT - SELL (69.6%) @ $0.03194
+2025-10-10 10:46:31 | INFO | Setting leverage for FWOGUSDT to 1x
+2025-10-10 10:46:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:46:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FWOGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 10:46:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FWOGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '223238', 'timeInForce': 'IOC'}
+2025-10-10 10:46:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:22323800000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 06:46:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FWOGUSDT", "side": "Sell", "orderType": "Market", "qty": "223238", "timeInForce": "IOC"}.
+2025-10-10 10:46:32 | ERROR | ❌ FAILED: FWOGUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:22323800000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 06:46:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FWOGUSDT", "side": "Sell", "orderType": "Market", "qty": "223238", "timeInForce": "IOC"}.
+2025-10-10 10:46:32 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 4 failed
+2025-10-10 10:46:32 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 10:46:32 | INFO |    • NILUSDT: SHORT 24748.000000 @ $0.3517 - SL: $0.3623 TP: $0.3482
+2025-10-10 10:46:32 | INFO |    • MILKUSDT: LONG 187479.000000 @ $0.04202 - SL: $0.0408 TP: $0.0424
+2025-10-10 10:46:32 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 10:46:33 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 10:46:33 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 10:46:33 | INFO | 🎉 SESSION COMPLETED in 29.3s
+2025-10-10 10:46:33 | INFO | ============================================================
