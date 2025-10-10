@@ -16079,3 +16079,58 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 15:02:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 15:02:00 | INFO | 🎉 SESSION COMPLETED in 32.4s
 2025-10-10 15:02:00 | INFO | ============================================================
+2025-10-10 15:16:27 | INFO | ================================================================================
+2025-10-10 15:16:27 | INFO | NEW PERPETUAL SESSION: 2025-10-10 15:16:27
+2025-10-10 15:16:27 | INFO | ================================================================================
+2025-10-10 15:16:27 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 15:16:27 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 15:16:27 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 15:16:27 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 15:16:28 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 15:16:28 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 15:16:38 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 15:16:38 | INFO |  1. ALICEUSDT    | BUY  | Price: $  0.4796 | Confidence:  95.0% | Momentum: +5.57%
+2025-10-10 15:16:38 | INFO |  2. DUSKUSDT     | BUY  | Price: $  0.0728 | Confidence:  95.0% | Momentum: +8.38%
+2025-10-10 15:16:38 | INFO |  3. LIGHTUSDT    | SELL | Price: $  0.9007 | Confidence:  69.3% | Momentum: -1.93%
+2025-10-10 15:16:38 | INFO |  4. CTKUSDT      | BUY  | Price: $  0.3567 | Confidence:  69.1% | Momentum: +1.91%
+2025-10-10 15:16:39 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-10 15:16:39 | INFO | 1. ALICEUSDT - BUY (95.0%) @ $0.4796
+2025-10-10 15:16:40 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-10 15:16:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALICEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:16:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '18086.3', 'timeInForce': 'IOC'}
+2025-10-10 15:16:40 | INFO | ✅ Perpetual order placed: d8dbdd14-e9f3-4024-b530-7ea87f81e907
+2025-10-10 15:16:40 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.465212
+2025-10-10 15:16:40 | INFO | ✅ Stop loss set via position management
+2025-10-10 15:16:41 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.48439600000000005
+2025-10-10 15:16:41 | INFO | ✅ Take profit set via position management
+2025-10-10 15:16:42 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.004785 from $0.4785
+2025-10-10 15:16:43 | INFO | ✅ Trailing stop set: 1.0% ($0.004785)
+2025-10-10 15:16:43 | INFO | ✅ EXECUTED: ALICEUSDT BUY 18086.300000 @ $0.4796 (Conf: 95.0%)
+2025-10-10 15:16:43 | INFO | 2. DUSKUSDT - BUY (95.0%) @ $0.07282
+2025-10-10 15:16:44 | INFO | Setting leverage for DUSKUSDT to 1x
+2025-10-10 15:16:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DUSKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:16:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DUSKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '107814', 'timeInForce': 'IOC'}
+2025-10-10 15:16:45 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:10781400000000 > max_qty:2920000000000 (ErrCode: 10001) (ErrTime: 11:16:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUSKUSDT", "side": "Buy", "orderType": "Market", "qty": "107814", "timeInForce": "IOC"}.
+2025-10-10 15:16:45 | ERROR | ❌ FAILED: DUSKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:10781400000000 > max_qty:2920000000000 (ErrCode: 10001) (ErrTime: 11:16:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DUSKUSDT", "side": "Buy", "orderType": "Market", "qty": "107814", "timeInForce": "IOC"}.
+2025-10-10 15:16:45 | INFO | 3. LIGHTUSDT - SELL (69.3%) @ $0.9007
+2025-10-10 15:16:45 | INFO | 4. CTKUSDT - BUY (69.1%) @ $0.3567
+2025-10-10 15:16:46 | INFO | Setting leverage for CTKUSDT to 1x
+2025-10-10 15:16:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CTKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 15:16:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CTKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '22010.1', 'timeInForce': 'IOC'}
+2025-10-10 15:16:47 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2201010000000 > max_qty:2130000000000 (ErrCode: 10001) (ErrTime: 11:16:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CTKUSDT", "side": "Buy", "orderType": "Market", "qty": "22010.1", "timeInForce": "IOC"}.
+2025-10-10 15:16:47 | ERROR | ❌ FAILED: CTKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2201010000000 > max_qty:2130000000000 (ErrCode: 10001) (ErrTime: 11:16:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CTKUSDT", "side": "Buy", "orderType": "Market", "qty": "22010.1", "timeInForce": "IOC"}.
+2025-10-10 15:16:47 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 2 failed
+2025-10-10 15:16:47 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 15:16:47 | INFO |    • ALICEUSDT: LONG 18086.300000 @ $0.4796 - SL: $0.4652 TP: $0.4844
+2025-10-10 15:16:47 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 15:16:48 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 15:16:48 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 15:16:48 | INFO | 🎉 SESSION COMPLETED in 20.6s
+2025-10-10 15:16:48 | INFO | ============================================================
