@@ -12660,3 +12660,99 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 06:01:40 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 06:01:40 | INFO | 🎉 SESSION COMPLETED in 39.6s
 2025-10-10 06:01:40 | INFO | ============================================================
+2025-10-10 06:16:00 | INFO | ================================================================================
+2025-10-10 06:16:00 | INFO | NEW PERPETUAL SESSION: 2025-10-10 06:16:00
+2025-10-10 06:16:00 | INFO | ================================================================================
+2025-10-10 06:16:00 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 06:16:00 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 06:16:00 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 06:16:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 06:16:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 06:16:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 06:16:15 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 06:16:15 | INFO |  1. FORMUSDT     | BUY  | Price: $  1.2518 | Confidence:  95.0% | Momentum: +6.52%
+2025-10-10 06:16:15 | INFO |  2. DAMUSDT      | BUY  | Price: $  0.0617 | Confidence:  86.5% | Momentum: +3.65%
+2025-10-10 06:16:15 | INFO |  3. CELOUSDT     | SELL | Price: $  0.3585 | Confidence:  78.7% | Momentum: -2.87%
+2025-10-10 06:16:15 | INFO |  4. ASTERUSDT    | SELL | Price: $  1.6582 | Confidence:  76.6% | Momentum: -2.66%
+2025-10-10 06:16:15 | INFO |  5. CAMPUSDT     | SELL | Price: $  0.0329 | Confidence:  73.5% | Momentum: -2.35%
+2025-10-10 06:16:15 | INFO |  6. MITOUSDT     | SELL | Price: $  0.1569 | Confidence:  72.9% | Momentum: -2.29%
+2025-10-10 06:16:15 | INFO |  7. ORDERUSDT    | SELL | Price: $  0.3022 | Confidence:  71.7% | Momentum: -2.17%
+2025-10-10 06:16:15 | INFO |  8. BANKUSDT     | SELL | Price: $  0.1343 | Confidence:  70.1% | Momentum: -2.01%
+2025-10-10 06:16:15 | INFO |  9. QUSDT        | BUY  | Price: $  0.0251 | Confidence:  67.4% | Momentum: +1.74%
+2025-10-10 06:16:15 | INFO | 🎯 PROCESSING TOP 9 OPPORTUNITIES:
+2025-10-10 06:16:15 | INFO | 1. FORMUSDT - BUY (95.0%) @ $1.2518
+2025-10-10 06:16:16 | INFO | Setting leverage for FORMUSDT to 1x
+2025-10-10 06:16:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FORMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 06:16:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FORMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '7154', 'timeInForce': 'IOC'}
+2025-10-10 06:16:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:715400000000 > max_qty:285000000000 (ErrCode: 10001) (ErrTime: 02:16:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FORMUSDT", "side": "Buy", "orderType": "Market", "qty": "7154", "timeInForce": "IOC"}.
+2025-10-10 06:16:17 | ERROR | ❌ FAILED: FORMUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:715400000000 > max_qty:285000000000 (ErrCode: 10001) (ErrTime: 02:16:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FORMUSDT", "side": "Buy", "orderType": "Market", "qty": "7154", "timeInForce": "IOC"}.
+2025-10-10 06:16:18 | INFO | 2. DAMUSDT - BUY (86.5%) @ $0.06165
+2025-10-10 06:16:18 | INFO | Setting leverage for DAMUSDT to 1x
+2025-10-10 06:16:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DAMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 06:16:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DAMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '145255', 'timeInForce': 'IOC'}
+2025-10-10 06:16:19 | INFO | ✅ Perpetual order placed: 75044aa1-a164-446f-a5e9-a8f3d266a199
+2025-10-10 06:16:19 | INFO | Setting stop loss via trading stop: DAMUSDT @ 0.0598005
+2025-10-10 06:16:19 | INFO | ✅ Stop loss set via position management
+2025-10-10 06:16:19 | INFO | Setting take profit via trading stop: DAMUSDT @ 0.0622665
+2025-10-10 06:16:19 | INFO | ✅ Take profit set via position management
+2025-10-10 06:16:21 | INFO | Setting trailing stop: DAMUSDT @ 1.0% = $0.000617 from $0.06166
+2025-10-10 06:16:21 | INFO | ✅ Trailing stop set: 1.0% ($0.000617)
+2025-10-10 06:16:21 | INFO | ✅ EXECUTED: DAMUSDT BUY 145255.000000 @ $0.06165 (Conf: 86.5%)
+2025-10-10 06:16:22 | INFO | 3. CELOUSDT - SELL (78.7%) @ $0.3585
+2025-10-10 06:16:22 | INFO | 4. ASTERUSDT - SELL (76.6%) @ $1.6582
+2025-10-10 06:16:22 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-10 06:16:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 06:16:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4888', 'timeInForce': 'IOC'}
+2025-10-10 06:16:23 | INFO | ✅ Perpetual order placed: fe65c82d-e68b-4fa9-83bb-66df3f4b6bce
+2025-10-10 06:16:23 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.707946
+2025-10-10 06:16:23 | INFO | ✅ Stop loss set via position management
+2025-10-10 06:16:24 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.6416179999999998
+2025-10-10 06:16:24 | INFO | ✅ Take profit set via position management
+2025-10-10 06:16:25 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.016574 from $1.6574
+2025-10-10 06:16:25 | INFO | ✅ Trailing stop set: 1.0% ($0.016574)
+2025-10-10 06:16:25 | INFO | ✅ EXECUTED: ASTERUSDT SELL 4888.000000 @ $1.6582 (Conf: 76.6%)
+2025-10-10 06:16:26 | INFO | 5. CAMPUSDT - SELL (73.5%) @ $0.03287
+2025-10-10 06:16:26 | INFO | 6. MITOUSDT - SELL (72.9%) @ $0.15687
+2025-10-10 06:16:27 | INFO | Setting leverage for MITOUSDT to 1x
+2025-10-10 06:16:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MITOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 06:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MITOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '46764', 'timeInForce': 'IOC'}
+2025-10-10 06:16:28 | INFO | ✅ Perpetual order placed: 004b33b9-7a75-4d0a-a6a1-95422773a2d9
+2025-10-10 06:16:28 | INFO | Setting stop loss via trading stop: MITOUSDT @ 0.1615761
+2025-10-10 06:16:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 06:16:28 | INFO | Setting take profit via trading stop: MITOUSDT @ 0.1553013
+2025-10-10 06:16:28 | INFO | ✅ Take profit set via position management
+2025-10-10 06:16:30 | INFO | Setting trailing stop: MITOUSDT @ 1.0% = $0.001569 from $0.15687
+2025-10-10 06:16:30 | INFO | ✅ Trailing stop set: 1.0% ($0.001569)
+2025-10-10 06:16:30 | INFO | ✅ EXECUTED: MITOUSDT SELL 46764.000000 @ $0.15687 (Conf: 72.9%)
+2025-10-10 06:16:31 | INFO | 7. ORDERUSDT - SELL (71.7%) @ $0.3022
+2025-10-10 06:16:31 | INFO | 8. BANKUSDT - SELL (70.1%) @ $0.13433
+2025-10-10 06:16:31 | INFO | Setting leverage for BANKUSDT to 1x
+2025-10-10 06:16:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 06:16:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '49430', 'timeInForce': 'IOC'}
+2025-10-10 06:16:32 | INFO | ✅ Perpetual order placed: 73550c61-1f62-405b-99d5-f061853fbef1
+2025-10-10 06:16:32 | INFO | Setting stop loss via trading stop: BANKUSDT @ 0.1383599
+2025-10-10 06:16:32 | INFO | ✅ Stop loss set via position management
+2025-10-10 06:16:32 | INFO | Setting take profit via trading stop: BANKUSDT @ 0.1329867
+2025-10-10 06:16:32 | INFO | ✅ Take profit set via position management
+2025-10-10 06:16:34 | INFO | Setting trailing stop: BANKUSDT @ 1.0% = $0.001343 from $0.13425
+2025-10-10 06:16:34 | INFO | ✅ Trailing stop set: 1.0% ($0.001343)
+2025-10-10 06:16:34 | INFO | ✅ EXECUTED: BANKUSDT SELL 49430.000000 @ $0.13433 (Conf: 70.1%)
+2025-10-10 06:16:35 | INFO | 9. QUSDT - BUY (67.4%) @ $0.025101
+2025-10-10 06:16:35 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 1 failed
+2025-10-10 06:16:35 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 06:16:35 | INFO |    • DAMUSDT: LONG 145255.000000 @ $0.06165 - SL: $0.0598 TP: $0.0623
+2025-10-10 06:16:35 | INFO |    • ASTERUSDT: SHORT 4888.000000 @ $1.6582 - SL: $1.7079 TP: $1.6416
+2025-10-10 06:16:35 | INFO |    • MITOUSDT: SHORT 46764.000000 @ $0.15687 - SL: $0.1616 TP: $0.1553
+2025-10-10 06:16:35 | INFO |    • BANKUSDT: SHORT 49430.000000 @ $0.13433 - SL: $0.1384 TP: $0.1330
+2025-10-10 06:16:35 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 06:16:35 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 06:16:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 06:16:35 | INFO | 🎉 SESSION COMPLETED in 34.1s
+2025-10-10 06:16:35 | INFO | ============================================================
