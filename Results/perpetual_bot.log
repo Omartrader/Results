@@ -20085,3 +20085,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 02:46:18 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 02:46:18 | INFO | 🎉 SESSION COMPLETED in 17.6s
 2025-10-11 02:46:18 | INFO | ============================================================
+2025-10-11 03:01:02 | INFO | ================================================================================
+2025-10-11 03:01:02 | INFO | NEW PERPETUAL SESSION: 2025-10-11 03:01:02
+2025-10-11 03:01:02 | INFO | ================================================================================
+2025-10-11 03:01:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 03:01:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 03:01:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 03:01:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 03:01:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 03:01:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 03:01:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 03:01:24 | INFO |  1. COAIUSDT     | SELL | Price: $  6.9147 | Confidence:  88.3% | Momentum: -3.83%
+2025-10-11 03:01:24 | INFO |  2. LIGHTUSDT    | SELL | Price: $  0.8411 | Confidence:  80.1% | Momentum: -3.01%
+2025-10-11 03:01:25 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-11 03:01:25 | INFO | 1. COAIUSDT - SELL (88.3%) @ $6.9147
+2025-10-11 03:01:25 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-11 03:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 03:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1218', 'timeInForce': 'IOC'}
+2025-10-11 03:01:26 | INFO | ✅ Perpetual order placed: 1d558aee-3fd4-4bc9-af06-b05ad4cfd778
+2025-10-11 03:01:26 | INFO | Setting stop loss via trading stop: COAIUSDT @ 7.122141
+2025-10-11 03:01:26 | INFO | ✅ Stop loss set via position management
+2025-10-11 03:01:27 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.845553
+2025-10-11 03:01:27 | INFO | ✅ Take profit set via position management
+2025-10-11 03:01:28 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.069077 from $6.9077
+2025-10-11 03:01:28 | INFO | ✅ Trailing stop set: 1.0% ($0.069077)
+2025-10-11 03:01:28 | INFO | ✅ EXECUTED: COAIUSDT SELL 1218.000000 @ $6.9147 (Conf: 88.3%)
+2025-10-11 03:01:29 | INFO | 2. LIGHTUSDT - SELL (80.1%) @ $0.8411
+2025-10-11 03:01:30 | INFO | Setting leverage for LIGHTUSDT to 1x
+2025-10-11 03:01:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:01:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LIGHTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 03:01:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LIGHTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '9064', 'timeInForce': 'IOC'}
+2025-10-11 03:01:30 | INFO | ✅ Perpetual order placed: 0d23354a-ac08-455a-89a9-cbcee5eadc03
+2025-10-11 03:01:31 | INFO | Setting stop loss via trading stop: LIGHTUSDT @ 0.866333
+2025-10-11 03:01:31 | INFO | ✅ Stop loss set via position management
+2025-10-11 03:01:31 | INFO | Setting take profit via trading stop: LIGHTUSDT @ 0.8326889999999999
+2025-10-11 03:01:31 | INFO | ✅ Take profit set via position management
+2025-10-11 03:01:32 | INFO | Setting trailing stop: LIGHTUSDT @ 1.0% = $0.008392 from $0.8392
+2025-10-11 03:01:33 | INFO | ✅ Trailing stop set: 1.0% ($0.008392)
+2025-10-11 03:01:33 | INFO | ✅ EXECUTED: LIGHTUSDT SELL 9064.000000 @ $0.8411 (Conf: 80.1%)
+2025-10-11 03:01:33 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-11 03:01:33 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 03:01:33 | INFO |    • COAIUSDT: SHORT 1218.000000 @ $6.9147 - SL: $7.1221 TP: $6.8456
+2025-10-11 03:01:33 | INFO |    • LIGHTUSDT: SHORT 9064.000000 @ $0.8411 - SL: $0.8663 TP: $0.8327
+2025-10-11 03:01:33 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 03:01:34 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 03:01:34 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 03:01:34 | INFO | 🎉 SESSION COMPLETED in 31.5s
+2025-10-11 03:01:34 | INFO | ============================================================
