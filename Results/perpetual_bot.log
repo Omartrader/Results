@@ -18805,3 +18805,66 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 22:46:38 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 22:46:38 | INFO | 🎉 SESSION COMPLETED in 24.5s
 2025-10-10 22:46:38 | INFO | ============================================================
+2025-10-10 23:01:12 | INFO | ================================================================================
+2025-10-10 23:01:12 | INFO | NEW PERPETUAL SESSION: 2025-10-10 23:01:12
+2025-10-10 23:01:12 | INFO | ================================================================================
+2025-10-10 23:01:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 23:01:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 23:01:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 23:01:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 23:01:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 23:01:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 23:01:33 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 23:01:33 | INFO |  1. COAIUSDT     | BUY  | Price: $  7.0987 | Confidence:  95.0% | Momentum: +5.04%
+2025-10-10 23:01:33 | INFO |  2. GIGGLEUSDT   | BUY  | Price: $116.0500 | Confidence:  95.0% | Momentum: +24.22%
+2025-10-10 23:01:33 | INFO |  3. AINUSDT      | SELL | Price: $  0.1479 | Confidence:  80.4% | Momentum: -3.04%
+2025-10-10 23:01:34 | INFO | 🎯 PROCESSING TOP 3 OPPORTUNITIES:
+2025-10-10 23:01:34 | INFO | 1. COAIUSDT - BUY (95.0%) @ $7.0987
+2025-10-10 23:01:35 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-10 23:01:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:01:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:01:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1203', 'timeInForce': 'IOC'}
+2025-10-10 23:01:35 | INFO | ✅ Perpetual order placed: 7c7400eb-b49f-48f8-8b2e-90a567adb754
+2025-10-10 23:01:36 | INFO | Setting stop loss via trading stop: COAIUSDT @ 6.885739
+2025-10-10 23:01:36 | INFO | ✅ Stop loss set via position management
+2025-10-10 23:01:36 | INFO | Setting take profit via trading stop: COAIUSDT @ 7.169687
+2025-10-10 23:01:36 | INFO | ✅ Take profit set via position management
+2025-10-10 23:01:37 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.071178 from $7.1178
+2025-10-10 23:01:38 | INFO | ✅ Trailing stop set: 1.0% ($0.071178)
+2025-10-10 23:01:38 | INFO | ✅ EXECUTED: COAIUSDT BUY 1203.000000 @ $7.0987 (Conf: 95.0%)
+2025-10-10 23:01:38 | INFO | 2. GIGGLEUSDT - BUY (95.0%) @ $116.05
+2025-10-10 23:01:39 | INFO | Setting leverage for GIGGLEUSDT to 1x
+2025-10-10 23:01:39 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:01:39).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGGLEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:01:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGGLEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '66.613', 'timeInForce': 'IOC'}
+2025-10-10 23:01:40 | INFO | ✅ Perpetual order placed: a1595fd7-0371-4658-85c5-527f2b87f2e8
+2025-10-10 23:01:40 | INFO | Setting stop loss via trading stop: GIGGLEUSDT @ 112.5685
+2025-10-10 23:01:40 | INFO | ✅ Stop loss set via position management
+2025-10-10 23:01:40 | INFO | Setting take profit via trading stop: GIGGLEUSDT @ 117.2105
+2025-10-10 23:01:40 | INFO | ✅ Take profit set via position management
+2025-10-10 23:01:42 | INFO | Setting trailing stop: GIGGLEUSDT @ 1.0% = $1.164700 from $116.47
+2025-10-10 23:01:42 | INFO | ✅ Trailing stop set: 1.0% ($1.164700)
+2025-10-10 23:01:42 | INFO | ✅ EXECUTED: GIGGLEUSDT BUY 66.613000 @ $116.05 (Conf: 95.0%)
+2025-10-10 23:01:43 | INFO | 3. AINUSDT - SELL (80.4%) @ $0.14785
+2025-10-10 23:01:43 | INFO | Setting leverage for AINUSDT to 1x
+2025-10-10 23:01:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:01:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:01:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AINUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '47320', 'timeInForce': 'IOC'}
+2025-10-10 23:01:44 | INFO | ✅ Perpetual order placed: f14ac592-3cad-44db-855c-0a4a61ab41db
+2025-10-10 23:01:44 | INFO | Setting stop loss via trading stop: AINUSDT @ 0.15228550000000002
+2025-10-10 23:01:44 | INFO | ✅ Stop loss set via position management
+2025-10-10 23:01:44 | INFO | Setting take profit via trading stop: AINUSDT @ 0.14637150000000002
+2025-10-10 23:01:44 | INFO | ✅ Take profit set via position management
+2025-10-10 23:01:46 | INFO | Setting trailing stop: AINUSDT @ 1.0% = $0.001477 from $0.14769
+2025-10-10 23:01:46 | INFO | ✅ Trailing stop set: 1.0% ($0.001477)
+2025-10-10 23:01:46 | INFO | ✅ EXECUTED: AINUSDT SELL 47320.000000 @ $0.14785 (Conf: 80.4%)
+2025-10-10 23:01:47 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 0 failed
+2025-10-10 23:01:47 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 23:01:47 | INFO |    • COAIUSDT: LONG 1203.000000 @ $7.0987 - SL: $6.8857 TP: $7.1697
+2025-10-10 23:01:47 | INFO |    • GIGGLEUSDT: LONG 66.613000 @ $116.05 - SL: $112.5685 TP: $117.2105
+2025-10-10 23:01:47 | INFO |    • AINUSDT: SHORT 47320.000000 @ $0.14785 - SL: $0.1523 TP: $0.1464
+2025-10-10 23:01:47 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 23:01:47 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 23:01:47 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 23:01:47 | INFO | 🎉 SESSION COMPLETED in 34.8s
+2025-10-10 23:01:47 | INFO | ============================================================
