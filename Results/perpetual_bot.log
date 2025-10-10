@@ -18152,3 +18152,36 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 20:01:16 | INFO | 🔍 Starting perpetual symbol retrieval
 2025-10-10 20:01:17 | INFO | ✅ Found 458 perpetual pairs
 2025-10-10 20:01:17 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 20:16:12 | INFO | ================================================================================
+2025-10-10 20:16:12 | INFO | NEW PERPETUAL SESSION: 2025-10-10 20:16:12
+2025-10-10 20:16:12 | INFO | ================================================================================
+2025-10-10 20:16:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 20:16:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 20:16:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 20:16:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 20:16:14 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 20:16:14 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 20:16:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 20:16:25 | INFO |  1. NOMUSDT      | SELL | Price: $  0.0291 | Confidence:  71.5% | Momentum: -2.15%
+2025-10-10 20:16:25 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-10 20:16:25 | INFO | 1. NOMUSDT - SELL (71.5%) @ $0.02913
+2025-10-10 20:16:26 | INFO | Setting leverage for NOMUSDT to 1x
+2025-10-10 20:16:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NOMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 20:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NOMUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '295160', 'timeInForce': 'IOC'}
+2025-10-10 20:16:27 | INFO | ✅ Perpetual order placed: 5f7e969a-c054-44c7-9484-ae939bacd27e
+2025-10-10 20:16:27 | INFO | Setting stop loss via trading stop: NOMUSDT @ 0.0300039
+2025-10-10 20:16:27 | INFO | ✅ Stop loss set via position management
+2025-10-10 20:16:28 | INFO | Setting take profit via trading stop: NOMUSDT @ 0.0288387
+2025-10-10 20:16:28 | INFO | ✅ Take profit set via position management
+2025-10-10 20:16:29 | INFO | Setting trailing stop: NOMUSDT @ 1.0% = $0.000292 from $0.02919
+2025-10-10 20:16:29 | INFO | ✅ Trailing stop set: 1.0% ($0.000292)
+2025-10-10 20:16:29 | INFO | ✅ EXECUTED: NOMUSDT SELL 295160.000000 @ $0.02913 (Conf: 71.5%)
+2025-10-10 20:16:30 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-10 20:16:30 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 20:16:30 | INFO |    • NOMUSDT: SHORT 295160.000000 @ $0.02913 - SL: $0.0300 TP: $0.0288
+2025-10-10 20:16:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 20:16:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 20:16:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 20:16:30 | INFO | 🎉 SESSION COMPLETED in 17.6s
+2025-10-10 20:16:30 | INFO | ============================================================
