@@ -15601,3 +15601,60 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 13:17:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 13:17:00 | INFO | 🎉 SESSION COMPLETED in 27.0s
 2025-10-10 13:17:00 | INFO | ============================================================
+2025-10-10 13:31:20 | INFO | ================================================================================
+2025-10-10 13:31:20 | INFO | NEW PERPETUAL SESSION: 2025-10-10 13:31:20
+2025-10-10 13:31:20 | INFO | ================================================================================
+2025-10-10 13:31:20 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 13:31:20 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 13:31:20 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 13:31:20 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 13:31:21 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 13:31:21 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 13:31:31 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 13:31:31 | INFO |  1. NEARUSDT     | BUY  | Price: $  3.0780 | Confidence:  95.0% | Momentum: +6.84%
+2025-10-10 13:31:31 | INFO |  2. ROSEUSDT     | BUY  | Price: $  0.0274 | Confidence:  95.0% | Momentum: +8.90%
+2025-10-10 13:31:31 | INFO |  3. CHRUSDT      | BUY  | Price: $  0.0908 | Confidence:  89.5% | Momentum: +3.95%
+2025-10-10 13:31:31 | INFO |  4. MLNUSDT      | BUY  | Price: $  8.0830 | Confidence:  89.1% | Momentum: +3.91%
+2025-10-10 13:31:31 | INFO |  5. RPLUSDT      | BUY  | Price: $  5.0940 | Confidence:  88.1% | Momentum: +3.81%
+2025-10-10 13:31:31 | INFO |  6. HFTUSDT      | BUY  | Price: $  0.0744 | Confidence:  82.5% | Momentum: +3.25%
+2025-10-10 13:31:31 | INFO |  7. FILUSDT      | BUY  | Price: $  2.3780 | Confidence:  81.7% | Momentum: +3.17%
+2025-10-10 13:31:31 | INFO |  8. REZUSDT      | BUY  | Price: $  0.0156 | Confidence:  79.1% | Momentum: +2.91%
+2025-10-10 13:31:31 | INFO |  9. ARUSDT       | BUY  | Price: $  5.8640 | Confidence:  78.8% | Momentum: +2.88%
+2025-10-10 13:31:31 | INFO | 10. BSUUSDT      | BUY  | Price: $  0.2239 | Confidence:  78.0% | Momentum: +2.80%
+2025-10-10 13:31:32 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 13:31:32 | INFO | 1. NEARUSDT - BUY (95.0%) @ $3.078
+2025-10-10 13:31:32 | INFO | Setting leverage for NEARUSDT to 1x
+2025-10-10 13:31:33 | INFO | ✅ Leverage set to 1x for NEARUSDT
+2025-10-10 13:31:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NEARUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2829.7', 'timeInForce': 'IOC'}
+2025-10-10 13:31:33 | INFO | ✅ Perpetual order placed: 2cec6488-50a1-4b87-b973-eead8542fbd0
+2025-10-10 13:31:33 | INFO | Setting stop loss via trading stop: NEARUSDT @ 2.9856599999999998
+2025-10-10 13:31:33 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:31:34 | INFO | Setting take profit via trading stop: NEARUSDT @ 3.10878
+2025-10-10 13:31:34 | INFO | ✅ Take profit set via position management
+2025-10-10 13:31:35 | INFO | Setting trailing stop: NEARUSDT @ 1.0% = $0.030800 from $3.08
+2025-10-10 13:31:35 | INFO | ✅ Trailing stop set: 1.0% ($0.030800)
+2025-10-10 13:31:35 | INFO | ✅ EXECUTED: NEARUSDT BUY 2829.700000 @ $3.078 (Conf: 95.0%)
+2025-10-10 13:31:36 | INFO | 2. ROSEUSDT - BUY (95.0%) @ $0.02742
+2025-10-10 13:31:37 | INFO | Setting leverage for ROSEUSDT to 1x
+2025-10-10 13:31:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:31:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ROSEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 13:31:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ROSEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '287495', 'timeInForce': 'IOC'}
+2025-10-10 13:31:37 | INFO | ✅ Perpetual order placed: a66de724-2972-4cc2-b2d1-562c075acc84
+2025-10-10 13:31:38 | INFO | Setting stop loss via trading stop: ROSEUSDT @ 0.0265974
+2025-10-10 13:31:38 | INFO | ✅ Stop loss set via position management
+2025-10-10 13:31:38 | INFO | Setting take profit via trading stop: ROSEUSDT @ 0.0276942
+2025-10-10 13:31:38 | INFO | ✅ Take profit set via position management
+2025-10-10 13:31:40 | INFO | Setting trailing stop: ROSEUSDT @ 1.0% = $0.000274 from $0.02741
+2025-10-10 13:31:40 | INFO | ✅ Trailing stop set: 1.0% ($0.000274)
+2025-10-10 13:31:40 | INFO | ✅ EXECUTED: ROSEUSDT BUY 287495.000000 @ $0.02742 (Conf: 95.0%)
+2025-10-10 13:31:40 | INFO | 3. CHRUSDT - BUY (89.5%) @ $0.09081
+2025-10-10 13:31:40 | INFO | 4. MLNUSDT - BUY (89.1%) @ $8.083
+2025-10-10 13:31:40 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-10 13:31:40 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 13:31:40 | INFO |    • NEARUSDT: LONG 2829.700000 @ $3.078 - SL: $2.9857 TP: $3.1088
+2025-10-10 13:31:40 | INFO |    • ROSEUSDT: LONG 287495.000000 @ $0.02742 - SL: $0.0266 TP: $0.0277
+2025-10-10 13:31:40 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 13:31:41 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 13:31:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 13:31:41 | INFO | 🎉 SESSION COMPLETED in 20.4s
+2025-10-10 13:31:41 | INFO | ============================================================
