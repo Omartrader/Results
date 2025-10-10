@@ -18665,3 +18665,71 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 22:16:37 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 22:16:37 | INFO | 🎉 SESSION COMPLETED in 21.5s
 2025-10-10 22:16:37 | INFO | ============================================================
+2025-10-10 22:31:14 | INFO | ================================================================================
+2025-10-10 22:31:14 | INFO | NEW PERPETUAL SESSION: 2025-10-10 22:31:14
+2025-10-10 22:31:14 | INFO | ================================================================================
+2025-10-10 22:31:14 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 22:31:14 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 22:31:14 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 22:31:14 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 22:31:15 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 22:31:15 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 22:31:26 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 22:31:26 | INFO |  1. COAIUSDT     | BUY  | Price: $  7.1084 | Confidence:  95.0% | Momentum: +5.08%
+2025-10-10 22:31:26 | INFO |  2. RFCUSDT      | BUY  | Price: $  0.0086 | Confidence:  95.0% | Momentum: +7.60%
+2025-10-10 22:31:26 | INFO |  3. B2USDT       | BUY  | Price: $  1.2368 | Confidence:  73.2% | Momentum: +2.32%
+2025-10-10 22:31:26 | INFO |  4. CLANKERUSDT  | SELL | Price: $ 28.7600 | Confidence:  72.8% | Momentum: -2.28%
+2025-10-10 22:31:26 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-10 22:31:26 | INFO | 1. COAIUSDT - BUY (95.0%) @ $7.1084
+2025-10-10 22:31:27 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-10 22:31:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 22:31:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1204', 'timeInForce': 'IOC'}
+2025-10-10 22:31:28 | INFO | ✅ Perpetual order placed: e644a832-4581-46e3-acf4-e1862df9897a
+2025-10-10 22:31:28 | INFO | Setting stop loss via trading stop: COAIUSDT @ 6.895148
+2025-10-10 22:31:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 22:31:28 | INFO | Setting take profit via trading stop: COAIUSDT @ 7.1794839999999995
+2025-10-10 22:31:28 | INFO | ✅ Take profit set via position management
+2025-10-10 22:31:30 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.071079 from $7.1079
+2025-10-10 22:31:30 | INFO | ✅ Trailing stop set: 1.0% ($0.071079)
+2025-10-10 22:31:30 | INFO | ✅ EXECUTED: COAIUSDT BUY 1204.000000 @ $7.1084 (Conf: 95.0%)
+2025-10-10 22:31:31 | INFO | 2. RFCUSDT - BUY (95.0%) @ $0.008632
+2025-10-10 22:31:32 | INFO | Setting leverage for RFCUSDT to 1x
+2025-10-10 22:31:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RFCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 22:31:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RFCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '897352', 'timeInForce': 'IOC'}
+2025-10-10 22:31:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:89735200000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 18:31:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Buy", "orderType": "Market", "qty": "897352", "timeInForce": "IOC"}.
+2025-10-10 22:31:32 | ERROR | ❌ FAILED: RFCUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:89735200000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 18:31:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Buy", "orderType": "Market", "qty": "897352", "timeInForce": "IOC"}.
+2025-10-10 22:31:33 | INFO | 3. B2USDT - BUY (73.2%) @ $1.2368
+2025-10-10 22:31:33 | INFO | Setting leverage for B2USDT to 1x
+2025-10-10 22:31:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 22:31:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6263', 'timeInForce': 'IOC'}
+2025-10-10 22:31:34 | INFO | ✅ Perpetual order placed: 789d1e3d-a7cc-4f2e-bfff-63ae75ec7fca
+2025-10-10 22:31:34 | INFO | Setting stop loss via trading stop: B2USDT @ 1.1996959999999999
+2025-10-10 22:31:34 | INFO | ✅ Stop loss set via position management
+2025-10-10 22:31:34 | INFO | Setting take profit via trading stop: B2USDT @ 1.2491679999999998
+2025-10-10 22:31:34 | INFO | ✅ Take profit set via position management
+2025-10-10 22:31:36 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.012368 from $1.2368
+2025-10-10 22:31:36 | INFO | ✅ Trailing stop set: 1.0% ($0.012368)
+2025-10-10 22:31:36 | INFO | ✅ EXECUTED: B2USDT BUY 6263.000000 @ $1.2368 (Conf: 73.2%)
+2025-10-10 22:31:37 | INFO | 4. CLANKERUSDT - SELL (72.8%) @ $28.76
+2025-10-10 22:31:38 | INFO | Setting leverage for CLANKERUSDT to 1x
+2025-10-10 22:31:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:31:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLANKERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 22:31:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLANKERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '243.77', 'timeInForce': 'IOC'}
+2025-10-10 22:31:38 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:24377000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 18:31:38).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Sell", "orderType": "Market", "qty": "243.77", "timeInForce": "IOC"}.
+2025-10-10 22:31:38 | ERROR | ❌ FAILED: CLANKERUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:24377000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 18:31:38).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Sell", "orderType": "Market", "qty": "243.77", "timeInForce": "IOC"}.
+2025-10-10 22:31:39 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 2 failed
+2025-10-10 22:31:39 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 22:31:39 | INFO |    • COAIUSDT: LONG 1204.000000 @ $7.1084 - SL: $6.8951 TP: $7.1795
+2025-10-10 22:31:39 | INFO |    • B2USDT: LONG 6263.000000 @ $1.2368 - SL: $1.1997 TP: $1.2492
+2025-10-10 22:31:39 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 22:31:39 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 22:31:39 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 22:31:39 | INFO | 🎉 SESSION COMPLETED in 24.9s
+2025-10-10 22:31:39 | INFO | ============================================================
