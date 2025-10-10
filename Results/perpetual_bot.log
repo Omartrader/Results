@@ -16802,3 +16802,110 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 17:02:09 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 17:02:09 | INFO | 🎉 SESSION COMPLETED in 30.9s
 2025-10-10 17:02:09 | INFO | ============================================================
+2025-10-10 17:16:02 | INFO | ================================================================================
+2025-10-10 17:16:02 | INFO | NEW PERPETUAL SESSION: 2025-10-10 17:16:02
+2025-10-10 17:16:02 | INFO | ================================================================================
+2025-10-10 17:16:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 17:16:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 17:16:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 17:16:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 17:16:04 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 17:16:04 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 17:16:21 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 17:16:21 | INFO |  1. NAORISUSDT   | BUY  | Price: $  0.0853 | Confidence:  95.0% | Momentum: +6.87%
+2025-10-10 17:16:21 | INFO |  2. HEMIUSDT     | BUY  | Price: $  0.0894 | Confidence:  78.4% | Momentum: +2.84%
+2025-10-10 17:16:21 | INFO |  3. HUMAUSDT     | SELL | Price: $  0.0333 | Confidence:  74.0% | Momentum: -2.40%
+2025-10-10 17:16:21 | INFO |  4. DOGUSDT      | SELL | Price: $  0.0021 | Confidence:  72.1% | Momentum: -2.21%
+2025-10-10 17:16:21 | INFO |  5. DEEPUSDT     | SELL | Price: $  0.1310 | Confidence:  71.0% | Momentum: -2.10%
+2025-10-10 17:16:21 | INFO |  6. PUMPBTCUSDT  | BUY  | Price: $  0.0533 | Confidence:  68.5% | Momentum: +1.85%
+2025-10-10 17:16:21 | INFO |  7. OMUSDT       | BUY  | Price: $  0.1648 | Confidence:  65.4% | Momentum: +1.54%
+2025-10-10 17:16:21 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-10 17:16:21 | INFO | 1. NAORISUSDT - BUY (95.0%) @ $0.08529
+2025-10-10 17:16:23 | INFO | Setting leverage for NAORISUSDT to 1x
+2025-10-10 17:16:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:16:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NAORISUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:16:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NAORISUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '101050', 'timeInForce': 'IOC'}
+2025-10-10 17:16:23 | INFO | ✅ Perpetual order placed: 9e823267-226f-4653-8ae1-f6ab7e24cab3
+2025-10-10 17:16:23 | INFO | Setting stop loss via trading stop: NAORISUSDT @ 0.08273130000000001
+2025-10-10 17:16:23 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:16:24 | INFO | Setting take profit via trading stop: NAORISUSDT @ 0.08614290000000001
+2025-10-10 17:16:24 | INFO | ✅ Take profit set via position management
+2025-10-10 17:16:25 | INFO | Setting trailing stop: NAORISUSDT @ 1.0% = $0.000853 from $0.08529
+2025-10-10 17:16:26 | INFO | ✅ Trailing stop set: 1.0% ($0.000853)
+2025-10-10 17:16:26 | INFO | ✅ EXECUTED: NAORISUSDT BUY 101050.000000 @ $0.08529 (Conf: 95.0%)
+2025-10-10 17:16:26 | INFO | 2. HEMIUSDT - BUY (78.4%) @ $0.08937
+2025-10-10 17:16:27 | INFO | Setting leverage for HEMIUSDT to 1x
+2025-10-10 17:16:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:16:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HEMIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HEMIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '87287', 'timeInForce': 'IOC'}
+2025-10-10 17:16:27 | INFO | ✅ Perpetual order placed: 72943cd3-b28d-4100-ae7c-65506426bdca
+2025-10-10 17:16:28 | INFO | Setting stop loss via trading stop: HEMIUSDT @ 0.0866889
+2025-10-10 17:16:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:16:28 | INFO | Setting take profit via trading stop: HEMIUSDT @ 0.0902637
+2025-10-10 17:16:28 | INFO | ✅ Take profit set via position management
+2025-10-10 17:16:30 | INFO | Setting trailing stop: HEMIUSDT @ 1.0% = $0.000893 from $0.08929
+2025-10-10 17:16:30 | INFO | ✅ Trailing stop set: 1.0% ($0.000893)
+2025-10-10 17:16:30 | INFO | ✅ EXECUTED: HEMIUSDT BUY 87287.000000 @ $0.08937 (Conf: 78.4%)
+2025-10-10 17:16:30 | INFO | 3. HUMAUSDT - SELL (74.0%) @ $0.03334
+2025-10-10 17:16:31 | INFO | Setting leverage for HUMAUSDT to 1x
+2025-10-10 17:16:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:16:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HUMAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:16:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUMAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '211772', 'timeInForce': 'IOC'}
+2025-10-10 17:16:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:21177200000000 > max_qty:21000000000000 (ErrCode: 10001) (ErrTime: 13:16:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HUMAUSDT", "side": "Sell", "orderType": "Market", "qty": "211772", "timeInForce": "IOC"}.
+2025-10-10 17:16:32 | ERROR | ❌ FAILED: HUMAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:21177200000000 > max_qty:21000000000000 (ErrCode: 10001) (ErrTime: 13:16:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HUMAUSDT", "side": "Sell", "orderType": "Market", "qty": "211772", "timeInForce": "IOC"}.
+2025-10-10 17:16:32 | INFO | 4. DOGUSDT - SELL (72.1%) @ $0.002123
+2025-10-10 17:16:33 | INFO | Setting leverage for DOGUSDT to 1x
+2025-10-10 17:16:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:16:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:16:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DOGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3325700', 'timeInForce': 'IOC'}
+2025-10-10 17:16:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:332570000000000 > max_qty:200000000000000 (ErrCode: 10001) (ErrTime: 13:16:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DOGUSDT", "side": "Sell", "orderType": "Market", "qty": "3325700", "timeInForce": "IOC"}.
+2025-10-10 17:16:34 | ERROR | ❌ FAILED: DOGUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:332570000000000 > max_qty:200000000000000 (ErrCode: 10001) (ErrTime: 13:16:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DOGUSDT", "side": "Sell", "orderType": "Market", "qty": "3325700", "timeInForce": "IOC"}.
+2025-10-10 17:16:34 | INFO | 5. DEEPUSDT - SELL (71.0%) @ $0.13096
+2025-10-10 17:16:35 | INFO | Setting leverage for DEEPUSDT to 1x
+2025-10-10 17:16:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:16:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DEEPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:16:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DEEPUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '53910', 'timeInForce': 'IOC'}
+2025-10-10 17:16:35 | INFO | ✅ Perpetual order placed: f9fea83f-a592-40a8-a4d3-38ffa38b36b5
+2025-10-10 17:16:36 | INFO | Setting stop loss via trading stop: DEEPUSDT @ 0.1348888
+2025-10-10 17:16:36 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:16:36 | INFO | Setting take profit via trading stop: DEEPUSDT @ 0.1296504
+2025-10-10 17:16:36 | INFO | ✅ Take profit set via position management
+2025-10-10 17:16:38 | INFO | Setting trailing stop: DEEPUSDT @ 1.0% = $0.001309 from $0.13092
+2025-10-10 17:16:38 | INFO | ✅ Trailing stop set: 1.0% ($0.001309)
+2025-10-10 17:16:38 | INFO | ✅ EXECUTED: DEEPUSDT SELL 53910.000000 @ $0.13096 (Conf: 71.0%)
+2025-10-10 17:16:38 | INFO | 6. PUMPBTCUSDT - BUY (68.5%) @ $0.0533
+2025-10-10 17:16:39 | INFO | Setting leverage for PUMPBTCUSDT to 1x
+2025-10-10 17:16:39 | INFO | ✅ Leverage set to 1x for PUMPBTCUSDT
+2025-10-10 17:16:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PUMPBTCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '119900', 'timeInForce': 'IOC'}
+2025-10-10 17:16:40 | INFO | ✅ Perpetual order placed: 2b1fe0b4-09a4-4866-977d-4f98b8010574
+2025-10-10 17:16:40 | INFO | Setting stop loss via trading stop: PUMPBTCUSDT @ 0.051701
+2025-10-10 17:16:40 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:16:40 | INFO | Setting take profit via trading stop: PUMPBTCUSDT @ 0.053833
+2025-10-10 17:16:40 | INFO | ✅ Take profit set via position management
+2025-10-10 17:16:42 | INFO | Setting trailing stop: PUMPBTCUSDT @ 1.0% = $0.000533 from $0.05327
+2025-10-10 17:16:42 | INFO | ✅ Trailing stop set: 1.0% ($0.000533)
+2025-10-10 17:16:42 | INFO | ✅ EXECUTED: PUMPBTCUSDT BUY 119900.000000 @ $0.0533 (Conf: 68.5%)
+2025-10-10 17:16:42 | INFO | 7. OMUSDT - BUY (65.4%) @ $0.1648
+2025-10-10 17:16:43 | INFO | Setting leverage for OMUSDT to 1x
+2025-10-10 17:16:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:16:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:16:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '35097', 'timeInForce': 'IOC'}
+2025-10-10 17:16:44 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3509700000000 > max_qty:1500000000000 (ErrCode: 10001) (ErrTime: 13:16:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "OMUSDT", "side": "Buy", "orderType": "Market", "qty": "35097", "timeInForce": "IOC"}.
+2025-10-10 17:16:44 | ERROR | ❌ FAILED: OMUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:3509700000000 > max_qty:1500000000000 (ErrCode: 10001) (ErrTime: 13:16:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "OMUSDT", "side": "Buy", "orderType": "Market", "qty": "35097", "timeInForce": "IOC"}.
+2025-10-10 17:16:44 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 3 failed
+2025-10-10 17:16:44 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 17:16:44 | INFO |    • NAORISUSDT: LONG 101050.000000 @ $0.08529 - SL: $0.0827 TP: $0.0861
+2025-10-10 17:16:44 | INFO |    • HEMIUSDT: LONG 87287.000000 @ $0.08937 - SL: $0.0867 TP: $0.0903
+2025-10-10 17:16:44 | INFO |    • DEEPUSDT: SHORT 53910.000000 @ $0.13096 - SL: $0.1349 TP: $0.1297
+2025-10-10 17:16:44 | INFO |    • PUMPBTCUSDT: LONG 119900.000000 @ $0.0533 - SL: $0.0517 TP: $0.0538
+2025-10-10 17:16:44 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 17:16:45 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 17:16:45 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 17:16:45 | INFO | 🎉 SESSION COMPLETED in 41.9s
+2025-10-10 17:16:45 | INFO | ============================================================
