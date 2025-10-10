@@ -14646,3 +14646,112 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 11:01:50 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 11:01:50 | INFO | 🎉 SESSION COMPLETED in 38.4s
 2025-10-10 11:01:50 | INFO | ============================================================
+2025-10-10 11:15:58 | INFO | ================================================================================
+2025-10-10 11:15:58 | INFO | NEW PERPETUAL SESSION: 2025-10-10 11:15:58
+2025-10-10 11:15:58 | INFO | ================================================================================
+2025-10-10 11:15:58 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 11:15:58 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 11:15:58 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 11:15:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 11:15:59 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 11:15:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 11:16:08 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 11:16:08 | INFO |  1. ALICEUSDT    | SELL | Price: $  0.4565 | Confidence:  95.0% | Momentum: -5.45%
+2025-10-10 11:16:08 | INFO |  2. OPENUSDT     | SELL | Price: $  0.5001 | Confidence:  95.0% | Momentum: -10.81%
+2025-10-10 11:16:08 | INFO |  3. EDENUSDT     | SELL | Price: $  0.2329 | Confidence:  83.6% | Momentum: -3.36%
+2025-10-10 11:16:08 | INFO |  4. PUFFERUSDT   | SELL | Price: $  0.1456 | Confidence:  81.9% | Momentum: -3.19%
+2025-10-10 11:16:08 | INFO |  5. FARTCOINUSDT | SELL | Price: $  0.6275 | Confidence:  75.8% | Momentum: -2.58%
+2025-10-10 11:16:08 | INFO |  6. CAMPUSDT     | SELL | Price: $  0.0327 | Confidence:  74.2% | Momentum: -2.42%
+2025-10-10 11:16:08 | INFO |  7. ORCAUSDT     | SELL | Price: $  2.0010 | Confidence:  71.5% | Momentum: -2.15%
+2025-10-10 11:16:08 | INFO |  8. DRIFTUSDT    | SELL | Price: $  0.7587 | Confidence:  71.0% | Momentum: -2.10%
+2025-10-10 11:16:08 | INFO |  9. MUBARAKUSDT  | SELL | Price: $  0.0343 | Confidence:  69.7% | Momentum: -1.97%
+2025-10-10 11:16:08 | INFO | 10. APEXUSDT     | SELL | Price: $  1.6291 | Confidence:  69.1% | Momentum: -1.91%
+2025-10-10 11:16:09 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 11:16:09 | INFO | 1. ALICEUSDT - SELL (95.0%) @ $0.4565
+2025-10-10 11:16:10 | INFO | Setting leverage for ALICEUSDT to 1x
+2025-10-10 11:16:10 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:16:10).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALICEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:16:10 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALICEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '18992.8', 'timeInForce': 'IOC'}
+2025-10-10 11:16:10 | INFO | ✅ Perpetual order placed: fa904586-1afe-4c27-92c8-47807d352c97
+2025-10-10 11:16:10 | INFO | Setting stop loss via trading stop: ALICEUSDT @ 0.47019500000000003
+2025-10-10 11:16:10 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:16:11 | INFO | Setting take profit via trading stop: ALICEUSDT @ 0.45193500000000003
+2025-10-10 11:16:11 | INFO | ✅ Take profit set via position management
+2025-10-10 11:16:12 | INFO | Setting trailing stop: ALICEUSDT @ 1.0% = $0.004545 from $0.4545
+2025-10-10 11:16:12 | INFO | ✅ Trailing stop set: 1.0% ($0.004545)
+2025-10-10 11:16:12 | INFO | ✅ EXECUTED: ALICEUSDT SELL 18992.800000 @ $0.4565 (Conf: 95.0%)
+2025-10-10 11:16:13 | INFO | 2. OPENUSDT - SELL (95.0%) @ $0.5001
+2025-10-10 11:16:13 | INFO | 3. EDENUSDT - SELL (83.6%) @ $0.2329
+2025-10-10 11:16:13 | INFO | 4. PUFFERUSDT - SELL (81.9%) @ $0.1456
+2025-10-10 11:16:14 | INFO | Setting leverage for PUFFERUSDT to 1x
+2025-10-10 11:16:14 | INFO | ✅ Leverage set to 1x for PUFFERUSDT
+2025-10-10 11:16:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PUFFERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '53897', 'timeInForce': 'IOC'}
+2025-10-10 11:16:14 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5389700000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 07:16:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PUFFERUSDT", "side": "Sell", "orderType": "Market", "qty": "53897", "timeInForce": "IOC"}.
+2025-10-10 11:16:14 | ERROR | ❌ FAILED: PUFFERUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:5389700000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 07:16:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PUFFERUSDT", "side": "Sell", "orderType": "Market", "qty": "53897", "timeInForce": "IOC"}.
+2025-10-10 11:16:15 | INFO | 5. FARTCOINUSDT - SELL (75.8%) @ $0.6275
+2025-10-10 11:16:16 | INFO | Setting leverage for FARTCOINUSDT to 1x
+2025-10-10 11:16:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:16:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FARTCOINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:16:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FARTCOINUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '12506', 'timeInForce': 'IOC'}
+2025-10-10 11:16:16 | INFO | ✅ Perpetual order placed: 69c76df4-0e20-4903-9af9-477d99a5dd01
+2025-10-10 11:16:16 | INFO | Setting stop loss via trading stop: FARTCOINUSDT @ 0.6463249999999999
+2025-10-10 11:16:16 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:16:17 | INFO | Setting take profit via trading stop: FARTCOINUSDT @ 0.6212249999999999
+2025-10-10 11:16:17 | INFO | ✅ Take profit set via position management
+2025-10-10 11:16:18 | INFO | Setting trailing stop: FARTCOINUSDT @ 1.0% = $0.006270 from $0.627
+2025-10-10 11:16:19 | INFO | ✅ Trailing stop set: 1.0% ($0.006270)
+2025-10-10 11:16:19 | INFO | ✅ EXECUTED: FARTCOINUSDT SELL 12506.000000 @ $0.6275 (Conf: 75.8%)
+2025-10-10 11:16:19 | INFO | 6. CAMPUSDT - SELL (74.2%) @ $0.03268
+2025-10-10 11:16:19 | INFO | 7. ORCAUSDT - SELL (71.5%) @ $2.001
+2025-10-10 11:16:19 | INFO | 8. DRIFTUSDT - SELL (71.0%) @ $0.7587
+2025-10-10 11:16:20 | INFO | Setting leverage for DRIFTUSDT to 1x
+2025-10-10 11:16:20 | INFO | ✅ Leverage set to 1x for DRIFTUSDT
+2025-10-10 11:16:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DRIFTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '9362', 'timeInForce': 'IOC'}
+2025-10-10 11:16:21 | INFO | ✅ Perpetual order placed: d65b3ed8-2481-4932-9538-7d90ec9f36a1
+2025-10-10 11:16:21 | INFO | Setting stop loss via trading stop: DRIFTUSDT @ 0.7814610000000001
+2025-10-10 11:16:21 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:16:21 | INFO | Setting take profit via trading stop: DRIFTUSDT @ 0.751113
+2025-10-10 11:16:21 | INFO | ✅ Take profit set via position management
+2025-10-10 11:16:23 | INFO | Setting trailing stop: DRIFTUSDT @ 1.0% = $0.007585 from $0.7585
+2025-10-10 11:16:23 | INFO | ✅ Trailing stop set: 1.0% ($0.007585)
+2025-10-10 11:16:23 | INFO | ✅ EXECUTED: DRIFTUSDT SELL 9362.000000 @ $0.7587 (Conf: 71.0%)
+2025-10-10 11:16:23 | INFO | 9. MUBARAKUSDT - SELL (69.7%) @ $0.03429
+2025-10-10 11:16:25 | INFO | Setting leverage for MUBARAKUSDT to 1x
+2025-10-10 11:16:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:16:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUBARAKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:16:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUBARAKUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '187474', 'timeInForce': 'IOC'}
+2025-10-10 11:16:25 | INFO | ✅ Perpetual order placed: 9d600059-07b4-4bf5-b928-16bf5d3ad0b4
+2025-10-10 11:16:25 | INFO | Setting stop loss via trading stop: MUBARAKUSDT @ 0.0353187
+2025-10-10 11:16:25 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:16:26 | INFO | Setting take profit via trading stop: MUBARAKUSDT @ 0.0339471
+2025-10-10 11:16:26 | INFO | ✅ Take profit set via position management
+2025-10-10 11:16:27 | INFO | Setting trailing stop: MUBARAKUSDT @ 1.0% = $0.000343 from $0.03428
+2025-10-10 11:16:27 | INFO | ✅ Trailing stop set: 1.0% ($0.000343)
+2025-10-10 11:16:27 | INFO | ✅ EXECUTED: MUBARAKUSDT SELL 187474.000000 @ $0.03429 (Conf: 69.7%)
+2025-10-10 11:16:28 | INFO | 10. APEXUSDT - SELL (69.1%) @ $1.6291
+2025-10-10 11:16:29 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-10 11:16:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 07:16:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 11:16:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3571.5', 'timeInForce': 'IOC'}
+2025-10-10 11:16:29 | INFO | ✅ Perpetual order placed: fd39e0b7-c0d4-4bdc-8de3-a4818c04afba
+2025-10-10 11:16:29 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.677973
+2025-10-10 11:16:29 | INFO | ✅ Stop loss set via position management
+2025-10-10 11:16:30 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.612809
+2025-10-10 11:16:30 | INFO | ✅ Take profit set via position management
+2025-10-10 11:16:31 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.016280 from $1.628
+2025-10-10 11:16:31 | INFO | ✅ Trailing stop set: 1.0% ($0.016280)
+2025-10-10 11:16:31 | INFO | ✅ EXECUTED: APEXUSDT SELL 3571.500000 @ $1.6291 (Conf: 69.1%)
+2025-10-10 11:16:32 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 1 failed
+2025-10-10 11:16:32 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 11:16:32 | INFO |    • ALICEUSDT: SHORT 18992.800000 @ $0.4565 - SL: $0.4702 TP: $0.4519
+2025-10-10 11:16:32 | INFO |    • FARTCOINUSDT: SHORT 12506.000000 @ $0.6275 - SL: $0.6463 TP: $0.6212
+2025-10-10 11:16:32 | INFO |    • DRIFTUSDT: SHORT 9362.000000 @ $0.7587 - SL: $0.7815 TP: $0.7511
+2025-10-10 11:16:32 | INFO |    • MUBARAKUSDT: SHORT 187474.000000 @ $0.03429 - SL: $0.0353 TP: $0.0339
+2025-10-10 11:16:32 | INFO |    • APEXUSDT: SHORT 3571.500000 @ $1.6291 - SL: $1.6780 TP: $1.6128
+2025-10-10 11:16:32 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 11:16:32 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 11:16:32 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 11:16:32 | INFO | 🎉 SESSION COMPLETED in 34.0s
+2025-10-10 11:16:32 | INFO | ============================================================
