@@ -15814,3 +15814,86 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 14:02:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 14:02:03 | INFO | 🎉 SESSION COMPLETED in 37.9s
 2025-10-10 14:02:03 | INFO | ============================================================
+2025-10-10 14:16:29 | INFO | ================================================================================
+2025-10-10 14:16:29 | INFO | NEW PERPETUAL SESSION: 2025-10-10 14:16:29
+2025-10-10 14:16:29 | INFO | ================================================================================
+2025-10-10 14:16:29 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 14:16:30 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 14:16:30 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 14:16:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:16:31 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:16:31 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:16:42 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 14:16:42 | INFO |  1. RPLUSDT      | BUY  | Price: $  5.0550 | Confidence:  74.5% | Momentum: +2.45%
+2025-10-10 14:16:42 | INFO |  2. AIOZUSDT     | SELL | Price: $  0.2653 | Confidence:  73.9% | Momentum: -2.39%
+2025-10-10 14:16:42 | INFO |  3. SCRUSDT      | BUY  | Price: $  0.2678 | Confidence:  69.0% | Momentum: +1.90%
+2025-10-10 14:16:42 | INFO |  4. OGNUSDT      | BUY  | Price: $  0.0593 | Confidence:  66.3% | Momentum: +1.63%
+2025-10-10 14:16:42 | INFO |  5. GALAUSDT     | BUY  | Price: $  0.0157 | Confidence:  66.2% | Momentum: +1.62%
+2025-10-10 14:16:42 | INFO |  6. OPUSDT       | BUY  | Price: $  0.7204 | Confidence:  65.1% | Momentum: +1.51%
+2025-10-10 14:16:42 | INFO |  7. FLMUSDT      | BUY  | Price: $  0.0250 | Confidence:  65.0% | Momentum: +1.50%
+2025-10-10 14:16:43 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-10 14:16:43 | INFO | 1. RPLUSDT - BUY (74.5%) @ $5.055
+2025-10-10 14:16:43 | INFO | 2. AIOZUSDT - SELL (73.9%) @ $0.2653
+2025-10-10 14:16:44 | INFO | Setting leverage for AIOZUSDT to 1x
+2025-10-10 14:16:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIOZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 14:16:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIOZUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '26200', 'timeInForce': 'IOC'}
+2025-10-10 14:16:44 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2620000000000 > max_qty:524000000000 (ErrCode: 10001) (ErrTime: 10:16:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AIOZUSDT", "side": "Sell", "orderType": "Market", "qty": "26200", "timeInForce": "IOC"}.
+2025-10-10 14:16:44 | ERROR | ❌ FAILED: AIOZUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2620000000000 > max_qty:524000000000 (ErrCode: 10001) (ErrTime: 10:16:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AIOZUSDT", "side": "Sell", "orderType": "Market", "qty": "26200", "timeInForce": "IOC"}.
+2025-10-10 14:16:45 | INFO | 3. SCRUSDT - BUY (69.0%) @ $0.2678
+2025-10-10 14:16:46 | INFO | Setting leverage for SCRUSDT to 1x
+2025-10-10 14:16:46 | INFO | ✅ Leverage set to 1x for SCRUSDT
+2025-10-10 14:16:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SCRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '32450.8', 'timeInForce': 'IOC'}
+2025-10-10 14:16:47 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3245080000000 > max_qty:1000000000000 (ErrCode: 10001) (ErrTime: 10:16:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCRUSDT", "side": "Buy", "orderType": "Market", "qty": "32450.8", "timeInForce": "IOC"}.
+2025-10-10 14:16:47 | ERROR | ❌ FAILED: SCRUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:3245080000000 > max_qty:1000000000000 (ErrCode: 10001) (ErrTime: 10:16:47).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SCRUSDT", "side": "Buy", "orderType": "Market", "qty": "32450.8", "timeInForce": "IOC"}.
+2025-10-10 14:16:47 | INFO | 4. OGNUSDT - BUY (66.3%) @ $0.05926
+2025-10-10 14:16:47 | INFO | 5. GALAUSDT - BUY (66.2%) @ $0.01569
+2025-10-10 14:16:48 | INFO | Setting leverage for GALAUSDT to 1x
+2025-10-10 14:16:48 | INFO | ✅ Leverage set to 1x for GALAUSDT
+2025-10-10 14:16:48 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GALAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '553877', 'timeInForce': 'IOC'}
+2025-10-10 14:16:49 | INFO | ✅ Perpetual order placed: 6fb0669e-1acb-4c0b-a08c-07fbe1f2cdd1
+2025-10-10 14:16:49 | INFO | Setting stop loss via trading stop: GALAUSDT @ 0.015219299999999998
+2025-10-10 14:16:49 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:16:49 | INFO | Setting take profit via trading stop: GALAUSDT @ 0.0158469
+2025-10-10 14:16:49 | INFO | ✅ Take profit set via position management
+2025-10-10 14:16:51 | INFO | Setting trailing stop: GALAUSDT @ 1.0% = $0.000157 from $0.01569
+2025-10-10 14:16:51 | INFO | ✅ Trailing stop set: 1.0% ($0.000157)
+2025-10-10 14:16:51 | INFO | ✅ EXECUTED: GALAUSDT BUY 553877.000000 @ $0.01569 (Conf: 66.2%)
+2025-10-10 14:16:52 | INFO | 6. OPUSDT - BUY (65.1%) @ $0.7204
+2025-10-10 14:16:53 | INFO | Setting leverage for OPUSDT to 1x
+2025-10-10 14:16:53 | INFO | ✅ Leverage set to 1x for OPUSDT
+2025-10-10 14:16:53 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '10918.3', 'timeInForce': 'IOC'}
+2025-10-10 14:16:54 | INFO | ✅ Perpetual order placed: bf63d272-0422-416c-8991-38b324fc0614
+2025-10-10 14:16:54 | INFO | Setting stop loss via trading stop: OPUSDT @ 0.698788
+2025-10-10 14:16:54 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:16:54 | INFO | Setting take profit via trading stop: OPUSDT @ 0.727604
+2025-10-10 14:16:54 | INFO | ✅ Take profit set via position management
+2025-10-10 14:16:56 | INFO | Setting trailing stop: OPUSDT @ 1.0% = $0.007206 from $0.7206
+2025-10-10 14:16:56 | INFO | ✅ Trailing stop set: 1.0% ($0.007206)
+2025-10-10 14:16:56 | INFO | ✅ EXECUTED: OPUSDT BUY 10918.300000 @ $0.7204 (Conf: 65.1%)
+2025-10-10 14:16:56 | INFO | 7. FLMUSDT - BUY (65.0%) @ $0.025
+2025-10-10 14:16:57 | INFO | Setting leverage for FLMUSDT to 1x
+2025-10-10 14:16:58 | INFO | ✅ Leverage set to 1x for FLMUSDT
+2025-10-10 14:16:58 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FLMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '284764', 'timeInForce': 'IOC'}
+2025-10-10 14:16:58 | INFO | ✅ Perpetual order placed: 34110692-3a7f-4491-9d12-35470720c3f7
+2025-10-10 14:16:58 | INFO | Setting stop loss via trading stop: FLMUSDT @ 0.02425
+2025-10-10 14:16:58 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:16:59 | INFO | Setting take profit via trading stop: FLMUSDT @ 0.02525
+2025-10-10 14:16:59 | INFO | ✅ Take profit set via position management
+2025-10-10 14:17:00 | INFO | Setting trailing stop: FLMUSDT @ 1.0% = $0.000250 from $0.02503
+2025-10-10 14:17:01 | INFO | ✅ Trailing stop set: 1.0% ($0.000250)
+2025-10-10 14:17:01 | INFO | ✅ EXECUTED: FLMUSDT BUY 284764.000000 @ $0.025 (Conf: 65.0%)
+2025-10-10 14:17:01 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 2 failed
+2025-10-10 14:17:01 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 14:17:01 | INFO |    • GALAUSDT: LONG 553877.000000 @ $0.01569 - SL: $0.0152 TP: $0.0158
+2025-10-10 14:17:01 | INFO |    • OPUSDT: LONG 10918.300000 @ $0.7204 - SL: $0.6988 TP: $0.7276
+2025-10-10 14:17:01 | INFO |    • FLMUSDT: LONG 284764.000000 @ $0.025 - SL: $0.0243 TP: $0.0253
+2025-10-10 14:17:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:17:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:17:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:17:02 | INFO | 🎉 SESSION COMPLETED in 31.7s
+2025-10-10 14:17:02 | INFO | ============================================================
