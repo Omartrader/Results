@@ -13826,3 +13826,96 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 08:46:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 08:46:46 | INFO | 🎉 SESSION COMPLETED in 44.8s
 2025-10-10 08:46:46 | INFO | ============================================================
+2025-10-10 09:01:13 | INFO | ================================================================================
+2025-10-10 09:01:13 | INFO | NEW PERPETUAL SESSION: 2025-10-10 09:01:13
+2025-10-10 09:01:13 | INFO | ================================================================================
+2025-10-10 09:01:13 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 09:01:14 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 09:01:14 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 09:01:14 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 09:01:15 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 09:01:15 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 09:01:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 09:01:25 | INFO |  1. BMTUSDT      | BUY  | Price: $  0.0668 | Confidence:  83.1% | Momentum: +3.31%
+2025-10-10 09:01:25 | INFO |  2. 1000TAGUSDT  | SELL | Price: $  0.3606 | Confidence:  81.4% | Momentum: -3.14%
+2025-10-10 09:01:25 | INFO |  3. REZUSDT      | SELL | Price: $  0.0152 | Confidence:  73.8% | Momentum: -2.38%
+2025-10-10 09:01:25 | INFO |  4. MUSDT        | SELL | Price: $  2.0351 | Confidence:  73.5% | Momentum: -2.35%
+2025-10-10 09:01:25 | INFO |  5. SAPIENUSDT   | SELL | Price: $  0.1371 | Confidence:  70.7% | Momentum: -2.07%
+2025-10-10 09:01:25 | INFO |  6. 1000000CHEEMSUSDT | BUY  | Price: $  1.9375 | Confidence:  69.8% | Momentum: +1.98%
+2025-10-10 09:01:26 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-10 09:01:26 | INFO | 1. BMTUSDT - BUY (83.1%) @ $0.06683
+2025-10-10 09:01:27 | INFO | Setting leverage for BMTUSDT to 1x
+2025-10-10 09:01:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BMTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 09:01:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BMTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '131667', 'timeInForce': 'IOC'}
+2025-10-10 09:01:27 | INFO | ✅ Perpetual order placed: 34368c11-7a64-4cd3-a2db-5fd6b4891035
+2025-10-10 09:01:28 | INFO | Setting stop loss via trading stop: BMTUSDT @ 0.0648251
+2025-10-10 09:01:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 09:01:28 | INFO | Setting take profit via trading stop: BMTUSDT @ 0.0674983
+2025-10-10 09:01:28 | INFO | ✅ Take profit set via position management
+2025-10-10 09:01:30 | INFO | Setting trailing stop: BMTUSDT @ 1.0% = $0.000668 from $0.06678
+2025-10-10 09:01:30 | INFO | ✅ Trailing stop set: 1.0% ($0.000668)
+2025-10-10 09:01:30 | INFO | ✅ EXECUTED: BMTUSDT BUY 131667.000000 @ $0.06683 (Conf: 83.1%)
+2025-10-10 09:01:31 | INFO | 2. 1000TAGUSDT - SELL (81.4%) @ $0.3606
+2025-10-10 09:01:32 | INFO | Setting leverage for 1000TAGUSDT to 1x
+2025-10-10 09:01:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000TAGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 09:01:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000TAGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '22086', 'timeInForce': 'IOC'}
+2025-10-10 09:01:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2208600000000 > max_qty:515000000000 (ErrCode: 10001) (ErrTime: 05:01:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000TAGUSDT", "side": "Sell", "orderType": "Market", "qty": "22086", "timeInForce": "IOC"}.
+2025-10-10 09:01:32 | ERROR | ❌ FAILED: 1000TAGUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2208600000000 > max_qty:515000000000 (ErrCode: 10001) (ErrTime: 05:01:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000TAGUSDT", "side": "Sell", "orderType": "Market", "qty": "22086", "timeInForce": "IOC"}.
+2025-10-10 09:01:33 | INFO | 3. REZUSDT - SELL (73.8%) @ $0.01515
+2025-10-10 09:01:34 | INFO | Setting leverage for REZUSDT to 1x
+2025-10-10 09:01:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "REZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 09:01:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'REZUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '525692', 'timeInForce': 'IOC'}
+2025-10-10 09:01:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:52569200000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 05:01:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REZUSDT", "side": "Sell", "orderType": "Market", "qty": "525692", "timeInForce": "IOC"}.
+2025-10-10 09:01:34 | ERROR | ❌ FAILED: REZUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:52569200000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 05:01:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REZUSDT", "side": "Sell", "orderType": "Market", "qty": "525692", "timeInForce": "IOC"}.
+2025-10-10 09:01:35 | INFO | 4. MUSDT - SELL (73.5%) @ $2.0351
+2025-10-10 09:01:36 | INFO | Setting leverage for MUSDT to 1x
+2025-10-10 09:01:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 09:01:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3913', 'timeInForce': 'IOC'}
+2025-10-10 09:01:36 | INFO | ✅ Perpetual order placed: aa796182-3878-4de5-9095-daf90401c4ae
+2025-10-10 09:01:37 | INFO | Setting stop loss via trading stop: MUSDT @ 2.096153
+2025-10-10 09:01:37 | INFO | ✅ Stop loss set via position management
+2025-10-10 09:01:37 | INFO | Setting take profit via trading stop: MUSDT @ 2.0147489999999997
+2025-10-10 09:01:37 | INFO | ✅ Take profit set via position management
+2025-10-10 09:01:38 | INFO | Setting trailing stop: MUSDT @ 1.0% = $0.020349 from $2.0349
+2025-10-10 09:01:39 | INFO | ✅ Trailing stop set: 1.0% ($0.020349)
+2025-10-10 09:01:39 | INFO | ✅ EXECUTED: MUSDT SELL 3913.000000 @ $2.0351 (Conf: 73.5%)
+2025-10-10 09:01:39 | INFO | 5. SAPIENUSDT - SELL (70.7%) @ $0.13713
+2025-10-10 09:01:40 | INFO | Setting leverage for SAPIENUSDT to 1x
+2025-10-10 09:01:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SAPIENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 09:01:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SAPIENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '52567', 'timeInForce': 'IOC'}
+2025-10-10 09:01:40 | INFO | ✅ Perpetual order placed: a70838aa-ea27-4bc1-a6a4-a3692d0ae754
+2025-10-10 09:01:41 | INFO | Setting stop loss via trading stop: SAPIENUSDT @ 0.1412439
+2025-10-10 09:01:41 | INFO | ✅ Stop loss set via position management
+2025-10-10 09:01:41 | INFO | Setting take profit via trading stop: SAPIENUSDT @ 0.1357587
+2025-10-10 09:01:41 | INFO | ✅ Take profit set via position management
+2025-10-10 09:01:43 | INFO | Setting trailing stop: SAPIENUSDT @ 1.0% = $0.001371 from $0.13713
+2025-10-10 09:01:43 | INFO | ✅ Trailing stop set: 1.0% ($0.001371)
+2025-10-10 09:01:43 | INFO | ✅ EXECUTED: SAPIENUSDT SELL 52567.000000 @ $0.13713 (Conf: 70.7%)
+2025-10-10 09:01:43 | INFO | 6. 1000000CHEEMSUSDT - BUY (69.8%) @ $1.9375
+2025-10-10 09:01:44 | INFO | Setting leverage for 1000000CHEEMSUSDT to 1x
+2025-10-10 09:01:44 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:44).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 09:01:44 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000CHEEMSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3367', 'timeInForce': 'IOC'}
+2025-10-10 09:01:45 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:336700000000 > max_qty:274000000000 (ErrCode: 10001) (ErrTime: 05:01:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "side": "Buy", "orderType": "Market", "qty": "3367", "timeInForce": "IOC"}.
+2025-10-10 09:01:45 | ERROR | ❌ FAILED: 1000000CHEEMSUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:336700000000 > max_qty:274000000000 (ErrCode: 10001) (ErrTime: 05:01:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000CHEEMSUSDT", "side": "Buy", "orderType": "Market", "qty": "3367", "timeInForce": "IOC"}.
+2025-10-10 09:01:45 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 3 failed
+2025-10-10 09:01:45 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 09:01:45 | INFO |    • BMTUSDT: LONG 131667.000000 @ $0.06683 - SL: $0.0648 TP: $0.0675
+2025-10-10 09:01:45 | INFO |    • MUSDT: SHORT 3913.000000 @ $2.0351 - SL: $2.0962 TP: $2.0147
+2025-10-10 09:01:45 | INFO |    • SAPIENUSDT: SHORT 52567.000000 @ $0.13713 - SL: $0.1412 TP: $0.1358
+2025-10-10 09:01:45 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 09:01:46 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 09:01:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 09:01:46 | INFO | 🎉 SESSION COMPLETED in 31.7s
+2025-10-10 09:01:46 | INFO | ============================================================
