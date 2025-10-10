@@ -19986,3 +19986,36 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 02:01:26 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 02:01:26 | INFO | 🎉 SESSION COMPLETED in 21.8s
 2025-10-11 02:01:26 | INFO | ============================================================
+2025-10-11 02:16:02 | INFO | ================================================================================
+2025-10-11 02:16:02 | INFO | NEW PERPETUAL SESSION: 2025-10-11 02:16:02
+2025-10-11 02:16:02 | INFO | ================================================================================
+2025-10-11 02:16:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 02:16:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 02:16:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 02:16:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 02:16:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 02:16:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 02:16:23 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 02:16:23 | INFO |  1. GIGGLEUSDT   | SELL | Price: $109.0700 | Confidence:  95.0% | Momentum: -7.93%
+2025-10-11 02:16:24 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-11 02:16:24 | INFO | 1. GIGGLEUSDT - SELL (95.0%) @ $109.07
+2025-10-11 02:16:24 | INFO | Setting leverage for GIGGLEUSDT to 1x
+2025-10-11 02:16:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:16:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGGLEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 02:16:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGGLEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '77.224', 'timeInForce': 'IOC'}
+2025-10-11 02:16:25 | INFO | ✅ Perpetual order placed: bcf0ee6a-85f5-49aa-b96f-09cdda6b47cb
+2025-10-11 02:16:25 | INFO | Setting stop loss via trading stop: GIGGLEUSDT @ 112.3421
+2025-10-11 02:16:25 | INFO | ✅ Stop loss set via position management
+2025-10-11 02:16:26 | INFO | Setting take profit via trading stop: GIGGLEUSDT @ 107.9793
+2025-10-11 02:16:26 | INFO | ✅ Take profit set via position management
+2025-10-11 02:16:27 | INFO | Setting trailing stop: GIGGLEUSDT @ 1.0% = $1.089600 from $108.96
+2025-10-11 02:16:28 | INFO | ✅ Trailing stop set: 1.0% ($1.089600)
+2025-10-11 02:16:28 | INFO | ✅ EXECUTED: GIGGLEUSDT SELL 77.224000 @ $109.07 (Conf: 95.0%)
+2025-10-11 02:16:28 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 0 failed
+2025-10-11 02:16:28 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 02:16:28 | INFO |    • GIGGLEUSDT: SHORT 77.224000 @ $109.07 - SL: $112.3421 TP: $107.9793
+2025-10-11 02:16:28 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 02:16:29 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 02:16:29 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 02:16:29 | INFO | 🎉 SESSION COMPLETED in 26.3s
+2025-10-11 02:16:29 | INFO | ============================================================
