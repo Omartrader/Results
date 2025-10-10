@@ -18185,3 +18185,46 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 20:16:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 20:16:30 | INFO | 🎉 SESSION COMPLETED in 17.6s
 2025-10-10 20:16:30 | INFO | ============================================================
+2025-10-10 20:31:12 | INFO | ================================================================================
+2025-10-10 20:31:12 | INFO | NEW PERPETUAL SESSION: 2025-10-10 20:31:12
+2025-10-10 20:31:12 | INFO | ================================================================================
+2025-10-10 20:31:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 20:31:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 20:31:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 20:31:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 20:31:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 20:31:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 20:31:28 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 20:31:28 | INFO |  1. ATHUSDT      | BUY  | Price: $  0.0547 | Confidence:  72.8% | Momentum: +2.28%
+2025-10-10 20:31:28 | INFO |  2. BSUUSDT      | SELL | Price: $  0.2149 | Confidence:  65.8% | Momentum: -1.58%
+2025-10-10 20:31:28 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-10 20:31:28 | INFO | 1. ATHUSDT - BUY (72.8%) @ $0.05471
+2025-10-10 20:31:29 | INFO | Setting leverage for ATHUSDT to 1x
+2025-10-10 20:31:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ATHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 20:31:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ATHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '156940', 'timeInForce': 'IOC'}
+2025-10-10 20:31:30 | INFO | ✅ Perpetual order placed: 781a267e-d035-4f01-a867-f4e4dc90e184
+2025-10-10 20:31:30 | INFO | Setting stop loss via trading stop: ATHUSDT @ 0.0530687
+2025-10-10 20:31:30 | INFO | ✅ Stop loss set via position management
+2025-10-10 20:31:30 | INFO | Setting take profit via trading stop: ATHUSDT @ 0.0552571
+2025-10-10 20:31:30 | INFO | ✅ Take profit set via position management
+2025-10-10 20:31:32 | INFO | Setting trailing stop: ATHUSDT @ 1.0% = $0.000548 from $0.05477
+2025-10-10 20:31:32 | INFO | ✅ Trailing stop set: 1.0% ($0.000548)
+2025-10-10 20:31:32 | INFO | ✅ EXECUTED: ATHUSDT BUY 156940.000000 @ $0.05471 (Conf: 72.8%)
+2025-10-10 20:31:33 | INFO | 2. BSUUSDT - SELL (65.8%) @ $0.21489
+2025-10-10 20:31:34 | INFO | Setting leverage for BSUUSDT to 1x
+2025-10-10 20:31:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:31:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BSUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 20:31:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BSUUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '36165', 'timeInForce': 'IOC'}
+2025-10-10 20:31:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:3616500000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:31:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BSUUSDT", "side": "Sell", "orderType": "Market", "qty": "36165", "timeInForce": "IOC"}.
+2025-10-10 20:31:34 | ERROR | ❌ FAILED: BSUUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:3616500000000 > max_qty:2000000000000 (ErrCode: 10001) (ErrTime: 16:31:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BSUUSDT", "side": "Sell", "orderType": "Market", "qty": "36165", "timeInForce": "IOC"}.
+2025-10-10 20:31:35 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 1 failed
+2025-10-10 20:31:35 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 20:31:35 | INFO |    • ATHUSDT: LONG 156940.000000 @ $0.05471 - SL: $0.0531 TP: $0.0553
+2025-10-10 20:31:35 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 20:31:35 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 20:31:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 20:31:35 | INFO | 🎉 SESSION COMPLETED in 23.1s
+2025-10-10 20:31:35 | INFO | ============================================================
