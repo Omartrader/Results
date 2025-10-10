@@ -12133,3 +12133,102 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 04:46:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 04:46:41 | INFO | 🎉 SESSION COMPLETED in 41.3s
 2025-10-10 04:46:41 | INFO | ============================================================
+2025-10-10 05:00:58 | INFO | ================================================================================
+2025-10-10 05:00:58 | INFO | NEW PERPETUAL SESSION: 2025-10-10 05:00:58
+2025-10-10 05:00:58 | INFO | ================================================================================
+2025-10-10 05:00:58 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 05:00:58 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 05:00:58 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 05:00:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 05:01:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 05:01:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 05:01:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 05:01:12 | INFO |  1. ACEUSDT      | BUY  | Price: $  0.4834 | Confidence:  95.0% | Momentum: +9.74%
+2025-10-10 05:01:12 | INFO |  2. COAIUSDT     | BUY  | Price: $  6.0136 | Confidence:  95.0% | Momentum: +4.97%
+2025-10-10 05:01:12 | INFO |  3. NODEUSDT     | BUY  | Price: $  0.0698 | Confidence:  95.0% | Momentum: +4.82%
+2025-10-10 05:01:12 | INFO |  4. ESPORTSUSDT  | BUY  | Price: $  0.1945 | Confidence:  94.1% | Momentum: +4.41%
+2025-10-10 05:01:12 | INFO |  5. HYPEUSDT     | BUY  | Price: $ 44.1360 | Confidence:  86.5% | Momentum: +3.65%
+2025-10-10 05:01:12 | INFO |  6. BANANAUSDT   | BUY  | Price: $ 17.6990 | Confidence:  84.7% | Momentum: +3.47%
+2025-10-10 05:01:12 | INFO |  7. ARUSDT       | BUY  | Price: $  5.7050 | Confidence:  77.0% | Momentum: +2.70%
+2025-10-10 05:01:12 | INFO |  8. AI16ZUSDT    | BUY  | Price: $  0.0878 | Confidence:  76.3% | Momentum: +2.63%
+2025-10-10 05:01:12 | INFO |  9. CETUSUSDT    | BUY  | Price: $  0.0718 | Confidence:  74.4% | Momentum: +2.44%
+2025-10-10 05:01:12 | INFO | 10. NMRUSDT      | BUY  | Price: $ 15.9120 | Confidence:  72.1% | Momentum: +2.21%
+2025-10-10 05:01:13 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 05:01:13 | INFO | 1. ACEUSDT - BUY (95.0%) @ $0.4834
+2025-10-10 05:01:14 | INFO | Setting leverage for ACEUSDT to 1x
+2025-10-10 05:01:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:01:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ACEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 05:01:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '18649.4', 'timeInForce': 'IOC'}
+2025-10-10 05:01:14 | INFO | ✅ Perpetual order placed: 173f6238-15a9-4168-a031-87bff32d0ccf
+2025-10-10 05:01:14 | INFO | Setting stop loss via trading stop: ACEUSDT @ 0.468898
+2025-10-10 05:01:14 | INFO | ✅ Stop loss set via position management
+2025-10-10 05:01:15 | INFO | Setting take profit via trading stop: ACEUSDT @ 0.488234
+2025-10-10 05:01:15 | INFO | ✅ Take profit set via position management
+2025-10-10 05:01:16 | INFO | Setting trailing stop: ACEUSDT @ 1.0% = $0.004850 from $0.485
+2025-10-10 05:01:16 | INFO | ✅ Trailing stop set: 1.0% ($0.004850)
+2025-10-10 05:01:16 | INFO | ✅ EXECUTED: ACEUSDT BUY 18649.400000 @ $0.4834 (Conf: 95.0%)
+2025-10-10 05:01:17 | INFO | 2. COAIUSDT - BUY (95.0%) @ $6.0136
+2025-10-10 05:01:18 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-10 05:01:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:01:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 05:01:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1357', 'timeInForce': 'IOC'}
+2025-10-10 05:01:18 | INFO | ✅ Perpetual order placed: 29839bb8-f4a1-4143-8437-d03c8c8d4063
+2025-10-10 05:01:18 | INFO | Setting stop loss via trading stop: COAIUSDT @ 5.833192
+2025-10-10 05:01:18 | INFO | ✅ Stop loss set via position management
+2025-10-10 05:01:19 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.073736
+2025-10-10 05:01:19 | INFO | ✅ Take profit set via position management
+2025-10-10 05:01:20 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.060112 from $6.0112
+2025-10-10 05:01:21 | INFO | ✅ Trailing stop set: 1.0% ($0.060112)
+2025-10-10 05:01:21 | INFO | ✅ EXECUTED: COAIUSDT BUY 1357.000000 @ $6.0136 (Conf: 95.0%)
+2025-10-10 05:01:21 | INFO | 3. NODEUSDT - BUY (95.0%) @ $0.06981
+2025-10-10 05:01:22 | INFO | Setting leverage for NODEUSDT to 1x
+2025-10-10 05:01:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:01:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NODEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 05:01:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NODEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '105788', 'timeInForce': 'IOC'}
+2025-10-10 05:01:22 | INFO | ✅ Perpetual order placed: 54095f94-3ead-40df-ab4b-1f408d3beecf
+2025-10-10 05:01:23 | INFO | Setting stop loss via trading stop: NODEUSDT @ 0.06771569999999999
+2025-10-10 05:01:23 | INFO | ✅ Stop loss set via position management
+2025-10-10 05:01:23 | INFO | Setting take profit via trading stop: NODEUSDT @ 0.0705081
+2025-10-10 05:01:23 | INFO | ✅ Take profit set via position management
+2025-10-10 05:01:24 | INFO | Setting trailing stop: NODEUSDT @ 1.0% = $0.000698 from $0.06981
+2025-10-10 05:01:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000698)
+2025-10-10 05:01:25 | INFO | ✅ EXECUTED: NODEUSDT BUY 105788.000000 @ $0.06981 (Conf: 95.0%)
+2025-10-10 05:01:25 | INFO | 4. ESPORTSUSDT - BUY (94.1%) @ $0.19446
+2025-10-10 05:01:26 | INFO | Setting leverage for ESPORTSUSDT to 1x
+2025-10-10 05:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ESPORTSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 05:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ESPORTSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '34373', 'timeInForce': 'IOC'}
+2025-10-10 05:01:27 | INFO | ✅ Perpetual order placed: ad324497-c414-415d-9df6-f1901352d664
+2025-10-10 05:01:27 | INFO | Setting stop loss via trading stop: ESPORTSUSDT @ 0.1886262
+2025-10-10 05:01:27 | INFO | ✅ Stop loss set via position management
+2025-10-10 05:01:27 | INFO | Setting take profit via trading stop: ESPORTSUSDT @ 0.19640459999999998
+2025-10-10 05:01:27 | INFO | ✅ Take profit set via position management
+2025-10-10 05:01:29 | INFO | Setting trailing stop: ESPORTSUSDT @ 1.0% = $0.001945 from $0.19446
+2025-10-10 05:01:29 | INFO | ✅ Trailing stop set: 1.0% ($0.001945)
+2025-10-10 05:01:29 | INFO | ✅ EXECUTED: ESPORTSUSDT BUY 34373.000000 @ $0.19446 (Conf: 94.1%)
+2025-10-10 05:01:29 | INFO | 5. HYPEUSDT - BUY (86.5%) @ $44.136
+2025-10-10 05:01:30 | INFO | Setting leverage for HYPEUSDT to 1x
+2025-10-10 05:01:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:01:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HYPEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 05:01:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HYPEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '137.07', 'timeInForce': 'IOC'}
+2025-10-10 05:01:31 | INFO | ✅ Perpetual order placed: e32c487c-05af-4eb9-a509-cbd4be8a29a4
+2025-10-10 05:01:31 | INFO | Setting stop loss via trading stop: HYPEUSDT @ 42.81192
+2025-10-10 05:01:31 | INFO | ✅ Stop loss set via position management
+2025-10-10 05:01:31 | INFO | Setting take profit via trading stop: HYPEUSDT @ 44.577360000000006
+2025-10-10 05:01:31 | INFO | ✅ Take profit set via position management
+2025-10-10 05:01:33 | INFO | Setting trailing stop: HYPEUSDT @ 1.0% = $0.441320 from $44.132
+2025-10-10 05:01:33 | INFO | ✅ Trailing stop set: 1.0% ($0.441320)
+2025-10-10 05:01:33 | INFO | ✅ EXECUTED: HYPEUSDT BUY 137.070000 @ $44.136 (Conf: 86.5%)
+2025-10-10 05:01:34 | INFO | 6. BANANAUSDT - BUY (84.7%) @ $17.699
+2025-10-10 05:01:34 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 0 failed
+2025-10-10 05:01:34 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 05:01:34 | INFO |    • ACEUSDT: LONG 18649.400000 @ $0.4834 - SL: $0.4689 TP: $0.4882
+2025-10-10 05:01:34 | INFO |    • COAIUSDT: LONG 1357.000000 @ $6.0136 - SL: $5.8332 TP: $6.0737
+2025-10-10 05:01:34 | INFO |    • NODEUSDT: LONG 105788.000000 @ $0.06981 - SL: $0.0677 TP: $0.0705
+2025-10-10 05:01:34 | INFO |    • ESPORTSUSDT: LONG 34373.000000 @ $0.19446 - SL: $0.1886 TP: $0.1964
+2025-10-10 05:01:34 | INFO |    • HYPEUSDT: LONG 137.070000 @ $44.136 - SL: $42.8119 TP: $44.5774
+2025-10-10 05:01:34 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 05:01:34 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 05:01:34 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 05:01:34 | INFO | 🎉 SESSION COMPLETED in 35.5s
+2025-10-10 05:01:34 | INFO | ============================================================
