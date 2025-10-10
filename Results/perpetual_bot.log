@@ -15167,3 +15167,126 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 12:17:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 12:17:30 | INFO | 🎉 SESSION COMPLETED in 45.3s
 2025-10-10 12:17:30 | INFO | ============================================================
+2025-10-10 12:31:20 | INFO | ================================================================================
+2025-10-10 12:31:20 | INFO | NEW PERPETUAL SESSION: 2025-10-10 12:31:20
+2025-10-10 12:31:20 | INFO | ================================================================================
+2025-10-10 12:31:20 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 12:31:20 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 12:31:20 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 12:31:20 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 12:31:22 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 12:31:22 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 12:31:31 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 12:31:31 | INFO |  1. FHEUSDT      | BUY  | Price: $  0.0481 | Confidence:  80.6% | Momentum: +3.06%
+2025-10-10 12:31:31 | INFO |  2. MITOUSDT     | SELL | Price: $  0.1527 | Confidence:  80.5% | Momentum: -3.05%
+2025-10-10 12:31:31 | INFO |  3. ORDERUSDT    | BUY  | Price: $  0.3072 | Confidence:  78.8% | Momentum: +2.88%
+2025-10-10 12:31:31 | INFO |  4. BATUSDT      | SELL | Price: $  0.1680 | Confidence:  77.8% | Momentum: -2.78%
+2025-10-10 12:31:31 | INFO |  5. RHEAUSDT     | BUY  | Price: $  0.0282 | Confidence:  76.6% | Momentum: +2.66%
+2025-10-10 12:31:31 | INFO |  6. INITUSDT     | BUY  | Price: $  0.3153 | Confidence:  75.0% | Momentum: +2.50%
+2025-10-10 12:31:31 | INFO |  7. BTRUSDT      | BUY  | Price: $  0.0741 | Confidence:  73.0% | Momentum: +2.30%
+2025-10-10 12:31:31 | INFO |  8. CELRUSDT     | BUY  | Price: $  0.0083 | Confidence:  69.0% | Momentum: +1.90%
+2025-10-10 12:31:31 | INFO |  9. OKBUSDT      | SELL | Price: $205.7800 | Confidence:  68.6% | Momentum: -1.86%
+2025-10-10 12:31:31 | INFO | 10. DMCUSDT      | BUY  | Price: $  0.0033 | Confidence:  66.8% | Momentum: +1.68%
+2025-10-10 12:31:32 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 12:31:32 | INFO | 1. FHEUSDT - BUY (80.6%) @ $0.0481
+2025-10-10 12:31:33 | INFO | Setting leverage for FHEUSDT to 1x
+2025-10-10 12:31:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 08:31:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FHEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 12:31:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FHEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '181001', 'timeInForce': 'IOC'}
+2025-10-10 12:31:33 | INFO | ✅ Perpetual order placed: 4f55a86a-25e4-47d2-92a7-78dd4610d3f2
+2025-10-10 12:31:33 | INFO | Setting stop loss via trading stop: FHEUSDT @ 0.046657
+2025-10-10 12:31:33 | INFO | ✅ Stop loss set via position management
+2025-10-10 12:31:34 | INFO | Setting take profit via trading stop: FHEUSDT @ 0.048581
+2025-10-10 12:31:34 | INFO | ✅ Take profit set via position management
+2025-10-10 12:31:35 | INFO | Setting trailing stop: FHEUSDT @ 1.0% = $0.000481 from $0.04814
+2025-10-10 12:31:36 | INFO | ✅ Trailing stop set: 1.0% ($0.000481)
+2025-10-10 12:31:36 | INFO | ✅ EXECUTED: FHEUSDT BUY 181001.000000 @ $0.0481 (Conf: 80.6%)
+2025-10-10 12:31:36 | INFO | 2. MITOUSDT - SELL (80.5%) @ $0.15268
+2025-10-10 12:31:37 | INFO | Setting leverage for MITOUSDT to 1x
+2025-10-10 12:31:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 08:31:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MITOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 12:31:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MITOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '51610', 'timeInForce': 'IOC'}
+2025-10-10 12:31:38 | INFO | ✅ Perpetual order placed: 39a15136-e4ec-4332-a1a1-aa918e8e9b50
+2025-10-10 12:31:38 | INFO | Setting stop loss via trading stop: MITOUSDT @ 0.15726040000000002
+2025-10-10 12:31:38 | INFO | ✅ Stop loss set via position management
+2025-10-10 12:31:39 | INFO | Setting take profit via trading stop: MITOUSDT @ 0.15115320000000002
+2025-10-10 12:31:39 | INFO | ✅ Take profit set via position management
+2025-10-10 12:31:40 | INFO | Setting trailing stop: MITOUSDT @ 1.0% = $0.001529 from $0.1529
+2025-10-10 12:31:40 | INFO | ✅ Trailing stop set: 1.0% ($0.001529)
+2025-10-10 12:31:40 | INFO | ✅ EXECUTED: MITOUSDT SELL 51610.000000 @ $0.15268 (Conf: 80.5%)
+2025-10-10 12:31:41 | INFO | 3. ORDERUSDT - BUY (78.8%) @ $0.3072
+2025-10-10 12:31:42 | INFO | Setting leverage for ORDERUSDT to 1x
+2025-10-10 12:31:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 08:31:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ORDERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 12:31:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ORDERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23216', 'timeInForce': 'IOC'}
+2025-10-10 12:31:42 | INFO | ✅ Perpetual order placed: fe32a634-b445-4cd5-91ff-9cb64e35b7da
+2025-10-10 12:31:42 | INFO | Setting stop loss via trading stop: ORDERUSDT @ 0.29798399999999997
+2025-10-10 12:31:42 | INFO | ✅ Stop loss set via position management
+2025-10-10 12:31:43 | INFO | Setting take profit via trading stop: ORDERUSDT @ 0.310272
+2025-10-10 12:31:43 | INFO | ✅ Take profit set via position management
+2025-10-10 12:31:44 | INFO | Setting trailing stop: ORDERUSDT @ 1.0% = $0.003077 from $0.3077
+2025-10-10 12:31:44 | INFO | ✅ Trailing stop set: 1.0% ($0.003077)
+2025-10-10 12:31:44 | INFO | ✅ EXECUTED: ORDERUSDT BUY 23216.000000 @ $0.3072 (Conf: 78.8%)
+2025-10-10 12:31:45 | INFO | 4. BATUSDT - SELL (77.8%) @ $0.168
+2025-10-10 12:31:45 | INFO | 5. RHEAUSDT - BUY (76.6%) @ $0.02816
+2025-10-10 12:31:46 | INFO | Setting leverage for RHEAUSDT to 1x
+2025-10-10 12:31:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 08:31:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RHEAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 12:31:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RHEAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '229230', 'timeInForce': 'IOC'}
+2025-10-10 12:31:46 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:22923000000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 08:31:46).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RHEAUSDT", "side": "Buy", "orderType": "Market", "qty": "229230", "timeInForce": "IOC"}.
+2025-10-10 12:31:46 | ERROR | ❌ FAILED: RHEAUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:22923000000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 08:31:46).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RHEAUSDT", "side": "Buy", "orderType": "Market", "qty": "229230", "timeInForce": "IOC"}.
+2025-10-10 12:31:47 | INFO | 6. INITUSDT - BUY (75.0%) @ $0.3153
+2025-10-10 12:31:48 | INFO | Setting leverage for INITUSDT to 1x
+2025-10-10 12:31:48 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 08:31:48).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "INITUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 12:31:48 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'INITUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '20473', 'timeInForce': 'IOC'}
+2025-10-10 12:31:49 | INFO | ✅ Perpetual order placed: 85bff78b-4217-416f-94cd-3c1e9699fb5a
+2025-10-10 12:31:49 | INFO | Setting stop loss via trading stop: INITUSDT @ 0.30584100000000003
+2025-10-10 12:31:49 | INFO | ✅ Stop loss set via position management
+2025-10-10 12:31:49 | INFO | Setting take profit via trading stop: INITUSDT @ 0.31845300000000004
+2025-10-10 12:31:49 | INFO | ✅ Take profit set via position management
+2025-10-10 12:31:51 | INFO | Setting trailing stop: INITUSDT @ 1.0% = $0.003147 from $0.3147
+2025-10-10 12:31:51 | INFO | ✅ Trailing stop set: 1.0% ($0.003147)
+2025-10-10 12:31:51 | INFO | ✅ EXECUTED: INITUSDT BUY 20473.000000 @ $0.3153 (Conf: 75.0%)
+2025-10-10 12:31:51 | INFO | 7. BTRUSDT - BUY (73.0%) @ $0.07414
+2025-10-10 12:31:52 | INFO | Setting leverage for BTRUSDT to 1x
+2025-10-10 12:31:52 | INFO | ✅ Leverage set to 1x for BTRUSDT
+2025-10-10 12:31:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BTRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '78804', 'timeInForce': 'IOC'}
+2025-10-10 12:31:53 | INFO | ✅ Perpetual order placed: f31fb7eb-ce9a-4250-8997-c62cb75b2263
+2025-10-10 12:31:53 | INFO | Setting stop loss via trading stop: BTRUSDT @ 0.0719158
+2025-10-10 12:31:53 | INFO | ✅ Stop loss set via position management
+2025-10-10 12:31:53 | INFO | Setting take profit via trading stop: BTRUSDT @ 0.0748814
+2025-10-10 12:31:53 | INFO | ✅ Take profit set via position management
+2025-10-10 12:31:55 | INFO | Setting trailing stop: BTRUSDT @ 1.0% = $0.000742 from $0.07417
+2025-10-10 12:31:55 | INFO | ✅ Trailing stop set: 1.0% ($0.000742)
+2025-10-10 12:31:55 | INFO | ✅ EXECUTED: BTRUSDT BUY 78804.000000 @ $0.07414 (Conf: 73.0%)
+2025-10-10 12:31:56 | INFO | 8. CELRUSDT - BUY (69.0%) @ $0.00827
+2025-10-10 12:31:57 | INFO | Setting leverage for CELRUSDT to 1x
+2025-10-10 12:31:57 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 08:31:57).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CELRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 12:31:57 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CELRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '639429', 'timeInForce': 'IOC'}
+2025-10-10 12:31:57 | INFO | ✅ Perpetual order placed: b4202fab-0115-47d0-96d8-e4b873529b13
+2025-10-10 12:31:58 | INFO | Setting stop loss via trading stop: CELRUSDT @ 0.0080219
+2025-10-10 12:31:58 | INFO | ✅ Stop loss set via position management
+2025-10-10 12:31:58 | INFO | Setting take profit via trading stop: CELRUSDT @ 0.0083527
+2025-10-10 12:31:58 | INFO | ✅ Take profit set via position management
+2025-10-10 12:31:59 | INFO | Setting trailing stop: CELRUSDT @ 1.0% = $0.000083 from $0.008264
+2025-10-10 12:32:00 | INFO | ✅ Trailing stop set: 1.0% ($0.000083)
+2025-10-10 12:32:00 | INFO | ✅ EXECUTED: CELRUSDT BUY 639429.000000 @ $0.00827 (Conf: 69.0%)
+2025-10-10 12:32:00 | INFO | 9. OKBUSDT - SELL (68.6%) @ $205.78
+2025-10-10 12:32:00 | INFO | 10. DMCUSDT - BUY (66.8%) @ $0.0032618
+2025-10-10 12:32:00 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 1 failed
+2025-10-10 12:32:00 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 12:32:00 | INFO |    • FHEUSDT: LONG 181001.000000 @ $0.0481 - SL: $0.0467 TP: $0.0486
+2025-10-10 12:32:00 | INFO |    • MITOUSDT: SHORT 51610.000000 @ $0.15268 - SL: $0.1573 TP: $0.1512
+2025-10-10 12:32:00 | INFO |    • ORDERUSDT: LONG 23216.000000 @ $0.3072 - SL: $0.2980 TP: $0.3103
+2025-10-10 12:32:00 | INFO |    • INITUSDT: LONG 20473.000000 @ $0.3153 - SL: $0.3058 TP: $0.3185
+2025-10-10 12:32:00 | INFO |    • BTRUSDT: LONG 78804.000000 @ $0.07414 - SL: $0.0719 TP: $0.0749
+2025-10-10 12:32:00 | INFO |    • CELRUSDT: LONG 639429.000000 @ $0.00827 - SL: $0.0080 TP: $0.0084
+2025-10-10 12:32:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 12:32:01 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 12:32:01 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 12:32:01 | INFO | 🎉 SESSION COMPLETED in 39.9s
+2025-10-10 12:32:01 | INFO | ============================================================
