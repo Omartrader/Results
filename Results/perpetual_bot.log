@@ -19021,3 +19021,88 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 23:31:43 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 23:31:43 | INFO | 🎉 SESSION COMPLETED in 29.0s
 2025-10-10 23:31:43 | INFO | ============================================================
+2025-10-10 23:46:13 | INFO | ================================================================================
+2025-10-10 23:46:13 | INFO | NEW PERPETUAL SESSION: 2025-10-10 23:46:13
+2025-10-10 23:46:13 | INFO | ================================================================================
+2025-10-10 23:46:13 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 23:46:13 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 23:46:13 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 23:46:13 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 23:46:15 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 23:46:15 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 23:46:26 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 23:46:26 | INFO |  1. CLOUDUSDT    | BUY  | Price: $  0.1668 | Confidence:  95.0% | Momentum: +5.80%
+2025-10-10 23:46:26 | INFO |  2. GIGGLEUSDT   | BUY  | Price: $123.8900 | Confidence:  95.0% | Momentum: +32.62%
+2025-10-10 23:46:26 | INFO |  3. LAUSDT       | SELL | Price: $  0.3564 | Confidence:  95.0% | Momentum: -4.81%
+2025-10-10 23:46:26 | INFO |  4. AINUSDT      | SELL | Price: $  0.1474 | Confidence:  83.6% | Momentum: -3.36%
+2025-10-10 23:46:26 | INFO |  5. COAIUSDT     | BUY  | Price: $  6.9582 | Confidence:  79.6% | Momentum: +2.96%
+2025-10-10 23:46:26 | INFO |  6. BARDUSDT     | BUY  | Price: $  0.7464 | Confidence:  67.8% | Momentum: +1.78%
+2025-10-10 23:46:26 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-10 23:46:26 | INFO | 1. CLOUDUSDT - BUY (95.0%) @ $0.16681
+2025-10-10 23:46:27 | INFO | Setting leverage for CLOUDUSDT to 1x
+2025-10-10 23:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLOUDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLOUDUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '51038', 'timeInForce': 'IOC'}
+2025-10-10 23:46:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5103800000000 > max_qty:4000000000000 (ErrCode: 10001) (ErrTime: 19:46:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLOUDUSDT", "side": "Buy", "orderType": "Market", "qty": "51038", "timeInForce": "IOC"}.
+2025-10-10 23:46:28 | ERROR | ❌ FAILED: CLOUDUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:5103800000000 > max_qty:4000000000000 (ErrCode: 10001) (ErrTime: 19:46:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLOUDUSDT", "side": "Buy", "orderType": "Market", "qty": "51038", "timeInForce": "IOC"}.
+2025-10-10 23:46:28 | INFO | 2. GIGGLEUSDT - BUY (95.0%) @ $123.89
+2025-10-10 23:46:29 | INFO | Setting leverage for GIGGLEUSDT to 1x
+2025-10-10 23:46:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGGLEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:46:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGGLEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '68.719', 'timeInForce': 'IOC'}
+2025-10-10 23:46:30 | INFO | ✅ Perpetual order placed: 2d039670-adfa-4318-ac78-564a9b9361fa
+2025-10-10 23:46:30 | INFO | Setting stop loss via trading stop: GIGGLEUSDT @ 120.1733
+2025-10-10 23:46:30 | INFO | ✅ Stop loss set via position management
+2025-10-10 23:46:30 | INFO | Setting take profit via trading stop: GIGGLEUSDT @ 125.1289
+2025-10-10 23:46:30 | INFO | ✅ Take profit set via position management
+2025-10-10 23:46:32 | INFO | Setting trailing stop: GIGGLEUSDT @ 1.0% = $1.233600 from $123.36
+2025-10-10 23:46:32 | INFO | ✅ Trailing stop set: 1.0% ($1.233600)
+2025-10-10 23:46:32 | INFO | ✅ EXECUTED: GIGGLEUSDT BUY 68.719000 @ $123.89 (Conf: 95.0%)
+2025-10-10 23:46:33 | INFO | 3. LAUSDT - SELL (95.0%) @ $0.3564
+2025-10-10 23:46:34 | INFO | Setting leverage for LAUSDT to 1x
+2025-10-10 23:46:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:46:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '21620.7', 'timeInForce': 'IOC'}
+2025-10-10 23:46:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2162070000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 19:46:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Sell", "orderType": "Market", "qty": "21620.7", "timeInForce": "IOC"}.
+2025-10-10 23:46:34 | ERROR | ❌ FAILED: LAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2162070000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 19:46:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Sell", "orderType": "Market", "qty": "21620.7", "timeInForce": "IOC"}.
+2025-10-10 23:46:35 | INFO | 4. AINUSDT - SELL (83.6%) @ $0.14737
+2025-10-10 23:46:35 | INFO | 5. COAIUSDT - BUY (79.6%) @ $6.9582
+2025-10-10 23:46:36 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-10 23:46:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:46:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1107', 'timeInForce': 'IOC'}
+2025-10-10 23:46:36 | INFO | ✅ Perpetual order placed: a70434bb-fc15-40a1-b9a5-f623c42333b6
+2025-10-10 23:46:37 | INFO | Setting stop loss via trading stop: COAIUSDT @ 6.749453999999999
+2025-10-10 23:46:37 | INFO | ✅ Stop loss set via position management
+2025-10-10 23:46:37 | INFO | Setting take profit via trading stop: COAIUSDT @ 7.027782
+2025-10-10 23:46:37 | INFO | ✅ Take profit set via position management
+2025-10-10 23:46:38 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.069807 from $6.9807
+2025-10-10 23:46:39 | INFO | ✅ Trailing stop set: 1.0% ($0.069807)
+2025-10-10 23:46:39 | INFO | ✅ EXECUTED: COAIUSDT BUY 1107.000000 @ $6.9582 (Conf: 79.6%)
+2025-10-10 23:46:39 | INFO | 6. BARDUSDT - BUY (67.8%) @ $0.74636
+2025-10-10 23:46:41 | INFO | Setting leverage for BARDUSDT to 1x
+2025-10-10 23:46:41 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:41).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BARDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 23:46:41 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BARDUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9344.8', 'timeInForce': 'IOC'}
+2025-10-10 23:46:41 | INFO | ✅ Perpetual order placed: 15a9a8a8-5146-47aa-9c8c-c4474462817a
+2025-10-10 23:46:42 | INFO | Setting stop loss via trading stop: BARDUSDT @ 0.7239692
+2025-10-10 23:46:42 | INFO | ✅ Stop loss set via position management
+2025-10-10 23:46:42 | INFO | Setting take profit via trading stop: BARDUSDT @ 0.7538236
+2025-10-10 23:46:42 | INFO | ✅ Take profit set via position management
+2025-10-10 23:46:43 | INFO | Setting trailing stop: BARDUSDT @ 1.0% = $0.007472 from $0.74723
+2025-10-10 23:46:44 | INFO | ✅ Trailing stop set: 1.0% ($0.007472)
+2025-10-10 23:46:44 | INFO | ✅ EXECUTED: BARDUSDT BUY 9344.800000 @ $0.74636 (Conf: 67.8%)
+2025-10-10 23:46:44 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 2 failed
+2025-10-10 23:46:44 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 23:46:44 | INFO |    • GIGGLEUSDT: LONG 68.719000 @ $123.89 - SL: $120.1733 TP: $125.1289
+2025-10-10 23:46:44 | INFO |    • COAIUSDT: LONG 1107.000000 @ $6.9582 - SL: $6.7495 TP: $7.0278
+2025-10-10 23:46:44 | INFO |    • BARDUSDT: LONG 9344.800000 @ $0.74636 - SL: $0.7240 TP: $0.7538
+2025-10-10 23:46:44 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 23:46:45 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 23:46:45 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 23:46:45 | INFO | 🎉 SESSION COMPLETED in 30.8s
+2025-10-10 23:46:45 | INFO | ============================================================
