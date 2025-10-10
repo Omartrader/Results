@@ -15940,3 +15940,60 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 14:31:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 14:31:53 | INFO | 🎉 SESSION COMPLETED in 26.5s
 2025-10-10 14:31:53 | INFO | ============================================================
+2025-10-10 14:46:25 | INFO | ================================================================================
+2025-10-10 14:46:25 | INFO | NEW PERPETUAL SESSION: 2025-10-10 14:46:25
+2025-10-10 14:46:25 | INFO | ================================================================================
+2025-10-10 14:46:25 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 14:46:25 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 14:46:25 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 14:46:25 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:46:27 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:46:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:46:37 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 14:46:37 | INFO |  1. ASTERUSDT    | SELL | Price: $  1.5920 | Confidence:  95.0% | Momentum: -5.37%
+2025-10-10 14:46:37 | INFO |  2. DASHUSDT     | BUY  | Price: $ 47.2300 | Confidence:  95.0% | Momentum: +6.59%
+2025-10-10 14:46:37 | INFO |  3. RLCUSDT      | BUY  | Price: $  1.1331 | Confidence:  95.0% | Momentum: +4.66%
+2025-10-10 14:46:37 | INFO |  4. KDAUSDT      | BUY  | Price: $  0.3717 | Confidence:  81.6% | Momentum: +3.16%
+2025-10-10 14:46:37 | INFO |  5. RPLUSDT      | BUY  | Price: $  5.0870 | Confidence:  81.0% | Momentum: +3.10%
+2025-10-10 14:46:37 | INFO |  6. AIOZUSDT     | SELL | Price: $  0.2644 | Confidence:  77.2% | Momentum: -2.72%
+2025-10-10 14:46:37 | INFO |  7. SCRUSDT      | BUY  | Price: $  0.2699 | Confidence:  77.0% | Momentum: +2.70%
+2025-10-10 14:46:37 | INFO |  8. BRETTUSDT    | BUY  | Price: $  0.0433 | Confidence:  69.1% | Momentum: +1.91%
+2025-10-10 14:46:37 | INFO |  9. RSS3USDT     | BUY  | Price: $  0.0380 | Confidence:  68.8% | Momentum: +1.88%
+2025-10-10 14:46:37 | INFO | 10. CHESSUSDT    | BUY  | Price: $  0.0609 | Confidence:  68.5% | Momentum: +1.85%
+2025-10-10 14:46:37 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 14:46:37 | INFO | 1. ASTERUSDT - SELL (95.0%) @ $1.592
+2025-10-10 14:46:38 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-10 14:46:39 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:39).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 14:46:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5462', 'timeInForce': 'IOC'}
+2025-10-10 14:46:39 | INFO | ✅ Perpetual order placed: 520157e9-6817-46ce-9e25-6475b6b90993
+2025-10-10 14:46:39 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.63976
+2025-10-10 14:46:39 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:46:39 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.5760800000000001
+2025-10-10 14:46:39 | INFO | ✅ Take profit set via position management
+2025-10-10 14:46:41 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.015923 from $1.5923
+2025-10-10 14:46:41 | INFO | ✅ Trailing stop set: 1.0% ($0.015923)
+2025-10-10 14:46:41 | INFO | ✅ EXECUTED: ASTERUSDT SELL 5462.000000 @ $1.592 (Conf: 95.0%)
+2025-10-10 14:46:42 | INFO | 2. DASHUSDT - BUY (95.0%) @ $47.23
+2025-10-10 14:46:42 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-10 14:46:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 14:46:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '166.64', 'timeInForce': 'IOC'}
+2025-10-10 14:46:43 | INFO | ✅ Perpetual order placed: a59df062-e111-41f5-bac2-f5d6753329b9
+2025-10-10 14:46:43 | INFO | Setting stop loss via trading stop: DASHUSDT @ 45.8131
+2025-10-10 14:46:43 | INFO | ✅ Stop loss set via position management
+2025-10-10 14:46:43 | INFO | Setting take profit via trading stop: DASHUSDT @ 47.702299999999994
+2025-10-10 14:46:43 | INFO | ✅ Take profit set via position management
+2025-10-10 14:46:45 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.470900 from $47.09
+2025-10-10 14:46:45 | INFO | ✅ Trailing stop set: 1.0% ($0.470900)
+2025-10-10 14:46:45 | INFO | ✅ EXECUTED: DASHUSDT BUY 166.640000 @ $47.23 (Conf: 95.0%)
+2025-10-10 14:46:46 | INFO | 3. RLCUSDT - BUY (95.0%) @ $1.1331
+2025-10-10 14:46:46 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-10 14:46:46 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 14:46:46 | INFO |    • ASTERUSDT: SHORT 5462.000000 @ $1.592 - SL: $1.6398 TP: $1.5761
+2025-10-10 14:46:46 | INFO |    • DASHUSDT: LONG 166.640000 @ $47.23 - SL: $45.8131 TP: $47.7023
+2025-10-10 14:46:46 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 14:46:46 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 14:46:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 14:46:46 | INFO | 🎉 SESSION COMPLETED in 20.2s
+2025-10-10 14:46:46 | INFO | ============================================================
