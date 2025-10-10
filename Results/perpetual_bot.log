@@ -16728,3 +16728,77 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 16:46:48 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 16:46:48 | INFO | 🎉 SESSION COMPLETED in 34.4s
 2025-10-10 16:46:48 | INFO | ============================================================
+2025-10-10 17:01:37 | INFO | ================================================================================
+2025-10-10 17:01:37 | INFO | NEW PERPETUAL SESSION: 2025-10-10 17:01:37
+2025-10-10 17:01:37 | INFO | ================================================================================
+2025-10-10 17:01:37 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 17:01:37 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 17:01:37 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 17:01:37 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 17:01:39 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 17:01:39 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 17:01:53 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 17:01:53 | INFO |  1. NAORISUSDT   | BUY  | Price: $  0.0850 | Confidence:  95.0% | Momentum: +6.52%
+2025-10-10 17:01:53 | INFO |  2. API3USDT     | SELL | Price: $  0.8086 | Confidence:  82.3% | Momentum: -3.23%
+2025-10-10 17:01:53 | INFO |  3. HUMAUSDT     | SELL | Price: $  0.0333 | Confidence:  74.9% | Momentum: -2.49%
+2025-10-10 17:01:53 | INFO |  4. HEMIUSDT     | BUY  | Price: $  0.0890 | Confidence:  74.2% | Momentum: +2.42%
+2025-10-10 17:01:53 | INFO |  5. OMUSDT       | BUY  | Price: $  0.1648 | Confidence:  65.4% | Momentum: +1.54%
+2025-10-10 17:01:53 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-10 17:01:53 | INFO | 1. NAORISUSDT - BUY (95.0%) @ $0.08501
+2025-10-10 17:01:54 | INFO | Setting leverage for NAORISUSDT to 1x
+2025-10-10 17:01:54 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:54).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NAORISUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:01:54 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NAORISUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '101440', 'timeInForce': 'IOC'}
+2025-10-10 17:01:55 | INFO | ✅ Perpetual order placed: 8dc44202-3e84-4ec9-9b1b-19a21ee98dad
+2025-10-10 17:01:55 | INFO | Setting stop loss via trading stop: NAORISUSDT @ 0.0824597
+2025-10-10 17:01:55 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:01:55 | INFO | Setting take profit via trading stop: NAORISUSDT @ 0.08586010000000001
+2025-10-10 17:01:55 | INFO | ✅ Take profit set via position management
+2025-10-10 17:01:57 | INFO | Setting trailing stop: NAORISUSDT @ 1.0% = $0.000850 from $0.08501
+2025-10-10 17:01:57 | INFO | ✅ Trailing stop set: 1.0% ($0.000850)
+2025-10-10 17:01:57 | INFO | ✅ EXECUTED: NAORISUSDT BUY 101440.000000 @ $0.08501 (Conf: 95.0%)
+2025-10-10 17:01:57 | INFO | 2. API3USDT - SELL (82.3%) @ $0.8086
+2025-10-10 17:01:58 | INFO | Setting leverage for API3USDT to 1x
+2025-10-10 17:01:59 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:59).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "API3USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:01:59 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'API3USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '9652.7', 'timeInForce': 'IOC'}
+2025-10-10 17:01:59 | INFO | ✅ Perpetual order placed: 49e80b47-5745-461b-a64e-f0a394a0be14
+2025-10-10 17:01:59 | INFO | Setting stop loss via trading stop: API3USDT @ 0.832858
+2025-10-10 17:01:59 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:02:00 | INFO | Setting take profit via trading stop: API3USDT @ 0.800514
+2025-10-10 17:02:00 | INFO | ✅ Take profit set via position management
+2025-10-10 17:02:01 | INFO | Setting trailing stop: API3USDT @ 1.0% = $0.008089 from $0.8089
+2025-10-10 17:02:02 | INFO | ✅ Trailing stop set: 1.0% ($0.008089)
+2025-10-10 17:02:02 | INFO | ✅ EXECUTED: API3USDT SELL 9652.700000 @ $0.8086 (Conf: 82.3%)
+2025-10-10 17:02:02 | INFO | 3. HUMAUSDT - SELL (74.9%) @ $0.03331
+2025-10-10 17:02:03 | INFO | Setting leverage for HUMAUSDT to 1x
+2025-10-10 17:02:03 | INFO | ✅ Leverage set to 1x for HUMAUSDT
+2025-10-10 17:02:03 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HUMAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '212082', 'timeInForce': 'IOC'}
+2025-10-10 17:02:03 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:21208200000000 > max_qty:21000000000000 (ErrCode: 10001) (ErrTime: 13:02:03).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HUMAUSDT", "side": "Sell", "orderType": "Market", "qty": "212082", "timeInForce": "IOC"}.
+2025-10-10 17:02:03 | ERROR | ❌ FAILED: HUMAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:21208200000000 > max_qty:21000000000000 (ErrCode: 10001) (ErrTime: 13:02:03).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HUMAUSDT", "side": "Sell", "orderType": "Market", "qty": "212082", "timeInForce": "IOC"}.
+2025-10-10 17:02:04 | INFO | 4. HEMIUSDT - BUY (74.2%) @ $0.089
+2025-10-10 17:02:05 | INFO | Setting leverage for HEMIUSDT to 1x
+2025-10-10 17:02:05 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:02:05).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HEMIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 17:02:05 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HEMIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '79376', 'timeInForce': 'IOC'}
+2025-10-10 17:02:05 | INFO | ✅ Perpetual order placed: 712e8447-1eb2-4485-bba6-af5ca0332add
+2025-10-10 17:02:06 | INFO | Setting stop loss via trading stop: HEMIUSDT @ 0.08632999999999999
+2025-10-10 17:02:06 | INFO | ✅ Stop loss set via position management
+2025-10-10 17:02:06 | INFO | Setting take profit via trading stop: HEMIUSDT @ 0.08989
+2025-10-10 17:02:06 | INFO | ✅ Take profit set via position management
+2025-10-10 17:02:08 | INFO | Setting trailing stop: HEMIUSDT @ 1.0% = $0.000890 from $0.08899
+2025-10-10 17:02:08 | INFO | ✅ Trailing stop set: 1.0% ($0.000890)
+2025-10-10 17:02:08 | INFO | ✅ EXECUTED: HEMIUSDT BUY 79376.000000 @ $0.089 (Conf: 74.2%)
+2025-10-10 17:02:08 | INFO | 5. OMUSDT - BUY (65.4%) @ $0.1648
+2025-10-10 17:02:08 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 1 failed
+2025-10-10 17:02:08 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 17:02:08 | INFO |    • NAORISUSDT: LONG 101440.000000 @ $0.08501 - SL: $0.0825 TP: $0.0859
+2025-10-10 17:02:08 | INFO |    • API3USDT: SHORT 9652.700000 @ $0.8086 - SL: $0.8329 TP: $0.8005
+2025-10-10 17:02:08 | INFO |    • HEMIUSDT: LONG 79376.000000 @ $0.089 - SL: $0.0863 TP: $0.0899
+2025-10-10 17:02:08 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 17:02:09 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 17:02:09 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 17:02:09 | INFO | 🎉 SESSION COMPLETED in 30.9s
+2025-10-10 17:02:09 | INFO | ============================================================
