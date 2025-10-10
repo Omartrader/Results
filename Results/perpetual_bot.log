@@ -11897,3 +11897,116 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-10 04:16:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 04:16:46 | INFO | 🎉 SESSION COMPLETED in 45.6s
 2025-10-10 04:16:46 | INFO | ============================================================
+2025-10-10 04:30:58 | INFO | ================================================================================
+2025-10-10 04:30:58 | INFO | NEW PERPETUAL SESSION: 2025-10-10 04:30:58
+2025-10-10 04:30:58 | INFO | ================================================================================
+2025-10-10 04:30:58 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 04:30:58 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 04:30:58 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 04:30:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 04:30:59 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 04:30:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 04:31:08 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 04:31:08 | INFO |  1. 1000TOSHIUSDT | BUY  | Price: $  1.0090 | Confidence:  95.0% | Momentum: +6.05%
+2025-10-10 04:31:08 | INFO |  2. BANKUSDT     | BUY  | Price: $  0.1389 | Confidence:  95.0% | Momentum: +5.23%
+2025-10-10 04:31:08 | INFO |  3. LAUNCHCOINUSDT | BUY  | Price: $  0.1239 | Confidence:  95.0% | Momentum: +13.10%
+2025-10-10 04:31:08 | INFO |  4. OPENUSDT     | SELL | Price: $  0.5277 | Confidence:  95.0% | Momentum: -4.68%
+2025-10-10 04:31:08 | INFO |  5. ORDERUSDT    | SELL | Price: $  0.3037 | Confidence:  93.8% | Momentum: -4.38%
+2025-10-10 04:31:08 | INFO |  6. BANUSDT      | SELL | Price: $  0.0689 | Confidence:  87.4% | Momentum: -3.74%
+2025-10-10 04:31:08 | INFO |  7. PEAQUSDT     | BUY  | Price: $  0.1139 | Confidence:  79.8% | Momentum: +2.98%
+2025-10-10 04:31:08 | INFO |  8. HEMIUSDT     | BUY  | Price: $  0.0872 | Confidence:  78.2% | Momentum: +2.82%
+2025-10-10 04:31:08 | INFO |  9. EIGENUSDT    | BUY  | Price: $  1.7996 | Confidence:  78.0% | Momentum: +2.80%
+2025-10-10 04:31:08 | INFO | 10. MNTUSDT      | SELL | Price: $  2.3645 | Confidence:  75.8% | Momentum: -2.58%
+2025-10-10 04:31:09 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 04:31:09 | INFO | 1. 1000TOSHIUSDT - BUY (95.0%) @ $1.009
+2025-10-10 04:31:10 | INFO | Setting leverage for 1000TOSHIUSDT to 1x
+2025-10-10 04:31:10 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:31:10).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000TOSHIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 04:31:10 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000TOSHIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '8946', 'timeInForce': 'IOC'}
+2025-10-10 04:31:10 | INFO | ✅ Perpetual order placed: 5ac216ca-3aec-4fd4-901d-5d1ef96a5d78
+2025-10-10 04:31:11 | INFO | Setting stop loss via trading stop: 1000TOSHIUSDT @ 0.9787299999999999
+2025-10-10 04:31:11 | INFO | ✅ Stop loss set via position management
+2025-10-10 04:31:11 | INFO | Setting take profit via trading stop: 1000TOSHIUSDT @ 1.0190899999999998
+2025-10-10 04:31:11 | INFO | ✅ Take profit set via position management
+2025-10-10 04:31:12 | INFO | Setting trailing stop: 1000TOSHIUSDT @ 1.0% = $0.010093 from $1.0093
+2025-10-10 04:31:13 | INFO | ✅ Trailing stop set: 1.0% ($0.010093)
+2025-10-10 04:31:13 | INFO | ✅ EXECUTED: 1000TOSHIUSDT BUY 8946.000000 @ $1.009 (Conf: 95.0%)
+2025-10-10 04:31:13 | INFO | 2. BANKUSDT - BUY (95.0%) @ $0.13894
+2025-10-10 04:31:14 | INFO | Setting leverage for BANKUSDT to 1x
+2025-10-10 04:31:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:31:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 04:31:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '58800', 'timeInForce': 'IOC'}
+2025-10-10 04:31:15 | INFO | ✅ Perpetual order placed: bb93a53d-a938-4250-837c-bd500b859025
+2025-10-10 04:31:15 | INFO | Setting stop loss via trading stop: BANKUSDT @ 0.1347718
+2025-10-10 04:31:15 | INFO | ✅ Stop loss set via position management
+2025-10-10 04:31:15 | INFO | Setting take profit via trading stop: BANKUSDT @ 0.14032940000000002
+2025-10-10 04:31:15 | INFO | ✅ Take profit set via position management
+2025-10-10 04:31:17 | INFO | Setting trailing stop: BANKUSDT @ 1.0% = $0.001389 from $0.13893
+2025-10-10 04:31:17 | INFO | ✅ Trailing stop set: 1.0% ($0.001389)
+2025-10-10 04:31:17 | INFO | ✅ EXECUTED: BANKUSDT BUY 58800.000000 @ $0.13894 (Conf: 95.0%)
+2025-10-10 04:31:17 | INFO | 3. LAUNCHCOINUSDT - BUY (95.0%) @ $0.12391
+2025-10-10 04:31:18 | INFO | Setting leverage for LAUNCHCOINUSDT to 1x
+2025-10-10 04:31:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:31:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUNCHCOINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 04:31:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUNCHCOINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '59675', 'timeInForce': 'IOC'}
+2025-10-10 04:31:19 | INFO | ✅ Perpetual order placed: 5c33e61e-d23a-460b-abbf-7b49cc829989
+2025-10-10 04:31:19 | INFO | Setting stop loss via trading stop: LAUNCHCOINUSDT @ 0.1201927
+2025-10-10 04:31:19 | INFO | ✅ Stop loss set via position management
+2025-10-10 04:31:19 | INFO | Setting take profit via trading stop: LAUNCHCOINUSDT @ 0.1251491
+2025-10-10 04:31:19 | INFO | ✅ Take profit set via position management
+2025-10-10 04:31:21 | INFO | Setting trailing stop: LAUNCHCOINUSDT @ 1.0% = $0.001236 from $0.12364
+2025-10-10 04:31:21 | INFO | ✅ Trailing stop set: 1.0% ($0.001236)
+2025-10-10 04:31:21 | INFO | ✅ EXECUTED: LAUNCHCOINUSDT BUY 59675.000000 @ $0.12391 (Conf: 95.0%)
+2025-10-10 04:31:22 | INFO | 4. OPENUSDT - SELL (95.0%) @ $0.5277
+2025-10-10 04:31:23 | INFO | Setting leverage for OPENUSDT to 1x
+2025-10-10 04:31:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:31:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OPENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 04:31:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OPENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '12683', 'timeInForce': 'IOC'}
+2025-10-10 04:31:23 | INFO | ✅ Perpetual order placed: 301f37b2-64a1-4219-b3a6-e13b919e16e7
+2025-10-10 04:31:24 | INFO | Setting stop loss via trading stop: OPENUSDT @ 0.543531
+2025-10-10 04:31:24 | INFO | ✅ Stop loss set via position management
+2025-10-10 04:31:24 | INFO | Setting take profit via trading stop: OPENUSDT @ 0.522423
+2025-10-10 04:31:24 | INFO | ✅ Take profit set via position management
+2025-10-10 04:31:26 | INFO | Setting trailing stop: OPENUSDT @ 1.0% = $0.005278 from $0.5278
+2025-10-10 04:31:26 | INFO | ✅ Trailing stop set: 1.0% ($0.005278)
+2025-10-10 04:31:26 | INFO | ✅ EXECUTED: OPENUSDT SELL 12683.000000 @ $0.5277 (Conf: 95.0%)
+2025-10-10 04:31:26 | INFO | 5. ORDERUSDT - SELL (93.8%) @ $0.3037
+2025-10-10 04:31:27 | INFO | Setting leverage for ORDERUSDT to 1x
+2025-10-10 04:31:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:31:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ORDERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 04:31:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ORDERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '19945', 'timeInForce': 'IOC'}
+2025-10-10 04:31:28 | INFO | ✅ Perpetual order placed: a689f94b-8544-4528-b555-e62f29672a86
+2025-10-10 04:31:28 | INFO | Setting stop loss via trading stop: ORDERUSDT @ 0.31281100000000006
+2025-10-10 04:31:28 | INFO | ✅ Stop loss set via position management
+2025-10-10 04:31:28 | INFO | Setting take profit via trading stop: ORDERUSDT @ 0.300663
+2025-10-10 04:31:28 | INFO | ✅ Take profit set via position management
+2025-10-10 04:31:30 | INFO | Setting trailing stop: ORDERUSDT @ 1.0% = $0.003028 from $0.3028
+2025-10-10 04:31:30 | INFO | ✅ Trailing stop set: 1.0% ($0.003028)
+2025-10-10 04:31:30 | INFO | ✅ EXECUTED: ORDERUSDT SELL 19945.000000 @ $0.3037 (Conf: 93.8%)
+2025-10-10 04:31:30 | INFO | 6. BANUSDT - SELL (87.4%) @ $0.06893
+2025-10-10 04:31:31 | INFO | Setting leverage for BANUSDT to 1x
+2025-10-10 04:31:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:31:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 04:31:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '79538', 'timeInForce': 'IOC'}
+2025-10-10 04:31:32 | INFO | ✅ Perpetual order placed: 8e2a6332-6334-449e-8850-97bcbd25c90a
+2025-10-10 04:31:32 | INFO | Setting stop loss via trading stop: BANUSDT @ 0.0709979
+2025-10-10 04:31:32 | INFO | ✅ Stop loss set via position management
+2025-10-10 04:31:33 | INFO | Setting take profit via trading stop: BANUSDT @ 0.0682407
+2025-10-10 04:31:33 | INFO | ✅ Take profit set via position management
+2025-10-10 04:31:34 | INFO | Setting trailing stop: BANUSDT @ 1.0% = $0.000690 from $0.06901
+2025-10-10 04:31:35 | INFO | ✅ Trailing stop set: 1.0% ($0.000690)
+2025-10-10 04:31:35 | INFO | ✅ EXECUTED: BANUSDT SELL 79538.000000 @ $0.06893 (Conf: 87.4%)
+2025-10-10 04:31:35 | INFO | 7. PEAQUSDT - BUY (79.8%) @ $0.1139
+2025-10-10 04:31:35 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 0 failed
+2025-10-10 04:31:35 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 04:31:35 | INFO |    • 1000TOSHIUSDT: LONG 8946.000000 @ $1.009 - SL: $0.9787 TP: $1.0191
+2025-10-10 04:31:35 | INFO |    • BANKUSDT: LONG 58800.000000 @ $0.13894 - SL: $0.1348 TP: $0.1403
+2025-10-10 04:31:35 | INFO |    • LAUNCHCOINUSDT: LONG 59675.000000 @ $0.12391 - SL: $0.1202 TP: $0.1251
+2025-10-10 04:31:35 | INFO |    • OPENUSDT: SHORT 12683.000000 @ $0.5277 - SL: $0.5435 TP: $0.5224
+2025-10-10 04:31:35 | INFO |    • ORDERUSDT: SHORT 19945.000000 @ $0.3037 - SL: $0.3128 TP: $0.3007
+2025-10-10 04:31:35 | INFO |    • BANUSDT: SHORT 79538.000000 @ $0.06893 - SL: $0.0710 TP: $0.0682
+2025-10-10 04:31:35 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 04:31:36 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 04:31:36 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 04:31:36 | INFO | 🎉 SESSION COMPLETED in 37.5s
+2025-10-10 04:31:36 | INFO | ============================================================
