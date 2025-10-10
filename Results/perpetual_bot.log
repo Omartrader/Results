@@ -18562,3 +18562,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 21:46:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 21:46:53 | INFO | 🎉 SESSION COMPLETED in 41.6s
 2025-10-10 21:46:53 | INFO | ============================================================
+2025-10-10 22:01:12 | INFO | ================================================================================
+2025-10-10 22:01:12 | INFO | NEW PERPETUAL SESSION: 2025-10-10 22:01:12
+2025-10-10 22:01:12 | INFO | ================================================================================
+2025-10-10 22:01:12 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 22:01:12 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 22:01:12 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 22:01:12 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 22:01:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 22:01:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 22:01:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 22:01:24 | INFO |  1. B2USDT       | BUY  | Price: $  1.2358 | Confidence:  72.3% | Momentum: +2.23%
+2025-10-10 22:01:24 | INFO |  2. DASHUSDT     | BUY  | Price: $ 45.3400 | Confidence:  68.2% | Momentum: +1.82%
+2025-10-10 22:01:24 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-10 22:01:24 | INFO | 1. B2USDT - BUY (72.3%) @ $1.2358
+2025-10-10 22:01:25 | INFO | Setting leverage for B2USDT to 1x
+2025-10-10 22:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 22:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6926', 'timeInForce': 'IOC'}
+2025-10-10 22:01:26 | INFO | ✅ Perpetual order placed: b7a850f9-a2ff-42d5-a2ee-ddfe53c1e789
+2025-10-10 22:01:26 | INFO | Setting stop loss via trading stop: B2USDT @ 1.198726
+2025-10-10 22:01:26 | INFO | ✅ Stop loss set via position management
+2025-10-10 22:01:26 | INFO | Setting take profit via trading stop: B2USDT @ 1.248158
+2025-10-10 22:01:26 | INFO | ✅ Take profit set via position management
+2025-10-10 22:01:28 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.012358 from $1.2358
+2025-10-10 22:01:28 | INFO | ✅ Trailing stop set: 1.0% ($0.012358)
+2025-10-10 22:01:28 | INFO | ✅ EXECUTED: B2USDT BUY 6926.000000 @ $1.2358 (Conf: 72.3%)
+2025-10-10 22:01:29 | INFO | 2. DASHUSDT - BUY (68.2%) @ $45.34
+2025-10-10 22:01:29 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-10 22:01:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:01:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 22:01:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '170.85', 'timeInForce': 'IOC'}
+2025-10-10 22:01:30 | INFO | ✅ Perpetual order placed: b7448b53-9020-44a8-a9a1-7a65e1c42fc0
+2025-10-10 22:01:30 | INFO | Setting stop loss via trading stop: DASHUSDT @ 43.979800000000004
+2025-10-10 22:01:30 | INFO | ✅ Stop loss set via position management
+2025-10-10 22:01:30 | INFO | Setting take profit via trading stop: DASHUSDT @ 45.793400000000005
+2025-10-10 22:01:30 | INFO | ✅ Take profit set via position management
+2025-10-10 22:01:32 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.450600 from $45.06
+2025-10-10 22:01:32 | INFO | ✅ Trailing stop set: 1.0% ($0.450600)
+2025-10-10 22:01:32 | INFO | ✅ EXECUTED: DASHUSDT BUY 170.850000 @ $45.34 (Conf: 68.2%)
+2025-10-10 22:01:33 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-10 22:01:33 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 22:01:33 | INFO |    • B2USDT: LONG 6926.000000 @ $1.2358 - SL: $1.1987 TP: $1.2482
+2025-10-10 22:01:33 | INFO |    • DASHUSDT: LONG 170.850000 @ $45.34 - SL: $43.9798 TP: $45.7934
+2025-10-10 22:01:33 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 22:01:33 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 22:01:33 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 22:01:33 | INFO | 🎉 SESSION COMPLETED in 20.8s
+2025-10-10 22:01:33 | INFO | ============================================================
