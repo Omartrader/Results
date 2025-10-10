@@ -19498,3 +19498,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 00:46:49 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 00:46:49 | INFO | 🎉 SESSION COMPLETED in 48.8s
 2025-10-11 00:46:49 | INFO | ============================================================
+2025-10-11 01:01:02 | INFO | ================================================================================
+2025-10-11 01:01:02 | INFO | NEW PERPETUAL SESSION: 2025-10-11 01:01:02
+2025-10-11 01:01:02 | INFO | ================================================================================
+2025-10-11 01:01:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 01:01:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 01:01:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 01:01:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 01:01:04 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 01:01:04 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 01:01:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 01:01:24 | INFO |  1. 4USDT        | SELL | Price: $  0.1056 | Confidence:  95.0% | Momentum: -25.32%
+2025-10-11 01:01:24 | INFO |  2. AKEUSDT      | SELL | Price: $  0.0015 | Confidence:  95.0% | Momentum: -14.31%
+2025-10-11 01:01:24 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-11 01:01:24 | INFO | 1. 4USDT - SELL (95.0%) @ $0.1056
+2025-10-11 01:01:25 | INFO | Setting leverage for 4USDT to 1x
+2025-10-11 01:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 01:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '80460', 'timeInForce': 'IOC'}
+2025-10-11 01:01:26 | INFO | ✅ Perpetual order placed: 2140d847-b5df-4917-b850-153bad1b9948
+2025-10-11 01:01:26 | INFO | Setting stop loss via trading stop: 4USDT @ 0.108768
+2025-10-11 01:01:26 | INFO | ✅ Stop loss set via position management
+2025-10-11 01:01:27 | INFO | Setting take profit via trading stop: 4USDT @ 0.104544
+2025-10-11 01:01:27 | INFO | ✅ Take profit set via position management
+2025-10-11 01:01:28 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.001080 from $0.108
+2025-10-11 01:01:28 | INFO | ✅ Trailing stop set: 1.0% ($0.001080)
+2025-10-11 01:01:28 | INFO | ✅ EXECUTED: 4USDT SELL 80460.000000 @ $0.1056 (Conf: 95.0%)
+2025-10-11 01:01:29 | INFO | 2. AKEUSDT - SELL (95.0%) @ $0.001515
+2025-10-11 01:01:30 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-11 01:01:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:01:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 01:01:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5076100', 'timeInForce': 'IOC'}
+2025-10-11 01:01:31 | INFO | ✅ Perpetual order placed: b0ff00d0-2d39-410b-8c42-4f6a39f96886
+2025-10-11 01:01:31 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.0015604500000000001
+2025-10-11 01:01:31 | INFO | ✅ Stop loss set via position management
+2025-10-11 01:01:31 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00149985
+2025-10-11 01:01:31 | INFO | ✅ Take profit set via position management
+2025-10-11 01:01:33 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001529
+2025-10-11 01:01:33 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-11 01:01:33 | INFO | ✅ EXECUTED: AKEUSDT SELL 5076100.000000 @ $0.001515 (Conf: 95.0%)
+2025-10-11 01:01:34 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-11 01:01:34 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 01:01:34 | INFO |    • 4USDT: SHORT 80460.000000 @ $0.1056 - SL: $0.1088 TP: $0.1045
+2025-10-11 01:01:34 | INFO |    • AKEUSDT: SHORT 5076100.000000 @ $0.001515 - SL: $0.0016 TP: $0.0015
+2025-10-11 01:01:34 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 01:01:34 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 01:01:34 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 01:01:34 | INFO | 🎉 SESSION COMPLETED in 31.3s
+2025-10-11 01:01:34 | INFO | ============================================================
