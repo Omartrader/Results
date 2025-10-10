@@ -18369,3 +18369,40 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 21:01:43 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 21:01:43 | INFO | 🎉 SESSION COMPLETED in 28.4s
 2025-10-10 21:01:43 | INFO | ============================================================
+2025-10-10 21:16:14 | INFO | ================================================================================
+2025-10-10 21:16:14 | INFO | NEW PERPETUAL SESSION: 2025-10-10 21:16:14
+2025-10-10 21:16:14 | INFO | ================================================================================
+2025-10-10 21:16:14 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 21:16:14 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 21:16:14 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 21:16:14 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 21:16:15 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 21:16:15 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 21:16:30 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 21:16:30 | INFO |  1. ASPUSDT      | BUY  | Price: $  0.1272 | Confidence:  95.0% | Momentum: +4.95%
+2025-10-10 21:16:30 | INFO |  2. CLOUDUSDT    | BUY  | Price: $  0.1737 | Confidence:  95.0% | Momentum: +16.31%
+2025-10-10 21:16:31 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-10 21:16:31 | INFO | 1. ASPUSDT - BUY (95.0%) @ $0.1272
+2025-10-10 21:16:31 | INFO | Setting leverage for ASPUSDT to 1x
+2025-10-10 21:16:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:16:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:16:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '67404', 'timeInForce': 'IOC'}
+2025-10-10 21:16:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6740400000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 17:16:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Buy", "orderType": "Market", "qty": "67404", "timeInForce": "IOC"}.
+2025-10-10 21:16:32 | ERROR | ❌ FAILED: ASPUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:6740400000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 17:16:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Buy", "orderType": "Market", "qty": "67404", "timeInForce": "IOC"}.
+2025-10-10 21:16:33 | INFO | 2. CLOUDUSDT - BUY (95.0%) @ $0.17369
+2025-10-10 21:16:34 | INFO | Setting leverage for CLOUDUSDT to 1x
+2025-10-10 21:16:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 17:16:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLOUDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 21:16:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLOUDUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '49363', 'timeInForce': 'IOC'}
+2025-10-10 21:16:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:4936300000000 > max_qty:4000000000000 (ErrCode: 10001) (ErrTime: 17:16:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLOUDUSDT", "side": "Buy", "orderType": "Market", "qty": "49363", "timeInForce": "IOC"}.
+2025-10-10 21:16:34 | ERROR | ❌ FAILED: CLOUDUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:4936300000000 > max_qty:4000000000000 (ErrCode: 10001) (ErrTime: 17:16:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLOUDUSDT", "side": "Buy", "orderType": "Market", "qty": "49363", "timeInForce": "IOC"}.
+2025-10-10 21:16:35 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 2 failed
+2025-10-10 21:16:35 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 21:16:36 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 21:16:36 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 21:16:36 | INFO | 🎉 SESSION COMPLETED in 21.2s
+2025-10-10 21:16:36 | INFO | ============================================================
