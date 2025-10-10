@@ -17236,3 +17236,63 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-10 18:02:15 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-10 18:02:15 | INFO | 🎉 SESSION COMPLETED in 49.5s
 2025-10-10 18:02:15 | INFO | ============================================================
+2025-10-10 18:16:38 | INFO | ================================================================================
+2025-10-10 18:16:38 | INFO | NEW PERPETUAL SESSION: 2025-10-10 18:16:38
+2025-10-10 18:16:38 | INFO | ================================================================================
+2025-10-10 18:16:38 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-10 18:16:38 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-10 18:16:38 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-10 18:16:38 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 18:16:40 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 18:16:40 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 18:16:51 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-10 18:16:51 | INFO |  1. 4USDT        | SELL | Price: $  0.1344 | Confidence:  95.0% | Momentum: -6.99%
+2025-10-10 18:16:51 | INFO |  2. APEXUSDT     | SELL | Price: $  1.6068 | Confidence:  95.0% | Momentum: -4.66%
+2025-10-10 18:16:51 | INFO |  3. BUSDT        | SELL | Price: $  0.2218 | Confidence:  95.0% | Momentum: -9.98%
+2025-10-10 18:16:51 | INFO |  4. ICNTUSDT     | BUY  | Price: $  0.2480 | Confidence:  90.3% | Momentum: +4.03%
+2025-10-10 18:16:51 | INFO |  5. EIGENUSDT    | SELL | Price: $  1.7637 | Confidence:  82.6% | Momentum: -3.26%
+2025-10-10 18:16:51 | INFO |  6. DODOUSDT     | SELL | Price: $  0.0471 | Confidence:  76.6% | Momentum: -2.66%
+2025-10-10 18:16:51 | INFO |  7. ALUUSDT      | SELL | Price: $  0.0213 | Confidence:  76.5% | Momentum: -2.65%
+2025-10-10 18:16:51 | INFO |  8. CAMPUSDT     | SELL | Price: $  0.0323 | Confidence:  75.7% | Momentum: -2.57%
+2025-10-10 18:16:51 | INFO |  9. BMTUSDT      | SELL | Price: $  0.0639 | Confidence:  74.9% | Momentum: -2.49%
+2025-10-10 18:16:51 | INFO | 10. 1000LUNCUSDT | SELL | Price: $  0.0529 | Confidence:  74.9% | Momentum: -2.49%
+2025-10-10 18:16:51 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-10 18:16:51 | INFO | 1. 4USDT - SELL (95.0%) @ $0.1344
+2025-10-10 18:16:52 | INFO | Setting leverage for 4USDT to 1x
+2025-10-10 18:16:52 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:52).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 18:16:52 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '63960', 'timeInForce': 'IOC'}
+2025-10-10 18:16:52 | INFO | ✅ Perpetual order placed: 0a36c355-cd00-4dbc-92fa-04d2ba0c456f
+2025-10-10 18:16:53 | INFO | Setting stop loss via trading stop: 4USDT @ 0.138432
+2025-10-10 18:16:53 | INFO | ✅ Stop loss set via position management
+2025-10-10 18:16:53 | INFO | Setting take profit via trading stop: 4USDT @ 0.13305599999999998
+2025-10-10 18:16:53 | INFO | ✅ Take profit set via position management
+2025-10-10 18:16:55 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.001340 from $0.134
+2025-10-10 18:16:55 | INFO | ✅ Trailing stop set: 1.0% ($0.001340)
+2025-10-10 18:16:55 | INFO | ✅ EXECUTED: 4USDT SELL 63960.000000 @ $0.1344 (Conf: 95.0%)
+2025-10-10 18:16:55 | INFO | 2. APEXUSDT - SELL (95.0%) @ $1.6068
+2025-10-10 18:16:56 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-10 18:16:57 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 14:16:57).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-10 18:16:57 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4842.2', 'timeInForce': 'IOC'}
+2025-10-10 18:16:57 | INFO | ✅ Perpetual order placed: 4d10712c-a218-4f87-bd26-8ecf94541264
+2025-10-10 18:16:57 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.6550040000000001
+2025-10-10 18:16:57 | INFO | ✅ Stop loss set via position management
+2025-10-10 18:16:57 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.590732
+2025-10-10 18:16:57 | INFO | ✅ Take profit set via position management
+2025-10-10 18:16:59 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.016060 from $1.606
+2025-10-10 18:16:59 | INFO | ✅ Trailing stop set: 1.0% ($0.016060)
+2025-10-10 18:16:59 | INFO | ✅ EXECUTED: APEXUSDT SELL 4842.200000 @ $1.6068 (Conf: 95.0%)
+2025-10-10 18:17:00 | INFO | 3. BUSDT - SELL (95.0%) @ $0.2218
+2025-10-10 18:17:00 | INFO | 4. ICNTUSDT - BUY (90.3%) @ $0.248
+2025-10-10 18:17:00 | INFO | 5. EIGENUSDT - SELL (82.6%) @ $1.7637
+2025-10-10 18:17:00 | INFO | 6. DODOUSDT - SELL (76.6%) @ $0.04712
+2025-10-10 18:17:00 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-10 18:17:00 | INFO | 🎉 EXECUTED TRADES:
+2025-10-10 18:17:00 | INFO |    • 4USDT: SHORT 63960.000000 @ $0.1344 - SL: $0.1384 TP: $0.1331
+2025-10-10 18:17:00 | INFO |    • APEXUSDT: SHORT 4842.200000 @ $1.6068 - SL: $1.6550 TP: $1.5907
+2025-10-10 18:17:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-10 18:17:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-10 18:17:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-10 18:17:00 | INFO | 🎉 SESSION COMPLETED in 21.9s
+2025-10-10 18:17:00 | INFO | ============================================================
