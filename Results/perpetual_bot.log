@@ -26610,3 +26610,78 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 17:31:56 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 17:31:56 | INFO | 🎉 SESSION COMPLETED in 53.2s
 2025-10-11 17:31:56 | INFO | ============================================================
+2025-10-11 17:46:03 | INFO | ================================================================================
+2025-10-11 17:46:03 | INFO | NEW PERPETUAL SESSION: 2025-10-11 17:46:03
+2025-10-11 17:46:03 | INFO | ================================================================================
+2025-10-11 17:46:03 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 17:46:03 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 17:46:03 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 17:46:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 17:46:04 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 17:46:04 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 17:46:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 17:46:16 | INFO |  1. AVNTUSDT     | BUY  | Price: $  0.6576 | Confidence:  95.0% | Momentum: +4.51%
+2025-10-11 17:46:16 | INFO |  2. FLOCKUSDT    | BUY  | Price: $  0.2112 | Confidence:  87.4% | Momentum: +3.74%
+2025-10-11 17:46:16 | INFO |  3. DEGENUSDT    | SELL | Price: $  0.0020 | Confidence:  78.4% | Momentum: -2.84%
+2025-10-11 17:46:16 | INFO |  4. COAIUSDT     | BUY  | Price: $  6.6534 | Confidence:  77.5% | Momentum: +2.75%
+2025-10-11 17:46:16 | INFO |  5. SAROSUSDT    | BUY  | Price: $  0.2600 | Confidence:  69.9% | Momentum: +1.99%
+2025-10-11 17:46:16 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-11 17:46:16 | INFO | 1. AVNTUSDT - BUY (95.0%) @ $0.6576
+2025-10-11 17:46:17 | INFO | Setting leverage for AVNTUSDT to 1x
+2025-10-11 17:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '12373', 'timeInForce': 'IOC'}
+2025-10-11 17:46:18 | INFO | ✅ Perpetual order placed: 24a31ad1-ad42-434a-a085-a4673fd5a2cc
+2025-10-11 17:46:18 | INFO | Setting stop loss via trading stop: AVNTUSDT @ 0.637872
+2025-10-11 17:46:18 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:46:18 | INFO | Setting take profit via trading stop: AVNTUSDT @ 0.664176
+2025-10-11 17:46:18 | INFO | ✅ Take profit set via position management
+2025-10-11 17:46:20 | INFO | Setting trailing stop: AVNTUSDT @ 1.0% = $0.006573 from $0.6573
+2025-10-11 17:46:20 | INFO | ✅ Trailing stop set: 1.0% ($0.006573)
+2025-10-11 17:46:20 | INFO | ✅ EXECUTED: AVNTUSDT BUY 12373.000000 @ $0.6576 (Conf: 95.0%)
+2025-10-11 17:46:21 | INFO | 2. FLOCKUSDT - BUY (87.4%) @ $0.21124
+2025-10-11 17:46:21 | INFO | Setting leverage for FLOCKUSDT to 1x
+2025-10-11 17:46:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:46:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FLOCKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:46:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FLOCKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '34863', 'timeInForce': 'IOC'}
+2025-10-11 17:46:22 | INFO | ✅ Perpetual order placed: bb81b2e3-b3d1-49ed-b608-1c85e5c114f9
+2025-10-11 17:46:22 | INFO | Setting stop loss via trading stop: FLOCKUSDT @ 0.2049028
+2025-10-11 17:46:22 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:46:23 | INFO | Setting take profit via trading stop: FLOCKUSDT @ 0.21335240000000003
+2025-10-11 17:46:23 | INFO | ✅ Take profit set via position management
+2025-10-11 17:46:24 | INFO | Setting trailing stop: FLOCKUSDT @ 1.0% = $0.002111 from $0.21112
+2025-10-11 17:46:24 | INFO | ✅ Trailing stop set: 1.0% ($0.002111)
+2025-10-11 17:46:24 | INFO | ✅ EXECUTED: FLOCKUSDT BUY 34863.000000 @ $0.21124 (Conf: 87.4%)
+2025-10-11 17:46:25 | INFO | 3. DEGENUSDT - SELL (78.4%) @ $0.001985
+2025-10-11 17:46:26 | INFO | Setting leverage for DEGENUSDT to 1x
+2025-10-11 17:46:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:46:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DEGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:46:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DEGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3357970', 'timeInForce': 'IOC'}
+2025-10-11 17:46:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:335797000000000 > max_qty:300000000000000 (ErrCode: 10001) (ErrTime: 13:46:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DEGENUSDT", "side": "Sell", "orderType": "Market", "qty": "3357970", "timeInForce": "IOC"}.
+2025-10-11 17:46:26 | ERROR | ❌ FAILED: DEGENUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:335797000000000 > max_qty:300000000000000 (ErrCode: 10001) (ErrTime: 13:46:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DEGENUSDT", "side": "Sell", "orderType": "Market", "qty": "3357970", "timeInForce": "IOC"}.
+2025-10-11 17:46:27 | INFO | 4. COAIUSDT - BUY (77.5%) @ $6.6534
+2025-10-11 17:46:28 | INFO | Setting leverage for COAIUSDT to 1x
+2025-10-11 17:46:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:46:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "COAIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:46:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'COAIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1002', 'timeInForce': 'IOC'}
+2025-10-11 17:46:28 | INFO | ✅ Perpetual order placed: 6e618860-907c-4fa1-9df6-5d930776aa54
+2025-10-11 17:46:29 | INFO | Setting stop loss via trading stop: COAIUSDT @ 6.453798
+2025-10-11 17:46:29 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:46:29 | INFO | Setting take profit via trading stop: COAIUSDT @ 6.719934
+2025-10-11 17:46:29 | INFO | ✅ Take profit set via position management
+2025-10-11 17:46:30 | INFO | Setting trailing stop: COAIUSDT @ 1.0% = $0.066557 from $6.6557
+2025-10-11 17:46:31 | INFO | ✅ Trailing stop set: 1.0% ($0.066557)
+2025-10-11 17:46:31 | INFO | ✅ EXECUTED: COAIUSDT BUY 1002.000000 @ $6.6534 (Conf: 77.5%)
+2025-10-11 17:46:31 | INFO | 5. SAROSUSDT - BUY (69.9%) @ $0.26001
+2025-10-11 17:46:31 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 1 failed
+2025-10-11 17:46:31 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 17:46:31 | INFO |    • AVNTUSDT: LONG 12373.000000 @ $0.6576 - SL: $0.6379 TP: $0.6642
+2025-10-11 17:46:31 | INFO |    • FLOCKUSDT: LONG 34863.000000 @ $0.21124 - SL: $0.2049 TP: $0.2134
+2025-10-11 17:46:31 | INFO |    • COAIUSDT: LONG 1002.000000 @ $6.6534 - SL: $6.4538 TP: $6.7199
+2025-10-11 17:46:31 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 17:46:31 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 17:46:31 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 17:46:31 | INFO | 🎉 SESSION COMPLETED in 28.1s
+2025-10-11 17:46:31 | INFO | ============================================================
