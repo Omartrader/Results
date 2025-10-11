@@ -26060,3 +26060,85 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-11 16:16:40 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 16:16:40 | INFO | 🎉 SESSION COMPLETED in 37.3s
 2025-10-11 16:16:40 | INFO | ============================================================
+2025-10-11 16:31:03 | INFO | ================================================================================
+2025-10-11 16:31:03 | INFO | NEW PERPETUAL SESSION: 2025-10-11 16:31:03
+2025-10-11 16:31:03 | INFO | ================================================================================
+2025-10-11 16:31:03 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 16:31:03 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 16:31:03 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 16:31:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 16:31:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 16:31:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 16:31:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 16:31:25 | INFO |  1. HUSDT        | BUY  | Price: $  0.0764 | Confidence:  95.0% | Momentum: +8.65%
+2025-10-11 16:31:25 | INFO |  2. CAKEUSDT     | SELL | Price: $  2.8220 | Confidence:  79.2% | Momentum: -2.92%
+2025-10-11 16:31:25 | INFO |  3. QUSDT        | BUY  | Price: $  0.0216 | Confidence:  78.7% | Momentum: +2.87%
+2025-10-11 16:31:25 | INFO |  4. REQUSDT      | SELL | Price: $  0.1236 | Confidence:  78.3% | Momentum: -2.83%
+2025-10-11 16:31:25 | INFO |  5. BRUSDT       | SELL | Price: $  0.0585 | Confidence:  75.6% | Momentum: -2.56%
+2025-10-11 16:31:25 | INFO |  6. GODSUSDT     | BUY  | Price: $  0.0883 | Confidence:  73.2% | Momentum: +2.32%
+2025-10-11 16:31:25 | INFO |  7. AVLUSDT      | BUY  | Price: $  0.1353 | Confidence:  65.8% | Momentum: +1.58%
+2025-10-11 16:31:26 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-11 16:31:26 | INFO | 1. HUSDT - BUY (95.0%) @ $0.076427
+2025-10-11 16:31:26 | INFO | 2. CAKEUSDT - SELL (79.2%) @ $2.822
+2025-10-11 16:31:26 | INFO | 3. QUSDT - BUY (78.7%) @ $0.021627
+2025-10-11 16:31:27 | INFO | Setting leverage for QUSDT to 1x
+2025-10-11 16:31:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:31:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "QUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 16:31:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'QUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '376740', 'timeInForce': 'IOC'}
+2025-10-11 16:31:28 | INFO | ✅ Perpetual order placed: 2f63d17b-132d-466c-860b-5cd0841b8dfc
+2025-10-11 16:31:28 | INFO | Setting stop loss via trading stop: QUSDT @ 0.02097819
+2025-10-11 16:31:28 | INFO | ✅ Stop loss set via position management
+2025-10-11 16:31:28 | INFO | Setting take profit via trading stop: QUSDT @ 0.02184327
+2025-10-11 16:31:28 | INFO | ✅ Take profit set via position management
+2025-10-11 16:31:30 | INFO | Setting trailing stop: QUSDT @ 1.0% = $0.000216 from $0.021566
+2025-10-11 16:31:30 | INFO | ✅ Trailing stop set: 1.0% ($0.000216)
+2025-10-11 16:31:30 | INFO | ✅ EXECUTED: QUSDT BUY 376740.000000 @ $0.021627 (Conf: 78.7%)
+2025-10-11 16:31:31 | INFO | 4. REQUSDT - SELL (78.3%) @ $0.12356
+2025-10-11 16:31:31 | INFO | Setting leverage for REQUSDT to 1x
+2025-10-11 16:31:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:31:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "REQUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 16:31:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'REQUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '59684', 'timeInForce': 'IOC'}
+2025-10-11 16:31:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5968400000000 > max_qty:3310000000000 (ErrCode: 10001) (ErrTime: 12:31:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REQUSDT", "side": "Sell", "orderType": "Market", "qty": "59684", "timeInForce": "IOC"}.
+2025-10-11 16:31:32 | ERROR | ❌ FAILED: REQUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:5968400000000 > max_qty:3310000000000 (ErrCode: 10001) (ErrTime: 12:31:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "REQUSDT", "side": "Sell", "orderType": "Market", "qty": "59684", "timeInForce": "IOC"}.
+2025-10-11 16:31:32 | INFO | 5. BRUSDT - SELL (75.6%) @ $0.0585
+2025-10-11 16:31:33 | INFO | Setting leverage for BRUSDT to 1x
+2025-10-11 16:31:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:31:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 16:31:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BRUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '126061', 'timeInForce': 'IOC'}
+2025-10-11 16:31:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:12606100000000 > max_qty:9000000000000 (ErrCode: 10001) (ErrTime: 12:31:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BRUSDT", "side": "Sell", "orderType": "Market", "qty": "126061", "timeInForce": "IOC"}.
+2025-10-11 16:31:34 | ERROR | ❌ FAILED: BRUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:12606100000000 > max_qty:9000000000000 (ErrCode: 10001) (ErrTime: 12:31:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BRUSDT", "side": "Sell", "orderType": "Market", "qty": "126061", "timeInForce": "IOC"}.
+2025-10-11 16:31:34 | INFO | 6. GODSUSDT - BUY (73.2%) @ $0.0883
+2025-10-11 16:31:36 | INFO | Setting leverage for GODSUSDT to 1x
+2025-10-11 16:31:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:31:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GODSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 16:31:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GODSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '83517', 'timeInForce': 'IOC'}
+2025-10-11 16:31:36 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8351700000000 > max_qty:1290000000000 (ErrCode: 10001) (ErrTime: 12:31:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GODSUSDT", "side": "Buy", "orderType": "Market", "qty": "83517", "timeInForce": "IOC"}.
+2025-10-11 16:31:36 | ERROR | ❌ FAILED: GODSUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8351700000000 > max_qty:1290000000000 (ErrCode: 10001) (ErrTime: 12:31:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GODSUSDT", "side": "Buy", "orderType": "Market", "qty": "83517", "timeInForce": "IOC"}.
+2025-10-11 16:31:37 | INFO | 7. AVLUSDT - BUY (65.8%) @ $0.1353
+2025-10-11 16:31:38 | INFO | Setting leverage for AVLUSDT to 1x
+2025-10-11 16:31:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 12:31:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 16:31:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVLUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '54505', 'timeInForce': 'IOC'}
+2025-10-11 16:31:38 | INFO | ✅ Perpetual order placed: cda1581d-d24c-4108-a46c-e43fbe2f8456
+2025-10-11 16:31:38 | INFO | Setting stop loss via trading stop: AVLUSDT @ 0.131241
+2025-10-11 16:31:38 | INFO | ✅ Stop loss set via position management
+2025-10-11 16:31:39 | INFO | Setting take profit via trading stop: AVLUSDT @ 0.136653
+2025-10-11 16:31:39 | INFO | ✅ Take profit set via position management
+2025-10-11 16:31:40 | INFO | Setting trailing stop: AVLUSDT @ 1.0% = $0.001350 from $0.135
+2025-10-11 16:31:41 | INFO | ✅ Trailing stop set: 1.0% ($0.001350)
+2025-10-11 16:31:41 | INFO | ✅ EXECUTED: AVLUSDT BUY 54505.000000 @ $0.1353 (Conf: 65.8%)
+2025-10-11 16:31:41 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 3 failed
+2025-10-11 16:31:41 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 16:31:41 | INFO |    • QUSDT: LONG 376740.000000 @ $0.021627 - SL: $0.0210 TP: $0.0218
+2025-10-11 16:31:41 | INFO |    • AVLUSDT: LONG 54505.000000 @ $0.1353 - SL: $0.1312 TP: $0.1367
+2025-10-11 16:31:41 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 16:31:42 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 16:31:42 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 16:31:42 | INFO | 🎉 SESSION COMPLETED in 38.3s
+2025-10-11 16:31:42 | INFO | ============================================================
