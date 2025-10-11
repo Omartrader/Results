@@ -21409,3 +21409,145 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 07:01:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 07:01:41 | INFO | 🎉 SESSION COMPLETED in 36.2s
 2025-10-11 07:01:41 | INFO | ============================================================
+2025-10-11 07:16:01 | INFO | ================================================================================
+2025-10-11 07:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-11 07:16:01
+2025-10-11 07:16:01 | INFO | ================================================================================
+2025-10-11 07:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 07:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 07:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 07:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 07:16:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 07:16:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 07:16:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 07:16:14 | INFO |  1. 10000QUBICUSDT | SELL | Price: $  0.0140 | Confidence:  95.0% | Momentum: -11.49%
+2025-10-11 07:16:14 | INFO |  2. AIOZUSDT     | SELL | Price: $  0.2087 | Confidence:  95.0% | Momentum: -17.71%
+2025-10-11 07:16:14 | INFO |  3. BABYUSDT     | SELL | Price: $  0.0331 | Confidence:  95.0% | Momentum: -24.08%
+2025-10-11 07:16:14 | INFO |  4. DODOUSDT     | SELL | Price: $  0.0310 | Confidence:  95.0% | Momentum: -29.40%
+2025-10-11 07:16:14 | INFO |  5. GIGAUSDT     | SELL | Price: $  0.0080 | Confidence:  95.0% | Momentum: -21.67%
+2025-10-11 07:16:14 | INFO |  6. MASAUSDT     | SELL | Price: $  0.0075 | Confidence:  95.0% | Momentum: -34.95%
+2025-10-11 07:16:14 | INFO |  7. MVLUSDT      | SELL | Price: $  0.0022 | Confidence:  95.0% | Momentum: -11.66%
+2025-10-11 07:16:14 | INFO |  8. PUMPBTCUSDT  | SELL | Price: $  0.0372 | Confidence:  95.0% | Momentum: -26.39%
+2025-10-11 07:16:14 | INFO |  9. RESOLVUSDT   | SELL | Price: $  0.0649 | Confidence:  95.0% | Momentum: -28.68%
+2025-10-11 07:16:14 | INFO | 10. RPLUSDT      | SELL | Price: $  3.1880 | Confidence:  95.0% | Momentum: -30.59%
+2025-10-11 07:16:15 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-11 07:16:15 | INFO | 1. 10000QUBICUSDT - SELL (95.0%) @ $0.014031
+2025-10-11 07:16:16 | INFO | Setting leverage for 10000QUBICUSDT to 1x
+2025-10-11 07:16:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000QUBICUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000QUBICUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '586730', 'timeInForce': 'IOC'}
+2025-10-11 07:16:16 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:58673000000000 > max_qty:15600000000000 (ErrCode: 10001) (ErrTime: 03:16:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000QUBICUSDT", "side": "Sell", "orderType": "Market", "qty": "586730", "timeInForce": "IOC"}.
+2025-10-11 07:16:16 | ERROR | ❌ FAILED: 10000QUBICUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:58673000000000 > max_qty:15600000000000 (ErrCode: 10001) (ErrTime: 03:16:16).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000QUBICUSDT", "side": "Sell", "orderType": "Market", "qty": "586730", "timeInForce": "IOC"}.
+2025-10-11 07:16:17 | INFO | 2. AIOZUSDT - SELL (95.0%) @ $0.2087
+2025-10-11 07:16:17 | INFO | Setting leverage for AIOZUSDT to 1x
+2025-10-11 07:16:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AIOZUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AIOZUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '26200', 'timeInForce': 'IOC'}
+2025-10-11 07:16:18 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2620000000000 > max_qty:524000000000 (ErrCode: 10001) (ErrTime: 03:16:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AIOZUSDT", "side": "Sell", "orderType": "Market", "qty": "26200", "timeInForce": "IOC"}.
+2025-10-11 07:16:18 | ERROR | ❌ FAILED: AIOZUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2620000000000 > max_qty:524000000000 (ErrCode: 10001) (ErrTime: 03:16:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AIOZUSDT", "side": "Sell", "orderType": "Market", "qty": "26200", "timeInForce": "IOC"}.
+2025-10-11 07:16:18 | INFO | 3. BABYUSDT - SELL (95.0%) @ $0.03307
+2025-10-11 07:16:19 | INFO | Setting leverage for BABYUSDT to 1x
+2025-10-11 07:16:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BABYUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BABYUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '248940', 'timeInForce': 'IOC'}
+2025-10-11 07:16:20 | INFO | ✅ Perpetual order placed: 824251cd-4872-4ff5-bccd-42b36ee671b7
+2025-10-11 07:16:20 | INFO | Setting stop loss via trading stop: BABYUSDT @ 0.034062100000000005
+2025-10-11 07:16:20 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:16:20 | INFO | Setting take profit via trading stop: BABYUSDT @ 0.0327393
+2025-10-11 07:16:20 | INFO | ✅ Take profit set via position management
+2025-10-11 07:16:22 | INFO | Setting trailing stop: BABYUSDT @ 1.0% = $0.000331 from $0.03309
+2025-10-11 07:16:22 | INFO | ✅ Trailing stop set: 1.0% ($0.000331)
+2025-10-11 07:16:22 | INFO | ✅ EXECUTED: BABYUSDT SELL 248940.000000 @ $0.03307 (Conf: 95.0%)
+2025-10-11 07:16:23 | INFO | 4. DODOUSDT - SELL (95.0%) @ $0.03103
+2025-10-11 07:16:24 | INFO | Setting leverage for DODOUSDT to 1x
+2025-10-11 07:16:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DODOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DODOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '240127', 'timeInForce': 'IOC'}
+2025-10-11 07:16:24 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:24012700000000 > max_qty:5130000000000 (ErrCode: 10001) (ErrTime: 03:16:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DODOUSDT", "side": "Sell", "orderType": "Market", "qty": "240127", "timeInForce": "IOC"}.
+2025-10-11 07:16:24 | ERROR | ❌ FAILED: DODOUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:24012700000000 > max_qty:5130000000000 (ErrCode: 10001) (ErrTime: 03:16:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DODOUSDT", "side": "Sell", "orderType": "Market", "qty": "240127", "timeInForce": "IOC"}.
+2025-10-11 07:16:25 | INFO | 5. GIGAUSDT - SELL (95.0%) @ $0.00799
+2025-10-11 07:16:26 | INFO | Setting leverage for GIGAUSDT to 1x
+2025-10-11 07:16:26 | INFO | ✅ Leverage set to 1x for GIGAUSDT
+2025-10-11 07:16:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '932560', 'timeInForce': 'IOC'}
+2025-10-11 07:16:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:93256000000000 > max_qty:33000000000000 (ErrCode: 10001) (ErrTime: 03:16:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GIGAUSDT", "side": "Sell", "orderType": "Market", "qty": "932560", "timeInForce": "IOC"}.
+2025-10-11 07:16:27 | ERROR | ❌ FAILED: GIGAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:93256000000000 > max_qty:33000000000000 (ErrCode: 10001) (ErrTime: 03:16:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GIGAUSDT", "side": "Sell", "orderType": "Market", "qty": "932560", "timeInForce": "IOC"}.
+2025-10-11 07:16:27 | INFO | 6. MASAUSDT - SELL (95.0%) @ $0.0075
+2025-10-11 07:16:28 | INFO | Setting leverage for MASAUSDT to 1x
+2025-10-11 07:16:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MASAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MASAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '600000', 'timeInForce': 'IOC'}
+2025-10-11 07:16:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:60000000000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 03:16:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Sell", "orderType": "Market", "qty": "600000", "timeInForce": "IOC"}.
+2025-10-11 07:16:29 | ERROR | ❌ FAILED: MASAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:60000000000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 03:16:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Sell", "orderType": "Market", "qty": "600000", "timeInForce": "IOC"}.
+2025-10-11 07:16:30 | INFO | 7. MVLUSDT - SELL (95.0%) @ $0.002212
+2025-10-11 07:16:31 | INFO | Setting leverage for MVLUSDT to 1x
+2025-10-11 07:16:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MVLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MVLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3368500', 'timeInForce': 'IOC'}
+2025-10-11 07:16:31 | INFO | ✅ Perpetual order placed: 1f94c58a-2455-40e8-950b-a66e4985c579
+2025-10-11 07:16:31 | INFO | Setting stop loss via trading stop: MVLUSDT @ 0.00227836
+2025-10-11 07:16:31 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:16:32 | INFO | Setting take profit via trading stop: MVLUSDT @ 0.00218988
+2025-10-11 07:16:32 | INFO | ✅ Take profit set via position management
+2025-10-11 07:16:33 | INFO | Setting trailing stop: MVLUSDT @ 1.0% = $0.000022 from $0.002212
+2025-10-11 07:16:34 | INFO | ✅ Trailing stop set: 1.0% ($0.000022)
+2025-10-11 07:16:34 | INFO | ✅ EXECUTED: MVLUSDT SELL 3368500.000000 @ $0.002212 (Conf: 95.0%)
+2025-10-11 07:16:34 | INFO | 8. PUMPBTCUSDT - SELL (95.0%) @ $0.03719
+2025-10-11 07:16:35 | INFO | Setting leverage for PUMPBTCUSDT to 1x
+2025-10-11 07:16:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PUMPBTCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PUMPBTCUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '181340', 'timeInForce': 'IOC'}
+2025-10-11 07:16:36 | INFO | ✅ Perpetual order placed: 1fc4df18-e5b4-4579-9cf8-e9e31d261dff
+2025-10-11 07:16:37 | INFO | Setting stop loss via trading stop: PUMPBTCUSDT @ 0.038305700000000005
+2025-10-11 07:16:37 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:16:37 | INFO | Setting take profit via trading stop: PUMPBTCUSDT @ 0.0368181
+2025-10-11 07:16:37 | INFO | ✅ Take profit set via position management
+2025-10-11 07:16:38 | INFO | Setting trailing stop: PUMPBTCUSDT @ 1.0% = $0.000372 from $0.0372
+2025-10-11 07:16:39 | INFO | ✅ Trailing stop set: 1.0% ($0.000372)
+2025-10-11 07:16:39 | INFO | ✅ EXECUTED: PUMPBTCUSDT SELL 181340.000000 @ $0.03719 (Conf: 95.0%)
+2025-10-11 07:16:39 | INFO | 9. RESOLVUSDT - SELL (95.0%) @ $0.0649
+2025-10-11 07:16:40 | INFO | Setting leverage for RESOLVUSDT to 1x
+2025-10-11 07:16:41 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:41).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RESOLVUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:41 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RESOLVUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '94051', 'timeInForce': 'IOC'}
+2025-10-11 07:16:41 | INFO | ✅ Perpetual order placed: 26793432-2f94-4226-9cec-59a3d073e1d6
+2025-10-11 07:16:41 | INFO | Setting stop loss via trading stop: RESOLVUSDT @ 0.066847
+2025-10-11 07:16:41 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:16:42 | INFO | Setting take profit via trading stop: RESOLVUSDT @ 0.064251
+2025-10-11 07:16:42 | INFO | ✅ Take profit set via position management
+2025-10-11 07:16:43 | INFO | Setting trailing stop: RESOLVUSDT @ 1.0% = $0.000652 from $0.0652
+2025-10-11 07:16:44 | INFO | ✅ Trailing stop set: 1.0% ($0.000652)
+2025-10-11 07:16:44 | INFO | ✅ EXECUTED: RESOLVUSDT SELL 94051.000000 @ $0.0649 (Conf: 95.0%)
+2025-10-11 07:16:44 | INFO | 10. RPLUSDT - SELL (95.0%) @ $3.188
+2025-10-11 07:16:45 | INFO | Setting leverage for RPLUSDT to 1x
+2025-10-11 07:16:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:16:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RPLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:16:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RPLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1732.95', 'timeInForce': 'IOC'}
+2025-10-11 07:16:46 | INFO | ✅ Perpetual order placed: fe5dd5df-d23c-4ce8-87be-6125cefbb992
+2025-10-11 07:16:46 | INFO | Setting stop loss via trading stop: RPLUSDT @ 3.28364
+2025-10-11 07:16:46 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:16:47 | INFO | Setting take profit via trading stop: RPLUSDT @ 3.15612
+2025-10-11 07:16:47 | INFO | ✅ Take profit set via position management
+2025-10-11 07:16:48 | INFO | Setting trailing stop: RPLUSDT @ 1.0% = $0.031940 from $3.194
+2025-10-11 07:16:49 | INFO | ✅ Trailing stop set: 1.0% ($0.031940)
+2025-10-11 07:16:49 | INFO | ✅ EXECUTED: RPLUSDT SELL 1732.950000 @ $3.188 (Conf: 95.0%)
+2025-10-11 07:16:49 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 5 failed
+2025-10-11 07:16:49 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 07:16:49 | INFO |    • BABYUSDT: SHORT 248940.000000 @ $0.03307 - SL: $0.0341 TP: $0.0327
+2025-10-11 07:16:49 | INFO |    • MVLUSDT: SHORT 3368500.000000 @ $0.002212 - SL: $0.0023 TP: $0.0022
+2025-10-11 07:16:49 | INFO |    • PUMPBTCUSDT: SHORT 181340.000000 @ $0.03719 - SL: $0.0383 TP: $0.0368
+2025-10-11 07:16:49 | INFO |    • RESOLVUSDT: SHORT 94051.000000 @ $0.0649 - SL: $0.0668 TP: $0.0643
+2025-10-11 07:16:49 | INFO |    • RPLUSDT: SHORT 1732.950000 @ $3.188 - SL: $3.2836 TP: $3.1561
+2025-10-11 07:16:49 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 07:16:50 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 07:16:50 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 07:16:50 | INFO | 🎉 SESSION COMPLETED in 47.8s
+2025-10-11 07:16:50 | INFO | ============================================================
