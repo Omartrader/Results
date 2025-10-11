@@ -30996,3 +30996,85 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 03:16:37 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 03:16:37 | INFO | 🎉 SESSION COMPLETED in 33.9s
 2025-10-12 03:16:37 | INFO | ============================================================
+2025-10-12 03:31:01 | INFO | ================================================================================
+2025-10-12 03:31:01 | INFO | NEW PERPETUAL SESSION: 2025-10-12 03:31:01
+2025-10-12 03:31:01 | INFO | ================================================================================
+2025-10-12 03:31:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 03:31:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 03:31:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 03:31:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 03:31:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 03:31:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 03:31:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 03:31:12 | INFO |  1. LOOKSUSDT    | SELL | Price: $  0.0094 | Confidence:  95.0% | Momentum: -4.87%
+2025-10-12 03:31:12 | INFO |  2. MAVUSDT      | BUY  | Price: $  0.0383 | Confidence:  95.0% | Momentum: +5.22%
+2025-10-12 03:31:12 | INFO |  3. PROVEUSDT    | BUY  | Price: $  0.7649 | Confidence:  95.0% | Momentum: +6.43%
+2025-10-12 03:31:12 | INFO |  4. BDXNUSDT     | BUY  | Price: $  0.0259 | Confidence:  83.5% | Momentum: +3.35%
+2025-10-12 03:31:12 | INFO |  5. AVAILUSDT    | BUY  | Price: $  0.0090 | Confidence:  78.5% | Momentum: +2.85%
+2025-10-12 03:31:12 | INFO |  6. HUSDT        | SELL | Price: $  0.0726 | Confidence:  75.5% | Momentum: -2.55%
+2025-10-12 03:31:12 | INFO |  7. OGUSDT       | SELL | Price: $ 15.8906 | Confidence:  71.8% | Momentum: -2.18%
+2025-10-12 03:31:13 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-12 03:31:13 | INFO | 1. LOOKSUSDT - SELL (95.0%) @ $0.00938
+2025-10-12 03:31:14 | INFO | Setting leverage for LOOKSUSDT to 1x
+2025-10-12 03:31:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LOOKSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 03:31:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LOOKSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '873687.8', 'timeInForce': 'IOC'}
+2025-10-12 03:31:14 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:87368780000000 > max_qty:23900000000000 (ErrCode: 10001) (ErrTime: 23:31:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LOOKSUSDT", "side": "Sell", "orderType": "Market", "qty": "873687.8", "timeInForce": "IOC"}.
+2025-10-12 03:31:14 | ERROR | ❌ FAILED: LOOKSUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:87368780000000 > max_qty:23900000000000 (ErrCode: 10001) (ErrTime: 23:31:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LOOKSUSDT", "side": "Sell", "orderType": "Market", "qty": "873687.8", "timeInForce": "IOC"}.
+2025-10-12 03:31:15 | INFO | 2. MAVUSDT - BUY (95.0%) @ $0.03831
+2025-10-12 03:31:16 | INFO | Setting leverage for MAVUSDT to 1x
+2025-10-12 03:31:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MAVUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 03:31:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MAVUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '213918', 'timeInForce': 'IOC'}
+2025-10-12 03:31:16 | INFO | ✅ Perpetual order placed: b524dcc5-73c5-4084-ab06-e74f8e3651af
+2025-10-12 03:31:17 | INFO | Setting stop loss via trading stop: MAVUSDT @ 0.0371607
+2025-10-12 03:31:17 | INFO | ✅ Stop loss set via position management
+2025-10-12 03:31:17 | INFO | Setting take profit via trading stop: MAVUSDT @ 0.038693099999999994
+2025-10-12 03:31:17 | INFO | ✅ Take profit set via position management
+2025-10-12 03:31:18 | INFO | Setting trailing stop: MAVUSDT @ 1.0% = $0.000384 from $0.03841
+2025-10-12 03:31:19 | INFO | ✅ Trailing stop set: 1.0% ($0.000384)
+2025-10-12 03:31:19 | INFO | ✅ EXECUTED: MAVUSDT BUY 213918.000000 @ $0.03831 (Conf: 95.0%)
+2025-10-12 03:31:19 | INFO | 3. PROVEUSDT - BUY (95.0%) @ $0.7649
+2025-10-12 03:31:20 | INFO | Setting leverage for PROVEUSDT to 1x
+2025-10-12 03:31:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PROVEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 03:31:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PROVEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9697', 'timeInForce': 'IOC'}
+2025-10-12 03:31:21 | INFO | ✅ Perpetual order placed: 7224b60c-bfdc-49bb-b1aa-0b4e50525453
+2025-10-12 03:31:21 | INFO | Setting stop loss via trading stop: PROVEUSDT @ 0.741953
+2025-10-12 03:31:21 | INFO | ✅ Stop loss set via position management
+2025-10-12 03:31:21 | INFO | Setting take profit via trading stop: PROVEUSDT @ 0.772549
+2025-10-12 03:31:21 | INFO | ✅ Take profit set via position management
+2025-10-12 03:31:23 | INFO | Setting trailing stop: PROVEUSDT @ 1.0% = $0.007631 from $0.7631
+2025-10-12 03:31:23 | INFO | ✅ Trailing stop set: 1.0% ($0.007631)
+2025-10-12 03:31:23 | INFO | ✅ EXECUTED: PROVEUSDT BUY 9697.000000 @ $0.7649 (Conf: 95.0%)
+2025-10-12 03:31:24 | INFO | 4. BDXNUSDT - BUY (83.5%) @ $0.02588
+2025-10-12 03:31:25 | INFO | Setting leverage for BDXNUSDT to 1x
+2025-10-12 03:31:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BDXNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 03:31:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BDXNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '259409', 'timeInForce': 'IOC'}
+2025-10-12 03:31:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25940900000000 > max_qty:24000000000000 (ErrCode: 10001) (ErrTime: 23:31:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BDXNUSDT", "side": "Buy", "orderType": "Market", "qty": "259409", "timeInForce": "IOC"}.
+2025-10-12 03:31:25 | ERROR | ❌ FAILED: BDXNUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25940900000000 > max_qty:24000000000000 (ErrCode: 10001) (ErrTime: 23:31:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BDXNUSDT", "side": "Buy", "orderType": "Market", "qty": "259409", "timeInForce": "IOC"}.
+2025-10-12 03:31:26 | INFO | 5. AVAILUSDT - BUY (78.5%) @ $0.00903
+2025-10-12 03:31:27 | INFO | Setting leverage for AVAILUSDT to 1x
+2025-10-12 03:31:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 23:31:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVAILUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 03:31:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVAILUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '400000', 'timeInForce': 'IOC'}
+2025-10-12 03:31:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:40000000000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 23:31:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AVAILUSDT", "side": "Buy", "orderType": "Market", "qty": "400000", "timeInForce": "IOC"}.
+2025-10-12 03:31:28 | ERROR | ❌ FAILED: AVAILUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:40000000000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 23:31:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "AVAILUSDT", "side": "Buy", "orderType": "Market", "qty": "400000", "timeInForce": "IOC"}.
+2025-10-12 03:31:28 | INFO | 6. HUSDT - SELL (75.5%) @ $0.072559
+2025-10-12 03:31:28 | INFO | 7. OGUSDT - SELL (71.8%) @ $15.8906
+2025-10-12 03:31:28 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 3 failed
+2025-10-12 03:31:28 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 03:31:28 | INFO |    • MAVUSDT: LONG 213918.000000 @ $0.03831 - SL: $0.0372 TP: $0.0387
+2025-10-12 03:31:28 | INFO |    • PROVEUSDT: LONG 9697.000000 @ $0.7649 - SL: $0.7420 TP: $0.7725
+2025-10-12 03:31:28 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 03:31:29 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 03:31:29 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 03:31:29 | INFO | 🎉 SESSION COMPLETED in 27.4s
+2025-10-12 03:31:29 | INFO | ============================================================
