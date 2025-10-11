@@ -30233,3 +30233,30 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 01:01:17 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 01:01:17 | INFO | 🎉 SESSION COMPLETED in 15.4s
 2025-10-12 01:01:17 | INFO | ============================================================
+2025-10-12 01:16:01 | INFO | ================================================================================
+2025-10-12 01:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-12 01:16:01
+2025-10-12 01:16:01 | INFO | ================================================================================
+2025-10-12 01:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 01:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 01:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 01:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 01:16:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 01:16:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 01:16:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 01:16:13 | INFO |  1. FRAGUSDT     | SELL | Price: $  0.0208 | Confidence:  95.0% | Momentum: -10.46%
+2025-10-12 01:16:14 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-12 01:16:14 | INFO | 1. FRAGUSDT - SELL (95.0%) @ $0.02081
+2025-10-12 01:16:15 | INFO | Setting leverage for FRAGUSDT to 1x
+2025-10-12 01:16:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 21:16:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FRAGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 01:16:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FRAGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '395252', 'timeInForce': 'IOC'}
+2025-10-12 01:16:15 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:39525200000000 > max_qty:16600000000000 (ErrCode: 10001) (ErrTime: 21:16:15).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FRAGUSDT", "side": "Sell", "orderType": "Market", "qty": "395252", "timeInForce": "IOC"}.
+2025-10-12 01:16:15 | ERROR | ❌ FAILED: FRAGUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:39525200000000 > max_qty:16600000000000 (ErrCode: 10001) (ErrTime: 21:16:15).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FRAGUSDT", "side": "Sell", "orderType": "Market", "qty": "395252", "timeInForce": "IOC"}.
+2025-10-12 01:16:16 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 1 failed
+2025-10-12 01:16:16 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 01:16:16 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 01:16:16 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 01:16:16 | INFO | 🎉 SESSION COMPLETED in 14.4s
+2025-10-12 01:16:16 | INFO | ============================================================
