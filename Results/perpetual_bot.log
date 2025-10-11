@@ -30426,3 +30426,82 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 01:46:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 01:46:35 | INFO | 🎉 SESSION COMPLETED in 32.5s
 2025-10-12 01:46:35 | INFO | ============================================================
+2025-10-12 02:01:01 | INFO | ================================================================================
+2025-10-12 02:01:01 | INFO | NEW PERPETUAL SESSION: 2025-10-12 02:01:01
+2025-10-12 02:01:01 | INFO | ================================================================================
+2025-10-12 02:01:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 02:01:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 02:01:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 02:01:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 02:01:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 02:01:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 02:01:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 02:01:13 | INFO |  1. LYNUSDT      | BUY  | Price: $  0.1553 | Confidence:  95.0% | Momentum: +12.54%
+2025-10-12 02:01:13 | INFO |  2. MASAUSDT     | BUY  | Price: $  0.0090 | Confidence:  95.0% | Momentum: +12.02%
+2025-10-12 02:01:13 | INFO |  3. ALPHAUSDT    | BUY  | Price: $  0.0109 | Confidence:  92.2% | Momentum: +4.22%
+2025-10-12 02:01:13 | INFO |  4. HIFIUSDT     | BUY  | Price: $  0.0571 | Confidence:  91.6% | Momentum: +4.16%
+2025-10-12 02:01:13 | INFO |  5. MILKUSDT     | BUY  | Price: $  0.0348 | Confidence:  88.2% | Momentum: +3.82%
+2025-10-12 02:01:13 | INFO |  6. HIPPOUSDT    | BUY  | Price: $  0.0014 | Confidence:  73.5% | Momentum: +2.35%
+2025-10-12 02:01:13 | INFO |  7. REXUSDT      | BUY  | Price: $  0.0008 | Confidence:  72.1% | Momentum: +2.21%
+2025-10-12 02:01:14 | INFO | 🎯 PROCESSING TOP 7 OPPORTUNITIES:
+2025-10-12 02:01:14 | INFO | 1. LYNUSDT - BUY (95.0%) @ $0.1553
+2025-10-12 02:01:15 | INFO | Setting leverage for LYNUSDT to 1x
+2025-10-12 02:01:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LYNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 02:01:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LYNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '52985', 'timeInForce': 'IOC'}
+2025-10-12 02:01:15 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5298500000000 > max_qty:3120000000000 (ErrCode: 10001) (ErrTime: 22:01:15).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LYNUSDT", "side": "Buy", "orderType": "Market", "qty": "52985", "timeInForce": "IOC"}.
+2025-10-12 02:01:15 | ERROR | ❌ FAILED: LYNUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:5298500000000 > max_qty:3120000000000 (ErrCode: 10001) (ErrTime: 22:01:15).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LYNUSDT", "side": "Buy", "orderType": "Market", "qty": "52985", "timeInForce": "IOC"}.
+2025-10-12 02:01:16 | INFO | 2. MASAUSDT - BUY (95.0%) @ $0.00904
+2025-10-12 02:01:17 | INFO | Setting leverage for MASAUSDT to 1x
+2025-10-12 02:01:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MASAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 02:01:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MASAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '600000', 'timeInForce': 'IOC'}
+2025-10-12 02:01:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:60000000000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 22:01:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Buy", "orderType": "Market", "qty": "600000", "timeInForce": "IOC"}.
+2025-10-12 02:01:17 | ERROR | ❌ FAILED: MASAUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:60000000000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 22:01:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Buy", "orderType": "Market", "qty": "600000", "timeInForce": "IOC"}.
+2025-10-12 02:01:18 | INFO | 3. ALPHAUSDT - BUY (92.2%) @ $0.01086
+2025-10-12 02:01:19 | INFO | Setting leverage for ALPHAUSDT to 1x
+2025-10-12 02:01:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALPHAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 02:01:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALPHAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '757694', 'timeInForce': 'IOC'}
+2025-10-12 02:01:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:75769400000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 22:01:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Buy", "orderType": "Market", "qty": "757694", "timeInForce": "IOC"}.
+2025-10-12 02:01:19 | ERROR | ❌ FAILED: ALPHAUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:75769400000000 > max_qty:19640000000000 (ErrCode: 10001) (ErrTime: 22:01:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALPHAUSDT", "side": "Buy", "orderType": "Market", "qty": "757694", "timeInForce": "IOC"}.
+2025-10-12 02:01:20 | INFO | 4. HIFIUSDT - BUY (91.6%) @ $0.05707
+2025-10-12 02:01:20 | INFO | Setting leverage for HIFIUSDT to 1x
+2025-10-12 02:01:21 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:21).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HIFIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 02:01:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HIFIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '144184', 'timeInForce': 'IOC'}
+2025-10-12 02:01:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:14418400000000 > max_qty:12720000000000 (ErrCode: 10001) (ErrTime: 22:01:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HIFIUSDT", "side": "Buy", "orderType": "Market", "qty": "144184", "timeInForce": "IOC"}.
+2025-10-12 02:01:21 | ERROR | ❌ FAILED: HIFIUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:14418400000000 > max_qty:12720000000000 (ErrCode: 10001) (ErrTime: 22:01:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HIFIUSDT", "side": "Buy", "orderType": "Market", "qty": "144184", "timeInForce": "IOC"}.
+2025-10-12 02:01:22 | INFO | 5. MILKUSDT - BUY (88.2%) @ $0.03481
+2025-10-12 02:01:22 | INFO | Setting leverage for MILKUSDT to 1x
+2025-10-12 02:01:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MILKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 02:01:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MILKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '236385', 'timeInForce': 'IOC'}
+2025-10-12 02:01:23 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:23638500000000 > max_qty:19470000000000 (ErrCode: 10001) (ErrTime: 22:01:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MILKUSDT", "side": "Buy", "orderType": "Market", "qty": "236385", "timeInForce": "IOC"}.
+2025-10-12 02:01:23 | ERROR | ❌ FAILED: MILKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:23638500000000 > max_qty:19470000000000 (ErrCode: 10001) (ErrTime: 22:01:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MILKUSDT", "side": "Buy", "orderType": "Market", "qty": "236385", "timeInForce": "IOC"}.
+2025-10-12 02:01:23 | INFO | 6. HIPPOUSDT - BUY (73.5%) @ $0.001352
+2025-10-12 02:01:24 | INFO | Setting leverage for HIPPOUSDT to 1x
+2025-10-12 02:01:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 22:01:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HIPPOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 02:01:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HIPPOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5700000', 'timeInForce': 'IOC'}
+2025-10-12 02:01:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:570000000000000 > max_qty:114000000000000 (ErrCode: 10001) (ErrTime: 22:01:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HIPPOUSDT", "side": "Buy", "orderType": "Market", "qty": "5700000", "timeInForce": "IOC"}.
+2025-10-12 02:01:25 | ERROR | ❌ FAILED: HIPPOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:570000000000000 > max_qty:114000000000000 (ErrCode: 10001) (ErrTime: 22:01:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HIPPOUSDT", "side": "Buy", "orderType": "Market", "qty": "5700000", "timeInForce": "IOC"}.
+2025-10-12 02:01:25 | INFO | 7. REXUSDT - BUY (72.1%) @ $0.000832
+2025-10-12 02:01:26 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 6 failed
+2025-10-12 02:01:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 02:01:27 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 02:01:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 02:01:27 | INFO | 🎉 SESSION COMPLETED in 24.8s
+2025-10-12 02:01:27 | INFO | ============================================================
