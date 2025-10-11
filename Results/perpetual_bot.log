@@ -25286,3 +25286,78 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-11 14:31:39 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 14:31:39 | INFO | 🎉 SESSION COMPLETED in 30.5s
 2025-10-11 14:31:39 | INFO | ============================================================
+2025-10-11 14:46:05 | INFO | ================================================================================
+2025-10-11 14:46:05 | INFO | NEW PERPETUAL SESSION: 2025-10-11 14:46:05
+2025-10-11 14:46:05 | INFO | ================================================================================
+2025-10-11 14:46:05 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 14:46:05 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 14:46:05 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 14:46:05 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 14:46:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 14:46:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 14:46:15 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 14:46:15 | INFO |  1. AKEUSDT      | SELL | Price: $  0.0015 | Confidence:  95.0% | Momentum: -6.19%
+2025-10-11 14:46:15 | INFO |  2. APEXUSDT     | BUY  | Price: $  1.1935 | Confidence:  95.0% | Momentum: +15.24%
+2025-10-11 14:46:15 | INFO |  3. AINUSDT      | BUY  | Price: $  0.1343 | Confidence:  95.0% | Momentum: +11.36%
+2025-10-11 14:46:15 | INFO |  4. PUFFERUSDT   | BUY  | Price: $  0.1021 | Confidence:  95.0% | Momentum: +12.32%
+2025-10-11 14:46:15 | INFO |  5. ENAUSDT      | SELL | Price: $  0.4225 | Confidence:  65.8% | Momentum: -1.58%
+2025-10-11 14:46:16 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-11 14:46:16 | INFO | 1. AKEUSDT - SELL (95.0%) @ $0.001501
+2025-10-11 14:46:17 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-11 14:46:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:46:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5438800', 'timeInForce': 'IOC'}
+2025-10-11 14:46:17 | INFO | ✅ Perpetual order placed: ac521a61-042c-4b36-abb4-c677ac668ac4
+2025-10-11 14:46:18 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.0015460299999999999
+2025-10-11 14:46:18 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:46:18 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00148599
+2025-10-11 14:46:18 | INFO | ✅ Take profit set via position management
+2025-10-11 14:46:19 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001498
+2025-10-11 14:46:20 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-11 14:46:20 | INFO | ✅ EXECUTED: AKEUSDT SELL 5438800.000000 @ $0.001501 (Conf: 95.0%)
+2025-10-11 14:46:20 | INFO | 2. APEXUSDT - BUY (95.0%) @ $1.1935
+2025-10-11 14:46:21 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-11 14:46:21 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:21).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:46:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6190.9', 'timeInForce': 'IOC'}
+2025-10-11 14:46:21 | INFO | ✅ Perpetual order placed: 9a3b8817-7b87-4302-a60f-8fa600e3c58a
+2025-10-11 14:46:22 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.157695
+2025-10-11 14:46:22 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:46:22 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.205435
+2025-10-11 14:46:22 | INFO | ✅ Take profit set via position management
+2025-10-11 14:46:24 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.011927 from $1.1927
+2025-10-11 14:46:24 | INFO | ✅ Trailing stop set: 1.0% ($0.011927)
+2025-10-11 14:46:24 | INFO | ✅ EXECUTED: APEXUSDT BUY 6190.900000 @ $1.1935 (Conf: 95.0%)
+2025-10-11 14:46:24 | INFO | 3. AINUSDT - BUY (95.0%) @ $0.13432
+2025-10-11 14:46:24 | INFO | 4. PUFFERUSDT - BUY (95.0%) @ $0.1021
+2025-10-11 14:46:25 | INFO | Setting leverage for PUFFERUSDT to 1x
+2025-10-11 14:46:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PUFFERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:46:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PUFFERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '65500', 'timeInForce': 'IOC'}
+2025-10-11 14:46:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6550000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 10:46:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PUFFERUSDT", "side": "Buy", "orderType": "Market", "qty": "65500", "timeInForce": "IOC"}.
+2025-10-11 14:46:26 | ERROR | ❌ FAILED: PUFFERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:6550000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 10:46:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PUFFERUSDT", "side": "Buy", "orderType": "Market", "qty": "65500", "timeInForce": "IOC"}.
+2025-10-11 14:46:26 | INFO | 5. ENAUSDT - SELL (65.8%) @ $0.4225
+2025-10-11 14:46:27 | INFO | Setting leverage for ENAUSDT to 1x
+2025-10-11 14:46:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ENAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:46:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ENAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '15829', 'timeInForce': 'IOC'}
+2025-10-11 14:46:28 | INFO | ✅ Perpetual order placed: bdc4d282-bc9b-4d07-b1ea-2852988f56b3
+2025-10-11 14:46:28 | INFO | Setting stop loss via trading stop: ENAUSDT @ 0.435175
+2025-10-11 14:46:28 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:46:28 | INFO | Setting take profit via trading stop: ENAUSDT @ 0.418275
+2025-10-11 14:46:28 | INFO | ✅ Take profit set via position management
+2025-10-11 14:46:30 | INFO | Setting trailing stop: ENAUSDT @ 1.0% = $0.004235 from $0.4235
+2025-10-11 14:46:30 | INFO | ✅ Trailing stop set: 1.0% ($0.004235)
+2025-10-11 14:46:30 | INFO | ✅ EXECUTED: ENAUSDT SELL 15829.000000 @ $0.4225 (Conf: 65.8%)
+2025-10-11 14:46:31 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 1 failed
+2025-10-11 14:46:31 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 14:46:31 | INFO |    • AKEUSDT: SHORT 5438800.000000 @ $0.001501 - SL: $0.0015 TP: $0.0015
+2025-10-11 14:46:31 | INFO |    • APEXUSDT: LONG 6190.900000 @ $1.1935 - SL: $1.1577 TP: $1.2054
+2025-10-11 14:46:31 | INFO |    • ENAUSDT: SHORT 15829.000000 @ $0.4225 - SL: $0.4352 TP: $0.4183
+2025-10-11 14:46:31 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 14:46:31 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 14:46:31 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 14:46:31 | INFO | 🎉 SESSION COMPLETED in 26.3s
+2025-10-11 14:46:31 | INFO | ============================================================
