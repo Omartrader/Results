@@ -25063,3 +25063,51 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 13:47:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 13:47:00 | INFO | 🎉 SESSION COMPLETED in 44.4s
 2025-10-11 13:47:00 | INFO | ============================================================
+2025-10-11 14:01:18 | INFO | ================================================================================
+2025-10-11 14:01:18 | INFO | NEW PERPETUAL SESSION: 2025-10-11 14:01:18
+2025-10-11 14:01:18 | INFO | ================================================================================
+2025-10-11 14:01:18 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 14:01:18 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 14:01:18 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 14:01:18 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 14:01:19 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 14:01:19 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 14:01:29 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 14:01:29 | INFO |  1. AKEUSDT      | SELL | Price: $  0.0015 | Confidence:  95.0% | Momentum: -6.00%
+2025-10-11 14:01:29 | INFO |  2. APEXUSDT     | BUY  | Price: $  1.2109 | Confidence:  95.0% | Momentum: +16.92%
+2025-10-11 14:01:29 | INFO | 🎯 PROCESSING TOP 2 OPPORTUNITIES:
+2025-10-11 14:01:29 | INFO | 1. AKEUSDT - SELL (95.0%) @ $0.001504
+2025-10-11 14:01:30 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-11 14:01:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:01:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:01:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '5429100', 'timeInForce': 'IOC'}
+2025-10-11 14:01:31 | INFO | ✅ Perpetual order placed: 5b8eba95-9f8b-459c-829b-cde2154dadb1
+2025-10-11 14:01:31 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.00154912
+2025-10-11 14:01:31 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:01:31 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00148896
+2025-10-11 14:01:31 | INFO | ✅ Take profit set via position management
+2025-10-11 14:01:33 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001511
+2025-10-11 14:01:33 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-11 14:01:33 | INFO | ✅ EXECUTED: AKEUSDT SELL 5429100.000000 @ $0.001504 (Conf: 95.0%)
+2025-10-11 14:01:34 | INFO | 2. APEXUSDT - BUY (95.0%) @ $1.2109
+2025-10-11 14:01:35 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-11 14:01:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:01:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:01:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6103.3', 'timeInForce': 'IOC'}
+2025-10-11 14:01:36 | INFO | ✅ Perpetual order placed: 43f16141-fb56-4b91-911b-4cc0d018ff8e
+2025-10-11 14:01:37 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.174573
+2025-10-11 14:01:37 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:01:37 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.223009
+2025-10-11 14:01:37 | INFO | ✅ Take profit set via position management
+2025-10-11 14:01:39 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.012074 from $1.2074
+2025-10-11 14:01:40 | INFO | ✅ Trailing stop set: 1.0% ($0.012074)
+2025-10-11 14:01:40 | INFO | ✅ EXECUTED: APEXUSDT BUY 6103.300000 @ $1.2109 (Conf: 95.0%)
+2025-10-11 14:01:40 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-11 14:01:40 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 14:01:40 | INFO |    • AKEUSDT: SHORT 5429100.000000 @ $0.001504 - SL: $0.0015 TP: $0.0015
+2025-10-11 14:01:40 | INFO |    • APEXUSDT: LONG 6103.300000 @ $1.2109 - SL: $1.1746 TP: $1.2230
+2025-10-11 14:01:40 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 14:01:41 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 14:01:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 14:01:41 | INFO | 🎉 SESSION COMPLETED in 22.6s
+2025-10-11 14:01:41 | INFO | ============================================================
