@@ -26282,3 +26282,91 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 16:46:49 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 16:46:49 | INFO | 🎉 SESSION COMPLETED in 45.3s
 2025-10-11 16:46:49 | INFO | ============================================================
+2025-10-11 17:01:03 | INFO | ================================================================================
+2025-10-11 17:01:03 | INFO | NEW PERPETUAL SESSION: 2025-10-11 17:01:03
+2025-10-11 17:01:03 | INFO | ================================================================================
+2025-10-11 17:01:03 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 17:01:03 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 17:01:03 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 17:01:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 17:01:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 17:01:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 17:01:15 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 17:01:15 | INFO |  1. AVNTUSDT     | BUY  | Price: $  0.6590 | Confidence:  95.0% | Momentum: +4.74%
+2025-10-11 17:01:15 | INFO |  2. DASHUSDT     | BUY  | Price: $ 41.3900 | Confidence:  95.0% | Momentum: +18.26%
+2025-10-11 17:01:15 | INFO |  3. NODEUSDT     | SELL | Price: $  0.0584 | Confidence:  83.3% | Momentum: -3.33%
+2025-10-11 17:01:15 | INFO |  4. SAROSUSDT    | BUY  | Price: $  0.2612 | Confidence:  74.4% | Momentum: +2.44%
+2025-10-11 17:01:15 | INFO |  5. GPSUSDT      | BUY  | Price: $  0.0088 | Confidence:  67.3% | Momentum: +1.73%
+2025-10-11 17:01:16 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-11 17:01:16 | INFO | 1. AVNTUSDT - BUY (95.0%) @ $0.659
+2025-10-11 17:01:17 | INFO | Setting leverage for AVNTUSDT to 1x
+2025-10-11 17:01:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:01:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '12391', 'timeInForce': 'IOC'}
+2025-10-11 17:01:18 | INFO | ✅ Perpetual order placed: 4c86473c-4a17-4808-acc2-c6711f3d9fd8
+2025-10-11 17:01:18 | INFO | Setting stop loss via trading stop: AVNTUSDT @ 0.63923
+2025-10-11 17:01:18 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:01:18 | INFO | Setting take profit via trading stop: AVNTUSDT @ 0.66559
+2025-10-11 17:01:18 | INFO | ✅ Take profit set via position management
+2025-10-11 17:01:20 | INFO | Setting trailing stop: AVNTUSDT @ 1.0% = $0.006596 from $0.6596
+2025-10-11 17:01:20 | INFO | ✅ Trailing stop set: 1.0% ($0.006596)
+2025-10-11 17:01:20 | INFO | ✅ EXECUTED: AVNTUSDT BUY 12391.000000 @ $0.659 (Conf: 95.0%)
+2025-10-11 17:01:21 | INFO | 2. DASHUSDT - BUY (95.0%) @ $41.39
+2025-10-11 17:01:22 | INFO | Setting leverage for DASHUSDT to 1x
+2025-10-11 17:01:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DASHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:01:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DASHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '178.57', 'timeInForce': 'IOC'}
+2025-10-11 17:01:22 | INFO | ✅ Perpetual order placed: 16ef5d62-0939-4689-af0e-09f063ede1a9
+2025-10-11 17:01:22 | INFO | Setting stop loss via trading stop: DASHUSDT @ 40.1483
+2025-10-11 17:01:22 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:01:23 | INFO | Setting take profit via trading stop: DASHUSDT @ 41.8039
+2025-10-11 17:01:23 | INFO | ✅ Take profit set via position management
+2025-10-11 17:01:24 | INFO | Setting trailing stop: DASHUSDT @ 1.0% = $0.413300 from $41.33
+2025-10-11 17:01:24 | INFO | ✅ Trailing stop set: 1.0% ($0.413300)
+2025-10-11 17:01:24 | INFO | ✅ EXECUTED: DASHUSDT BUY 178.570000 @ $41.39 (Conf: 95.0%)
+2025-10-11 17:01:25 | INFO | 3. NODEUSDT - SELL (83.3%) @ $0.05843
+2025-10-11 17:01:26 | INFO | Setting leverage for NODEUSDT to 1x
+2025-10-11 17:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NODEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NODEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '114488', 'timeInForce': 'IOC'}
+2025-10-11 17:01:27 | INFO | ✅ Perpetual order placed: da923c0f-fd10-425e-9bfe-529f4644e69f
+2025-10-11 17:01:27 | INFO | Setting stop loss via trading stop: NODEUSDT @ 0.060182900000000004
+2025-10-11 17:01:27 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:01:27 | INFO | Setting take profit via trading stop: NODEUSDT @ 0.0578457
+2025-10-11 17:01:27 | INFO | ✅ Take profit set via position management
+2025-10-11 17:01:29 | INFO | Setting trailing stop: NODEUSDT @ 1.0% = $0.000584 from $0.05843
+2025-10-11 17:01:29 | INFO | ✅ Trailing stop set: 1.0% ($0.000584)
+2025-10-11 17:01:29 | INFO | ✅ EXECUTED: NODEUSDT SELL 114488.000000 @ $0.05843 (Conf: 83.3%)
+2025-10-11 17:01:30 | INFO | 4. SAROSUSDT - BUY (74.4%) @ $0.26117
+2025-10-11 17:01:31 | INFO | Setting leverage for SAROSUSDT to 1x
+2025-10-11 17:01:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SAROSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:01:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SAROSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23183', 'timeInForce': 'IOC'}
+2025-10-11 17:01:31 | INFO | ✅ Perpetual order placed: e42f2725-05c3-4544-bc0d-4c0e1a56050f
+2025-10-11 17:01:32 | INFO | Setting stop loss via trading stop: SAROSUSDT @ 0.25333490000000003
+2025-10-11 17:01:32 | INFO | ✅ Stop loss set via position management
+2025-10-11 17:01:32 | INFO | Setting take profit via trading stop: SAROSUSDT @ 0.2637817
+2025-10-11 17:01:32 | INFO | ✅ Take profit set via position management
+2025-10-11 17:01:33 | INFO | Setting trailing stop: SAROSUSDT @ 1.0% = $0.002612 from $0.26117
+2025-10-11 17:01:34 | INFO | ✅ Trailing stop set: 1.0% ($0.002612)
+2025-10-11 17:01:34 | INFO | ✅ EXECUTED: SAROSUSDT BUY 23183.000000 @ $0.26117 (Conf: 74.4%)
+2025-10-11 17:01:34 | INFO | 5. GPSUSDT - BUY (67.3%) @ $0.0088
+2025-10-11 17:01:35 | INFO | Setting leverage for GPSUSDT to 1x
+2025-10-11 17:01:35 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 13:01:35).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GPSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 17:01:35 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GPSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '622734', 'timeInForce': 'IOC'}
+2025-10-11 17:01:36 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:62273400000000 > max_qty:17000000000000 (ErrCode: 10001) (ErrTime: 13:01:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GPSUSDT", "side": "Buy", "orderType": "Market", "qty": "622734", "timeInForce": "IOC"}.
+2025-10-11 17:01:36 | ERROR | ❌ FAILED: GPSUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:62273400000000 > max_qty:17000000000000 (ErrCode: 10001) (ErrTime: 13:01:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GPSUSDT", "side": "Buy", "orderType": "Market", "qty": "622734", "timeInForce": "IOC"}.
+2025-10-11 17:01:36 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 1 failed
+2025-10-11 17:01:36 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 17:01:36 | INFO |    • AVNTUSDT: LONG 12391.000000 @ $0.659 - SL: $0.6392 TP: $0.6656
+2025-10-11 17:01:36 | INFO |    • DASHUSDT: LONG 178.570000 @ $41.39 - SL: $40.1483 TP: $41.8039
+2025-10-11 17:01:36 | INFO |    • NODEUSDT: SHORT 114488.000000 @ $0.05843 - SL: $0.0602 TP: $0.0578
+2025-10-11 17:01:36 | INFO |    • SAROSUSDT: LONG 23183.000000 @ $0.26117 - SL: $0.2533 TP: $0.2638
+2025-10-11 17:01:36 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 17:01:37 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 17:01:37 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 17:01:37 | INFO | 🎉 SESSION COMPLETED in 32.8s
+2025-10-11 17:01:37 | INFO | ============================================================
