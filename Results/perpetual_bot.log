@@ -20615,3 +20615,76 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 05:31:28 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 05:31:28 | INFO | 🎉 SESSION COMPLETED in 24.3s
 2025-10-11 05:31:28 | INFO | ============================================================
+2025-10-11 05:46:02 | INFO | ================================================================================
+2025-10-11 05:46:02 | INFO | NEW PERPETUAL SESSION: 2025-10-11 05:46:02
+2025-10-11 05:46:02 | INFO | ================================================================================
+2025-10-11 05:46:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 05:46:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 05:46:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 05:46:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 05:46:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 05:46:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 05:46:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 05:46:13 | INFO |  1. HOMEUSDT     | SELL | Price: $  0.0266 | Confidence:  95.0% | Momentum: -6.96%
+2025-10-11 05:46:13 | INFO |  2. LAUSDT       | SELL | Price: $  0.3031 | Confidence:  95.0% | Momentum: -14.84%
+2025-10-11 05:46:13 | INFO |  3. BANUSDT      | SELL | Price: $  0.0669 | Confidence:  92.3% | Momentum: -4.23%
+2025-10-11 05:46:13 | INFO |  4. RLUSDUSDT    | SELL | Price: $  0.9649 | Confidence:  82.7% | Momentum: -3.27%
+2025-10-11 05:46:14 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-11 05:46:14 | INFO | 1. HOMEUSDT - SELL (95.0%) @ $0.0266
+2025-10-11 05:46:15 | INFO | Setting leverage for HOMEUSDT to 1x
+2025-10-11 05:46:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:46:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HOMEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 05:46:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HOMEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '314340', 'timeInForce': 'IOC'}
+2025-10-11 05:46:16 | INFO | ✅ Perpetual order placed: 9bc885e3-8d11-4691-a48f-72682ef05d3a
+2025-10-11 05:46:16 | INFO | Setting stop loss via trading stop: HOMEUSDT @ 0.027398
+2025-10-11 05:46:16 | INFO | ✅ Stop loss set via position management
+2025-10-11 05:46:16 | INFO | Setting take profit via trading stop: HOMEUSDT @ 0.026334
+2025-10-11 05:46:16 | INFO | ✅ Take profit set via position management
+2025-10-11 05:46:18 | INFO | Setting trailing stop: HOMEUSDT @ 1.0% = $0.000266 from $0.0266
+2025-10-11 05:46:18 | INFO | ✅ Trailing stop set: 1.0% ($0.000266)
+2025-10-11 05:46:18 | INFO | ✅ EXECUTED: HOMEUSDT SELL 314340.000000 @ $0.0266 (Conf: 95.0%)
+2025-10-11 05:46:18 | INFO | 2. LAUSDT - SELL (95.0%) @ $0.3031
+2025-10-11 05:46:19 | INFO | Setting leverage for LAUSDT to 1x
+2025-10-11 05:46:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:46:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 05:46:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '24968.4', 'timeInForce': 'IOC'}
+2025-10-11 05:46:20 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2496840000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 01:46:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Sell", "orderType": "Market", "qty": "24968.4", "timeInForce": "IOC"}.
+2025-10-11 05:46:20 | ERROR | ❌ FAILED: LAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2496840000000 > max_qty:1540000000000 (ErrCode: 10001) (ErrTime: 01:46:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LAUSDT", "side": "Sell", "orderType": "Market", "qty": "24968.4", "timeInForce": "IOC"}.
+2025-10-11 05:46:20 | INFO | 3. BANUSDT - SELL (92.3%) @ $0.06687
+2025-10-11 05:46:21 | INFO | Setting leverage for BANUSDT to 1x
+2025-10-11 05:46:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:46:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 05:46:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '113174', 'timeInForce': 'IOC'}
+2025-10-11 05:46:22 | INFO | ✅ Perpetual order placed: 9a01c5d3-84c4-4516-92c6-50dd660e8813
+2025-10-11 05:46:22 | INFO | Setting stop loss via trading stop: BANUSDT @ 0.0688761
+2025-10-11 05:46:22 | INFO | ✅ Stop loss set via position management
+2025-10-11 05:46:23 | INFO | Setting take profit via trading stop: BANUSDT @ 0.0662013
+2025-10-11 05:46:23 | INFO | ✅ Take profit set via position management
+2025-10-11 05:46:24 | INFO | Setting trailing stop: BANUSDT @ 1.0% = $0.000664 from $0.0664
+2025-10-11 05:46:24 | INFO | ✅ Trailing stop set: 1.0% ($0.000664)
+2025-10-11 05:46:24 | INFO | ✅ EXECUTED: BANUSDT SELL 113174.000000 @ $0.06687 (Conf: 92.3%)
+2025-10-11 05:46:25 | INFO | 4. RLUSDUSDT - SELL (82.7%) @ $0.9649
+2025-10-11 05:46:26 | INFO | Setting leverage for RLUSDUSDT to 1x
+2025-10-11 05:46:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:46:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RLUSDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 05:46:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RLUSDUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '7099', 'timeInForce': 'IOC'}
+2025-10-11 05:46:26 | INFO | ✅ Perpetual order placed: a2a4dfcb-d15f-4850-83cb-e82059e54b20
+2025-10-11 05:46:27 | INFO | Setting stop loss via trading stop: RLUSDUSDT @ 0.993847
+2025-10-11 05:46:27 | INFO | ✅ Stop loss set via position management
+2025-10-11 05:46:27 | INFO | Setting take profit via trading stop: RLUSDUSDT @ 0.955251
+2025-10-11 05:46:27 | INFO | ✅ Take profit set via position management
+2025-10-11 05:46:28 | INFO | Setting trailing stop: RLUSDUSDT @ 1.0% = $0.009696 from $0.9696
+2025-10-11 05:46:29 | INFO | ✅ Trailing stop set: 1.0% ($0.009696)
+2025-10-11 05:46:29 | INFO | ✅ EXECUTED: RLUSDUSDT SELL 7099.000000 @ $0.9649 (Conf: 82.7%)
+2025-10-11 05:46:29 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 1 failed
+2025-10-11 05:46:29 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 05:46:29 | INFO |    • HOMEUSDT: SHORT 314340.000000 @ $0.0266 - SL: $0.0274 TP: $0.0263
+2025-10-11 05:46:29 | INFO |    • BANUSDT: SHORT 113174.000000 @ $0.06687 - SL: $0.0689 TP: $0.0662
+2025-10-11 05:46:29 | INFO |    • RLUSDUSDT: SHORT 7099.000000 @ $0.9649 - SL: $0.9938 TP: $0.9553
+2025-10-11 05:46:29 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 05:46:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 05:46:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 05:46:30 | INFO | 🎉 SESSION COMPLETED in 27.4s
+2025-10-11 05:46:30 | INFO | ============================================================
