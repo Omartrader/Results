@@ -22691,3 +22691,143 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 09:31:44 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 09:31:44 | INFO | 🎉 SESSION COMPLETED in 41.4s
 2025-10-11 09:31:44 | INFO | ============================================================
+2025-10-11 09:46:11 | INFO | ================================================================================
+2025-10-11 09:46:11 | INFO | NEW PERPETUAL SESSION: 2025-10-11 09:46:11
+2025-10-11 09:46:11 | INFO | ================================================================================
+2025-10-11 09:46:11 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 09:46:11 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 09:46:11 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 09:46:11 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 09:46:13 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 09:46:13 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 09:46:25 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 09:46:25 | INFO |  1. 4USDT        | SELL | Price: $  0.0777 | Confidence:  95.0% | Momentum: -27.32%
+2025-10-11 09:46:25 | INFO |  2. ANIMEUSDT    | SELL | Price: $  0.0092 | Confidence:  95.0% | Momentum: -20.03%
+2025-10-11 09:46:25 | INFO |  3. ARIAUSDT     | SELL | Price: $  0.1212 | Confidence:  95.0% | Momentum: -7.28%
+2025-10-11 09:46:25 | INFO |  4. ATHUSDT      | SELL | Price: $  0.0441 | Confidence:  95.0% | Momentum: -12.60%
+2025-10-11 09:46:25 | INFO |  5. BERAUSDT     | SELL | Price: $  1.7690 | Confidence:  95.0% | Momentum: -28.41%
+2025-10-11 09:46:25 | INFO |  6. BICOUSDT     | SELL | Price: $  0.0623 | Confidence:  95.0% | Momentum: -20.56%
+2025-10-11 09:46:25 | INFO |  7. BBUSDT       | SELL | Price: $  0.1177 | Confidence:  95.0% | Momentum: -18.32%
+2025-10-11 09:46:25 | INFO |  8. BADGERUSDT   | SELL | Price: $  0.8251 | Confidence:  95.0% | Momentum: -6.93%
+2025-10-11 09:46:25 | INFO |  9. BRUSDT       | SELL | Price: $  0.0596 | Confidence:  95.0% | Momentum: -12.31%
+2025-10-11 09:46:25 | INFO | 10. CAKEUSDT     | SELL | Price: $  2.8420 | Confidence:  95.0% | Momentum: -11.57%
+2025-10-11 09:46:26 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-11 09:46:26 | INFO | 1. 4USDT - SELL (95.0%) @ $0.0777
+2025-10-11 09:46:27 | INFO | Setting leverage for 4USDT to 1x
+2025-10-11 09:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "4USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '4USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '105373', 'timeInForce': 'IOC'}
+2025-10-11 09:46:27 | INFO | ✅ Perpetual order placed: b4d8cbd3-0e3b-488f-8566-3aa66651e388
+2025-10-11 09:46:27 | INFO | Setting stop loss via trading stop: 4USDT @ 0.080031
+2025-10-11 09:46:27 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:46:28 | INFO | Setting take profit via trading stop: 4USDT @ 0.076923
+2025-10-11 09:46:28 | INFO | ✅ Take profit set via position management
+2025-10-11 09:46:29 | INFO | Setting trailing stop: 4USDT @ 1.0% = $0.000778 from $0.0778
+2025-10-11 09:46:30 | INFO | ✅ Trailing stop set: 1.0% ($0.000778)
+2025-10-11 09:46:30 | INFO | ✅ EXECUTED: 4USDT SELL 105373.000000 @ $0.0777 (Conf: 95.0%)
+2025-10-11 09:46:30 | INFO | 2. ANIMEUSDT - SELL (95.0%) @ $0.00922
+2025-10-11 09:46:31 | INFO | Setting leverage for ANIMEUSDT to 1x
+2025-10-11 09:46:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ANIMEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ANIMEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '803734', 'timeInForce': 'IOC'}
+2025-10-11 09:46:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:80373400000000 > max_qty:22000000000000 (ErrCode: 10001) (ErrTime: 05:46:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ANIMEUSDT", "side": "Sell", "orderType": "Market", "qty": "803734", "timeInForce": "IOC"}.
+2025-10-11 09:46:32 | ERROR | ❌ FAILED: ANIMEUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:80373400000000 > max_qty:22000000000000 (ErrCode: 10001) (ErrTime: 05:46:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ANIMEUSDT", "side": "Sell", "orderType": "Market", "qty": "803734", "timeInForce": "IOC"}.
+2025-10-11 09:46:32 | INFO | 3. ARIAUSDT - SELL (95.0%) @ $0.12119
+2025-10-11 09:46:33 | INFO | Setting leverage for ARIAUSDT to 1x
+2025-10-11 09:46:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ARIAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ARIAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '61147', 'timeInForce': 'IOC'}
+2025-10-11 09:46:34 | INFO | ✅ Perpetual order placed: ad637518-573b-40b9-a75a-970ef97a9004
+2025-10-11 09:46:34 | INFO | Setting stop loss via trading stop: ARIAUSDT @ 0.12482570000000001
+2025-10-11 09:46:34 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:46:34 | INFO | Setting take profit via trading stop: ARIAUSDT @ 0.1199781
+2025-10-11 09:46:34 | INFO | ✅ Take profit set via position management
+2025-10-11 09:46:36 | INFO | Setting trailing stop: ARIAUSDT @ 1.0% = $0.001209 from $0.1209
+2025-10-11 09:46:36 | INFO | ✅ Trailing stop set: 1.0% ($0.001209)
+2025-10-11 09:46:36 | INFO | ✅ EXECUTED: ARIAUSDT SELL 61147.000000 @ $0.12119 (Conf: 95.0%)
+2025-10-11 09:46:37 | INFO | 4. ATHUSDT - SELL (95.0%) @ $0.04411
+2025-10-11 09:46:38 | INFO | Setting leverage for ATHUSDT to 1x
+2025-10-11 09:46:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ATHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ATHUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '152050', 'timeInForce': 'IOC'}
+2025-10-11 09:46:38 | INFO | ✅ Perpetual order placed: 774e8e6b-db7f-468a-a60d-e45cd386f373
+2025-10-11 09:46:39 | INFO | Setting stop loss via trading stop: ATHUSDT @ 0.0454333
+2025-10-11 09:46:39 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:46:39 | INFO | Setting take profit via trading stop: ATHUSDT @ 0.043668900000000004
+2025-10-11 09:46:39 | INFO | ✅ Take profit set via position management
+2025-10-11 09:46:40 | INFO | Setting trailing stop: ATHUSDT @ 1.0% = $0.000440 from $0.04397
+2025-10-11 09:46:41 | INFO | ✅ Trailing stop set: 1.0% ($0.000440)
+2025-10-11 09:46:41 | INFO | ✅ EXECUTED: ATHUSDT SELL 152050.000000 @ $0.04411 (Conf: 95.0%)
+2025-10-11 09:46:41 | INFO | 5. BERAUSDT - SELL (95.0%) @ $1.769
+2025-10-11 09:46:42 | INFO | Setting leverage for BERAUSDT to 1x
+2025-10-11 09:46:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BERAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BERAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3432', 'timeInForce': 'IOC'}
+2025-10-11 09:46:43 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:343200000000 > max_qty:320000000000 (ErrCode: 10001) (ErrTime: 05:46:43).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BERAUSDT", "side": "Sell", "orderType": "Market", "qty": "3432", "timeInForce": "IOC"}.
+2025-10-11 09:46:43 | ERROR | ❌ FAILED: BERAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:343200000000 > max_qty:320000000000 (ErrCode: 10001) (ErrTime: 05:46:43).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BERAUSDT", "side": "Sell", "orderType": "Market", "qty": "3432", "timeInForce": "IOC"}.
+2025-10-11 09:46:43 | INFO | 6. BICOUSDT - SELL (95.0%) @ $0.06228
+2025-10-11 09:46:44 | INFO | Setting leverage for BICOUSDT to 1x
+2025-10-11 09:46:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BICOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BICOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '97473.1', 'timeInForce': 'IOC'}
+2025-10-11 09:46:45 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:9747310000000 > max_qty:3635000000000 (ErrCode: 10001) (ErrTime: 05:46:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BICOUSDT", "side": "Sell", "orderType": "Market", "qty": "97473.1", "timeInForce": "IOC"}.
+2025-10-11 09:46:45 | ERROR | ❌ FAILED: BICOUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:9747310000000 > max_qty:3635000000000 (ErrCode: 10001) (ErrTime: 05:46:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BICOUSDT", "side": "Sell", "orderType": "Market", "qty": "97473.1", "timeInForce": "IOC"}.
+2025-10-11 09:46:45 | INFO | 7. BBUSDT - SELL (95.0%) @ $0.1177
+2025-10-11 09:46:46 | INFO | Setting leverage for BBUSDT to 1x
+2025-10-11 09:46:47 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:47).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BBUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:47 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BBUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '51577', 'timeInForce': 'IOC'}
+2025-10-11 09:46:47 | INFO | ✅ Perpetual order placed: 21600d24-1fd3-4c7f-a113-e912d2528afd
+2025-10-11 09:46:47 | INFO | Setting stop loss via trading stop: BBUSDT @ 0.121231
+2025-10-11 09:46:47 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:46:47 | INFO | Setting take profit via trading stop: BBUSDT @ 0.116523
+2025-10-11 09:46:47 | INFO | ✅ Take profit set via position management
+2025-10-11 09:46:49 | INFO | Setting trailing stop: BBUSDT @ 1.0% = $0.001174 from $0.1174
+2025-10-11 09:46:49 | INFO | ✅ Trailing stop set: 1.0% ($0.001174)
+2025-10-11 09:46:49 | INFO | ✅ EXECUTED: BBUSDT SELL 51577.000000 @ $0.1177 (Conf: 95.0%)
+2025-10-11 09:46:50 | INFO | 8. BADGERUSDT - SELL (95.0%) @ $0.8251
+2025-10-11 09:46:51 | INFO | Setting leverage for BADGERUSDT to 1x
+2025-10-11 09:46:51 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:51).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BADGERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:51 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BADGERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '6659.2', 'timeInForce': 'IOC'}
+2025-10-11 09:46:51 | INFO | ✅ Perpetual order placed: 5b94cee8-71a6-479e-af6a-4991a74be79e
+2025-10-11 09:46:52 | INFO | Setting stop loss via trading stop: BADGERUSDT @ 0.849853
+2025-10-11 09:46:52 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:46:52 | INFO | Setting take profit via trading stop: BADGERUSDT @ 0.8168489999999999
+2025-10-11 09:46:52 | INFO | ✅ Take profit set via position management
+2025-10-11 09:46:53 | INFO | Setting trailing stop: BADGERUSDT @ 1.0% = $0.008251 from $0.8251
+2025-10-11 09:46:54 | INFO | ✅ Trailing stop set: 1.0% ($0.008251)
+2025-10-11 09:46:54 | INFO | ✅ EXECUTED: BADGERUSDT SELL 6659.200000 @ $0.8251 (Conf: 95.0%)
+2025-10-11 09:46:54 | INFO | 9. BRUSDT - SELL (95.0%) @ $0.05961
+2025-10-11 09:46:55 | INFO | Setting leverage for BRUSDT to 1x
+2025-10-11 09:46:55 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:55).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:46:55 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BRUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '83426', 'timeInForce': 'IOC'}
+2025-10-11 09:46:56 | INFO | ✅ Perpetual order placed: 04151e54-c3f0-40aa-9875-e73675197f81
+2025-10-11 09:46:56 | INFO | Setting stop loss via trading stop: BRUSDT @ 0.0613983
+2025-10-11 09:46:56 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:46:56 | INFO | Setting take profit via trading stop: BRUSDT @ 0.0590139
+2025-10-11 09:46:56 | INFO | ✅ Take profit set via position management
+2025-10-11 09:46:58 | INFO | Setting trailing stop: BRUSDT @ 1.0% = $0.000596 from $0.05961
+2025-10-11 09:46:58 | INFO | ✅ Trailing stop set: 1.0% ($0.000596)
+2025-10-11 09:46:58 | INFO | ✅ EXECUTED: BRUSDT SELL 83426.000000 @ $0.05961 (Conf: 95.0%)
+2025-10-11 09:46:59 | INFO | 10. CAKEUSDT - SELL (95.0%) @ $2.842
+2025-10-11 09:46:59 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 3 failed
+2025-10-11 09:46:59 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 09:46:59 | INFO |    • 4USDT: SHORT 105373.000000 @ $0.0777 - SL: $0.0800 TP: $0.0769
+2025-10-11 09:46:59 | INFO |    • ARIAUSDT: SHORT 61147.000000 @ $0.12119 - SL: $0.1248 TP: $0.1200
+2025-10-11 09:46:59 | INFO |    • ATHUSDT: SHORT 152050.000000 @ $0.04411 - SL: $0.0454 TP: $0.0437
+2025-10-11 09:46:59 | INFO |    • BBUSDT: SHORT 51577.000000 @ $0.1177 - SL: $0.1212 TP: $0.1165
+2025-10-11 09:46:59 | INFO |    • BADGERUSDT: SHORT 6659.200000 @ $0.8251 - SL: $0.8499 TP: $0.8168
+2025-10-11 09:46:59 | INFO |    • BRUSDT: SHORT 83426.000000 @ $0.05961 - SL: $0.0614 TP: $0.0590
+2025-10-11 09:46:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 09:46:59 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 09:46:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 09:46:59 | INFO | 🎉 SESSION COMPLETED in 47.6s
+2025-10-11 09:46:59 | INFO | ============================================================
