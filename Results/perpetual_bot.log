@@ -27891,3 +27891,86 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 20:01:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 20:01:59 | INFO | 🎉 SESSION COMPLETED in 43.3s
 2025-10-11 20:01:59 | INFO | ============================================================
+2025-10-11 20:16:04 | INFO | ================================================================================
+2025-10-11 20:16:04 | INFO | NEW PERPETUAL SESSION: 2025-10-11 20:16:04
+2025-10-11 20:16:04 | INFO | ================================================================================
+2025-10-11 20:16:04 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 20:16:04 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 20:16:04 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 20:16:04 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 20:16:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 20:16:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 20:16:15 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 20:16:15 | INFO |  1. 10000WENUSDT | BUY  | Price: $  0.2621 | Confidence:  95.0% | Momentum: +7.82%
+2025-10-11 20:16:15 | INFO |  2. 1000NEIROCTOUSDT | BUY  | Price: $  0.1835 | Confidence:  95.0% | Momentum: +6.13%
+2025-10-11 20:16:15 | INFO |  3. ACEUSDT      | BUY  | Price: $  0.3136 | Confidence:  95.0% | Momentum: +5.48%
+2025-10-11 20:16:15 | INFO |  4. CLANKERUSDT  | BUY  | Price: $ 26.5000 | Confidence:  95.0% | Momentum: +5.33%
+2025-10-11 20:16:15 | INFO |  5. EGLDUSDT     | BUY  | Price: $  9.9200 | Confidence:  95.0% | Momentum: +6.44%
+2025-10-11 20:16:15 | INFO |  6. ENJUSDT      | BUY  | Price: $  0.0458 | Confidence:  95.0% | Momentum: +5.07%
+2025-10-11 20:16:15 | INFO |  7. GORKUSDT     | BUY  | Price: $  0.0092 | Confidence:  95.0% | Momentum: +8.76%
+2025-10-11 20:16:15 | INFO |  8. HNTUSDT      | BUY  | Price: $  2.2740 | Confidence:  95.0% | Momentum: +5.77%
+2025-10-11 20:16:15 | INFO |  9. KGENUSDT     | SELL | Price: $  0.1681 | Confidence:  95.0% | Momentum: -23.76%
+2025-10-11 20:16:15 | INFO | 10. REXUSDT      | SELL | Price: $  0.0008 | Confidence:  95.0% | Momentum: -38.92%
+2025-10-11 20:16:15 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-11 20:16:15 | INFO | 1. 10000WENUSDT - BUY (95.0%) @ $0.2621
+2025-10-11 20:16:16 | INFO | Setting leverage for 10000WENUSDT to 1x
+2025-10-11 20:16:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000WENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 20:16:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000WENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23300', 'timeInForce': 'IOC'}
+2025-10-11 20:16:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2330000000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 16:16:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23300", "timeInForce": "IOC"}.
+2025-10-11 20:16:17 | ERROR | ❌ FAILED: 10000WENUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2330000000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 16:16:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23300", "timeInForce": "IOC"}.
+2025-10-11 20:16:17 | INFO | 2. 1000NEIROCTOUSDT - BUY (95.0%) @ $0.1835
+2025-10-11 20:16:17 | INFO | 3. ACEUSDT - BUY (95.0%) @ $0.3136
+2025-10-11 20:16:17 | INFO | 4. CLANKERUSDT - BUY (95.0%) @ $26.5
+2025-10-11 20:16:18 | INFO | Setting leverage for CLANKERUSDT to 1x
+2025-10-11 20:16:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CLANKERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 20:16:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CLANKERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '306.37', 'timeInForce': 'IOC'}
+2025-10-11 20:16:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:30637000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 16:16:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Buy", "orderType": "Market", "qty": "306.37", "timeInForce": "IOC"}.
+2025-10-11 20:16:19 | ERROR | ❌ FAILED: CLANKERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:30637000000 > max_qty:10000000000 (ErrCode: 10001) (ErrTime: 16:16:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CLANKERUSDT", "side": "Buy", "orderType": "Market", "qty": "306.37", "timeInForce": "IOC"}.
+2025-10-11 20:16:19 | INFO | 5. EGLDUSDT - BUY (95.0%) @ $9.92
+2025-10-11 20:16:19 | INFO | 6. ENJUSDT - BUY (95.0%) @ $0.04583
+2025-10-11 20:16:19 | INFO | 7. GORKUSDT - BUY (95.0%) @ $0.00921
+2025-10-11 20:16:20 | INFO | Setting leverage for GORKUSDT to 1x
+2025-10-11 20:16:21 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:21).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GORKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 20:16:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GORKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '881520', 'timeInForce': 'IOC'}
+2025-10-11 20:16:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:88152000000000 > max_qty:38000000000000 (ErrCode: 10001) (ErrTime: 16:16:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GORKUSDT", "side": "Buy", "orderType": "Market", "qty": "881520", "timeInForce": "IOC"}.
+2025-10-11 20:16:21 | ERROR | ❌ FAILED: GORKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:88152000000000 > max_qty:38000000000000 (ErrCode: 10001) (ErrTime: 16:16:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GORKUSDT", "side": "Buy", "orderType": "Market", "qty": "881520", "timeInForce": "IOC"}.
+2025-10-11 20:16:22 | INFO | 8. HNTUSDT - BUY (95.0%) @ $2.274
+2025-10-11 20:16:23 | INFO | Setting leverage for HNTUSDT to 1x
+2025-10-11 20:16:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 20:16:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3570.28', 'timeInForce': 'IOC'}
+2025-10-11 20:16:23 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:357028000000 > max_qty:132200000000 (ErrCode: 10001) (ErrTime: 16:16:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HNTUSDT", "side": "Buy", "orderType": "Market", "qty": "3570.28", "timeInForce": "IOC"}.
+2025-10-11 20:16:23 | ERROR | ❌ FAILED: HNTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:357028000000 > max_qty:132200000000 (ErrCode: 10001) (ErrTime: 16:16:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HNTUSDT", "side": "Buy", "orderType": "Market", "qty": "3570.28", "timeInForce": "IOC"}.
+2025-10-11 20:16:24 | INFO | 9. KGENUSDT - SELL (95.0%) @ $0.1681
+2025-10-11 20:16:25 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-11 20:16:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 20:16:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '48298', 'timeInForce': 'IOC'}
+2025-10-11 20:16:25 | INFO | ✅ Perpetual order placed: 1bdaae52-98bb-4996-87e1-fb34d1b78bf7
+2025-10-11 20:16:26 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.173143
+2025-10-11 20:16:26 | INFO | ✅ Stop loss set via position management
+2025-10-11 20:16:26 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.166419
+2025-10-11 20:16:26 | INFO | ✅ Take profit set via position management
+2025-10-11 20:16:27 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.001688 from $0.1688
+2025-10-11 20:16:28 | INFO | ✅ Trailing stop set: 1.0% ($0.001688)
+2025-10-11 20:16:28 | INFO | ✅ EXECUTED: KGENUSDT SELL 48298.000000 @ $0.1681 (Conf: 95.0%)
+2025-10-11 20:16:28 | INFO | 10. REXUSDT - SELL (95.0%) @ $0.000824
+2025-10-11 20:16:29 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 4 failed
+2025-10-11 20:16:29 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 20:16:29 | INFO |    • KGENUSDT: SHORT 48298.000000 @ $0.1681 - SL: $0.1731 TP: $0.1664
+2025-10-11 20:16:29 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 20:16:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 20:16:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 20:16:30 | INFO | 🎉 SESSION COMPLETED in 24.8s
+2025-10-11 20:16:30 | INFO | ============================================================
