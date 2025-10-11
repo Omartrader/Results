@@ -20522,3 +20522,30 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 04:46:39 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 04:46:39 | INFO | 🎉 SESSION COMPLETED in 36.3s
 2025-10-11 04:46:39 | INFO | ============================================================
+2025-10-11 05:01:01 | INFO | ================================================================================
+2025-10-11 05:01:01 | INFO | NEW PERPETUAL SESSION: 2025-10-11 05:01:01
+2025-10-11 05:01:01 | INFO | ================================================================================
+2025-10-11 05:01:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 05:01:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 05:01:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 05:01:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 05:01:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 05:01:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 05:01:23 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 05:01:23 | INFO |  1. SDUSDT       | SELL | Price: $  0.3702 | Confidence:  95.0% | Momentum: -22.32%
+2025-10-11 05:01:24 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-11 05:01:24 | INFO | 1. SDUSDT - SELL (95.0%) @ $0.3702
+2025-10-11 05:01:25 | INFO | Setting leverage for SDUSDT to 1x
+2025-10-11 05:01:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 01:01:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 05:01:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SDUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '22581', 'timeInForce': 'IOC'}
+2025-10-11 05:01:26 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2258100000000 > max_qty:500000000000 (ErrCode: 10001) (ErrTime: 01:01:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SDUSDT", "side": "Sell", "orderType": "Market", "qty": "22581", "timeInForce": "IOC"}.
+2025-10-11 05:01:26 | ERROR | ❌ FAILED: SDUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:2258100000000 > max_qty:500000000000 (ErrCode: 10001) (ErrTime: 01:01:26).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "SDUSDT", "side": "Sell", "orderType": "Market", "qty": "22581", "timeInForce": "IOC"}.
+2025-10-11 05:01:26 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 1 failed
+2025-10-11 05:01:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 05:01:27 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 05:01:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 05:01:27 | INFO | 🎉 SESSION COMPLETED in 24.9s
+2025-10-11 05:01:27 | INFO | ============================================================
