@@ -22293,3 +22293,116 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-11 08:46:50 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 08:46:50 | INFO | 🎉 SESSION COMPLETED in 45.5s
 2025-10-11 08:46:50 | INFO | ============================================================
+2025-10-11 09:01:14 | INFO | ================================================================================
+2025-10-11 09:01:14 | INFO | NEW PERPETUAL SESSION: 2025-10-11 09:01:14
+2025-10-11 09:01:14 | INFO | ================================================================================
+2025-10-11 09:01:14 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 09:01:14 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 09:01:14 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 09:01:14 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 09:01:15 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 09:01:15 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 09:01:27 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 09:01:27 | INFO |  1. BADGERUSDT   | SELL | Price: $  0.8208 | Confidence:  95.0% | Momentum: -7.41%
+2025-10-11 09:01:27 | INFO |  2. FRAGUSDT     | SELL | Price: $  0.0271 | Confidence:  95.0% | Momentum: -7.63%
+2025-10-11 09:01:27 | INFO |  3. HNTUSDT      | SELL | Price: $  2.1480 | Confidence:  95.0% | Momentum: -10.16%
+2025-10-11 09:01:27 | INFO |  4. KUSDT        | SELL | Price: $  0.0311 | Confidence:  95.0% | Momentum: -31.43%
+2025-10-11 09:01:27 | INFO |  5. LAUNCHCOINUSDT | SELL | Price: $  0.0885 | Confidence:  95.0% | Momentum: -20.33%
+2025-10-11 09:01:27 | INFO |  6. LOOKSUSDT    | SELL | Price: $  0.0101 | Confidence:  95.0% | Momentum: -19.06%
+2025-10-11 09:01:27 | INFO |  7. BANUSDT      | SELL | Price: $  0.0630 | Confidence:  94.9% | Momentum: -4.49%
+2025-10-11 09:01:27 | INFO |  8. SAHARAUSDT   | BUY  | Price: $  0.0763 | Confidence:  91.6% | Momentum: +4.16%
+2025-10-11 09:01:27 | INFO | 🎯 PROCESSING TOP 8 OPPORTUNITIES:
+2025-10-11 09:01:27 | INFO | 1. BADGERUSDT - SELL (95.0%) @ $0.8208
+2025-10-11 09:01:28 | INFO | Setting leverage for BADGERUSDT to 1x
+2025-10-11 09:01:28 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:28).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BADGERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BADGERUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '10001.2', 'timeInForce': 'IOC'}
+2025-10-11 09:01:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:1000120000000 > max_qty:684000000000 (ErrCode: 10001) (ErrTime: 05:01:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BADGERUSDT", "side": "Sell", "orderType": "Market", "qty": "10001.2", "timeInForce": "IOC"}.
+2025-10-11 09:01:29 | ERROR | ❌ FAILED: BADGERUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:1000120000000 > max_qty:684000000000 (ErrCode: 10001) (ErrTime: 05:01:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BADGERUSDT", "side": "Sell", "orderType": "Market", "qty": "10001.2", "timeInForce": "IOC"}.
+2025-10-11 09:01:29 | INFO | 2. FRAGUSDT - SELL (95.0%) @ $0.02712
+2025-10-11 09:01:30 | INFO | Setting leverage for FRAGUSDT to 1x
+2025-10-11 09:01:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FRAGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FRAGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '302691', 'timeInForce': 'IOC'}
+2025-10-11 09:01:31 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:30269100000000 > max_qty:16600000000000 (ErrCode: 10001) (ErrTime: 05:01:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FRAGUSDT", "side": "Sell", "orderType": "Market", "qty": "302691", "timeInForce": "IOC"}.
+2025-10-11 09:01:31 | ERROR | ❌ FAILED: FRAGUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:30269100000000 > max_qty:16600000000000 (ErrCode: 10001) (ErrTime: 05:01:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FRAGUSDT", "side": "Sell", "orderType": "Market", "qty": "302691", "timeInForce": "IOC"}.
+2025-10-11 09:01:31 | INFO | 3. HNTUSDT - SELL (95.0%) @ $2.148
+2025-10-11 09:01:33 | INFO | Setting leverage for HNTUSDT to 1x
+2025-10-11 09:01:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HNTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3821.69', 'timeInForce': 'IOC'}
+2025-10-11 09:01:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:382169000000 > max_qty:132200000000 (ErrCode: 10001) (ErrTime: 05:01:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HNTUSDT", "side": "Sell", "orderType": "Market", "qty": "3821.69", "timeInForce": "IOC"}.
+2025-10-11 09:01:34 | ERROR | ❌ FAILED: HNTUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:382169000000 > max_qty:132200000000 (ErrCode: 10001) (ErrTime: 05:01:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HNTUSDT", "side": "Sell", "orderType": "Market", "qty": "3821.69", "timeInForce": "IOC"}.
+2025-10-11 09:01:34 | INFO | 4. KUSDT - SELL (95.0%) @ $0.03113
+2025-10-11 09:01:36 | INFO | Setting leverage for KUSDT to 1x
+2025-10-11 09:01:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '263700', 'timeInForce': 'IOC'}
+2025-10-11 09:01:37 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:26370000000000 > max_qty:6250000000000 (ErrCode: 10001) (ErrTime: 05:01:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "KUSDT", "side": "Sell", "orderType": "Market", "qty": "263700", "timeInForce": "IOC"}.
+2025-10-11 09:01:37 | ERROR | ❌ FAILED: KUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:26370000000000 > max_qty:6250000000000 (ErrCode: 10001) (ErrTime: 05:01:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "KUSDT", "side": "Sell", "orderType": "Market", "qty": "263700", "timeInForce": "IOC"}.
+2025-10-11 09:01:37 | INFO | 5. LAUNCHCOINUSDT - SELL (95.0%) @ $0.08854
+2025-10-11 09:01:38 | INFO | Setting leverage for LAUNCHCOINUSDT to 1x
+2025-10-11 09:01:39 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:39).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LAUNCHCOINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:39 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LAUNCHCOINUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '92715', 'timeInForce': 'IOC'}
+2025-10-11 09:01:39 | INFO | ✅ Perpetual order placed: c297f6d0-2c9c-493e-93d2-0d977376b374
+2025-10-11 09:01:39 | INFO | Setting stop loss via trading stop: LAUNCHCOINUSDT @ 0.09119619999999999
+2025-10-11 09:01:39 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:01:40 | INFO | Setting take profit via trading stop: LAUNCHCOINUSDT @ 0.0876546
+2025-10-11 09:01:40 | INFO | ✅ Take profit set via position management
+2025-10-11 09:01:41 | INFO | Setting trailing stop: LAUNCHCOINUSDT @ 1.0% = $0.000884 from $0.08842
+2025-10-11 09:01:42 | INFO | ✅ Trailing stop set: 1.0% ($0.000884)
+2025-10-11 09:01:42 | INFO | ✅ EXECUTED: LAUNCHCOINUSDT SELL 92715.000000 @ $0.08854 (Conf: 95.0%)
+2025-10-11 09:01:42 | INFO | 6. LOOKSUSDT - SELL (95.0%) @ $0.01011
+2025-10-11 09:01:43 | INFO | Setting leverage for LOOKSUSDT to 1x
+2025-10-11 09:01:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LOOKSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LOOKSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '734907.4', 'timeInForce': 'IOC'}
+2025-10-11 09:01:44 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:73490740000000 > max_qty:23900000000000 (ErrCode: 10001) (ErrTime: 05:01:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LOOKSUSDT", "side": "Sell", "orderType": "Market", "qty": "734907.4", "timeInForce": "IOC"}.
+2025-10-11 09:01:44 | ERROR | ❌ FAILED: LOOKSUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:73490740000000 > max_qty:23900000000000 (ErrCode: 10001) (ErrTime: 05:01:44).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LOOKSUSDT", "side": "Sell", "orderType": "Market", "qty": "734907.4", "timeInForce": "IOC"}.
+2025-10-11 09:01:44 | INFO | 7. BANUSDT - SELL (94.9%) @ $0.06295
+2025-10-11 09:01:45 | INFO | Setting leverage for BANUSDT to 1x
+2025-10-11 09:01:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BANUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BANUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '118029', 'timeInForce': 'IOC'}
+2025-10-11 09:01:46 | INFO | ✅ Perpetual order placed: 0d82cba3-a338-4973-b02c-8c6d58d0b74b
+2025-10-11 09:01:46 | INFO | Setting stop loss via trading stop: BANUSDT @ 0.06483850000000001
+2025-10-11 09:01:46 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:01:46 | INFO | Setting take profit via trading stop: BANUSDT @ 0.06232050000000001
+2025-10-11 09:01:46 | INFO | ✅ Take profit set via position management
+2025-10-11 09:01:48 | INFO | Setting trailing stop: BANUSDT @ 1.0% = $0.000628 from $0.0628
+2025-10-11 09:01:48 | INFO | ✅ Trailing stop set: 1.0% ($0.000628)
+2025-10-11 09:01:48 | INFO | ✅ EXECUTED: BANUSDT SELL 118029.000000 @ $0.06295 (Conf: 94.9%)
+2025-10-11 09:01:49 | INFO | 8. SAHARAUSDT - BUY (91.6%) @ $0.07634
+2025-10-11 09:01:50 | INFO | Setting leverage for SAHARAUSDT to 1x
+2025-10-11 09:01:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:01:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SAHARAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 09:01:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SAHARAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '88090', 'timeInForce': 'IOC'}
+2025-10-11 09:01:50 | INFO | ✅ Perpetual order placed: 0794af42-d114-4d8d-a09a-28d23cf865b0
+2025-10-11 09:01:51 | INFO | Setting stop loss via trading stop: SAHARAUSDT @ 0.0740498
+2025-10-11 09:01:51 | INFO | ✅ Stop loss set via position management
+2025-10-11 09:01:51 | INFO | Setting take profit via trading stop: SAHARAUSDT @ 0.0771034
+2025-10-11 09:01:51 | INFO | ✅ Take profit set via position management
+2025-10-11 09:01:53 | INFO | Setting trailing stop: SAHARAUSDT @ 1.0% = $0.000763 from $0.07628
+2025-10-11 09:01:53 | INFO | ✅ Trailing stop set: 1.0% ($0.000763)
+2025-10-11 09:01:53 | INFO | ✅ EXECUTED: SAHARAUSDT BUY 88090.000000 @ $0.07634 (Conf: 91.6%)
+2025-10-11 09:01:54 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 5 failed
+2025-10-11 09:01:54 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 09:01:54 | INFO |    • LAUNCHCOINUSDT: SHORT 92715.000000 @ $0.08854 - SL: $0.0912 TP: $0.0877
+2025-10-11 09:01:54 | INFO |    • BANUSDT: SHORT 118029.000000 @ $0.06295 - SL: $0.0648 TP: $0.0623
+2025-10-11 09:01:54 | INFO |    • SAHARAUSDT: LONG 88090.000000 @ $0.07634 - SL: $0.0740 TP: $0.0771
+2025-10-11 09:01:54 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 09:01:55 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 09:01:55 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 09:01:55 | INFO | 🎉 SESSION COMPLETED in 39.7s
+2025-10-11 09:01:55 | INFO | ============================================================
