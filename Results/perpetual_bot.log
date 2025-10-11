@@ -20323,3 +20323,71 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 04:01:33 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 04:01:33 | INFO | 🎉 SESSION COMPLETED in 28.4s
 2025-10-11 04:01:33 | INFO | ============================================================
+2025-10-11 04:16:05 | INFO | ================================================================================
+2025-10-11 04:16:05 | INFO | NEW PERPETUAL SESSION: 2025-10-11 04:16:05
+2025-10-11 04:16:05 | INFO | ================================================================================
+2025-10-11 04:16:05 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 04:16:05 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 04:16:05 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 04:16:05 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 04:16:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 04:16:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 04:16:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 04:16:16 | INFO |  1. MUSDT        | BUY  | Price: $  2.0633 | Confidence:  95.0% | Momentum: +8.44%
+2025-10-11 04:16:16 | INFO |  2. OBOLUSDT     | BUY  | Price: $  0.1260 | Confidence:  95.0% | Momentum: +13.11%
+2025-10-11 04:16:16 | INFO |  3. B2USDT       | SELL | Price: $  1.2078 | Confidence:  69.8% | Momentum: -1.98%
+2025-10-11 04:16:16 | INFO |  4. RFCUSDT      | BUY  | Price: $  0.0086 | Confidence:  69.3% | Momentum: +1.93%
+2025-10-11 04:16:16 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-11 04:16:16 | INFO | 1. MUSDT - BUY (95.0%) @ $2.0633
+2025-10-11 04:16:17 | INFO | Setting leverage for MUSDT to 1x
+2025-10-11 04:16:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:16:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 04:16:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '4061', 'timeInForce': 'IOC'}
+2025-10-11 04:16:18 | INFO | ✅ Perpetual order placed: d30298f9-d607-40b0-ba0a-ac0d58694419
+2025-10-11 04:16:18 | INFO | Setting stop loss via trading stop: MUSDT @ 2.001401
+2025-10-11 04:16:18 | INFO | ✅ Stop loss set via position management
+2025-10-11 04:16:19 | INFO | Setting take profit via trading stop: MUSDT @ 2.083933
+2025-10-11 04:16:19 | INFO | ✅ Take profit set via position management
+2025-10-11 04:16:20 | INFO | Setting trailing stop: MUSDT @ 1.0% = $0.020540 from $2.054
+2025-10-11 04:16:20 | INFO | ✅ Trailing stop set: 1.0% ($0.020540)
+2025-10-11 04:16:20 | INFO | ✅ EXECUTED: MUSDT BUY 4061.000000 @ $2.0633 (Conf: 95.0%)
+2025-10-11 04:16:21 | INFO | 2. OBOLUSDT - BUY (95.0%) @ $0.126
+2025-10-11 04:16:22 | INFO | Setting leverage for OBOLUSDT to 1x
+2025-10-11 04:16:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:16:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OBOLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 04:16:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OBOLUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '60189', 'timeInForce': 'IOC'}
+2025-10-11 04:16:23 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6018900000000 > max_qty:4770000000000 (ErrCode: 10001) (ErrTime: 00:16:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "OBOLUSDT", "side": "Buy", "orderType": "Market", "qty": "60189", "timeInForce": "IOC"}.
+2025-10-11 04:16:23 | ERROR | ❌ FAILED: OBOLUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:6018900000000 > max_qty:4770000000000 (ErrCode: 10001) (ErrTime: 00:16:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "OBOLUSDT", "side": "Buy", "orderType": "Market", "qty": "60189", "timeInForce": "IOC"}.
+2025-10-11 04:16:23 | INFO | 3. B2USDT - SELL (69.8%) @ $1.2078
+2025-10-11 04:16:24 | INFO | Setting leverage for B2USDT to 1x
+2025-10-11 04:16:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:16:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 04:16:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '6279', 'timeInForce': 'IOC'}
+2025-10-11 04:16:25 | INFO | ✅ Perpetual order placed: 24351ee9-fca8-4b96-91c3-60c1a17b1c0a
+2025-10-11 04:16:25 | INFO | Setting stop loss via trading stop: B2USDT @ 1.244034
+2025-10-11 04:16:25 | INFO | ✅ Stop loss set via position management
+2025-10-11 04:16:25 | INFO | Setting take profit via trading stop: B2USDT @ 1.195722
+2025-10-11 04:16:25 | INFO | ✅ Take profit set via position management
+2025-10-11 04:16:27 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.012044 from $1.2044
+2025-10-11 04:16:27 | INFO | ✅ Trailing stop set: 1.0% ($0.012044)
+2025-10-11 04:16:27 | INFO | ✅ EXECUTED: B2USDT SELL 6279.000000 @ $1.2078 (Conf: 69.8%)
+2025-10-11 04:16:28 | INFO | 4. RFCUSDT - BUY (69.3%) @ $0.008566
+2025-10-11 04:16:29 | INFO | Setting leverage for RFCUSDT to 1x
+2025-10-11 04:16:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 00:16:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RFCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 04:16:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RFCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '801311', 'timeInForce': 'IOC'}
+2025-10-11 04:16:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:80131100000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 00:16:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Buy", "orderType": "Market", "qty": "801311", "timeInForce": "IOC"}.
+2025-10-11 04:16:29 | ERROR | ❌ FAILED: RFCUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:80131100000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 00:16:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Buy", "orderType": "Market", "qty": "801311", "timeInForce": "IOC"}.
+2025-10-11 04:16:30 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 2 failed
+2025-10-11 04:16:30 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 04:16:30 | INFO |    • MUSDT: LONG 4061.000000 @ $2.0633 - SL: $2.0014 TP: $2.0839
+2025-10-11 04:16:30 | INFO |    • B2USDT: SHORT 6279.000000 @ $1.2078 - SL: $1.2440 TP: $1.1957
+2025-10-11 04:16:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 04:16:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 04:16:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 04:16:30 | INFO | 🎉 SESSION COMPLETED in 24.7s
+2025-10-11 04:16:30 | INFO | ============================================================
