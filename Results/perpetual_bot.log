@@ -25111,3 +25111,95 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 14:01:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 14:01:41 | INFO | 🎉 SESSION COMPLETED in 22.6s
 2025-10-11 14:01:41 | INFO | ============================================================
+2025-10-11 14:16:03 | INFO | ================================================================================
+2025-10-11 14:16:03 | INFO | NEW PERPETUAL SESSION: 2025-10-11 14:16:03
+2025-10-11 14:16:03 | INFO | ================================================================================
+2025-10-11 14:16:03 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 14:16:03 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 14:16:03 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 14:16:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 14:16:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 14:16:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 14:16:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 14:16:16 | INFO |  1. AINUSDT      | BUY  | Price: $  0.1307 | Confidence:  95.0% | Momentum: +8.36%
+2025-10-11 14:16:16 | INFO |  2. AKEUSDT      | SELL | Price: $  0.0015 | Confidence:  95.0% | Momentum: -6.19%
+2025-10-11 14:16:16 | INFO |  3. APEXUSDT     | BUY  | Price: $  1.2002 | Confidence:  95.0% | Momentum: +15.88%
+2025-10-11 14:16:16 | INFO |  4. GLMRUSDT     | BUY  | Price: $  0.0406 | Confidence:  95.0% | Momentum: +5.65%
+2025-10-11 14:16:16 | INFO |  5. PUFFERUSDT   | BUY  | Price: $  0.1023 | Confidence:  95.0% | Momentum: +12.54%
+2025-10-11 14:16:16 | INFO |  6. GIGAUSDT     | SELL | Price: $  0.0078 | Confidence:  68.8% | Momentum: -1.88%
+2025-10-11 14:16:16 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-11 14:16:16 | INFO | 1. AINUSDT - BUY (95.0%) @ $0.1307
+2025-10-11 14:16:17 | INFO | Setting leverage for AINUSDT to 1x
+2025-10-11 14:16:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:16:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '62390', 'timeInForce': 'IOC'}
+2025-10-11 14:16:18 | INFO | ✅ Perpetual order placed: 135b7018-6b56-4690-9306-d9c981fe93ce
+2025-10-11 14:16:18 | INFO | Setting stop loss via trading stop: AINUSDT @ 0.126779
+2025-10-11 14:16:18 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:16:18 | INFO | Setting take profit via trading stop: AINUSDT @ 0.132007
+2025-10-11 14:16:18 | INFO | ✅ Take profit set via position management
+2025-10-11 14:16:20 | INFO | Setting trailing stop: AINUSDT @ 1.0% = $0.001307 from $0.1307
+2025-10-11 14:16:20 | INFO | ✅ Trailing stop set: 1.0% ($0.001307)
+2025-10-11 14:16:20 | INFO | ✅ EXECUTED: AINUSDT BUY 62390.000000 @ $0.1307 (Conf: 95.0%)
+2025-10-11 14:16:21 | INFO | 2. AKEUSDT - SELL (95.0%) @ $0.001501
+2025-10-11 14:16:22 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-11 14:16:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:16:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '4917200', 'timeInForce': 'IOC'}
+2025-10-11 14:16:22 | INFO | ✅ Perpetual order placed: 7e4600fe-ef3b-4afb-b5ca-cc60825118fd
+2025-10-11 14:16:23 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.0015460299999999999
+2025-10-11 14:16:23 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:16:23 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00148599
+2025-10-11 14:16:23 | INFO | ✅ Take profit set via position management
+2025-10-11 14:16:25 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001502
+2025-10-11 14:16:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-11 14:16:25 | INFO | ✅ EXECUTED: AKEUSDT SELL 4917200.000000 @ $0.001501 (Conf: 95.0%)
+2025-10-11 14:16:25 | INFO | 3. APEXUSDT - BUY (95.0%) @ $1.2002
+2025-10-11 14:16:27 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-11 14:16:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5565.9', 'timeInForce': 'IOC'}
+2025-10-11 14:16:27 | INFO | ✅ Perpetual order placed: f33a37a0-de55-4cd0-afbb-8e31bed9f458
+2025-10-11 14:16:28 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.164194
+2025-10-11 14:16:28 | INFO | ✅ Stop loss set via position management
+2025-10-11 14:16:28 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.212202
+2025-10-11 14:16:28 | INFO | ✅ Take profit set via position management
+2025-10-11 14:16:30 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.011998 from $1.1998
+2025-10-11 14:16:30 | INFO | ✅ Trailing stop set: 1.0% ($0.011998)
+2025-10-11 14:16:30 | INFO | ✅ EXECUTED: APEXUSDT BUY 5565.900000 @ $1.2002 (Conf: 95.0%)
+2025-10-11 14:16:30 | INFO | 4. GLMRUSDT - BUY (95.0%) @ $0.04058
+2025-10-11 14:16:32 | INFO | Setting leverage for GLMRUSDT to 1x
+2025-10-11 14:16:32 | INFO | ✅ Leverage set to 1x for GLMRUSDT
+2025-10-11 14:16:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GLMRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '148996.0', 'timeInForce': 'IOC'}
+2025-10-11 14:16:32 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:14899600000000 > max_qty:8688000000000 (ErrCode: 10001) (ErrTime: 10:16:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GLMRUSDT", "side": "Buy", "orderType": "Market", "qty": "148996.0", "timeInForce": "IOC"}.
+2025-10-11 14:16:32 | ERROR | ❌ FAILED: GLMRUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:14899600000000 > max_qty:8688000000000 (ErrCode: 10001) (ErrTime: 10:16:32).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GLMRUSDT", "side": "Buy", "orderType": "Market", "qty": "148996.0", "timeInForce": "IOC"}.
+2025-10-11 14:16:33 | INFO | 5. PUFFERUSDT - BUY (95.0%) @ $0.1023
+2025-10-11 14:16:34 | INFO | Setting leverage for PUFFERUSDT to 1x
+2025-10-11 14:16:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PUFFERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:16:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PUFFERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '59103', 'timeInForce': 'IOC'}
+2025-10-11 14:16:34 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:5910300000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 10:16:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PUFFERUSDT", "side": "Buy", "orderType": "Market", "qty": "59103", "timeInForce": "IOC"}.
+2025-10-11 14:16:34 | ERROR | ❌ FAILED: PUFFERUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:5910300000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 10:16:34).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PUFFERUSDT", "side": "Buy", "orderType": "Market", "qty": "59103", "timeInForce": "IOC"}.
+2025-10-11 14:16:35 | INFO | 6. GIGAUSDT - SELL (68.8%) @ $0.00783
+2025-10-11 14:16:36 | INFO | Setting leverage for GIGAUSDT to 1x
+2025-10-11 14:16:37 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:16:37).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 14:16:37 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '772190', 'timeInForce': 'IOC'}
+2025-10-11 14:16:37 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:77219000000000 > max_qty:33000000000000 (ErrCode: 10001) (ErrTime: 10:16:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GIGAUSDT", "side": "Sell", "orderType": "Market", "qty": "772190", "timeInForce": "IOC"}.
+2025-10-11 14:16:37 | ERROR | ❌ FAILED: GIGAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:77219000000000 > max_qty:33000000000000 (ErrCode: 10001) (ErrTime: 10:16:37).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GIGAUSDT", "side": "Sell", "orderType": "Market", "qty": "772190", "timeInForce": "IOC"}.
+2025-10-11 14:16:37 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 3 failed
+2025-10-11 14:16:37 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 14:16:37 | INFO |    • AINUSDT: LONG 62390.000000 @ $0.1307 - SL: $0.1268 TP: $0.1320
+2025-10-11 14:16:37 | INFO |    • AKEUSDT: SHORT 4917200.000000 @ $0.001501 - SL: $0.0015 TP: $0.0015
+2025-10-11 14:16:37 | INFO |    • APEXUSDT: LONG 5565.900000 @ $1.2002 - SL: $1.1642 TP: $1.2122
+2025-10-11 14:16:37 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 14:16:38 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 14:16:38 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 14:16:38 | INFO | 🎉 SESSION COMPLETED in 34.0s
+2025-10-11 14:16:38 | INFO | ============================================================
