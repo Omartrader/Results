@@ -21318,3 +21318,94 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-11 06:46:49 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 06:46:49 | INFO | 🎉 SESSION COMPLETED in 45.6s
 2025-10-11 06:46:49 | INFO | ============================================================
+2025-10-11 07:01:05 | INFO | ================================================================================
+2025-10-11 07:01:05 | INFO | NEW PERPETUAL SESSION: 2025-10-11 07:01:05
+2025-10-11 07:01:05 | INFO | ================================================================================
+2025-10-11 07:01:05 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 07:01:05 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 07:01:05 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 07:01:05 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 07:01:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 07:01:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 07:01:21 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 07:01:21 | INFO |  1. 10000QUBICUSDT | SELL | Price: $  0.0141 | Confidence:  95.0% | Momentum: -11.08%
+2025-10-11 07:01:21 | INFO |  2. DODOUSDT     | SELL | Price: $  0.0316 | Confidence:  95.0% | Momentum: -28.05%
+2025-10-11 07:01:21 | INFO |  3. MVLUSDT      | SELL | Price: $  0.0022 | Confidence:  95.0% | Momentum: -10.86%
+2025-10-11 07:01:21 | INFO |  4. RPLUSDT      | SELL | Price: $  3.3600 | Confidence:  95.0% | Momentum: -26.85%
+2025-10-11 07:01:21 | INFO |  5. SAHARAUSDT   | BUY  | Price: $  0.0782 | Confidence:  95.0% | Momentum: +5.77%
+2025-10-11 07:01:21 | INFO |  6. ALCHUSDT     | BUY  | Price: $  0.0714 | Confidence:  76.2% | Momentum: +2.62%
+2025-10-11 07:01:22 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-11 07:01:22 | INFO | 1. 10000QUBICUSDT - SELL (95.0%) @ $0.014096
+2025-10-11 07:01:22 | INFO | Setting leverage for 10000QUBICUSDT to 1x
+2025-10-11 07:01:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000QUBICUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:01:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000QUBICUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '584050', 'timeInForce': 'IOC'}
+2025-10-11 07:01:23 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:58405000000000 > max_qty:15600000000000 (ErrCode: 10001) (ErrTime: 03:01:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000QUBICUSDT", "side": "Sell", "orderType": "Market", "qty": "584050", "timeInForce": "IOC"}.
+2025-10-11 07:01:23 | ERROR | ❌ FAILED: 10000QUBICUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:58405000000000 > max_qty:15600000000000 (ErrCode: 10001) (ErrTime: 03:01:23).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000QUBICUSDT", "side": "Sell", "orderType": "Market", "qty": "584050", "timeInForce": "IOC"}.
+2025-10-11 07:01:24 | INFO | 2. DODOUSDT - SELL (95.0%) @ $0.03162
+2025-10-11 07:01:25 | INFO | Setting leverage for DODOUSDT to 1x
+2025-10-11 07:01:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DODOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:01:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DODOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '260368', 'timeInForce': 'IOC'}
+2025-10-11 07:01:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:26036800000000 > max_qty:5130000000000 (ErrCode: 10001) (ErrTime: 03:01:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DODOUSDT", "side": "Sell", "orderType": "Market", "qty": "260368", "timeInForce": "IOC"}.
+2025-10-11 07:01:25 | ERROR | ❌ FAILED: DODOUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:26036800000000 > max_qty:5130000000000 (ErrCode: 10001) (ErrTime: 03:01:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "DODOUSDT", "side": "Sell", "orderType": "Market", "qty": "260368", "timeInForce": "IOC"}.
+2025-10-11 07:01:26 | INFO | 3. MVLUSDT - SELL (95.0%) @ $0.002232
+2025-10-11 07:01:27 | INFO | Setting leverage for MVLUSDT to 1x
+2025-10-11 07:01:27 | INFO | ✅ Leverage set to 1x for MVLUSDT
+2025-10-11 07:01:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MVLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3688500', 'timeInForce': 'IOC'}
+2025-10-11 07:01:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:368850000000000 > max_qty:360000000000000 (ErrCode: 10001) (ErrTime: 03:01:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MVLUSDT", "side": "Sell", "orderType": "Market", "qty": "3688500", "timeInForce": "IOC"}.
+2025-10-11 07:01:27 | ERROR | ❌ FAILED: MVLUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:368850000000000 > max_qty:360000000000000 (ErrCode: 10001) (ErrTime: 03:01:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MVLUSDT", "side": "Sell", "orderType": "Market", "qty": "3688500", "timeInForce": "IOC"}.
+2025-10-11 07:01:28 | INFO | 4. RPLUSDT - SELL (95.0%) @ $3.36
+2025-10-11 07:01:29 | INFO | Setting leverage for RPLUSDT to 1x
+2025-10-11 07:01:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RPLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:01:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RPLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '2450.25', 'timeInForce': 'IOC'}
+2025-10-11 07:01:29 | INFO | ✅ Perpetual order placed: 22671b7d-eab4-4955-b853-4efe21f0a0e8
+2025-10-11 07:01:29 | INFO | Setting stop loss via trading stop: RPLUSDT @ 3.4608
+2025-10-11 07:01:29 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:01:30 | INFO | Setting take profit via trading stop: RPLUSDT @ 3.3264
+2025-10-11 07:01:30 | INFO | ✅ Take profit set via position management
+2025-10-11 07:01:31 | INFO | Setting trailing stop: RPLUSDT @ 1.0% = $0.033640 from $3.364
+2025-10-11 07:01:32 | INFO | ✅ Trailing stop set: 1.0% ($0.033640)
+2025-10-11 07:01:32 | INFO | ✅ EXECUTED: RPLUSDT SELL 2450.250000 @ $3.36 (Conf: 95.0%)
+2025-10-11 07:01:32 | INFO | 5. SAHARAUSDT - BUY (95.0%) @ $0.07821
+2025-10-11 07:01:33 | INFO | Setting leverage for SAHARAUSDT to 1x
+2025-10-11 07:01:33 | INFO | ✅ Leverage set to 1x for SAHARAUSDT
+2025-10-11 07:01:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SAHARAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '95275', 'timeInForce': 'IOC'}
+2025-10-11 07:01:34 | INFO | ✅ Perpetual order placed: 5f678b3a-51e3-4422-981d-42fb39ee7267
+2025-10-11 07:01:34 | INFO | Setting stop loss via trading stop: SAHARAUSDT @ 0.0758637
+2025-10-11 07:01:34 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:01:34 | INFO | Setting take profit via trading stop: SAHARAUSDT @ 0.0789921
+2025-10-11 07:01:34 | INFO | ✅ Take profit set via position management
+2025-10-11 07:01:36 | INFO | Setting trailing stop: SAHARAUSDT @ 1.0% = $0.000782 from $0.07822
+2025-10-11 07:01:36 | INFO | ✅ Trailing stop set: 1.0% ($0.000782)
+2025-10-11 07:01:36 | INFO | ✅ EXECUTED: SAHARAUSDT BUY 95275.000000 @ $0.07821 (Conf: 95.0%)
+2025-10-11 07:01:37 | INFO | 6. ALCHUSDT - BUY (76.2%) @ $0.07138
+2025-10-11 07:01:37 | INFO | Setting leverage for ALCHUSDT to 1x
+2025-10-11 07:01:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 07:01:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '94485', 'timeInForce': 'IOC'}
+2025-10-11 07:01:38 | INFO | ✅ Perpetual order placed: 70591a43-c5f1-465a-aa19-4823a697adb7
+2025-10-11 07:01:38 | INFO | Setting stop loss via trading stop: ALCHUSDT @ 0.0692386
+2025-10-11 07:01:38 | INFO | ✅ Stop loss set via position management
+2025-10-11 07:01:39 | INFO | Setting take profit via trading stop: ALCHUSDT @ 0.0720938
+2025-10-11 07:01:39 | INFO | ✅ Take profit set via position management
+2025-10-11 07:01:40 | INFO | Setting trailing stop: ALCHUSDT @ 1.0% = $0.000713 from $0.07131
+2025-10-11 07:01:40 | INFO | ✅ Trailing stop set: 1.0% ($0.000713)
+2025-10-11 07:01:40 | INFO | ✅ EXECUTED: ALCHUSDT BUY 94485.000000 @ $0.07138 (Conf: 76.2%)
+2025-10-11 07:01:41 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 3 failed
+2025-10-11 07:01:41 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 07:01:41 | INFO |    • RPLUSDT: SHORT 2450.250000 @ $3.36 - SL: $3.4608 TP: $3.3264
+2025-10-11 07:01:41 | INFO |    • SAHARAUSDT: LONG 95275.000000 @ $0.07821 - SL: $0.0759 TP: $0.0790
+2025-10-11 07:01:41 | INFO |    • ALCHUSDT: LONG 94485.000000 @ $0.07138 - SL: $0.0692 TP: $0.0721
+2025-10-11 07:01:41 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 07:01:41 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 07:01:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 07:01:41 | INFO | 🎉 SESSION COMPLETED in 36.2s
+2025-10-11 07:01:41 | INFO | ============================================================
