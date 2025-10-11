@@ -27252,3 +27252,136 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 18:46:50 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 18:46:50 | INFO | 🎉 SESSION COMPLETED in 47.5s
 2025-10-11 18:46:50 | INFO | ============================================================
+2025-10-11 19:00:59 | INFO | ================================================================================
+2025-10-11 19:00:59 | INFO | NEW PERPETUAL SESSION: 2025-10-11 19:00:59
+2025-10-11 19:00:59 | INFO | ================================================================================
+2025-10-11 19:00:59 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 19:00:59 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 19:00:59 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 19:00:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 19:01:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 19:01:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 19:01:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 19:01:12 | INFO |  1. 1000000BABYDOGEUSDT | BUY  | Price: $  0.0011 | Confidence:  95.0% | Momentum: +5.76%
+2025-10-11 19:01:12 | INFO |  2. ACTUSDT      | BUY  | Price: $  0.0220 | Confidence:  95.0% | Momentum: +6.29%
+2025-10-11 19:01:12 | INFO |  3. ACXUSDT      | BUY  | Price: $  0.0836 | Confidence:  95.0% | Momentum: +5.82%
+2025-10-11 19:01:12 | INFO |  4. ACEUSDT      | BUY  | Price: $  0.3138 | Confidence:  95.0% | Momentum: +7.03%
+2025-10-11 19:01:12 | INFO |  5. BICOUSDT     | BUY  | Price: $  0.0657 | Confidence:  95.0% | Momentum: +6.19%
+2025-10-11 19:01:12 | INFO |  6. CGPTUSDT     | BUY  | Price: $  0.0581 | Confidence:  95.0% | Momentum: +5.83%
+2025-10-11 19:01:12 | INFO |  7. CTKUSDT      | BUY  | Price: $  0.3042 | Confidence:  95.0% | Momentum: +4.54%
+2025-10-11 19:01:12 | INFO |  8. EDUUSDT      | BUY  | Price: $  0.1023 | Confidence:  95.0% | Momentum: +4.92%
+2025-10-11 19:01:12 | INFO |  9. FWOGUSDT     | BUY  | Price: $  0.0244 | Confidence:  95.0% | Momentum: +6.24%
+2025-10-11 19:01:12 | INFO | 10. GIGGLEUSDT   | SELL | Price: $123.0000 | Confidence:  95.0% | Momentum: -9.85%
+2025-10-11 19:01:13 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-11 19:01:13 | INFO | 1. 1000000BABYDOGEUSDT - BUY (95.0%) @ $0.0010556
+2025-10-11 19:01:14 | INFO | Setting leverage for 1000000BABYDOGEUSDT to 1x
+2025-10-11 19:01:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000BABYDOGEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000BABYDOGEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '7697000', 'timeInForce': 'IOC'}
+2025-10-11 19:01:14 | INFO | ✅ Perpetual order placed: aafd01d1-a5b9-4449-a0bb-6d11b5f614e9
+2025-10-11 19:01:14 | INFO | Setting stop loss via trading stop: 1000000BABYDOGEUSDT @ 0.001023932
+2025-10-11 19:01:14 | INFO | ✅ Stop loss set via position management
+2025-10-11 19:01:15 | INFO | Setting take profit via trading stop: 1000000BABYDOGEUSDT @ 0.0010661560000000002
+2025-10-11 19:01:15 | INFO | ✅ Take profit set via position management
+2025-10-11 19:01:16 | INFO | Setting trailing stop: 1000000BABYDOGEUSDT @ 1.0% = $0.000011 from $0.0010557
+2025-10-11 19:01:16 | INFO | ✅ Trailing stop set: 1.0% ($0.000011)
+2025-10-11 19:01:16 | INFO | ✅ EXECUTED: 1000000BABYDOGEUSDT BUY 7697000.000000 @ $0.0010556 (Conf: 95.0%)
+2025-10-11 19:01:17 | INFO | 2. ACTUSDT - BUY (95.0%) @ $0.02196
+2025-10-11 19:01:18 | INFO | Setting leverage for ACTUSDT to 1x
+2025-10-11 19:01:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ACTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '334876', 'timeInForce': 'IOC'}
+2025-10-11 19:01:18 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:33487600000000 > max_qty:30000000000000 (ErrCode: 10001) (ErrTime: 15:01:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ACTUSDT", "side": "Buy", "orderType": "Market", "qty": "334876", "timeInForce": "IOC"}.
+2025-10-11 19:01:18 | ERROR | ❌ FAILED: ACTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:33487600000000 > max_qty:30000000000000 (ErrCode: 10001) (ErrTime: 15:01:18).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ACTUSDT", "side": "Buy", "orderType": "Market", "qty": "334876", "timeInForce": "IOC"}.
+2025-10-11 19:01:19 | INFO | 3. ACXUSDT - BUY (95.0%) @ $0.0836
+2025-10-11 19:01:20 | INFO | Setting leverage for ACXUSDT to 1x
+2025-10-11 19:01:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ACXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '87965', 'timeInForce': 'IOC'}
+2025-10-11 19:01:20 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8796500000000 > max_qty:1800000000000 (ErrCode: 10001) (ErrTime: 15:01:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ACXUSDT", "side": "Buy", "orderType": "Market", "qty": "87965", "timeInForce": "IOC"}.
+2025-10-11 19:01:20 | ERROR | ❌ FAILED: ACXUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8796500000000 > max_qty:1800000000000 (ErrCode: 10001) (ErrTime: 15:01:20).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ACXUSDT", "side": "Buy", "orderType": "Market", "qty": "87965", "timeInForce": "IOC"}.
+2025-10-11 19:01:21 | INFO | 4. ACEUSDT - BUY (95.0%) @ $0.3138
+2025-10-11 19:01:22 | INFO | Setting leverage for ACEUSDT to 1x
+2025-10-11 19:01:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ACEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23434.9', 'timeInForce': 'IOC'}
+2025-10-11 19:01:22 | INFO | ✅ Perpetual order placed: c23e2b5e-0701-4e54-a241-0e1a6f0687b2
+2025-10-11 19:01:22 | INFO | Setting stop loss via trading stop: ACEUSDT @ 0.304386
+2025-10-11 19:01:22 | INFO | ✅ Stop loss set via position management
+2025-10-11 19:01:23 | INFO | Setting take profit via trading stop: ACEUSDT @ 0.31693800000000005
+2025-10-11 19:01:23 | INFO | ✅ Take profit set via position management
+2025-10-11 19:01:24 | INFO | Setting trailing stop: ACEUSDT @ 1.0% = $0.003143 from $0.3143
+2025-10-11 19:01:24 | INFO | ✅ Trailing stop set: 1.0% ($0.003143)
+2025-10-11 19:01:24 | INFO | ✅ EXECUTED: ACEUSDT BUY 23434.900000 @ $0.3138 (Conf: 95.0%)
+2025-10-11 19:01:25 | INFO | 5. BICOUSDT - BUY (95.0%) @ $0.06573
+2025-10-11 19:01:26 | INFO | Setting leverage for BICOUSDT to 1x
+2025-10-11 19:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BICOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BICOUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '101262.1', 'timeInForce': 'IOC'}
+2025-10-11 19:01:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:10126210000000 > max_qty:3635000000000 (ErrCode: 10001) (ErrTime: 15:01:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BICOUSDT", "side": "Buy", "orderType": "Market", "qty": "101262.1", "timeInForce": "IOC"}.
+2025-10-11 19:01:27 | ERROR | ❌ FAILED: BICOUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:10126210000000 > max_qty:3635000000000 (ErrCode: 10001) (ErrTime: 15:01:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BICOUSDT", "side": "Buy", "orderType": "Market", "qty": "101262.1", "timeInForce": "IOC"}.
+2025-10-11 19:01:27 | INFO | 6. CGPTUSDT - BUY (95.0%) @ $0.05812
+2025-10-11 19:01:28 | INFO | Setting leverage for CGPTUSDT to 1x
+2025-10-11 19:01:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CGPTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CGPTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '114521', 'timeInForce': 'IOC'}
+2025-10-11 19:01:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:11452100000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 15:01:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CGPTUSDT", "side": "Buy", "orderType": "Market", "qty": "114521", "timeInForce": "IOC"}.
+2025-10-11 19:01:29 | ERROR | ❌ FAILED: CGPTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:11452100000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 15:01:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CGPTUSDT", "side": "Buy", "orderType": "Market", "qty": "114521", "timeInForce": "IOC"}.
+2025-10-11 19:01:29 | INFO | 7. CTKUSDT - BUY (95.0%) @ $0.3042
+2025-10-11 19:01:30 | INFO | Setting leverage for CTKUSDT to 1x
+2025-10-11 19:01:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CTKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CTKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '21880.2', 'timeInForce': 'IOC'}
+2025-10-11 19:01:31 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2188020000000 > max_qty:2130000000000 (ErrCode: 10001) (ErrTime: 15:01:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CTKUSDT", "side": "Buy", "orderType": "Market", "qty": "21880.2", "timeInForce": "IOC"}.
+2025-10-11 19:01:31 | ERROR | ❌ FAILED: CTKUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2188020000000 > max_qty:2130000000000 (ErrCode: 10001) (ErrTime: 15:01:31).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CTKUSDT", "side": "Buy", "orderType": "Market", "qty": "21880.2", "timeInForce": "IOC"}.
+2025-10-11 19:01:31 | INFO | 8. EDUUSDT - BUY (95.0%) @ $0.1023
+2025-10-11 19:01:32 | INFO | Setting leverage for EDUUSDT to 1x
+2025-10-11 19:01:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EDUUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EDUUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '65063.1', 'timeInForce': 'IOC'}
+2025-10-11 19:01:33 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:6506310000000 > max_qty:2972000000000 (ErrCode: 10001) (ErrTime: 15:01:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EDUUSDT", "side": "Buy", "orderType": "Market", "qty": "65063.1", "timeInForce": "IOC"}.
+2025-10-11 19:01:33 | ERROR | ❌ FAILED: EDUUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:6506310000000 > max_qty:2972000000000 (ErrCode: 10001) (ErrTime: 15:01:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "EDUUSDT", "side": "Buy", "orderType": "Market", "qty": "65063.1", "timeInForce": "IOC"}.
+2025-10-11 19:01:33 | INFO | 9. FWOGUSDT - BUY (95.0%) @ $0.02436
+2025-10-11 19:01:34 | INFO | Setting leverage for FWOGUSDT to 1x
+2025-10-11 19:01:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FWOGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FWOGUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '250000', 'timeInForce': 'IOC'}
+2025-10-11 19:01:35 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 15:01:35).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FWOGUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-11 19:01:35 | ERROR | ❌ FAILED: FWOGUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 15:01:35).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FWOGUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-11 19:01:35 | INFO | 10. GIGGLEUSDT - SELL (95.0%) @ $123.0
+2025-10-11 19:01:36 | INFO | Setting leverage for GIGGLEUSDT to 1x
+2025-10-11 19:01:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 15:01:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GIGGLEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 19:01:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GIGGLEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '54.113', 'timeInForce': 'IOC'}
+2025-10-11 19:01:36 | INFO | ✅ Perpetual order placed: b50b1354-fa46-4d74-82e8-8749b8daecdd
+2025-10-11 19:01:37 | INFO | Setting stop loss via trading stop: GIGGLEUSDT @ 126.69
+2025-10-11 19:01:37 | INFO | ✅ Stop loss set via position management
+2025-10-11 19:01:37 | INFO | Setting take profit via trading stop: GIGGLEUSDT @ 121.77
+2025-10-11 19:01:37 | INFO | ✅ Take profit set via position management
+2025-10-11 19:01:38 | INFO | Setting trailing stop: GIGGLEUSDT @ 1.0% = $1.226900 from $122.69
+2025-10-11 19:01:39 | INFO | ✅ Trailing stop set: 1.0% ($1.226900)
+2025-10-11 19:01:39 | INFO | ✅ EXECUTED: GIGGLEUSDT SELL 54.113000 @ $123.0 (Conf: 95.0%)
+2025-10-11 19:01:39 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 7 failed
+2025-10-11 19:01:39 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 19:01:39 | INFO |    • 1000000BABYDOGEUSDT: LONG 7697000.000000 @ $0.0010556 - SL: $0.0010 TP: $0.0011
+2025-10-11 19:01:39 | INFO |    • ACEUSDT: LONG 23434.900000 @ $0.3138 - SL: $0.3044 TP: $0.3169
+2025-10-11 19:01:39 | INFO |    • GIGGLEUSDT: SHORT 54.113000 @ $123.0 - SL: $126.6900 TP: $121.7700
+2025-10-11 19:01:39 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 19:01:40 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 19:01:40 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 19:01:40 | INFO | 🎉 SESSION COMPLETED in 40.1s
+2025-10-11 19:01:40 | INFO | ============================================================
