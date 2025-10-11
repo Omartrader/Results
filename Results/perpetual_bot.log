@@ -20855,3 +20855,161 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-11 06:01:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-11 06:01:59 | INFO | 🎉 SESSION COMPLETED in 56.2s
 2025-10-11 06:01:59 | INFO | ============================================================
+2025-10-11 06:16:01 | INFO | ================================================================================
+2025-10-11 06:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-11 06:16:01
+2025-10-11 06:16:01 | INFO | ================================================================================
+2025-10-11 06:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-11 06:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-11 06:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-11 06:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 06:16:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 06:16:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 06:16:16 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-11 06:16:16 | INFO |  1. 1000XECUSDT  | SELL | Price: $  0.0144 | Confidence:  95.0% | Momentum: -16.33%
+2025-10-11 06:16:16 | INFO |  2. 1INCHUSDT    | SELL | Price: $  0.1857 | Confidence:  95.0% | Momentum: -23.14%
+2025-10-11 06:16:16 | INFO |  3. 1000TURBOUSDT | SELL | Price: $  2.4167 | Confidence:  95.0% | Momentum: -24.67%
+2025-10-11 06:16:16 | INFO |  4. 1000CATUSDT  | SELL | Price: $  0.0056 | Confidence:  95.0% | Momentum: -26.89%
+2025-10-11 06:16:16 | INFO |  5. 1000FLOKIUSDT | SELL | Price: $  0.0680 | Confidence:  95.0% | Momentum: -22.00%
+2025-10-11 06:16:16 | INFO |  6. 1000000MOGUSDT | SELL | Price: $  0.4687 | Confidence:  95.0% | Momentum: -28.15%
+2025-10-11 06:16:16 | INFO |  7. 1000LUNCUSDT | SELL | Price: $  0.0355 | Confidence:  95.0% | Momentum: -30.37%
+2025-10-11 06:16:16 | INFO |  8. AAVEUSDT     | SELL | Price: $225.6100 | Confidence:  95.0% | Momentum: -13.91%
+2025-10-11 06:16:16 | INFO |  9. ACTUSDT      | SELL | Price: $  0.0200 | Confidence:  95.0% | Momentum: -32.65%
+2025-10-11 06:16:16 | INFO | 10. AEVOUSDT     | SELL | Price: $  0.0656 | Confidence:  95.0% | Momentum: -29.16%
+2025-10-11 06:16:17 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-11 06:16:17 | INFO | 1. 1000XECUSDT - SELL (95.0%) @ $0.01445
+2025-10-11 06:16:18 | INFO | Setting leverage for 1000XECUSDT to 1x
+2025-10-11 06:16:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000XECUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000XECUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '574230', 'timeInForce': 'IOC'}
+2025-10-11 06:16:19 | INFO | ✅ Perpetual order placed: 3e9cc5b8-db4f-423d-9352-cb321553d887
+2025-10-11 06:16:19 | INFO | Setting stop loss via trading stop: 1000XECUSDT @ 0.0148835
+2025-10-11 06:16:19 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:19 | INFO | Setting take profit via trading stop: 1000XECUSDT @ 0.014305499999999999
+2025-10-11 06:16:19 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:21 | INFO | Setting trailing stop: 1000XECUSDT @ 1.0% = $0.000145 from $0.01447
+2025-10-11 06:16:21 | INFO | ✅ Trailing stop set: 1.0% ($0.000145)
+2025-10-11 06:16:21 | INFO | ✅ EXECUTED: 1000XECUSDT SELL 574230.000000 @ $0.01445 (Conf: 95.0%)
+2025-10-11 06:16:21 | INFO | 2. 1INCHUSDT - SELL (95.0%) @ $0.1857
+2025-10-11 06:16:22 | INFO | Setting leverage for 1INCHUSDT to 1x
+2025-10-11 06:16:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1INCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1INCHUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '40442.6', 'timeInForce': 'IOC'}
+2025-10-11 06:16:23 | INFO | ✅ Perpetual order placed: 57122a52-0913-47ce-a47d-71400de594c0
+2025-10-11 06:16:23 | INFO | Setting stop loss via trading stop: 1INCHUSDT @ 0.191271
+2025-10-11 06:16:23 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:23 | INFO | Setting take profit via trading stop: 1INCHUSDT @ 0.183843
+2025-10-11 06:16:23 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:25 | INFO | Setting trailing stop: 1INCHUSDT @ 1.0% = $0.001859 from $0.1859
+2025-10-11 06:16:25 | INFO | ✅ Trailing stop set: 1.0% ($0.001859)
+2025-10-11 06:16:25 | INFO | ✅ EXECUTED: 1INCHUSDT SELL 40442.600000 @ $0.1857 (Conf: 95.0%)
+2025-10-11 06:16:26 | INFO | 3. 1000TURBOUSDT - SELL (95.0%) @ $2.4167
+2025-10-11 06:16:26 | INFO | Setting leverage for 1000TURBOUSDT to 1x
+2025-10-11 06:16:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000TURBOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000TURBOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '2813', 'timeInForce': 'IOC'}
+2025-10-11 06:16:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:281300000000 > max_qty:174000000000 (ErrCode: 10001) (ErrTime: 02:16:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000TURBOUSDT", "side": "Sell", "orderType": "Market", "qty": "2813", "timeInForce": "IOC"}.
+2025-10-11 06:16:27 | ERROR | ❌ FAILED: 1000TURBOUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:281300000000 > max_qty:174000000000 (ErrCode: 10001) (ErrTime: 02:16:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000TURBOUSDT", "side": "Sell", "orderType": "Market", "qty": "2813", "timeInForce": "IOC"}.
+2025-10-11 06:16:28 | INFO | 4. 1000CATUSDT - SELL (95.0%) @ $0.005625
+2025-10-11 06:16:29 | INFO | Setting leverage for 1000CATUSDT to 1x
+2025-10-11 06:16:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000CATUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000CATUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1208434', 'timeInForce': 'IOC'}
+2025-10-11 06:16:30 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:120843400000000 > max_qty:39000000000000 (ErrCode: 10001) (ErrTime: 02:16:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000CATUSDT", "side": "Sell", "orderType": "Market", "qty": "1208434", "timeInForce": "IOC"}.
+2025-10-11 06:16:30 | ERROR | ❌ FAILED: 1000CATUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:120843400000000 > max_qty:39000000000000 (ErrCode: 10001) (ErrTime: 02:16:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000CATUSDT", "side": "Sell", "orderType": "Market", "qty": "1208434", "timeInForce": "IOC"}.
+2025-10-11 06:16:30 | INFO | 5. 1000FLOKIUSDT - SELL (95.0%) @ $0.06802
+2025-10-11 06:16:31 | INFO | Setting leverage for 1000FLOKIUSDT to 1x
+2025-10-11 06:16:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000FLOKIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000FLOKIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '99933', 'timeInForce': 'IOC'}
+2025-10-11 06:16:32 | INFO | ✅ Perpetual order placed: da6001da-c541-460d-8b2d-3000947faa09
+2025-10-11 06:16:32 | INFO | Setting stop loss via trading stop: 1000FLOKIUSDT @ 0.0700606
+2025-10-11 06:16:32 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:32 | INFO | Setting take profit via trading stop: 1000FLOKIUSDT @ 0.06733979999999999
+2025-10-11 06:16:32 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:34 | INFO | Setting trailing stop: 1000FLOKIUSDT @ 1.0% = $0.000680 from $0.06797
+2025-10-11 06:16:34 | INFO | ✅ Trailing stop set: 1.0% ($0.000680)
+2025-10-11 06:16:34 | INFO | ✅ EXECUTED: 1000FLOKIUSDT SELL 99933.000000 @ $0.06802 (Conf: 95.0%)
+2025-10-11 06:16:35 | INFO | 6. 1000000MOGUSDT - SELL (95.0%) @ $0.4687
+2025-10-11 06:16:36 | INFO | Setting leverage for 1000000MOGUSDT to 1x
+2025-10-11 06:16:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000MOGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000MOGUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '13126', 'timeInForce': 'IOC'}
+2025-10-11 06:16:36 | INFO | ✅ Perpetual order placed: 4f1cb1b1-f211-420f-a1c4-26972c7b40b4
+2025-10-11 06:16:36 | INFO | Setting stop loss via trading stop: 1000000MOGUSDT @ 0.482761
+2025-10-11 06:16:36 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:37 | INFO | Setting take profit via trading stop: 1000000MOGUSDT @ 0.464013
+2025-10-11 06:16:37 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:38 | INFO | Setting trailing stop: 1000000MOGUSDT @ 1.0% = $0.004685 from $0.4685
+2025-10-11 06:16:39 | INFO | ✅ Trailing stop set: 1.0% ($0.004685)
+2025-10-11 06:16:39 | INFO | ✅ EXECUTED: 1000000MOGUSDT SELL 13126.000000 @ $0.4687 (Conf: 95.0%)
+2025-10-11 06:16:39 | INFO | 7. 1000LUNCUSDT - SELL (95.0%) @ $0.03545
+2025-10-11 06:16:40 | INFO | Setting leverage for 1000LUNCUSDT to 1x
+2025-10-11 06:16:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000LUNCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000LUNCUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '157079', 'timeInForce': 'IOC'}
+2025-10-11 06:16:41 | INFO | ✅ Perpetual order placed: 27f4c077-3a2e-42de-b86b-bf1e17d7b315
+2025-10-11 06:16:41 | INFO | Setting stop loss via trading stop: 1000LUNCUSDT @ 0.036513500000000004
+2025-10-11 06:16:41 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:41 | INFO | Setting take profit via trading stop: 1000LUNCUSDT @ 0.0350955
+2025-10-11 06:16:41 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:43 | INFO | Setting trailing stop: 1000LUNCUSDT @ 1.0% = $0.000355 from $0.03554
+2025-10-11 06:16:43 | INFO | ✅ Trailing stop set: 1.0% ($0.000355)
+2025-10-11 06:16:43 | INFO | ✅ EXECUTED: 1000LUNCUSDT SELL 157079.000000 @ $0.03545 (Conf: 95.0%)
+2025-10-11 06:16:44 | INFO | 8. AAVEUSDT - SELL (95.0%) @ $225.61
+2025-10-11 06:16:44 | INFO | Setting leverage for AAVEUSDT to 1x
+2025-10-11 06:16:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AAVEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AAVEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '22.34', 'timeInForce': 'IOC'}
+2025-10-11 06:16:45 | INFO | ✅ Perpetual order placed: 8b41e086-e4c7-4794-ae76-f2db6cac6dd6
+2025-10-11 06:16:45 | INFO | Setting stop loss via trading stop: AAVEUSDT @ 232.37830000000002
+2025-10-11 06:16:45 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:46 | INFO | Setting take profit via trading stop: AAVEUSDT @ 223.3539
+2025-10-11 06:16:46 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:47 | INFO | Setting trailing stop: AAVEUSDT @ 1.0% = $2.258500 from $225.85
+2025-10-11 06:16:48 | INFO | ✅ Trailing stop set: 1.0% ($2.258500)
+2025-10-11 06:16:48 | INFO | ✅ EXECUTED: AAVEUSDT SELL 22.340000 @ $225.61 (Conf: 95.0%)
+2025-10-11 06:16:48 | INFO | 9. ACTUSDT - SELL (95.0%) @ $0.02003
+2025-10-11 06:16:49 | INFO | Setting leverage for ACTUSDT to 1x
+2025-10-11 06:16:49 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:49).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ACTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:49 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ACTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '227741', 'timeInForce': 'IOC'}
+2025-10-11 06:16:50 | INFO | ✅ Perpetual order placed: 99ef6054-56be-4c57-9d43-ad25760d1cdd
+2025-10-11 06:16:50 | INFO | Setting stop loss via trading stop: ACTUSDT @ 0.0206309
+2025-10-11 06:16:50 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:50 | INFO | Setting take profit via trading stop: ACTUSDT @ 0.0198297
+2025-10-11 06:16:50 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:52 | INFO | Setting trailing stop: ACTUSDT @ 1.0% = $0.000200 from $0.02005
+2025-10-11 06:16:52 | INFO | ✅ Trailing stop set: 1.0% ($0.000200)
+2025-10-11 06:16:52 | INFO | ✅ EXECUTED: ACTUSDT SELL 227741.000000 @ $0.02003 (Conf: 95.0%)
+2025-10-11 06:16:53 | INFO | 10. AEVOUSDT - SELL (95.0%) @ $0.0656
+2025-10-11 06:16:54 | INFO | Setting leverage for AEVOUSDT to 1x
+2025-10-11 06:16:54 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:16:54).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AEVOUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-11 06:16:54 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AEVOUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '62938.0', 'timeInForce': 'IOC'}
+2025-10-11 06:16:55 | INFO | ✅ Perpetual order placed: d942a628-1b11-46af-974a-20a3d6e9fd85
+2025-10-11 06:16:55 | INFO | Setting stop loss via trading stop: AEVOUSDT @ 0.067568
+2025-10-11 06:16:55 | INFO | ✅ Stop loss set via position management
+2025-10-11 06:16:55 | INFO | Setting take profit via trading stop: AEVOUSDT @ 0.064944
+2025-10-11 06:16:55 | INFO | ✅ Take profit set via position management
+2025-10-11 06:16:57 | INFO | Setting trailing stop: AEVOUSDT @ 1.0% = $0.000658 from $0.0658
+2025-10-11 06:16:57 | INFO | ✅ Trailing stop set: 1.0% ($0.000658)
+2025-10-11 06:16:57 | INFO | ✅ EXECUTED: AEVOUSDT SELL 62938.000000 @ $0.0656 (Conf: 95.0%)
+2025-10-11 06:16:57 | INFO | 📊 EXECUTION SUMMARY: 8 successful, 2 failed
+2025-10-11 06:16:57 | INFO | 🎉 EXECUTED TRADES:
+2025-10-11 06:16:57 | INFO |    • 1000XECUSDT: SHORT 574230.000000 @ $0.01445 - SL: $0.0149 TP: $0.0143
+2025-10-11 06:16:57 | INFO |    • 1INCHUSDT: SHORT 40442.600000 @ $0.1857 - SL: $0.1913 TP: $0.1838
+2025-10-11 06:16:57 | INFO |    • 1000FLOKIUSDT: SHORT 99933.000000 @ $0.06802 - SL: $0.0701 TP: $0.0673
+2025-10-11 06:16:57 | INFO |    • 1000000MOGUSDT: SHORT 13126.000000 @ $0.4687 - SL: $0.4828 TP: $0.4640
+2025-10-11 06:16:57 | INFO |    • 1000LUNCUSDT: SHORT 157079.000000 @ $0.03545 - SL: $0.0365 TP: $0.0351
+2025-10-11 06:16:57 | INFO |    • AAVEUSDT: SHORT 22.340000 @ $225.61 - SL: $232.3783 TP: $223.3539
+2025-10-11 06:16:57 | INFO |    • ACTUSDT: SHORT 227741.000000 @ $0.02003 - SL: $0.0206 TP: $0.0198
+2025-10-11 06:16:57 | INFO |    • AEVOUSDT: SHORT 62938.000000 @ $0.0656 - SL: $0.0676 TP: $0.0649
+2025-10-11 06:16:57 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-11 06:16:58 | INFO | ✅ Found 458 perpetual pairs
+2025-10-11 06:16:58 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-11 06:16:58 | INFO | 🎉 SESSION COMPLETED in 56.3s
+2025-10-11 06:16:58 | INFO | ============================================================
