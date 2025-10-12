@@ -36141,3 +36141,112 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 15:31:21 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 15:31:21 | INFO | 🎉 SESSION COMPLETED in 20.4s
 2025-10-12 15:31:21 | INFO | ============================================================
+2025-10-12 15:45:58 | INFO | ================================================================================
+2025-10-12 15:45:58 | INFO | NEW PERPETUAL SESSION: 2025-10-12 15:45:58
+2025-10-12 15:45:58 | INFO | ================================================================================
+2025-10-12 15:45:58 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 15:45:58 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 15:45:58 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 15:45:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 15:45:59 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 15:45:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 15:46:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 15:46:14 | INFO |  1. 1000000PEIPEIUSDT | BUY  | Price: $  0.0260 | Confidence:  95.0% | Momentum: +6.95%
+2025-10-12 15:46:14 | INFO |  2. AEROUSDT     | BUY  | Price: $  0.8049 | Confidence:  95.0% | Momentum: +4.98%
+2025-10-12 15:46:14 | INFO |  3. AKEUSDT      | BUY  | Price: $  0.0017 | Confidence:  95.0% | Momentum: +12.49%
+2025-10-12 15:46:14 | INFO |  4. APEXUSDT     | BUY  | Price: $  1.0648 | Confidence:  95.0% | Momentum: +5.09%
+2025-10-12 15:46:14 | INFO |  5. ASTERUSDT    | BUY  | Price: $  1.3488 | Confidence:  95.0% | Momentum: +13.17%
+2025-10-12 15:46:14 | INFO |  6. DAMUSDT      | BUY  | Price: $  0.0365 | Confidence:  95.0% | Momentum: +4.50%
+2025-10-12 15:46:14 | INFO |  7. FARTCOINUSDT | BUY  | Price: $  0.3547 | Confidence:  95.0% | Momentum: +6.29%
+2025-10-12 15:46:14 | INFO |  8. GODSUSDT     | BUY  | Price: $  0.0982 | Confidence:  95.0% | Momentum: +13.39%
+2025-10-12 15:46:14 | INFO |  9. JASMYUSDT    | BUY  | Price: $  0.0102 | Confidence:  95.0% | Momentum: +5.99%
+2025-10-12 15:46:14 | INFO | 10. BCHUSDT      | BUY  | Price: $522.8000 | Confidence:  95.0% | Momentum: +4.50%
+2025-10-12 15:46:15 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 15:46:15 | INFO | 1. 1000000PEIPEIUSDT - BUY (95.0%) @ $0.02599
+2025-10-12 15:46:16 | INFO | Setting leverage for 1000000PEIPEIUSDT to 1x
+2025-10-12 15:46:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:46:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000PEIPEIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '250000', 'timeInForce': 'IOC'}
+2025-10-12 15:46:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 11:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-12 15:46:17 | ERROR | ❌ FAILED: 1000000PEIPEIUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:25000000000000 > max_qty:5000000000000 (ErrCode: 10001) (ErrTime: 11:46:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000000PEIPEIUSDT", "side": "Buy", "orderType": "Market", "qty": "250000", "timeInForce": "IOC"}.
+2025-10-12 15:46:17 | INFO | 2. AEROUSDT - BUY (95.0%) @ $0.8049
+2025-10-12 15:46:18 | INFO | Setting leverage for AEROUSDT to 1x
+2025-10-12 15:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AEROUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AEROUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '9931', 'timeInForce': 'IOC'}
+2025-10-12 15:46:19 | INFO | ✅ Perpetual order placed: 130f4d72-3063-429a-abc1-44b4f43b99ae
+2025-10-12 15:46:19 | INFO | Setting stop loss via trading stop: AEROUSDT @ 0.7807529999999999
+2025-10-12 15:46:19 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:46:19 | INFO | Setting take profit via trading stop: AEROUSDT @ 0.8129489999999999
+2025-10-12 15:46:19 | INFO | ✅ Take profit set via position management
+2025-10-12 15:46:21 | INFO | Setting trailing stop: AEROUSDT @ 1.0% = $0.008058 from $0.8058
+2025-10-12 15:46:21 | INFO | ✅ Trailing stop set: 1.0% ($0.008058)
+2025-10-12 15:46:21 | INFO | ✅ EXECUTED: AEROUSDT BUY 9931.000000 @ $0.8049 (Conf: 95.0%)
+2025-10-12 15:46:22 | INFO | 3. AKEUSDT - BUY (95.0%) @ $0.001729
+2025-10-12 15:46:23 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-12 15:46:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:46:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '4184300', 'timeInForce': 'IOC'}
+2025-10-12 15:46:23 | INFO | ✅ Perpetual order placed: e26d4bd9-8197-49d3-86b2-e8855b3b6ace
+2025-10-12 15:46:24 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.00167713
+2025-10-12 15:46:24 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:46:24 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.0017462900000000002
+2025-10-12 15:46:24 | INFO | ✅ Take profit set via position management
+2025-10-12 15:46:25 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000017 from $0.001728
+2025-10-12 15:46:26 | INFO | ✅ Trailing stop set: 1.0% ($0.000017)
+2025-10-12 15:46:26 | INFO | ✅ EXECUTED: AKEUSDT BUY 4184300.000000 @ $0.001729 (Conf: 95.0%)
+2025-10-12 15:46:26 | INFO | 4. APEXUSDT - BUY (95.0%) @ $1.0648
+2025-10-12 15:46:27 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-12 15:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '6149.6', 'timeInForce': 'IOC'}
+2025-10-12 15:46:28 | INFO | ✅ Perpetual order placed: 699a4118-ddd4-4e47-b8ce-9b6756cb9220
+2025-10-12 15:46:28 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.032856
+2025-10-12 15:46:28 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:46:28 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.075448
+2025-10-12 15:46:28 | INFO | ✅ Take profit set via position management
+2025-10-12 15:46:30 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.010642 from $1.0642
+2025-10-12 15:46:30 | INFO | ✅ Trailing stop set: 1.0% ($0.010642)
+2025-10-12 15:46:30 | INFO | ✅ EXECUTED: APEXUSDT BUY 6149.600000 @ $1.0648 (Conf: 95.0%)
+2025-10-12 15:46:30 | INFO | 5. ASTERUSDT - BUY (95.0%) @ $1.3488
+2025-10-12 15:46:31 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-12 15:46:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:46:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '4394', 'timeInForce': 'IOC'}
+2025-10-12 15:46:32 | INFO | ✅ Perpetual order placed: 7e31544a-1b63-400e-8745-1b6ebedb9035
+2025-10-12 15:46:32 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.308336
+2025-10-12 15:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:46:32 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.362288
+2025-10-12 15:46:32 | INFO | ✅ Take profit set via position management
+2025-10-12 15:46:34 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.013508 from $1.3508
+2025-10-12 15:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.013508)
+2025-10-12 15:46:34 | INFO | ✅ EXECUTED: ASTERUSDT BUY 4394.000000 @ $1.3488 (Conf: 95.0%)
+2025-10-12 15:46:35 | INFO | 6. DAMUSDT - BUY (95.0%) @ $0.03645
+2025-10-12 15:46:35 | INFO | Setting leverage for DAMUSDT to 1x
+2025-10-12 15:46:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:46:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DAMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:46:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DAMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '147164', 'timeInForce': 'IOC'}
+2025-10-12 15:46:36 | INFO | ✅ Perpetual order placed: 7b55885a-4974-49b3-b33e-8ccf9c9a79bf
+2025-10-12 15:46:36 | INFO | Setting stop loss via trading stop: DAMUSDT @ 0.0353565
+2025-10-12 15:46:36 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:46:36 | INFO | Setting take profit via trading stop: DAMUSDT @ 0.03681450000000001
+2025-10-12 15:46:36 | INFO | ✅ Take profit set via position management
+2025-10-12 15:46:38 | INFO | Setting trailing stop: DAMUSDT @ 1.0% = $0.000363 from $0.03629
+2025-10-12 15:46:38 | INFO | ✅ Trailing stop set: 1.0% ($0.000363)
+2025-10-12 15:46:38 | INFO | ✅ EXECUTED: DAMUSDT BUY 147164.000000 @ $0.03645 (Conf: 95.0%)
+2025-10-12 15:46:39 | INFO | 7. FARTCOINUSDT - BUY (95.0%) @ $0.3547
+2025-10-12 15:46:39 | INFO | 8. GODSUSDT - BUY (95.0%) @ $0.0982
+2025-10-12 15:46:39 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 1 failed
+2025-10-12 15:46:39 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 15:46:39 | INFO |    • AEROUSDT: LONG 9931.000000 @ $0.8049 - SL: $0.7808 TP: $0.8129
+2025-10-12 15:46:39 | INFO |    • AKEUSDT: LONG 4184300.000000 @ $0.001729 - SL: $0.0017 TP: $0.0017
+2025-10-12 15:46:39 | INFO |    • APEXUSDT: LONG 6149.600000 @ $1.0648 - SL: $1.0329 TP: $1.0754
+2025-10-12 15:46:39 | INFO |    • ASTERUSDT: LONG 4394.000000 @ $1.3488 - SL: $1.3083 TP: $1.3623
+2025-10-12 15:46:39 | INFO |    • DAMUSDT: LONG 147164.000000 @ $0.03645 - SL: $0.0354 TP: $0.0368
+2025-10-12 15:46:39 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 15:46:39 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 15:46:39 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 15:46:39 | INFO | 🎉 SESSION COMPLETED in 41.0s
+2025-10-12 15:46:39 | INFO | ============================================================
