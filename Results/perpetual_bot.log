@@ -33624,3 +33624,68 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 09:31:26 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 09:31:26 | INFO | 🎉 SESSION COMPLETED in 21.7s
 2025-10-12 09:31:26 | INFO | ============================================================
+2025-10-12 09:45:59 | INFO | ================================================================================
+2025-10-12 09:45:59 | INFO | NEW PERPETUAL SESSION: 2025-10-12 09:45:59
+2025-10-12 09:45:59 | INFO | ================================================================================
+2025-10-12 09:45:59 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 09:45:59 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 09:45:59 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 09:45:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 09:46:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 09:46:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 09:46:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 09:46:12 | INFO |  1. SAPIENUSDT   | BUY  | Price: $  0.1047 | Confidence:  93.0% | Momentum: +4.30%
+2025-10-12 09:46:12 | INFO |  2. BUSDT        | BUY  | Price: $  0.1732 | Confidence:  73.7% | Momentum: +2.37%
+2025-10-12 09:46:12 | INFO |  3. RAREUSDT     | BUY  | Price: $  0.0344 | Confidence:  73.2% | Momentum: +2.32%
+2025-10-12 09:46:12 | INFO |  4. IOTXUSDT     | BUY  | Price: $  0.0132 | Confidence:  72.5% | Momentum: +2.25%
+2025-10-12 09:46:12 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-12 09:46:12 | INFO | 1. SAPIENUSDT - BUY (93.0%) @ $0.10468
+2025-10-12 09:46:13 | INFO | Setting leverage for SAPIENUSDT to 1x
+2025-10-12 09:46:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "SAPIENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 09:46:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'SAPIENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '76885', 'timeInForce': 'IOC'}
+2025-10-12 09:46:14 | INFO | ✅ Perpetual order placed: 81acb75b-7d9a-45ff-bd61-37356c30d1c6
+2025-10-12 09:46:14 | INFO | Setting stop loss via trading stop: SAPIENUSDT @ 0.1015396
+2025-10-12 09:46:14 | INFO | ✅ Stop loss set via position management
+2025-10-12 09:46:14 | INFO | Setting take profit via trading stop: SAPIENUSDT @ 0.1057268
+2025-10-12 09:46:14 | INFO | ✅ Take profit set via position management
+2025-10-12 09:46:16 | INFO | Setting trailing stop: SAPIENUSDT @ 1.0% = $0.001047 from $0.10468
+2025-10-12 09:46:16 | INFO | ✅ Trailing stop set: 1.0% ($0.001047)
+2025-10-12 09:46:16 | INFO | ✅ EXECUTED: SAPIENUSDT BUY 76885.000000 @ $0.10468 (Conf: 93.0%)
+2025-10-12 09:46:17 | INFO | 2. BUSDT - BUY (73.7%) @ $0.1732
+2025-10-12 09:46:18 | INFO | Setting leverage for BUSDT to 1x
+2025-10-12 09:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 09:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '42058', 'timeInForce': 'IOC'}
+2025-10-12 09:46:18 | INFO | ✅ Perpetual order placed: e5fb3672-ec17-415b-8fcc-a5c8a14703df
+2025-10-12 09:46:19 | INFO | Setting stop loss via trading stop: BUSDT @ 0.168004
+2025-10-12 09:46:19 | INFO | ✅ Stop loss set via position management
+2025-10-12 09:46:19 | INFO | Setting take profit via trading stop: BUSDT @ 0.174932
+2025-10-12 09:46:19 | INFO | ✅ Take profit set via position management
+2025-10-12 09:46:20 | INFO | Setting trailing stop: BUSDT @ 1.0% = $0.001725 from $0.17249
+2025-10-12 09:46:21 | INFO | ✅ Trailing stop set: 1.0% ($0.001725)
+2025-10-12 09:46:21 | INFO | ✅ EXECUTED: BUSDT BUY 42058.000000 @ $0.1732 (Conf: 73.7%)
+2025-10-12 09:46:21 | INFO | 3. RAREUSDT - BUY (73.2%) @ $0.03441
+2025-10-12 09:46:22 | INFO | Setting leverage for RAREUSDT to 1x
+2025-10-12 09:46:22 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 05:46:22).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RAREUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 09:46:22 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RAREUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '191606', 'timeInForce': 'IOC'}
+2025-10-12 09:46:23 | INFO | ✅ Perpetual order placed: 42e7f0f0-04e2-42b9-96d2-e2e126e7cb26
+2025-10-12 09:46:23 | INFO | Setting stop loss via trading stop: RAREUSDT @ 0.0333777
+2025-10-12 09:46:23 | INFO | ✅ Stop loss set via position management
+2025-10-12 09:46:23 | INFO | Setting take profit via trading stop: RAREUSDT @ 0.0347541
+2025-10-12 09:46:23 | INFO | ✅ Take profit set via position management
+2025-10-12 09:46:25 | INFO | Setting trailing stop: RAREUSDT @ 1.0% = $0.000344 from $0.03441
+2025-10-12 09:46:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000344)
+2025-10-12 09:46:25 | INFO | ✅ EXECUTED: RAREUSDT BUY 191606.000000 @ $0.03441 (Conf: 73.2%)
+2025-10-12 09:46:26 | INFO | 4. IOTXUSDT - BUY (72.5%) @ $0.01316
+2025-10-12 09:46:26 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 0 failed
+2025-10-12 09:46:26 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 09:46:26 | INFO |    • SAPIENUSDT: LONG 76885.000000 @ $0.10468 - SL: $0.1015 TP: $0.1057
+2025-10-12 09:46:26 | INFO |    • BUSDT: LONG 42058.000000 @ $0.1732 - SL: $0.1680 TP: $0.1749
+2025-10-12 09:46:26 | INFO |    • RAREUSDT: LONG 191606.000000 @ $0.03441 - SL: $0.0334 TP: $0.0348
+2025-10-12 09:46:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 09:46:26 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 09:46:26 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 09:46:26 | INFO | 🎉 SESSION COMPLETED in 26.8s
+2025-10-12 09:46:26 | INFO | ============================================================
