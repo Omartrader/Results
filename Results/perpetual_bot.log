@@ -35697,3 +35697,62 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 14:16:58 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 14:16:58 | INFO | 🎉 SESSION COMPLETED in 53.8s
 2025-10-12 14:16:58 | INFO | ============================================================
+2025-10-12 14:31:01 | INFO | ================================================================================
+2025-10-12 14:31:01 | INFO | NEW PERPETUAL SESSION: 2025-10-12 14:31:01
+2025-10-12 14:31:01 | INFO | ================================================================================
+2025-10-12 14:31:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 14:31:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 14:31:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 14:31:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 14:31:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 14:31:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 14:31:13 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 14:31:13 | INFO |  1. 1000000MOGUSDT | BUY  | Price: $  0.4551 | Confidence:  95.0% | Momentum: +5.03%
+2025-10-12 14:31:13 | INFO |  2. 1000RATSUSDT | BUY  | Price: $  0.0205 | Confidence:  95.0% | Momentum: +14.81%
+2025-10-12 14:31:13 | INFO |  3. ASTERUSDT    | BUY  | Price: $  1.3023 | Confidence:  95.0% | Momentum: +11.15%
+2025-10-12 14:31:13 | INFO |  4. B2USDT       | BUY  | Price: $  1.2450 | Confidence:  95.0% | Momentum: +12.59%
+2025-10-12 14:31:13 | INFO |  5. CELRUSDT     | BUY  | Price: $  0.0053 | Confidence:  95.0% | Momentum: +5.67%
+2025-10-12 14:31:13 | INFO |  6. DMCUSDT      | BUY  | Price: $  0.0023 | Confidence:  95.0% | Momentum: +5.26%
+2025-10-12 14:31:13 | INFO |  7. DOGSUSDT     | BUY  | Price: $  0.0001 | Confidence:  95.0% | Momentum: +5.46%
+2025-10-12 14:31:13 | INFO |  8. EIGENUSDT    | BUY  | Price: $  1.1940 | Confidence:  95.0% | Momentum: +7.21%
+2025-10-12 14:31:13 | INFO |  9. FORMUSDT     | BUY  | Price: $  0.7580 | Confidence:  95.0% | Momentum: +4.78%
+2025-10-12 14:31:13 | INFO | 10. GRTUSDT      | BUY  | Price: $  0.0644 | Confidence:  95.0% | Momentum: +5.13%
+2025-10-12 14:31:14 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 14:31:14 | INFO | 1. 1000000MOGUSDT - BUY (95.0%) @ $0.4551
+2025-10-12 14:31:14 | INFO | 2. 1000RATSUSDT - BUY (95.0%) @ $0.02047
+2025-10-12 14:31:15 | INFO | Setting leverage for 1000RATSUSDT to 1x
+2025-10-12 14:31:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:31:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000RATSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:31:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000RATSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '389960', 'timeInForce': 'IOC'}
+2025-10-12 14:31:15 | INFO | ✅ Perpetual order placed: cf2ebdc1-b388-471b-a7e5-52e910e40c00
+2025-10-12 14:31:16 | INFO | Setting stop loss via trading stop: 1000RATSUSDT @ 0.0198559
+2025-10-12 14:31:16 | INFO | ✅ Stop loss set via position management
+2025-10-12 14:31:16 | INFO | Setting take profit via trading stop: 1000RATSUSDT @ 0.020674699999999997
+2025-10-12 14:31:16 | INFO | ✅ Take profit set via position management
+2025-10-12 14:31:18 | INFO | Setting trailing stop: 1000RATSUSDT @ 1.0% = $0.000205 from $0.02049
+2025-10-12 14:31:18 | INFO | ✅ Trailing stop set: 1.0% ($0.000205)
+2025-10-12 14:31:18 | INFO | ✅ EXECUTED: 1000RATSUSDT BUY 389960.000000 @ $0.02047 (Conf: 95.0%)
+2025-10-12 14:31:18 | INFO | 3. ASTERUSDT - BUY (95.0%) @ $1.3023
+2025-10-12 14:31:19 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-12 14:31:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:31:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:31:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5548', 'timeInForce': 'IOC'}
+2025-10-12 14:31:20 | INFO | ✅ Perpetual order placed: d416a038-73e7-4c8a-ac86-5a7951ee2d50
+2025-10-12 14:31:20 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.263231
+2025-10-12 14:31:20 | INFO | ✅ Stop loss set via position management
+2025-10-12 14:31:20 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.315323
+2025-10-12 14:31:20 | INFO | ✅ Take profit set via position management
+2025-10-12 14:31:22 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.013041 from $1.3041
+2025-10-12 14:31:22 | INFO | ✅ Trailing stop set: 1.0% ($0.013041)
+2025-10-12 14:31:22 | INFO | ✅ EXECUTED: ASTERUSDT BUY 5548.000000 @ $1.3023 (Conf: 95.0%)
+2025-10-12 14:31:23 | INFO | 4. B2USDT - BUY (95.0%) @ $1.245
+2025-10-12 14:31:23 | INFO | 5. CELRUSDT - BUY (95.0%) @ $0.005275
+2025-10-12 14:31:23 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 0 failed
+2025-10-12 14:31:23 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 14:31:23 | INFO |    • 1000RATSUSDT: LONG 389960.000000 @ $0.02047 - SL: $0.0199 TP: $0.0207
+2025-10-12 14:31:23 | INFO |    • ASTERUSDT: LONG 5548.000000 @ $1.3023 - SL: $1.2632 TP: $1.3153
+2025-10-12 14:31:23 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 14:31:23 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 14:31:23 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 14:31:23 | INFO | 🎉 SESSION COMPLETED in 21.9s
+2025-10-12 14:31:23 | INFO | ============================================================
