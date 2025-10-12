@@ -38330,3 +38330,30 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 20:01:28 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 20:01:28 | INFO | 🎉 SESSION COMPLETED in 14.0s
 2025-10-12 20:01:28 | INFO | ============================================================
+2025-10-12 20:16:11 | INFO | ================================================================================
+2025-10-12 20:16:11 | INFO | NEW PERPETUAL SESSION: 2025-10-12 20:16:11
+2025-10-12 20:16:11 | INFO | ================================================================================
+2025-10-12 20:16:11 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 20:16:11 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 20:16:11 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 20:16:11 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 20:16:12 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 20:16:12 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 20:16:22 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 20:16:22 | INFO |  1. BROCCOLIUSDT | BUY  | Price: $  0.0289 | Confidence:  95.0% | Momentum: +17.33%
+2025-10-12 20:16:23 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-12 20:16:23 | INFO | 1. BROCCOLIUSDT - BUY (95.0%) @ $0.02891
+2025-10-12 20:16:24 | INFO | Setting leverage for BROCCOLIUSDT to 1x
+2025-10-12 20:16:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 16:16:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BROCCOLIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 20:16:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BROCCOLIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '274756', 'timeInForce': 'IOC'}
+2025-10-12 20:16:24 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:27475600000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 16:16:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BROCCOLIUSDT", "side": "Buy", "orderType": "Market", "qty": "274756", "timeInForce": "IOC"}.
+2025-10-12 20:16:24 | ERROR | ❌ FAILED: BROCCOLIUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:27475600000000 > max_qty:8000000000000 (ErrCode: 10001) (ErrTime: 16:16:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BROCCOLIUSDT", "side": "Buy", "orderType": "Market", "qty": "274756", "timeInForce": "IOC"}.
+2025-10-12 20:16:25 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 1 failed
+2025-10-12 20:16:25 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 20:16:25 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 20:16:25 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 20:16:25 | INFO | 🎉 SESSION COMPLETED in 14.1s
+2025-10-12 20:16:25 | INFO | ============================================================
