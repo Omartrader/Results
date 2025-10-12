@@ -32957,3 +32957,126 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 07:46:27 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 07:46:27 | INFO | 🎉 SESSION COMPLETED in 21.2s
 2025-10-12 07:46:27 | INFO | ============================================================
+2025-10-12 08:01:04 | INFO | ================================================================================
+2025-10-12 08:01:04 | INFO | NEW PERPETUAL SESSION: 2025-10-12 08:01:04
+2025-10-12 08:01:04 | INFO | ================================================================================
+2025-10-12 08:01:04 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 08:01:04 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 08:01:04 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 08:01:04 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 08:01:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 08:01:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 08:01:24 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 08:01:24 | INFO |  1. DBRUSDT      | BUY  | Price: $  0.0277 | Confidence:  95.0% | Momentum: +5.57%
+2025-10-12 08:01:24 | INFO |  2. ASPUSDT      | BUY  | Price: $  0.0858 | Confidence:  92.5% | Momentum: +4.25%
+2025-10-12 08:01:24 | INFO |  3. AKEUSDT      | BUY  | Price: $  0.0016 | Confidence:  88.9% | Momentum: +3.89%
+2025-10-12 08:01:24 | INFO |  4. LYNUSDT      | BUY  | Price: $  0.1567 | Confidence:  85.0% | Momentum: +3.50%
+2025-10-12 08:01:24 | INFO |  5. NOMUSDT      | SELL | Price: $  0.0184 | Confidence:  83.1% | Momentum: -3.31%
+2025-10-12 08:01:24 | INFO |  6. 1000TAGUSDT  | BUY  | Price: $  0.2141 | Confidence:  77.8% | Momentum: +2.78%
+2025-10-12 08:01:24 | INFO |  7. GRIFFAINUSDT | BUY  | Price: $  0.0211 | Confidence:  76.8% | Momentum: +2.68%
+2025-10-12 08:01:24 | INFO |  8. ORDIUSDT     | BUY  | Price: $  4.9550 | Confidence:  69.1% | Momentum: +1.91%
+2025-10-12 08:01:24 | INFO | 🎯 PROCESSING TOP 8 OPPORTUNITIES:
+2025-10-12 08:01:24 | INFO | 1. DBRUSDT - BUY (95.0%) @ $0.02769
+2025-10-12 08:01:25 | INFO | Setting leverage for DBRUSDT to 1x
+2025-10-12 08:01:26 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:26).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DBRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:26 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DBRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '291990', 'timeInForce': 'IOC'}
+2025-10-12 08:01:26 | INFO | ✅ Perpetual order placed: 5bacfb26-00dc-4770-bdfc-7206eafa1a73
+2025-10-12 08:01:26 | INFO | Setting stop loss via trading stop: DBRUSDT @ 0.0268593
+2025-10-12 08:01:26 | INFO | ✅ Stop loss set via position management
+2025-10-12 08:01:26 | INFO | Setting take profit via trading stop: DBRUSDT @ 0.0279669
+2025-10-12 08:01:26 | INFO | ✅ Take profit set via position management
+2025-10-12 08:01:28 | INFO | Setting trailing stop: DBRUSDT @ 1.0% = $0.000277 from $0.02769
+2025-10-12 08:01:28 | INFO | ✅ Trailing stop set: 1.0% ($0.000277)
+2025-10-12 08:01:28 | INFO | ✅ EXECUTED: DBRUSDT BUY 291990.000000 @ $0.02769 (Conf: 95.0%)
+2025-10-12 08:01:29 | INFO | 2. ASPUSDT - BUY (92.5%) @ $0.0858
+2025-10-12 08:01:30 | INFO | Setting leverage for ASPUSDT to 1x
+2025-10-12 08:01:30 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:30).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:30 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASPUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '85289', 'timeInForce': 'IOC'}
+2025-10-12 08:01:30 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8528900000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 04:01:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Buy", "orderType": "Market", "qty": "85289", "timeInForce": "IOC"}.
+2025-10-12 08:01:30 | ERROR | ❌ FAILED: ASPUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8528900000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 04:01:30).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ASPUSDT", "side": "Buy", "orderType": "Market", "qty": "85289", "timeInForce": "IOC"}.
+2025-10-12 08:01:31 | INFO | 3. AKEUSDT - BUY (88.9%) @ $0.001604
+2025-10-12 08:01:31 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-12 08:01:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '4562200', 'timeInForce': 'IOC'}
+2025-10-12 08:01:32 | INFO | ✅ Perpetual order placed: 12d622e0-71f4-40c3-aa3c-edb95e9ae974
+2025-10-12 08:01:32 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.00155588
+2025-10-12 08:01:32 | INFO | ✅ Stop loss set via position management
+2025-10-12 08:01:32 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00162004
+2025-10-12 08:01:32 | INFO | ✅ Take profit set via position management
+2025-10-12 08:01:34 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000016 from $0.001597
+2025-10-12 08:01:34 | INFO | ✅ Trailing stop set: 1.0% ($0.000016)
+2025-10-12 08:01:34 | INFO | ✅ EXECUTED: AKEUSDT BUY 4562200.000000 @ $0.001604 (Conf: 88.9%)
+2025-10-12 08:01:35 | INFO | 4. LYNUSDT - BUY (85.0%) @ $0.1567
+2025-10-12 08:01:36 | INFO | Setting leverage for LYNUSDT to 1x
+2025-10-12 08:01:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LYNUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LYNUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '42267', 'timeInForce': 'IOC'}
+2025-10-12 08:01:36 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:4226700000000 > max_qty:3120000000000 (ErrCode: 10001) (ErrTime: 04:01:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LYNUSDT", "side": "Buy", "orderType": "Market", "qty": "42267", "timeInForce": "IOC"}.
+2025-10-12 08:01:36 | ERROR | ❌ FAILED: LYNUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:4226700000000 > max_qty:3120000000000 (ErrCode: 10001) (ErrTime: 04:01:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "LYNUSDT", "side": "Buy", "orderType": "Market", "qty": "42267", "timeInForce": "IOC"}.
+2025-10-12 08:01:37 | INFO | 5. NOMUSDT - SELL (83.1%) @ $0.01843
+2025-10-12 08:01:38 | INFO | Setting leverage for NOMUSDT to 1x
+2025-10-12 08:01:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NOMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NOMUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '359380', 'timeInForce': 'IOC'}
+2025-10-12 08:01:39 | INFO | ✅ Perpetual order placed: ae67c3a7-55ea-4d95-a8df-bd0ef59cd8e4
+2025-10-12 08:01:39 | INFO | Setting stop loss via trading stop: NOMUSDT @ 0.0189829
+2025-10-12 08:01:39 | INFO | ✅ Stop loss set via position management
+2025-10-12 08:01:39 | INFO | Setting take profit via trading stop: NOMUSDT @ 0.018245699999999997
+2025-10-12 08:01:39 | INFO | ✅ Take profit set via position management
+2025-10-12 08:01:41 | INFO | Setting trailing stop: NOMUSDT @ 1.0% = $0.000184 from $0.01843
+2025-10-12 08:01:41 | INFO | ✅ Trailing stop set: 1.0% ($0.000184)
+2025-10-12 08:01:41 | INFO | ✅ EXECUTED: NOMUSDT SELL 359380.000000 @ $0.01843 (Conf: 83.1%)
+2025-10-12 08:01:42 | INFO | 6. 1000TAGUSDT - BUY (77.8%) @ $0.2141
+2025-10-12 08:01:42 | INFO | Setting leverage for 1000TAGUSDT to 1x
+2025-10-12 08:01:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000TAGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000TAGUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '25750', 'timeInForce': 'IOC'}
+2025-10-12 08:01:43 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2575000000000 > max_qty:515000000000 (ErrCode: 10001) (ErrTime: 04:01:43).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000TAGUSDT", "side": "Buy", "orderType": "Market", "qty": "25750", "timeInForce": "IOC"}.
+2025-10-12 08:01:43 | ERROR | ❌ FAILED: 1000TAGUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2575000000000 > max_qty:515000000000 (ErrCode: 10001) (ErrTime: 04:01:43).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "1000TAGUSDT", "side": "Buy", "orderType": "Market", "qty": "25750", "timeInForce": "IOC"}.
+2025-10-12 08:01:43 | INFO | 7. GRIFFAINUSDT - BUY (76.8%) @ $0.02111
+2025-10-12 08:01:44 | INFO | Setting leverage for GRIFFAINUSDT to 1x
+2025-10-12 08:01:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GRIFFAINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GRIFFAINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '283975', 'timeInForce': 'IOC'}
+2025-10-12 08:01:45 | INFO | ✅ Perpetual order placed: 3fe410d2-d65b-4738-9572-0658cedba36d
+2025-10-12 08:01:45 | INFO | Setting stop loss via trading stop: GRIFFAINUSDT @ 0.0204767
+2025-10-12 08:01:45 | INFO | ✅ Stop loss set via position management
+2025-10-12 08:01:46 | INFO | Setting take profit via trading stop: GRIFFAINUSDT @ 0.0213211
+2025-10-12 08:01:46 | INFO | ✅ Take profit set via position management
+2025-10-12 08:01:47 | INFO | Setting trailing stop: GRIFFAINUSDT @ 1.0% = $0.000211 from $0.02111
+2025-10-12 08:01:48 | INFO | ✅ Trailing stop set: 1.0% ($0.000211)
+2025-10-12 08:01:48 | INFO | ✅ EXECUTED: GRIFFAINUSDT BUY 283975.000000 @ $0.02111 (Conf: 76.8%)
+2025-10-12 08:01:48 | INFO | 8. ORDIUSDT - BUY (69.1%) @ $4.955
+2025-10-12 08:01:49 | INFO | Setting leverage for ORDIUSDT to 1x
+2025-10-12 08:01:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 04:01:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ORDIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 08:01:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ORDIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1095.01', 'timeInForce': 'IOC'}
+2025-10-12 08:01:50 | INFO | ✅ Perpetual order placed: 14e689eb-23b6-4410-a51e-7334a8235222
+2025-10-12 08:01:50 | INFO | Setting stop loss via trading stop: ORDIUSDT @ 4.80635
+2025-10-12 08:01:50 | INFO | ✅ Stop loss set via position management
+2025-10-12 08:01:51 | INFO | Setting take profit via trading stop: ORDIUSDT @ 5.00455
+2025-10-12 08:01:51 | INFO | ✅ Take profit set via position management
+2025-10-12 08:01:52 | INFO | Setting trailing stop: ORDIUSDT @ 1.0% = $0.049580 from $4.958
+2025-10-12 08:01:52 | INFO | ✅ Trailing stop set: 1.0% ($0.049580)
+2025-10-12 08:01:52 | INFO | ✅ EXECUTED: ORDIUSDT BUY 1095.010000 @ $4.955 (Conf: 69.1%)
+2025-10-12 08:01:53 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 3 failed
+2025-10-12 08:01:53 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 08:01:53 | INFO |    • DBRUSDT: LONG 291990.000000 @ $0.02769 - SL: $0.0269 TP: $0.0280
+2025-10-12 08:01:53 | INFO |    • AKEUSDT: LONG 4562200.000000 @ $0.001604 - SL: $0.0016 TP: $0.0016
+2025-10-12 08:01:53 | INFO |    • NOMUSDT: SHORT 359380.000000 @ $0.01843 - SL: $0.0190 TP: $0.0182
+2025-10-12 08:01:53 | INFO |    • GRIFFAINUSDT: LONG 283975.000000 @ $0.02111 - SL: $0.0205 TP: $0.0213
+2025-10-12 08:01:53 | INFO |    • ORDIUSDT: LONG 1095.010000 @ $4.955 - SL: $4.8064 TP: $5.0046
+2025-10-12 08:01:53 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 08:01:53 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 08:01:53 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 08:01:53 | INFO | 🎉 SESSION COMPLETED in 49.2s
+2025-10-12 08:01:53 | INFO | ============================================================
