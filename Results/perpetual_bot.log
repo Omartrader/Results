@@ -38682,3 +38682,30 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 22:46:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 22:46:59 | INFO | 🎉 SESSION COMPLETED in 31.3s
 2025-10-12 22:46:59 | INFO | ============================================================
+2025-10-12 23:01:10 | INFO | ================================================================================
+2025-10-12 23:01:10 | INFO | NEW PERPETUAL SESSION: 2025-10-12 23:01:10
+2025-10-12 23:01:10 | INFO | ================================================================================
+2025-10-12 23:01:10 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 23:01:10 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 23:01:10 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 23:01:10 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 23:01:12 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 23:01:12 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 23:01:22 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 23:01:22 | INFO |  1. ALCHUSDT     | BUY  | Price: $  0.0688 | Confidence:  72.1% | Momentum: +2.21%
+2025-10-12 23:01:22 | INFO | 🎯 PROCESSING TOP 1 OPPORTUNITIES:
+2025-10-12 23:01:22 | INFO | 1. ALCHUSDT - BUY (72.1%) @ $0.06879
+2025-10-12 23:01:23 | INFO | Setting leverage for ALCHUSDT to 1x
+2025-10-12 23:01:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:01:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:01:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '115290', 'timeInForce': 'IOC'}
+2025-10-12 23:01:24 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:11529000000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 19:01:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALCHUSDT", "side": "Buy", "orderType": "Market", "qty": "115290", "timeInForce": "IOC"}.
+2025-10-12 23:01:24 | ERROR | ❌ FAILED: ALCHUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:11529000000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 19:01:24).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALCHUSDT", "side": "Buy", "orderType": "Market", "qty": "115290", "timeInForce": "IOC"}.
+2025-10-12 23:01:24 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 1 failed
+2025-10-12 23:01:24 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 23:01:24 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 23:01:24 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 23:01:24 | INFO | 🎉 SESSION COMPLETED in 13.6s
+2025-10-12 23:01:24 | INFO | ============================================================
