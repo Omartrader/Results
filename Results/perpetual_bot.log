@@ -38821,3 +38821,88 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 23:31:22 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 23:31:22 | INFO | 🎉 SESSION COMPLETED in 18.1s
 2025-10-12 23:31:22 | INFO | ============================================================
+2025-10-12 23:46:02 | INFO | ================================================================================
+2025-10-12 23:46:02 | INFO | NEW PERPETUAL SESSION: 2025-10-12 23:46:02
+2025-10-12 23:46:02 | INFO | ================================================================================
+2025-10-12 23:46:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 23:46:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 23:46:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 23:46:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 23:46:04 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 23:46:04 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 23:46:17 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 23:46:17 | INFO |  1. 10000WENUSDT | BUY  | Price: $  0.2957 | Confidence:  95.0% | Momentum: +8.28%
+2025-10-12 23:46:17 | INFO |  2. ASTERUSDT    | BUY  | Price: $  1.5028 | Confidence:  95.0% | Momentum: +15.86%
+2025-10-12 23:46:17 | INFO |  3. MORPHOUSDT   | BUY  | Price: $  1.9881 | Confidence:  95.0% | Momentum: +11.72%
+2025-10-12 23:46:17 | INFO |  4. BOBAUSDT     | BUY  | Price: $  0.0743 | Confidence:  89.9% | Momentum: +3.99%
+2025-10-12 23:46:17 | INFO |  5. BTRUSDT      | BUY  | Price: $  0.0572 | Confidence:  73.8% | Momentum: +2.38%
+2025-10-12 23:46:17 | INFO |  6. ALCHUSDT     | BUY  | Price: $  0.0688 | Confidence:  72.4% | Momentum: +2.24%
+2025-10-12 23:46:17 | INFO | 🎯 PROCESSING TOP 6 OPPORTUNITIES:
+2025-10-12 23:46:17 | INFO | 1. 10000WENUSDT - BUY (95.0%) @ $0.2957
+2025-10-12 23:46:18 | INFO | Setting leverage for 10000WENUSDT to 1x
+2025-10-12 23:46:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000WENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:46:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000WENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23300', 'timeInForce': 'IOC'}
+2025-10-12 23:46:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2330000000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 19:46:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23300", "timeInForce": "IOC"}.
+2025-10-12 23:46:19 | ERROR | ❌ FAILED: 10000WENUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2330000000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 19:46:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23300", "timeInForce": "IOC"}.
+2025-10-12 23:46:19 | INFO | 2. ASTERUSDT - BUY (95.0%) @ $1.5028
+2025-10-12 23:46:20 | INFO | Setting leverage for ASTERUSDT to 1x
+2025-10-12 23:46:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ASTERUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:46:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ASTERUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5274', 'timeInForce': 'IOC'}
+2025-10-12 23:46:21 | INFO | ✅ Perpetual order placed: 1fc6b315-399d-4b30-b9b5-edd25045ff98
+2025-10-12 23:46:21 | INFO | Setting stop loss via trading stop: ASTERUSDT @ 1.4577159999999998
+2025-10-12 23:46:21 | INFO | ✅ Stop loss set via position management
+2025-10-12 23:46:21 | INFO | Setting take profit via trading stop: ASTERUSDT @ 1.517828
+2025-10-12 23:46:21 | INFO | ✅ Take profit set via position management
+2025-10-12 23:46:23 | INFO | Setting trailing stop: ASTERUSDT @ 1.0% = $0.014995 from $1.4995
+2025-10-12 23:46:23 | INFO | ✅ Trailing stop set: 1.0% ($0.014995)
+2025-10-12 23:46:23 | INFO | ✅ EXECUTED: ASTERUSDT BUY 5274.000000 @ $1.5028 (Conf: 95.0%)
+2025-10-12 23:46:24 | INFO | 3. MORPHOUSDT - BUY (95.0%) @ $1.9881
+2025-10-12 23:46:24 | INFO | 4. BOBAUSDT - BUY (89.9%) @ $0.07429
+2025-10-12 23:46:25 | INFO | Setting leverage for BOBAUSDT to 1x
+2025-10-12 23:46:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BOBAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:46:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BOBAUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '91460.0', 'timeInForce': 'IOC'}
+2025-10-12 23:46:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:9146000000000 > max_qty:915000000000 (ErrCode: 10001) (ErrTime: 19:46:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BOBAUSDT", "side": "Buy", "orderType": "Market", "qty": "91460.0", "timeInForce": "IOC"}.
+2025-10-12 23:46:25 | ERROR | ❌ FAILED: BOBAUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:9146000000000 > max_qty:915000000000 (ErrCode: 10001) (ErrTime: 19:46:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BOBAUSDT", "side": "Buy", "orderType": "Market", "qty": "91460.0", "timeInForce": "IOC"}.
+2025-10-12 23:46:26 | INFO | 5. BTRUSDT - BUY (73.8%) @ $0.05717
+2025-10-12 23:46:27 | INFO | Setting leverage for BTRUSDT to 1x
+2025-10-12 23:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BTRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BTRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '125465', 'timeInForce': 'IOC'}
+2025-10-12 23:46:27 | INFO | ✅ Perpetual order placed: 1d8410d7-946b-453c-96ff-ef26665fc97b
+2025-10-12 23:46:27 | INFO | Setting stop loss via trading stop: BTRUSDT @ 0.055454899999999994
+2025-10-12 23:46:27 | INFO | ✅ Stop loss set via position management
+2025-10-12 23:46:28 | INFO | Setting take profit via trading stop: BTRUSDT @ 0.0577417
+2025-10-12 23:46:28 | INFO | ✅ Take profit set via position management
+2025-10-12 23:46:29 | INFO | Setting trailing stop: BTRUSDT @ 1.0% = $0.000572 from $0.05719
+2025-10-12 23:46:29 | INFO | ✅ Trailing stop set: 1.0% ($0.000572)
+2025-10-12 23:46:29 | INFO | ✅ EXECUTED: BTRUSDT BUY 125465.000000 @ $0.05717 (Conf: 73.8%)
+2025-10-12 23:46:30 | INFO | 6. ALCHUSDT - BUY (72.4%) @ $0.06881
+2025-10-12 23:46:31 | INFO | Setting leverage for ALCHUSDT to 1x
+2025-10-12 23:46:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:46:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:46:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '94348', 'timeInForce': 'IOC'}
+2025-10-12 23:46:31 | INFO | ✅ Perpetual order placed: 7ce9543f-b446-4217-92cc-5081afd930da
+2025-10-12 23:46:32 | INFO | Setting stop loss via trading stop: ALCHUSDT @ 0.06674569999999999
+2025-10-12 23:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-12 23:46:32 | INFO | Setting take profit via trading stop: ALCHUSDT @ 0.0694981
+2025-10-12 23:46:32 | INFO | ✅ Take profit set via position management
+2025-10-12 23:46:34 | INFO | Setting trailing stop: ALCHUSDT @ 1.0% = $0.000688 from $0.06881
+2025-10-12 23:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.000688)
+2025-10-12 23:46:34 | INFO | ✅ EXECUTED: ALCHUSDT BUY 94348.000000 @ $0.06881 (Conf: 72.4%)
+2025-10-12 23:46:34 | INFO | 📊 EXECUTION SUMMARY: 3 successful, 2 failed
+2025-10-12 23:46:34 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 23:46:34 | INFO |    • ASTERUSDT: LONG 5274.000000 @ $1.5028 - SL: $1.4577 TP: $1.5178
+2025-10-12 23:46:34 | INFO |    • BTRUSDT: LONG 125465.000000 @ $0.05717 - SL: $0.0555 TP: $0.0577
+2025-10-12 23:46:34 | INFO |    • ALCHUSDT: LONG 94348.000000 @ $0.06881 - SL: $0.0667 TP: $0.0695
+2025-10-12 23:46:34 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 23:46:35 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 23:46:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 23:46:35 | INFO | 🎉 SESSION COMPLETED in 32.2s
+2025-10-12 23:46:35 | INFO | ============================================================
