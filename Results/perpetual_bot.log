@@ -32606,3 +32606,131 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 06:47:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 06:47:00 | INFO | 🎉 SESSION COMPLETED in 54.2s
 2025-10-12 06:47:00 | INFO | ============================================================
+2025-10-12 07:01:02 | INFO | ================================================================================
+2025-10-12 07:01:02 | INFO | NEW PERPETUAL SESSION: 2025-10-12 07:01:02
+2025-10-12 07:01:02 | INFO | ================================================================================
+2025-10-12 07:01:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 07:01:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 07:01:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 07:01:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 07:01:03 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 07:01:03 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 07:01:15 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 07:01:15 | INFO |  1. FUSDT        | SELL | Price: $  0.0078 | Confidence:  95.0% | Momentum: -6.05%
+2025-10-12 07:01:15 | INFO |  2. HEIUSDT      | SELL | Price: $  0.1807 | Confidence:  95.0% | Momentum: -5.09%
+2025-10-12 07:01:15 | INFO |  3. KGENUSDT     | SELL | Price: $  0.1692 | Confidence:  95.0% | Momentum: -5.42%
+2025-10-12 07:01:15 | INFO |  4. NOMUSDT      | SELL | Price: $  0.0183 | Confidence:  95.0% | Momentum: -6.38%
+2025-10-12 07:01:15 | INFO |  5. HYPEUSDT     | SELL | Price: $ 36.5080 | Confidence:  85.3% | Momentum: -3.53%
+2025-10-12 07:01:15 | INFO |  6. ORDIUSDT     | SELL | Price: $  4.8880 | Confidence:  84.2% | Momentum: -3.42%
+2025-10-12 07:01:15 | INFO |  7. MOCAUSDT     | SELL | Price: $  0.0534 | Confidence:  75.9% | Momentum: -2.59%
+2025-10-12 07:01:15 | INFO |  8. AKEUSDT      | SELL | Price: $  0.0015 | Confidence:  75.5% | Momentum: -2.55%
+2025-10-12 07:01:15 | INFO | 🎯 PROCESSING TOP 8 OPPORTUNITIES:
+2025-10-12 07:01:15 | INFO | 1. FUSDT - SELL (95.0%) @ $0.00776
+2025-10-12 07:01:16 | INFO | Setting leverage for FUSDT to 1x
+2025-10-12 07:01:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '700000', 'timeInForce': 'IOC'}
+2025-10-12 07:01:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:70000000000000 > max_qty:14000000000000 (ErrCode: 10001) (ErrTime: 03:01:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FUSDT", "side": "Sell", "orderType": "Market", "qty": "700000", "timeInForce": "IOC"}.
+2025-10-12 07:01:17 | ERROR | ❌ FAILED: FUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:70000000000000 > max_qty:14000000000000 (ErrCode: 10001) (ErrTime: 03:01:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FUSDT", "side": "Sell", "orderType": "Market", "qty": "700000", "timeInForce": "IOC"}.
+2025-10-12 07:01:17 | INFO | 2. HEIUSDT - SELL (95.0%) @ $0.1807
+2025-10-12 07:01:18 | INFO | Setting leverage for HEIUSDT to 1x
+2025-10-12 07:01:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HEIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HEIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '45132.5', 'timeInForce': 'IOC'}
+2025-10-12 07:01:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:4513250000000 > max_qty:3300000000000 (ErrCode: 10001) (ErrTime: 03:01:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HEIUSDT", "side": "Sell", "orderType": "Market", "qty": "45132.5", "timeInForce": "IOC"}.
+2025-10-12 07:01:19 | ERROR | ❌ FAILED: HEIUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:4513250000000 > max_qty:3300000000000 (ErrCode: 10001) (ErrTime: 03:01:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HEIUSDT", "side": "Sell", "orderType": "Market", "qty": "45132.5", "timeInForce": "IOC"}.
+2025-10-12 07:01:19 | INFO | 3. KGENUSDT - SELL (95.0%) @ $0.1692
+2025-10-12 07:01:20 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-12 07:01:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '48200', 'timeInForce': 'IOC'}
+2025-10-12 07:01:21 | INFO | ✅ Perpetual order placed: 23bdb95c-aafd-44e0-83b7-c990ea6b75e5
+2025-10-12 07:01:21 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.174276
+2025-10-12 07:01:21 | INFO | ✅ Stop loss set via position management
+2025-10-12 07:01:21 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.167508
+2025-10-12 07:01:21 | INFO | ✅ Take profit set via position management
+2025-10-12 07:01:23 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.001692 from $0.1692
+2025-10-12 07:01:23 | INFO | ✅ Trailing stop set: 1.0% ($0.001692)
+2025-10-12 07:01:23 | INFO | ✅ EXECUTED: KGENUSDT SELL 48200.000000 @ $0.1692 (Conf: 95.0%)
+2025-10-12 07:01:24 | INFO | 4. NOMUSDT - SELL (95.0%) @ $0.01833
+2025-10-12 07:01:24 | INFO | Setting leverage for NOMUSDT to 1x
+2025-10-12 07:01:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NOMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NOMUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '402700', 'timeInForce': 'IOC'}
+2025-10-12 07:01:25 | INFO | ✅ Perpetual order placed: ed2bf14c-796e-423a-a649-eba1a73d70c8
+2025-10-12 07:01:25 | INFO | Setting stop loss via trading stop: NOMUSDT @ 0.018879899999999998
+2025-10-12 07:01:25 | INFO | ✅ Stop loss set via position management
+2025-10-12 07:01:26 | INFO | Setting take profit via trading stop: NOMUSDT @ 0.018146699999999998
+2025-10-12 07:01:26 | INFO | ✅ Take profit set via position management
+2025-10-12 07:01:27 | INFO | Setting trailing stop: NOMUSDT @ 1.0% = $0.000183 from $0.01831
+2025-10-12 07:01:27 | INFO | ✅ Trailing stop set: 1.0% ($0.000183)
+2025-10-12 07:01:27 | INFO | ✅ EXECUTED: NOMUSDT SELL 402700.000000 @ $0.01833 (Conf: 95.0%)
+2025-10-12 07:01:28 | INFO | 5. HYPEUSDT - SELL (85.3%) @ $36.508
+2025-10-12 07:01:29 | INFO | Setting leverage for HYPEUSDT to 1x
+2025-10-12 07:01:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HYPEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HYPEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '183.0', 'timeInForce': 'IOC'}
+2025-10-12 07:01:29 | INFO | ✅ Perpetual order placed: 296dcb8f-8b74-44e9-be52-e229063c1951
+2025-10-12 07:01:30 | INFO | Setting stop loss via trading stop: HYPEUSDT @ 37.60324000000001
+2025-10-12 07:01:30 | INFO | ✅ Stop loss set via position management
+2025-10-12 07:01:30 | INFO | Setting take profit via trading stop: HYPEUSDT @ 36.142920000000004
+2025-10-12 07:01:30 | INFO | ✅ Take profit set via position management
+2025-10-12 07:01:32 | INFO | Setting trailing stop: HYPEUSDT @ 1.0% = $0.364650 from $36.465
+2025-10-12 07:01:32 | INFO | ✅ Trailing stop set: 1.0% ($0.364650)
+2025-10-12 07:01:32 | INFO | ✅ EXECUTED: HYPEUSDT SELL 183.000000 @ $36.508 (Conf: 85.3%)
+2025-10-12 07:01:32 | INFO | 6. ORDIUSDT - SELL (84.2%) @ $4.888
+2025-10-12 07:01:33 | INFO | Setting leverage for ORDIUSDT to 1x
+2025-10-12 07:01:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ORDIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ORDIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '1237.08', 'timeInForce': 'IOC'}
+2025-10-12 07:01:34 | INFO | ✅ Perpetual order placed: f7b6a016-6be7-44b5-8158-d862dea9395e
+2025-10-12 07:01:34 | INFO | Setting stop loss via trading stop: ORDIUSDT @ 5.0346400000000004
+2025-10-12 07:01:34 | INFO | ✅ Stop loss set via position management
+2025-10-12 07:01:34 | INFO | Setting take profit via trading stop: ORDIUSDT @ 4.839119999999999
+2025-10-12 07:01:34 | INFO | ✅ Take profit set via position management
+2025-10-12 07:01:36 | INFO | Setting trailing stop: ORDIUSDT @ 1.0% = $0.048910 from $4.891
+2025-10-12 07:01:36 | INFO | ✅ Trailing stop set: 1.0% ($0.048910)
+2025-10-12 07:01:36 | INFO | ✅ EXECUTED: ORDIUSDT SELL 1237.080000 @ $4.888 (Conf: 84.2%)
+2025-10-12 07:01:37 | INFO | 7. MOCAUSDT - SELL (75.9%) @ $0.05342
+2025-10-12 07:01:38 | INFO | Setting leverage for MOCAUSDT to 1x
+2025-10-12 07:01:38 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:38).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MOCAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MOCAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '102452', 'timeInForce': 'IOC'}
+2025-10-12 07:01:38 | INFO | ✅ Perpetual order placed: 862523be-9b57-4e42-90ec-07e522678036
+2025-10-12 07:01:39 | INFO | Setting stop loss via trading stop: MOCAUSDT @ 0.055022600000000005
+2025-10-12 07:01:39 | INFO | ✅ Stop loss set via position management
+2025-10-12 07:01:39 | INFO | Setting take profit via trading stop: MOCAUSDT @ 0.052885800000000004
+2025-10-12 07:01:39 | INFO | ✅ Take profit set via position management
+2025-10-12 07:01:41 | INFO | Setting trailing stop: MOCAUSDT @ 1.0% = $0.000534 from $0.05341
+2025-10-12 07:01:41 | INFO | ✅ Trailing stop set: 1.0% ($0.000534)
+2025-10-12 07:01:41 | INFO | ✅ EXECUTED: MOCAUSDT SELL 102452.000000 @ $0.05342 (Conf: 75.9%)
+2025-10-12 07:01:41 | INFO | 8. AKEUSDT - SELL (75.5%) @ $0.001531
+2025-10-12 07:01:42 | INFO | Setting leverage for AKEUSDT to 1x
+2025-10-12 07:01:42 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 03:01:42).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AKEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 07:01:42 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AKEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3235500', 'timeInForce': 'IOC'}
+2025-10-12 07:01:43 | INFO | ✅ Perpetual order placed: 890d9cf5-1cb0-44b5-bd6b-8090f581d6b0
+2025-10-12 07:01:43 | INFO | Setting stop loss via trading stop: AKEUSDT @ 0.00157693
+2025-10-12 07:01:43 | INFO | ✅ Stop loss set via position management
+2025-10-12 07:01:43 | INFO | Setting take profit via trading stop: AKEUSDT @ 0.00151569
+2025-10-12 07:01:43 | INFO | ✅ Take profit set via position management
+2025-10-12 07:01:45 | INFO | Setting trailing stop: AKEUSDT @ 1.0% = $0.000015 from $0.001536
+2025-10-12 07:01:45 | INFO | ✅ Trailing stop set: 1.0% ($0.000015)
+2025-10-12 07:01:45 | INFO | ✅ EXECUTED: AKEUSDT SELL 3235500.000000 @ $0.001531 (Conf: 75.5%)
+2025-10-12 07:01:46 | INFO | 📊 EXECUTION SUMMARY: 6 successful, 2 failed
+2025-10-12 07:01:46 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 07:01:46 | INFO |    • KGENUSDT: SHORT 48200.000000 @ $0.1692 - SL: $0.1743 TP: $0.1675
+2025-10-12 07:01:46 | INFO |    • NOMUSDT: SHORT 402700.000000 @ $0.01833 - SL: $0.0189 TP: $0.0181
+2025-10-12 07:01:46 | INFO |    • HYPEUSDT: SHORT 183.000000 @ $36.508 - SL: $37.6032 TP: $36.1429
+2025-10-12 07:01:46 | INFO |    • ORDIUSDT: SHORT 1237.080000 @ $4.888 - SL: $5.0346 TP: $4.8391
+2025-10-12 07:01:46 | INFO |    • MOCAUSDT: SHORT 102452.000000 @ $0.05342 - SL: $0.0550 TP: $0.0529
+2025-10-12 07:01:46 | INFO |    • AKEUSDT: SHORT 3235500.000000 @ $0.001531 - SL: $0.0016 TP: $0.0015
+2025-10-12 07:01:46 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 07:01:46 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 07:01:46 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 07:01:46 | INFO | 🎉 SESSION COMPLETED in 43.7s
+2025-10-12 07:01:46 | INFO | ============================================================
