@@ -32443,3 +32443,166 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 06:31:29 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 06:31:29 | INFO | 🎉 SESSION COMPLETED in 26.9s
 2025-10-12 06:31:29 | INFO | ============================================================
+2025-10-12 06:46:05 | INFO | ================================================================================
+2025-10-12 06:46:05 | INFO | NEW PERPETUAL SESSION: 2025-10-12 06:46:05
+2025-10-12 06:46:05 | INFO | ================================================================================
+2025-10-12 06:46:05 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 06:46:05 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 06:46:05 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 06:46:05 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 06:46:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 06:46:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 06:46:17 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 06:46:17 | INFO |  1. 0GUSDT       | SELL | Price: $  2.1326 | Confidence:  95.0% | Momentum: -5.79%
+2025-10-12 06:46:17 | INFO |  2. BMTUSDT      | SELL | Price: $  0.0401 | Confidence:  95.0% | Momentum: -5.73%
+2025-10-12 06:46:17 | INFO |  3. CHILLGUYUSDT | SELL | Price: $  0.0255 | Confidence:  95.0% | Momentum: -5.57%
+2025-10-12 06:46:17 | INFO |  4. CROSSUSDT    | SELL | Price: $  0.1336 | Confidence:  95.0% | Momentum: -6.65%
+2025-10-12 06:46:17 | INFO |  5. MEMEUSDT     | SELL | Price: $  0.0016 | Confidence:  95.0% | Momentum: -5.05%
+2025-10-12 06:46:17 | INFO |  6. NFPUSDT      | SELL | Price: $  0.0422 | Confidence:  95.0% | Momentum: -6.87%
+2025-10-12 06:46:17 | INFO |  7. OLUSDT       | SELL | Price: $  0.0201 | Confidence:  95.0% | Momentum: -7.75%
+2025-10-12 06:46:17 | INFO |  8. PARTIUSDT    | SELL | Price: $  0.0822 | Confidence:  95.0% | Momentum: -5.52%
+2025-10-12 06:46:17 | INFO |  9. PTBUSDT      | BUY  | Price: $  0.0644 | Confidence:  95.0% | Momentum: +14.31%
+2025-10-12 06:46:17 | INFO | 10. EGLDUSDT     | SELL | Price: $  9.5100 | Confidence:  83.5% | Momentum: -3.35%
+2025-10-12 06:46:17 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 06:46:17 | INFO | 1. 0GUSDT - SELL (95.0%) @ $2.1326
+2025-10-12 06:46:18 | INFO | Setting leverage for 0GUSDT to 1x
+2025-10-12 06:46:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "0GUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '0GUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3815.3', 'timeInForce': 'IOC'}
+2025-10-12 06:46:19 | INFO | ✅ Perpetual order placed: c0f6210c-3fe1-4e2a-a33e-6e3c677a885b
+2025-10-12 06:46:19 | INFO | Setting stop loss via trading stop: 0GUSDT @ 2.196578
+2025-10-12 06:46:19 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:19 | INFO | Setting take profit via trading stop: 0GUSDT @ 2.111274
+2025-10-12 06:46:19 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:21 | INFO | Setting trailing stop: 0GUSDT @ 1.0% = $0.021341 from $2.1341
+2025-10-12 06:46:21 | INFO | ✅ Trailing stop set: 1.0% ($0.021341)
+2025-10-12 06:46:21 | INFO | ✅ EXECUTED: 0GUSDT SELL 3815.300000 @ $2.1326 (Conf: 95.0%)
+2025-10-12 06:46:22 | INFO | 2. BMTUSDT - SELL (95.0%) @ $0.04012
+2025-10-12 06:46:22 | INFO | Setting leverage for BMTUSDT to 1x
+2025-10-12 06:46:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BMTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BMTUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '183556', 'timeInForce': 'IOC'}
+2025-10-12 06:46:23 | INFO | ✅ Perpetual order placed: bc495e44-289d-406c-ab34-cf9c1f1b50e8
+2025-10-12 06:46:23 | INFO | Setting stop loss via trading stop: BMTUSDT @ 0.0413236
+2025-10-12 06:46:23 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:24 | INFO | Setting take profit via trading stop: BMTUSDT @ 0.039718800000000005
+2025-10-12 06:46:24 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:25 | INFO | Setting trailing stop: BMTUSDT @ 1.0% = $0.000401 from $0.04012
+2025-10-12 06:46:25 | INFO | ✅ Trailing stop set: 1.0% ($0.000401)
+2025-10-12 06:46:25 | INFO | ✅ EXECUTED: BMTUSDT SELL 183556.000000 @ $0.04012 (Conf: 95.0%)
+2025-10-12 06:46:26 | INFO | 3. CHILLGUYUSDT - SELL (95.0%) @ $0.025501
+2025-10-12 06:46:27 | INFO | Setting leverage for CHILLGUYUSDT to 1x
+2025-10-12 06:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CHILLGUYUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CHILLGUYUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '261376', 'timeInForce': 'IOC'}
+2025-10-12 06:46:28 | INFO | ✅ Perpetual order placed: d0bf5a17-f3b8-4b1f-b4b4-99da2b089f9d
+2025-10-12 06:46:28 | INFO | Setting stop loss via trading stop: CHILLGUYUSDT @ 0.02626603
+2025-10-12 06:46:28 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:28 | INFO | Setting take profit via trading stop: CHILLGUYUSDT @ 0.02524599
+2025-10-12 06:46:28 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:30 | INFO | Setting trailing stop: CHILLGUYUSDT @ 1.0% = $0.000255 from $0.025522
+2025-10-12 06:46:30 | INFO | ✅ Trailing stop set: 1.0% ($0.000255)
+2025-10-12 06:46:30 | INFO | ✅ EXECUTED: CHILLGUYUSDT SELL 261376.000000 @ $0.025501 (Conf: 95.0%)
+2025-10-12 06:46:30 | INFO | 4. CROSSUSDT - SELL (95.0%) @ $0.13356
+2025-10-12 06:46:31 | INFO | Setting leverage for CROSSUSDT to 1x
+2025-10-12 06:46:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CROSSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CROSSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '45169', 'timeInForce': 'IOC'}
+2025-10-12 06:46:32 | INFO | ✅ Perpetual order placed: c27d0b6a-1b80-43a0-aa3f-bc9fd44cfe56
+2025-10-12 06:46:32 | INFO | Setting stop loss via trading stop: CROSSUSDT @ 0.13756680000000002
+2025-10-12 06:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:32 | INFO | Setting take profit via trading stop: CROSSUSDT @ 0.13222440000000002
+2025-10-12 06:46:32 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:34 | INFO | Setting trailing stop: CROSSUSDT @ 1.0% = $0.001336 from $0.13361
+2025-10-12 06:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.001336)
+2025-10-12 06:46:34 | INFO | ✅ EXECUTED: CROSSUSDT SELL 45169.000000 @ $0.13356 (Conf: 95.0%)
+2025-10-12 06:46:35 | INFO | 5. MEMEUSDT - SELL (95.0%) @ $0.001599
+2025-10-12 06:46:36 | INFO | Setting leverage for MEMEUSDT to 1x
+2025-10-12 06:46:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MEMEUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MEMEUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '3414780', 'timeInForce': 'IOC'}
+2025-10-12 06:46:36 | INFO | ✅ Perpetual order placed: 63d98893-99f7-4a10-848d-2cd0916868ac
+2025-10-12 06:46:37 | INFO | Setting stop loss via trading stop: MEMEUSDT @ 0.00164697
+2025-10-12 06:46:37 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:37 | INFO | Setting take profit via trading stop: MEMEUSDT @ 0.00158301
+2025-10-12 06:46:37 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:39 | INFO | Setting trailing stop: MEMEUSDT @ 1.0% = $0.000016 from $0.001602
+2025-10-12 06:46:39 | INFO | ✅ Trailing stop set: 1.0% ($0.000016)
+2025-10-12 06:46:39 | INFO | ✅ EXECUTED: MEMEUSDT SELL 3414780.000000 @ $0.001599 (Conf: 95.0%)
+2025-10-12 06:46:39 | INFO | 6. NFPUSDT - SELL (95.0%) @ $0.04217
+2025-10-12 06:46:40 | INFO | Setting leverage for NFPUSDT to 1x
+2025-10-12 06:46:40 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:40).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "NFPUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:40 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'NFPUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '117193.0', 'timeInForce': 'IOC'}
+2025-10-12 06:46:41 | INFO | ✅ Perpetual order placed: c62bb5be-83fb-4242-a7b6-0e9a56dd2edf
+2025-10-12 06:46:41 | INFO | Setting stop loss via trading stop: NFPUSDT @ 0.0434351
+2025-10-12 06:46:41 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:41 | INFO | Setting take profit via trading stop: NFPUSDT @ 0.0417483
+2025-10-12 06:46:41 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:43 | INFO | Setting trailing stop: NFPUSDT @ 1.0% = $0.000422 from $0.04218
+2025-10-12 06:46:43 | INFO | ✅ Trailing stop set: 1.0% ($0.000422)
+2025-10-12 06:46:43 | INFO | ✅ EXECUTED: NFPUSDT SELL 117193.000000 @ $0.04217 (Conf: 95.0%)
+2025-10-12 06:46:44 | INFO | 7. OLUSDT - SELL (95.0%) @ $0.02011
+2025-10-12 06:46:44 | INFO | Setting leverage for OLUSDT to 1x
+2025-10-12 06:46:45 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:45).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OLUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:45 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OLUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '222427', 'timeInForce': 'IOC'}
+2025-10-12 06:46:45 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:22242700000000 > max_qty:14000000000000 (ErrCode: 10001) (ErrTime: 02:46:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "OLUSDT", "side": "Sell", "orderType": "Market", "qty": "222427", "timeInForce": "IOC"}.
+2025-10-12 06:46:45 | ERROR | ❌ FAILED: OLUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:22242700000000 > max_qty:14000000000000 (ErrCode: 10001) (ErrTime: 02:46:45).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "OLUSDT", "side": "Sell", "orderType": "Market", "qty": "222427", "timeInForce": "IOC"}.
+2025-10-12 06:46:45 | INFO | 8. PARTIUSDT - SELL (95.0%) @ $0.0822
+2025-10-12 06:46:46 | INFO | Setting leverage for PARTIUSDT to 1x
+2025-10-12 06:46:46 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:46).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PARTIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:46 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PARTIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '54416', 'timeInForce': 'IOC'}
+2025-10-12 06:46:47 | INFO | ✅ Perpetual order placed: 08398ca4-8c6d-43f0-b111-da50fc6c6713
+2025-10-12 06:46:47 | INFO | Setting stop loss via trading stop: PARTIUSDT @ 0.08466599999999999
+2025-10-12 06:46:47 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:47 | INFO | Setting take profit via trading stop: PARTIUSDT @ 0.08137799999999999
+2025-10-12 06:46:47 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:49 | INFO | Setting trailing stop: PARTIUSDT @ 1.0% = $0.000822 from $0.0822
+2025-10-12 06:46:49 | INFO | ✅ Trailing stop set: 1.0% ($0.000822)
+2025-10-12 06:46:49 | INFO | ✅ EXECUTED: PARTIUSDT SELL 54416.000000 @ $0.0822 (Conf: 95.0%)
+2025-10-12 06:46:50 | INFO | 9. PTBUSDT - BUY (95.0%) @ $0.0644
+2025-10-12 06:46:51 | INFO | Setting leverage for PTBUSDT to 1x
+2025-10-12 06:46:51 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:51).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PTBUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:51 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PTBUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '62860', 'timeInForce': 'IOC'}
+2025-10-12 06:46:52 | INFO | ✅ Perpetual order placed: 4e2b19d9-7c33-47fe-8c88-0ac82912786f
+2025-10-12 06:46:52 | INFO | Setting stop loss via trading stop: PTBUSDT @ 0.062467999999999996
+2025-10-12 06:46:52 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:52 | INFO | Setting take profit via trading stop: PTBUSDT @ 0.065044
+2025-10-12 06:46:52 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:54 | INFO | Setting trailing stop: PTBUSDT @ 1.0% = $0.000646 from $0.06464
+2025-10-12 06:46:54 | INFO | ✅ Trailing stop set: 1.0% ($0.000646)
+2025-10-12 06:46:54 | INFO | ✅ EXECUTED: PTBUSDT BUY 62860.000000 @ $0.0644 (Conf: 95.0%)
+2025-10-12 06:46:55 | INFO | 10. EGLDUSDT - SELL (83.5%) @ $9.51
+2025-10-12 06:46:55 | INFO | Setting leverage for EGLDUSDT to 1x
+2025-10-12 06:46:56 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 02:46:56).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "EGLDUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 06:46:56 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'EGLDUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '385.31', 'timeInForce': 'IOC'}
+2025-10-12 06:46:56 | INFO | ✅ Perpetual order placed: 1246c641-03be-4866-97a0-008312dcc97a
+2025-10-12 06:46:56 | INFO | Setting stop loss via trading stop: EGLDUSDT @ 9.7953
+2025-10-12 06:46:56 | INFO | ✅ Stop loss set via position management
+2025-10-12 06:46:56 | INFO | Setting take profit via trading stop: EGLDUSDT @ 9.4149
+2025-10-12 06:46:56 | INFO | ✅ Take profit set via position management
+2025-10-12 06:46:58 | INFO | Setting trailing stop: EGLDUSDT @ 1.0% = $0.095200 from $9.52
+2025-10-12 06:46:58 | INFO | ✅ Trailing stop set: 1.0% ($0.095200)
+2025-10-12 06:46:58 | INFO | ✅ EXECUTED: EGLDUSDT SELL 385.310000 @ $9.51 (Conf: 83.5%)
+2025-10-12 06:46:59 | INFO | 📊 EXECUTION SUMMARY: 9 successful, 1 failed
+2025-10-12 06:46:59 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 06:46:59 | INFO |    • 0GUSDT: SHORT 3815.300000 @ $2.1326 - SL: $2.1966 TP: $2.1113
+2025-10-12 06:46:59 | INFO |    • BMTUSDT: SHORT 183556.000000 @ $0.04012 - SL: $0.0413 TP: $0.0397
+2025-10-12 06:46:59 | INFO |    • CHILLGUYUSDT: SHORT 261376.000000 @ $0.025501 - SL: $0.0263 TP: $0.0252
+2025-10-12 06:46:59 | INFO |    • CROSSUSDT: SHORT 45169.000000 @ $0.13356 - SL: $0.1376 TP: $0.1322
+2025-10-12 06:46:59 | INFO |    • MEMEUSDT: SHORT 3414780.000000 @ $0.001599 - SL: $0.0016 TP: $0.0016
+2025-10-12 06:46:59 | INFO |    • NFPUSDT: SHORT 117193.000000 @ $0.04217 - SL: $0.0434 TP: $0.0417
+2025-10-12 06:46:59 | INFO |    • PARTIUSDT: SHORT 54416.000000 @ $0.0822 - SL: $0.0847 TP: $0.0814
+2025-10-12 06:46:59 | INFO |    • PTBUSDT: LONG 62860.000000 @ $0.0644 - SL: $0.0625 TP: $0.0650
+2025-10-12 06:46:59 | INFO |    • EGLDUSDT: SHORT 385.310000 @ $9.51 - SL: $9.7953 TP: $9.4149
+2025-10-12 06:46:59 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 06:47:00 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 06:47:00 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 06:47:00 | INFO | 🎉 SESSION COMPLETED in 54.2s
+2025-10-12 06:47:00 | INFO | ============================================================
