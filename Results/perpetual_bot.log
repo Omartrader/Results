@@ -35260,3 +35260,137 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 13:31:38 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 13:31:38 | INFO | 🎉 SESSION COMPLETED in 36.3s
 2025-10-12 13:31:38 | INFO | ============================================================
+2025-10-12 13:46:02 | INFO | ================================================================================
+2025-10-12 13:46:02 | INFO | NEW PERPETUAL SESSION: 2025-10-12 13:46:02
+2025-10-12 13:46:02 | INFO | ================================================================================
+2025-10-12 13:46:02 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 13:46:02 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 13:46:02 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 13:46:02 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 13:46:04 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 13:46:04 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 13:46:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 13:46:14 | INFO |  1. AVNTUSDT     | BUY  | Price: $  0.6588 | Confidence:  95.0% | Momentum: +8.16%
+2025-10-12 13:46:14 | INFO |  2. BELUSDT      | SELL | Price: $  0.2080 | Confidence:  95.0% | Momentum: -4.94%
+2025-10-12 13:46:14 | INFO |  3. CATIUSDT     | SELL | Price: $  0.0801 | Confidence:  95.0% | Momentum: -6.69%
+2025-10-12 13:46:14 | INFO |  4. L3USDT       | BUY  | Price: $  0.0235 | Confidence:  95.0% | Momentum: +5.24%
+2025-10-12 13:46:14 | INFO |  5. MASAUSDT     | SELL | Price: $  0.0083 | Confidence:  95.0% | Momentum: -5.24%
+2025-10-12 13:46:14 | INFO |  6. OPENUSDT     | BUY  | Price: $  0.4538 | Confidence:  95.0% | Momentum: +7.79%
+2025-10-12 13:46:14 | INFO |  7. PIPPINUSDT   | SELL | Price: $  0.0133 | Confidence:  95.0% | Momentum: -6.42%
+2025-10-12 13:46:14 | INFO |  8. CVXUSDT      | BUY  | Price: $  2.2380 | Confidence:  89.0% | Momentum: +3.90%
+2025-10-12 13:46:14 | INFO |  9. QUSDT        | BUY  | Price: $  0.0210 | Confidence:  87.4% | Momentum: +3.74%
+2025-10-12 13:46:14 | INFO | 10. MILKUSDT     | BUY  | Price: $  0.0351 | Confidence:  84.4% | Momentum: +3.44%
+2025-10-12 13:46:14 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 13:46:14 | INFO | 1. AVNTUSDT - BUY (95.0%) @ $0.6588
+2025-10-12 13:46:15 | INFO | Setting leverage for AVNTUSDT to 1x
+2025-10-12 13:46:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "AVNTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'AVNTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '12158', 'timeInForce': 'IOC'}
+2025-10-12 13:46:16 | INFO | ✅ Perpetual order placed: 783e8806-a626-4ace-946f-177ea6ae8015
+2025-10-12 13:46:16 | INFO | Setting stop loss via trading stop: AVNTUSDT @ 0.639036
+2025-10-12 13:46:16 | INFO | ✅ Stop loss set via position management
+2025-10-12 13:46:16 | INFO | Setting take profit via trading stop: AVNTUSDT @ 0.6653880000000001
+2025-10-12 13:46:16 | INFO | ✅ Take profit set via position management
+2025-10-12 13:46:18 | INFO | Setting trailing stop: AVNTUSDT @ 1.0% = $0.006593 from $0.6593
+2025-10-12 13:46:18 | INFO | ✅ Trailing stop set: 1.0% ($0.006593)
+2025-10-12 13:46:18 | INFO | ✅ EXECUTED: AVNTUSDT BUY 12158.000000 @ $0.6588 (Conf: 95.0%)
+2025-10-12 13:46:19 | INFO | 2. BELUSDT - SELL (95.0%) @ $0.208
+2025-10-12 13:46:20 | INFO | Setting leverage for BELUSDT to 1x
+2025-10-12 13:46:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BELUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BELUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '34855', 'timeInForce': 'IOC'}
+2025-10-12 13:46:20 | INFO | ✅ Perpetual order placed: ef532724-ebec-4836-97ef-b2bfa983ac46
+2025-10-12 13:46:21 | INFO | Setting stop loss via trading stop: BELUSDT @ 0.21423999999999999
+2025-10-12 13:46:21 | INFO | ✅ Stop loss set via position management
+2025-10-12 13:46:21 | INFO | Setting take profit via trading stop: BELUSDT @ 0.20592
+2025-10-12 13:46:21 | INFO | ✅ Take profit set via position management
+2025-10-12 13:46:22 | INFO | Setting trailing stop: BELUSDT @ 1.0% = $0.002071 from $0.2071
+2025-10-12 13:46:23 | INFO | ✅ Trailing stop set: 1.0% ($0.002071)
+2025-10-12 13:46:23 | INFO | ✅ EXECUTED: BELUSDT SELL 34855.000000 @ $0.208 (Conf: 95.0%)
+2025-10-12 13:46:23 | INFO | 3. CATIUSDT - SELL (95.0%) @ $0.08014
+2025-10-12 13:46:24 | INFO | Setting leverage for CATIUSDT to 1x
+2025-10-12 13:46:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CATIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CATIUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '81879', 'timeInForce': 'IOC'}
+2025-10-12 13:46:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8187900000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 09:46:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CATIUSDT", "side": "Sell", "orderType": "Market", "qty": "81879", "timeInForce": "IOC"}.
+2025-10-12 13:46:25 | ERROR | ❌ FAILED: CATIUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:8187900000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 09:46:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CATIUSDT", "side": "Sell", "orderType": "Market", "qty": "81879", "timeInForce": "IOC"}.
+2025-10-12 13:46:26 | INFO | 4. L3USDT - BUY (95.0%) @ $0.0235
+2025-10-12 13:46:27 | INFO | Setting leverage for L3USDT to 1x
+2025-10-12 13:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "L3USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'L3USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '279230', 'timeInForce': 'IOC'}
+2025-10-12 13:46:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:27923000000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 09:46:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "L3USDT", "side": "Buy", "orderType": "Market", "qty": "279230", "timeInForce": "IOC"}.
+2025-10-12 13:46:27 | ERROR | ❌ FAILED: L3USDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:27923000000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 09:46:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "L3USDT", "side": "Buy", "orderType": "Market", "qty": "279230", "timeInForce": "IOC"}.
+2025-10-12 13:46:28 | INFO | 5. MASAUSDT - SELL (95.0%) @ $0.00832
+2025-10-12 13:46:29 | INFO | Setting leverage for MASAUSDT to 1x
+2025-10-12 13:46:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MASAUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MASAUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '600000', 'timeInForce': 'IOC'}
+2025-10-12 13:46:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:60000000000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 09:46:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Sell", "orderType": "Market", "qty": "600000", "timeInForce": "IOC"}.
+2025-10-12 13:46:29 | ERROR | ❌ FAILED: MASAUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:60000000000000 > max_qty:12000000000000 (ErrCode: 10001) (ErrTime: 09:46:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "MASAUSDT", "side": "Sell", "orderType": "Market", "qty": "600000", "timeInForce": "IOC"}.
+2025-10-12 13:46:30 | INFO | 6. OPENUSDT - BUY (95.0%) @ $0.4538
+2025-10-12 13:46:31 | INFO | Setting leverage for OPENUSDT to 1x
+2025-10-12 13:46:31 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:31).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OPENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:31 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OPENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '14460', 'timeInForce': 'IOC'}
+2025-10-12 13:46:32 | INFO | ✅ Perpetual order placed: 6a303384-cf41-4471-a59c-bcb47dbcd132
+2025-10-12 13:46:32 | INFO | Setting stop loss via trading stop: OPENUSDT @ 0.44018599999999997
+2025-10-12 13:46:32 | INFO | ✅ Stop loss set via position management
+2025-10-12 13:46:32 | INFO | Setting take profit via trading stop: OPENUSDT @ 0.45833799999999997
+2025-10-12 13:46:32 | INFO | ✅ Take profit set via position management
+2025-10-12 13:46:34 | INFO | Setting trailing stop: OPENUSDT @ 1.0% = $0.004534 from $0.4534
+2025-10-12 13:46:34 | INFO | ✅ Trailing stop set: 1.0% ($0.004534)
+2025-10-12 13:46:34 | INFO | ✅ EXECUTED: OPENUSDT BUY 14460.000000 @ $0.4538 (Conf: 95.0%)
+2025-10-12 13:46:34 | INFO | 7. PIPPINUSDT - SELL (95.0%) @ $0.01326
+2025-10-12 13:46:36 | INFO | Setting leverage for PIPPINUSDT to 1x
+2025-10-12 13:46:36 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:36).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "PIPPINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:36 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'PIPPINUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '447892', 'timeInForce': 'IOC'}
+2025-10-12 13:46:36 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:44789200000000 > max_qty:15000000000000 (ErrCode: 10001) (ErrTime: 09:46:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PIPPINUSDT", "side": "Sell", "orderType": "Market", "qty": "447892", "timeInForce": "IOC"}.
+2025-10-12 13:46:36 | ERROR | ❌ FAILED: PIPPINUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:44789200000000 > max_qty:15000000000000 (ErrCode: 10001) (ErrTime: 09:46:36).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "PIPPINUSDT", "side": "Sell", "orderType": "Market", "qty": "447892", "timeInForce": "IOC"}.
+2025-10-12 13:46:37 | INFO | 8. CVXUSDT - BUY (89.0%) @ $2.238
+2025-10-12 13:46:38 | INFO | Setting leverage for CVXUSDT to 1x
+2025-10-12 13:46:38 | INFO | ✅ Leverage set to 1x for CVXUSDT
+2025-10-12 13:46:38 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CVXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2653.73', 'timeInForce': 'IOC'}
+2025-10-12 13:46:39 | INFO | ✅ Perpetual order placed: 5dc6a5cc-dda6-470e-96d8-ce56616ad0a7
+2025-10-12 13:46:39 | INFO | Setting stop loss via trading stop: CVXUSDT @ 2.17086
+2025-10-12 13:46:39 | INFO | ✅ Stop loss set via position management
+2025-10-12 13:46:39 | INFO | Setting take profit via trading stop: CVXUSDT @ 2.26038
+2025-10-12 13:46:39 | INFO | ✅ Take profit set via position management
+2025-10-12 13:46:41 | INFO | Setting trailing stop: CVXUSDT @ 1.0% = $0.022380 from $2.238
+2025-10-12 13:46:41 | INFO | ✅ Trailing stop set: 1.0% ($0.022380)
+2025-10-12 13:46:41 | INFO | ✅ EXECUTED: CVXUSDT BUY 2653.730000 @ $2.238 (Conf: 89.0%)
+2025-10-12 13:46:41 | INFO | 9. QUSDT - BUY (87.4%) @ $0.020977
+2025-10-12 13:46:41 | INFO | 10. MILKUSDT - BUY (84.4%) @ $0.03514
+2025-10-12 13:46:43 | INFO | Setting leverage for MILKUSDT to 1x
+2025-10-12 13:46:43 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 09:46:43).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "MILKUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 13:46:43 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'MILKUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '152971', 'timeInForce': 'IOC'}
+2025-10-12 13:46:43 | INFO | ✅ Perpetual order placed: 09e07cda-0a84-4417-8ca6-08f106cf2dd4
+2025-10-12 13:46:44 | INFO | Setting stop loss via trading stop: MILKUSDT @ 0.0340858
+2025-10-12 13:46:44 | INFO | ✅ Stop loss set via position management
+2025-10-12 13:46:44 | INFO | Setting take profit via trading stop: MILKUSDT @ 0.0354914
+2025-10-12 13:46:44 | INFO | ✅ Take profit set via position management
+2025-10-12 13:46:45 | INFO | Setting trailing stop: MILKUSDT @ 1.0% = $0.000352 from $0.0352
+2025-10-12 13:46:46 | INFO | ✅ Trailing stop set: 1.0% ($0.000352)
+2025-10-12 13:46:46 | INFO | ✅ EXECUTED: MILKUSDT BUY 152971.000000 @ $0.03514 (Conf: 84.4%)
+2025-10-12 13:46:46 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 4 failed
+2025-10-12 13:46:46 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 13:46:46 | INFO |    • AVNTUSDT: LONG 12158.000000 @ $0.6588 - SL: $0.6390 TP: $0.6654
+2025-10-12 13:46:46 | INFO |    • BELUSDT: SHORT 34855.000000 @ $0.208 - SL: $0.2142 TP: $0.2059
+2025-10-12 13:46:46 | INFO |    • OPENUSDT: LONG 14460.000000 @ $0.4538 - SL: $0.4402 TP: $0.4583
+2025-10-12 13:46:46 | INFO |    • CVXUSDT: LONG 2653.730000 @ $2.238 - SL: $2.1709 TP: $2.2604
+2025-10-12 13:46:46 | INFO |    • MILKUSDT: LONG 152971.000000 @ $0.03514 - SL: $0.0341 TP: $0.0355
+2025-10-12 13:46:46 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 13:46:47 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 13:46:47 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 13:46:47 | INFO | 🎉 SESSION COMPLETED in 44.0s
+2025-10-12 13:46:47 | INFO | ============================================================
