@@ -35756,3 +35756,108 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 14:31:23 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 14:31:23 | INFO | 🎉 SESSION COMPLETED in 21.9s
 2025-10-12 14:31:23 | INFO | ============================================================
+2025-10-12 14:46:00 | INFO | ================================================================================
+2025-10-12 14:46:00 | INFO | NEW PERPETUAL SESSION: 2025-10-12 14:46:00
+2025-10-12 14:46:00 | INFO | ================================================================================
+2025-10-12 14:46:00 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 14:46:00 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 14:46:00 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 14:46:00 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 14:46:01 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 14:46:01 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 14:46:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 14:46:11 | INFO |  1. 1000RATSUSDT | BUY  | Price: $  0.0206 | Confidence:  95.0% | Momentum: +15.54%
+2025-10-12 14:46:11 | INFO |  2. 1000000MOGUSDT | BUY  | Price: $  0.4565 | Confidence:  95.0% | Momentum: +5.35%
+2025-10-12 14:46:11 | INFO |  3. ASTERUSDT    | BUY  | Price: $  1.3028 | Confidence:  95.0% | Momentum: +11.19%
+2025-10-12 14:46:11 | INFO |  4. B2USDT       | BUY  | Price: $  1.2446 | Confidence:  95.0% | Momentum: +12.55%
+2025-10-12 14:46:11 | INFO |  5. CELRUSDT     | BUY  | Price: $  0.0053 | Confidence:  95.0% | Momentum: +5.53%
+2025-10-12 14:46:11 | INFO |  6. DMCUSDT      | BUY  | Price: $  0.0023 | Confidence:  95.0% | Momentum: +5.06%
+2025-10-12 14:46:11 | INFO |  7. DOGSUSDT     | BUY  | Price: $  0.0001 | Confidence:  95.0% | Momentum: +5.01%
+2025-10-12 14:46:11 | INFO |  8. EIGENUSDT    | BUY  | Price: $  1.1921 | Confidence:  95.0% | Momentum: +7.04%
+2025-10-12 14:46:11 | INFO |  9. GRTUSDT      | BUY  | Price: $  0.0641 | Confidence:  95.0% | Momentum: +4.67%
+2025-10-12 14:46:11 | INFO | 10. HFTUSDT      | BUY  | Price: $  0.0525 | Confidence:  95.0% | Momentum: +5.00%
+2025-10-12 14:46:12 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 14:46:12 | INFO | 1. 1000RATSUSDT - BUY (95.0%) @ $0.0206
+2025-10-12 14:46:13 | INFO | Setting leverage for 1000RATSUSDT to 1x
+2025-10-12 14:46:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000RATSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:46:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000RATSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '387330', 'timeInForce': 'IOC'}
+2025-10-12 14:46:13 | INFO | ✅ Perpetual order placed: 2f011d44-c6f1-4277-b6ed-1895fc0ac92b
+2025-10-12 14:46:13 | INFO | Setting stop loss via trading stop: 1000RATSUSDT @ 0.019982
+2025-10-12 14:46:13 | INFO | ✅ Stop loss set via position management
+2025-10-12 14:46:14 | INFO | Setting take profit via trading stop: 1000RATSUSDT @ 0.020806
+2025-10-12 14:46:14 | INFO | ✅ Take profit set via position management
+2025-10-12 14:46:15 | INFO | Setting trailing stop: 1000RATSUSDT @ 1.0% = $0.000206 from $0.02061
+2025-10-12 14:46:16 | INFO | ✅ Trailing stop set: 1.0% ($0.000206)
+2025-10-12 14:46:16 | INFO | ✅ EXECUTED: 1000RATSUSDT BUY 387330.000000 @ $0.0206 (Conf: 95.0%)
+2025-10-12 14:46:16 | INFO | 2. 1000000MOGUSDT - BUY (95.0%) @ $0.4565
+2025-10-12 14:46:17 | INFO | Setting leverage for 1000000MOGUSDT to 1x
+2025-10-12 14:46:17 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:17).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "1000000MOGUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:46:17 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '1000000MOGUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '15820', 'timeInForce': 'IOC'}
+2025-10-12 14:46:17 | INFO | ✅ Perpetual order placed: 5b2e36b9-88ae-4ee6-a837-2902043b5481
+2025-10-12 14:46:18 | INFO | Setting stop loss via trading stop: 1000000MOGUSDT @ 0.442805
+2025-10-12 14:46:18 | INFO | ✅ Stop loss set via position management
+2025-10-12 14:46:18 | INFO | Setting take profit via trading stop: 1000000MOGUSDT @ 0.461065
+2025-10-12 14:46:18 | INFO | ✅ Take profit set via position management
+2025-10-12 14:46:19 | INFO | Setting trailing stop: 1000000MOGUSDT @ 1.0% = $0.004556 from $0.4556
+2025-10-12 14:46:20 | INFO | ✅ Trailing stop set: 1.0% ($0.004556)
+2025-10-12 14:46:20 | INFO | ✅ EXECUTED: 1000000MOGUSDT BUY 15820.000000 @ $0.4565 (Conf: 95.0%)
+2025-10-12 14:46:20 | INFO | 3. ASTERUSDT - BUY (95.0%) @ $1.3028
+2025-10-12 14:46:20 | INFO | 4. B2USDT - BUY (95.0%) @ $1.2446
+2025-10-12 14:46:21 | INFO | Setting leverage for B2USDT to 1x
+2025-10-12 14:46:21 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:21).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "B2USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:46:21 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'B2USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5252', 'timeInForce': 'IOC'}
+2025-10-12 14:46:22 | INFO | ✅ Perpetual order placed: 9c3fcc03-aa83-46fa-8a04-b99582562983
+2025-10-12 14:46:22 | INFO | Setting stop loss via trading stop: B2USDT @ 1.2072619999999998
+2025-10-12 14:46:22 | INFO | ✅ Stop loss set via position management
+2025-10-12 14:46:22 | INFO | Setting take profit via trading stop: B2USDT @ 1.2570459999999999
+2025-10-12 14:46:22 | INFO | ✅ Take profit set via position management
+2025-10-12 14:46:24 | INFO | Setting trailing stop: B2USDT @ 1.0% = $0.012442 from $1.2442
+2025-10-12 14:46:24 | INFO | ✅ Trailing stop set: 1.0% ($0.012442)
+2025-10-12 14:46:24 | INFO | ✅ EXECUTED: B2USDT BUY 5252.000000 @ $1.2446 (Conf: 95.0%)
+2025-10-12 14:46:24 | INFO | 5. CELRUSDT - BUY (95.0%) @ $0.005268
+2025-10-12 14:46:26 | INFO | Setting leverage for CELRUSDT to 1x
+2025-10-12 14:46:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CELRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:46:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CELRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1122989', 'timeInForce': 'IOC'}
+2025-10-12 14:46:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:112298900000000 > max_qty:81250000000000 (ErrCode: 10001) (ErrTime: 10:46:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CELRUSDT", "side": "Buy", "orderType": "Market", "qty": "1122989", "timeInForce": "IOC"}.
+2025-10-12 14:46:27 | ERROR | ❌ FAILED: CELRUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:112298900000000 > max_qty:81250000000000 (ErrCode: 10001) (ErrTime: 10:46:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CELRUSDT", "side": "Buy", "orderType": "Market", "qty": "1122989", "timeInForce": "IOC"}.
+2025-10-12 14:46:27 | INFO | 6. DMCUSDT - BUY (95.0%) @ $0.0022888
+2025-10-12 14:46:27 | INFO | 7. DOGSUSDT - BUY (95.0%) @ $7.12e-05
+2025-10-12 14:46:27 | INFO | 8. EIGENUSDT - BUY (95.0%) @ $1.1921
+2025-10-12 14:46:27 | INFO | 9. GRTUSDT - BUY (95.0%) @ $0.06412
+2025-10-12 14:46:28 | INFO | Setting leverage for GRTUSDT to 1x
+2025-10-12 14:46:29 | INFO | ✅ Leverage set to 1x for GRTUSDT
+2025-10-12 14:46:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GRTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '92263.0', 'timeInForce': 'IOC'}
+2025-10-12 14:46:29 | INFO | ✅ Perpetual order placed: 980c347c-7e77-464d-a319-d428464e4134
+2025-10-12 14:46:29 | INFO | Setting stop loss via trading stop: GRTUSDT @ 0.06219639999999999
+2025-10-12 14:46:29 | INFO | ✅ Stop loss set via position management
+2025-10-12 14:46:29 | INFO | Setting take profit via trading stop: GRTUSDT @ 0.06476119999999999
+2025-10-12 14:46:29 | INFO | ✅ Take profit set via position management
+2025-10-12 14:46:31 | INFO | Setting trailing stop: GRTUSDT @ 1.0% = $0.000640 from $0.06402
+2025-10-12 14:46:31 | INFO | ✅ Trailing stop set: 1.0% ($0.000640)
+2025-10-12 14:46:31 | INFO | ✅ EXECUTED: GRTUSDT BUY 92263.000000 @ $0.06412 (Conf: 95.0%)
+2025-10-12 14:46:32 | INFO | 10. HFTUSDT - BUY (95.0%) @ $0.05254
+2025-10-12 14:46:33 | INFO | Setting leverage for HFTUSDT to 1x
+2025-10-12 14:46:33 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 10:46:33).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "HFTUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 14:46:33 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'HFTUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '101912', 'timeInForce': 'IOC'}
+2025-10-12 14:46:33 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:10191200000000 > max_qty:7060000000000 (ErrCode: 10001) (ErrTime: 10:46:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HFTUSDT", "side": "Buy", "orderType": "Market", "qty": "101912", "timeInForce": "IOC"}.
+2025-10-12 14:46:33 | ERROR | ❌ FAILED: HFTUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:10191200000000 > max_qty:7060000000000 (ErrCode: 10001) (ErrTime: 10:46:33).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "HFTUSDT", "side": "Buy", "orderType": "Market", "qty": "101912", "timeInForce": "IOC"}.
+2025-10-12 14:46:34 | INFO | 📊 EXECUTION SUMMARY: 4 successful, 2 failed
+2025-10-12 14:46:34 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 14:46:34 | INFO |    • 1000RATSUSDT: LONG 387330.000000 @ $0.0206 - SL: $0.0200 TP: $0.0208
+2025-10-12 14:46:34 | INFO |    • 1000000MOGUSDT: LONG 15820.000000 @ $0.4565 - SL: $0.4428 TP: $0.4611
+2025-10-12 14:46:34 | INFO |    • B2USDT: LONG 5252.000000 @ $1.2446 - SL: $1.2073 TP: $1.2570
+2025-10-12 14:46:34 | INFO |    • GRTUSDT: LONG 92263.000000 @ $0.06412 - SL: $0.0622 TP: $0.0648
+2025-10-12 14:46:34 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 14:46:34 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 14:46:34 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 14:46:34 | INFO | 🎉 SESSION COMPLETED in 33.8s
+2025-10-12 14:46:34 | INFO | ============================================================
