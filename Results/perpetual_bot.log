@@ -33782,3 +33782,68 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 10:01:35 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 10:01:35 | INFO | 🎉 SESSION COMPLETED in 31.9s
 2025-10-12 10:01:35 | INFO | ============================================================
+2025-10-12 10:16:05 | INFO | ================================================================================
+2025-10-12 10:16:05 | INFO | NEW PERPETUAL SESSION: 2025-10-12 10:16:05
+2025-10-12 10:16:05 | INFO | ================================================================================
+2025-10-12 10:16:05 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 10:16:05 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 10:16:05 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 10:16:05 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 10:16:06 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 10:16:06 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 10:16:18 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 10:16:18 | INFO |  1. BLESSUSDT    | BUY  | Price: $  0.0302 | Confidence:  95.0% | Momentum: +7.29%
+2025-10-12 10:16:18 | INFO |  2. CATIUSDT     | BUY  | Price: $  0.0812 | Confidence:  95.0% | Momentum: +5.36%
+2025-10-12 10:16:18 | INFO |  3. GRASSUSDT    | SELL | Price: $  0.4942 | Confidence:  78.1% | Momentum: -2.81%
+2025-10-12 10:16:18 | INFO |  4. L3USDT       | SELL | Price: $  0.0232 | Confidence:  68.2% | Momentum: -1.82%
+2025-10-12 10:16:18 | INFO |  5. LISTAUSDT    | SELL | Price: $  0.3509 | Confidence:  67.9% | Momentum: -1.79%
+2025-10-12 10:16:19 | INFO | 🎯 PROCESSING TOP 5 OPPORTUNITIES:
+2025-10-12 10:16:19 | INFO | 1. BLESSUSDT - BUY (95.0%) @ $0.03017
+2025-10-12 10:16:20 | INFO | Setting leverage for BLESSUSDT to 1x
+2025-10-12 10:16:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:16:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BLESSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 10:16:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BLESSUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '266520', 'timeInForce': 'IOC'}
+2025-10-12 10:16:20 | INFO | ✅ Perpetual order placed: adea0683-7f8d-41eb-8281-827edfc66bb5
+2025-10-12 10:16:21 | INFO | Setting stop loss via trading stop: BLESSUSDT @ 0.029264899999999996
+2025-10-12 10:16:21 | INFO | ✅ Stop loss set via position management
+2025-10-12 10:16:21 | INFO | Setting take profit via trading stop: BLESSUSDT @ 0.0304717
+2025-10-12 10:16:21 | INFO | ✅ Take profit set via position management
+2025-10-12 10:16:22 | INFO | Setting trailing stop: BLESSUSDT @ 1.0% = $0.000302 from $0.03024
+2025-10-12 10:16:23 | INFO | ✅ Trailing stop set: 1.0% ($0.000302)
+2025-10-12 10:16:23 | INFO | ✅ EXECUTED: BLESSUSDT BUY 266520.000000 @ $0.03017 (Conf: 95.0%)
+2025-10-12 10:16:23 | INFO | 2. CATIUSDT - BUY (95.0%) @ $0.08118
+2025-10-12 10:16:25 | INFO | Setting leverage for CATIUSDT to 1x
+2025-10-12 10:16:25 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:16:25).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "CATIUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 10:16:25 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'CATIUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '89650', 'timeInForce': 'IOC'}
+2025-10-12 10:16:25 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8965000000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 06:16:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CATIUSDT", "side": "Buy", "orderType": "Market", "qty": "89650", "timeInForce": "IOC"}.
+2025-10-12 10:16:25 | ERROR | ❌ FAILED: CATIUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8965000000000 > max_qty:6000000000000 (ErrCode: 10001) (ErrTime: 06:16:25).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "CATIUSDT", "side": "Buy", "orderType": "Market", "qty": "89650", "timeInForce": "IOC"}.
+2025-10-12 10:16:26 | INFO | 3. GRASSUSDT - SELL (78.1%) @ $0.4942
+2025-10-12 10:16:27 | INFO | Setting leverage for GRASSUSDT to 1x
+2025-10-12 10:16:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:16:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "GRASSUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 10:16:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'GRASSUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '14726', 'timeInForce': 'IOC'}
+2025-10-12 10:16:27 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:1472600000000 > max_qty:600000000000 (ErrCode: 10001) (ErrTime: 06:16:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GRASSUSDT", "side": "Sell", "orderType": "Market", "qty": "14726", "timeInForce": "IOC"}.
+2025-10-12 10:16:27 | ERROR | ❌ FAILED: GRASSUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:1472600000000 > max_qty:600000000000 (ErrCode: 10001) (ErrTime: 06:16:27).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "GRASSUSDT", "side": "Sell", "orderType": "Market", "qty": "14726", "timeInForce": "IOC"}.
+2025-10-12 10:16:28 | INFO | 4. L3USDT - SELL (68.2%) @ $0.02323
+2025-10-12 10:16:29 | INFO | Setting leverage for L3USDT to 1x
+2025-10-12 10:16:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 06:16:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "L3USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 10:16:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'L3USDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '313290', 'timeInForce': 'IOC'}
+2025-10-12 10:16:29 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:31329000000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 06:16:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "L3USDT", "side": "Sell", "orderType": "Market", "qty": "313290", "timeInForce": "IOC"}.
+2025-10-12 10:16:29 | ERROR | ❌ FAILED: L3USDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:31329000000000 > max_qty:20000000000000 (ErrCode: 10001) (ErrTime: 06:16:29).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "L3USDT", "side": "Sell", "orderType": "Market", "qty": "313290", "timeInForce": "IOC"}.
+2025-10-12 10:16:30 | INFO | 5. LISTAUSDT - SELL (67.9%) @ $0.3509
+2025-10-12 10:16:30 | INFO | 📊 EXECUTION SUMMARY: 1 successful, 3 failed
+2025-10-12 10:16:30 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 10:16:30 | INFO |    • BLESSUSDT: LONG 266520.000000 @ $0.03017 - SL: $0.0293 TP: $0.0305
+2025-10-12 10:16:30 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 10:16:30 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 10:16:30 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 10:16:30 | INFO | 🎉 SESSION COMPLETED in 25.1s
+2025-10-12 10:16:30 | INFO | ============================================================
