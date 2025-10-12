@@ -38624,3 +38624,61 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 22:31:20 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 22:31:20 | INFO | 🎉 SESSION COMPLETED in 17.1s
 2025-10-12 22:31:20 | INFO | ============================================================
+2025-10-12 22:46:26 | INFO | ================================================================================
+2025-10-12 22:46:26 | INFO | NEW PERPETUAL SESSION: 2025-10-12 22:46:26
+2025-10-12 22:46:26 | INFO | ================================================================================
+2025-10-12 22:46:26 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 22:46:26 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 22:46:26 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 22:46:26 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 22:46:28 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 22:46:28 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 22:46:46 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 22:46:46 | INFO |  1. RFCUSDT      | SELL | Price: $  0.0095 | Confidence:  95.0% | Momentum: -4.59%
+2025-10-12 22:46:46 | INFO |  2. KGENUSDT     | SELL | Price: $  0.1764 | Confidence:  79.2% | Momentum: -2.92%
+2025-10-12 22:46:46 | INFO |  3. OPENUSDT     | SELL | Price: $  0.4425 | Confidence:  67.8% | Momentum: -1.78%
+2025-10-12 22:46:46 | INFO | 🎯 PROCESSING TOP 3 OPPORTUNITIES:
+2025-10-12 22:46:46 | INFO | 1. RFCUSDT - SELL (95.0%) @ $0.009472
+2025-10-12 22:46:47 | INFO | Setting leverage for RFCUSDT to 1x
+2025-10-12 22:46:48 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:46:48).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RFCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 22:46:48 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RFCUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '836825', 'timeInForce': 'IOC'}
+2025-10-12 22:46:48 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:83682500000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 18:46:48).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Sell", "orderType": "Market", "qty": "836825", "timeInForce": "IOC"}.
+2025-10-12 22:46:48 | ERROR | ❌ FAILED: RFCUSDT SELL - The number of contracts exceeds maximum limit allowed: too large, order_qty:83682500000000 > max_qty:18000000000000 (ErrCode: 10001) (ErrTime: 18:46:48).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "RFCUSDT", "side": "Sell", "orderType": "Market", "qty": "836825", "timeInForce": "IOC"}.
+2025-10-12 22:46:49 | INFO | 2. KGENUSDT - SELL (79.2%) @ $0.1764
+2025-10-12 22:46:50 | INFO | Setting leverage for KGENUSDT to 1x
+2025-10-12 22:46:50 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:46:50).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "KGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 22:46:50 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'KGENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '44934', 'timeInForce': 'IOC'}
+2025-10-12 22:46:50 | INFO | ✅ Perpetual order placed: 1373e682-ef5b-4549-ab7b-1f0a1ef17865
+2025-10-12 22:46:50 | INFO | Setting stop loss via trading stop: KGENUSDT @ 0.181692
+2025-10-12 22:46:50 | INFO | ✅ Stop loss set via position management
+2025-10-12 22:46:51 | INFO | Setting take profit via trading stop: KGENUSDT @ 0.174636
+2025-10-12 22:46:51 | INFO | ✅ Take profit set via position management
+2025-10-12 22:46:52 | INFO | Setting trailing stop: KGENUSDT @ 1.0% = $0.001759 from $0.1759
+2025-10-12 22:46:53 | INFO | ✅ Trailing stop set: 1.0% ($0.001759)
+2025-10-12 22:46:53 | INFO | ✅ EXECUTED: KGENUSDT SELL 44934.000000 @ $0.1764 (Conf: 79.2%)
+2025-10-12 22:46:53 | INFO | 3. OPENUSDT - SELL (67.8%) @ $0.4425
+2025-10-12 22:46:54 | INFO | Setting leverage for OPENUSDT to 1x
+2025-10-12 22:46:54 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 18:46:54).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "OPENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 22:46:54 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'OPENUSDT', 'side': 'Sell', 'orderType': 'Market', 'qty': '16213', 'timeInForce': 'IOC'}
+2025-10-12 22:46:55 | INFO | ✅ Perpetual order placed: 490fe887-f7c9-4c35-a908-b15f2aa5260d
+2025-10-12 22:46:55 | INFO | Setting stop loss via trading stop: OPENUSDT @ 0.45577500000000004
+2025-10-12 22:46:55 | INFO | ✅ Stop loss set via position management
+2025-10-12 22:46:55 | INFO | Setting take profit via trading stop: OPENUSDT @ 0.438075
+2025-10-12 22:46:55 | INFO | ✅ Take profit set via position management
+2025-10-12 22:46:57 | INFO | Setting trailing stop: OPENUSDT @ 1.0% = $0.004422 from $0.4422
+2025-10-12 22:46:57 | INFO | ✅ Trailing stop set: 1.0% ($0.004422)
+2025-10-12 22:46:57 | INFO | ✅ EXECUTED: OPENUSDT SELL 16213.000000 @ $0.4425 (Conf: 67.8%)
+2025-10-12 22:46:58 | INFO | 📊 EXECUTION SUMMARY: 2 successful, 1 failed
+2025-10-12 22:46:58 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 22:46:58 | INFO |    • KGENUSDT: SHORT 44934.000000 @ $0.1764 - SL: $0.1817 TP: $0.1746
+2025-10-12 22:46:58 | INFO |    • OPENUSDT: SHORT 16213.000000 @ $0.4425 - SL: $0.4558 TP: $0.4381
+2025-10-12 22:46:58 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 22:46:59 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 22:46:59 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 22:46:59 | INFO | 🎉 SESSION COMPLETED in 31.3s
+2025-10-12 22:46:59 | INFO | ============================================================
