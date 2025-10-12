@@ -38772,3 +38772,52 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 23:16:41 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 23:16:41 | INFO | 🎉 SESSION COMPLETED in 29.8s
 2025-10-12 23:16:41 | INFO | ============================================================
+2025-10-12 23:31:03 | INFO | ================================================================================
+2025-10-12 23:31:03 | INFO | NEW PERPETUAL SESSION: 2025-10-12 23:31:03
+2025-10-12 23:31:03 | INFO | ================================================================================
+2025-10-12 23:31:03 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 23:31:03 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 23:31:03 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 23:31:03 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 23:31:05 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 23:31:05 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 23:31:14 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 23:31:14 | INFO |  1. 10000WENUSDT | BUY  | Price: $  0.2977 | Confidence:  95.0% | Momentum: +9.01%
+2025-10-12 23:31:14 | INFO |  2. MORPHOUSDT   | BUY  | Price: $  1.9838 | Confidence:  95.0% | Momentum: +11.47%
+2025-10-12 23:31:14 | INFO |  3. ALCHUSDT     | BUY  | Price: $  0.0690 | Confidence:  75.6% | Momentum: +2.56%
+2025-10-12 23:31:14 | INFO |  4. FUELUSDT     | BUY  | Price: $  0.0034 | Confidence:  72.7% | Momentum: +2.27%
+2025-10-12 23:31:15 | INFO | 🎯 PROCESSING TOP 4 OPPORTUNITIES:
+2025-10-12 23:31:15 | INFO | 1. 10000WENUSDT - BUY (95.0%) @ $0.2977
+2025-10-12 23:31:16 | INFO | Setting leverage for 10000WENUSDT to 1x
+2025-10-12 23:31:16 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:31:16).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000WENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:31:16 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000WENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '23300', 'timeInForce': 'IOC'}
+2025-10-12 23:31:17 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:2330000000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 19:31:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23300", "timeInForce": "IOC"}.
+2025-10-12 23:31:17 | ERROR | ❌ FAILED: 10000WENUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:2330000000000 > max_qty:240000000000 (ErrCode: 10001) (ErrTime: 19:31:17).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "10000WENUSDT", "side": "Buy", "orderType": "Market", "qty": "23300", "timeInForce": "IOC"}.
+2025-10-12 23:31:17 | INFO | 2. MORPHOUSDT - BUY (95.0%) @ $1.9838
+2025-10-12 23:31:17 | INFO | 3. ALCHUSDT - BUY (75.6%) @ $0.06902
+2025-10-12 23:31:18 | INFO | Setting leverage for ALCHUSDT to 1x
+2025-10-12 23:31:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:31:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "ALCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:31:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'ALCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '114822', 'timeInForce': 'IOC'}
+2025-10-12 23:31:19 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:11482200000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 19:31:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALCHUSDT", "side": "Buy", "orderType": "Market", "qty": "114822", "timeInForce": "IOC"}.
+2025-10-12 23:31:19 | ERROR | ❌ FAILED: ALCHUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:11482200000000 > max_qty:10000000000000 (ErrCode: 10001) (ErrTime: 19:31:19).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "ALCHUSDT", "side": "Buy", "orderType": "Market", "qty": "114822", "timeInForce": "IOC"}.
+2025-10-12 23:31:19 | INFO | 4. FUELUSDT - BUY (72.7%) @ $0.003379
+2025-10-12 23:31:20 | INFO | Setting leverage for FUELUSDT to 1x
+2025-10-12 23:31:20 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 19:31:20).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FUELUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 23:31:20 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FUELUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '1450000', 'timeInForce': 'IOC'}
+2025-10-12 23:31:21 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:145000000000000 > max_qty:29000000000000 (ErrCode: 10001) (ErrTime: 19:31:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FUELUSDT", "side": "Buy", "orderType": "Market", "qty": "1450000", "timeInForce": "IOC"}.
+2025-10-12 23:31:21 | ERROR | ❌ FAILED: FUELUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:145000000000000 > max_qty:29000000000000 (ErrCode: 10001) (ErrTime: 19:31:21).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "FUELUSDT", "side": "Buy", "orderType": "Market", "qty": "1450000", "timeInForce": "IOC"}.
+2025-10-12 23:31:21 | INFO | 📊 EXECUTION SUMMARY: 0 successful, 3 failed
+2025-10-12 23:31:21 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 23:31:22 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 23:31:22 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 23:31:22 | INFO | 🎉 SESSION COMPLETED in 18.1s
+2025-10-12 23:31:22 | INFO | ============================================================
