@@ -35969,3 +35969,111 @@ Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category
 2025-10-12 15:01:37 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 15:01:37 | INFO | 🎉 SESSION COMPLETED in 35.8s
 2025-10-12 15:01:37 | INFO | ============================================================
+2025-10-12 15:16:01 | INFO | ================================================================================
+2025-10-12 15:16:01 | INFO | NEW PERPETUAL SESSION: 2025-10-12 15:16:01
+2025-10-12 15:16:01 | INFO | ================================================================================
+2025-10-12 15:16:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 15:16:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 15:16:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 15:16:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 15:16:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 15:16:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 15:16:11 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 15:16:11 | INFO |  1. A8USDT       | BUY  | Price: $  0.0610 | Confidence:  95.0% | Momentum: +6.18%
+2025-10-12 15:16:11 | INFO |  2. BCHUSDT      | BUY  | Price: $524.0000 | Confidence:  95.0% | Momentum: +4.74%
+2025-10-12 15:16:11 | INFO |  3. DAMUSDT      | BUY  | Price: $  0.0365 | Confidence:  95.0% | Momentum: +4.67%
+2025-10-12 15:16:11 | INFO |  4. FARTCOINUSDT | BUY  | Price: $  0.3535 | Confidence:  95.0% | Momentum: +5.93%
+2025-10-12 15:16:11 | INFO |  5. RAYDIUMUSDT  | BUY  | Price: $  1.9070 | Confidence:  94.0% | Momentum: +4.40%
+2025-10-12 15:16:11 | INFO |  6. JASMYUSDT    | BUY  | Price: $  0.0100 | Confidence:  93.7% | Momentum: +4.37%
+2025-10-12 15:16:11 | INFO |  7. APEXUSDT     | BUY  | Price: $  1.0569 | Confidence:  93.1% | Momentum: +4.31%
+2025-10-12 15:16:11 | INFO |  8. MANAUSDT     | BUY  | Price: $  0.2417 | Confidence:  92.3% | Momentum: +4.23%
+2025-10-12 15:16:11 | INFO |  9. OLUSDT       | BUY  | Price: $  0.0210 | Confidence:  91.6% | Momentum: +4.16%
+2025-10-12 15:16:11 | INFO | 10. BRETTUSDT    | BUY  | Price: $  0.0306 | Confidence:  90.9% | Momentum: +4.09%
+2025-10-12 15:16:12 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 15:16:12 | INFO | 1. A8USDT - BUY (95.0%) @ $0.061
+2025-10-12 15:16:13 | INFO | Setting leverage for A8USDT to 1x
+2025-10-12 15:16:13 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:13).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "A8USDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:16:13 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'A8USDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '80000', 'timeInForce': 'IOC'}
+2025-10-12 15:16:14 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:8000000000000 > max_qty:1600000000000 (ErrCode: 10001) (ErrTime: 11:16:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "A8USDT", "side": "Buy", "orderType": "Market", "qty": "80000", "timeInForce": "IOC"}.
+2025-10-12 15:16:14 | ERROR | ❌ FAILED: A8USDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:8000000000000 > max_qty:1600000000000 (ErrCode: 10001) (ErrTime: 11:16:14).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "A8USDT", "side": "Buy", "orderType": "Market", "qty": "80000", "timeInForce": "IOC"}.
+2025-10-12 15:16:14 | INFO | 2. BCHUSDT - BUY (95.0%) @ $524.0
+2025-10-12 15:16:15 | INFO | Setting leverage for BCHUSDT to 1x
+2025-10-12 15:16:15 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:15).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:16:15 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '15.25', 'timeInForce': 'IOC'}
+2025-10-12 15:16:15 | INFO | ✅ Perpetual order placed: 6f067c51-c16f-4383-86a9-433374a677e5
+2025-10-12 15:16:16 | INFO | Setting stop loss via trading stop: BCHUSDT @ 508.28
+2025-10-12 15:16:16 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:16:16 | INFO | Setting take profit via trading stop: BCHUSDT @ 529.24
+2025-10-12 15:16:16 | INFO | ✅ Take profit set via position management
+2025-10-12 15:16:17 | INFO | Setting trailing stop: BCHUSDT @ 1.0% = $5.240000 from $524.0
+2025-10-12 15:16:18 | INFO | ✅ Trailing stop set: 1.0% ($5.240000)
+2025-10-12 15:16:18 | INFO | ✅ EXECUTED: BCHUSDT BUY 15.250000 @ $524.0 (Conf: 95.0%)
+2025-10-12 15:16:18 | INFO | 3. DAMUSDT - BUY (95.0%) @ $0.03651
+2025-10-12 15:16:18 | INFO | 4. FARTCOINUSDT - BUY (95.0%) @ $0.3535
+2025-10-12 15:16:19 | INFO | Setting leverage for FARTCOINUSDT to 1x
+2025-10-12 15:16:19 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:19).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "FARTCOINUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:16:19 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'FARTCOINUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '20460', 'timeInForce': 'IOC'}
+2025-10-12 15:16:20 | INFO | ✅ Perpetual order placed: 821885ce-9b95-4d0f-a2de-4a10e7b2a7a3
+2025-10-12 15:16:20 | INFO | Setting stop loss via trading stop: FARTCOINUSDT @ 0.34289499999999995
+2025-10-12 15:16:20 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:16:20 | INFO | Setting take profit via trading stop: FARTCOINUSDT @ 0.357035
+2025-10-12 15:16:20 | INFO | ✅ Take profit set via position management
+2025-10-12 15:16:22 | INFO | Setting trailing stop: FARTCOINUSDT @ 1.0% = $0.003529 from $0.3529
+2025-10-12 15:16:22 | INFO | ✅ Trailing stop set: 1.0% ($0.003529)
+2025-10-12 15:16:22 | INFO | ✅ EXECUTED: FARTCOINUSDT BUY 20460.000000 @ $0.3535 (Conf: 95.0%)
+2025-10-12 15:16:22 | INFO | 5. RAYDIUMUSDT - BUY (94.0%) @ $1.907
+2025-10-12 15:16:23 | INFO | Setting leverage for RAYDIUMUSDT to 1x
+2025-10-12 15:16:24 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:24).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "RAYDIUMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:16:24 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'RAYDIUMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '3432.8', 'timeInForce': 'IOC'}
+2025-10-12 15:16:24 | INFO | ✅ Perpetual order placed: e38ea7c7-1acf-42a4-8ffd-05a9d0f9dc1b
+2025-10-12 15:16:24 | INFO | Setting stop loss via trading stop: RAYDIUMUSDT @ 1.84979
+2025-10-12 15:16:24 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:16:24 | INFO | Setting take profit via trading stop: RAYDIUMUSDT @ 1.92607
+2025-10-12 15:16:24 | INFO | ✅ Take profit set via position management
+2025-10-12 15:16:26 | INFO | Setting trailing stop: RAYDIUMUSDT @ 1.0% = $0.019035 from $1.9035
+2025-10-12 15:16:26 | INFO | ✅ Trailing stop set: 1.0% ($0.019035)
+2025-10-12 15:16:26 | INFO | ✅ EXECUTED: RAYDIUMUSDT BUY 3432.800000 @ $1.907 (Conf: 94.0%)
+2025-10-12 15:16:27 | INFO | 6. JASMYUSDT - BUY (93.7%) @ $0.010013
+2025-10-12 15:16:28 | INFO | Setting leverage for JASMYUSDT to 1x
+2025-10-12 15:16:28 | INFO | ✅ Leverage set to 1x for JASMYUSDT
+2025-10-12 15:16:28 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'JASMYUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '591739', 'timeInForce': 'IOC'}
+2025-10-12 15:16:28 | INFO | ✅ Perpetual order placed: 39b28ba9-2be8-423d-a559-a227d20b431c
+2025-10-12 15:16:29 | INFO | Setting stop loss via trading stop: JASMYUSDT @ 0.009712609999999998
+2025-10-12 15:16:29 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:16:29 | INFO | Setting take profit via trading stop: JASMYUSDT @ 0.01011313
+2025-10-12 15:16:29 | INFO | ✅ Take profit set via position management
+2025-10-12 15:16:30 | INFO | Setting trailing stop: JASMYUSDT @ 1.0% = $0.000100 from $0.010003
+2025-10-12 15:16:31 | INFO | ✅ Trailing stop set: 1.0% ($0.000100)
+2025-10-12 15:16:31 | INFO | ✅ EXECUTED: JASMYUSDT BUY 591739.000000 @ $0.010013 (Conf: 93.7%)
+2025-10-12 15:16:31 | INFO | 7. APEXUSDT - BUY (93.1%) @ $1.0569
+2025-10-12 15:16:32 | INFO | Setting leverage for APEXUSDT to 1x
+2025-10-12 15:16:32 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:16:32).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "APEXUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:16:32 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'APEXUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '5074.0', 'timeInForce': 'IOC'}
+2025-10-12 15:16:33 | INFO | ✅ Perpetual order placed: 532fc807-ec66-4a5a-b164-ad4c14344804
+2025-10-12 15:16:33 | INFO | Setting stop loss via trading stop: APEXUSDT @ 1.025193
+2025-10-12 15:16:33 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:16:33 | INFO | Setting take profit via trading stop: APEXUSDT @ 1.067469
+2025-10-12 15:16:33 | INFO | ✅ Take profit set via position management
+2025-10-12 15:16:35 | INFO | Setting trailing stop: APEXUSDT @ 1.0% = $0.010562 from $1.0562
+2025-10-12 15:16:35 | INFO | ✅ Trailing stop set: 1.0% ($0.010562)
+2025-10-12 15:16:35 | INFO | ✅ EXECUTED: APEXUSDT BUY 5074.000000 @ $1.0569 (Conf: 93.1%)
+2025-10-12 15:16:36 | INFO | 8. MANAUSDT - BUY (92.3%) @ $0.2417
+2025-10-12 15:16:36 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 1 failed
+2025-10-12 15:16:36 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 15:16:36 | INFO |    • BCHUSDT: LONG 15.250000 @ $524.0 - SL: $508.2800 TP: $529.2400
+2025-10-12 15:16:36 | INFO |    • FARTCOINUSDT: LONG 20460.000000 @ $0.3535 - SL: $0.3429 TP: $0.3570
+2025-10-12 15:16:36 | INFO |    • RAYDIUMUSDT: LONG 3432.800000 @ $1.907 - SL: $1.8498 TP: $1.9261
+2025-10-12 15:16:36 | INFO |    • JASMYUSDT: LONG 591739.000000 @ $0.010013 - SL: $0.0097 TP: $0.0101
+2025-10-12 15:16:36 | INFO |    • APEXUSDT: LONG 5074.000000 @ $1.0569 - SL: $1.0252 TP: $1.0675
+2025-10-12 15:16:36 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 15:16:36 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 15:16:36 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 15:16:36 | INFO | 🎉 SESSION COMPLETED in 35.0s
+2025-10-12 15:16:36 | INFO | ============================================================
