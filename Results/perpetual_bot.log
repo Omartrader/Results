@@ -35861,3 +35861,111 @@ Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linea
 2025-10-12 14:46:34 | INFO | 📊 Using ALL 458 USDT perpetual pairs
 2025-10-12 14:46:34 | INFO | 🎉 SESSION COMPLETED in 33.8s
 2025-10-12 14:46:34 | INFO | ============================================================
+2025-10-12 15:01:01 | INFO | ================================================================================
+2025-10-12 15:01:01 | INFO | NEW PERPETUAL SESSION: 2025-10-12 15:01:01
+2025-10-12 15:01:01 | INFO | ================================================================================
+2025-10-12 15:01:01 | INFO | 🚀 PERPETUAL CRYPTO TRADING BOT STARTED
+2025-10-12 15:01:01 | INFO | 🚀 PERPETUAL TRADING SESSION STARTED
+2025-10-12 15:01:01 | INFO | 🔍 PERPETUAL MARKET SCAN STARTED (MULTI-THREADED)
+2025-10-12 15:01:01 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 15:01:02 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 15:01:02 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 15:01:12 | INFO | 🏆 TOP 10 TRADING OPPORTUNITIES:
+2025-10-12 15:01:12 | INFO |  1. DAMUSDT      | BUY  | Price: $  0.0365 | Confidence:  95.0% | Momentum: +4.53%
+2025-10-12 15:01:12 | INFO |  2. BCHUSDT      | BUY  | Price: $521.0000 | Confidence:  91.4% | Momentum: +4.14%
+2025-10-12 15:01:12 | INFO |  3. 10000ELONUSDT | BUY  | Price: $  0.0008 | Confidence:  84.3% | Momentum: +3.43%
+2025-10-12 15:01:12 | INFO |  4. BRUSDT       | BUY  | Price: $  0.0585 | Confidence:  82.8% | Momentum: +3.28%
+2025-10-12 15:01:12 | INFO |  5. LTCUSDT      | BUY  | Price: $ 95.4500 | Confidence:  81.4% | Momentum: +3.14%
+2025-10-12 15:01:12 | INFO |  6. DEGENUSDT    | BUY  | Price: $  0.0020 | Confidence:  80.7% | Momentum: +3.07%
+2025-10-12 15:01:12 | INFO |  7. BADGERUSDT   | BUY  | Price: $  0.8188 | Confidence:  74.3% | Momentum: +2.43%
+2025-10-12 15:01:12 | INFO |  8. CLANKERUSDT  | BUY  | Price: $ 24.7300 | Confidence:  73.6% | Momentum: +2.36%
+2025-10-12 15:01:12 | INFO |  9. BTCUSDT-25SEP26 | BUY  | Price: $119906.4000 | Confidence:  68.4% | Momentum: +1.84%
+2025-10-12 15:01:12 | INFO | 10. HEIUSDT      | SELL | Price: $  0.1779 | Confidence:  67.1% | Momentum: -1.71%
+2025-10-12 15:01:13 | INFO | 🎯 PROCESSING TOP 10 OPPORTUNITIES:
+2025-10-12 15:01:13 | INFO | 1. DAMUSDT - BUY (95.0%) @ $0.03646
+2025-10-12 15:01:14 | INFO | Setting leverage for DAMUSDT to 1x
+2025-10-12 15:01:14 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:14).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DAMUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:01:14 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DAMUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '218738', 'timeInForce': 'IOC'}
+2025-10-12 15:01:14 | INFO | ✅ Perpetual order placed: f131892b-c451-4ccd-ac57-ef4870e19ad9
+2025-10-12 15:01:14 | INFO | Setting stop loss via trading stop: DAMUSDT @ 0.0353662
+2025-10-12 15:01:14 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:01:15 | INFO | Setting take profit via trading stop: DAMUSDT @ 0.0368246
+2025-10-12 15:01:15 | INFO | ✅ Take profit set via position management
+2025-10-12 15:01:16 | INFO | Setting trailing stop: DAMUSDT @ 1.0% = $0.000365 from $0.03645
+2025-10-12 15:01:17 | INFO | ✅ Trailing stop set: 1.0% ($0.000365)
+2025-10-12 15:01:17 | INFO | ✅ EXECUTED: DAMUSDT BUY 218738.000000 @ $0.03646 (Conf: 95.0%)
+2025-10-12 15:01:17 | INFO | 2. BCHUSDT - BUY (91.4%) @ $521.0
+2025-10-12 15:01:18 | INFO | Setting leverage for BCHUSDT to 1x
+2025-10-12 15:01:18 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:18).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BCHUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:01:18 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BCHUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '13.85', 'timeInForce': 'IOC'}
+2025-10-12 15:01:19 | INFO | ✅ Perpetual order placed: 80087ed4-c874-4ba8-a4ed-7a77d45b48d8
+2025-10-12 15:01:19 | INFO | Setting stop loss via trading stop: BCHUSDT @ 505.37
+2025-10-12 15:01:19 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:01:19 | INFO | Setting take profit via trading stop: BCHUSDT @ 526.21
+2025-10-12 15:01:19 | INFO | ✅ Take profit set via position management
+2025-10-12 15:01:21 | INFO | Setting trailing stop: BCHUSDT @ 1.0% = $5.211000 from $521.1
+2025-10-12 15:01:21 | INFO | ✅ Trailing stop set: 1.0% ($5.211000)
+2025-10-12 15:01:21 | INFO | ✅ EXECUTED: BCHUSDT BUY 13.850000 @ $521.0 (Conf: 91.4%)
+2025-10-12 15:01:22 | INFO | 3. 10000ELONUSDT - BUY (84.3%) @ $0.0007686
+2025-10-12 15:01:23 | INFO | Setting leverage for 10000ELONUSDT to 1x
+2025-10-12 15:01:23 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:23).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "10000ELONUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:01:23 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': '10000ELONUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '8500500', 'timeInForce': 'IOC'}
+2025-10-12 15:01:23 | INFO | ✅ Perpetual order placed: c66b3cac-273d-4b66-be39-76f0a244d5a0
+2025-10-12 15:01:24 | INFO | Setting stop loss via trading stop: 10000ELONUSDT @ 0.000745542
+2025-10-12 15:01:24 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:01:24 | INFO | Setting take profit via trading stop: 10000ELONUSDT @ 0.0007762860000000001
+2025-10-12 15:01:24 | INFO | ✅ Take profit set via position management
+2025-10-12 15:01:26 | INFO | Setting trailing stop: 10000ELONUSDT @ 1.0% = $0.000008 from $0.0007686
+2025-10-12 15:01:26 | INFO | ✅ Trailing stop set: 1.0% ($0.000008)
+2025-10-12 15:01:26 | INFO | ✅ EXECUTED: 10000ELONUSDT BUY 8500500.000000 @ $0.0007686 (Conf: 84.3%)
+2025-10-12 15:01:26 | INFO | 4. BRUSDT - BUY (82.8%) @ $0.05849
+2025-10-12 15:01:27 | INFO | Setting leverage for BRUSDT to 1x
+2025-10-12 15:01:27 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:27).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "BRUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:01:27 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'BRUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '101101', 'timeInForce': 'IOC'}
+2025-10-12 15:01:28 | ERROR | ❌ Perpetual order exception: The number of contracts exceeds maximum limit allowed: too large, order_qty:10110100000000 > max_qty:9000000000000 (ErrCode: 10001) (ErrTime: 11:01:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BRUSDT", "side": "Buy", "orderType": "Market", "qty": "101101", "timeInForce": "IOC"}.
+2025-10-12 15:01:28 | ERROR | ❌ FAILED: BRUSDT BUY - The number of contracts exceeds maximum limit allowed: too large, order_qty:10110100000000 > max_qty:9000000000000 (ErrCode: 10001) (ErrTime: 11:01:28).
+Request → POST https://api-demo.bybit.com/v5/order/create: {"category": "linear", "symbol": "BRUSDT", "side": "Buy", "orderType": "Market", "qty": "101101", "timeInForce": "IOC"}.
+2025-10-12 15:01:28 | INFO | 5. LTCUSDT - BUY (81.4%) @ $95.45
+2025-10-12 15:01:29 | INFO | Setting leverage for LTCUSDT to 1x
+2025-10-12 15:01:29 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:29).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "LTCUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:01:29 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'LTCUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '62.0', 'timeInForce': 'IOC'}
+2025-10-12 15:01:30 | INFO | ✅ Perpetual order placed: 8ee3b786-ead1-44a1-bb8b-bf56685509b9
+2025-10-12 15:01:30 | INFO | Setting stop loss via trading stop: LTCUSDT @ 92.5865
+2025-10-12 15:01:30 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:01:30 | INFO | Setting take profit via trading stop: LTCUSDT @ 96.4045
+2025-10-12 15:01:30 | INFO | ✅ Take profit set via position management
+2025-10-12 15:01:32 | INFO | Setting trailing stop: LTCUSDT @ 1.0% = $0.955500 from $95.55
+2025-10-12 15:01:32 | INFO | ✅ Trailing stop set: 1.0% ($0.955500)
+2025-10-12 15:01:32 | INFO | ✅ EXECUTED: LTCUSDT BUY 62.000000 @ $95.45 (Conf: 81.4%)
+2025-10-12 15:01:32 | INFO | 6. DEGENUSDT - BUY (80.7%) @ $0.001982
+2025-10-12 15:01:33 | INFO | Setting leverage for DEGENUSDT to 1x
+2025-10-12 15:01:34 | ERROR | ❌ Leverage setting exception: leverage not modified (ErrCode: 110043) (ErrTime: 11:01:34).
+Request → POST https://api-demo.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DEGENUSDT", "buyLeverage": "1", "sellLeverage": "1"}.
+2025-10-12 15:01:34 | INFO | Placing perpetual order: {'category': 'linear', 'symbol': 'DEGENUSDT', 'side': 'Buy', 'orderType': 'Market', 'qty': '2700190', 'timeInForce': 'IOC'}
+2025-10-12 15:01:34 | INFO | ✅ Perpetual order placed: bc32162c-5c6c-4187-8508-f728f7e20bb2
+2025-10-12 15:01:34 | INFO | Setting stop loss via trading stop: DEGENUSDT @ 0.0019225399999999997
+2025-10-12 15:01:34 | INFO | ✅ Stop loss set via position management
+2025-10-12 15:01:34 | INFO | Setting take profit via trading stop: DEGENUSDT @ 0.0020018199999999996
+2025-10-12 15:01:34 | INFO | ✅ Take profit set via position management
+2025-10-12 15:01:36 | INFO | Setting trailing stop: DEGENUSDT @ 1.0% = $0.000020 from $0.001983
+2025-10-12 15:01:36 | INFO | ✅ Trailing stop set: 1.0% ($0.000020)
+2025-10-12 15:01:36 | INFO | ✅ EXECUTED: DEGENUSDT BUY 2700190.000000 @ $0.001982 (Conf: 80.7%)
+2025-10-12 15:01:37 | INFO | 7. BADGERUSDT - BUY (74.3%) @ $0.8188
+2025-10-12 15:01:37 | INFO | 📊 EXECUTION SUMMARY: 5 successful, 1 failed
+2025-10-12 15:01:37 | INFO | 🎉 EXECUTED TRADES:
+2025-10-12 15:01:37 | INFO |    • DAMUSDT: LONG 218738.000000 @ $0.03646 - SL: $0.0354 TP: $0.0368
+2025-10-12 15:01:37 | INFO |    • BCHUSDT: LONG 13.850000 @ $521.0 - SL: $505.3700 TP: $526.2100
+2025-10-12 15:01:37 | INFO |    • 10000ELONUSDT: LONG 8500500.000000 @ $0.0007686 - SL: $0.0007 TP: $0.0008
+2025-10-12 15:01:37 | INFO |    • LTCUSDT: LONG 62.000000 @ $95.45 - SL: $92.5865 TP: $96.4045
+2025-10-12 15:01:37 | INFO |    • DEGENUSDT: LONG 2700190.000000 @ $0.001982 - SL: $0.0019 TP: $0.0020
+2025-10-12 15:01:37 | INFO | 🔍 Starting perpetual symbol retrieval
+2025-10-12 15:01:37 | INFO | ✅ Found 458 perpetual pairs
+2025-10-12 15:01:37 | INFO | 📊 Using ALL 458 USDT perpetual pairs
+2025-10-12 15:01:37 | INFO | 🎉 SESSION COMPLETED in 35.8s
+2025-10-12 15:01:37 | INFO | ============================================================
