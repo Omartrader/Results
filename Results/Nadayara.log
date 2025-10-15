@@ -16569,3 +16569,91 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 15.10.2025 00:05:08
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 15.10.2025 04:01:10
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for AIAUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760486625322}
+Last close price for AIAUSDT: 1.2613
+Order Quantity before adjustment: 15856.66 and signal = 2
+Opening Buy for  AIAUSDT
+TP: 1.273913
+SL: 1.2360740000000001
+TS: 0.025226000000000002
+Order Quantity: 15856.66
+Adjusted qty: 15857.0
+Final Adjusted qty: 15856.0
+50000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '624b18f0-1c63-48d9-94ea-d75adc9fc380', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760486626474}
+624b18f0-1c63-48d9-94ea-d75adc9fc380
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for AIAUSDT
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for PRCLUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760486673157}
+Last close price for PRCLUSDT: 0.05165
+Order Quantity before adjustment: 387221.68 and signal = 2
+Opening Buy for  PRCLUSDT
+TP: 0.052166500000000005
+SL: 0.050617
+TS: 0.001033
+Order Quantity: 387221.68
+Adjusted qty: 387222.0
+Final Adjusted qty: 387221.0
+80000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'dec7a693-ab3b-4598-a886-a28b10bf71c2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760486674693}
+dec7a693-ab3b-4598-a886-a28b10bf71c2
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for PRCLUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 2 signals found
+[ERROR] Error checking signal for YBUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[SIGNAL] SIGNAL DETECTED for WAVESUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760486745618}
+Last close price for WAVESUSDT: 0.903
+Order Quantity before adjustment: 22148.39 and signal = 2
+Opening Buy for  WAVESUSDT
+TP: 0.91203
+SL: 0.8849400000000001
+TS: 0.01806
+Order Quantity: 22148.39
+Adjusted qty: 22148.4
+Final Adjusted qty: 22148.3
+6700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'cc4afc9e-aa52-4822-a82b-a0f2007887a0', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760486746695}
+cc4afc9e-aa52-4822-a82b-a0f2007887a0
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for WAVESUSDT
+[PROGRESS] Progress: 500/500 symbols scanned, 3 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 3
+   Successful Trades: 3
+   Final Positions: 4
+Function finished at 15.10.2025 04:06:05
+*******************************************
