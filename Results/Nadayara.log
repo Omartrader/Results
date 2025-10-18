@@ -17854,3 +17854,51 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 18.10.2025 04:04:45
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 18.10.2025 06:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for ENSOUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for OBOLUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760753127366}
+Last close price for OBOLUSDT: 0.0984
+Order Quantity before adjustment: 203252.03 and signal = 2
+Opening Buy for  OBOLUSDT
+TP: 0.099384
+SL: 0.096432
+TS: 0.001968
+Order Quantity: 203252.03
+Adjusted qty: 203252.0
+Final Adjusted qty: 203252.0
+47700.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '2c6e1a0c-85ca-4523-b951-328c232b2b0b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760753129064}
+2c6e1a0c-85ca-4523-b951-328c232b2b0b
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for OBOLUSDT
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 18.10.2025 06:05:57
+*******************************************
