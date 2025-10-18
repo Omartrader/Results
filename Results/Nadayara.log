@@ -18248,3 +18248,51 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 19.10.2025 00:06:09
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 19.10.2025 02:01:06
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for RECALLUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for FISUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1760825079251}
+Last close price for FISUSDT: 0.07703
+Order Quantity before adjustment: 259639.1 and signal = 2
+Opening Buy for  FISUSDT
+TP: 0.0778003
+SL: 0.0754894
+TS: 0.0015406
+Order Quantity: 259639.1
+Adjusted qty: 259639.0
+Final Adjusted qty: 259639.0
+178000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '62b76708-f75b-479f-ba46-e8a43c0614ff', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1760825080933}
+62b76708-f75b-479f-ba46-e8a43c0614ff
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for FISUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 19.10.2025 02:06:15
+*******************************************
