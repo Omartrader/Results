@@ -19252,3 +19252,54 @@ Maximum positions allowed: 5
    Final Positions: 2
 Function finished at 21.10.2025 04:04:58
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 21.10.2025 06:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for HANAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[ERROR] Error checking signal for ZBTUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for COAIUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1761012186652}
+Last close price for COAIUSDT: 5.6981
+Order Quantity before adjustment: 3509.94 and signal = 2
+Opening Buy for  COAIUSDT
+TP: 5.755081000000001
+SL: 5.584138
+TS: 0.11396200000000001
+Order Quantity: 3509.94
+Adjusted qty: 3510.0
+Final Adjusted qty: 3509.0
+5000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'ea0d282a-25f0-4055-9173-05dc6b24a251', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1761012188411}
+ea0d282a-25f0-4055-9173-05dc6b24a251
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for COAIUSDT
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for CLOUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for EVAAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 21.10.2025 06:06:18
+*******************************************
