@@ -20935,3 +20935,53 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 25.10.2025 16:05:05
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 25.10.2025 18:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for SNXUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Read timed out.
+[ERROR] Error checking signal for PNUTUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Read timed out. (read timeout=10)
+[ERROR] Error checking signal for JELLYJELLYUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Read timed out. (read timeout=10)
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for DAMUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1761401051519}
+Last close price for DAMUSDT: 0.05061
+Order Quantity before adjustment: 395178.82 and signal = 2
+Opening Buy for  DAMUSDT
+TP: 0.051116100000000005
+SL: 0.049597800000000004
+TS: 0.0010122
+Order Quantity: 395178.82
+Adjusted qty: 395179.0
+Final Adjusted qty: 395178.0
+100000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '6f2f76cf-c2ff-4632-bdc8-55faebfd0d1a', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1761401052984}
+6f2f76cf-c2ff-4632-bdc8-55faebfd0d1a
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for DAMUSDT
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 25.10.2025 18:05:42
+*******************************************
