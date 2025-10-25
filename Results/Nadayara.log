@@ -21080,3 +21080,52 @@ Final Adjusted qty: 139664.0
    Final Positions: 3
 Function finished at 25.10.2025 22:07:19
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 26.10.2025 00:01:08
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for TURTLEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for TUTUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1761422563491}
+Last close price for TUTUSDT: 0.02385
+Order Quantity before adjustment: 838574.42 and signal = 2
+Opening Buy for  TUTUSDT
+TP: 0.0240885
+SL: 0.023372999999999998
+TS: 0.000477
+Order Quantity: 838574.42
+Adjusted qty: 838574.0
+Final Adjusted qty: 838574.0
+450000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '46b9bc7d-5afb-445c-bcca-c8091e973d42', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1761422565859}
+46b9bc7d-5afb-445c-bcca-c8091e973d42
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for TUTUSDT
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for RIVERUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 26.10.2025 00:08:01
+*******************************************
