@@ -21494,3 +21494,52 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 27.10.2025 00:04:57
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 27.10.2025 02:01:08
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for APRUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for NFPUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1761516252652}
+Last close price for NFPUSDT: 0.04373
+Order Quantity before adjustment: 457351.93 and signal = 2
+Opening Buy for  NFPUSDT
+TP: 0.0441673
+SL: 0.042855399999999995
+TS: 0.0008746
+Order Quantity: 457351.93
+Adjusted qty: 457351.9
+Final Adjusted qty: 457351.9
+300000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'aae9df68-52dc-409c-a303-7ea585a179c1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1761516254263}
+aae9df68-52dc-409c-a303-7ea585a179c1
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for NFPUSDT
+[ERROR] Error checking signal for MEGAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 27.10.2025 02:04:52
+*******************************************
