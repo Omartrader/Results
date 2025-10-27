@@ -21543,3 +21543,52 @@ aae9df68-52dc-409c-a303-7ea585a179c1
    Final Positions: 2
 Function finished at 27.10.2025 02:04:52
 *******************************************
+***************************************************************
+Number of open positions: 2
+*******************************************
+Function started at 27.10.2025 04:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 2
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for APRUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for MEGAUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[SIGNAL] SIGNAL DETECTED for KERNELUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1761523459932}
+Last close price for KERNELUSDT: 0.1758
+Order Quantity before adjustment: 113765.64 and signal = 2
+Opening Buy for  KERNELUSDT
+TP: 0.17755800000000002
+SL: 0.17228400000000002
+TS: 0.003516
+Order Quantity: 113765.64
+Adjusted qty: 113766.0
+Final Adjusted qty: 113765.0
+48400.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '3c4cc33f-7a5e-4567-bae5-4912fac7eb06', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1761523461041}
+3c4cc33f-7a5e-4567-bae5-4912fac7eb06
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for KERNELUSDT
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 3
+Function finished at 27.10.2025 04:04:46
+*******************************************
