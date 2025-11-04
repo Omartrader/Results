@@ -25021,3 +25021,50 @@ Final Adjusted qty: 456410.0
 250000.0
 {'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '146e1feb-0ade-4d19-8712-7b2ddd10cd70', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1762286637577}
 146e1feb-0ade-4d19-8712-7b2ddd10cd70
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 05.11.2025 02:01:07
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for BTRUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1762293810302}
+Last close price for BTRUSDT: 0.06171
+Order Quantity before adjustment: 324096.58 and signal = 2
+Opening Buy for  BTRUSDT
+TP: 0.0623271
+SL: 0.0604758
+TS: 0.0012342
+Order Quantity: 324096.58
+Adjusted qty: 324097.0
+Final Adjusted qty: 324096.0
+200000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '445536e7-b298-492b-8d9f-94f35283f6e1', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1762293813903}
+445536e7-b298-492b-8d9f-94f35283f6e1
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for BTRUSDT
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 05.11.2025 02:05:04
+*******************************************
