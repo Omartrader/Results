@@ -26151,3 +26151,58 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 07.11.2025 18:06:36
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 07.11.2025 20:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for OLUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+1
+Last close price for OLUSDT: 0.02551
+Order Quantity before adjustment: 784006.27 and signal = 2
+Opening Buy for  OLUSDT
+TP: 0.025765100000000003
+SL: 0.024999800000000003
+TS: 0.0005102
+Order Quantity: 784006.27
+Adjusted qty: 784006.0
+Final Adjusted qty: 784006.0
+140000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '31bda216-b3d9-4105-9835-f4c58d8db41b', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1762531323406}
+31bda216-b3d9-4105-9835-f4c58d8db41b
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for OLUSDT
+[PROGRESS] Progress: 200/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for YZYUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Read timed out. (read timeout=10)
+[ERROR] Error checking signal for POWRUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=POWRUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001903B26E210>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] Error checking signal for BSUUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=BSUUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001903B26EE90>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] Error checking signal for MEUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=MEUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001903B26EAD0>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[ERROR] Error checking signal for ETHUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Read timed out. (read timeout=10)
+[ERROR] Error checking signal for BANDUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=BANDUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001903B26F110>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] Error checking signal for MORPHOUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=MORPHOUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001903B26ED50>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] Error checking signal for WAVESUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=WAVESUSDT (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001903B26EC10>, 'Connection to api-demo.bybit.com timed out. (connect timeout=10)'))
+[ERROR] Error checking signal for MASKUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=MASKUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001903B26E850>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 07.11.2025 20:12:32
+*******************************************
