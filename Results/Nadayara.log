@@ -27301,3 +27301,70 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 10.11.2025 14:06:11
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 10.11.2025 16:01:05
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for STABLEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for ATUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1762776238031}
+Last close price for ATUSDT: 0.357
+Order Quantity before adjustment: 56022.41 and signal = 2
+Opening Buy for  ATUSDT
+TP: 0.36057
+SL: 0.34986
+TS: 0.00714
+Order Quantity: 56022.41
+Adjusted qty: 56022.0
+Final Adjusted qty: 56022.0
+30000.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'a6f84c89-8d07-4d99-9a0a-e33f8954bb28', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1762776239456}
+a6f84c89-8d07-4d99-9a0a-e33f8954bb28
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for ATUSDT
+[PROGRESS] Progress: 300/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[SIGNAL] SIGNAL DETECTED for NILUSDT!
+   Signal Type: SHORT
+   Signal Value: 1
+1
+Last close price for NILUSDT: 0.1912
+Order Quantity before adjustment: 104602.51 and signal = 1
+Opening Sell for  NILUSDT
+TP: 0.189288
+SL: 0.195024
+TS: 0.003824
+Order Quantity: 104602.51
+Adjusted qty: 104603.0
+Final Adjusted qty: 104602.0
+26600.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '48e7e8ef-baae-4b4d-ad87-def07467d3aa', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1762776319633}
+48e7e8ef-baae-4b4d-ad87-def07467d3aa
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for NILUSDT
+[PROGRESS] Progress: 450/500 symbols scanned, 2 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 2 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 2
+   Successful Trades: 2
+   Final Positions: 3
+Function finished at 10.11.2025 16:05:48
+*******************************************
