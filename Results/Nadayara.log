@@ -30104,3 +30104,36 @@ Final Adjusted qty: 164203.0
    Final Positions: 2
 Function finished at 18.11.2025 08:05:06
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 18.11.2025 10:01:08
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for PIEVERSEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for ALLOUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for TRUSTUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[ERROR] Error checking signal for KAVAUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Read timed out. (read timeout=10)
+[ERROR] Error checking signal for MELANIAUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=MELANIAUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C5F2EC2C10>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[ERROR] Error checking signal for ESPORTSUSDT: HTTPSConnectionPool(host='api-demo.bybit.com', port=443): Max retries exceeded with url: /v5/market/kline?interval=120&limit=100&symbol=ESPORTSUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C5F2EC2990>: Failed to resolve 'api-demo.bybit.com' ([Errno 11001] getaddrinfo failed)"))
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 400/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 0 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 0
+   Successful Trades: 0
+   Final Positions: 1
+Function finished at 18.11.2025 10:07:54
+*******************************************
