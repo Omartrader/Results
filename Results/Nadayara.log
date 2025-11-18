@@ -30053,3 +30053,54 @@ Maximum positions allowed: 5
    Final Positions: 1
 Function finished at 18.11.2025 06:05:39
 *******************************************
+***************************************************************
+Number of open positions: 1
+*******************************************
+Function started at 18.11.2025 08:01:04
+Scanning 500 symbols for trading signals...
+Current open positions: 1
+Maximum positions allowed: 5
+*******************************************
+[ERROR] Error checking signal for NOTUSDT: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[PROGRESS] Progress: 50/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for PIEVERSEUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 100/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for ALLOUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 150/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 200/500 symbols scanned, 0 signals found
+[ERROR] Error checking signal for TRUSTUSDT: '>' not supported between instances of 'float' and 'NoneType'
+[PROGRESS] Progress: 250/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 300/500 symbols scanned, 0 signals found
+[PROGRESS] Progress: 350/500 symbols scanned, 0 signals found
+[SIGNAL] SIGNAL DETECTED for PERPUSDT!
+   Signal Type: LONG
+   Signal Value: 2
+10
+{'retCode': 0, 'retMsg': 'OK', 'result': {}, 'retExtInfo': {}, 'time': 1763438631821}
+Last close price for PERPUSDT: 0.1218
+Order Quantity before adjustment: 164203.61 and signal = 2
+Opening Buy for  PERPUSDT
+TP: 0.123018
+SL: 0.119364
+TS: 0.0024360000000000002
+Order Quantity: 164203.61
+Adjusted qty: 164204.0
+Final Adjusted qty: 164203.0
+33900.0
+{'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '0d31e51b-4fcb-421b-9654-11763556f3ef', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1763438632993}
+0d31e51b-4fcb-421b-9654-11763556f3ef
+1
+   Trade Result: 1
+[SUCCESS] Trade executed successfully for PERPUSDT
+[PROGRESS] Progress: 400/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 450/500 symbols scanned, 1 signals found
+[PROGRESS] Progress: 500/500 symbols scanned, 1 signals found
+
+*******************************************
+[RESULTS] SCAN RESULTS:
+   Symbols Scanned: 500
+   Signals Found: 1
+   Successful Trades: 1
+   Final Positions: 2
+Function finished at 18.11.2025 08:05:06
+*******************************************
